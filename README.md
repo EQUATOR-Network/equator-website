@@ -3,4 +3,4 @@ The EQUATOR Network's website
 
 Hello World!
 
-Hello new world!
+Meeting with James
