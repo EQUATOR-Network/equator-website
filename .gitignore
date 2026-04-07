@@ -420,3 +420,9 @@ FodyWeavers.xsd
 /.quarto/
 .Rproj.user
 *.Rproj
+/.vscode/
+/_site/
+
+/.luarc.json
+
+.DS_Store

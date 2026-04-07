@@ -1,0 +1,4 @@
+format:
+  html:    
+    filters:
+      - jamesrharwood/unless-meta-empty

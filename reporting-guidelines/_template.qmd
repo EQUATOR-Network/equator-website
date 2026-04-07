@@ -1,0 +1,130 @@
+::: {.section}
+::: {.green-background}
+
+::: {.grid unless-meta-empty="acronym"}
+::: {.g-col-md-4}
+**Reporting guideline acronym**
+:::
+::: {.g-col-md-8 .notranslate}
+{{< meta acronym >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid}
+::: {.g-col-md-4}
+**Reporting guideline provided for?**
+**(i.e. exactly what the authors state in the paper)**
+:::
+::: {.g-col-md-8 .notranslate}
+{{< meta for >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid unless-meta-empty="relevant-urls"}
+::: {.g-col-md-4}
+**Relevant URLs**
+**(full-text if available)**
+:::
+::: {.g-col-md-8 .notranslate}
+{{< meta relevant-urls >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid unless-meta-empty="pubmed-id"}
+::: {.g-col-md-4}
+**PubMed ID**
+:::
+::: {.g-col-md-8 .notranslate}
+[{{< meta pubmed-id >}}](http://www.ncbi.nlm.nih.gov/pubmed/{{< meta pubmed-id >}})
+:::
+:::
+<!-- row -->
+
+:::
+<!-- background-colour -->
+:::
+<!-- section -->
+
+::: {.section}
+
+::: {.grid}
+::: {.g-col-md-4}
+**Full bibliographic reference**
+:::
+::: {.g-col-md-8 .notranslate}
+{{< meta reference >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid}
+::: {.g-col-md-4}
+**Language**
+:::
+::: {.g-col-md-8 .notranslate}
+English
+:::
+:::
+<!-- row -->
+
+::: {.grid unless-meta-empty="other-languages"}
+::: {.g-col-md-4}
+**Availability in additional languages**
+:::
+::: {.g-col-md-8 .notranslate}
+{{< meta other-languages >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid unless-meta-empty='related-rgs'}
+::: {.g-col-md-4}
+**Relevant more generic / specialised reporting guidelines**
+**(i.e. main generic guideline or extension to a generic guideline)**
+:::
+::: {.g-col-md-8 .notranslate} 
+{{< meta related-rgs >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid unless-meta-empty="rg-website"}
+::: {.g-col-md-4}
+**Reporting guideline website URL**
+:::
+
+::: {.g-col-md-8 .notranslate}
+{{< meta rg-website >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid unless-meta-empty='study-design'}
+::: {.g-col-md-4}
+**Study design**
+:::
+::: {.g-col-md-8 .notranslate}
+
+{{< meta study-design >}}
+
+:::
+:::
+<!-- row -->
+
+::: {.grid unless-meta-empty="applies-to-section"}
+::: {.g-col-md-4}
+**Applies to the whole report or to individual sections of the report?**
+:::
+::: {.g-col-md-8 .notranslate}
+{{< meta applies-to-section >}}
+:::
+:::
+<!-- row -->
+
+:::
+<!-- section -->
+
+
