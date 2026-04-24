@@ -1,1 +1,10 @@
 /* css styles */
+[data-content=''] {
+    display: none;
+};
+[data-content=""] {
+    display: none;
+};
+[data-content^='?'] {
+    display: none;
+};

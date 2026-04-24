@@ -1,7 +1,7 @@
 ::: {.section}
 ::: {.green-background}
 
-::: {.grid unless-meta-empty="acronym"}
+::: {.grid data-content='{{< meta acronym >}}'}
 ::: {.g-col-md-4}
 **Reporting guideline acronym**
 :::
@@ -22,7 +22,7 @@
 :::
 <!-- row -->
 
-::: {.grid unless-meta-empty="relevant-urls"}
+::: {.grid data-content='{{< meta relevant-urls >}}'}
 ::: {.g-col-md-4}
 **Relevant URLs**
 **(full-text if available)**
@@ -33,7 +33,7 @@
 :::
 <!-- row -->
 
-::: {.grid unless-meta-empty="pubmed-id"}
+::: {.grid data-content='{{< meta pubmed-id >}}'}
 ::: {.g-col-md-4}
 **PubMed ID**
 :::
@@ -70,7 +70,7 @@ English
 :::
 <!-- row -->
 
-::: {.grid unless-meta-empty="other-languages"}
+::: {.grid data-content='{{< meta.other-languages >}}'}
 ::: {.g-col-md-4}
 **Availability in additional languages**
 :::
@@ -80,7 +80,7 @@ English
 :::
 <!-- row -->
 
-::: {.grid unless-meta-empty='related-rgs'}
+::: {.grid data-content='{{< meta related-rgs >}}'}
 ::: {.g-col-md-4}
 **Relevant more generic / specialised reporting guidelines**
 **(i.e. main generic guideline or extension to a generic guideline)**
@@ -91,7 +91,7 @@ English
 :::
 <!-- row -->
 
-::: {.grid unless-meta-empty="rg-website"}
+::: {.grid data-content='{{< meta.rg-website >}}'}
 ::: {.g-col-md-4}
 **Reporting guideline website URL**
 :::
@@ -102,7 +102,7 @@ English
 :::
 <!-- row -->
 
-::: {.grid unless-meta-empty='study-design'}
+::: {.grid data-content='{{< meta.study-design >}}'}
 ::: {.g-col-md-4}
 **Study design**
 :::
@@ -114,12 +114,42 @@ English
 :::
 <!-- row -->
 
-::: {.grid unless-meta-empty="applies-to-section"}
+::: {.grid data-content='{{< meta.applies-to-section >}}'}
 ::: {.g-col-md-4}
 **Applies to the whole report or to individual sections of the report?**
 :::
 ::: {.g-col-md-8 .notranslate}
 {{< meta applies-to-section >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid data-content='{{< meta.previous-versions >}}'}
+::: {.g-col-md-4}
+**Previous versions of this guideline / Guideline history**
+:::
+::: {.g-col-md-8 .notranslate}
+{{< meta previous-versions >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid data-content='{{< meta.other >}}'}
+::: {.g-col-md-4}
+**Other**
+:::
+::: {.g-col-md-8 .notranslate}
+{{< meta other >}}
+:::
+:::
+<!-- row -->
+
+::: {.grid data-content='{{< meta.additional-information >}}'}
+::: {.g-col-md-4}
+**Additional Information**
+:::
+::: {.g-col-md-8 .notranslate}
+{{< meta additional-information >}} 
 :::
 :::
 <!-- row -->
