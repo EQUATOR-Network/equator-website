@@ -11,17 +11,6 @@
 :::
 <!-- row -->
 
-::: {.grid}
-::: {.g-col-md-4}
-**Reporting guideline provided for?**
-**(i.e. exactly what the authors state in the paper)**
-:::
-::: {.g-col-md-8 .notranslate}
-{{< meta description >}}
-:::
-:::
-<!-- row -->
-
 ::: {.grid data-content='{{< meta relevant-urls >}}'}
 ::: {.g-col-md-4}
 **Relevant URLs**
