@@ -4,7 +4,7 @@ title: 'Reporting guidelines for randomised controlled trial reports of implanta
   neurostimulation devices: the CONSORT-iNeurostim extension'
 acronym: CONSORT-iNeurostim
 description: Reporting trials of implantable neurostimulation devices.
-doi: ''
+rg-doi: ''
 pmid-id: '[39606687](https://pubmed.ncbi.nlm.nih.gov/39606687/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39606687/
 relevant-urls: ''

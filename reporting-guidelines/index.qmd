@@ -7,12 +7,11 @@ listing:
     table-striped: true
     filter-ui: [title, acronym, study-type, clinical-specialty, report-section]
     sort:
-        - acronym
         - title
+        - acronym
     fields: 
         - acronym
         - title
-        - description
         - study-design
         - clinical-specialty
         - report-section

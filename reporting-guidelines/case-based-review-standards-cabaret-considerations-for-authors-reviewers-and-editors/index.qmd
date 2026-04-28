@@ -4,7 +4,7 @@ title: 'CAse-BAsed  REview sTandards (CABARET) : Considerations for Authors, Rev
   and Editors'
 acronym: CABARET
 description: Reporting of case-based reviews.
-doi: ''
+rg-doi: ''
 pmid-id: '[39106889](https://pubmed.ncbi.nlm.nih.gov/39106889/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39106889/
 relevant-urls: ''

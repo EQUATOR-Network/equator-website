@@ -4,7 +4,7 @@ title: ITRUSST consensus on standardised reporting for transcranial ultrasound s
 acronym: ITRUSST
 description: Reporting of low intensity transcranial ultrasound stimulation (TUS)
   studies.
-doi: ''
+rg-doi: ''
 pmid-id: '[38670224](https://pubmed.ncbi.nlm.nih.gov/38670224/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38670224/
 relevant-urls: ''

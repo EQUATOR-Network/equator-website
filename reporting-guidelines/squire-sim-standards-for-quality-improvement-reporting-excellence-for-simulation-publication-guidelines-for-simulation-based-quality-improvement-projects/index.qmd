@@ -4,7 +4,7 @@ title: 'SQUIRE-SIM  (Standards for Quality Improvement Reporting Excellence for 
   : Publication Guidelines for Simulation -Based Quality Improvement Projects'
 acronym: SQUIRE-SIM
 description: Reporting on simulation-specific elements of healthcare improvement research.
-doi: ''
+rg-doi: ''
 pmid-id: '[39162794](https://pubmed.ncbi.nlm.nih.gov/39162794/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39162794/
 relevant-urls: ''

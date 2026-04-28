@@ -4,7 +4,7 @@ title: 'STROBE-GEMA : a STROBE extension for reporting of geographically explici
   ecological momentary assessment studies'
 acronym: STROBE-GEMA
 description: Reporting of geographically explicit momentary assessment (GEMA) studies.
-doi: ''
+rg-doi: ''
 pmid-id: '[38867286](https://pubmed.ncbi.nlm.nih.gov/38867286/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38867286/
 relevant-urls: ''

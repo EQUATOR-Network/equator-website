@@ -7,7 +7,7 @@ description: |-
   Reporting of systematic coding of observed human behaviour (SCOBe) research.
 
   [SCOBe checklist (Word)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.docx)  [SCOBe checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.pdf)
-doi: ''
+rg-doi: ''
 pmid-id: ''
 pmid-url: ''
 relevant-urls: '[Read the full-text](https://link.springer.com/article/10.1007/s11135-024-01969-9)

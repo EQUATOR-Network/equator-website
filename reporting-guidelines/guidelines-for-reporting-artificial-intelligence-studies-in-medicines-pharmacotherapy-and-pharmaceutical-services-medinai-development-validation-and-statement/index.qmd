@@ -5,7 +5,7 @@ title: 'Guidelines for reporting artificial intelligence studies in medicines, p
 acronym: MedinAI
 description: Reporting AI studies in medicines, pharmacotherapy, and pharmaceutical
   services
-doi: 10.1007/s11096-025-01905-3
+rg-doi: 10.1007/s11096-025-01905-3
 pmid-id: '[40202573](https://pubmed.ncbi.nlm.nih.gov/40202573/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40202573/
 relevant-urls: |-

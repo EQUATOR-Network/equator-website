@@ -4,7 +4,7 @@ title: 'Reflexology specific guidance for using the template for the interventio
   description and replication (TIDieR) : A delphi study'
 acronym: ''
 description: Reporting of reflexology intervention studies.
-doi: ''
+rg-doi: ''
 pmid-id: ''
 pmid-url: ''
 relevant-urls: Read the [full-text](https://www.sciencedirect.com/science/article/pii/S1876382024000854)

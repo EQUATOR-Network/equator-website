@@ -4,7 +4,7 @@ title: The TRIPOD-LLM reporting guideline for studies using large language model
 acronym: TRIPOD-LLM
 description: Reporting of studies that are developing, tuning, prompt engineering
   or evaluating a large language model (LLM).
-doi: ''
+rg-doi: ''
 pmid-id: '[39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39779929/
 relevant-urls: '[Read the full-text](https://www.nature.com/articles/s41591-024-03425-5)

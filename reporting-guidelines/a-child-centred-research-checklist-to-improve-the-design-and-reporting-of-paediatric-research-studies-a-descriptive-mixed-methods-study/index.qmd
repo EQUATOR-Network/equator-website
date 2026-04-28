@@ -4,7 +4,7 @@ title: 'A child-centred research checklist to improve the design and reporting o
   paediatric research studies: A descriptive mixed methods study'
 acronym: ''
 description: Reporting of paediatric research studies.
-doi: ''
+rg-doi: ''
 pmid-id: '[39615432](https://pubmed.ncbi.nlm.nih.gov/39615432/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39615432/
 relevant-urls: ''

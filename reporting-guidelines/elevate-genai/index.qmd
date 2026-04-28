@@ -4,7 +4,7 @@ title: ELEVATE-GenAI
 acronym: ELEVATE-GenAI
 description: Structured guidance for reporting research using large language models
   (LLMs) in Health Economics and Outcomes Research
-doi: 10.1016/j.jval.2025.06.018
+rg-doi: 10.1016/j.jval.2025.06.018
 pmid-id: '[40653157](https://pubmed.ncbi.nlm.nih.gov/40653157/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40653157/
 relevant-urls: ''

@@ -5,7 +5,7 @@ title: Clinician-informed explainable artificial intelligence evaluation checkli
 acronym: CLIX-M
 description: Studies reporting the development and evaluation phases of explainable
   artificial intelligence (AI) component in AI-powered CDSS development
-doi: 10.1038/s41746-025-01764-2
+rg-doi: 10.1038/s41746-025-01764-2
 pmid-id: '[40517152](https://pubmed.ncbi.nlm.nih.gov/40517152/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40517152/
 relevant-urls: |-

@@ -3,7 +3,7 @@
 title: 'Standardised reporting of burden of disease studies: the STROBOD statement'
 acronym: STROBOD
 description: Reporting of burden of disease (BOD) studies.
-doi: ''
+rg-doi: ''
 pmid-id: '[39375690](https://pubmed.ncbi.nlm.nih.gov/39375690/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39375690/
 relevant-urls: ''

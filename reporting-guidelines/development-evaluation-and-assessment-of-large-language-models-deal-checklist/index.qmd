@@ -6,7 +6,7 @@ description: |-
   DEAL-A: Intended for studies involving substantial LLM development, advanced techniques, or comprehensive fine-tuning
 
   DEAL-B: Tailored for more straightforward applications utilizing pretrained LLMs with minimal adjustments or a focus on prompt engineering
-doi: 10.1056/AIp2401106
+rg-doi: 10.1056/AIp2401106
 pmid-id: ''
 pmid-url: ''
 relevant-urls: |-

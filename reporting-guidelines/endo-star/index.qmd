@@ -4,7 +4,7 @@ title: Endo -STAR
 acronym: ''
 description: Reporting of future clinical trials for infrainguinal endovascular treatments
   of peripheral arterial disease.
-doi: 10.1093/bjs/znaf020
+rg-doi: 10.1093/bjs/znaf020
 pmid-id: '[40241414](https://pubmed.ncbi.nlm.nih.gov/40241414/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40241414/
 relevant-urls: |-

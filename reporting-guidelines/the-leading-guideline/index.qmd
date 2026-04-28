@@ -4,7 +4,7 @@ title: The LEADING guideline
 acronym: LEADING
 description: Reporting standards for expert panel, best-estimate diagnosis, and longitudinal
   expert all data methods.
-doi: 10.1016/j.comppsych.2025.152603
+rg-doi: 10.1016/j.comppsych.2025.152603
 pmid-id: '[40479924](https://pubmed.ncbi.nlm.nih.gov/40479924/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40479924/
 relevant-urls: A reporting template can be found on the LEADING project [website](https://www.leading-guideline.org/).

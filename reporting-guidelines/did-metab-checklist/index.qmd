@@ -9,7 +9,7 @@ description: 'The DID-­METAB Checklist can be used for reporting metabolomic da
   are provided; 3. Whole diet provision—all foods/beverages are provided; 4. Dietary
   prescription \*—nutrition counselling and/or educational material provided to support
   self-­ implementation of a dietary intervention.'
-doi: 10.1111/eci.70030
+rg-doi: 10.1111/eci.70030
 pmid-id: '[40189732](https://pubmed.ncbi.nlm.nih.gov/40189732/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40189732/
 relevant-urls: |-

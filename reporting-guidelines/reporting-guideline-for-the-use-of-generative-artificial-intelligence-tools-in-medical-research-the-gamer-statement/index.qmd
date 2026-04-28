@@ -5,7 +5,7 @@ title: 'Reporting guideline for the use of Generative Artificial intelligence to
 acronym: GAMER
 description: Standardised guideline for generative artificial intelligence use in
   medical research
-doi: 10.1136/bmjebm-2025-113825
+rg-doi: 10.1136/bmjebm-2025-113825
 pmid-id: '[40360239](https://pubmed.ncbi.nlm.nih.gov/40360239/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40360239/
 relevant-urls: ''

@@ -4,7 +4,7 @@ title: 'Reporting guidelines for protocols of randomised controlled trials of im
   neurostimulation devices: the SPIRIT-iNeurostim extension'
 acronym: SPIRIT-iNeurostim
 description: Reporting of protocols of trials of implantable neurostimulation devices.
-doi: ''
+rg-doi: ''
 pmid-id: '[39610902](https://pubmed.ncbi.nlm.nih.gov/39610902/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39610902/
 relevant-urls: ''

@@ -3,7 +3,7 @@
 title: Reporting guidelines for tear fluid research
 acronym: ''
 description: Reporting guidelines for tear fluid research
-doi: 10.1016/j.clae.2025.102448
+rg-doi: 10.1016/j.clae.2025.102448
 pmid-id: '40484775'
 pmid-url: ''
 relevant-urls: |-

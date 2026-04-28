@@ -7,7 +7,7 @@ description: |-
   Reporting experimental vignette studies.
 
   [GROVE Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2025/03/GROVE-Checklist.docx)
-doi: ''
+rg-doi: ''
 pmid-id: '[40107182](https://pubmed.ncbi.nlm.nih.gov/40107182/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40107182/
 relevant-urls: ''

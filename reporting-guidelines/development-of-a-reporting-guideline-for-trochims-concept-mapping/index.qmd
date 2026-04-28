@@ -3,7 +3,7 @@
 title: Development of a Reporting Guideline for Trochim’s Concept Mapping
 acronym: ConMapT
 description: Reporting of concept mapping research.
-doi: ''
+rg-doi: ''
 pmid-id: ''
 pmid-url: ''
 relevant-urls: '[Read the full-text](https://www.mdpi.com/2409-9279/8/2/24) of this

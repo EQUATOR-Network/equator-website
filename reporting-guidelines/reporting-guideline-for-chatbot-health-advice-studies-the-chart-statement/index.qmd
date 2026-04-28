@@ -5,7 +5,7 @@ acronym: CHART
 description: Reporting recommendations for studies evaluating the performance of generative
   artificial intelligence (AI)-driven chatbots when summarizing clinical evidence
   and providing health advice.
-doi: ''
+rg-doi: ''
 pmid-id: ''
 pmid-url: ''
 relevant-urls: ''

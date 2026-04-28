@@ -4,7 +4,7 @@ title: 'Reporting of cluster randomised crossover trials: extension of the CONSO
   2010 statement with explanation and elaboration'
 acronym: CONSORT CRXO
 description: Reporting of cluster randomised crossover trials.
-doi: ''
+rg-doi: ''
 pmid-id: '[39761979](https://pubmed.ncbi.nlm.nih.gov/39761979/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39761979/
 relevant-urls: '[Read the full-text](https://www.bmj.com/content/388/bmj-2024-080472)

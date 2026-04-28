@@ -4,7 +4,7 @@ title: Guidelines for Reporting Oral Epidemiologic Studies to Inform Burden Esti
   (GROESBE)
 acronym: GROESBE
 description: Reporting of descriptive oral epidemiologic studies of common oral conditions.
-doi: ''
+rg-doi: ''
 pmid-id: '[39639484](https://pubmed.ncbi.nlm.nih.gov/39639484/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39639484/
 relevant-urls: ''
