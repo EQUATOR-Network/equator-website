@@ -1,0 +1,215 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting guidelines for protocols of randomised controlled trials of implantable
+  neurostimulation devices: the SPIRIT-iNeurostim extension'
+acronym: SPIRIT-iNeurostim
+description: Reporting of protocols of trials of implantable neurostimulation devices.
+doi: ''
+pmid-id: '[39610902](https://pubmed.ncbi.nlm.nih.gov/39610902/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39610902/
+relevant-urls: ''
+full-bibliographic-reference: 'Bresnahan R, Copley S, Eldabe S, Thomson S, North RB,
+  Baranidharan G, Levy RM, Collins GS, Taylor RS, Duarte RV. Reporting guidelines
+  for protocols of randomised controlled trials of implantable neurostimulation devices:
+  the SPIRIT-iNeurostim extension. EClinicalMedicine. 2024;78:102933.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  **Generic**
+
+  **[SPIRIT 2025 Statement](https://www.equator-network.org/reporting-guidelines/spirit-2013-statement-defining-standard-protocol-items-for-clinical-trials/):** Chan AW, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Hróbjartsson A.  SPIRIT 20205 statement: updated guideline for protocols of randomized trials.
+
+  BMJ. 2025; 388:e081660. [PMID:40294956](https://pubmed.ncbi.nlm.nih.gov/40294956/)
+
+  JAMA. 2025.[PMID:](https://pubmed.ncbi.nlm.nih.gov/40294593/) [40294593](https://pubmed.ncbi.nlm.nih.gov/40294593/)
+
+  Lancet 2025.
+
+  Nat Med. 2025.[PMID: 40295741](https://pubmed.ncbi.nlm.nih.gov/40295741)
+
+  PLoS Med. 2025; 22(4): e1004587.[PMID: 40294521](https://pubmed.ncbi.nlm.nih.gov/40294521/)
+
+  **Specialised**
+
+  [**SPIRIT-PRO**](https://www.equator-network.org/reporting-guidelines/spirit-pro/): Calvert M, Kyte D, Mercieca-Bebber R, Slade A, Chan A-W, King MT; and the SPIRIT-PRO Group. Guidelines for Inclusion of Patient-Reported Outcomes in Clinical Trial Protocols: The SPIRIT-PRO Extension. JAMA. 2018;319(5):483-494. [Link to abstract](https://jamanetwork.com/journals/jama/article-abstract/2671472)
+
+  [**SPIRIT-TCM**](https://www.equator-network.org/reporting-guidelines/standard-protocol-items-for-clinical-trials-with-traditional-chinese-medicine-spirit-tcm-extension-2018/): Dai L, Cheng CW, Tian R, Zhong LL, Li YP, Lyu AP, Chan AW, Shang HC, Bian ZX. Standard Protocol Items for Clinical Trials with Traditional Chinese Medicine 2018: Recommendations, Explanation and Elaboration (SPIRIT-TCM Extension 2018). Chin J Integr Med. 2019;25(1):71-79. PMID: [30484022](https://www.ncbi.nlm.nih.gov/pubmed/30484022)
+
+  [**SPENT 2019**](https://www.equator-network.org/reporting-guidelines/spirit-extension-n-of-1-trials-spent-2019/): Porcino AJ, Shamseer L, Chan A-W, Kravitz RL, Orkin A, Punja S, Ravaud P, Schmid CH, Vohra S; on behalf of the SPENT group. SPIRIT extension and elaboration for n-of-1 trials: SPENT 2019 checklist. BMJ 2020; 368. [Link to full-text](https://www.bmj.com/content/368/bmj.m122).
+
+  [**SPIRIT-AI**](https://www.equator-network.org/reporting-guidelines/spirit-artificial-intelligence/): Rivera SC, Liu X, Chan A-W, Denniston AK, Calvert MJ; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension.
+
+  BMJ. 2020;370:m3210. PMID: [32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/)
+
+  Nat Med. 2020;26(9):1351–1363. PMID: [32908284](https://pubmed.ncbi.nlm.nih.gov/32908284/)
+
+  Lancet Digital Health. 2020;2(10):e549-e560. PMID: [33328049](https://pubmed.ncbi.nlm.nih.gov/33328049/)
+
+  [**SPIRIT-Path**](https://www.equator-network.org/reporting-guidelines/spirit-path/): Kendall TJ, Robinson M, Brierley DJ, Lim SJ, O'Connor DJ, Shaaban AM, Lewis I, Chan AW, Harrison DJ; SPIRIT-Path group. Guidelines for cellular and molecular pathology content in clinical trial protocols: the SPIRIT-Path extension. Lancet Oncol. 2021;22(10):e435-e445. PMID: [34592193](https://pubmed.ncbi.nlm.nih.gov/34592193/)
+
+  [**SPIRIT-Outcomes**](https://www.equator-network.org/reporting-guidelines/guidelines-for-reporting-outcomes-in-trial-protocols-the-spirit-outcomes-2022-extension/): Butcher NJ, Monsour A, Mew EJ, Chan AW, Moher D, Mayo-Wilson E, Terwee CB, Chee-A-Tow A, Baba A, Gavin F, Grimshaw JM, Kelly LE, Saeed L, Thabane L, Askie L, Smith M, Farid-Kapadia M, Williamson PR, Szatmari P, Tugwell P, Golub RM, Monga S, Vohra S, Marlin S, Ungar WJ, Offringa M. Guidelines for Reporting Outcomes in Trial Protocols: The SPIRIT-Outcomes 2022 Extension. JAMA. 2022;328(23):2345-2356. PMID: [36512367](https://pubmed.ncbi.nlm.nih.gov/36512367/)
+
+  [**SPIRIT-DEFINE**](https://www.equator-network.org/reporting-guidelines/spirit-define/): Yap C, Rekowski J, Ursino M, Solovyeva O, Patel D, Dimairo M, Weir CJ, Chan AW, Jaki T, Mander A, Evans TRJ, Peck R, Hayward KS, Calvert M, Rantell KR, Lee S, Kightley A, Hopewell S, Ashby D, Garrett-Mayer E, Isaacs J, Golub R, Kholmanskikh O, Richards DP, Boix O, Matcham J, Seymour L, Ivy SP, Marshall LV, Hommais A, Liu R, Tanaka Y, Berlin J, Espinasse A, de Bono J. Enhancing quality and impact of early phase dose-finding clinical trial protocols: SPIRIT Dose-finding Extension (SPIRIT-DEFINE) guidance. BMJ. 2023;383:e076386. PMID: [37863491](https://pubmed.ncbi.nlm.nih.gov/37863491/)
+
+  [**SPIRIT Factorial**](https://www.equator-network.org/reporting-guidelines/consensus-statement-for-protocols-of-factorial-randomized-trials-extension-of-the-spirit-2013-statement/): Kahan BC, Hall SS, Beller EM, Birchenall M, Elbourne D, Juszczak E, Little P, Fletcher J, Golub RM, Goulao B, Hopewell S, Islam N, Zwarenstein M, Chan AW, Montgomery AA. Consensus Statement for Protocols of Factorial Randomized Trials: Extension of the SPIRIT 2013 Statement. JAMA Netw Open. 2023;6(12):e2346121. PMID: [38051535](https://pubmed.ncbi.nlm.nih.gov/38051535/)
+
+  [**SPIRIT-Surrogate**](https://www.equator-network.org/reporting-guidelines/spirit-surrogate/): Manyara AM, Davies P, Stewart D, Weir CJ, Young AE, Blazeby J, Butcher NJ, Bujkiewicz S, Chan AW, Dawoud D, Offringa M, Ouwens M, Hróbjartssson A, Amstutz A, Bertolaccini L, Bruno VD, Devane D, Faria CDCM, Gilbert PB, Harris R, Lassere M, Marinelli L, Markham S, Powers JH 3rd, Rezaei Y, Richert L, Schwendicke F, Tereshchenko LG, Thoma A, Turan A, Worrall A, Christensen R, Collins GS, Ross JS, Taylor RS, Ciani O. Reporting of surrogate endpoints in randomised controlled trial protocols (SPIRIT-Surrogate): extension checklist with explanation and elaboration. BMJ. 2024;386:e078525. PMID: [38981624](https://pubmed.ncbi.nlm.nih.gov/38981624/)
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+- Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- device
+- devices
+- experimental studies
+- experimental study
+- implantable neurostimulation device
+- implantable neurostimulation devices
+- intervention
+- interventional
+- interventions
+- nerve
+- nerves
+- nervous system
+- neurological
+- neurology
+- neuromodulation
+- neurostimulation
+- neurostimulation device
+- neurostimulation devices
+- protocol
+- protocols
+- randomised controlled trial
+- randomised controlled trial protocol
+- randomised controlled trial protocols
+- randomised controlled trials
+- randomised trial
+- randomised trial protocol
+- randomised trial protocols
+- randomised trials
+- randomized controlled trial
+- randomized controlled trial protocol
+- randomized controlled trial protocols
+- randomized controlled trials
+- randomized trial
+- randomized trial protocol
+- randomized trial protocols
+- randomized trials
+- RCT
+- RCTs
+- SPIRIT Extension
+- SPIRIT-iNeurostim
+- SPIRIT-iNeurostim extension
+- stimulation
+- trial
+- trial protocol
+- trial protocols
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,142 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting guideline for Chatbot Health Advice studies: the CHART statement'
+acronym: CHART
+description: Reporting recommendations for studies evaluating the performance of generative
+  artificial intelligence (AI)-driven chatbots when summarizing clinical evidence
+  and providing health advice.
+doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Huo B, Collins G, Chartash D, Thirunavukarasu A, Flanagin A, Iorio A, Cacciamani G, Chen X, Liu N, Mathur P, Chan AW, Laine C, Pacella D, Berkwits M, Antoniou SA, Camaradou JC, Canfield C, Mittelman M, Feeney T, Loder E, Agha R, Saha A, Mayol J, Sunjaya A, Harvey H, Ng JY, McKechnie T, Lee Y, Verma N, Stiglic G, McCradden M, Ramji K, Boudreau V, Ortenzi M, Meerpohl J, Vandvik PO, Agoritsas T, Samuel D, Frankish H, Anderson M, Yao X, Loeb S, Lokker C, Liu X, Guallar E, Guyatt G. Reporting guideline for Chatbot Health Advice studies: the CHART statement.
+
+  This guideline was published simultaneously in 6 journals. You can read the guideline in any of these journals using the links below.
+
+  [Annals of Family Medicine](https://www.annfammed.org/content/early/2025/07/29/afm.250386): [PMID 40750305](https://pubmed.ncbi.nlm.nih.gov/40750305/)
+
+  [Artificial Intelligence in Medicine](https://www.sciencedirect.com/science/article/pii/S0933365725001575): [PMID 40753040](https://pubmed.ncbi.nlm.nih.gov/40753040/)
+
+  [BMC Medicine](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-025-04274-w): [PMID 40745595](https://pubmed.ncbi.nlm.nih.gov/40745595/)
+
+  [BMJ Medicine](https://bmjmedicine.bmj.com/content/4/1/e001632): [PMID 40761518](https://pubmed.ncbi.nlm.nih.gov/40761518/)
+
+  [British Journal of Surgery](https://academic.oup.com/bjs/article/112/8/znaf142/8220472): [PMID 40747825](https://pubmed.ncbi.nlm.nih.gov/40747825/)
+
+  [JAMA Network Open](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2837224): [PMID 40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'CHART Collaborative. Reporting guidelines for
+  chatbot health advice studies: explanation and elaboration for the Chatbot Assessment
+  Reporting Tool (CHART). BMJ. 2025; 390: e083305. PMID: [40750271](https://pubmed.ncbi.nlm.nih.gov/40750271/)'
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+- Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- No keywords provided
+
+---
+
+{{< include ../_template.qmd >}}

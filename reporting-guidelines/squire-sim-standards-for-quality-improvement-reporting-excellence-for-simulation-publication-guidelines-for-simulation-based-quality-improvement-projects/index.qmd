@@ -1,0 +1,162 @@
+---
+# REQUIRED FIELDS
+title: 'SQUIRE-SIM  (Standards for Quality Improvement Reporting Excellence for SIMulation)
+  : Publication Guidelines for Simulation -Based Quality Improvement Projects'
+acronym: SQUIRE-SIM
+description: Reporting on simulation-specific elements of healthcare improvement research.
+doi: ''
+pmid-id: '[39162794](https://pubmed.ncbi.nlm.nih.gov/39162794/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39162794/
+relevant-urls: ''
+full-bibliographic-reference: 'Stone KP, Rutman L, Calhoun AW, Reid J, Maa T, Bajaj
+  K, Auerbach MA, Cheng A, Davies L, Deutsch E, Harwayne-Gidansky I, Kessler DO, Ogrinc
+  G, Patterson M, Thomas A, Doughty C; And for the International Network in Simulation-Based
+  Innovation, Research and Education (INSPIRE) SQUIRE-SIM Reporting Guidelines Investigators.
+  SQUIRE-SIM (Standards for Quality Improvement Reporting Excellence for SIMulation):
+  Publication Guidelines for Simulation-Based Quality Improvement Projects. Simul
+  Healthc. 2024.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  **Generic**
+
+  [**SQUIRE 2.0**](https://www.equator-network.org/reporting-guidelines/squire/): Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process.
+
+  BMJ Qual Saf. 2015. PMID: [26369893](http://www.ncbi.nlm.nih.gov/pubmed/26369893)
+
+  J Nurs Care Qual. 2015. PMID: [26429125](http://www.ncbi.nlm.nih.gov/pubmed/26429125)
+
+  Am J Crit Care. 2015. PMID: [26523003](http://www.ncbi.nlm.nih.gov/pubmed/26523003)
+
+  Perm J. 2015. PMID: [26517437](http://www.ncbi.nlm.nih.gov/pubmed/26517437)
+
+  J Surg Res. 2015. PMID: 26515734
+
+  J Contin Educ Nurs. 2015. PMID: [26509402](http://www.ncbi.nlm.nih.gov/pubmed/26509402)
+
+  J Am Coll Surg. 2016;222(3):317-323. PMID: [26385723](http://www.ncbi.nlm.nih.gov/pubmed/26385723)
+
+  **Specialised**
+
+  [**SQUIRE-EDU**](https://www.equator-network.org/reporting-guidelines/squire-edu-standards-for-quality-improvement-reporting-excellence-in-education-publication-guidelines-for-educational-improvement/): Ogrinc G, Armstrong GE, Dolansky MA, Singh MK, Davies L. SQUIRE-EDU (Standards for QUality Improvement Reporting Excellence in Education): Publication Guidelines for Educational Improvement. Acad Med. 2019 Oct;94(10):1461-1470. PMID: [30998575](https://pubmed.ncbi.nlm.nih.gov/30998575/)
+website-url: <http://www.squire-statement.org/>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+- Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- healthcare improvement
+- healthcare improvements
+- improvement
+- quality
+- quality improvement
+- quality improvements
+- simulate
+- simulated
+- simulation
+- simulations
+- SQUIRE extension
+- SQUIRE-SIM
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,127 @@
+---
+# REQUIRED FIELDS
+title: The LEADING guideline
+acronym: LEADING
+description: Reporting standards for expert panel, best-estimate diagnosis, and longitudinal
+  expert all data methods.
+doi: 10.1016/j.comppsych.2025.152603
+pmid-id: '[40479924](https://pubmed.ncbi.nlm.nih.gov/40479924/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/40479924/
+relevant-urls: A reporting template can be found on the LEADING project [website](https://www.leading-guideline.org/).
+full-bibliographic-reference: 'Eijsbroek VC, Kjell K, Schwartz HA, Boehnke JR, Fried
+  EI, Klein DN, Gustafsson P, Augenstein I, Bossuyt PMM, Kjell ONE. The LEADING guideline:
+  Reporting standards for expert panel, best-estimate diagnosis, and longitudinal
+  expert all data (LEAD) methods. Compr Psychiatry. 2025; 141: 152603'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://www.leading-guideline.org>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: Read the full text of the [paper](https://www.sciencedirect.com/science/article/pii/S0010440X25000318).
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+- Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- No keywords provided
+
+---
+
+{{< include ../_template.qmd >}}

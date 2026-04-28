@@ -1,0 +1,139 @@
+---
+# REQUIRED FIELDS
+title: DID-METAB Checklist
+acronym: DID-METAB
+description: 'The DID-­METAB Checklist can be used for reporting metabolomic data
+  obtained from biospecimens (e.g., saliva, urine, blood, stool) collected within
+  human feeding studies in which the dietary intervention involves any of the following:
+  1. Provision of a single food; 2. Partial diet provision—only some food/beverages
+  are provided; 3. Whole diet provision—all foods/beverages are provided; 4. Dietary
+  prescription \*—nutrition counselling and/or educational material provided to support
+  self-­ implementation of a dietary intervention.'
+doi: 10.1111/eci.70030
+pmid-id: '[40189732](https://pubmed.ncbi.nlm.nih.gov/40189732/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/40189732/
+relevant-urls: |-
+  [Read the full text](https://onlinelibrary.wiley.com/doi/10.1111/eci.70030) of DID-METAB. The checklist is in Table 1 of the paper.
+
+  Read the full text of the Explanation and Elaboration paper.
+full-bibliographic-reference: 'Ferguson JJA, Clarke ED, Stanford J, Gómez-Martín M,
+  Jakstas T, Collins CE; DID‐METAB Delphi Working Group Authors. Strengthening the
+  reporting of diet item details in feeding studies measuring the dietary metabolome:
+  The DID-METAB core outcome set statement. Eur J Clin Invest. 2025l; 55:e70030.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Ferguson JJ, Clarke ED, Stanford J, Gómez-Martín
+  M, Jakstas T, Collins CE; DID-METAB Delphi Working Group. Diet Item Details: Reporting
+  Checklist for Feeding Studies Measuring the Dietary Metabolome (DID-METAB Checklist)
+  - Explanation and Elaboration Report on the Development of the Checklist by the
+  DID-METAB Delphi Working Group. Adv Nutr. 2025; 16:100420. doi: 10.1016/j.advnut.2025.100420.'
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+- Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- No keywords provided
+
+---
+
+{{< include ../_template.qmd >}}

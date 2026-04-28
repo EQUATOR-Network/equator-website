@@ -1,0 +1,131 @@
+---
+# REQUIRED FIELDS
+title: Clinician-informed explainable artificial intelligence evaluation checklist
+  with metrics (CLIX-M) for AI-powered clinical decision support systems
+acronym: CLIX-M
+description: Studies reporting the development and evaluation phases of explainable
+  artificial intelligence (AI) component in AI-powered CDSS development
+doi: 10.1038/s41746-025-01764-2
+pmid-id: '[40517152](https://pubmed.ncbi.nlm.nih.gov/40517152/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/40517152/
+relevant-urls: |-
+  [Read the full text](https://www.nature.com/articles/s41746-025-01764-2) of CLIX-M.
+
+  The CLIX-M checklist is available in the [supplementary information.](https://static-content.springer.com/esm/art%3A10.1038%2Fs41746-025-01764-2/MediaObjects/41746_2025_1764_MOESM1_ESM.docx)
+full-bibliographic-reference: 'Brankovic A, Cook D, Rahman J, Delaforce A, Li J, Magrabi
+  F, Cabitza F, Coiera E, Bradford D. Clinician-informed XAI evaluation checklist
+  with metrics (CLIX-M) for AI-powered clinical decision support systems. NPJ Digital
+  Medicine. 2025; 8: 364.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+- Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- No keywords provided
+
+---
+
+{{< include ../_template.qmd >}}

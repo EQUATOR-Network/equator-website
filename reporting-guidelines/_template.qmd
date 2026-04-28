@@ -17,7 +17,7 @@
 **(i.e. exactly what the authors state in the paper)**
 :::
 ::: {.g-col-md-8 .notranslate}
-{{< meta for >}}
+{{< meta description >}}
 :::
 :::
 <!-- row -->
@@ -33,12 +33,12 @@
 :::
 <!-- row -->
 
-::: {.grid data-content='{{< meta pubmed-id >}}'}
+::: {.grid data-content='{{< meta pmid-id >}}'}
 ::: {.g-col-md-4}
 **PubMed ID**
 :::
 ::: {.g-col-md-8 .notranslate}
-[{{< meta pubmed-id >}}](http://www.ncbi.nlm.nih.gov/pubmed/{{< meta pubmed-id >}})
+[{{< meta pmid-id >}}](http://www.ncbi.nlm.nih.gov/pubmed/{{< meta pmid-id >}})
 :::
 :::
 <!-- row -->
@@ -55,14 +55,14 @@
 **Full bibliographic reference**
 :::
 ::: {.g-col-md-8 .notranslate}
-{{< meta reference >}}
+{{< meta full-bibliographic-reference >}}
 :::
 :::
 <!-- row -->
 
-::: {.grid}
+::: {.grid data-content='{{< meta rg-language >}}'}
 ::: {.g-col-md-4}
-**Language**
+**{{< meta rg-language >}}**
 :::
 ::: {.g-col-md-8 .notranslate}
 English
@@ -70,71 +70,88 @@ English
 :::
 <!-- row -->
 
-::: {.grid data-content='{{< meta.other-languages >}}'}
+::: {.grid data-content='{{< meta additional-languages >}}'}
 ::: {.g-col-md-4}
 **Availability in additional languages**
 :::
 ::: {.g-col-md-8 .notranslate}
-{{< meta other-languages >}}
+{{< meta additional-languages >}}
 :::
 :::
 <!-- row -->
 
-::: {.grid data-content='{{< meta related-rgs >}}'}
+::: {.grid data-content='{{< meta relevant-more >}}'}
 ::: {.g-col-md-4}
 **Relevant more generic / specialised reporting guidelines**
 **(i.e. main generic guideline or extension to a generic guideline)**
 :::
 ::: {.g-col-md-8 .notranslate} 
-{{< meta related-rgs >}}
+{{< meta relevant-more >}}
 :::
 :::
 <!-- row -->
 
-::: {.grid data-content='{{< meta.rg-website >}}'}
+::: {.grid data-content='{{< meta website-url >}}'}
 ::: {.g-col-md-4}
 **Reporting guideline website URL**
 :::
 
 ::: {.g-col-md-8 .notranslate}
-{{< meta rg-website >}}
+{{< meta website-url >}}
 :::
 :::
 <!-- row -->
 
-::: {.grid data-content='{{< meta.study-design >}}'}
+::: {.grid}
 ::: {.g-col-md-4}
 **Study design**
 :::
 ::: {.g-col-md-8 .notranslate}
 
-{{< meta study-design >}}
+::: {.g-col-md-8 .notranslate}
+{{< meta-list study-design >}}
+:::
 
 :::
 :::
 <!-- row -->
 
-::: {.grid data-content='{{< meta.applies-to-section >}}'}
+
+::: {.grid}
+::: {.g-col-md-4}
+**Clinical area**
+:::
+::: {.g-col-md-8 .notranslate}
+
+::: {.g-col-md-8 .notranslate}
+{{< meta-list clinical-specialty >}}
+:::
+
+:::
+:::
+<!-- row -->
+
+::: {.grid}
 ::: {.g-col-md-4}
 **Applies to the whole report or to individual sections of the report?**
 :::
 ::: {.g-col-md-8 .notranslate}
-{{< meta applies-to-section >}}
+{{< meta-list report-section >}}
 :::
 :::
 <!-- row -->
 
-::: {.grid data-content='{{< meta.previous-versions >}}'}
+::: {.grid data-content='{{< meta guideline-history >}}'}
 ::: {.g-col-md-4}
 **Previous versions of this guideline / Guideline history**
 :::
 ::: {.g-col-md-8 .notranslate}
-{{< meta previous-versions >}}
+{{< meta guideline-history >}}
 :::
 :::
 <!-- row -->
 
-::: {.grid data-content='{{< meta.other >}}'}
+::: {.grid data-content='{{< meta other >}}'}
 ::: {.g-col-md-4}
 **Other**
 :::
@@ -144,7 +161,7 @@ English
 :::
 <!-- row -->
 
-::: {.grid data-content='{{< meta.additional-information >}}'}
+::: {.grid data-content='{{< meta additional-information >}}'}
 ::: {.g-col-md-4}
 **Additional Information**
 :::

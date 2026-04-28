@@ -1,0 +1,144 @@
+---
+# REQUIRED FIELDS
+title: Guidelines for reporting research using systematic coding of observed human
+  behaviour (SCOBe)
+acronym: ''
+description: |-
+  Reporting of systematic coding of observed human behaviour (SCOBe) research.
+
+  [SCOBe checklist (Word)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.docx)  [SCOBe checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.pdf)
+doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: '[Read the full-text](https://link.springer.com/article/10.1007/s11135-024-01969-9)
+  of this guideline.'
+full-bibliographic-reference: Hillen MA, Hoeben EM, Kok R, McHale C, Sexton MM, van
+  der Asdonk S, van de Bongardt D, Bowman B, Brown R, Branje S, Chorney J, Donker
+  MH, Ejbye-Ernst P, Geeraerts S, Van der Giessen D, Humphris G, Larsen H, Philpot
+  R, Portell M, Yuan S, van der Veen C, Noordman J. Guidelines for reporting research
+  using systematic coding of observed human behaviour (SCOBe). Qual Quant. 2024.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- behavior
+- behavioral coding
+- behaviour
+- behavioural coding
+- code
+- codes
+- coding
+- coding behaviour
+- data
+- observation
+- observational
+- observed human behaviour
+- SCOBe
+
+---
+
+{{< include ../_template.qmd >}}

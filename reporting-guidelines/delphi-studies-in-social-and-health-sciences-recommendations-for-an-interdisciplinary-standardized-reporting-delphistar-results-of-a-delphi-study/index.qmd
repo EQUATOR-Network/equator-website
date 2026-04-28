@@ -1,0 +1,150 @@
+---
+# REQUIRED FIELDS
+title: Delphi studies in social and health sciences -Recommendations for an interdisciplinary
+  standardized reporting (DELPHISTAR) . Results of a Delphi study
+acronym: DELPHISTAR
+description: |-
+  Reporting Delphi studies in the health and social sciences
+
+  DELPHISTAR checklist ([Word](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_engl-2.docx))         DELPHISTAR checklist [(PDF](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_engl-1.pdf))
+doi: ''
+pmid-id: '[39186713](https://pubmed.ncbi.nlm.nih.gov/39186713/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39186713/
+relevant-urls: '[Read the full-text](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0304651)
+  of the DELPHISTAR guideline.'
+full-bibliographic-reference: Niederberger M, Schifano J, Deckert S, Hirt J, Homberg
+  A, Köberich S, Kuhn R, Rommel A, Sonnberger M; DEWISS network. Delphi studies in
+  social and health sciences-Recommendations for an interdisciplinary standardized
+  reporting (DELPHISTAR). Results of a Delphi study. PLoS One. 2024;19(8):e0304651.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://delphi.ph-gmuend.de/>
+additional-languages: The DELPHISTAR Statement has been translated into German in
+  [Word](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_ger.docx)
+  | [PDF](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_ger.pdf).
+additional-information: |-
+  Read the reviews that informed the development of DELPHISTAR:
+
+  Spranger J, Homberg A, Sonnberger M, Niederberger M. Reporting guidelines for Delphi techniques in health sciences: A methodological review. Z Evid Fortbild Qual Gesundhwes. 2022;172:1-11. PMID: [35718726](https://pubmed.ncbi.nlm.nih.gov/35718726/)
+
+  Niederberger M, Spranger J. Delphi Technique in Health Sciences: A Map. Front Public Health. 2020;8:457. PMID: [33072683](https://pubmed.ncbi.nlm.nih.gov/33072683/)
+relevant-editorials: ''
+primary-guideline: ''
+other: 'The DELPHISTAR project was registered at the OSF platform and can be assessed
+  on this page: <https://osf.io/gc4jk>'
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+- Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- consensus
+- Delphi
+- Delphi studies
+- Delphi study
+- DELPHISTAR
+- DELPHISTAR checklist
+- DELPHISTAR guideline
+- guideline
+- guidelines
+- 'Remove term: DELPHISTAR guideline DELPHISTAR guidelines'
+
+---
+
+{{< include ../_template.qmd >}}

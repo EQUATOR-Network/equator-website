@@ -1,0 +1,257 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting guidelines for randomised controlled trial reports of implantable
+  neurostimulation devices: the CONSORT-iNeurostim extension'
+acronym: CONSORT-iNeurostim
+description: Reporting trials of implantable neurostimulation devices.
+doi: ''
+pmid-id: '[39606687](https://pubmed.ncbi.nlm.nih.gov/39606687/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39606687/
+relevant-urls: ''
+full-bibliographic-reference: 'Duarte RV, Bresnahan R, Copley S, Eldabe S, Thomson
+  S, North RB, Baranidharan G, Levy RM, Collins GS, Taylor RS. Reporting guidelines
+  for randomised controlled trial reports of implantable neurostimulation devices:
+  the CONSORT-iNeurostim extension. EClinicalMedicine. 2024;78:102932.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  **Generic**
+
+  [**CONSORT 2025 Statement**](https://www.equator-network.org/reporting-guidelines/consort/): Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne D, Farmer A, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson D, Vohra S, White IR, Boutron I. CONSORT 2025 statement: updated guideline for reporting randomised trials.
+
+  BMJ. 2025; 388:e081123.[PMID:40228833](https://pubmed.ncbi.nlm.nih.gov/40228833/)
+
+  JAMA. 2025.[PMID: 40228499](https://pubmed.ncbi.nlm.nih.gov/40228499/)
+
+  Lancet. 2025.[PMID: 40245901](https://pubmed.ncbi.nlm.nih.gov/40245901/)
+
+  Nat Med. 2025.[PMID: 40229553](https://pubmed.ncbi.nlm.nih.gov/40229553/)
+
+  PLoS Med. 2025; 22(4): e1004587.[PMID:40228477](https://pubmed.ncbi.nlm.nih.gov/40228477/)
+
+  **Specialised**
+
+  [**CONSORT Harms**](https://www.equator-network.org/reporting-guidelines/consort-harms/): Junqueira DR, Zorzela L, Golder S, Loke Y, Gagnier JJ, Julious SA, Li T, Mayo-Wilson E, Pham B, Phillips R, Santaguida P, Scherer RW, Gøtzsche PC, Moher D, Ioannidis JPA, Vohra S; CONSORT Harms Group. CONSORT Harms 2022 statement, explanation, and elaboration: updated guideline for the reporting of harms in randomized trials.
+
+  BMJ. 2023;381:e073725. PMID: [37094878](https://pubmed.ncbi.nlm.nih.gov/37094878/)
+
+  J Clin Epidemiol. 2023:S0895-4356(23)00090-2. PMID: [37100738](https://pubmed.ncbi.nlm.nih.gov/37100738/)
+
+  [**CONSORT Non-inferiority**](https://www.equator-network.org/reporting-guidelines/consort-non-inferiority/): Piaggio G, Elbourne DR, Pocock SJ, Evans SJW, Altman DG, for the CONSORT Group. Reporting of noninferiority and equivalence randomized trials. Extension of the CONSORT 2010 statement. JAMA. 2012; 308(24): 2594-2604. PMID: [23268518](http://www.ncbi.nlm.nih.gov/pubmed/23268518)
+
+  [**CONSORT Cluster**](https://www.equator-network.org/reporting-guidelines/consort-cluster/): Campbell MK, Piaggio G, Elbourne DR, Altman DG; CONSORT Group. Consort 2010 statement: extension to cluster randomised trials. BMJ. 2012;345:e5661. PMID: [22951546](http://www.ncbi.nlm.nih.gov/pubmed/22951546)
+
+  [**CONSORT Herbal**](https://www.equator-network.org/reporting-guidelines/consort-herbal/): Gagnier JJ, Boon H, Rochon P, Moher D, Barnes J, Bombardier C, for the CONSORT Group. Reporting randomized, controlled trials of herbal interventions: an elaborated CONSORT Statement. Ann Intern Med. 2006;144(5):364-367. PMID: [16520478](http://www.ncbi.nlm.nih.gov/pubmed/16520478)
+
+  [**CONSORT Non-pharmacological treatment interventions**](https://www.equator-network.org/reporting-guidelines/consort-non-pharmacological/): Boutron I, Altman DG, Moher D, Schulz KF, Ravaud P; CONSORT NPT Group. CONSORT Statement for Randomized Trials of Nonpharmacologic Treatments: A 2017 Update and a CONSORT Extension for Nonpharmacologic Trial Abstracts. Ann Intern Med. 2017;167(1):40-47. PMID: [28630973](https://www.ncbi.nlm.nih.gov/pubmed/28630973)
+
+  [**CONSORT Abstracts**](https://www.equator-network.org/reporting-guidelines/consort-abstracts/): Hopewell S, Clarke M, Moher D, Wager E, Middleton P, Altman DG, Schulz KF, the CONSORT Group. CONSORT for reporting randomized controlled trials in journal and conference abstracts: explanation and elaboration. PLoS Med. 2008; 5(1):e20. PMID: [18215107](http://www.ncbi.nlm.nih.gov/pubmed/18215107)
+
+  Hopewell S, Clarke M, Moher D, Wager E, Middleton P, Altman DG, Schulz KF, the CONSORT Group. CONSORT for reporting randomised trials in journal and conference abstracts. Lancet. 2008;371(9609):281-3. PMID: [18221781](http://www.ncbi.nlm.nih.gov/pubmed/18221781)
+
+  [**CONSORT Pragmatic Trials**](https://www.equator-network.org/reporting-guidelines/consort-pragmatic/): Zwarenstein M, Treweek S, Gagnier JJ, Altman DG, Tunis S, Haynes B, Oxman AD, Moher D; CONSORT group; Pragmatic Trials in Healthcare (Practihc) group. Improving the reporting of pragmatic trials: an extension of the CONSORT statement. BMJ. 2008;337:a2390. PMID: [19001484](http://www.ncbi.nlm.nih.gov/pubmed/19001484)
+
+  [**STRICTA Controlled trials of acupuncture**](https://www.equator-network.org/reporting-guidelines/consort-stricta/): MacPherson H, Altman DG, Hammerschlag R, Youping L, Taixiang W, White A, Moher D; STRICTA Revision Group. Revised STandards for Reporting Interventions in Clinical Trials of Acupuncture (STRICTA): extending the CONSORT statement. PLoS Med. 2010;7(6):e1000261. PMID: [20543992](http://www.ncbi.nlm.nih.gov/pubmed/20543992)
+
+  [**CONSORT PRO**](https://www.equator-network.org/reporting-guidelines/consort-pro/): Calvert M, Blazeby J, Altman DG, Revicki DA, Moher D, Brundage MD; CONSORT PRO Group. Reporting of patient-reported outcomes in randomized trials: the CONSORT PRO extension. JAMA. 2013;309(8):814-22. PMID: [23443445](http://www.ncbi.nlm.nih.gov/pubmed/23443445)
+
+  [**CONSORT-CENT**](https://www.equator-network.org/reporting-guidelines/consort-cent/): Vohra S, Shamseer L, Sampson M, Bukutu C, Schmid CH, Tate R, Nikles J, Zucker DR, Kravitz R, Guyatt G, Altman DG, Moher D; CENT group. CONSORT extension for reporting N-of-1 trials (CENT) 2015 Statement.BMJ. 2015;350:h1738. PMID: [25976398](http://www.ncbi.nlm.nih.gov/pubmed/25976398)
+
+  [**CONSORT for orthodontic trials**](https://www.equator-network.org/reporting-guidelines/the-consort-statement-application-within-and-adaptations-for-orthodontic-trials/): Pandis N, Fleming PS, Hopewell S, Altman DG. The CONSORT Statement: Application within and adaptations for orthodontic trials. Am J Orthod Dentofacial Orthop. 2015;147(6):663-679. PMID: [26038070](http://www.ncbi.nlm.nih.gov/pubmed/26038070)
+
+  [**TIDieR**](https://www.equator-network.org/reporting-guidelines/tidier/): Hoffmann T, Glasziou P, Boutron I, Milne R, Perera R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M, McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. BMJ. 2014;348:g1687. PMID: [24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)
+
+  [**Simulation Research**](https://www.equator-network.org/reporting-guidelines/reporting-guidelines-for-health-care-simulation-research-extensions-to-the-consort-and-strobe-statements/): Cheng A, Kessler D, Mackinnon R, Chang TP, Nadkarni VM, Hunt EA, Duval-Arnould J, Lin Y, Cook DA, Pusic M, Hui J, Moher D, Egger M, Auerbach M; International Network for Simulation-based Pediatric Innovation, Research, and Education (INSPIRE) Reporting Guidelines Investigators. Reporting Guidelines for Health Care Simulation Research: Extensions to the CONSORT and STROBE Statements. Simul Healthc. 2016;11(4):238-248. PMID: [27465839](http://www.ncbi.nlm.nih.gov/pubmed/27465839)
+
+  [**CONSORT for pilot and feasibility trials**](https://www.equator-network.org/reporting-guidelines/consort-2010-statement-extension-to-randomised-pilot-and-feasibility-trials/): Eldridge SM, Chan CL, Campbell MJ, Bond CM, Hopewell S, Thabane L, Lancaster GA; on behalf of the PAFS consensus group. CONSORT 2010 statement: extension to randomised pilot and feasibility trials. Pilot and Feasibility Stud. 2016;2:64. PMID: [27965879](https://www.ncbi.nlm.nih.gov/pubmed/27965879)
+
+  [**CONSORT-CHM formulas**](https://www.equator-network.org/reporting-guidelines/consort-chinese-herbal-medicine-formulas/): Cheng C-W, Wu T-X, Shang H-C, Li Y-P, Altman DG, Moher D, Bian Z-X; for the CONSORT-CHM Formulas 2017 Group. CONSORT Extension for Chinese Herbal Medicine Formulas 2017: Recommendations, Explanation, and Elaboration. 2017. Ann Intern Med. [Link to full-text](http://annals.org/aim/article/2633843/consort-extension-chinese-herbal-medicine-formulas-2017-recommendations-explanation-elaboration).
+
+  [**CONSORT for within person randomised trials**](https://www.equator-network.org/reporting-guidelines/consort-within-person-randomised-trials/): Pandis N, Chung B, Scherer RW, Elbourne D, Altman DG. CONSORT 2010 statement: extension checklist for reporting within person randomised trials. BMJ. 2017;357:j2835. PMID: [28667088](https://www.ncbi.nlm.nih.gov/pubmed/28667088)
+
+  [**CONSORT Equity**](https://www.equator-network.org/reporting-guidelines/consort-equity/): Welch VA, Norheim OF, Jull J, Cookson R, Sommerfelt H, Tugwell P; CONSORT-Equity and Boston Equity Symposium. CONSORT-Equity 2017 extension and elaboration for better reporting of health equity in randomised trials. BMJ. 2017;359:j5085. PMID: [29170161](https://www.ncbi.nlm.nih.gov/pubmed/29170161)
+
+  [**CONSORT-SPI**](https://www.equator-network.org/reporting-guidelines/consort-spi/): Montgomery P, Grant S, Mayo-Wilson E, Macdonald G, Michie S, Hopewell S, Moher D; on behalf of the CONSORT-SPI Group. Reporting randomised trials of social and psychological interventions: the CONSORT-SPI 2018 Extension. Trials. 2018;19:407. PMID: [30060754](https://www.ncbi.nlm.nih.gov/pubmed/30060754)
+
+  [**Stepped wedge cluster randomised trials**](https://www.equator-network.org/reporting-guidelines/reporting-of-stepped-wedge-cluster-randomised-trials-extension-of-the-consort-2010-statement-with-explanation-and-elaboration/): Hemming K, Taljaard M, McKenzie JE, Hooper R, Copas A, Thompson JA, Dixon-Woods M, Aldcroft A, Doussau A, Grayling M, Kristunas C, Goldstein CE, Campbell MK, Girling A, Eldridge S, Campbell MJ, Lilford RJ, Weijer C, Forbes AB, Grimshaw JM. Reporting of stepped wedge cluster randomised trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2018;363:k1614. PMID: [30413417](https://www.ncbi.nlm.nih.gov/pubmed/30413417)
+
+  [**CONSORT for multi-arm parallel-group randomised trials**](https://www.equator-network.org/reporting-guidelines/consort-multi-arm-parallel-group-randomized-trials/): Juszczak E, Altman DG, Hopewell S, Schulz K. Reporting of Multi-Arm Parallel-Group Randomized Trials: Extension of the CONSORT 2010 Statement. JAMA. 2019;321(16):1610-1620. PMID: [31012939](https://www.ncbi.nlm.nih.gov/pubmed/31012939)
+
+  [**CONSORT 2010 extension to randomised crossover trials**](https://www.equator-network.org/reporting-guidelines/consort-2010-statement-extension-to-randomised-crossover-trials/): Dwan K, Li T, Altman DG, Elbourne D. CONSORT 2010 statement: extension to randomised crossover trials. BMJ. 2019;366:l4378. PMID: [31366597](https://www.ncbi.nlm.nih.gov/pubmed/31366597)
+
+  [**CENT for TCM**](https://www.equator-network.org/reporting-guidelines/consort-extension-for-reporting-n-of-1-trials-for-traditional-chinese-medicine/): Li J, Hu JY, Zhai JB, Niu JQ, Kwong JSW, Ge L, Li B, Wang Q, Wang XQ, Wei D, Tian JH, Ma B, Yang KH, Dai M, Tian GH, Shang HC; CENT for TCM Working Group. CONSORT extension for reporting N-of-1 trials for traditional Chinese medicine (CENT for TCM): Recommendations, explanation and elaboration. Complement Ther Med. 2019;46:180-188. PMID: [31519276](https://www.ncbi.nlm.nih.gov/pubmed/31519276)
+
+  [**STRICTOC**](https://www.equator-network.org/reporting-guidelines/standards-for-reporting-interventions-in-clinical-trials-of-cupping-strictoc-extending-the-consort-statement/): Zhang X, Tian R, Lam WC, Duan Y, Liu F, Zhao C, Wu T, Shang H, Tang X, Lyu A, Bian Z. Standards for reporting interventions in clinical trials of cupping (STRICTOC): extending the CONSORT statement. Chin Med. 2020;15:10. PMID: [32021646](https://www.ncbi.nlm.nih.gov/pubmed/32021646)
+
+  [**ACE Statement**](https://www.equator-network.org/reporting-guidelines/the-adaptive-designs-consort-extension-ace-statement/): Dimairo M, Pallmann P, Wason J, Todd S, Jaki T, Julious SA, Mander AP, Weir CJ, Koenig F, Walton MK, Nicholl JP, Coates E, Biggs K, Hamasaki T, Proschan MA, Scott JA, Ando Y, Hind D, Altman DG; ACE Consensus Group. The adaptive designs CONSORT extension (ACE) statement: a checklist with explanation and elaboration guideline for reporting randomised trials that use an adaptive design.
+
+  BMJ. 2020;369:m115. PMID: [32554564](https://pubmed.ncbi.nlm.nih.gov/32554564/)
+
+  Trials. 2020;21(1):528. PMID: [32546273](https://pubmed.ncbi.nlm.nih.gov/32546273/)
+
+  [**CONSORT-AI**](https://www.equator-network.org/reporting-guidelines/consort-artificial-intelligence/): Liu X, Rivera SC, Moher D, Calvert MJ, Denniston AK; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI Extension.
+
+  BMJ 2020;370:m3164. PMID: [32909959](https://pubmed.ncbi.nlm.nih.gov/32909959/)
+
+  Nat Med. 2020:26(9):1364–1374. PMID: [32908283](https://pubmed.ncbi.nlm.nih.gov/32908283/)
+
+  Lancet Digital Health. 2020;2(10):e537-e548. PMID: [33328048](https://pubmed.ncbi.nlm.nih.gov/33328048/)
+
+  [**CONSORT-ROUTINE**](https://www.equator-network.org/reporting-guidelines/consort-routine/): Kwakkenbos L, Imran M, McCall SJ, McCord KA, Fröbert O, Hemkens LG, Zwarenstein M, Relton C, Rice DB, Langan SM, Benchimol EI, Thabane L, Campbell MK, Sampson M, Erlinge D, Verkooijen HM, Moher D, Boutron I, Ravaud P, Nicholl J, Uher R, Sauvé M, Fletcher J, Torgerson D, Gale C, Juszczak E, Thombs BD. CONSORT extension for the reporting of randomised controlled trials conducted using cohorts and routinely collected data (CONSORT-ROUTINE): checklist with explanation and elaboration. BMJ. 2021;373:n857. PMID: [33926904](https://pubmed.ncbi.nlm.nih.gov/33926904/)
+
+  [**CONSORT-Outcomes**](https://www.equator-network.org/reporting-guidelines/guidelines-for-reporting-outcomes-in-trial-reports-the-consort-outcomes-2022-extension/): Butcher NJ, Monsour A, Mew EJ, Chan AW, Moher D, Mayo-Wilson E, Terwee CB, Chee-A-Tow A, Baba A, Gavin F, Grimshaw JM, Kelly LE, Saeed L, Thabane L, Askie L, Smith M, Farid-Kapadia M, Williamson PR, Szatmari P, Tugwell P, Golub RM, Monga S, Vohra S, Marlin S, Ungar WJ, Offringa M. Guidelines for Reporting Outcomes in Trial Reports: The CONSORT-Outcomes 2022 Extension. JAMA. 2022;328(22):2252-2264. PMID: [36511921](https://pubmed.ncbi.nlm.nih.gov/36511921/)
+
+  [**CONSORT-DEFINE**](https://www.equator-network.org/reporting-guidelines/consort-define/): Yap C, Solovyeva O, de Bono J, Rekowski J, Patel D, Jaki T, Mander A, Evans TRJ, Peck R, Hayward KS, Hopewell S, Ursino M, Rantell KR, Calvert M, Lee S, Kightley A, Ashby D, Chan AW, Garrett-Mayer E, Isaacs JD, Golub R, Kholmanskikh O, Richards D, Boix O, Matcham J, Seymour L, Ivy SP, Marshall LV, Hommais A, Liu R, Tanaka Y, Berlin J, Espinasse A, Dimairo M, Weir CJ. Enhancing reporting quality and impact of early phase dose-finding clinical trials: CONSORT Dose-finding Extension (CONSORT-DEFINE) guidance. BMJ. 2023;383:e076387. PMID: [37863501](https://pubmed.ncbi.nlm.nih.gov/37863501/)
+
+  [**CONSORT Factorial**](https://www.equator-network.org/reporting-guidelines/reporting-of-factorial-randomized-trials-extension-of-the-consort-2010-statement/): Kahan BC, Hall SS, Beller EM, Birchenall M, Chan AW, Elbourne D, Little P, Fletcher J, Golub RM, Goulao B, Hopewell S, Islam N, Zwarenstein M, Juszczak E, Montgomery AA. Reporting of Factorial Randomized Trials: Extension of the CONSORT 2010 Statement. JAMA. 2023;330(21):2106-2114. PMID: [38051324](https://pubmed.ncbi.nlm.nih.gov/38051324/)
+
+  [**CONSORT-Surrogate**](https://www.equator-network.org/reporting-guidelines/consort-surrogate/): Manyara AM, Davies P, Stewart D, Weir CJ, Young AE, Blazeby J, Butcher NJ, Bujkiewicz S, Chan AW, Dawoud D, Offringa M, Ouwens M, Hróbjartssson A, Amstutz A, Bertolaccini L, Bruno VD, Devane D, Faria CDCM, Gilbert PB, Harris R, Lassere M, Marinelli L, Markham S, Powers JH 3rd, Rezaei Y, Richert L, Schwendicke F, Tereshchenko LG, Thoma A, Turan A, Worrall A, Christensen R, Collins GS, Ross JS, Taylor RS, Ciani O. Reporting of surrogate endpoints in randomised controlled trial reports (CONSORT-Surrogate): extension checklist with explanation and elaboration. BMJ. 2024;386:e078524. PMID: [38981645](https://pubmed.ncbi.nlm.nih.gov/38981645/)
+
+  [**CONSORT CRXO**](https://www.equator-network.org/reporting-guidelines/reporting-of-cluster-randomised-crossover-trials-extension-of-the-consort-2010-statement-with-explanation-and-elaboration/): McKenzie JE, Taljaard M, Hemming K, Arnup SJ, Giraudeau B, Eldridge S, Hooper R, Kahan BC, Li T, Moher D, Turner EL, Grimshaw JM, Forbes AB. Reporting of cluster randomised crossover trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2025;388:e080472. PMID: [39761979](https://pubmed.ncbi.nlm.nih.gov/39761979/)
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- CONSORT extension
+- CONSORT-iNeurostim
+- CONSORT-iNeurostim extension
+- device
+- devices
+- experimental studies
+- experimental study
+- implantable neurostimulation device
+- implantable neurostimulation devices
+- intervention
+- interventional
+- interventions
+- nerve
+- nerves
+- nervous system
+- neurological
+- neurology
+- neuromodulation
+- neurostimulation
+- neurostimulation device
+- neurostimulation devices
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- stimulation
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

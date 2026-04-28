@@ -1,0 +1,147 @@
+---
+# REQUIRED FIELDS
+title: Guidelines for Reporting Oral Epidemiologic Studies to Inform Burden Estimation
+  (GROESBE)
+acronym: GROESBE
+description: Reporting of descriptive oral epidemiologic studies of common oral conditions.
+doi: ''
+pmid-id: '[39639484](https://pubmed.ncbi.nlm.nih.gov/39639484/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39639484/
+relevant-urls: ''
+full-bibliographic-reference: Bernabé E, Salomon-Ibarra CC, Marcenes W. Guidelines
+  for Reporting Oral Epidemiologic Studies to Inform Burden Estimation (GROESBE).
+  J Dent Res. 2025;104(2):140-146.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+- Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- dental caries
+- edentulism
+- epidemiologic
+- epidemiology
+- GROESBE
+- GROESBE checklist
+- GROESBE guideline
+- GROESBE guidelines
+- Guidelines for Reporting Oral Epidemiologic Studies to Inform Burden Estimation
+- mouth
+- observation
+- observational
+- observational studies
+- observational study
+- oral
+- periodontal
+- periodontal disease
+- periodontal diseases
+- periodontitis
+- tooth loss
+
+---
+
+{{< include ../_template.qmd >}}

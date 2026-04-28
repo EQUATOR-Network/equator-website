@@ -1,0 +1,156 @@
+---
+# REQUIRED FIELDS
+title: The TRIPOD-LLM reporting guideline for studies using large language models
+acronym: TRIPOD-LLM
+description: Reporting of studies that are developing, tuning, prompt engineering
+  or evaluating a large language model (LLM).
+doi: ''
+pmid-id: '[39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39779929/
+relevant-urls: '[Read the full-text](https://www.nature.com/articles/s41591-024-03425-5)
+  of the TRIPOD-LLM guideline.'
+full-bibliographic-reference: Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen
+  S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH,
+  Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova
+  G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM
+  reporting guideline for studies using large language models. Nat Med. 2025.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  **Generic**
+
+  [**TRIPOD+AI Statement**](https://www.equator-network.org/reporting-guidelines/tripod-statement/): Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, Ghassemi M, Liu X, Reitsma JB, van Smeden M, Boulesteix AL, Camaradou JC, Celi LA, Denaxas S, Denniston AK, Glocker B, Golub RM, Harvey H, Heinze G, Hoffman MM, Kengne AP, Lam E, Lee N, Loder EW, Maier-Hein L, Mateen BA, McCradden MD, Oakden-Rayner L, Ordish J, Parnell R, Rose S, Singh K, Wynants L, Logullo P. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ. 2024;385:e078378. PMID: [38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/)
+
+  **Specialised**
+
+  **[TRIPOD-SRMA](https://www.equator-network.org/reporting-guidelines/tripod-srma/)**: Snell KIE, Levis B, Damen JAA, Dhiman P, Debray TPA, Hooft L, Reitsma JB, Moons KGM, Collins GS, Riley RD. Transparent reporting of multivariable prediction models for individual prognosis or diagnosis: checklist for systematic reviews and meta-analyses (TRIPOD-SRMA). BMJ. 2023;381:e073538. PMID: [37137496](https://pubmed.ncbi.nlm.nih.gov/37137496/)
+
+  [**TRIPOD-Cluster**](https://www.equator-network.org/reporting-guidelines/tripod-cluster/): Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM. Transparent reporting of multivariable prediction models developed or validated using clustered data: TRIPOD-Cluster checklist. BMJ. 2023;380:e071018. PMID: [36750242](https://pubmed.ncbi.nlm.nih.gov/36750242/)
+website-url: <https://tripod-llm.vercel.app/>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: The guideline includes a separate checklist for journal or conference abstracts
+  of LLM-based studies (TRIPOD-LLM for abstracts).
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+- Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- AI
+- artificial intelligence
+- chatbot
+- chatbots
+- generative AI
+- large language
+- large language model
+- large language models
+- LLM
+- LLMs
+- machine learning
+- natural language processing
+- NLP
+- predict
+- prediction
+- TRIPOD extension
+- TRIPOD-LLM
+- TRIPOD-LLM statement
+
+---
+
+{{< include ../_template.qmd >}}

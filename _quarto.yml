@@ -10,6 +10,10 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+    right: 
+      - href: reporting-guidelines/index.qmd
+        icon: search
+  search: false
 
 format:
   html:

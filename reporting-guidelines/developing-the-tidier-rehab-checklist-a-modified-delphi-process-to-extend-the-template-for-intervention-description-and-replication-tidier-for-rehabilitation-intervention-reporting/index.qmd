@@ -1,0 +1,166 @@
+---
+# REQUIRED FIELDS
+title: 'Developing the TIDieR-Rehab checklist: a modified Delphi process to extend
+  the Template for Intervention Description and Replication (TIDieR) for rehabilitation
+  intervention reporting'
+acronym: TIDieR-Rehab
+description: Reporting of rehabilitation interventions.
+doi: ''
+pmid-id: '[39609016](https://pubmed.ncbi.nlm.nih.gov/39609016/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39609016/
+relevant-urls: '[Read the full-text](https://bmjopen.bmj.com/content/14/11/e084319.long)
+  of TIDieR-Rehab. The checklist is in Table 2.'
+full-bibliographic-reference: 'Signal N, Olsen S, Gomes E, McGeorge C, Taylor D, Alder
+  G. Developing the TIDieR-Rehab checklist: a modified Delphi process to extend the
+  Template for Intervention Description and Replication (TIDieR) for rehabilitation
+  intervention reporting. BMJ Open. 2024;14(11):e084319.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Signal N, Gomes E, Olsen S, Alder G. Enhancing
+  the reporting quality of rehabilitation interventions through an extension of the
+  Template for Intervention Description and Replication (TIDieR): the TIDieR-Rehab
+  checklist and supplementary manual. BMJ Open. 2024;14(11):e084320. PMID: [39608992](https://pubmed.ncbi.nlm.nih.gov/39608992/)'
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+- Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+- Physiotherapy
+# - Primary care
+# - Psychiatry
+- Psychology
+# - Public health
+# - Radiology
+- Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+- Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- intervention
+- interventions
+- non-pharmacological
+- observation
+- observational
+- occupational therapy
+- physical therapies
+- physical therapy
+- physio
+- physiotherapy
+- psychology
+- psychosocial
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- recovery
+- rehab
+- rehabilitation
+- speech-language therapy
+- Template for Intervention Description and Replication
+- TIDieR-Rehab
+- TIDieR-Rehab checklist
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

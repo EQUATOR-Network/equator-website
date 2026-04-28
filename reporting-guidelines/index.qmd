@@ -1,0 +1,25 @@
+---
+title: "Search all Reporting Guidelines"
+page-layout: full
+listing:
+    contents: "*/index.qmd"
+    type: table
+    table-striped: true
+    filter-ui: [title, acronym, study-type, clinical-specialty, report-section]
+    sort:
+        - acronym
+        - title
+    fields: 
+        - acronym
+        - title
+        - description
+        - study-design
+        - clinical-specialty
+        - report-section
+    field-display-names: 
+      title: "Title"
+      acronym: "Acronym"
+      study-design: "Study type"
+      clinical-specialty: "Clinical area"
+      report-section: "Section of report"
+---

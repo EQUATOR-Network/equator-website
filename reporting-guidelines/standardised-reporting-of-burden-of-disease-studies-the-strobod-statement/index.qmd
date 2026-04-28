@@ -1,0 +1,150 @@
+---
+# REQUIRED FIELDS
+title: 'Standardised reporting of burden of disease studies: the STROBOD statement'
+acronym: STROBOD
+description: Reporting of burden of disease (BOD) studies.
+doi: ''
+pmid-id: '[39375690](https://pubmed.ncbi.nlm.nih.gov/39375690/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39375690/
+relevant-urls: ''
+full-bibliographic-reference: 'Devleesschauwer B, Charalampous P, Gorasso V, Assunção
+  R, Hilderink H, Idavain J, Lesnik T, Santric-Milicevic M, Pallari E, Pires SM, Plass
+  D, Wyper GMA, Von der Lippe E, Haagsma JA. Standardised reporting of burden of disease
+  studies: the STROBOD statement. Popul Health Metr. 2024;22(1):28.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+- Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- BOD
+- burden of disease
+- checklist
+- checklists
+- DALY
+- disability
+- Disability-Adjusted Life Year
+- Disability-Adjusted Life Years
+- epidemiological
+- epidemiology
+- life expectancy
+- life years
+- observation
+- observational
+- population
+- population health
+- public
+- public health
+- STROBOD
+- STROBOD checklist
+- STROBOD Statement
+- Years Lost due to Disability
+- Years of Life Lost
+- YLD
+- YLL
+
+---
+
+{{< include ../_template.qmd >}}
