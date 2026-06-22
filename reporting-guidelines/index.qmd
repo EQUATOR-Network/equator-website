@@ -2,7 +2,10 @@
 title: "Search all Reporting Guidelines"
 page-layout: full
 listing:
-    contents: "*/index.qmd"
+    contents:
+        - "*/index.qmd"
+        - "!under-development/*/index.qmd"
+        - "!under-development/index.qmd"
     type: table
     table-striped: true
     filter-ui: [title, acronym, study-type, clinical-specialty, report-section]
