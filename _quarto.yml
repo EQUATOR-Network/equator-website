@@ -1,14 +1,18 @@
 project:
   type: website
-  preview: 
+  preview:
     watch-inputs: true
 
 website:
   title: "equator-website"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - text: Reporting Guidelines
+        menu:
+          - href: reporting-guidelines/index.qmd
+            text: Search all
+          - href: reporting-guidelines/under-development/index.qmd
+            text: Under development
       - about.qmd
     right: 
       - href: reporting-guidelines/index.qmd
