@@ -1,0 +1,13 @@
+---
+title: 'THESES-M: Transparent and Holistic Evaluation Standards for Educational Studies in Medicine: A reporting guideline for medical theses'
+date-registered: 23 May 2025
+year-registered: 2025
+date-updated: null
+contact-name: Geovani López Ortiz
+contact-email: geovani.lorz@fmposgrado.unam.mx
+description: Medical theses are a core component of health education programs, particularly at undergraduate and postgraduate levels. However, there is currently no international reporting guideline that supports the transparent, structured, and reproducible development of these academic works. Medical theses often lack uniformity in methodological reporting, omit key ethical or analytic details, and face difficulties in dissemination or conversion into publishable manuscripts.THESES-M (Transparent and Holistic Evaluation Standards for Educational Studies in Medicine) is a reporting guideline designed to guide students, supervisors, and reviewers in the development and assessment of medical theses. The guideline includes a checklist of approximately 30 items covering essential sections of the thesis (e.g., title, introduction, methods, results, discussion, ethics). Each item is developed based on critical analysis of existing guidelines (e.g., STROBE, CARE, PRISMA) and adapted to the pedagogical and methodological context of medical education.This guideline addresses a currently unmet need and aims to improve the quality, clarity, and impact of medical thesis reports across institutions and countries. By providing a structured framework, THESES-M contributes to research literacy, promotes good scientific practices, and facilitates potential publication of high-quality student research.
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

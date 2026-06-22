@@ -1,0 +1,13 @@
+---
+title: SHIME - Standards for Healthcare Impact Evaluation
+date-registered: 23 May 2025
+year-registered: 2025
+date-updated: null
+contact-name: Lucas Reis Correia
+contact-email: lucas.reis.correia@usp.br
+description: From our scoping review, we found that at least over three hundred articles have proposed using an impact evaluation in the healthcare context and this has been increasing yearly. Furthermore, there are a few guidelines for a general context, such as from the World Bank Group by Gertler and local, health-specific ones, such as from the Brazilian Ministry of Health by Aragão and Mendes. Furthermore, according to our scoping review, over 90% of studies use quantitative methods and attempt to have a good comparison of treatment group, moreover these more rigorous approaches seem to be associated with more transparent and less biased publications.Creating these guidelines will help authors be able to publish impact evaluations for the healthcare context in a more standardized manner, this won’t only aid researchers themselves in their efforts but also improve the cycle of policy evaluation and its effectiveness, promoting efficiency and equity in health interventions.
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

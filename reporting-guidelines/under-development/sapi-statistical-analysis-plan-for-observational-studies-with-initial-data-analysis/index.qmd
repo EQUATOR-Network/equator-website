@@ -1,0 +1,19 @@
+---
+title: SAPI - Statistical Analysis Plan for Observational Studies with Initial Data Analysis
+date-registered: 31 July 2024
+year-registered: 2024
+date-updated: null
+contact-name: Marianne Huebner, Michigan State University.
+contact-email: huebner@msu.edu
+description: 'The objective of this project is to develop a checklist for a statistical analysis plan (SAP) for observational studies that accounts for initial data analysis and records deviations from initial plans in one document. Initial data analysis is often performed, but it may not have been planned or conducted systematically. Revisions of SAPs are often necessary due to unforeseen issues with the data. Such changes should be documented with a rationale in an amended SAP.
+
+
+  The STRATOS Initiative plans to develop such reporting guideline starting with a review of related work, a Delphi survey, a consensus meeting, pilot testing and dissemination. Development started in June 2024, and the group obtained ethical approval to start the surveys already. This project is not yet receiving funding, but the group plans to publish the reporting guideline as an open access document in 2025.
+
+
+  - Protocol registration at OSF: [https://osf.io/zfjah/](https://osf.io/zfjah/)'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

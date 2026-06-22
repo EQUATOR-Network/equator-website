@@ -1,0 +1,16 @@
+---
+title: 'RIGHT 2.0: Reporting Items for practice Guidelines in HealThcare'
+date-registered: 01 April 2026
+year-registered: 2026
+date-updated: null
+contact-name: Yaolong Chen
+contact-email: rightworkinggroup@gmail.com
+description: 'More than nine years have passed since the publication of the first version of the RIGHT checklist (https://www.equator-network.org/reporting-guidelines/right-statement/). Recently, factors such as user feedback from guideline interest-holders (including guideline developers, journal peer reviewers and editors, guideline users, guideline researchers, and policymakers), continuous innovations and developments in the field of guideline methodology (e.g., living guidelines and rapid recommendations), and the global surge of artificial intelligence (AI) technologies have further accelerated the need to update the RIGHT. Taking AI technology as an example, large language models can play a key auxiliary role in guideline development, e.g. by assisting in the formulation of clinical questions and accelerating different steps of evidence synthesis like the development of search strategies, literature screening, data extraction, and risk of bias assessment. However, there are currently no specific recommendations on how to standardize the reporting of related processes. The rapid evolvement in methodologies has also given motivation to updates of other reporting and evaluation tools. Based on these considerations, the RIGHT Working Group has initiated the update process of the checklist with the aim of providing a more applicable guideline reporting standard.
+
+
+  Project website: [https://www.right-statement.org](https://www.right-statement.org/)'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

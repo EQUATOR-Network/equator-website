@@ -1,0 +1,19 @@
+---
+title: Chinese Medicine Formulas Protocols - Standard Protocol Items for Observational Real-World Studies about Chinese Medicine Formulas
+date-registered: null
+year-registered: 2023
+date-updated: null
+contact-name: Yana Qi, West China Hospital, Sichuan University.
+contact-email: qiyana2012@163.com
+description: 'Closely related to the project above, this project aims to develop a reporting guideline for protocols of observational studies on traditional Chinese Medicine (TCM) formulas. According to the developers, study protocol serves as the foundation for study design, conduct, reporting and appraisal. The transparent reporting of protocol can help reducing selective reporting, publication bias, and result driven data mining. The group from Sichuan University aims to develop a minimum set of standard protocol items to be reported for observational real-world studies about  TCM formulae, one of the main TCM treatments. The guideline will be mainly used for transparent reporting protocols about observational real-world studies regarding fixed or individualised formulas (covering Chinese patent drugs approved for listing by the National Medical Products Administration). It will probably not include acupuncture, moxibustion, cupping, massage and other TCM therapies.
+
+
+  The development started in November 2021 with a literature mapping of the protocols of observational real-world studies and field-specific guidelines, a Delphi survey, a face-to-face consensus meeting, pilot testing and dissemination. The group plans to publish the reporting guideline as an open access document in the end of 2024.
+
+
+  The project is-registered in the [Open Science Framework](https://osf.io/ebypt) platform.'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

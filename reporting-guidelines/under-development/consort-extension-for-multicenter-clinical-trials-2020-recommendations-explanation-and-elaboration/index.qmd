@@ -1,0 +1,23 @@
+---
+title: 'CONSORT Extension for Multicenter Clinical Trials 2020: Recommendations, Explanation, and Elaboration'
+date-registered: 12 November 2018
+year-registered: 2018
+date-updated: 9 January 2024
+contact-name: Prof. Zhao-Xiang Bian
+contact-email: bianzxiang@gmail.com
+categories:
+- Clinical Trials
+---
+
+With the encouragement of the policy on drug and medical device innovation, multicenter clinical trials and multiregional clinical trials are facing an unprecedented opportunity. Trials with a multicenter design are far more common now than before. However, we need to recognize that there are still some shortcomings in current multicenter trials, especially in terms of heterogeneity between study centres. Thus, it is urgent to develop an extension of the CONSORT statement aiming to improve the overall quality of multicentre clinical trials.
+
+Trials quality relies on design, implementation and reporting. Therefore, the scope of this reporting guideline includes developing design, implementation and reporting checklists of multicentre clinical trials. Based on the summary of problems and challenges in current multicentre trials, the guideline of CONSORT Extension for Multicentre Clinical Trials 2020 aims to provide corresponding solutions with the aim to reduce heterogeneity between study centres and avoid excessive centre effect in treatment. We hope that this reporting guideline will influence design methods of multicentre trials, improve the quality of trials, and promote better reporting.
+
+Firstly, our working group of CONSORT Extension for Multicenter Clinical Trial plan to register the project on the EQUATOR (Enhancing the Quality and Transparency of Health Research) Network. Secondly, we will draft the original items of this reporting guideline based on a survey of the current status of multicentre clinical trials. We will use the CONSORT statement as a starting point, and conduct this study referring to other CONSORT extension reporting guidelines. Thirdly, the process of items collection will consist of several methods: (1) collecting and framing the initial items, (2) scoring and selecting the items by experts through Delphi consensus; (3) discussing and approving the checklist in a face-to-face meeting; (4) revision: the advisory experts provide comments to revise the checklist; and (5) testing: pilot tests will be applied to seek feedback to refine the final checklist. The project has started in 2017, and the current status focused on project registration, baseline survey and draft initial items.
+
+The group plans to publish the reporting guideline in 2020, as an open-access document.
+
+- Read the [protocol](https://pubmed.ncbi.nlm.nih.gov/37780430/)
+- Read the [results of a survey](https://pubmed.ncbi.nlm.nih.gov/34023433/) investigating the current reporting quality of multicenter randomised trials
+
+{{< include ../_template.qmd >}}

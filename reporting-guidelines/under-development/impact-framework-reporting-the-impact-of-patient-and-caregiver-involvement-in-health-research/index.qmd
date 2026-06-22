@@ -1,0 +1,13 @@
+---
+title: IMPACT Framework - Reporting the impact of patient and caregiver involvement in health research
+date-registered: 3 March 2025
+year-registered: 2025
+date-updated: null
+contact-name: Allison Jaure or Javier Recabarre
+contact-email: allison.jaure@sydney.edu.au; javier.recabarrensilva@sydney.edu.au
+description: There are increasing efforts to involve patients and caregivers in health research. Various frameworks are available that address the reporting of patient/caregiver involvement across the different stages of research. However, there is no framework for describing the impact of patients/caregiver involvement in detail.The research team, therefore, plan to develop a framework for reporting the impact of patient and caregivers involvement in health research (IMPACT) which will include the impacts on the research conduct/process, and on patients/caregivers and researchers. Development will include a literature review, Delphi survey, an international stakeholder workshop and pilot testing of the framework and will involve patients/caregivers, researchers, funders and other relevant stakeholders.
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

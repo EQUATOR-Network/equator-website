@@ -1,0 +1,25 @@
+---
+title: SPIRIT 2022 Statement (Update)
+date-registered: 18 November 2020
+year-registered: 2020
+date-updated: null
+contact-name: Dr An-Wen Chan
+contact-email: anwen.chan@utoronto.ca
+description: 'The SPIRIT authors plan to update the SPIRIT 2013 Statement, which contains a 33-item checklist. The update, SPIRIT 2022, applies to the content of a clinical trial protocol, including its appendices, and provides guidance for minimum protocol content.
+
+
+  The SPIRIT 2022 Statement will primarily relate to the content of the protocol rather than its format, which is often subject to local regulations, traditions, or standard operating procedures. Nevertheless, adherence to certain formatting conventions will facilitate protocol review.
+
+
+  The intent of SPIRIT 2022 will be to promote transparency and a full description of what is planned—not to prescribe how a trial should be designed or conducted. The checklist should not be used to judge trial quality because the protocol of a poorly designed trial may address all checklist items by fully describing its inadequate design features. With an-updated evidence base, the authors also plan to produce the SPIRIT 2022 Explanation and Elaboration article.
+
+
+  The CONSORT and SPIRIT groups have merged, and the resulting combined group will update both guidelines simultaneously. The individuals in SPIRIT-CONSORT are An-Wen Chan, Kenneth Schulz, David Moher, Asbjørn Hróbjartsson, Isabelle Boutron, and Sally Hopewell.
+
+
+  They started development in 2019 and are currently conducting a comprehensive literature search for evidence. As part of the development process, they will organise an international face-to-face consensus meeting. With the COVID-19 pandemic, they do not believe they can hold that meeting until late 2021. Thus, at present, they plan to publish the materials in 2022 as open access documents.'
+categories:
+- Clinical trial protocols
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,20 @@
+---
+title: "Test Guideline Under Development"
+contact-name: "John Do"
+contact-email: "johndo@email.com"
+date-registered: "1 May 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+# - Other
+---
+
+{{< include ../_template.qmd >}}
+
+<!-- Add Description Below -->
+
+Here you would add the description 

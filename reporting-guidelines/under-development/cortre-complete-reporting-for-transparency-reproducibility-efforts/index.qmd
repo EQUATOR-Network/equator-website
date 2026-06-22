@@ -1,0 +1,13 @@
+---
+title: 'CORTRE: COmplete Reporting for Transparency Reproducibility Efforts'
+date-registered: 14 November 2025
+year-registered: 2025
+date-updated: null
+contact-name: Rachel Heyard
+contact-email: rachel.heyard@uzh.ch
+description: "Large-scale efforts investigating reproducibility, replicability, robustness, generalisability, or related concepts, whether across entire fields, research methods, study types, or journal articles, have an important influence on science policy, trajectory, and public trust in research. Examples of such “meta-studies” include large replication projects in psychology, cancer biology, experimental economics, as well as investigations into the robustness and/or \ncomputational reproducibility of results published in specific journals. These studies draw conclusions beyond the immediate set of included studies (for example, at the level of research fields, research methods, or study types). Some of these meta-studies have reported alarming results, and their papers are frequently cited in calls for science policy reforms and interventions, such as mandates for data and code sharing or preregistration.\n\nResearch that informs policy must be of the highest possible quality, reliable, and trustworthy. The “meta-study” format we refer to here, is relatively new and rapidly evolving. Data from meta-studies are frequently re-analysed, e.g., using novel metrics and methods to aggregate and contextualise results. Metaresearchers might also want to synthesise results from multiple efforts to draw conclusions that extend beyond individual meta-studies (in a meta-meta-study, if you will). All of these endeavours depend on transparent, high-quality reporting. To our knowledge, no reporting guideline exists at present for meta-studies.\n\nProject page: [https://cortre.github.io](https://cortre.github.io)"
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

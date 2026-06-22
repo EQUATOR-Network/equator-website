@@ -1,0 +1,18 @@
+---
+title: FAIR -- Fidelity to Acupuncture Intervention Reporting
+date-registered: 2 May 2024
+year-registered: 2024
+date-updated: null
+contact-name: Arya Nielsen
+contact-email: Arya.nielsen@mountsinai.org
+categories:
+- Clinical Trials
+---
+
+Treatment "fidelity" refers to the degree to which an intervention is implemented as intended. Acupuncture trials are guided by the Standards for Reporting Interventions in Controlled Trials of Acupuncture (STRICTA) checklist. This project aims to extend STRICTA for trial reporting, so that users of STRICTA can report fidelity of acupuncture interventions. The developers are in contact with STRICTA authors to collaborate and get their input.
+
+The group will conduct a literature review to identify items potentially relevant to fidelity for acupuncture trials, consolidate items into a checklist, and engage an expert panel of acupuncture researchers in a modified Delphi process to arrive at consensus of items for a FAIR checklist. The panel will include STRICTA authors and researchers in acupuncture from US, Korea, New Zealand, Europe, Japan and possibly  China, UK, and other countries. A consensus meeting is planned as well.
+
+The group doesn't have any funding for the initiative yet, but they plan to publish the reporting guideline as an open access document.
+
+{{< include ../_template.qmd >}}

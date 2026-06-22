@@ -1,0 +1,19 @@
+---
+title: EPIC - Enhanced Prevalence and Incidence Criteria
+date-registered: 27 February 2023
+year-registered: 2023
+date-updated: null
+contact-name: John A. Crump, University of Otago, New Zealand.
+contact-email: john.crump@otago.ac.nz
+description: 'The lack of standardisation in reports on the prevalence and incidence of diseases and other health-related events inspired a group of international experts on infectious diseases, epidemiology and modelling to meet in December 2022. At the meeting, the participants agreed that there was a considerable need for a STROBE guideline extension for observational studies of the prevalence and incidence of infectious and non-communicable diseases.
+
+
+  The core executive group aims to develop an extension of STROBE, for which they are trying to contact-STROBE authors for collaboration.
+
+
+  They already conducted a Delphi exercise including 31 international experts on a preliminary checklist; 22 of whom were present in a face-to-face consensus meeting in South Africa on 6 December 2022. Participants discussed and reached a consensus on the rationale for including items in the checklist, developed a flow diagram and the strategy for producing documents, decided who would be involved in which activities, authorship, and knowledge translation strategy, and generated an early version of the checklist. They are now preparing to conduct the second Delphi exercise, and they plan to pilot-test the checklist. The work receives funding from the Bill & Melinda Gates Foundation through the University of Maryland. The group plans to publish the reporting guideline in 2024 as an open-access paper.'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

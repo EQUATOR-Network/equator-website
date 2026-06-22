@@ -1,0 +1,13 @@
+---
+title: Guideline for Reporting Environmental Epidemiology aNalyses (GREEN)
+date-registered: 20 December 2016
+year-registered: 2016
+date-updated: 2 November 2021
+contact-name: Laurie Chan
+contact-email: laurie.chan@uottawa.ca
+description: This guideline will encompass studies that report on the association between environmental exposures and health outcomes. The group informs they reviewed the literature and are now seeking partnerships to develop a Delphi process.
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

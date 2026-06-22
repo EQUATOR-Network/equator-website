@@ -1,0 +1,19 @@
+---
+title: CORES - CO-creation REporting Standards for research
+date-registered: 17 April 2023
+year-registered: 2023
+date-updated: null
+contact-name: Gemma Pearce
+contact-email: gemma.pearce@coventry.ac.uk
+description: 'Co-creation is an overarching and encompassing approach, which is inclusive of the different stages of co-planning, co-management, co-design, co-production and co-evaluation. Co-creation research is based on Participatory Action Research where co-creators are considered co-researchers rather than participants. The group involved in the development of this reporting guideline explains that co-creation research uses methods “focusing more on creative tools to encourage innovation, change and disruptive thinking”. They aim to create reporting standards for co-creation research, as publications have highlighted the need for them. There may be some overlap with intervention development, service quality improvement, qualitative research and PPI (patient and public involvement).
+
+
+  This project, funded by Erasmus programme, will start with a review of reviews about co-creation, then a 3-4 round Delphi survey will be conducted with an international expert panel, consensus meetings and gathering of feedback from the panel. The final checklist will be translated, using robust methodology (including back translation) to five languages. The final document will be published until the end of 2024, as open-access papers. A website will be launched soon.
+
+
+  - Read the [CORES Protocol](https://www.equator-network.org/wp-content/uploads/2023/04/Protocol-for-the-development-of-CORES.pdf)'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

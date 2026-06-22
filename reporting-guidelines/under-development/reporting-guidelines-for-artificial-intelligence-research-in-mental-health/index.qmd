@@ -1,0 +1,16 @@
+---
+title: Reporting Guidelines for Artificial Intelligence Research in Mental Health
+date-registered: 5 August 2024
+year-registered: 2024
+date-updated: null
+contact-name: Catherine Hébert
+contact-email: catherine.hebert2@mail.mcgill.ca
+description: 'The aim of this project is to develop and propose a new comprehensive reporting guideline tailored to reflect the particularities of artificial intelligence (AI) research in mental health clinical practice (e.g., diagnosis, prognosis and treatment outcomes and allocation).
+
+
+  The group plans to conduct a scoping review to develop a preliminary list of items, submit the list to a Delphi survey, refine and consolidate the reporting guideline, and then pilot test the tool and finalise. The project started in January 2024, and plans to publish the reporting guideline in 2026, as an open access document. No funding has been reported for this project.'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

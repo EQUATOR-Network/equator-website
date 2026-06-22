@@ -1,0 +1,22 @@
+---
+title: 'Survey Aware Machine Learning (SaML) Statement: Reporting Items for Machine Learning Studies Using Complex Sample Survey Data'
+date-registered: 18 May 2026
+year-registered: 2026
+date-updated: null
+contact-name: Alex Bui or YongKyung Oh
+contact-email: buia@mii.ucla.edu; yongkyungoh@mednet.ucla.edu
+description: 'Machine learning (ML) is increasingly applied to different large-scale surveys, such as national health surveys like NHANES (National Health and Nutrition Examination Survey), BRFSS (Behavioral Risk Factor Surveillance System), and NHIS (National Health Interview Survey). Often, such surveys use complex sampling designs with stratification, clustering by primary sampling units, and unequal selection probabilities handled through sampling weights. Standard ML assumes i.i.d. (independent and identically distributed) data and ignores these design features. These survey design features are relevant at multiple stages of the pipeline, including data splitting, model training, performance evaluation, and uncertainty quantification. Without survey aware machine learning (SaML), results may risk biased population estimates, underestimated uncertainty, and unreliable fairness assessments. It is imperative that appropriate considerations be made when using such surveys with ML-based methods.
+
+
+  Existing reporting guidelines address related areas but are incomplete for robust SaML. Preferred Reporting Items for Complex Sample Survey Analysis (PRICSSA) (Seidenberg et al., 2023) standardizes reporting for complex survey analysis, including design, weighting, and variance estimation, but does not cover ML pipelines. TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis)+AI (Collins et al., 2024) standardizes reporting for ML-based prediction models but does not address survey design features such as weights or clustering. As survey design interacts with ML workflows at every stage, this gap cannot be address by extending either guideline independently.
+
+
+  The SaML statement targets this gap. It specifies what information should be reported when applying ML modelling to complex survey data, including choices regarding data splitting, model training, tuning, evaluation, uncertainty and calibration. An initial scoping review of methodological studies (in progress) shows that prior work addresses individual steps but does not provide integrated reporting guidance. Key gaps include whether data splitting respects cluster structure, how sampling weights enter the loss, whether tuning uses design-adjusted metrics, and whether performance reflects the target population.
+
+
+  The need for holistic reporting guidelines for SaML is clear. Recent analyses report that NHANES-based publications nearly doubled from 4926 in 2023, to 7876 in 2024, with many studies applying ML methods without accounting for the complex survey design (Suchak et al., 2025). The SaML statement defines a minimum reporting guidelines that complements PRICSSA and TRIPOD+AI and ensures the ML studies using survey data report the information needed for transparent, reproducible, and population-valid inference.'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

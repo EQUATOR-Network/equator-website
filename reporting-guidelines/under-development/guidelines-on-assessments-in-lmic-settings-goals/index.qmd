@@ -1,0 +1,13 @@
+---
+title: Guidelines On Assessments in LMIC Settings (GOALS)
+date-registered: 28 August 2018
+year-registered: 2018
+date-updated: null
+contact-name: Max Denning
+contact-email: max.denning@nhs.net
+description: "Outcome-based and observational metrics in surgical studies conducted in Lower-Middle Income Countries (LMICs).\n\n- Key papers preceding the development of these guidelines\n (1) Meara JG, Leather AJ, Hagander L, Alkire BC, Alonso N, Ameh EA, Bickler SW, Conteh L, Dare AJ, Davies J, Mérisier ED, El-Halabi S, Farmer PE, Gawande A, Gillies R, Greenberg SL, Grimes CE, Gruen RL, Ismail EA, Kamara TB, Lavy C, Lundeg G, Mkandawire NC, Raykar NP, Riesel JN, Rodas E, Rose J, Roy N, Shrime MG, Sullivan R, Verguet S, Watters D, Weiser TG, Wilson IH, Yamey G, Yip W. Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development. Lancet. 2015;386(9993):569-624. PMID: [25924834](https://www.ncbi.nlm.nih.gov/pubmed/25924834)\n (2) Pauyo T, Debas HT, Kyamanywa P, Kushner AL, Jani PG, Lavy C, Dakermandji M, Ambrose H, Khwaja K, Razek T, Deckelbaum DL. Systematic Review of Surgical Literature from Resource-Limited Countries: Developing Strategies for Success. World J Surg. 2015;39(9):2173-81. PMID: [26037025](https://www.ncbi.nlm.nih.gov/pubmed/26037025)"
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

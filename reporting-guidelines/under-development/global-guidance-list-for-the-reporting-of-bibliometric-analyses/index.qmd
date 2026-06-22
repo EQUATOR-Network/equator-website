@@ -1,0 +1,16 @@
+---
+title: GLOBAL - Guidance List for the repOrting of Bibliometric AnaLyses
+date-registered: 18 November 2022
+year-registered: 2022
+date-updated: null
+contact-name: Jeremy Y. Ng
+contact-email: jerng@ohri.ca
+description: 'The Guidance List for the repOrting of Bibliometric AnaLyses (GLOBAL) plans to develop minimum guidelines for the reporting of bibliometric and scientometric analyses, helping to promote transparency and completeness in reporting bibliometric and related analyses and providing a framework for authors to report methods and results.
+
+
+  The group proposes to perform a literature review and expert consultation to generate a series of candidate items, which will then be assessed by an international multi-stakeholder group in a multi-stage Delphi survey and refined through a checklist pilot. They started the work on the Summer of 2022 and plan to publish the guidance, as an open-access document, in 2024. They also plan to publish a protocol.'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

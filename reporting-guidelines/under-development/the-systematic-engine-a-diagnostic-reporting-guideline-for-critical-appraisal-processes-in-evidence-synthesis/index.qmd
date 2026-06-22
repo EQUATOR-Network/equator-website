@@ -1,0 +1,13 @@
+---
+title: 'The Systematic Engine: A Diagnostic Reporting Guideline for Critical Appraisal Processes in Evidence Synthesis'
+date-registered: 01 April 2026
+year-registered: 2026
+date-updated: null
+contact-name: Maen Mahfouz, Private Orthodontic Clinic, Ministry of Health, Ramallah, Palestine
+contact-email: null
+description: "This guideline addresses the critical gap in transparent reporting of the process and implementation of critical appraisal within systematic reviews and meta-analyses. While tools like PRISMA guide the reporting of the review itself, and tools like Cochrane RoB 2 guide the assessment, there is no standardized framework for reporting how these assessments are performed, integrated, and used to transform the evidence. The Systematic Engine reframes critical appraisal from a procedural checkpoint to the central, diagnostic engine of synthesis. A new reporting guideline is needed because:\n\nCurrent reporting of appraisal is often opaque, with judgments and rationales inadequately documented, hindering reproducibility.\n\nThe linkage between domain-based bias assessments (e.g., from RoB 2, ROBINS-I) and downstream methodological decisions \n(sensitivity analyses, GRADE certainty ratings, narrative conclusions) is frequently unclear or unreported.\n\nThere is high subjectivity and inconsistency in how appraisal tools are applied, with insufficient reporting of team calibration and disagreement resolution processes.\n\nThis guideline will provide a structured checklist for reporting the four core functions of the Systematic Engine model: (1) deconstruction and profiling; (2) stratification and weighting; (3) certainty calibration; and 4 interpretive guarding.\n\n- Project page: [https://doi.org/10.17605/OSF.IO/4JBT2](https://doi.org/10.17605/OSF.IO/4JBT2)"
+categories:
+- Literature reviews
+---
+
+{{< include ../_template.qmd >}}

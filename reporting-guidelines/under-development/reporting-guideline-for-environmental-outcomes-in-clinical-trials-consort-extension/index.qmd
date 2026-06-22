@@ -1,0 +1,22 @@
+---
+title: 'Reporting Guideline for Environmental Outcomes in Clinical Trials: CONSORT Extension'
+date-registered: 18 June 2024
+year-registered: 2024
+date-updated: null
+contact-name: Johanne Juul Petersen
+contact-email: Johanne.juul.petersen@ctu.dk
+categories:
+- Clinical Trials
+---
+
+This CONSORT extension will help authors report the environmental impacts of the clinical interventions being tested in randomised controlled trials, considering the progression of climate change. According to developers, If clinical outcomes show no significant differences, the results of environmental outcomes could be crucial in determining which intervention to choose.
+
+This project is linked to the development of the SPIRIT extension for environmental outcomes in clinical trials protocols, also registered [here](https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-clinical-trials-protocols/#ENVIRONS).
+
+Representatives of the CONSORT-SPIRIT Executive Group, recently involved in CONSORT and SPIRIT update, are involved in the project.
+
+The group will start with a systematic review of relevant methods in reporting of environmental effects of interventions in randomised clinical trials. Next, the generated reporting standards will be evaluated in a Delphi process to reach consensus on the guideline items. This will be followed by pilot testing in multiple randomised clinical trials, and then the proposed guideline will be tested. The feedback from the pilot testing will then be incorporated to the finalised reporting guideline.
+
+Development is starting in June 2024, and the group is applying for funding. They plan to publish the reporting guideline, as an open-access document, in 2027.
+
+{{< include ../_template.qmd >}}

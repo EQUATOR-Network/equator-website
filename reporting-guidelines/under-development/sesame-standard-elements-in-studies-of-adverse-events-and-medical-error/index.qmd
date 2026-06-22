@@ -1,0 +1,13 @@
+---
+title: SESAME - Standard Elements in Studies of Adverse events and Medical Error
+date-registered: 14 December 2023
+year-registered: 2023
+date-updated: null
+contact-name: Richard T. Griffey
+contact-email: griffeyr@wustl.edu
+description: Literature reviews have already noted significant heterogeneity in the definitions and reporting of studies that focus primarily on adverse events and medical error. These studies have adverse events as their primary outcome, not additional variables in larger trials or observational investigations. A group in Washington University in St. Louis School of Medicine, United States, is developing a reporting guideline. Their aim is to help with the complete reporting and standardisation of definitions and key terms in these manuscripts, which will allow comparisons, longitudinal analyses, transparency and actionability of findings. The group started the development in March 2023, and they plan to publish the guidance as an open access document in 2024.
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

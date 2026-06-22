@@ -1,0 +1,20 @@
+---
+title: CONSORT and SPIRIT Extension for Decentralized Clinical Trials (CONSORT-DCT & SPIRIT-DCT)
+date-registered: 01 April 2026
+year-registered: 2026
+date-updated: null
+contact-name: Xuan Zhang
+contact-email: zhangxuan@hkbu.edu.hk
+categories:
+- Clinical Trials
+---
+
+The rapid advancement of digital technologies and artificial intelligence has catalyzed a paradigm shift in clinical research, leading to the widespread adoption of decentralized clinical trials (DCTs). DCTs, which leverage remote methodologies for participant recruitment, consent, intervention delivery, and data collection, offer significant advantages, including improved patient access, diversity, and trial efficiency. These trials can be fully decentralized or adopt a "hybrid" model, blending remote components with traditional site-based visits.
+
+Despite their growing prominence, the rapid and varied implementation of DCTs has outpaced the development of standardized reporting frameworks. Existing reporting guidelines, such as the CONSORT and SPIRIT statements, were developed for conventional, site-centric trials and do not adequately address the unique methodological and operational aspects of decentralized designs. Our preliminary research confirms that current DCT publications often suffer from suboptimal reporting, with significant deficiencies in critical details pertaining to a trial's design specifications, implementation management, data assessment, participant authentication, quality control, and remote monitoring. This lack of transparency and consistency hinders the evaluation of trial validity, compromises reproducibility, and ultimately impedes the generation of robust, high-quality evidence.
+
+The CONSORT-DCT and SPIRIT-DCT guidelines are being developed to address these critical gaps. This extension will provide specific recommendations for reporting decentralized clinical trials in humans, applicable across all health and medical research domains. The scope is intended to be comprehensive, covering a spectrum of decentralization from fully remote trials to hybrid models that incorporate both decentralized and traditional elements.
+
+By providing a clear and standardized reporting framework, the CONSORT-DCT and SPIRIT-DCT extension aims to enhance the quality, transparency, and completeness of DCT reporting. This will empower editors, peer reviewers, regulators, and readers to better assess the methodology and findings of DCTs, thereby fostering the generation of more reliable and actionable evidence in this rapidly evolving field.
+
+{{< include ../_template.qmd >}}

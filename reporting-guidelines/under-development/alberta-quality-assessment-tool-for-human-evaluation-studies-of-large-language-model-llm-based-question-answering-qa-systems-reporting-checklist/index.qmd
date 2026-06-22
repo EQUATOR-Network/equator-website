@@ -1,0 +1,19 @@
+---
+title: 'Alberta Quality Assessment Tool for Human Evaluation Studies of Large Language Model (LLM)-Based Question-Answering (QA) Systems: Reporting Checklist'
+date-registered: 18 June 2025
+year-registered: 2025
+date-updated: null
+contact-name: Carrie Ye
+contact-email: cye@ualberta.ca
+description: 'There has been a surge in research exploring the performance of large language models (LLMs) in answering questions within the medical domain. However, the quality of these studies varies significantly, making it challenging to draw reliable conclusions from the existing body of literature. While several quality assessment tools, such as reporting checklists and risk-of-bias frameworks, are available, they are not well-suited for evaluating studies focused on the human evaluation of LLM-based question-and-answer systems. These tools often fail to address the specific challenges and nuances involved in assessing LLM performance in medical contexts.
+
+
+  To address this gap, we aim to develop the Alberta Quality Assessment Tool (AQAT), a reporting checklist specifically for studies that evaluate LLM-based question-answer systems. The AQAT will ensure transparency and completeness in the documentation of LLM evaluations.
+
+
+  The scope of the AQAT will extend beyond general evaluation metrics, incorporating specific factors pertaining to question source, reference answers, evaluator selection, outcome domains and metrics, model explainability, and the generalizability of findings. By creating a dedicated tool for assessing studies on LLM-based systems, we aim to improve the reliability and reproducibility of research in this rapidly evolving field. Ultimately, the AQAT will enable researchers and healthcare professionals to critically assess the performance of LLMs, ensuring that only transparent and reproducible high-quality studies inform decisions related to their deployment.'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

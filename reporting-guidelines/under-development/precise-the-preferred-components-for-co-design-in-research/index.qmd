@@ -1,0 +1,19 @@
+---
+title: PRECISE - The Preferred Components for Co-design in Research
+date-registered: 7 November 2023
+year-registered: 2023
+date-updated: null
+contact-name: Sarah Munce
+contact-email: sarah.munce@uhn.ca
+description: 'The development of this reporting guideline started in September 2021, funded by CIHR (Canadian Institutes of Health Research) since March 2023, and led by a team in Toronto, Canada. The group states that they are developing a reporting guideline for research using co-design, involving designers and “people not trained in design”. The group defines “design” as “applying ideas, evidence and knowledge in novel ways” and explain that the new reporting guideline will not necessarily be “relevant to co-production or co-creation” (as in [CORES](https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-other-study-designs/#CORES) under development). The resulting guideline will help authors to report on values and principles that are essential to the co-design process in health research, including complex interventions.
+
+
+  In the development process, the group plans a Delphi process and consensus meetings for discussion, determination of the final items to be included and their wording. They plan to publish the reporting guideline in 2024.
+
+
+  - Read the [protocol](https://pubmed.ncbi.nlm.nih.gov/37902812/)'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

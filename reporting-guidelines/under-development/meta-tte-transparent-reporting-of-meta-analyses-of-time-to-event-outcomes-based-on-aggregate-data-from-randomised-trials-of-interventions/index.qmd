@@ -1,0 +1,13 @@
+---
+title: META-TTE - Transparent reporting of meta-analyses of time-to-event outcomes based on aggregate data from randomised trials of interventions
+date-registered: 27 April 2023
+year-registered: 2023
+date-updated: null
+contact-name: Nicole Skoetz and Marius Goldkuhle
+contact-email: nicole.skoetz@uk-koeln.de; marius.goldkuhle@uk-koeln.de
+description: "Poor reporting of time-to-event analyses in trial publications, including outcome definitions, general and time-to-event specific methods and study characteristics can hinder the development of time-to-event meta-analyses. \n\nTo address these limitations and to improve the reporting of such meta-analyses, a group from Germany is developing a reporting guideline to be used em conjunction with PRISMA, but specifically focused on time-to-event outcomes. \n\nThe group is conducting an online open survey among experts in evidence synthesis, methodologists and statisticians to identify and confirm relevant reporting items and their definition. After a first round of feedback, they will invite participants for consultatory calls, to discuss discrepancies.\n\nThe group has-registered a protocol at OSF: [https://osf.io/j5bmw](https://osf.io/j5bmw). They plan to publish the reporting guidelines in late 2024, as open-access documents if funding becomes available for that."
+categories:
+- Literature reviews
+---
+
+{{< include ../_template.qmd >}}

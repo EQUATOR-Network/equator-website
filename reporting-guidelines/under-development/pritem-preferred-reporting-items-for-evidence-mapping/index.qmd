@@ -1,0 +1,16 @@
+---
+title: PRITEM - Preferred Reporting Items for Evidence Mapping
+date-registered: 1 December 2022
+year-registered: 2022
+date-updated: null
+contact-name: Kehu Yang, School of Basic Medical Sciences, Lanzhou University, China
+contact-email: yangkh-ebm@lzu.edu.cn
+description: 'A group of researchers in China identified the need to develop reporting guidance for studies that mapping the evidence available in medical sciences. Evidence mapping describes the quantity, design and characteristics of research in broad topic areas, in contrast to systematic reviews, which usually address narrowly-focused research questions. Evidence mapping identify high-priority research questions.
+
+
+  According to the project leaders, the development protocol of PRITEM Statement, including 12 phases, is to be published soon, and the literature review has already been completed.'
+categories:
+- Literature reviews
+---
+
+{{< include ../_template.qmd >}}

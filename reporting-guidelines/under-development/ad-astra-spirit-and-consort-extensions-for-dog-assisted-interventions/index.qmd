@@ -1,0 +1,13 @@
+---
+title: AD ASTRA - SPIRIT and CONSORT extensions for dog-assisted interventions
+date-registered: 16 January 2024
+year-registered: 2024
+date-updated: null
+contact-name: null
+contact-email: null
+description: Access this registration details [here](https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-clinical-trials/#DOG).
+categories:
+- Clinical trial protocols
+---
+
+{{< include ../_template.qmd >}}

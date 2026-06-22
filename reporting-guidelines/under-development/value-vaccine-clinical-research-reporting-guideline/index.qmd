@@ -1,0 +1,16 @@
+---
+title: VALUE -- VAccine cLinical research reporting gUidEline
+date-registered: 25 January 2022
+year-registered: 2022
+date-updated: null
+contact-name: Zhaoxiang Bian; Yuting Duan
+contact-email: bianzxiang@gmail.com; 18702009530@163.com
+categories:
+- Clinical Trials
+---
+
+The Chinese EQUATOR Centre is developing this reporting guideline for clinical trials of vaccine interventions. A literature review has shown areas where the publication of such trials lacks clarity, such as the eligibility criteria for participants, the basis for sample size calculation, duration of follow-up, the definition of seroconversion, and adverse events description.
+
+The development started on 18 of May 2021, following the EQUATOR toolkit for developers, and the group plans to publish the reporting guideline in 2022, as an open-access document.
+
+{{< include ../_template.qmd >}}

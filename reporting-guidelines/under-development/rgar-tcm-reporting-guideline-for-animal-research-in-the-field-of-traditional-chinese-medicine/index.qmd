@@ -1,0 +1,16 @@
+---
+title: RGAR-TCM - Reporting Guideline for Animal Research in the Field of Traditional Chinese Medicine
+date-registered: 14 December 2023
+year-registered: 2023
+date-updated: null
+contact-name: Bin Ma
+contact-email: kittymb2017@163.com
+description: 'The available ARRIVE 2.0 reporting guideline helps researchers reporting in vivo experiments with animals. However, it is not focused on studies on traditional Chinese medicine (TCM). A group from the Center for Evidence-Based Medicine, Lanzhou University decided to develop a reporting guideline for research with animals but focused on the different sources, varieties, and processing methods of TCM, including detailed information on the composition and formula of medications.
+
+
+  The group will conduct a literature review, and will then run a Delphi survey and a face-to-face meeting in 2024. The project is funded as a Lanzhou Science and Technology Planning Project. The plan is to publish the reporting guideline as an open access document in 2025.'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

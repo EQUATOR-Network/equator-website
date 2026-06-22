@@ -1,0 +1,13 @@
+---
+title: PRISMA-P Update - Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols
+date-registered: 29 January 2024
+year-registered: 2024
+date-updated: null
+contact-name: Camilla Hansen Nejstgaard, Centre for Evidence-Based Medicine Odense
+contact-email: cahansen@health.sdu.dk
+description: "[PRISMA-P](https://www.prisma-statement.org/Extensions/Protocols) (“PRISMA for protocols”) was initially published in 2015. Since then, the field of systematic reviews and meta-analyses has expanded, new methodological and reporting practices have evolved, and the role of protocols in clinical research has been increasingly debated. The original PRISMA guideline from 2009 for completed systematic reviews was-updated and published as PRISMA 2020. \n\nThe PRISMA-P 2025 steering group plans to update the reporting guideline for protocols for systematic reviews, harmonising it with PRISMA 2020. The PRISMA-P 2025 will provide guidance for the minimum content necessary for the protocol of a systematic review.\n\nThe update will be developed in six stages:\n\n1. **reviews** - supporting projects including a scoping review identifying published comments and suggestions for modifications on PRISMA-P 2015, and an empirical study analysing the adherence to PRISMA-P 2015 among systematic review protocols stating to have used the reporting guideline\n2. **draft** - using the existing PRISMA-P 2015 reporting guideline as a starting point, an initial draft of guideline items will be developed based on the evidence identified in the supporting projects together with items included in PRISMA 2020 and relevant PRISMA extensions. \n3. **survey** - an online survey among a large international survey panel to help decide on items that could be modified, added to, or removed from  PRISMA-P 2015\n4. **refinement** - a consensus meeting with an advisory group\n5. **write-up** - drafting the-updated list of items \n6. **publication** - two manuscripts: the PRISMA-P 2025 guideline statement and the explanation and elaboration (E&E) document.\n\nThe study protocol is under development, and no funding was obtained so far. The leaders plan to publish the update as an open access document."
+categories:
+- Literature reviews
+---
+
+{{< include ../_template.qmd >}}

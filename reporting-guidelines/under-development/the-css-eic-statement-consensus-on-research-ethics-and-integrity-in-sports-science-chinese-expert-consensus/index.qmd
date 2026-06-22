@@ -1,0 +1,35 @@
+---
+title: 'The CSS-EIC Statement: Consensus on Research Ethics and Integrity in Sports Science (Chinese Expert Consensus)'
+date-registered: 01 April 2026
+year-registered: 2026
+date-updated: null
+contact-name: Qingde Shi, Faculty of Health Sciences and Sports, Macao Polytechnic University.
+contact-email: qdshi@mpu.edu.mo
+description: 'Background: Sports science research in China has experienced exponential growth in recent years. However, the development of specific ethical norms has lagged behind this quantitative expansion. General guidelines (e.g., Declaration of Helsinki) do not fully address the unique challenges inherent to sports science, particularly within the context of high-performance sport.
+
+
+  Scope & Aim: This project aims to develop the “China Sports Science Ethics & Integrity Checklist (CSS-EIC).” It is a consensus-based reporting guideline designed to bridge the gap between international ethical standards and specific local research practices.
+
+
+  Key Issues Addressed: The guideline covers six key domains:
+
+
+  Participant Rights: Addressing power dynamics in athlete recruitment (e.g., coach-athlete relationships) and ensuring non-coercion.
+
+
+  Safety & Anti-Doping: Establishing physiological cut-off criteria for maximal exertion tests and ensuring strict WADA compliance for supplement studies.
+
+
+  Methodological Rigor: Promoting transparency in intervention reporting (based on TIDieR/CERF) and scientific justification for invasive procedures.
+
+  Data Privacy: Managing data ownership disputes (team vs. researcher) and de-identification of high-profile elite athletes.
+
+
+  Animal Welfare: Specific ethics for forced exercise models.
+
+  Research Integrity: Addressing authorship disputes and data management.'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

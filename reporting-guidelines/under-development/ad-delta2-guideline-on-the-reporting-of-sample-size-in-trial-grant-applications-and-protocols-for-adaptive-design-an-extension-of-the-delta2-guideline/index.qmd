@@ -1,0 +1,28 @@
+---
+title: 'AD-DELTA2: Guideline on the reporting of sample size in trial grant applications and protocols for adaptive design: an extension of the DELTA2 guideline'
+date-registered: 18 June 2025
+year-registered: 2025
+date-updated: null
+contact-name: Qiang Zhang
+contact-email: qzhang104@sheffield.ac.uk
+description: 'Adaptive designs (ADs) are increasingly adopted in clinical trials to improve flexibility, efficiency, and ethical decision-making. However, the reporting of sample size calculations for ADs—particularly within trial protocols and grant applications—remains inconsistent. Essential elements such as prespecified decision rules, interim analysis plans, and measures of uncertainty (e.g. minimum, expected, and maximum sample sizes) are often missing or inadequately described.
+
+
+  Existing reporting guidelines offer only partial support. The SPIRIT 2013 and 2025 guidelines, while widely implemented, cover a broad spectrum of protocol content and provide limited guidance specific to adaptive designs. The ACE (Adaptive designs CONSORT Extension) framework focuses on the retrospective reporting of completed trials and is not intended for prospective use in protocols or funding applications. Although ACE encourages the inclusion of multiple sample size metrics and operating characteristics, it offers limited direction on how to report these elements prospectively during trial planning. The DELTA2 guidance provides strong recommendations for fixed-design sample size calculations, but lacks the additional detail required for adaptive designs, where transparency, reproducibility, and statistical rigour demand more comprehensive reporting.
+
+  There is therefore a clear need for a prospective, evidence-based reporting framework tailored to the specific requirements of adaptive designs across a range of adaptation types in trial grant applications and protocols.
+
+
+  The AD-DELTA2 reporting checklist addresses this need. It comprises 16 main items, developed through a systematic review of previous trial grant applications and protocols, qualitative interviews with clinical trial stakeholders, a two-round Delphi study, and a final consensus meeting. The checklist provides structured guidance on reporting of critical components, including planned adaptations, decision rules, interim analyses, operating characteristics, and multiple sample size metrics, promoting transparent, consistent, and reproducible reporting in both trial protocols and grant submissions.
+
+  An accompanying Explanation & Elaboration (E&E) document provides detailed rationale and real-world examples to support implementation in practice.
+
+
+  - Protocol of the Delphi study can be accessed [here](https://doi.org/10.15131/shef.data.29268875.v1)
+
+  - Protocol of the qualitative study can be accessed [here](https://doi.org/10.15131/shef.data.27733932.v1)'
+categories:
+- Clinical trial protocols
+---
+
+{{< include ../_template.qmd >}}

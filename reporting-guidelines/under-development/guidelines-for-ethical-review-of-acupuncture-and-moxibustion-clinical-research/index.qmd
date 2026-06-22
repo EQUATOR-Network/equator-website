@@ -1,0 +1,13 @@
+---
+title: Guidelines for ethical review of acupuncture and moxibustion clinical research
+date-registered: 01 April 2026
+year-registered: 2026
+date-updated: null
+contact-name: Zhao Meng
+contact-email: 383640368@qq.com
+description: This standard is applicable to clinical research projects involving the human body initiated by researchers and involving acupuncture and moxibustion therapy as an intervention means. It can clarify the basic requirements and procedures of ethical review, provide clear guidance and norms for ethical review of acupuncture and moxibustion clinical research by formulating detailed standards, and ensure the fairness, transparency and traceability of the review process; It can also strengthen the protection of the rights and interests of research participants, ensuring that their informed consent rights, privacy rights, and autonomy of choice are fully respected and protected in the process of research design, implementation, and result reporting. It can also improve the quality and credibility of research, screen out research projects that meet scientific, reasonable and safety requirements through strict ethical review, improve the overall quality and credibility of acupuncture and moxibustion clinical research, and provide a reliable basis for the progress of acupuncture and moxibustion discipline.
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

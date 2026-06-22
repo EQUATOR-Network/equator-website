@@ -1,0 +1,13 @@
+---
+title: PRISMA-AI - Preferred Reporting Items for Systematic Reviews and Meta-Analyses - Artificial Intelligence Extension
+date-registered: 3 May 2022
+year-registered: 2022
+date-updated: null
+contact-name: Giovanni Cacciamani, Institute of Urology, University of Southern California   -
+contact-email: giovanni.cacciamani@med.usc.edu
+description: "With the advances in artificial intelligence (AI) over the last two decades, enthusiasm and adoption of this technology in medicine have steadily increased. However, the way such methodologies and results are reported varies widely and the readability of clinical studies using AI can be challenging to the general clinician. The number of systematic reviews on the topic, with or without meta-analysis, is also increasing dramatically, yet the quality of reporting is still poor and heterogeneous. \n\nThe PRISMA-AI extension development focuses on standardising the reporting of methods and results for clinical studies using AI, reflecting the most relevant technical details required for future reproducibility, and the clinician ability to critically follow and ascertain the relevant outcomes of such studies.\n\nThe group leading the project will identify particular requirements for the reporting of AI and related topics (namely machine learning, deep learning, neuronal networking) in systematic reviews, and reach consensus among multi-specialty experts and the lead authors of PRISMA, STARD-AI, CONSORT-AI, SPIRIT-AI, TRIPOD-AI, PROBAST-AI, CLAIM-AI and DECIDE-AI.\n\nThe development of this PRISMA extension will follow the steps described in the EQUATOR Toolkit for reporting guidelines, including literature review and consensus exercises. The group plans to publish the PRISMA-AI statement as an open-access document in 2022, and also have it translated to Spanish, French and Chinese."
+categories:
+- Literature reviews
+---
+
+{{< include ../_template.qmd >}}

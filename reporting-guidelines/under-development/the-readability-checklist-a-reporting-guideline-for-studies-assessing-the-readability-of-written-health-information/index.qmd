@@ -1,0 +1,13 @@
+---
+title: 'The Readability Checklist: A reporting guideline for studies assessing the readability of written health information'
+date-registered: 22 January 2026
+year-registered: 2026
+date-updated: null
+contact-name: Olivia Mac
+contact-email: Olivia.mac@sydney.edu.au
+description: "The Readability Checklist provides a set of recommendations that should be included in studies assessing the readability of written health information. Its primary purpose is to improve methodological rigor, transparency, and reproducibility in this growing area of research.\n\nReadability assessment is the most common used approach to revise and evaluate written health information. With the proliferation of readability formulas and automated tools, studies assessing readability have increased substantially across diverse health domains. However, recent reviews highlight significant variability in reporting practices, including incomplete descriptions of methods, lack of justification for formula and calculator selection, and insufficient detail on text preparation and analysis. These gaps hinder meaningful comparison across studies and limit the ability to replicate findings.\n\nThe need for this guideline was reinforced by our recent eDelphi study (under review), which sought to identify and gain consensus on research priorities in order to determine the role of readability assessment in health literate document design. One of the key priorities was the need to establish best practices for conducting and reporting readability analyses. Currently, no standardized reporting framework exists for this type of research. As a result, studies often omit critical information which may compromise transparency and lead to misinterpretation of results. \nThe Readability Checklist addresses these issues by outlining essential reporting items for studies assessing readability of health information. It is intended for researchers, health information developers, journal editors, and peer reviewers. By promoting consistent and comprehensive reporting, the guideline aims to enhance the quality of evidence and improve methodological rigour and reporting transparency."
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

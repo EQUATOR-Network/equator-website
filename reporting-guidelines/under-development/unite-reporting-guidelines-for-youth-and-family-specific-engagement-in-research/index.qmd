@@ -1,0 +1,22 @@
+---
+title: 'UNITE: Reporting guidelines for youth and family specific engagement in research'
+date-registered: 25 July 2025
+year-registered: 2025
+date-updated: null
+contact-name: Sarah Munce, Holland Bloorview Kids Rehabilitation Hospital.
+contact-email: smunce@hollandbloorview.ca
+description: 'In recent years, there has been growing emphasis on the importance of involving patients as active contributors to all stages of the research process. Aligning research with patients’ needs, values, and preferences can significantly enhance its relevance and impact. Within this broader shift, youth and families play an indispensable role in research, given their unique lived experiences and expertise, leading to more effective interventions, policies and services that are aligned with their lived experiences and developmental needs. Beyond improving research quality and impact, meaningful youth and family engagement also supports capacity building, empowerment, and fostering a sense of community and belonging among youth and families engaged in research.
+
+
+  However, despite its recognized benefits, the reporting of patient engagement in many peer-reviewed publications, including youth and family engagement in research remains inconsistent. This reporting gap hinders the transparency and reproducibility of patient engagement efforts and practices, limiting opportunities for research teams to learn from and build upon existing patient engagement efforts.
+
+
+  The current lack of reporting guidelines specific to youth and family engagement poses challenges for research teams to collaborate with youth and families in a consistent way. Thus, it has become increasingly apparent that explicit and systematic guidance on reporting of youth and family engagement in research is essential to advance the field and eventually promote the practice of meaningful and authentic research partnerships. The proposed reporting guideline will provide guidance for research teams to consistently report youth and family engagement in research. It will outline key elements to report—such as who was engaged, how they were engaged, the goals and outcomes of engagement etc. This guideline will be co-developed with youth, family caregivers, and researchers to ensure that it reflects their needs and priorities.
+
+
+  - Protocol: [https://www.researchprotocols.org/2025/1/e65733](https://www.researchprotocols.org/2025/1/e6573 3)'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

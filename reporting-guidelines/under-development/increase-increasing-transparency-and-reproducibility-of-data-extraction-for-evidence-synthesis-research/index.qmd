@@ -1,0 +1,19 @@
+---
+title: INCREASE - Increasing transparency and Reproducibility of data Extraction for evidence Synthesis research
+date-registered: 24 January 2023
+year-registered: 2023
+date-updated: null
+contact-name: ChangXu, Key Laboratory of Population Health Across Life Cycle, Ministry of Education, and College of Public Health, Anhui Medical University, China
+contact-email: xuchang2016@runbox.com
+description: 'This project aims to develop an reporting checklist in order to improve the reproducibility of data extraction for evidence synthesis researches (like systematic reviews), where “raw material” from original studies is transferred to reviews that serve as the basis for evidence synthesis. The reporting guideline under development will allow authors to write up the manuscript section related to the data extraction procedures.
+
+
+  The project leaders are reviewing current existing guidelines, tutorials, and handbooks for evidence syntheses for potential reporting guidance for data extraction. They will discuss the materials internally and build a draft checklist, which will undergo two rounds of Delphi surveys among methodologists, epidemiologists, statisticians, clinicians, journal editors, and review authors for further discussion and amendments. Finally, an online meeting with the core members will finalise the checklist. The group also plans to perform trials of the checklist to verify whether it works, and update the checklist if necessary.
+
+
+  The development starts in March 2023, with funding from the Ministry of Education and the College of Public Health, Anhui Medical University, China. A protocol will be published soon after. The results are to be published as an open-access paper.'
+categories:
+- Literature reviews
+---
+
+{{< include ../_template.qmd >}}

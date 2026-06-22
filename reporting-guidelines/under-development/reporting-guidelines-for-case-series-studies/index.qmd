@@ -1,0 +1,30 @@
+---
+title: Reporting Guidelines for Case Series Studies
+date-registered: 22 January 2026
+year-registered: 2026
+date-updated: null
+contact-name: Bin Ma, Evidence-Based Medicine Center, School of Basic Medical Sciences, Lanzhou University, Lanzhou, China.
+contact-email: kittymb2024@163.com
+description: 'Case series research, as one of the common designs in real-world research, offers unique advantages compared to other study types. These advantages include a simplified process, lower research costs, typically larger sample sizes, and ethical feasibility for exploring rare diseases. Case series are often used in a variety of contexts, for example:
+
+
+  1. To evaluate the potential efficacy of innovative interventions.
+
+  2. To assess treatment outcomes in rare diseases.
+
+  3. To investigate rare adverse reactions associated with certain interventions.
+
+  4. To conduct preliminary assessments of the safety and feasibility of medical devices or drugs before their clinical application.
+
+  5. To validate and supplement post-marketing real-world data for medical products.
+
+
+  Reporting case series studies in a standardized and transparent manner is beneficial for comparing and integrating findings across studies in the same field, improving the credibility of the research, and facilitating the translation of results into clinical practice. Conversely, non-standardized or non-transparent reporting can lead to biased or incomplete results, thereby weakening the validity of the findings. This not only limits the value of case series evidence in medical practice but could even mislead clinicians’ decision-making. Many investigations have pointed out that most case series studies currently suffer from reporting deficiencies - for instance, a lack of standardized disease definitions, missing data, and selective reporting. Therefore, establishing a scientifically sound and standardized reporting guideline has become an urgent need to improve the transparency and completeness of case series reports. However, at present there is still no general reporting guideline specifically for case series research. Thus, our team has developed this guideline with the aim of enhancing the standardization and transparency of case series reporting, promoting integration and comparison across different studies, and ultimately facilitating the application of these findings in clinical practice.
+
+
+  Scope of the guideline: This guideline is intended for reporting case series research involving all populations (i.e. it is not restricted to any particular age group, disease, or demographic).'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

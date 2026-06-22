@@ -1,0 +1,16 @@
+---
+title: 'Research reporting guidelines for health RESearch involving People who arE inCarceraTed: The RESPECT Guidelines'
+date-registered: 10 October 2025
+year-registered: 2025
+date-updated: null
+contact-name: Kate McLeod, McMaster University .
+contact-email: kate.mcleod@mcmaster.ca
+description: 'The scope of this guideline is: Original research that involves people experiencing incarceration or detention in a correctional facility as participants and that includes a focus on health. The guidelines will apply to all methodologies. We define correctional facility as designated facilities that hold people remanded to custody or following sentencing related to the criminal legal system including jails, prison, penitentiaries, etc. We define health as per the World Health Organization: a state of complete physical, mental, and social well-being and not merely the absence of disease or infirmity. This includes studies of healthcare.
+
+
+  People who experience incarceration experience substantial health inequities. Research represents an important strategy to improve population health, but there are unique considerations and challenges inherent in conducting research involving people who are incarcerated. Research involving people in custody is often reported badly and missing information needed for appropriate interpretation and use such as project covernance (e.g. role of correctional authority), ethical issues (e.g. how participants were recruited) and sampling (e.g. whether purposive, or whole population). Research reporting guidelines are a proven strategy to strengthen research reporting, and may positively influence research standards and practices. Additionally, though less common than guidelines for methodologies or conditions, guidelines for research involving specific populations (such as the CONSIDER statement for strengthening reporting of health research involving Indigenous Peoples) are an important resource for addressing inequities in health and health research. However, there are currently no research reporting guidelines for research involving people who are incarcerated as participants.'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

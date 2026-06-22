@@ -1,0 +1,33 @@
+---
+title: Orthopaedic CAse REport Reporting Guideline
+date-registered: 22 January 2026
+year-registered: 2026
+date-updated: null
+contact-name: Ali Lari, Department of Orthopaedics, University of British Columbia, Vancouver, Canada.
+contact-email: dr.alilari@gmail.com
+description: 'Orthopaedic case reports constitute an important source of early clinical insight, highlighting rare presentations, novel surgical approaches, implant-related complications, and unexpected outcomes across trauma, arthroplasty, spine, sports medicine, paediatric orthopaedics, and oncology. Despite their widespread use, the reporting quality of orthopaedic case reports remains highly variable. Current general case-reporting frameworks—most notably the CARE guideline and the surgery-focused SCARE guideline—have significantly improved transparency in their respective domains, but they do not fully address orthopaedic-specific requirements such as implant specifications, fixation strategies, biomechanical considerations, classification systems, rehabilitation protocols, imaging standards, or functional outcome measures.
+
+
+  Orthopaedic case reports frequently include device-related details and operative nuances that demand greater specificity than what current generic reporting tools provide. As a result, essential information is often missing or inconsistently reported, limiting educational value, hindering reproducibility, and reducing the usefulness of these reports for clinicians, trainees, and researchers.
+
+
+  O-CARE aims to address this gap by developing a dedicated, consensus-based reporting guideline tailored specifically to orthopaedic case reports. This guideline will:
+
+
+  - Provide a structured checklist covering all key domains of orthopaedic case reporting.
+
+
+  - Enhance the completeness, clarity, and clinical relevance of case reports across all orthopaedic subspecialties.
+
+  Support authors, reviewers, and journal editors in evaluating and improving case report quality.
+
+
+  - Facilitate future systematic synthesis of case-based evidence and improve the reporting of early signals related to new implants, techniques, and complications.
+
+
+  O-CARE will be developed via a rigorous multi-phase process, involving a Steering Committee of experts in orthopaedics and reporting methodology, and a broad Delphi panel including surgeons, methodologists, journal editors, and allied specialists. The final guideline will be applicable internationally and will be offered as an open-access resource to maximize uptake and impact.'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

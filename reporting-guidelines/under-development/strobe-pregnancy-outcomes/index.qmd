@@ -1,0 +1,16 @@
+---
+title: STROBE-pregnancy outcomes
+date-registered: 27 November 2020
+year-registered: 2020
+date-updated: null
+contact-name: Sarah Stock, Usher Institute, University of Edinburgh.
+contact-email: sarah.stock@ed.ac.uk
+description: 'This guideline will relate to observational studies that report measures of maternal, fetal, and neonatal outcomes, for example, cohort studies examining exposures during pregnancy and subsequent outcomes. An extension to the STROBE reporting guideline is necessary to capture the complexity of perinatal studies, enabling assessment of data plausibility and completeness. The guideline is needed to ensure appropriate reporting of multiple (and competing) outcomes with a clear description of populations included, definitions used and analytical methods applied.
+
+
+  The executive group developing this extension of the STROBE reporting guideline has already finished a review on the quality of reporting of perinatal outcomes and data in the literature and plans to conduct a Delphi exercise in the second quarter of 2021. Consensus meetings will be held in the third quarter, and the development of the statement and piloting at the end of 2021. The group plans to publish the reporting guideline extension in 2022, as an open-access document.'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

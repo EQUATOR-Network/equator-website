@@ -1,0 +1,19 @@
+---
+title: CARITS - Complete and Accurate Reporting of Interrupted Time Series studies
+date-registered: 9 May 2023
+year-registered: 2023
+date-updated: null
+contact-name: Joanne McKenzie, Monash University.
+contact-email: joanne.mckenzie@monash.edu
+description: 'Interrupted time series (ITS) designs are commonly used to evaluate the effects of interventions targeted at populations (for example, changes to public health policy) or the impacts of exposures (such as natural disasters). In an ITS, a series of observations are collected both before and after an interruption. The impact of the interruption can then be quantified by comparing the observed post-interruption trend with the counterfactual. The design is less susceptible to bias than some other non-randomised designs (such as before-after design) and can be strengthened by the addition of control series. Complete and accurate reporting of the design and statistical methods is required so that readers can understand, for example, the details of the interruption(s), features of the design (e.g. number of periods, number of data points), the structure of the fitted model, statistical methods, and the effect measures used to quantify the interruption’s impact. A number of studies examining the methods of ITS studies have identified incomplete reporting of key design and statistical details.
+
+
+  The core group developing this reporting guideline is primarily based at the School of Public Health and Preventive Medicine at Monash University. They received funding from the Australian National Health and Medical Research Council (NHMRC) to develop a reporting guideline for ITS studies.
+
+
+  The group plans to publish a protocol including literature reviews, surveys with stakeholders, and a face-to-face consensus meeting. They plan to publish their reporting guideline as an explanation and elaboration open-access document around 2025-6.'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

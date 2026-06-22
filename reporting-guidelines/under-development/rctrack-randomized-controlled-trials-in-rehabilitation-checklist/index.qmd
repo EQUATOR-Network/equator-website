@@ -1,0 +1,22 @@
+---
+title: RCTRaCk -- Randomized Controlled Trials in Rehabilitation Checklist
+date-registered: 9 July 2019
+year-registered: 2019
+date-updated: null
+contact-name: Stefano Negrini
+contact-email: stefano.negrini@unimi.it
+categories:
+- Clinical Trials
+---
+
+The aim of the RCTRaCk is to expand the existing CONSORT (Consolidated Standards of Reporting Trials) for Non-Pharmacological Treatment Studies checklist with a set of items that directly address the reproducibility of rehabilitation research, and involving clinical and observational trials.
+
+The group had a discussion on the methodological problems in rehabilitation research during a meeting held in Paris, France, in July 2018 (the Cochrane Rehabilitation Methodological Meeting). After a scoping review of the literature, a second meeting, held in Kobe, Japan, in June 2019, the group discussed the project of creating a reporting guideline as an extension of CONSORT, aimed for complex interventions in rehabilitation.
+
+Eight Technical Working Groups were created and will carry on further literature reviews for building a first list of items of a checklist. The draft will be discussed in a Consensus Conference in Orlando, United States, in March 2020. Delphi rounds for refinement of the preliminary items will be carried out afterwards.
+
+The group intends to publish the reporting guideline in 2021, as an open-access document.
+
+Details: RCTraCk project [webpage](https://rehabilitation.cochrane.org/news/rcts-rehabilitation-checklist-rctrack-project) and [description (PDF)](https://rehabilitation.cochrane.org/sites/rehabilitation.cochrane.org/files/public/uploads/isprm_kobe_-_rctrack_sn.pdf)
+
+{{< include ../_template.qmd >}}

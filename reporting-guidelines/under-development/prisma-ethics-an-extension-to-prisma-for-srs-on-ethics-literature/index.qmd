@@ -1,0 +1,16 @@
+---
+title: 'PRISMA-Ethics: an extension to PRISMA for SRs on ethics literature'
+date-registered: 4 October 2018
+year-registered: 2018
+date-updated: null
+contact-name: Hannes Kahrass
+contact-email:
+- Kahrass.Hannes@mh-hannover.de
+- Mertz.Marcel@mh-hannover.de
+- daniel.strech@charite.de
+description: "This PRISMA extension will take into account the characteristics of systematic reviews (SRs) on _literature about ethically sensitive topics_. The methods for search and selection will be very close to those applied in “traditional”, i.e. quantitative SRs, using empirical literature. But as SRs on ethically sensitive topics primarily involve conceptual and qualitative analyses and syntheses, these particularities need to be reflected in a reporting guideline (a more comprehensive definition of the scope/the type of literature will be given in the upcoming publication). For the extension of PRISMA, the PRISMA, as well as the ENTREQ statement for qualitative research, are used as a basis.  The group plans to publish the reporting guideline as an open-access paper in the Summer of 2019.\n\nIn a constituting session, the executive group agreed on the following steps:\n\nConsensus discussion on a PRISMA checklist extension for ethics literature based on PRISMA and ENTREQ (face-to-face workshop and teleconference) - already done; \nConsensus discussion on explanation and elaboration texts for the items on the adapted PRISMA checklist (written and verbal exchange/teleconference) - in the process of drafting texts for explanation and elaboration; the first discussion round planned was to take place in December 2018; \nFinalisation of the checklist but also of the explanations and elaborations texts. The planned face-to-face workshop will particularly incorporate the feedback of potential users of the reporting guideline, such as editors and researchers, as well as potential users of published SRs on ethics literature, e.g. clinicians, policymakers, and ethics guideline developers - planned for 2019."
+categories:
+- Literature reviews
+---
+
+{{< include ../_template.qmd >}}

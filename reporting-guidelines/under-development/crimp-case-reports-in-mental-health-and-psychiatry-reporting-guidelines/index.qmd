@@ -1,0 +1,19 @@
+---
+title: CRIMP - Case Reports in Mental Health and Psychiatry Reporting Guidelines
+date-registered: 29 July 2024
+year-registered: 2024
+date-updated: null
+contact-name: Siddharth Sarkar, National Drug Dependence Treatment Centre, All India Institute of Medical Sciences, New Delhi, India.
+contact-email: Sidsarkar22@gmail.com
+description: 'Psychiatric case reports provide insights about atypical and rare case presentations, process of diagnostic evaluation, and therapeutic trials. A systematic appraisal of case reports can help in paying attention to different elements that may have a consequence on inference of the results in a different context. Uniform reporting with minimal defined standards also is helpful in ensuring the quality of scientific literature. As there are no specific case reports guidelines in psychiatry covering varied aspects of case reports, a group of researchers based in India will develop case report guidelines in the field of psychiatry and mental health.
+
+
+  A literature review will provide a preliminary list of items to undergo a Delphi process involving experts in the field of psychiatry and mental health, including researchers, clinicians, methodologists, and journal editors. A face-to-face online meeting will examine each item critically, and the developers also plan for piloting the reporting guideline in 10 case reports by 2 experts, with adjustments where necessary, and a further application in 100 case reports.
+
+
+  The project receives no funding so far. The steering group does not include patients representatives. They plan to start development in the en of July 2024 and to publish the reporting guideline as an open access document.'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

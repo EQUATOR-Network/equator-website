@@ -1,0 +1,18 @@
+---
+title: 'POCUS-REPORT: The REporting a Time-to-onset Anaysis using Individual Case Safety reports in PharmacoVigilance'
+date-registered: 18 June 2025
+year-registered: 2025
+date-updated: null
+contact-name: Yoshihiro Noguchi, Laboratory of Clinical Pharmacy, Gifu Pharmaceutical University
+contact-email: noguchiy@gifu-pu.ac.jp
+description: 'As part of the utilization of the Individual case safety reports (ICSR) database, Time-to-Onset (TTO) analyses based on drug-related adverse event reports in the database is actively being performed in conjunction.
+
+  Several reporting guidelines have been developed for observational studies, including STROBE, RECORD-PE and READUS-PV. However, these guidelines are outside the scope of reporting TTO analyses. Therefore, TTO analyses are often poorly reported and interpreted.
+
+
+  - Project page: [https://sites.google.com/view/retaics-pv/home](https://sites.google.com/view/retaics-pv/home)'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

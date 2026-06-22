@@ -1,0 +1,19 @@
+---
+title: Minimum standards for content and format of meta-data and data reporting in systematic reviews
+date-registered: 14 October 2020
+year-registered: 2020
+date-updated: null
+contact-name: Neal Haddaway, Stockholm Environment Institute
+contact-email: neal.haddaway@sei.org
+description: 'Reporting transparency many times involves making available sets of data that are related to the main research report. The way these materials are uploaded to online platforms interferes with the discoverability by systematic reviewers. With that in mind, this group is proposing a guideline with a list of minimum requirements for the formatting of files, especially regarding meta-data, to allow machine readability and reuse. They plan to set standards for the reporting of all decisions taken during the study retrieval, selection, data extraction, and critical appraisal processes of a systematic review. For the description of the content and format, they want to be able to specify the file format (e.g. .txt, .ris, .csv, .json as opposed to .pdf, .docx., or .accdb) and the internal structure of the document (e.g. field tags for .ris formats, which field tag should contain eligibility decision tags at each level of screening). A longer-term aim is to encourage that data to have doi numbers and are freely accessible (FAIR/Open Data) through data archiving.
+
+
+  The guidance will apply to all systematic reviews, irrespective of the discipline, including reviews in sustainability, climate change, healthcare, international development, environmental science, social welfare, etc.
+
+
+  The group is planning a Delphi-style process and a future multidisciplinary expert panel to reach a consensus.'
+categories:
+- Literature reviews
+---
+
+{{< include ../_template.qmd >}}

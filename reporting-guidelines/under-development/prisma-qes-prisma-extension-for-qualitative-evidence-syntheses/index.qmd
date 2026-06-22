@@ -1,0 +1,13 @@
+---
+title: PRISMA-QES - PRISMA Extension for Qualitative Evidence Syntheses
+date-registered: 14 November 2022
+year-registered: 2022
+date-updated: null
+contact-name: Emma France, University of Stirling
+contact-email: Emma.france@stir.ac.uk
+description: "The leaders of this project plan to develop an extension for PRISMA reporting guideline designed to help authors report qualitative evidence syntheses, “PRISMA-QES”. An existing reporting guideline, ENTREQ (Enhancing transparency in reporting the synthesis of qualitative research), according to the developers of PRISMA-QES, “was published in 2012; it \\[ENTREQ\\] is now out of date and needs updating. It was not developed using a consensus-based study to decide the reporting criteria, which is good practice for developing reporting guidelines.” They also acknowledge the existence of other reporting guidelines potentially overlapping, but state that the new development will fill gaps: “The eMERGe reporting guidance is specific to the QES methodology of meta-ethnography and its complex analytic synthesis - it does not apply to the many other types of QES. The RAMESES I (Realist And Meta-narrative Evidence Syntheses: Evolving Standards) reporting guidelines are for mixed methods syntheses rather than QES.”\n\nThe project involves a literature review, workshops for stakeholders consultation, drafting initial items for the checklist, an online Delphi exercise and a final workshop for consensus. The group is seeking funding for the development. They plan to publish PRISMA-QES statement between 2025 and 2026, as an open access document.\n\n1. Literature review. We will conduct a systematic literature review of methodological and reporting guidance to identify good and best practice in reporting of QES.\n2. Define good practice principles & standards. Analysis of published QES & stakeholder engagement with professional end users of QES.\n3. Consensus study. Initial workshop to discuss the findings of the literature review and draft items for Delphi. Online Delphi consensus study to agree the items for inclusion in PRISMA-QES. Post-Delphi stakeholder workshop to finalise the content of PRISMA-QES\n4. User testing. Guideline usability testing by teams reporting QES and by postgraduate QES students.\n\nThere will be patient and public and stakeholder involvement throughout the development.\n\n- Funding: Medical Research Council Better Methods Better Research programme\n- Methodological literature review protocol: [https://osf.io/37krs/](https://osf.io/37krs/) \n- Website: [https://sites.google.com/view/prismaqes/home](https://sites.google.com/view/prismaqes/home)"
+categories:
+- Literature reviews
+---
+
+{{< include ../_template.qmd >}}

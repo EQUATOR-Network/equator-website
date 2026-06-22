@@ -1,0 +1,16 @@
+---
+title: QRDC-RG - Qualitative Remote Data Collection Reporting Guideline
+date-registered: 11 February 2025
+year-registered: 2025
+date-updated: null
+contact-name: Professor Felicity Boardman
+contact-email: Felicity.Boardman@warwick.ac.uk
+description: 'Remote methods of qualitative data collection are those characterised by physical distance between the researcher/s and participant/s, use of technology to communicate and where there is an in-person equivalent method. Whilst use of remote qualitative data collection methods has proliferated in recent years, there are currently no guidelines for reporting these studies. Existing reporting guidelines for qualitative research (e.g. COREQ, SRQR) do not include items on technologically mediated study designs, only technologies used to record data (e.g. dictaphones). While developing guidance for qualitative remote data collection, the research team noted that reporting of remotely conducted qualitative research studies is inconsistent and often lacks key details of the research design that can significantly impact data quality. These include choice of technology, visibility of researcher, what ‘counts’ as data (e.g. comments in chat/emojis) and the synchronicity of the data collection.
+
+
+  The QRDC reporting guideline (QRDC-RG) will focus on the reporting of data collection methods - from sampling through to data processing for analysis. It will complement existing guidelines for reporting qualitative research by focusing on research design decisions that are unique to remotely conducted and hybrid (remote and in-person methods combined) research. It will be broadly applicable across a range of qualitative data collection methods where there is an in-person equivalent (e.g. interviews, focus groups, observation). The research team plan to conduct a review of existing guidelines and evidence on the quality of remote research reporting. A diverse international group of researchers and stakeholders will be appointed and a Delphi exercise and consensus meeting will be held to develop the checklist items. The team aim to work with qualitative health journals to secure endorsement and to support the adherence of authors and reviewers. Training and a launch webinar will be developed and the guideline will be translated into several languages to support international uptake.'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

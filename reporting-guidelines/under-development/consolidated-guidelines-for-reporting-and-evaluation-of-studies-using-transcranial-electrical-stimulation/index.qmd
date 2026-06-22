@@ -1,0 +1,22 @@
+---
+title: Consolidated Guidelines for Reporting and Evaluation of studies using Transcranial Electrical Stimulation
+date-registered: 10 October 2025
+year-registered: 2025
+date-updated: null
+contact-name: Rocco Cavaleri, Western Sydney University.
+contact-email: r.cavaleri@westernsydney.edu.au
+description: 'Transcranial electrical stimulation (tES) encompasses non-invasive brain stimulation techniques that modulate cortical excitability by delivering low-intensity electric currents to the scalp. Common tES techniques include transcranial direct current stimulation (tDCS), transcranial alternating current stimulation (tACS), and transcranial random noise stimulation (tRNS). Over the past two decades, tES has gained considerable traction in both experimental and clinical research settings, with applications spanning neurological, psychiatric, cognitive, and musculoskeletal domains. Indeed, tES modalities have demonstrated effectiveness across a broad range of populations, including people with major depressive disorder, cognitive impairments, multiple sclerosis, stroke\[9\], and both experimental and chronic pain. More recently, there has been growing interest in the use of tES in home-based contexts, particularly in response to increasing demand for remote, accessible, and scalable interventions.
+
+
+  Despite its promise, methodological heterogeneity in tES trials has limited the reproducibility and interpretability of findings. Several systematic and narrative reviews have highlighted that there is variability in the efficacy of tES, which may be affected by substantial inconsistencies in how trials are reported and conducted, particularly in terms of stimulation parameters, adverse event monitoring, and blinding procedures. This problem is amplified in home-based studies, where methodological rigor is further challenged by the need for remote supervision, participant-led setup, and digital adherence strategies. Thus, there is a clear need for improved control and reporting of as many factors as possible in tES studies.
+
+
+  While position papers and technical guides provide valuable recommendations, these documents do not represent consensus-driven, standardised tools for assessing methodological and reporting quality. Previous tES studies have typically adapted existing methodological and reporting checklists developed for transcranial magnetic stimulation or concurrent tES and functional magnetic resonance imaging. This is a notable limitation, as tES has distinct mechanisms of effect, stimulation parameters, and safety challenges not reflected in other non-invasive brain stimulation methodologies. In addition, previous recommendations do not consider recent developments such as home-based protocols with varied levels of supervision. Other commonly used tools like the Consolidated Standards of Reporting Trials (CONSORT) and Template for Intervention Description and Replication (TIDieR) scales, while useful, are also not tailored to the unique methodological considerations inherent to tES trials. These gaps underscore the need for a dedicated, consensus-based methodological quality guideline that can be used to appraise both traditional laboratory-based tES trials and those employing remote, home-based delivery models.
+
+
+  - Study protocol is available [here](https://acrobat.adobe.com/id/urn:aaid:sc:AP:4e3ba560-cd7f-43fa-ad77-d0180f373444).'
+categories:
+- Observational studies
+---
+
+{{< include ../_template.qmd >}}

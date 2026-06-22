@@ -1,0 +1,16 @@
+---
+title: STRIMAM - STandards for Reporting Interventions in Moxibustion using Animal Models
+date-registered: 9 January 2023
+year-registered: 2023
+date-updated: null
+contact-name: Huan-Gan Wu; Li-Ming Chen
+contact-email: wuhuangan@shutcm.edu.cn; chenliming@shutcm.edu.cn
+description: 'Moxibustion is an external treatment modality of traditional Chinese medicine, based on burning moral a wooly mass next to accupoints to stimulate meridians. Studies using animals are conducted using moxibustion but their reporting can be suboptimal, as the size of the moxa column, the duration of moxibustion, the selection of acupoints, and the smoke processing failed to be described in sufficient detail.
+
+
+  A group of researchers from Shanghai are developing this reporting guideline for animal studies on interventions with moxibustion. They plan to reach the ARRIVE group to make it an ARRIVE extension. They started with a literature review for defining the draft checklist and lexicon to be used. After internal discussions, the group will conduct 2-3 rounds of Delphi to finalise the guidance. The reporting guideline is planned to be published before 2024, as an open access document.'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}

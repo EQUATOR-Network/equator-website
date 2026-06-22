@@ -1,0 +1,18 @@
+---
+title: CONSORT and SPIRIT extensions for non-inferiority and equivalence trials
+date-registered: 23 May 2025
+year-registered: 2025
+date-updated: null
+contact-name: Brennan Kahan
+contact-email: b.kahan@ucl.ac.uk
+categories:
+- Clinical Trials
+---
+
+The 2012 This project aims to update the 2012 CONSORT extension for non-inferiority and equivalence trials, and to develop a SPIRIT extension for non-inferiority and equivalence trials.
+
+No SPIRIT extension currently exists for non-inferiority and equivalence trials, and while a CONSORT extension was published in 2006 and updated in 2012, it is now 13 years old and based on the CONSORT 2010 statement, so it may be misaligned to the forthcoming CONSORT 2025 statement. Updating of existing CONSORT and/or SPIRIT extensions is essential to ensure these statements remain current and relevant.
+
+- Protocol: https://osf.io/gpz2n/
+
+{{< include ../_template.qmd >}}

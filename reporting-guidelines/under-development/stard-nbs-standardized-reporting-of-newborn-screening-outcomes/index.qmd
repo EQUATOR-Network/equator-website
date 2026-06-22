@@ -1,0 +1,16 @@
+---
+title: STARD-NBS - Standardized Reporting of Newborn Screening Outcomes
+date-registered: 10 October 2023
+year-registered: 2023
+date-updated: null
+contact-name: Alex R. Kemper
+contact-email: Alex.kemper@nationwidechildrens.org
+description: 'This extension to STARD will clarify reporting of studies of newborn screening. The rapid pace of advancement in newborn screening tests and diagnostic strategies has led to significant variation in how screening studies have been reported and makes both interpretation of individual studies and synthesis across studies difficult. This extension will clarify the elements reported, which will ultimately improve advancement of newborn screening.
+
+
+  The project is at an early stage. The development group plan to review the literature to identify opportunities to clarify reports of newborn screening and then use the review results to generate a list of items for discussion during a Delphi consensus process. The guideline will then be written and piloted. The group plan to publish the guideline as an open access document which will be a product of the Evidence Review Group for the U.S. Advisory Committee on Heritable Disorders in Newborns and Children.'
+categories:
+- Other
+---
+
+{{< include ../_template.qmd >}}
