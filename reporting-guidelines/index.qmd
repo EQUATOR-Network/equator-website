@@ -29,4 +29,4 @@ listing:
 Search the table below to find a reporting guideline that is appropriate for your research. You can search reporting guidelines under development [here](/reporting-guidelines/under-development/index.qmd).
 
 
-{{< include /partials/_how_to_use_accordian.qmd >}}
+{{< include /_partials/_how_to_use_accordian.qmd >}}

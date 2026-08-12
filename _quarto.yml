@@ -15,7 +15,7 @@ website:
     logo-alt: EQUATOR Network Home Page
     right:
       - href: training.qmd
-        text: Training on academic writing
+        text: Training
       - text: About
         menu: 
           - text: The UK EQUATOR Centre
@@ -51,7 +51,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: /assets/css/styles.css
+    css: /assets/css/main.css
     toc: true
     title-block-banner: true
     title-block-banner-color: white

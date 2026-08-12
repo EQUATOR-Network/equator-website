@@ -1,4 +1,4 @@
-{{< include /partials/_how_to_use_accordian.qmd >}}
+{{< include /_partials/_how_to_use_accordian.qmd >}}
 
 ::: {.section}
 ::: {.reporting-guideline-key-info-box data-content='key information'}
