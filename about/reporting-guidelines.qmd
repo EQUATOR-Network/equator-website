@@ -1,0 +1,69 @@
+---
+title: Reporting guidelines, writing guides, and checklists
+---
+
+## What are reporting guidelines? {#reporting-guidelines}
+
+Reporting guidelines are recommendations of information to include when writing up research. They ensure research can be understood and used by a wide audience including other researchers, editors, reviewers, 
+clinicians, evidence synthesisers, and readers from different fields, countries, or background, even decades in the future. 
+
+Reporting guidelines help researchers write academic articles, protocols, and funding applications. 
+They make writing less daunting by breaking the process up into bite-size chunks, without dictating the final structure. 
+They help authors lay out the key information – the building blocks – of their work. Authors then decide how best to arrange this information 
+to build a compelling and clear account. 
+
+However, reporting guidelines are _not_ design standards or tools for quality appraisal. They do not dictate how research must be conducted, but they do ensure research is described clearly enough for readers to understand its strengths and limitations.
+
+Why do we need them? Because for decades, researchers have missed out important details because of oversight, or because they have not considered their audience's needs. These gaps make it harder for others to replicate, understand, or apply the findings — and may exclude research from reviews or clinical use. This is a massive source of waste that pervades all research areas. Well-reported research has greater 
+impact.
+
+<!-- #TODO add citations -->
+
+Reporting guidelines are made by expert groups. Most groups follow a systematic, consensus development method to create and publish a checklist, sometimes accompanied by a longer explanation paper that provides context and examples for each checklist item. 
+
+To make these resources easier to use, we at the EQUATOR Network built this website in collaboration with authors, editors, and the developers of the most-used open access reporting guidelines. 
+
+<!-- We also created writing guides to help authors apply reporting guidelines early in their writing process.  -->
+
+<!-- #TODO add citation -->
+
+## Writing using reporting guidelines {#writing}
+
+Reporting guidelines help authors develop their writing practice to create articles and applications that are clear, compelling, and complete. They can be used alongside any writing process – whether you jump straight in with full paragraphs, or prefer to plan, outline, draft, and revise your text. Whether you write from introduction to discussion, or prefer to start by writing your methods or results. 
+
+They are especially useful to researchers with less writing experience, who haven't found an approach to writing that works for them. 
+
+They break the writing process into manageable pieces. Read the guidance before you begin writing. If you like to plan your writing, consider working though items and collating notes into a document, then organise your notes into coherent structure with logical narrative structure. 
+
+You decide how best to arrange information, and whether to present it in the article body, in a figure or table, or in a supplement. 
+
+To learn more about writing skills, develop good writing habits, and how to use reporting guidelines, see our [training](/training.qmd). 
+
+<!-- [Read more about writing guides](writing-using-reporting-guidelines.qmd) -->
+
+## Reporting checklists {#reporting-checklists}
+
+Reporting guideline checklists allow authors to demonstrate how their work complies with a reporting guideline. By including a completed checklist as supplementary material, authors can reassure editors and peer reviewers their article is complete. Publishing checklists as supplements also helps readers and evidence synthesisers to find and extract information. 
+
+Reporting checklists are best used at the end of writing, before journal submission. Specify where readers can find each reporting item by directing them to parts of the manuscript e.g., 
+
+- Methods, para. 2
+- Table 2
+- Supplement A, para. 4 and Figure S1.
+
+Some older reporting checklists asked authors to state page numbers for each item. We recommend against this because:
+
+a. Page numbers easily change when editing a document. 
+b. When you submit, most journals generate a PDF of your manuscript combined with other submission data. The page numbers in your checklist will not correspond to this PDF, and so won't be useful to editors nor reviewers.
+c. When published, online articles don't have pages and PDF pages won't correspond to your original file, so page numbers won't help readers. 
+
+Conversely, if you specify which section, paragraph, table, figure, or supplement contains a reporting guideline item, editors, peer reviewers, and future readers will easily be able to find it.
+
+If you have chosen not to report an item, explain why. You can do this in the checklist, or as a note below it. Otherwise editors or peer reviewers may chase you for this information, thereby delaying publication. These explanations will also help future evidence reviewers – who commonly use reporting guidelines when assessing the the quality of reporting and risk of bias – meaning your article may be more likely to be included in their reviews.
+
+As with reporting guidelines, checklists do not dictate how research should be conducted nor how manuscripts should be structured. 
+
+## Writing applications and protocols using reporting guidelines {#writing-applications}
+
+A few reporting guidelines specifically cater to protocols, but most are for writing academic articles. Nevertheless, all reporting guidelines can be used to write protocols or grant applications – just use the methods items. Although reporting guidelines don't dictate how research should be designed or conducted, using them to write a protocol or application helps authors consider decisions they will encounter and to document their thoughts. 
+

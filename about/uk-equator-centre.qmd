@@ -1,0 +1,61 @@
+---
+title: The UK EQUATOR Centre
+date: ''
+listing:
+    id: listing
+    image-align: left
+    fields: [image, title, subtitle, description]
+    contents:
+        -   title: Gary Collins
+            subtitle: Director
+            image: /assets/images/staff/GaryCollins.webp
+            path: 'https://www.birmingham.ac.uk/staff/profiles/applied-health/collins-gary'
+            description: |
+                Professor Gary Collins is a 125th Anniversary Chair and Professor of Medical Statistics. He is a NIHR Senior Investigator. His research interests are primarily focussed on aspects surrounding the development and validation multivariable prediction (prognostic) models (design, analysis and reporting). He is also interested in the conduct and reporting of studies developing and validating risk prediction models and has published extensively in this area.
+
+                Gary led the development of the TRIPOD reporting guideline for clinical prediction models and is a member of the GATHER working group developing guidance for reporting global health estimates. He is also interested in the systematic appraisal of prognostic studies and is an author of the CHARMS Checklist for conducting systematic reviews of prediction modelling studies. He has more than 120 peer-reviewed articles, editorials and commentaries, including 18 in the ‘big 6′ medical journals, and is the first or last author of more than 50 articles.
+        -   title: Doug Altman (1948-2018)
+            subtitle: Founding Director of the UK EQUATOR Centre
+            image: /assets/images/staff/DougAltman.jpeg
+            path: https://www.ndorms.ox.ac.uk/news/thank-you-doug-altman
+            description: |
+                Professor Doug Altman was Professor of Statistics in Medicine at the University of Oxford, UK and founder of the Centre for Statistics in Medicine. He was a co-founder of the EQUATOR Network, chair of the EQUATOR Steering Group, and Founding Director of the UK EQUATOR Centre.
+
+                Doug published over 800 articles in peer-reviewed journals, including many aimed at clarifying statistical methods and ideas for medical researchers. He was the author of Practical Statistics for Medical Research (1991) and co-editor of Statistics with Confidence (1989 and 2000) and Systematic Reviews in Health Care (1995 and 2001). He was a statistical advisor to the Cochrane Collaboration and the BMJ. Doug had a long-standing interest in the reporting of medical research and was an executive member of several groups working on reporting guidelines, including CONSORT for randomised trials, QUOROM / PRISMA for systematic reviews, STROBE for epidemiological studies, and REMARK for tumour marker prognostic studies.
+        -   title: James Harwood
+            subtitle: Postdoctoral Research Fellow
+            image: /assets/images/staff/JHarwood-300.webp
+            path: https://www.ndorms.ox.ac.uk/team/james-harwood
+            description: James an implementation scientist at Oxford University working to improve the uptake of meta–science interventions that promote quality and transparency in healthcare research. As a member of UK EQUATOR he is developing this website as a platform for disseminating reporting guidelines. This work builds upon his previous research which used behaviour change theory to understand why researchers do not adhere to reporting guidelines, and to identify ways to increase adherence. He often uses mixed-methods and draws upon his pre-DPhil experience as a software developer.
+        -   title: Jennifer de Beyer
+            subtitle: Publication & Dissemination Specialist
+            image: /assets/images/staff/Jen-de-Beyer.webp
+            path: https://www.ndorms.ox.ac.uk/team/jennifer-de-beyer
+            description: |
+                Dr Jen de Beyer teaches our academic writing, publication, and communication skills courses and develops resources on how to write fantastic health research articles, such as our toolkits. You’re also likely to find her promoting reporting guidelines and clear reporting through our social media channels (@EQUATORNetwork) and at conferences. Jen completed a doctorate in systems biology, focusing on biochemistry, and worked in academic editing before joining the UK EQUATOR Centre in 2015.
+        -   title: Paula Dhiman 
+            subtitle: Medical Statistician
+            image: /assets/images/staff/pdhiman.jpg
+            path: https://www.ndorms.ox.ac.uk/team/paula-dhiman
+            description: |
+                At the Centre for Statistics in Medicine, Dr Paula Dhiman investigates how medical research is done, focusing on the methodological conduct and reporting of non-randomised research, with a view to helping improve the quality and integrity of future research. This is known as meta-research or “research on research”. Paula is passionate about statistical methodology and observational research and is particularly interested in prognostic/risk modelling.
+
+---
+
+The UK EQUATOR Centre is run by Professor Gary Collins and has members at the University of Birmingham and the University of Oxford. The UK Centre is the head office of the EQUATOR Network. The Centre works with partner organisations and initiatives and contributes to the work of the EQUATOR Network as a whole. 
+
+The UK EQUATOR Centre's work includes:
+
+* Development and maintenance of the EQUATOR Network website and resources.
+* Maintaining the world's only comprehensive database of reporting guidelines.
+* [Education and training](../training.qmd). Organising workshops, courses, seminars, conferences for researchers, research students, editors and peer reviewers.
+* Collaborative activities to raise reporting standards.
+* Developing new reporting guidelines.
+* Implementation research to increase adherence to reporting guidelines.
+
+
+## Staff
+
+::: {#listing}
+:::
+

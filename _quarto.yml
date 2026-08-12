@@ -4,27 +4,58 @@ project:
     watch-inputs: true
 
 website:
-  title: "equator-website"
+  site-url: 'https://equator-network.github.io/equator-website/'
+  image: "assets/logos/equator_logo.png"
+  favicon: "assets/favicons/equator-network-16x16.png"
+  search: false 
+  bread-crumbs: false
   navbar:
-    left:
-      - text: Reporting Guidelines
-        menu:
-          - href: reporting-guidelines/index.qmd
-            text: Search all
-          - href: reporting-guidelines/under-development/index.qmd
-            text: Under development
-      - about.qmd
-    right: 
+    background: light
+    logo: "assets/logos/equator_logo.png"
+    logo-alt: EQUATOR Network Home Page
+    right:
+      - href: training.qmd
+        text: Training on academic writing
+      - text: About
+        menu: 
+          - text: The UK EQUATOR Centre
+            href: about/uk-equator-centre.qmd
+          - text: The EQUATOR Network
+            href: about/equator-network.qmd
+          - text: About reporting guidelines
+            href: about/reporting-guidelines.qmd
+          - text: Contact
+            href: about/contact.qmd
       - href: reporting-guidelines/index.qmd
         icon: search
-  search: false
+  page-footer:
+    left: |
+      Created by the
+      [UK EQUATOR Centre](https://www.equator-network.org/about-us/uk-equator-centre/)
+    center:
+      - text: "Terms of Use"
+        href: terms-of-use.qmd
+      - text: "Privacy Policy"
+        href: privacy-policy.qmd
+        # #TODO license?
+    right:
+      - icon: twitter
+        href: https://twitter.com/equatornetwork
+        aria-label: Quarto Twitter
+      - icon: github
+        aria-label: EQUATOR GitHub
+        href: github
+  page-navigation: true
   open-graph: true
 
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: /assets/css/styles.css
     toc: true
+    title-block-banner: true
+    title-block-banner-color: white
+
 
 
 
