@@ -1,0 +1,12 @@
+@import "./colours.css";
+
+.navbar-brand > img {
+    max-height: 65px;
+}
+.quarto-title-block .quarto-title-banner {
+  background-image: url('/assets/svg/banner.svg');
+  background-size: cover;
+}
+.right-align {
+    text-align: right;
+}

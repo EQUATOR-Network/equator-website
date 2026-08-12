@@ -1,5 +1,5 @@
 ---
-# REQUIRED FIELDS
+# REQUIRED FIELDS d
 title: 'CAse-BAsed  REview sTandards (CABARET) : Considerations for Authors, Reviewers,
   and Editors'
 acronym: CABARET

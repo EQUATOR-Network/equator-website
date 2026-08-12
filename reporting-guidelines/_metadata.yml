@@ -1,0 +1,5 @@
+format:
+  html:
+    css:
+      - /styles/styles.css
+      - /styles/database-pages.css
