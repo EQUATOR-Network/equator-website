@@ -4,7 +4,7 @@ RG_DEV_DIR := $(RG_DIR)/under-development
 
 rg:
 	@read -p "Enter guideline title " title && \
-	source utils/create-slug.sh && \
+	source _utils/create-slug.sh && \
 	slug=$$(slugify "$$title") && \
 	rg_dir="$(RG_DIR)/$$slug" && \
 	rg_index_path="$$rg_dir/index.qmd" && \
@@ -13,7 +13,7 @@ rg:
 	echo "Created: $$rg_index_path"
 
 rg-under-development:
-	@bash utils/create-rg-under-development.sh
+	@bash _utils/create-rg-under-development.sh
 
 publish: render
 	quarto publish gh-pages --no-render
@@ -22,10 +22,10 @@ render:
 	quarto render
 
 check-links:
-	@bash tests/check-link-integrity.sh
+	@bash _tests/check-link-integrity.sh
 
 check-render-artifacts:
-	@bash tests/check-render-artifacts.sh
+	@bash _tests/check-render-artifacts.sh
 
 check-site: check-links check-render-artifacts
 
