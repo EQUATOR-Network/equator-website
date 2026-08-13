@@ -6,7 +6,7 @@ acronym: ''
 description: |-
   Reporting of systematic coding of observed human behaviour (SCOBe) research.
 
-  [SCOBe checklist (Word)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.docx)  [SCOBe checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.pdf)
+  [SCOBe checklist (Word)](SCOBe-checklist.docx)  [SCOBe checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.pdf)
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
