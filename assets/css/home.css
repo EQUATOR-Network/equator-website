@@ -1,0 +1,107 @@
+.hero-title-block {
+    min-height: 60vh;
+}
+#cursor {
+    border-right: 8px solid var(--blue-dark);
+    margin-right: 2rem;
+    padding: 2rem 0rem 2rem 1rem;
+}
+.quarto-title-block h1 {
+    margin-top: 0rem;
+}
+h1 {
+    font-size: 60px;
+    font-weight: normal;
+}
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: grey;
+}
+.subtitle .emphasise {
+    font-weight: 600;
+}
+.btn-primary {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.top-banner-portrait {
+    display: block;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-image: url(../svg/banner-portrait.svg);
+    padding: 2rem 0rem 1rem 1rem;
+    overflow: hidden;
+    height: 100%;
+}
+.top-banner-portrait img {
+    position: relative;
+    left: 4rem;
+    height: 40%;
+}
+.radial-background {
+    position: relative;
+    background-color: var(--blue-light);
+}
+.radial1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.6;
+    pointer-events: none;
+    z-index: 0;
+}
+.radial2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: .6;
+    pointer-events: none;
+}
+.content-block.center {
+    text-align: center;
+}
+.card-highlight {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+td p {
+    margin-bottom: 4px;
+}
+.logos {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.logos img {
+    max-width: 5rem;
+}
+@media (min-width: 800px) {
+    .features {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 0 0 -30px;
+        width: calc(100% + 30px);
+    }
+}
+@media (min-width: 1200px) {
+    .content-block {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.features {
+    padding-bottom: 2em;
+}
+
+@media (min-width: 800px) {
+    .feature {
+        width: calc(33% - 30px);
+        margin: 20px 0 0 30px;
+    }
+}

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Search all Reporting Guidelines – equator-website</title>
+<title>Search all Reporting Guidelines</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../assets/favicons/equator-network-16x16.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
@@ -36,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-0be10a02aa56032eb6fe331f79f59765.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -63,7 +64,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-acronym','listing-title','listing-study-design','listing-clinical-specialty','listing-report-section',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-acronym","listing-study-type","listing-clinical-specialty","listing-report-section"],
     };
 
@@ -81,6 +83,22 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: white;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: white;
+      }
+</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -112,48 +130,57 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Search all Reporting Guidelines – equator-website">
-<meta property="og:site_name" content="equator-website">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../styles/main.css">
+<link rel="stylesheet" href="../styles/database-pages.css">
+<meta property="og:title" content="Search all Reporting Guidelines">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://equator-network.github.io/equator-website/assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">equator-website</span>
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/logos/equator_logo.png" alt="EQUATOR Network Home Page" class="navbar-logo">
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../training.html"> 
+<span class="menu-text">Training</span></a>
+  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reporting-guidelines" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Reporting Guidelines</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-reporting-guidelines">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../reporting-guidelines/index.html">
- <span class="dropdown-text">Search all</span></a>
+    <a class="dropdown-item" href="../about/uk-equator-centre.html">
+ <span class="dropdown-text">The UK EQUATOR Centre</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../reporting-guidelines/under-development/index.html">
- <span class="dropdown-text">Under development</span></a>
+    <a class="dropdown-item" href="../about/equator-network.html">
+ <span class="dropdown-text">The EQUATOR Network</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../about/reporting-guidelines.html">
+ <span class="dropdown-text">About reporting guidelines</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../about/contact.html">
+ <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="../reporting-guidelines/index.html" aria-current="page"> <i class="bi bi-search" role="img">
 </i> 
@@ -167,34 +194,93 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Search all Reporting Guidelines</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Search all Reporting Guidelines</h1>
+
+
+
+
+<p>Search the table below to find a reporting guideline that is appropriate for your research. You can search reporting guidelines under development <a href="../reporting-guidelines/under-development/index.html">here</a>.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
+<div class="callout-title-container flex-fill">
+How to use reporting guidelines
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<section id="reporting-guidelines-are-recommendations-to-help-write-up-research-clearly." class="level2 callout-body-container callout-body">
+<h2 class="anchored" data-anchor-id="reporting-guidelines-are-recommendations-to-help-write-up-research-clearly.">Reporting guidelines are recommendations to help write up research clearly.</h2>
+<p>Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines are community-created recommendations for describing what you did and what you found so that everyone can understand, repeat, apply, and synthesise your work. Although they recommend information to include in your manuscript, they don’t dictate how to order that information.</p>
+<p>Most reporting guidelines consist of the full guidance (sometimes called an Explanation and Elaboration document) and a checklist. The full guidance provides detailed explanations and examples for each item, and the checklist allows you to demonstrate adherence to editors.</p>
+<p>You can use reporting guidelines throughout your research process. However you use reporting guidelines, please cite them.</p>
+<div class="content-block center">
+<div class="features">
+<div class="feature">
+<p><img src="../assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<section id="writing-manuscripts" class="level4">
+<h4 class="anchored" data-anchor-id="writing-manuscripts">Writing manuscripts</h4>
+<p>Write confidently using a reporting guideline to quickly turn a blank page into a thorough and impactful manuscript.</p>
+<div class="learn-more">
+<p><a href="../about/reporting-guidelines.html#writing">Learn more »</a></p>
+</div>
+</section>
+</div>
+<div class="feature">
+<p><img src="../assets/images/bubblecons/bubblecons_notes_clip-task-2-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<section id="checking" class="level4">
+<h4 class="anchored" data-anchor-id="checking">Checking</h4>
+<p>Use a reporting checklist to demonstrate to an editor or peer reviewer that you have included everything. Many journals require completed checklists at submission.</p>
+<div class="learn-more">
+<p><a href="../about/reporting-guidelines.html#reporting-checklists">Learn more »</a></p>
+</div>
+</section>
+</div>
+<div class="feature">
+<p><img src="../assets/images/bubblecons/bubblecons_notes_pencil-24-icon-line-colour.svg" class="feature-icon img-fluid"></p>
+<section id="writing-applications" class="level4">
+<h4 class="anchored" data-anchor-id="writing-applications">Writing applications</h4>
+<p>Reporting guidelines can help you write funding applications, ethics applications, and protocols, but they won’t make design decisions for you!</p>
+<div class="learn-more">
+<p><a href="../about/reporting-guidelines.html#writing-applications">Learn more »</a></p>
+</div>
+</section>
+</div>
+</div>
+</div>
+<section id="reporting-guidelines-are-neither-design-nor-quality-appraisal-tools." class="level3">
+<h3 class="anchored" data-anchor-id="reporting-guidelines-are-neither-design-nor-quality-appraisal-tools.">Reporting guidelines are neither design nor quality appraisal tools.</h3>
+<p>Although reporting guidelines recommend information to include when writing up research, they do not mandate how to design research. Similarly, when reviewing literature, although you can use reporting guidelines to assess whether a manuscript is well reported, you cannot use them to appraise whether that study is well designed.</p>
+</section>
+</section>
+</div>
+</div>
 
 
 
@@ -237,7 +323,7 @@ Section of report
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1777399849902" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="A child-centred research checklist to improve the design and reporting of paediatric research studies: A descriptive mixed methods study" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1777472266243" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="A child-centred research checklist to improve the design and reporting of paediatric research studies: A descriptive mixed methods study" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">&nbsp;</span>
 </td>
@@ -254,7 +340,7 @@ Section of report
 <span class="listing-report-section">Data, Ethical issues (consent etc.), Procedure/Method, Study characteristics (participants etc.)</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-file-modified-sort="1777399849951" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="CAse-BAsed  REview sTandards (CABARET) : Considerations for Authors, Reviewers, and Editors" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-listing-file-modified-sort="1786524740696" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="CAse-BAsed  REview sTandards (CABARET) : Considerations for Authors, Reviewers, and Editors" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">CABARET</span>
 </td>
@@ -271,7 +357,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1777399849835" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Clinician-informed explainable artificial intelligence evaluation checklist with metrics (CLIX-M) for AI-powered clinical decision support systems" data-listing-filename-sort="index.qmd">
+<tr data-index="2" data-listing-file-modified-sort="1777472266246" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Clinician-informed explainable artificial intelligence evaluation checklist with metrics (CLIX-M) for AI-powered clinical decision support systems" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">CLIX-M</span>
 </td>
@@ -288,7 +374,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="3" data-listing-file-modified-sort="1777399849819" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="DID-METAB Checklist" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-listing-file-modified-sort="1777472266252" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="DID-METAB Checklist" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">DID-METAB</span>
 </td>
@@ -305,7 +391,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="4" data-listing-file-modified-sort="1777399849944" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Delphi studies in social and health sciences -Recommendations for an interdisciplinary standardized reporting (DELPHISTAR) . Results of a Delphi study" data-listing-filename-sort="index.qmd">
+<tr data-index="4" data-listing-file-modified-sort="1777472266248" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Delphi studies in social and health sciences -Recommendations for an interdisciplinary standardized reporting (DELPHISTAR) . Results of a Delphi study" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">DELPHISTAR</span>
 </td>
@@ -322,7 +408,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="5" data-listing-file-modified-sort="1777399849892" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Developing the TIDieR-Rehab checklist: a modified Delphi process to extend the Template for Intervention Description and Replication (TIDieR) for rehabilitation intervention reporting" data-listing-filename-sort="index.qmd">
+<tr data-index="5" data-listing-file-modified-sort="1777472266248" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Developing the TIDieR-Rehab checklist: a modified Delphi process to extend the Template for Intervention Description and Replication (TIDieR) for rehabilitation intervention reporting" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">TIDieR-Rehab</span>
 </td>
@@ -339,7 +425,7 @@ Section of report
 <span class="listing-report-section">Harms/adverse effects/safety data, Intervention (exposure), Study characteristics (participants etc.)</span>
 </td>
 </tr>
-<tr data-index="6" data-listing-file-modified-sort="1777399849847" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Development of GROVE : A Guideline for RepOrting Vignette Experiments conducted in a healthcare context" data-listing-filename-sort="index.qmd">
+<tr data-index="6" data-listing-file-modified-sort="1777472266251" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Development of GROVE : A Guideline for RepOrting Vignette Experiments conducted in a healthcare context" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">GROVE</span>
 </td>
@@ -356,7 +442,7 @@ Section of report
 <span class="listing-report-section">Intervention (exposure), Outcomes (variables), Procedure/Method, Study characteristics (participants etc.)</span>
 </td>
 </tr>
-<tr data-index="7" data-listing-file-modified-sort="1777399849859" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Development of a Reporting Guideline for Trochim’s Concept Mapping" data-listing-filename-sort="index.qmd">
+<tr data-index="7" data-listing-file-modified-sort="1777472266250" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Development of a Reporting Guideline for Trochim’s Concept Mapping" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">ConMapT</span>
 </td>
@@ -373,7 +459,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="8" data-listing-file-modified-sort="1777399849827" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Development, Evaluation, and Assessment of Large Language Models (DEAL) Checklist" data-listing-filename-sort="index.qmd">
+<tr data-index="8" data-listing-file-modified-sort="1777472266249" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Development, Evaluation, and Assessment of Large Language Models (DEAL) Checklist" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">DEAL</span>
 </td>
@@ -390,7 +476,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="9" data-listing-file-modified-sort="1777399849801" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="ELEVATE-GenAI" data-listing-filename-sort="index.qmd">
+<tr data-index="9" data-listing-file-modified-sort="1777472266252" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="ELEVATE-GenAI" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">ELEVATE-GenAI</span>
 </td>
@@ -407,7 +493,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="10" data-listing-file-modified-sort="1777399849823" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Endo -STAR" data-listing-filename-sort="index.qmd">
+<tr data-index="10" data-listing-file-modified-sort="1777472266252" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Endo -STAR" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">&nbsp;</span>
 </td>
@@ -424,7 +510,7 @@ Section of report
 <span class="listing-report-section">Protocol-whole report</span>
 </td>
 </tr>
-<tr data-index="11" data-listing-file-modified-sort="1777399849887" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR) : checklist and explanation" data-listing-filename-sort="index.qmd">
+<tr data-index="11" data-listing-file-modified-sort="1777630981791" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR) : checklist and explanation" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">PRISMA-LSR</span>
 </td>
@@ -441,7 +527,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="12" data-listing-file-modified-sort="1777399849877" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Guidelines for Reporting Oral Epidemiologic Studies to Inform Burden Estimation (GROESBE)" data-listing-filename-sort="index.qmd">
+<tr data-index="12" data-listing-file-modified-sort="1777472266253" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Guidelines for Reporting Oral Epidemiologic Studies to Inform Burden Estimation (GROESBE)" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">GROESBE</span>
 </td>
@@ -458,7 +544,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="13" data-listing-file-modified-sort="1777399849832" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Guidelines for reporting artificial intelligence studies in medicines, pharmacotherapy, and pharmaceutical services: Medin AI development, validation and statement" data-listing-filename-sort="index.qmd">
+<tr data-index="13" data-listing-file-modified-sort="1777472266253" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Guidelines for reporting artificial intelligence studies in medicines, pharmacotherapy, and pharmaceutical services: Medin AI development, validation and statement" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">MedinAI</span>
 </td>
@@ -475,7 +561,7 @@ Section of report
 <span class="listing-report-section">No report section specified</span>
 </td>
 </tr>
-<tr data-index="14" data-listing-file-modified-sort="1777399849931" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Guidelines for reporting research using systematic coding of observed human behaviour (SCOBe)" data-listing-filename-sort="index.qmd">
+<tr data-index="14" data-listing-file-modified-sort="1786637869728" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Guidelines for reporting research using systematic coding of observed human behaviour (SCOBe)" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">&nbsp;</span>
 </td>
@@ -492,7 +578,7 @@ Section of report
 <span class="listing-report-section">Data, Procedure/Method</span>
 </td>
 </tr>
-<tr data-index="15" data-listing-file-modified-sort="1777399849851" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="ITRUSST consensus on standardised reporting for transcranial ultrasound stimulation" data-listing-filename-sort="index.qmd">
+<tr data-index="15" data-listing-file-modified-sort="1777472266260" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="ITRUSST consensus on standardised reporting for transcranial ultrasound stimulation" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">ITRUSST</span>
 </td>
@@ -509,7 +595,7 @@ Section of report
 <span class="listing-report-section">Intervention (exposure)</span>
 </td>
 </tr>
-<tr data-index="16" data-listing-file-modified-sort="1777399849947" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="LETter To the EditoR Standards (LETTERS) : Considerations for Authors, Reviewers, and Editors" data-listing-filename-sort="index.qmd">
+<tr data-index="16" data-listing-file-modified-sort="1777472266260" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="LETter To the EditoR Standards (LETTERS) : Considerations for Authors, Reviewers, and Editors" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">LETTERS</span>
 </td>
@@ -526,7 +612,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="17" data-listing-file-modified-sort="1777399849940" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reflexology specific guidance for using the template for the intervention description and replication (TIDieR) : A delphi study" data-listing-filename-sort="index.qmd">
+<tr data-index="17" data-listing-file-modified-sort="1777629468379" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reflexology specific guidance for using the template for the intervention description and replication (TIDieR) : A delphi study" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">&nbsp;</span>
 </td>
@@ -543,7 +629,7 @@ Section of report
 <span class="listing-report-section">Intervention (exposure)</span>
 </td>
 </tr>
-<tr data-index="18" data-listing-file-modified-sort="1777399849792" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guideline for Chatbot Health Advice studies: the CHART statement" data-listing-filename-sort="index.qmd">
+<tr data-index="18" data-listing-file-modified-sort="1777472266262" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guideline for Chatbot Health Advice studies: the CHART statement" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">CHART</span>
 </td>
@@ -560,7 +646,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="19" data-listing-file-modified-sort="1777399849811" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guideline for the use of Generative Artificial intelligence tools in MEdical Research: the GAMER Statement" data-listing-filename-sort="index.qmd">
+<tr data-index="19" data-listing-file-modified-sort="1777472266264" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guideline for the use of Generative Artificial intelligence tools in MEdical Research: the GAMER Statement" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">GAMER</span>
 </td>
@@ -577,7 +663,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="20" data-listing-file-modified-sort="1777399849927" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guidelines for protocols of randomised controlled trials of implantable neurostimulation devices: the SPIRIT-iNeurostim extension" data-listing-filename-sort="index.qmd">
+<tr data-index="20" data-listing-file-modified-sort="1777472266265" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guidelines for protocols of randomised controlled trials of implantable neurostimulation devices: the SPIRIT-iNeurostim extension" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">SPIRIT-iNeurostim</span>
 </td>
@@ -594,7 +680,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="21" data-listing-file-modified-sort="1777399849918" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guidelines for randomised controlled trial reports of implantable neurostimulation devices: the CONSORT-iNeurostim extension" data-listing-filename-sort="index.qmd">
+<tr data-index="21" data-listing-file-modified-sort="1777472266265" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guidelines for randomised controlled trial reports of implantable neurostimulation devices: the CONSORT-iNeurostim extension" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">CONSORT-iNeurostim</span>
 </td>
@@ -611,7 +697,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="22" data-listing-file-modified-sort="1777399849814" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guidelines for tear fluid research" data-listing-filename-sort="index.qmd">
+<tr data-index="22" data-listing-file-modified-sort="1777472266266" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting guidelines for tear fluid research" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">&nbsp;</span>
 </td>
@@ -628,7 +714,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="23" data-listing-file-modified-sort="1777399849874" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting of cluster randomised crossover trials: extension of the CONSORT 2010 statement with explanation and elaboration" data-listing-filename-sort="index.qmd">
+<tr data-index="23" data-listing-file-modified-sort="1777472266266" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Reporting of cluster randomised crossover trials: extension of the CONSORT 2010 statement with explanation and elaboration" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">CONSORT CRXO</span>
 </td>
@@ -645,7 +731,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="24" data-listing-file-modified-sort="1777399849844" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="SQUIRE-SIM  (Standards for Quality Improvement Reporting Excellence for SIMulation) : Publication Guidelines for Simulation -Based Quality Improvement Projects" data-listing-filename-sort="index.qmd">
+<tr data-index="24" data-listing-file-modified-sort="1777472266267" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="SQUIRE-SIM  (Standards for Quality Improvement Reporting Excellence for SIMulation) : Publication Guidelines for Simulation -Based Quality Improvement Projects" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">SQUIRE-SIM</span>
 </td>
@@ -662,7 +748,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="25" data-listing-file-modified-sort="1777399849935" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="STROBE-GEMA : a STROBE extension for reporting of geographically explicit ecological momentary assessment studies" data-listing-filename-sort="index.qmd">
+<tr data-index="25" data-listing-file-modified-sort="1777472266267" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="STROBE-GEMA : a STROBE extension for reporting of geographically explicit ecological momentary assessment studies" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">STROBE-GEMA</span>
 </td>
@@ -679,7 +765,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="26" data-listing-file-modified-sort="1777399849855" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Standardised reporting of burden of disease studies: the STROBOD statement" data-listing-filename-sort="index.qmd">
+<tr data-index="26" data-listing-file-modified-sort="1777472266267" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Standardised reporting of burden of disease studies: the STROBOD statement" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">STROBOD</span>
 </td>
@@ -696,7 +782,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="27" data-listing-file-modified-sort="1777399849839" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="The GREENBEAN checklist for reporting studies evaluating the effectiveness of EEG-based biomarkers" data-listing-filename-sort="index.qmd">
+<tr data-index="27" data-listing-file-modified-sort="1777472266268" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="The GREENBEAN checklist for reporting studies evaluating the effectiveness of EEG-based biomarkers" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">GREENBEAN</span>
 </td>
@@ -713,7 +799,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="28" data-listing-file-modified-sort="1777399849806" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="The LEADING guideline" data-listing-filename-sort="index.qmd">
+<tr data-index="28" data-listing-file-modified-sort="1777472266268" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="The LEADING guideline" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">LEADING</span>
 </td>
@@ -730,7 +816,7 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
-<tr data-index="29" data-listing-file-modified-sort="1777399849898" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="The TRIPOD-LLM reporting guideline for studies using large language models" data-listing-filename-sort="index.qmd">
+<tr data-index="29" data-listing-file-modified-sort="1777472266269" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="The TRIPOD-LLM reporting guideline for studies using large language models" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-acronym">TRIPOD-LLM</span>
 </td>
@@ -747,11 +833,31 @@ Section of report
 <span class="listing-report-section">Whole report</span>
 </td>
 </tr>
+<tr data-index="30" data-listing-file-modified-sort="1777630985837" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-acronym">&nbsp;</span>
+</td>
+<td>
+<a href="../reporting-guidelines/test-real-reporting-guideline/index.html" class="title listing-title">&nbsp;</a>
+</td>
+<td>
+<span class="listing-study-design">Systematic reviews/Meta-analyses/Reviews/HTA/Overviews</span>
+</td>
+<td>
+<span class="listing-clinical-specialty">&nbsp;</span>
+</td>
+<td>
+<span class="listing-report-section">&nbsp;</span>
+</td>
+</tr>
 </tbody>
 </table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -843,7 +949,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/equator-network\.github\.io\/equator-website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -1171,6 +1277,43 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../terms-of-use.html">
+<p>Terms of Use</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../privacy-policy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/equatornetwork">
+      <i class="bi bi-twitter" role="img" aria-label="Quarto Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../github">
+      <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
