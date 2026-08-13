@@ -1,0 +1,13 @@
+---
+title: Gary Collins
+subtitle: Director
+image: /assets/images/staff/GaryCollins.webp
+image-alt: Gary Collins, Director
+path: about/uk-equator-centre.html#gary-collins
+centre: uk
+order: 1
+---
+
+Professor Gary Collins is a 125th Anniversary Chair and Professor of Medical Statistics. He is a NIHR Senior Investigator. His research interests are primarily focussed on aspects surrounding the development and validation multivariable prediction (prognostic) models (design, analysis and reporting). He is also interested in the conduct and reporting of studies developing and validating risk prediction models and has published extensively in this area.
+
+Gary led the development of the TRIPOD reporting guideline for clinical prediction models and is a member of the GATHER working group developing guidance for reporting global health estimates. He is also interested in the systematic appraisal of prognostic studies and is an author of the CHARMS Checklist for conducting systematic reviews of prediction modelling studies. He has more than 120 peer-reviewed articles, editorials and commentaries, including 18 in the ‘big 6′ medical journals, and is the first or last author of more than 50 articles.
