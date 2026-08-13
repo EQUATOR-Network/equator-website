@@ -10,3 +10,45 @@
 .right-align {
     text-align: right;
 }
+.content-block {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-primary
+{
+    background-color: var(--green-primary);
+    border-color: var(--green-primary);
+    border-radius: .25rem;
+}
+.btn-primary:focus, .btn-primary:hover {
+    background-color: var(--green-dark);
+    border-color: var(--green-dark);
+    color: white;
+}
+.modern-link {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000033;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+.modern-link:hover {
+    color: var(--green-primary);
+    padding-left: 0.5rem;
+}
+.modern-link .chevron {
+    color: var(--green-primary);
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

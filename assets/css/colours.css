@@ -1,4 +1,7 @@
 :root {
   --green-primary: rgb(0, 133, 63);
   --green-very-light: #e8f7ef;
+  --green-dark: rgb(0, 71, 33);
+  --blue-dark: rgb(0, 33, 71);
+  --blue-light: rgb(234, 243, 253);
 }
