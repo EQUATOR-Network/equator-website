@@ -1,0 +1,24 @@
+<!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#typewriter', {
+      strings: ["researchers", "clinicians", "students", "patients", "reviewers", "others"],
+      startDelay: 3000,
+      backDelay: 500,
+      fadeOut: false,
+      fadeOutDelay: 1000,
+      smartBackspace: true, // Default value
+      typeSpeed: 50,
+      backSpeed: 40,
+      showCursor: true,
+   });
+  </script> -->
+
+  <script type="text/javascript">
+    (function () {
+      var words = ["editors", "clinicians", "patients", "policy makers", "students", "reviewers", "search engines", "researchers", "everyone"],
+      i = 0;
+      setInterval(function(){ $('#typewriter-words').fadeOut(function(){
+          $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+        }); }, 2500)
+    })();
+  </script>

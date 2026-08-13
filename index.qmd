@@ -4,22 +4,25 @@ page-layout: custom
 section-divs: false
 toc: false
 css:
-  - "css/index.css"
-  - "css/index3.css"
-  - "css/index4.css"
-  - "css/index6.css"
+  - "assets/css/home.css"
 description: | 
   Search our website for reporting guidelines: community-created recommendations that ensure everyone can understand and use your research. Reporting guidelines make writing up research easier, and transparent research leads to better patient outcomes. 
 include-after-body:
-  - scripts/typewriter.html
+  - _scripts/typewriter.html
 include-before-body: 
-  - scripts/jquery.html
+  - _scripts/jquery.html
 listing: 
   id: staff-listing
   grid-columns: 6
   type: grid
+  fields: [image, title, subtitle]
   contents: 
-    - staff.yml
+    - /listings/staff/*qmd
+  include: 
+    centre: uk
+  exclude:
+    title: "Doug Altman*"
+  sort: order
 ---
 
 :::::::::::: quarto-title-block
@@ -45,7 +48,7 @@ your work.
 ::: hero-buttons
 [Search 700+ reporting
 guidelines](reporting-guidelines/index.qmd){.btn-action-primary
-.btn-action .btn-primary .btn .btn-lg .margin-right-1 role="button"}
+.btn-action .btn-primary .btn .btn-lg role="button"}
 
 [[›]{.chevron .modern-link} View popular reporting guidelines](#general-reporting-guidelines){.modern-link}
 
@@ -122,7 +125,7 @@ logo](assets/logos/bmc.svg)
 <!-- isometric background -->
 
 ::::::::::: {.content-block .center}
-## Recommendations to help write up research clearly {#sec-what-are-rgs}
+## Reporting guidelines: Recommendations to help write up research clearly {#sec-what-are-rgs}
 
 ::: lead
 Your research will be used by people from different disciplines and
@@ -187,18 +190,10 @@ you!
 <img src="assets/images/radial2.svg" alt="Blurred background colours" class="radial2"/>
 
 :::::::: {.content-block .center}
-## Learn how and why people use reporting guidelines
-
-::: lead
-People around the world use reporting guidelines in many ways and for
-many reasons.
-:::
+## People use reporting guidelines in many ways and for many reasons.
 
 :::::: grid
 ::: {.g-col-md-4 .g-col-12 .card-highlight}
-![Supervisor and
-student](assets/images/supervision.webp){.feature-photo}\
-
 ### Researchers
 
 Both experienced and early career researchers use reporting guidelines
@@ -206,8 +201,6 @@ to write, learn, and teach.
 :::
 
 ::: {.g-col-md-4 .g-col-12 .card-highlight}
-![Editors](assets/images/editors.webp){.feature-photo}\
-
 ### Editors
 
 Editors from leading medical journals ask authors to use reporting
@@ -215,8 +208,6 @@ guidelines and check for adherence.
 :::
 
 ::: {.g-col-md-4 .g-col-12 .card-highlight}
-![Peer Reviewer](assets/images/reviewer.webp){.feature-photo}\
-
 ### Reviewers
 
 Peer reviewers and evidence synthesisers use reporting guidelines to
@@ -257,11 +248,11 @@ and reporting guideline
 [developers](https://www.equator-network.org/toolkits/developing-a-reporting-guideline/).
 
 We have centers in the
-[UK](https://www.equator-network.org/about-us/uk-equator-centre/) (our
+[UK](https://www.equator-network.org/about/uk-equator-centre/) (our
 head office),
-[Canada](https://www.equator-network.org/about-us/canadian-equator-centre/),
-[Australia](https://www.equator-network.org/about-us/australasian-equator-centre/),
-[France](https://www.equator-network.org/about-us/french-equator-centre/),
+[Canada](https://www.equator-network.org/about/canadian-equator-centre/),
+[Australia](https://www.equator-network.org/about/australasian-equator-centre/),
+[France](https://www.equator-network.org/about/french-equator-centre/),
 and [China](http://www.equator-chinese.org/pages/en/index/index.html).
 
 ::: logos
@@ -346,9 +337,9 @@ specialise in training researchers how to write.
 
 <!-- {.content-block} -->
 
-::::: alt-background
+::::: {.radial-background}
 :::: get-started
-::: content-block
+::: {.content-block .center}
 ### Ready to use a reporting guideline?
 
 [Search reporting guidelines](/reporting-guidelines){.btn-action-primary .btn-action
