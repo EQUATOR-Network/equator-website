@@ -1,5 +1,5 @@
 format:
   html:
     css:
-      - /styles/main.css
-      - /styles/database-pages.css
+      - /assets/css/main.css
+      - /assets/css/database-pages.css
