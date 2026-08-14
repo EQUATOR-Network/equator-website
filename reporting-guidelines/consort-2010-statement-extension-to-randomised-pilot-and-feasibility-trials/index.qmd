@@ -119,7 +119,7 @@ relevant-more: |-
 website-url: ''
 additional-languages: ''
 additional-information: |-
-  Read the reporting guideline development [summary (Word)](https://www.equator-network.org/wp-content/uploads/2009/02/EQUATOR-website-summary-pilot-and-feasibility-studies.docx).
+  Read the reporting guideline development [summary (Word)](/EQUATOR-website-summary-pilot-and-feasibility-studies.docx).
 
   Read an article on the [methods and processes for the development of this CONSORT extension for reporting pilot randomized controlled trials](https://www.ncbi.nlm.nih.gov/pubmed/27965844).
 
@@ -132,7 +132,7 @@ other: |-
   Mellor K, Albury C, Dutton SJ, Eldridge S, Hopewell S. Recommendations for progression criteria during external randomised pilot trial design, conduct, analysis and reporting. Pilot Feasibility Stud. 2023;9(1):59. PMID: [37061720](https://pubmed.ncbi.nlm.nih.gov/37061720/)
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[CONSORT extension Pilot and Feasibility Trials Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2016/10/CONSORT-extension-Pilot-and-Feasibility-Trials-Checklist.doc)'
+downloads: '[CONSORT extension Pilot and Feasibility Trials Checklist (Word)](/CONSORT-extension-Pilot-and-Feasibility-Trials-Checklist.doc)'
 
 
 # LIST FIELDS

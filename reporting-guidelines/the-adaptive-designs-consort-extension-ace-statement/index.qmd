@@ -124,7 +124,7 @@ relevant-more: |-
 website-url: <https://www.sheffield.ac.uk/scharr/research/centres/ctru/ace>
 additional-languages: ''
 additional-information: |-
-  Read the [ACE Project Protocol (PDF)](https://www.equator-network.org/wp-content/uploads/2017/12/ACE-Project-Protocol-v2.3.pdf).
+  Read the [ACE Project Protocol (PDF)](/ACE-Project-Protocol-v2.3.pdf).
 
   Read about the development process published in this paper: Dimairo M, Coates E, Pallmann P, Todd S, Julious SA, Jaki T, Wason J, Mander AP, Weir CJ, Koenig F, Walton MK, Biggs K, Nicholl J, Hamasaki T, Proschan MA, Scott JA, Ando Y, Hind D, Altman DG. The development process of a consensus-driven CONSORT extension for randomised trials using adaptive design. BMC Med. 2018 Nov 16;16(1):210. PMID: [30442137](https://pubmed.ncbi.nlm.nih.gov/30442137)
 relevant-editorials: ''

@@ -28,7 +28,7 @@ relevant-more: |-
   [**RIMES-SE**](https://www.equator-network.org/reporting-guidelines/the-reporting-recommendations-intended-for-pharmaceutical-risk-minimization-evaluation-studies-standards-for-reporting-of-implementation-studies-extension-rimes-se/): Smith MY, Morrato EH, Mora N, Nguyen V, Pinnock H, Winterstein AG. The Reporting Recommendations Intended for Pharmaceutical Risk Minimization Evaluation Studies: Standards for Reporting of Implementation Studies Extension (RIMES-SE). Drug Saf. 2024. PMID: [38478350](https://pubmed.ncbi.nlm.nih.gov/38478350/)
 website-url: ''
 additional-languages: ''
-additional-information: Read the StaRI [guideline development proposal document (PDF)](https://www.equator-network.org/wp-content/uploads/2013/09/Proposal-for-reporting-guidelines-of-Implementation-Research-StaRI.pdf).
+additional-information: Read the StaRI [guideline development proposal document (PDF)](/Proposal-for-reporting-guidelines-of-Implementation-Research-StaRI.pdf).
 relevant-editorials: ''
 primary-guideline: ''
 other: '[Read a guide (PDF)](https://arc-sl.nihr.ac.uk/sites/default/files/uploads/files/Imp-Sci-reporting-guidelines-2023.pdf)
@@ -39,7 +39,7 @@ other: '[Read a guide (PDF)](https://arc-sl.nihr.ac.uk/sites/default/files/uploa
   and supported by King’s Improvement Science.'
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[StaRI checklist (Word)](https://www.equator-network.org/wp-content/uploads/2017/01/StaRI-checklist-for-author-completion.docx)'
+downloads: '[StaRI checklist (Word)](/StaRI-checklist-for-author-completion.docx)'
 
 
 # LIST FIELDS

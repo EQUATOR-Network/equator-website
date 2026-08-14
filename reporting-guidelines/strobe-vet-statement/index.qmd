@@ -40,7 +40,7 @@ website-url: <https://strobevet-statement.org/>
 additional-languages: |-
   The STROBE-Vet Statement is available in [French](https://strobevet-statement.org/la-declaration-veterinaire-strobe/) and [Spanish](https://strobevet-statement.org/la-declaracion-de-strobe-vet/).
 
-  The STROBE-Vet Checklist is available in [Turkish (PDF)](https://www.equator-network.org/wp-content/uploads/2020/11/STROBE-VET-Turkish-translation.pdf).
+  The STROBE-Vet Checklist is available in [Turkish (PDF)](/STROBE-VET-Turkish-translation.pdf).
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''

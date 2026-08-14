@@ -34,9 +34,9 @@ additional-languages: ''
 additional-information: |-
   Resources produced during the development of this reporting guideline:
 
-  [Project outline (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/6010_Guidelines+for+the+Reporting+of+Neuro-Epidemiological+Studies.pdf) (March 2013)
+  [Project outline (PDF)](/6010_Guidelines+for+the+Reporting+of+Neuro-Epidemiological+Studies.pdf) (March 2013)
 
-  [Conference presentation (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/6028_ICNE_Nice_talk_Nov_2012.pdf) outlining the project
+  [Conference presentation (PDF)](/6028_ICNE_Nice_talk_Nov_2012.pdf) outlining the project
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

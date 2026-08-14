@@ -117,7 +117,7 @@ relevant-more: |-
 website-url: ''
 additional-languages: ''
 additional-information: |-
-  [Read the protocol (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/Consort-SW-Protocol-V1.pdf) for the development of this reporting guideline.
+  [Read the protocol (PDF)](/Consort-SW-Protocol-V1.pdf) for the development of this reporting guideline.
 
   Read the interim guidelines published in 2015:
 

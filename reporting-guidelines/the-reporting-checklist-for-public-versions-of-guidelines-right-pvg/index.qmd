@@ -37,7 +37,7 @@ relevant-more: |-
   [**RIGHT for CPM**](https://www.equator-network.org/reporting-guidelines/the-reporting-checklist-for-chinese-patent-medicine-guidelines-right-for-cpm/): Li X, Huang L, Wang L, Jin X, Zhou Q, Ma Y, Wang Q, Wang T, Hu X, Ye D, Mao Y, Xie Z, Chen Y, Wen C. The reporting checklist for Chinese patent medicine guidelines: RIGHT for CPM. Pharmacol Res. 2024;199:107015. PMID: [38036197](https://pubmed.ncbi.nlm.nih.gov/38036197/)
 website-url: <http://www.right-statement.org/extensions/11>
 additional-languages: ''
-additional-information: '[Read the protocol (Word)](https://www.equator-network.org/wp-content/uploads/2009/02/Protocol-RIGHT-for-PVG-development.docx)
+additional-information: '[Read the protocol (Word)](/Protocol-RIGHT-for-PVG-development.docx)
   for the development of RIGHT-PVG.'
 relevant-editorials: ''
 primary-guideline: ''

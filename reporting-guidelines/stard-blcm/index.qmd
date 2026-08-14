@@ -44,7 +44,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[STARD-BLCM Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2017/02/STARD-BLCM-Checklist.docx)'
+downloads: '[STARD-BLCM Checklist (Word)](/STARD-BLCM-Checklist.docx)'
 
 
 # LIST FIELDS

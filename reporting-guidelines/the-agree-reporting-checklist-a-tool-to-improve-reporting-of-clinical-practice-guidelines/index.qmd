@@ -22,15 +22,15 @@ website-url: <http://www.agreetrust.org/resource-centre/agree-reporting-checklis
 additional-languages: |-
   The AGREE reporting checklist is also available in the following languages:
 
-  [Italian (Word)](http://www.agreetrust.org/wp-content/uploads/2016/02/Italian-AGREE-Reporting-Checklist.doc)
+  [Italian (Word)](/Italian-AGREE-Reporting-Checklist.doc)
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[AGREE Reporting Checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2016/03/AGREE-Reporting-Checklist.pdf)
-  [AGREE Reporting Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2017/01/AGREE-Reporting-Guideline-Checklist.docx)'
+downloads: '[AGREE Reporting Checklist (PDF)](/AGREE-Reporting-Checklist.pdf) [AGREE
+  Reporting Checklist (Word)](/AGREE-Reporting-Guideline-Checklist.docx)'
 
 
 # LIST FIELDS

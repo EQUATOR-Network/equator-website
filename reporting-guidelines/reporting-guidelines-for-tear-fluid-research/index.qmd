@@ -9,7 +9,7 @@ pmid-url: ''
 relevant-urls: |-
   Read the full text of the [guideline](https://linkinghub.elsevier.com/retrieve/pii/S1367-0484(25)00082-7).
 
-  The checklists can be downloaded [TEAR-Reporting Guidelines](https://www.equator-network.org/wp-content/uploads/2025/07/TEAR-Reporting-Guidelines.pdf).
+  The checklists can be downloaded [TEAR-Reporting Guidelines](/TEAR-Reporting-Guidelines.pdf).
 full-bibliographic-reference: 'Schmeetz J, van de Sande N, Rojas-Carabali W, Mergen
   B, Bonnet C, Boychev N, Cifuentes-González C, Kessal K, Brignole-Baudouin F, Asbell
   P, Kilicaslan NA, Lengyel I, Ibanez IC, Agrawal R, Gijs M. International reporting

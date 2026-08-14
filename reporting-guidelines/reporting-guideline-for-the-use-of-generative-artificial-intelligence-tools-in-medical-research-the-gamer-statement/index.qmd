@@ -22,7 +22,7 @@ explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
 website-url: ''
-additional-languages: The GAMER Checklist is available in [Chinese](https://www.equator-network.org/wp-content/uploads/2025/07/GAMER-checklist-Chinese-version.docx).
+additional-languages: The GAMER Checklist is available in [Chinese](/GAMER-checklist-Chinese-version.docx).
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: Read the full text of [GAMER](https://ebm.bmj.com/content/early/2025/05/13/bmjebm-2025-113825.long).

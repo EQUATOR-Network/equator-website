@@ -93,9 +93,9 @@ relevant-more: |-
 website-url: <http://www.prisma-statement.org/Extensions/DTA>
 additional-languages: ''
 additional-information: |-
-  Read the [guideline development executive summary (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/PRISMA-DTA-Executive-Summary.pdf) (November 2015)
+  Read the [guideline development executive summary (PDF)](/PRISMA-DTA-Executive-Summary.pdf) (November 2015)
 
-  Read the [guideline development protocol (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/PRISMA-DTA-Protocol.pdf) (May 2017)
+  Read the [guideline development protocol (PDF)](/PRISMA-DTA-Protocol.pdf) (May 2017)
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

@@ -22,8 +22,7 @@ guideline-history: ''
 relevant-more: ''
 website-url: <https://delphi.ph-gmuend.de/>
 additional-languages: The DELPHISTAR Statement has been translated into German in
-  [Word](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_ger.docx)
-  | [PDF](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_ger.pdf).
+  [Word](/RG_DELPHISTAR_ger.docx) | [PDF](/RG_DELPHISTAR_ger.pdf).
 additional-information: |-
   Read the reviews that informed the development of DELPHISTAR:
 
@@ -36,8 +35,8 @@ other: 'The DELPHISTAR project was registered at the OSF platform and can be ass
   on this page: <https://osf.io/gc4jk>'
 other-relevant-research: ''
 sticky: 'no'
-downloads: DELPHISTAR checklist ([Word](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_engl-2.docx)) 
-         DELPHISTAR checklist [(PDF](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_engl-1.pdf))
+downloads: DELPHISTAR checklist ([Word](/RG_DELPHISTAR_engl-2.docx))         DELPHISTAR
+  checklist [(PDF](/RG_DELPHISTAR_engl-1.pdf))
 
 
 # LIST FIELDS

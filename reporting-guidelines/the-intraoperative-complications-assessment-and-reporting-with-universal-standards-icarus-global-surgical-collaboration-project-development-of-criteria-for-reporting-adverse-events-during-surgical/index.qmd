@@ -36,8 +36,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[ICARUS checklist (Word)](https://www.equator-network.org/wp-content/uploads/2022/09/ICARUS-checklist.docx)  [ICARUS
-  checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2022/09/ICARUS-checklist.pdf)'
+downloads: '[ICARUS checklist (Word)](/ICARUS-checklist.docx)  [ICARUS checklist (PDF)](/ICARUS-checklist.pdf)'
 
 
 # LIST FIELDS

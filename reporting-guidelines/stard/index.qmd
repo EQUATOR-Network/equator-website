@@ -8,8 +8,7 @@ rg-doi: ''
 pmid-id: ''
 pmid-url: ''
 relevant-urls: The full-text of the STARD 2015 reporting guideline for diagnostic
-  accuracy studies is available to download as a[PDF](https://www.equator-network.org/wp-content/uploads/2015/03/STARD-2015-paper.pdf)
-  file.
+  accuracy studies is available to download as a[PDF](/STARD-2015-paper.pdf) file.
 full-bibliographic-reference: |-
   Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig L, LijmerJG Moher D, Rennie D, de Vet HCW, Kressel HY, Rifai N, Golub RM, Altman DG, Hooft L, Korevaar DA, Cohen JF, For the STARD Group. STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy Studies.
 
@@ -72,7 +71,7 @@ additional-languages: |-
 
   The updated STARD 2015 reporting guideline for diagnostic accuracy studies is available in [Italian](http://www.evidence.it/articolodettaglio/209/it/480/stard-2015-checklist-aggiornata-per-il-reporting-degli-studi-di/articolo).
 
-  The STARD 2015 Checklist is available in [Turkish (PDF)](https://www.equator-network.org/wp-content/uploads/2020/11/STARD-2015-Turkish-translation.pdf).
+  The STARD 2015 Checklist is available in [Turkish (PDF)](/STARD-2015-Turkish-translation.pdf).
 
   **STARD 2003**
 
@@ -80,7 +79,7 @@ additional-languages: |-
 
   The Japanese translation of the STARD Statement is published in the Official Journal of the Japanese Society of Laboratory Medicine. 2004. 52(5):465-471.
 
-  The STARD 2003 Checklist is available in[Turkish (PDF)](https://www.equator-network.org/wp-content/uploads/2017/05/STARD-Turkish-translation.pdf).
+  The STARD 2003 Checklist is available in[Turkish (PDF)](/STARD-Turkish-translation.pdf).
 additional-information: |-
   **Objective of the STARD initiative**
 
@@ -104,9 +103,9 @@ other: |-
 other-relevant-research: ''
 sticky: 'yes'
 downloads: |-
-  [STARD 2015 checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2015/03/STARD-2015-checklist.pdf) [STARD 2015 flow diagram (PDF)](https://www.equator-network.org/wp-content/uploads/2015/03/STARD-2015-flow-diagram.pdf)
+  [STARD 2015 checklist (PDF)](/STARD-2015-checklist.pdf) [STARD 2015 flow diagram (PDF)](/STARD-2015-flow-diagram.pdf)
 
-  [STARD 2015 checklist (Word)](https://www.equator-network.org/wp-content/uploads/2015/10/STARD-2015-Checklist.docx)
+  [STARD 2015 checklist (Word)](/STARD-2015-Checklist.docx)
 
 
 # LIST FIELDS

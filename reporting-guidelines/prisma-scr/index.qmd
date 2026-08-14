@@ -88,13 +88,13 @@ relevant-more: |-
 
   [**PRISMA-LSR**](https://www.equator-network.org/reporting-guidelines/prisma-lsr/): Akl EA, Khabsa J, Iannizzi C, Piechotta V, Kahale LA, Barker JM, McKenzie JE, Page MJ, Skoetz N; PRISMA-LSR Group. Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR): checklist and explanation. BMJ. 2024;387:e079183. PMID: [39562017](https://pubmed.ncbi.nlm.nih.gov/39562017/)
 website-url: <https://www.prisma-statement.org/scoping>
-additional-languages: The PRISMA-ScR checklist is available in [Japanese (Word)](https://www.equator-network.org/wp-content/uploads/2021/06/PRISMA-ScR-Checklist-Japanese.docx).
+additional-languages: The PRISMA-ScR checklist is available in [Japanese (Word)](/PRISMA-ScR-Checklist-Japanese.docx).
 additional-information: |-
   An introductory video and a series of tip sheets for reporting each PRISMA-ScR item are available at:
 
   <https://knowledgetranslation.net/portfolios/the-prisma-scr-prisma-extension-for-scoping-reviews/>
 
-  Read the [executive summary (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/Executive-summary_ScR_Dec-9.pdf) for the development of PRISMA-ScR.
+  Read the [executive summary (PDF)](/Executive-summary_ScR_Dec-9.pdf) for the development of PRISMA-ScR.
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

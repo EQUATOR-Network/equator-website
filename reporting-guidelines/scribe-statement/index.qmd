@@ -43,7 +43,7 @@ guideline-history: ''
 relevant-more: ''
 website-url: ''
 additional-languages: ''
-additional-information: Read the [SCRIBE project abstract (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/SCRIBE-development-abstract.pdf)
+additional-information: Read the [SCRIBE project abstract (PDF)](/SCRIBE-development-abstract.pdf)
   which was prepared to outline development of this reporting guideline.
 relevant-editorials: ''
 primary-guideline: ''

@@ -29,8 +29,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[BePRECISE Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2024/07/BePRECISE-Checklist.docx)  [BePRECISE
-  Checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/07/BePRECISE-Checklist.pdf)'
+downloads: '[BePRECISE Checklist (Word)](/BePRECISE-Checklist.docx)  [BePRECISE Checklist
+  (PDF)](/BePRECISE-Checklist.pdf)'
 
 
 # LIST FIELDS

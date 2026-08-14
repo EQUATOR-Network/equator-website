@@ -15,21 +15,21 @@ relevant-urls: |-
 
   Abstracts
 
-  [CONSORT-SPI 2018 abstract checklist (Word)](https://www.equator-network.org/wp-content/uploads/2018/07/CONSORT-SPI-2018-Abstract-Checklist.docx)
+  [CONSORT-SPI 2018 abstract checklist (Word)](/CONSORT-SPI-2018-Abstract-Checklist.docx)
 
-  [CONSORT-SPI 2018 abstract checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2018/07/CONSORT-SPI-2018-Abstract-Checklist.pdf)
+  [CONSORT-SPI 2018 abstract checklist (PDF)](/CONSORT-SPI-2018-Abstract-Checklist.pdf)
 
   Cluster trials
 
-  [CONSORT-SPI 2018 checklist for cluster trials (Word)](https://www.equator-network.org/wp-content/uploads/2018/07/CONSORT-SPI-2018-Checklist-with-Cluster-Extension.docx)
+  [CONSORT-SPI 2018 checklist for cluster trials (Word)](/CONSORT-SPI-2018-Checklist-with-Cluster-Extension.docx)
 
-  [CONSORT-SPI 2018 checklist for cluster trials (PDF)](https://www.equator-network.org/wp-content/uploads/2018/07/CONSORT-SPI-2018-Checklist-with-Cluster-Extension.pdf)
+  [CONSORT-SPI 2018 checklist for cluster trials (PDF)](/CONSORT-SPI-2018-Checklist-with-Cluster-Extension.pdf)
 
   Cluster trial abstracts
 
-  [CONSORT-SPI 2018 checklist for cluster trial abstracts (Word)](https://www.equator-network.org/wp-content/uploads/2018/07/CONSORT-SPI-Abstract-for-Clusters-Checklist.docx)
+  [CONSORT-SPI 2018 checklist for cluster trial abstracts (Word)](/CONSORT-SPI-Abstract-for-Clusters-Checklist.docx)
 
-  [CONSORT-SPI 2018 checklist for cluster trial abstracts (PDF)](https://www.equator-network.org/wp-content/uploads/2018/07/CONSORT-SPI-Abstract-for-Clusters-Checklist.pdf)
+  [CONSORT-SPI 2018 checklist for cluster trial abstracts (PDF)](/CONSORT-SPI-Abstract-for-Clusters-Checklist.pdf)
 full-bibliographic-reference: 'Montgomery P, Grant S, Mayo-Wilson E, Macdonald G,
   Michie S, Hopewell S, Moher D; on behalf of the CONSORT-SPI Group. Reporting randomised
   trials of social and psychological interventions: the CONSORT-SPI 2018 Extension.
@@ -153,8 +153,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[CONSORT-SPI 2018 checklist (Word)](https://www.equator-network.org/wp-content/uploads/2018/07/CONSORT-SPI-2018-Checklist.docx)  [CONSORT-SPI
-  2018 checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2018/07/CONSORT-SPI-2018-Checklist.pdf)'
+downloads: '[CONSORT-SPI 2018 checklist (Word)](/CONSORT-SPI-2018-Checklist.docx)  [CONSORT-SPI
+  2018 checklist (PDF)](/CONSORT-SPI-2018-Checklist.pdf)'
 
 
 # LIST FIELDS

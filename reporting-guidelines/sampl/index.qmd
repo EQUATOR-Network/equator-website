@@ -8,7 +8,7 @@ provided-for: Basic statistical reporting for articles published in biomedical j
 rg-doi: ''
 pmid-id: '[25441757](http://www.ncbi.nlm.nih.gov/pubmed/25441757)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25441757
-relevant-urls: Download the [SAMPL Guidelines (PDF)](https://www.equator-network.org/wp-content/uploads/2013/07/SAMPL-Guidelines-6-27-13.pdf)
+relevant-urls: Download the [SAMPL Guidelines (PDF)](/SAMPL-Guidelines-6-27-13.pdf)
 full-bibliographic-reference: 'Lang TA, Altman DG. Basic statistical reporting for
   articles published in biomedical journals: the "Statistical Analyses and Methods
   in the Published Literature" or the SAMPL Guidelines. Int J Nurs Stud. 2015;52(1):5-9.'

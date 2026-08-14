@@ -29,8 +29,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[SWiM checklist (Word)](https://www.equator-network.org/wp-content/uploads/2020/01/Synthesis-without-Meta-analysis-SWiM-Checklist.docx)  [SWiM
-  checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2020/01/Synthesis-without-Meta-analysis-SWiM-Checklist.pdf)'
+downloads: '[SWiM checklist (Word)](/Synthesis-without-Meta-analysis-SWiM-Checklist.docx)  [SWiM
+  checklist (PDF)](/Synthesis-without-Meta-analysis-SWiM-Checklist.pdf)'
 
 
 # LIST FIELDS

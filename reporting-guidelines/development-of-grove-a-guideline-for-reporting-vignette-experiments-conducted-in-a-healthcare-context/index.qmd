@@ -27,7 +27,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[GROVE Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2025/03/GROVE-Checklist.docx)'
+downloads: '[GROVE Checklist (Word)](/GROVE-Checklist.docx)'
 
 
 # LIST FIELDS

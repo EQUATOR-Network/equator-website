@@ -31,7 +31,7 @@ relevant-more: |-
 website-url: <http://www.tidierguide.org/>
 additional-languages: ''
 additional-information: |-
-  Read the [TIDieR Placebo Protocol (PDF)](https://www.equator-network.org/wp-content/uploads/2019/05/TIDieR-Placebo-Protocol-v11.pdf).
+  Read the [TIDieR Placebo Protocol (PDF)](/TIDieR-Placebo-Protocol-v11.pdf).
 
   Read a background paper: Howick J, Hoffmann T. How placebo characteristics can influence estimates of intervention effects in trials. CMAJ. 2018;190(30):E908-E911. PMID: [30061325](https://pubmed.ncbi.nlm.nih.gov/30061325/)
 relevant-editorials: ''

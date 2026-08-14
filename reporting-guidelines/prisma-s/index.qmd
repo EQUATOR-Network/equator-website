@@ -93,7 +93,7 @@ additional-information: |-
 relevant-editorials: ''
 primary-guideline: ''
 other: |-
-  [Read the protocol (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/Protocol-PRISMA-S-Delphi.pdf) for the development of the PRISMA-S guideline.
+  [Read the protocol (PDF)](/Protocol-PRISMA-S-Delphi.pdf) for the development of the PRISMA-S guideline.
 
   All data (including data relating to item development, survey instruments, data from the Delphi surveys, and consent documents) is available from the PRISMA-S Reporting Extension OSF site at <https://doi.org/10.17605/OSF.IO/YGN9W>
 other-relevant-research: ''

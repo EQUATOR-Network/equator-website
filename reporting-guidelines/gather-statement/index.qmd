@@ -39,8 +39,8 @@ additional-languages: |-
   Russian[PDF](http://gather-statement.org/download/gather-checklist-russian-pdf/) / [Word](http://gather-statement.org/download/gather-checklist-russian-docx/)
 
   Spanish[PDF](http://gather-statement.org/download/gather-checklist-spanish-pdf/) / [Word](http://gather-statement.org/download/gather-checklist-spanish-docx/)
-additional-information: Read the [report (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/GATHER-meeting-report.pdf)
-  from the guideline development working group meeting held in 2015.
+additional-information: Read the [report (PDF)](/GATHER-meeting-report.pdf) from the
+  guideline development working group meeting held in 2015.
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

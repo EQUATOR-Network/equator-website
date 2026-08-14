@@ -33,8 +33,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[CODE-EHR checklist (Word)](https://www.equator-network.org/wp-content/uploads/2022/09/CODE-EHR-checklist.docx)  [CODE-EHR
-  checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2022/09/CODE-EHR-checklist.pdf)'
+downloads: '[CODE-EHR checklist (Word)](/CODE-EHR-checklist.docx)  [CODE-EHR checklist
+  (PDF)](/CODE-EHR-checklist.pdf)'
 
 
 # LIST FIELDS

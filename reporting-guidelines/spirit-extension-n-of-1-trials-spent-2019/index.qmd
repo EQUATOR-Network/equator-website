@@ -58,7 +58,7 @@ relevant-more: |-
   [**SPIRIT-iNeurostim**](https://www.equator-network.org/reporting-guidelines/reporting-guidelines-for-protocols-of-randomised-controlled-trials-of-implantable-neurostimulation-devices-the-spirit-ineurostim-extension/): Bresnahan R, Copley S, Eldabe S, Thomson S, North RB, Baranidharan G, Levy RM, Collins GS, Taylor RS, Duarte RV. Reporting guidelines for protocols of randomised controlled trials of implantable neurostimulation devices: the SPIRIT-iNeurostim extension. EClinicalMedicine. 2024;78:102933. PMID: [39610902](https://pubmed.ncbi.nlm.nih.gov/39610902/)
 website-url: ''
 additional-languages: ''
-additional-information: Read the [SPENT development statement (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/SPENT-development-statement.pdf).
+additional-information: Read the [SPENT development statement (PDF)](/SPENT-development-statement.pdf).
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

@@ -37,7 +37,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[CONSERVE-CONSORT & CONSERVE-SPIRIT Checklists (Word)](https://www.equator-network.org/wp-content/uploads/2021/06/CONSERVE-Checklists.docx)'
+downloads: '[CONSERVE-CONSORT & CONSERVE-SPIRIT Checklists (Word)](/CONSERVE-Checklists.docx)'
 
 
 # LIST FIELDS

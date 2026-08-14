@@ -26,8 +26,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[BIBLIO Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2024/01/BIBLIO-Checklist.docx)  [BIBLIO
-  Checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/01/BIBLIO-Checklist.pdf)'
+downloads: '[BIBLIO Checklist (Word)](/BIBLIO-Checklist.docx)  [BIBLIO Checklist (PDF)](/BIBLIO-Checklist.pdf)'
 
 
 # LIST FIELDS

@@ -26,7 +26,7 @@ explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
 website-url: ''
-additional-languages: The DECIDE-AI checklist is available in [Spanish](https://www.equator-network.org/wp-content/uploads/2022/05/DECIDE-AI-Spanish.pdf).
+additional-languages: The DECIDE-AI checklist is available in [Spanish](/DECIDE-AI-Spanish.pdf).
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''

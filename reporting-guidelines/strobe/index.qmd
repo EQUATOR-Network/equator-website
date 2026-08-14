@@ -44,7 +44,7 @@ explanation-and-elaboration-papers: |-
 
   Ann Intern Med. 2007;147(8):W163-94. PMID: [17938389](http://www.ncbi.nlm.nih.gov/pubmed/17938389)
 
-  The EQUATOR team edited a textbook called *Guidelines for Reporting Health Research: A User’s Manual*. It includes chapters on the guidelines most commonly required by journals. [Read Chapter 17, on STROBE (PDF)](https://www.equator-network.org/wp-content/uploads/2016/12/CevallosEgger-Chapter-17-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf).
+  The EQUATOR team edited a textbook called *Guidelines for Reporting Health Research: A User’s Manual*. It includes chapters on the guidelines most commonly required by journals. [Read Chapter 17, on STROBE (PDF)](/CevallosEgger-Chapter-17-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf).
 guideline-history: STROBE 2004/2005
 relevant-more: |-
   **Specialised
@@ -108,11 +108,11 @@ relevant-more: |-
   [**STROBE-EQUITY**](https://www.equator-network.org/reporting-guidelines/strobe-equity/): Dewidar O, Shamseer L, Melendez-Torres GJ, Akl EA, Ramke J, Wang X, Oloyede O, Young T, Nicholls SG, Marshall Z, Kennedy M, Hardy BJ, Rizvi A, Ghogomu E, Rader T, Waddington HS, Shea B, Nkangu M, Ellingwood H, Wolfenden L, Tufte J, Horsley T, Pottie K, Cuervo LG, Juando-Prats C, Feng C, Sharp MK, Little J, Owusu-Addo E, Francis D, Kredo T, Mahande MJ, Chamberlain C, Pantoja T, von Elm E, Bhutta ZA, Tugwell P, Wiysonge CS, Funnell S, Jull J, Mbuagbaw L, Welch V. Improving the reporting on health equity in observational research (STROBE-Equity): extension checklist and elaboration. PMID: [40903054](https://pubmed.ncbi.nlm.nih.gov/40903054/)
 website-url: <https://www.strobe-statement.org/>
 additional-languages: |-
-  The STROBE Statement has been translated into the following languages: [Chinese (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE-Chinese.pdf); [German (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_German.pdf); [Greek (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_Greek.pdf); [Japanese (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE-Japanese.pdf); [Portuguese (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_Portuguese.pdf) (unofficial translation); [Spanish (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_Spanish.pdf); [Italian (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_Italian.pdf).
+  The STROBE Statement has been translated into the following languages: [Chinese (PDF)](/STROBE-Chinese.pdf); [German (PDF)](/STROBE_German.pdf); [Greek (PDF)](/STROBE_Greek.pdf); [Japanese (PDF)](/STROBE-Japanese.pdf); [Portuguese (PDF)](/STROBE_Portuguese.pdf) (unofficial translation); [Spanish (PDF)](/STROBE_Spanish.pdf); [Italian (PDF)](/STROBE_Italian.pdf).
 
-  The STROBE explanation and elaboration paper has been translated into the following languages: [Japanese (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE-Exp-JAPANESE.pdf); [Spanish (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE-Exp-SPANISH.pdf).
+  The STROBE explanation and elaboration paper has been translated into the following languages: [Japanese (PDF)](/STROBE-Exp-JAPANESE.pdf); [Spanish (PDF)](/STROBE-Exp-SPANISH.pdf).
 
-  The STROBE checklist has been translated into the following languages: [Persian (PDF)](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_Persian_Combined.pdf); [Turkish (PDF)](https://www.equator-network.org/wp-content/uploads/2021/04/STROBE-Turkish-translation.pdf).
+  The STROBE checklist has been translated into the following languages: [Persian (PDF)](/STROBE_Persian_Combined.pdf); [Turkish (PDF)](/STROBE-Turkish-translation.pdf).
 
   Visit our translations page to find out what other reporting guidelines are available in languages other than English: [reporting guideline translations](https://www.equator-network.org/library/translations-of-reporting-guidelines/)
 additional-information: |-
@@ -143,13 +143,13 @@ other: ''
 other-relevant-research: ''
 sticky: 'yes'
 downloads: |-
-  STROBE checklist: combined [Word](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_checklist_v4_combined.docx) / [PDF](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_checklist_v4_combined.pdf)
+  STROBE checklist: combined [Word](/STROBE_checklist_v4_combined.docx) / [PDF](/STROBE_checklist_v4_combined.pdf)
 
-  STROBE checklist: cohort studies [Word](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_checklist_cohort.docx) / [PDF](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_checklist_v4_cohort.pdf)
+  STROBE checklist: cohort studies [Word](/STROBE_checklist_cohort.docx) / [PDF](/STROBE_checklist_v4_cohort.pdf)
 
-  STROBE checklist: case-control studies [Word](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_checklist_case-control.doc) / [PDF](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_checklist_v4_case-control.pdf)
+  STROBE checklist: case-control studies [Word](/STROBE_checklist_case-control.doc) / [PDF](/STROBE_checklist_v4_case-control.pdf)
 
-  STROBE checklist: cross-sectional studies [Word](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_checklist_cross-sectional.docx) / [PDF](https://www.equator-network.org/wp-content/uploads/2015/10/STROBE_checklist_v4_cross-sectional.pdf)
+  STROBE checklist: cross-sectional studies [Word](/STROBE_checklist_cross-sectional.docx) / [PDF](/STROBE_checklist_v4_cross-sectional.pdf)
 
 
 # LIST FIELDS

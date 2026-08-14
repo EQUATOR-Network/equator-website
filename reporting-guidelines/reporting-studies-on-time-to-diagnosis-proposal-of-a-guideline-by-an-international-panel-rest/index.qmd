@@ -22,7 +22,7 @@ relevant-more: ''
 website-url: ''
 additional-languages: ''
 additional-information: |-
-  Read the [guideline development summary (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/Reporting-studies-on-time-to-diagnosis-summary.pdf).
+  Read the [guideline development summary (PDF)](/Reporting-studies-on-time-to-diagnosis-summary.pdf).
 
   Read a [related paper](http://adc.bmj.com/content/99/3/244.abstract?sid=404e9ae2-bcf9-4dc5-85f4-23f6251a8066) on the quality of reporting of studies evaluating time to diagnosis in paediatrics.
 relevant-editorials: ''

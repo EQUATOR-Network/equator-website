@@ -100,7 +100,7 @@ relevant-more: |-
 website-url: <http://www.strobe-nut.org/>
 additional-languages: ''
 additional-information: 'The protocol for the development of this guideline is available
-  from: [STROBE-nut protocol (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/Protocol-food-intake-checklist-Modification.pdf)
+  from: [STROBE-nut protocol (PDF)](/Protocol-food-intake-checklist-Modification.pdf)
   (August 2014).'
 relevant-editorials: ''
 primary-guideline: ''

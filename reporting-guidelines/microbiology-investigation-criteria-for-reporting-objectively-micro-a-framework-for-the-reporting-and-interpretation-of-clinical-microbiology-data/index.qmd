@@ -28,8 +28,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[MICRO Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2019/04/MICRO_checklist_V1.docx)  [MICRO
-  Checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2019/04/MICRO_checklist_V1.pdf)'
+downloads: '[MICRO Checklist (Word)](/MICRO_checklist_V1.docx)  [MICRO Checklist (PDF)](/MICRO_checklist_V1.pdf)'
 
 
 # LIST FIELDS

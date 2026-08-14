@@ -87,9 +87,8 @@ relevant-more: |-
   [**PRISMA-LSR**](https://www.equator-network.org/reporting-guidelines/prisma-lsr/): Akl EA, Khabsa J, Iannizzi C, Piechotta V, Kahale LA, Barker JM, McKenzie JE, Page MJ, Skoetz N; PRISMA-LSR Group. Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR): checklist and explanation. BMJ. 2024;387:e079183. PMID: [39562017](https://pubmed.ncbi.nlm.nih.gov/39562017/)
 website-url: <http://www.prisma-statement.org/Extensions/Acupuncture>
 additional-languages: The PRISMA for Acupuncture checklist is available in Chinese
-  ([PDF](https://www.equator-network.org/wp-content/uploads/2019/08/PRISMA-A-checklist-Chinese.pdf)
-  | [Word](https://www.equator-network.org/wp-content/uploads/2019/08/PRISMA-A-checklist-Chinese.docx)).
-additional-information: '[Read additional information (PDF)](https://www.equator-network.org/wp-content/uploads/2018/05/Appendix-1-Contributor-information-PRISMA-for-acupuncture.pdf)
+  ([PDF](/PRISMA-A-checklist-Chinese.pdf) | [Word](/PRISMA-A-checklist-Chinese.docx)).
+additional-information: '[Read additional information (PDF)](/Appendix-1-Contributor-information-PRISMA-for-acupuncture.pdf)
   about PRISMA for Acupuncture development group participants.'
 relevant-editorials: ''
 primary-guideline: ''
