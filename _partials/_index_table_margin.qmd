@@ -1,0 +1,28 @@
+---
+editor:
+  markdown:
+    wrap: none
+---
+
+::: {.column-margin .rg-table}
+**Commonly used reporting guidelines**
+
+|  |  |
+|--------------------------------|----------------------------------------|
+| [STROBE](/reporting-guidelines/strobe) | Observational Studies |
+| [PRISMA](/reporting-guidelines/prisma) | Systematic reviews of trials |
+| [PRISMA-P](/reporting-guidelines/prisma-protocols/) | Systematic review protocols |
+| [CONSORT](/reporting-guidelines/consort) | Randomised trials |
+| [SPIRIT](/reporting-guidelines/spirit-2013-statement-defining-standard-protocol-items-for-clinical-trials/) | Randomised trial protocols |
+| [SRQR](/reporting-guidelines/srqr) | Qualitative Research |
+| [CARE](/reporting-guidelines/care) | Case Reports |
+| [STARD](/reporting-guidelines/stard) | Diagnostic studies |
+| [TRIPOD+AI](/reporting-guidelines/tripod-statement/) | Prediction Models |
+| [ARRIVE](/reporting-guidelines/arrive) | Animal Research |
+| [SQUIRE](/reporting-guidelines/squire) | Quality Improvement |
+| [CHEERS](/reporting-guidelines/cheers/) | Economic Evaluations |
+| | [Search all](/reporting-guidelines/index.qmd) |
+
+: {tbl-colwidths="\[35,65\]"}
+
+:::

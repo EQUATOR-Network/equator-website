@@ -1,3 +1,5 @@
+{{< include /_partials/_index_table_margin.qmd >}}
+
 {{< include /_partials/_how_to_use_accordian.qmd >}}
 
 ::: {.section}
