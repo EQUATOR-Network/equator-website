@@ -17,7 +17,7 @@ listing:
   type: grid
   fields: [image, title, subtitle]
   contents: 
-    - /listings/staff/*qmd
+    - /about/people/*qmd
   include: 
     centre: uk
   exclude:
@@ -256,10 +256,10 @@ head office),
 and [China](http://www.equator-chinese.org/pages/en/index/index.html).
 
 ::: logos
-![University of Oxford logo](assets/logos/oxford.svg) ![Université Paris
-Cité logo](assets/logos/paris.jpeg) ![Ottowa Hospital
+![University of Birmingham logo](assets/logos/birmingham.png) ![University of Oxford logo](assets/logos/oxford.svg) ![Ottowa Hospital
 logo](assets/logos/ottawa.png){.logo-bigger} ![Bond University
-logo](assets/logos/bond.svg) ![Hong Kong Baptist University
+logo](assets/logos/bond.svg) ![Université Paris
+Cité logo](assets/logos/paris.jpeg) ![Hong Kong Baptist University
 logo](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger}
 :::
 

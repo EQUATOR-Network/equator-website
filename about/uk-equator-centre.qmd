@@ -4,7 +4,7 @@ date: ''
 listing:
     id: listing
     contents: 
-    - ../listings/staff/*qmd
+    - ../about/people/*qmd
     include: 
         centre: uk
     image-align: left
