@@ -16,3 +16,23 @@
     padding-bottom: 5px;
     margin-bottom: 25px;
 }
+
+.column-margin .rg-table {
+    margin-bottom: 1.25rem;
+    padding: .4em .7em;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 300px;
+}
+
+.column-margin .rg-table {
+        margin-top: 1rem;
+}
+
+.column-margin .rg-table table tbody tr td {
+    border: none;
+}
+
+.column-margin .rg-table table {
+    border-style: none;
+}
