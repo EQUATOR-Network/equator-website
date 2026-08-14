@@ -1,0 +1,18 @@
+/* hiding empty database fields */
+[data-content=''] {
+    display: none;
+}
+[data-content=""] {
+    display: none;
+}
+[data-content^='?'] {
+    display: none;
+}
+.reporting-guideline-key-info-box {
+    background-color: var(--green-very-light);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
