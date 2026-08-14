@@ -30,7 +30,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[TIDieR-PHP checklist (PDF)](/TIDieR-PHP-checklist.pdf)'
+downloads: '[TIDieR-PHP checklist (PDF)](TIDieR-PHP-checklist.pdf)'
 
 
 # LIST FIELDS

@@ -123,7 +123,7 @@ additional-languages: ''
 additional-information: |-
   [Read a paper](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-02937-0) published in BMC Medicine about the development of the guideline.
 
-  Read the guideline development [protocol (PDF)](/DF-CONSORT-protocol-v1.2_FINAL.pdf).
+  Read the guideline development [protocol (PDF)](DF-CONSORT-protocol-v1.2_FINAL.pdf).
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

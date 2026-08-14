@@ -66,7 +66,7 @@ additional-languages: ''
 additional-information: |-
   [Read a paper](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-023-02937-0) published in BMC Medicine about the development of the guideline.
 
-  Read the guideline development [protocol (PDF)](/SPIRIT-protocol-v1.0-06052022_FINAL1.pdf)
+  Read the guideline development [protocol (PDF)](SPIRIT-protocol-v1.0-06052022_FINAL1.pdf)
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

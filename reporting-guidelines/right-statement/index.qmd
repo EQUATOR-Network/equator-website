@@ -46,7 +46,7 @@ additional-languages: |-
 
   Visit the [RIGHT Statement website translations page](http://www.right-statement.org/translations) to access these translations.
 additional-information: Read the reporting guideline development [project summary
-  (PDF)](/RIGHT-Guideline.pdf).
+  (PDF)](RIGHT-Guideline.pdf).
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

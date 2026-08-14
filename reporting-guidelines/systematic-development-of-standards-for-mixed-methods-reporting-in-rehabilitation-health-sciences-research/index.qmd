@@ -26,7 +26,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[MMR-RHS checklist (PDF)](/MMR-RHS-checklist.pdf)'
+downloads: '[MMR-RHS checklist (PDF)](MMR-RHS-checklist.pdf)'
 
 
 # LIST FIELDS

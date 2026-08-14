@@ -26,7 +26,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[EBP project checklist (PDF)](/Evidence-based-practice-project-checklist.pdf)'
+downloads: '[EBP project checklist (PDF)](Evidence-based-practice-project-checklist.pdf)'
 
 
 # LIST FIELDS

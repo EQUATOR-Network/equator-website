@@ -8,7 +8,7 @@ rg-doi: ''
 pmid-id: '[24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/24609605
 relevant-urls: |-
-  The TIDieR Checklist is available to download as a[PDF](/TIDieR-Checklist-PDF.pdf) and a[Word](/TIDieR-Checklist-Word.docx) file.
+  The TIDieR Checklist is available to download as a[PDF](TIDieR-Checklist-PDF.pdf) and a[Word](TIDieR-Checklist-Word.docx) file.
 
   Full text is available at <http://www.bmj.com/content/348/bmj.g1687>
 full-bibliographic-reference: 'Hoffmann T, Glasziou P, Boutron I, Milne R, Perera
@@ -124,9 +124,9 @@ website-url: <http://www.tidierguide.org/>
 additional-languages: |-
   The TIDieR guideline and reporting checklist are also available in the following languages:
 
-  [TIDieR Checklist (French) PDF](/TIDieR-Checklist-Word_translation-FRENCH_Dec-2017.pdf)
+  [TIDieR Checklist (French) PDF](TIDieR-Checklist-Word_translation-FRENCH_Dec-2017.pdf)
 
-  [TIDieR Guideline (French) PDF](/TIDIeR-Reporting-Guide_translation_French-Dec-2017-2.pdf)
+  [TIDieR Guideline (French) PDF](TIDIeR-Reporting-Guide_translation_French-Dec-2017-2.pdf)
 
   [TIDieR Guideline (German)](https://dx.doi.org/10.1055/s-0041-111066)
 
@@ -134,21 +134,21 @@ additional-languages: |-
 
   [TIDieR Checklist (Italian) MS Word](https://www.evidence.it/articoli/pdf/e1000189_checklist.doc)
 
-  [TIDieR Guideline (Spanish) PDF](/Guia-y-lista-de-verificacion-TiDier-Traduccion-espanol.pdf)
+  [TIDieR Guideline (Spanish) PDF](Guia-y-lista-de-verificacion-TiDier-Traduccion-espanol.pdf)
 
-  [TIDieR Checklist (Spanish) PDF](/Apendice-3-Lista-de-verificacion-TiDier-Traduccion-espanol.pdf)
+  [TIDieR Checklist (Spanish) PDF](Apendice-3-Lista-de-verificacion-TiDier-Traduccion-espanol.pdf)
 
-  [TIDieR Guideline (Turkish) PDF](/TIDieR-Turkish-translation.pdf)
+  [TIDieR Guideline (Turkish) PDF](TIDieR-Turkish-translation.pdf)
 
-  [TIDieR Guideline E&E (Portuguese) PDF](/TIDieR-EE-paper-Portuguese.pdf)
+  [TIDieR Guideline E&E (Portuguese) PDF](TIDieR-EE-paper-Portuguese.pdf)
 
-  [TIDieR Checklist (Portuguese) MS Word](/TIDieR-Checklist-fillable-Portuguese.docx)
+  [TIDieR Checklist (Portuguese) MS Word](TIDieR-Checklist-fillable-Portuguese.docx)
 
-  [TIDieR Guideline (Chinese) PDF](/TIDieR-Chinese-Translation.pdf)
+  [TIDieR Guideline (Chinese) PDF](TIDieR-Chinese-Translation.pdf)
 
-  [TIDieR Guideline (Finnish) PDF](/TIDieR-Checklist_Final_FIN.pdf)
+  [TIDieR Guideline (Finnish) PDF](TIDieR-Checklist_Final_FIN.pdf)
 
-  [TIDieR Checklist (Finnish) MS Word](/TIDieR-Checklist_Final_FIN.docx)
+  [TIDieR Checklist (Finnish) MS Word](TIDieR-Checklist_Final_FIN.docx)
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''

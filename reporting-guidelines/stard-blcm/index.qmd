@@ -44,7 +44,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[STARD-BLCM Checklist (Word)](/STARD-BLCM-Checklist.docx)'
+downloads: '[STARD-BLCM Checklist (Word)](STARD-BLCM-Checklist.docx)'
 
 
 # LIST FIELDS

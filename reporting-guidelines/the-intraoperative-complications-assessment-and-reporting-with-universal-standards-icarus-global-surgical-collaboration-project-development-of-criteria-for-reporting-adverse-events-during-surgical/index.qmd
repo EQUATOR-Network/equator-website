@@ -36,7 +36,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[ICARUS checklist (Word)](/ICARUS-checklist.docx)  [ICARUS checklist (PDF)](/ICARUS-checklist.pdf)'
+downloads: '[ICARUS checklist (Word)](ICARUS-checklist.docx)  [ICARUS checklist (PDF)](ICARUS-checklist.pdf)'
 
 
 # LIST FIELDS

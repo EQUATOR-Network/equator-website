@@ -30,31 +30,31 @@ additional-languages: |-
 
   **Checklist**
 
-  [CRISP Checklist Brazilian Portuguese (Word)](/CRISP_Checklist_Brazilian_Portuguese.docx)
+  [CRISP Checklist Brazilian Portuguese (Word)](CRISP_Checklist_Brazilian_Portuguese.docx)
 
-  [CRISP Checklist Brazilian Portuguese (PDF)](/CRISP_Checklist_Brazilian_Portuguese.pdf)
+  [CRISP Checklist Brazilian Portuguese (PDF)](CRISP_Checklist_Brazilian_Portuguese.pdf)
 
-  [CRISP Checklist Chinese (PDF)](/CRISP-Checklist-Chinese-Version.pdf)
+  [CRISP Checklist Chinese (PDF)](CRISP-Checklist-Chinese-Version.pdf)
 
-  [CRISP Checklist French (Word)](/FR-CRISP-Reporting-Checklist-2024.docx)
+  [CRISP Checklist French (Word)](FR-CRISP-Reporting-Checklist-2024.docx)
 
-  [CRISP Checklist French (PDF)](/FR-CRISP-Reporting-Checklist-2024.pdf)
+  [CRISP Checklist French (PDF)](FR-CRISP-Reporting-Checklist-2024.pdf)
 
-  [CRISP Checklist German (Word)](/CRISP_Checklist_German_Deutsch.docx)
+  [CRISP Checklist German (Word)](CRISP_Checklist_German_Deutsch.docx)
 
-  [CRISP Checklist German (PDF)](/CRISP_Checklist_German_Deutsch.pdf)
+  [CRISP Checklist German (PDF)](CRISP_Checklist_German_Deutsch.pdf)
 
-  [CRISP Checklist Spanish (Word)](/CRISP_Checklist_Espanol.docx)
+  [CRISP Checklist Spanish (Word)](CRISP_Checklist_Espanol.docx)
 
-  [CRISP Checklist Spanish (PDF)](/CRISP-Checklist-Espanol.pdf)
+  [CRISP Checklist Spanish (PDF)](CRISP-Checklist-Espanol.pdf)
 
-  [CRISP checklist Turkish (Word)](/CRISP-Checklist-Turkish-final-2024.10.1.docx)
+  [CRISP checklist Turkish (Word)](CRISP-Checklist-Turkish-final-2024.10.1.docx)
 
-  [CRISP checklist Turkish (PDF)](/CRISP-Checklist-Turkish-final-2024.10.1-1.pdf)
+  [CRISP checklist Turkish (PDF)](CRISP-Checklist-Turkish-final-2024.10.1-1.pdf)
 
   **Explanation and Elaboration**
 
-  [CRISP Explanation and examples Chinese (PDF)](/CRISP-Explanation-and-Examples-Chinese-Version.pdf)
+  [CRISP Explanation and examples Chinese (PDF)](CRISP-Explanation-and-Examples-Chinese-Version.pdf)
 additional-information: ''
 relevant-editorials: |-
   Phillips WR, Sturgiss EA, Kendall S, Akman M. Reporting study results in primary health care: the CRISP guidelines. Prim Health Care Res Dev. 2024;25:e52. PMID: [39417283](https://pubmed.ncbi.nlm.nih.gov/39417283/)
@@ -70,8 +70,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[CRISP Checklist (Word)](/CRISP-Reporting-Checklist-Version-1.0.docx)  [CRISP
-  Checklist (PDF)](/CRISP-Reporting-Checklist-Version-1.0.pdf)'
+downloads: '[CRISP Checklist (Word)](CRISP-Reporting-Checklist-Version-1.0.docx)  [CRISP
+  Checklist (PDF)](CRISP-Reporting-Checklist-Version-1.0.pdf)'
 
 
 # LIST FIELDS

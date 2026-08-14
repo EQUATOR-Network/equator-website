@@ -75,13 +75,13 @@ additional-languages: |-
 
   The TRIPOD 2015 statement and reporting checklist are also available in the following languages:
 
-  TRIPOD 2015 Checklist (Chinese) [Word](/Checklist-Chinese-1.docx)
+  TRIPOD 2015 Checklist (Chinese) [Word](Checklist-Chinese-1.docx)
 
-  TRIPOD 2015 E&E (Japanese) [Word](/160404TRIPOD_EandE_Japanese.docx)
+  TRIPOD 2015 E&E (Japanese) [Word](160404TRIPOD_EandE_Japanese.docx)
 
-  TRIPOD 2015 Checklist (Japanese) [Word](/160404TRIPOD_Checklist_Japanese.docx)| [PDF](/primarycarevol2no4TRIPOD.pdf)
+  TRIPOD 2015 Checklist (Japanese) [Word](160404TRIPOD_Checklist_Japanese.docx)| [PDF](primarycarevol2no4TRIPOD.pdf)
 
-  TRIPOD 2015 E&E (Russian) [PDF](/Russian-TRIPOD-EE.pdf)
+  TRIPOD 2015 E&E (Russian) [PDF](Russian-TRIPOD-EE.pdf)
 additional-information: |-
   An adherence assessment form for measuring adherence to the Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) statement has been developed.
 

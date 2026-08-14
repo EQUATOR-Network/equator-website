@@ -19,7 +19,7 @@ explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
 website-url: ''
-additional-languages: The COREQ checklist is available in [Portuguese (Brazil) (PDF)](/VERSA%CC%83O-FINAL-COREQ.pdf)
+additional-languages: The COREQ checklist is available in [Portuguese (Brazil) (PDF)](VERSA%CC%83O-FINAL-COREQ.pdf)
   and [Spanish](http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0864-03192023000100046&lng=es&nrm=iso).
 additional-information: ''
 relevant-editorials: ''

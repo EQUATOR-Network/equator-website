@@ -26,7 +26,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[BIBLIO Checklist (Word)](/BIBLIO-Checklist.docx)  [BIBLIO Checklist (PDF)](/BIBLIO-Checklist.pdf)'
+downloads: '[BIBLIO Checklist (Word)](BIBLIO-Checklist.docx)  [BIBLIO Checklist (PDF)](BIBLIO-Checklist.pdf)'
 
 
 # LIST FIELDS
