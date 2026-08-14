@@ -34,7 +34,7 @@ guideline-history: |-
   Agha RA, Borrelli MR, Vella-Baldacchino M, Thavayogan R, Orgill DP; STROCSS Group. The STROCSS statement: Strengthening the Reporting of Cohort Studies in Surgery. Int J Surg. 2017;46:198–202. PMID: [28890409](https://www.ncbi.nlm.nih.gov/pubmed/28890409)
 relevant-more: ''
 website-url: <http://www.strocssguideline.com/>
-additional-languages: The STROCSS 2017 Checklist is available in [Turkish (PDF)](/STROCSS-Turkish-translation.pdf).
+additional-languages: The STROCSS 2017 Checklist is available in [Turkish (PDF)](STROCSS-Turkish-translation.pdf).
 additional-information: '[Read the protocol](http://www.sciencedirect.com/science/article/pii/S2468357417300323?via%3Dihub)
   for the development of the STROCSS Statement.'
 relevant-editorials: ''

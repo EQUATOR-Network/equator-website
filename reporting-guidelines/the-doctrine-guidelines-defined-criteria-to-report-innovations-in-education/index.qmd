@@ -25,7 +25,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[DoCTRINE Checklist (Word)](/DoCTRINE-Guideline-Checklist.docx)'
+downloads: '[DoCTRINE Checklist (Word)](DoCTRINE-Guideline-Checklist.docx)'
 
 
 # LIST FIELDS

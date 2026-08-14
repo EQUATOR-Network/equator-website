@@ -28,7 +28,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[MICRO Checklist (Word)](/MICRO_checklist_V1.docx)  [MICRO Checklist (PDF)](/MICRO_checklist_V1.pdf)'
+downloads: '[MICRO Checklist (Word)](MICRO_checklist_V1.docx)  [MICRO Checklist (PDF)](MICRO_checklist_V1.pdf)'
 
 
 # LIST FIELDS

@@ -35,8 +35,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[PRIRATE 2020 Checklist (Word)](/PRIRATE-2020-checklist.docx)  [PRIRATE
-  2020 Flowchart (Word)](/PRIRATE-2020-flowchart.docx)'
+downloads: '[PRIRATE 2020 Checklist (Word)](PRIRATE-2020-checklist.docx)  [PRIRATE
+  2020 Flowchart (Word)](PRIRATE-2020-flowchart.docx)'
 
 
 # LIST FIELDS

@@ -37,7 +37,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[CONSERVE-CONSORT & CONSERVE-SPIRIT Checklists (Word)](/CONSERVE-Checklists.docx)'
+downloads: '[CONSERVE-CONSORT & CONSERVE-SPIRIT Checklists (Word)](CONSERVE-Checklists.docx)'
 
 
 # LIST FIELDS

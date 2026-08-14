@@ -25,7 +25,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'no'
-downloads: '[EMERGE Checklist (Word)](/2018-EMERGE-guidelines-Checklist-V1.docx)'
+downloads: '[EMERGE Checklist (Word)](2018-EMERGE-guidelines-Checklist-V1.docx)'
 
 
 # LIST FIELDS

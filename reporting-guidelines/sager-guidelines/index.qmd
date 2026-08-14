@@ -28,17 +28,17 @@ website-url: ''
 additional-languages: |-
   The SAGER reporting guidelines are available in the following languages:
 
-  Chinese [PDF](/SAGER%E6%8C%87%E5%8D%97.pdf)
+  Chinese [PDF](SAGER%E6%8C%87%E5%8D%97.pdf)
 
-  Korean [PDF](/Sex-and-gender-equity_in-Korean_FinalMay-23-2019.pdf)
+  Korean [PDF](Sex-and-gender-equity_in-Korean_FinalMay-23-2019.pdf)
 
   Portuguese [Full-text](http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2237-96222017005001101&lng=en&nrm=iso&tlng=pt)
 
   Spanish [Full-text](https://doi.org/10.1016/j.gaceta.2018.04.003)
 
-  Turkish [PDF](/EASE-SAGER-guidelines-Turkish.pdf)
+  Turkish [PDF](EASE-SAGER-guidelines-Turkish.pdf)
 
-  Vietnamese [PDF](/SAGER-VN-v1.pdf)
+  Vietnamese [PDF](SAGER-VN-v1.pdf)
 additional-information: The Canadian Institute of Gender and Health has produced [three
   online modules](http://www.cihr-irsc-igh-isfh.ca/) to improve the ability of health
   researchers and peer reviewers to account for sex and gender in the analysis of

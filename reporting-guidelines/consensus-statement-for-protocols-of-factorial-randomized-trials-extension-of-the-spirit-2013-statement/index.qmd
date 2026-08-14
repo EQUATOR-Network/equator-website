@@ -65,7 +65,7 @@ relevant-more: |-
 website-url: ''
 additional-languages: ''
 additional-information: |-
-  [Read the protocol for the development of this guideline (PDF)](/RAFT-Study_Protocol_Final-version-1.1_27-Sept-2021_OSF.pdf).
+  [Read the protocol for the development of this guideline (PDF)](RAFT-Study_Protocol_Final-version-1.1_27-Sept-2021_OSF.pdf).
 
   Read about the methods used to develop this guideline:
 

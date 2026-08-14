@@ -7,7 +7,7 @@ provided-for: A reporting checklist for surgical prehabilitation trials
 rg-doi: 10.1093/bjs/znaf302
 pmid-id: <41830558>
 pmid-url: '41830558'
-relevant-urls: A downloadable checklist for SOS-Prehab can be found [here](/SOS-Prehab-2025-editable-checklist.docx).
+relevant-urls: A downloadable checklist for SOS-Prehab can be found [here](SOS-Prehab-2025-editable-checklist.docx).
 full-bibliographic-reference: Gillis C, McIsaac DI, Santa Mina D, Chevalier S, Baldini
   G, Carli F, Scheede-Bergdahl C, Edgar L, Smrk V, Avery L, Bessissow A, Coca Martinez
   M, Copeland R, Dalton SO, Danjoux G, Denehy L, Engel D, Grimmett C, Grocott MP,

@@ -8,7 +8,7 @@ rg-doi: ''
 pmid-id: '[28819063]( https://www.ncbi.nlm.nih.gov/pubmed/28819063)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/28819063
 relevant-urls: The full-text of the STARD for Abstracts reporting guideline for diagnostic
-  accuracy studies is available to download as a [PDF file](/STARD-for-Abstracts-online-manuscript.pdf).
+  accuracy studies is available to download as a [PDF file](STARD-for-Abstracts-online-manuscript.pdf).
 full-bibliographic-reference: 'Cohen JF, Korevaar DA, Gatsonis CA, Glasziou PP, Hooft
   L, Moher D, Reitsma JB, de Vet HC, Bossuyt PM; STARD Group. STARD for Abstracts:
   essential items for reporting diagnostic accuracy studies in journal or conference
@@ -39,14 +39,14 @@ relevant-more: |-
   [**STARD-BLCM**](https://www.equator-network.org/reporting-guidelines/stard-blcm/): Kostoulas P, Nielsen SS, Branscum AJ, Johnson WO, Dendukuri N, Dhand NK, Toft N, Gardner IA. STARD-BLCM: Standards for the Reporting of Diagnostic accuracy studies that use Bayesian Latent Class Models. Prev Vet Med. 2017; 138:37-47. PMID: [28237234](https://www.ncbi.nlm.nih.gov/pubmed/28237234)
 website-url: ''
 additional-languages: ''
-additional-information: '[Read the protocol (PDF)](/STARD-for-Abstracts-protocol.pdf)
+additional-information: '[Read the protocol (PDF)](STARD-for-Abstracts-protocol.pdf)
   for the development of STARD for Abstracts.'
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[STARD for Abstracts checklist (Word)](/STARD-for-Abstracts-checklist.docx)'
+downloads: '[STARD for Abstracts checklist (Word)](STARD-for-Abstracts-checklist.docx)'
 
 
 # LIST FIELDS

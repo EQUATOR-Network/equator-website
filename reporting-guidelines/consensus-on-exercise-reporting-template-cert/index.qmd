@@ -28,7 +28,7 @@ relevant-more: |-
   [**Therapeutic exercise interventions**](https://www.equator-network.org/reporting-guidelines/improving-the-reporting-of-therapeutic-exercise-interventions-in-rehabilitation-research/): Page P, Hoogenboom B, Voight M.Improving the reporting of therapeutic exercise interventions in rehabilitation research. Int J Sports Phys Ther. 2017;12(2):297-304. PMID: [28515984](https://www.ncbi.nlm.nih.gov/pubmed/28515984)
 website-url: ''
 additional-languages: The CERT Explanation and Elaboration Statement is also available
-  in [Italian (PDF)](/Articolo_CERT.pdf).
+  in [Italian (PDF)](Articolo_CERT.pdf).
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''

@@ -10,8 +10,9 @@ listing:
     table-striped: true
     filter-ui: [title, acronym, study-type, clinical-specialty, report-section]
     sort:
-        - title
+        - sticky
         - acronym
+        - title
     fields: 
         - acronym
         - title

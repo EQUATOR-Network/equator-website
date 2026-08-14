@@ -10,7 +10,7 @@ pmid-url: https://pubmed.ncbi.nlm.nih.gov/41555957/
 relevant-urls: |-
   A fillable checklist can be found [here](https://care.healthandresilience.org/).
 
-  The CARE-DN Explanation and Elaboration can be found [here](/CARE-DN_round_2-E-E.pdf).
+  The CARE-DN Explanation and Elaboration can be found [here](CARE-DN_round_2-E-E.pdf).
 full-bibliographic-reference: 'Tzigkounakis G, Simati K, Georgiadis K, Kostaridou
   V, Battersby P, Calvo S, Herrero P, Kuzdzal A, McEvoy J, Sánchez Milá Z, Velázquez
   Saornil J, Voight M, Wang T, Stefanakis M. CARE-DN: An Extension of the CARE Guidelines

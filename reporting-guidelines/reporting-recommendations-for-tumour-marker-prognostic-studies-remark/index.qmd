@@ -6,7 +6,7 @@ provided-for: Tumour marker prognostic studies
 rg-doi: ''
 pmid-id: '[16106245](http://www.ncbi.nlm.nih.gov/pubmed/16106245)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/16106245
-relevant-urls: Download the [REMARK checklist (Word)](/REMARK-checklist-for-EQUATOR-website-002.docx)
+relevant-urls: Download the [REMARK checklist (Word)](REMARK-checklist-for-EQUATOR-website-002.docx)
   for tumour marker prognostic studies.
 full-bibliographic-reference: McShane LM, Altman DG, Sauerbrei W, Taube SE, Gion M,
   Clark GM. REporting recommendations for tumour MARKer prognostic studies (REMARK).

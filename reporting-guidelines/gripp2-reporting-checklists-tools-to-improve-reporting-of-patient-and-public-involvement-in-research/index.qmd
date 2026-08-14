@@ -27,10 +27,10 @@ guideline-history: 'Staniszewska S, Brett J, Mockford C, Barber R. The GRIPP che
 relevant-more: ''
 website-url: ''
 additional-languages: |-
-  A Japanese translation of the GRIPP2 short form can be found [here](/GRIPP2_ShortForm_Japanese.docx).
+  A Japanese translation of the GRIPP2 short form can be found [here](GRIPP2_ShortForm_Japanese.docx).
 
-  A Japanese translation of the GRIPP2 long form can be found [here](/GRIPP2_LongForm_Japanese.docx).
-additional-information: Read the project [summary (PDF)](/3869_Guidelines-for-reporting-the-impact-of-patient-involvement.pdf)
+  A Japanese translation of the GRIPP2 long form can be found [here](GRIPP2_LongForm_Japanese.docx).
+additional-information: Read the project [summary (PDF)](3869_Guidelines-for-reporting-the-impact-of-patient-involvement.pdf)
   (December 2010)
 relevant-editorials: ''
 primary-guideline: ''

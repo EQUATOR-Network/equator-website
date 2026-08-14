@@ -21,7 +21,7 @@ relevant-more: ''
 website-url: ''
 additional-languages: ''
 additional-information: |-
-  Read the BRIF meeting report from a workshop with journal editors held in Rome in 2013: [meeting report (PDF)](/BRIF-guidelines-ROME-WORKSHOP-REPORT.pdf)
+  Read the BRIF meeting report from a workshop with journal editors held in Rome in 2013: [meeting report (PDF)](BRIF-guidelines-ROME-WORKSHOP-REPORT.pdf)
 
   The following papers have also been published by the BRIF researchers:
 
@@ -34,7 +34,7 @@ other: 'A guideline for reporting biospecimen information more generally is avai
   at: [BRISQ guideline](https://www.equator-network.org/reporting-guidelines/brisq/)'
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[CoBRA checklist (PDF)](/Cobra-check-list.pdf)'
+downloads: '[CoBRA checklist (PDF)](Cobra-check-list.pdf)'
 
 
 # LIST FIELDS

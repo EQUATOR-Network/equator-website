@@ -118,7 +118,7 @@ other: ''
 other-relevant-research: ''
 sticky: 'yes'
 downloads: |-
-  [CHEERS 2022 checklist (PDF)](/CHEERS-2022-checklist-1.pdf)
+  [CHEERS 2022 checklist (PDF)](CHEERS-2022-checklist-1.pdf)
 
   [Interactive CHEERS 2022 checklist to generate a completed Word or PDF checklist](https://don-husereau.shinyapps.io/CHEERS/)
 

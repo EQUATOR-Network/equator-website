@@ -70,7 +70,7 @@ other: An online fillable SQUIRE checklist is also available via the GoodReports
   at <https://www.goodreports.org/reporting-checklists/squire/>.
 other-relevant-research: ''
 sticky: 'yes'
-downloads: '[SQUIRE 2.0 checklist (PDF)](/SQUIRE-2.0-checklist.pdf) - 2015 update'
+downloads: '[SQUIRE 2.0 checklist (PDF)](SQUIRE-2.0-checklist.pdf) - 2015 update'
 
 
 # LIST FIELDS

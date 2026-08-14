@@ -55,7 +55,7 @@ additional-languages: |-
 
   The CARE guideline paper has been translated into Italian: [CARE Italian (PDF)](http://www.evidence.it/articoli/pdf/e1000147.pdf)
 additional-information: |-
-  The CARE steering group have developed a flow diagram for how a clinician should consider approaching collecting data when seeing a patient or doing a chart review so that it can be systematically collected and written with the CARE guidelines. The flow diagram is available to download: [CARE Flow Diagram (PDF)](/CAREFlowDiagram-updated-2019.pdf)
+  The CARE steering group have developed a flow diagram for how a clinician should consider approaching collecting data when seeing a patient or doing a chart review so that it can be systematically collected and written with the CARE guidelines. The flow diagram is available to download: [CARE Flow Diagram (PDF)](CAREFlowDiagram-updated-2019.pdf)
 
   The CARE 2013 and 2017 articles as well as other free-to-access publications are available to download at <https://www.care-statement.org/publications>
 

@@ -18,7 +18,7 @@ full-bibliographic-reference: 'Ewen JB, Bablioni C, Collins GS, Ethridge LE, Got
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: |-
-  The GREENBEAN checklist can be downloaded from [here](/GREENBEAN-Checklist.docx).
+  The GREENBEAN checklist can be downloaded from [here](GREENBEAN-Checklist.docx).
 
   The explanation and elaboration can be found in the [supplementary material](https://ars.els-cdn.com/content/image/1-s2.0-S1388245725006297-mmc1.docx) of the article.
 guideline-history: ''
