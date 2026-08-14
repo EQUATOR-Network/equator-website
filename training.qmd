@@ -17,11 +17,15 @@ website:
   twitter-card: true
   open-graph: true
 listing: 
-  id: staff-listing
+  id: listings/staff/*qmd
   grid-columns: 4
   type: grid
   contents: 
     - staff.yml
+  include: 
+    centre: uk
+  exclude: 
+    title: Doug*
 ---
 
 ::: {.content-block} 
