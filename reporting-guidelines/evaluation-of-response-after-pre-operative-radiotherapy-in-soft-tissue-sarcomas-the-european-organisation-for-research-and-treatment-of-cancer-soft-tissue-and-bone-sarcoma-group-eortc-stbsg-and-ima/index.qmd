@@ -1,0 +1,188 @@
+---
+# REQUIRED FIELDS
+title: Evaluation of response after pre-operative radiotherapy in soft tissue sarcomas;
+  the European Organisation for Research and Treatment of Cancer -Soft Tissue and
+  Bone Sarcoma Group (EORTC-STBSG) and Imaging Group recommendations for radiological
+  examination and reporting with an emphasis on magnetic resonance imaging
+acronym: ''
+provided-for: Reporting MRI evaluation of response after neoadjuvant radiotherapy
+  in soft tissue sarcoma
+rg-doi: ''
+pmid-id: '[26802529](https://www.ncbi.nlm.nih.gov/pubmed/26802529)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/26802529
+relevant-urls: ''
+full-bibliographic-reference: Messiou C, Bonvalot S, Gronchi A, Vanel D, Meyer M,
+  Robinson P, Morosi C, Bloem JL, Terrier PH, Lazar A, Le Péchoux C, Wardelman E,
+  Winfield JM, Boulet B, Bovée J, Haas RL; European Organization for Research and
+  Treatment of Cancer - Soft Tissue and Bone Sarcoma Group; European Organization
+  for Research and Treatment of Cancer - Imaging Group. Evaluation of response after
+  pre-operative radiotherapy in soft tissue sarcomas; the European Organisation for
+  Research and Treatment of Cancer-Soft Tissue and Bone Sarcoma Group (EORTC-STBSG)
+  and Imaging Group recommendations for radiological examination and reporting with
+  an emphasis on magnetic resonance imaging. Eur J Cancer. 2016;56:37-44.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+- Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+- Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- cancer
+- clinical trial
+- clinical trials
+- EORTC
+- EORTC?STBSG
+- European Organisation for Research and Treatment of Cancer
+- histopathological
+- histopathology
+- image
+- image guided radiotherapy
+- images
+- imaging
+- intensity modulated radiotherapy
+- magnetic resonance imaging
+- MRI
+- multiparametric magnetic resonance imaging
+- multiparametric MRI
+- neoadjuvant radiotherapy
+- neoadjuvant RT
+- neoadjuvant therapies
+- neoadjuvant therapy
+- oncology
+- pathological
+- pathology
+- radiological
+- radiology
+- radiotherapy
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- RT
+- sarcoma
+- sarcomas
+- soft tissue
+- Soft Tissue and Bone Sarcoma Group and Imaging Group
+- soft tissue sarcoma
+- soft tissue sarcomas
+- soft tissues
+- STS
+- trial
+- trials
+- tumor
+- tumor response
+- tumour
+- tumour response
+
+---
+
+{{< include ../_template.qmd >}}

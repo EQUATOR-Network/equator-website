@@ -1,0 +1,166 @@
+---
+# REQUIRED FIELDS
+title: 'LEVEL  (Logical Explanations & Visualizations of Estimates in Linear mixed
+  models): recommendations for reporting multilevel data and analyses'
+acronym: LEVEL
+provided-for: Reporting multilevel data and modelling analyses.
+rg-doi: ''
+pmid-id: '[31906857](https://pubmed.ncbi.nlm.nih.gov/31906857/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/31906857/
+relevant-urls: ''
+full-bibliographic-reference: 'Monsalves MJ, Bangdiwala AS, Thabane A, Bangdiwala
+  SI. LEVEL (Logical Explanations & Visualizations of Estimates in Linear mixed models):
+  recommendations for reporting multilevel data and analyses. BMC Med Res Methodol.
+  2020;20(1):3.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- correlated data
+- correlated data analyses
+- correlated data analysis
+- data
+- epidemiological
+- epidemiology
+- LEVEL
+- linear mixed model
+- linear mixed models
+- model
+- modeling
+- modelling
+- models
+- multilevel data
+- multilevel diagram
+- multilevel model
+- multilevel models
+- observational
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- statistical
+- statistics
+- trial
+- trials
+- variance partition coefficient
+- variance partition coefficients
+
+---
+
+{{< include ../_template.qmd >}}

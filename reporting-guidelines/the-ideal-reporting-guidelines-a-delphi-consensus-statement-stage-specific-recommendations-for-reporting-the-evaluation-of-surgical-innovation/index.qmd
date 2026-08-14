@@ -1,0 +1,176 @@
+---
+# REQUIRED FIELDS
+title: 'The IDEAL Reporting Guidelines: A Delphi Consensus Statement Stage specific
+  recommendations for reporting the evaluation of surgical innovation'
+acronym: IDEAL
+provided-for: Reporting the evaluation of surgical innovation.
+rg-doi: ''
+pmid-id: '[32649459](https://pubmed.ncbi.nlm.nih.gov/32649459/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/32649459/
+relevant-urls: ''
+full-bibliographic-reference: 'Bilbro NA, Hirst A, Paez A, Vasey B, Pufulete M, Sedrakyan
+  A, McCulloch P; IDEAL Collaboration Reporting Guidelines Working Group. The IDEAL
+  Reporting Guidelines: A Delphi Consensus Statement Stage specific recommendations
+  for reporting the evaluation of surgical innovation. Ann Surg. 2021;273(1):82-85.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <http://www.ideal-collaboration.net/>
+additional-languages: ''
+additional-information: Read the [IDEAL guideline development protocol](https://pubmed.ncbi.nlm.nih.gov/31851736/).
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- case report
+- case reports
+- case series
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- cohort studies
+- cohort study
+- complex interventions
+- complex therapeutic technologies
+- device innovation
+- early-stage innovation
+- evaluation
+- IDEAL
+- IDEAL Collaboration
+- IDEAL Framework and Recommendations
+- IDEAL Reporting Guidelines
+- IDEAL stage 1
+- IDEAL stage 2a
+- IDEAL stage 2b
+- IDEAL stage 4
+- IDEAL stages
+- observational studies
+- observational study
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- surgery
+- surgical
+- surgical innovation
+- surgical innovation evaluation
+- surgical research
+- surgical technique
+- surgical techniques
+- surgical trial
+- surgical trials
+- therapeutic device
+- therapeutic devices
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

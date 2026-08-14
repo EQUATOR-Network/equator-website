@@ -3,10 +3,7 @@
 title: Guidelines for reporting research using systematic coding of observed human
   behaviour (SCOBe)
 acronym: ''
-description: |-
-  Reporting of systematic coding of observed human behaviour (SCOBe) research.
-
-  [SCOBe checklist (Word)](SCOBe-checklist.docx)  [SCOBe checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.pdf)
+provided-for: Reporting of systematic coding of observed human behaviour (SCOBe) research.
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
@@ -31,6 +28,9 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: '[SCOBe checklist (Word)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.docx)  [SCOBe
+  checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/11/SCOBe-checklist.pdf)'
 
 
 # LIST FIELDS

@@ -1,0 +1,159 @@
+---
+# REQUIRED FIELDS
+title: 'The SCARE 2020 Guideline: Updating Consensus Surgical CAse  REport  (SCARE)
+  Guidelines'
+acronym: SCARE
+provided-for: Reporting of surgical case reports.
+rg-doi: ''
+pmid-id: '[33181358](https://pubmed.ncbi.nlm.nih.gov/33181358/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/33181358/
+relevant-urls: ''
+full-bibliographic-reference: 'Agha RA, Franchi T, Sohrabi C, Mathew G, Kerwan A;
+  SCARE Group. The SCARE 2020 Guideline: Updating Consensus Surgical CAse REport (SCARE)
+  Guidelines. Int J Surg. 2020:S1743-9191(20)30771-8.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: |-
+  The SCARE Statement was originally published in 2016 and updated in 2018:
+
+  2016
+
+  Agha RA, Fowler AJ, Saeta A, Barai I, Rajmohan S, Orgill DP; SCARE Group. The SCARE Statement: Consensus-based surgical case report guidelines. Int J Surg. 2016;34:180-186. PMID: [27613565](http://www.ncbi.nlm.nih.gov/pubmed/27613565)
+
+  2018 update
+
+  Agha RA, Borrelli MR, Farwana R, Koshy K, Fowler A, Orgill DP; SCARE Group. The SCARE 2018 Statement: Updating Consensus Surgical CAse REport (SCARE) Guidelines. Int J Surg. 2018;60:132-136. PMID: [30342279](http://www.ncbi.nlm.nih.gov/pubmed/30342279)
+relevant-more: ''
+website-url: <http://www.scareguideline.com/>
+additional-languages: ''
+additional-information: |-
+  Read the protocol for the development of this reporting guideline:
+
+  <http://www.sciencedirect.com/science/article/pii/S1743919116001047>
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- CARE case extension
+- CARE extension
+- CARE guideline extension
+- case
+- case report
+- case reporting
+- case reports
+- case studies
+- case study
+- checklist
+- SCARE
+- SCARE checklist
+- SCARE guideline
+- SCARE Statement
+- surgery
+- surgical
+- surgical case report
+- surgical case reports
+- surgical case studies
+- surgical case study
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,168 @@
+---
+# REQUIRED FIELDS
+title: 'Appropriate design and reporting of superiority, equivalence and non-inferiority
+  clinical trials incorporating a benefit-risk assessment: the BRAINS study including
+  expert workshop'
+acronym: ''
+provided-for: Reporting of benefit-risk assessments when incorporated within a clinical
+  trial.
+rg-doi: ''
+pmid-id: '[37982521](https://pubmed.ncbi.nlm.nih.gov/37982521/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37982521/
+relevant-urls: |-
+  [Read the full-text](https://www.journalslibrary.nihr.ac.uk/hta/BHQZ7691/#/s5) of the reporting recommendations.
+
+  Checklists have been developed for reporting the trial design and for reporting the trial results and these are available in [appendix 5](https://www.journalslibrary.nihr.ac.uk/hta/BHQZ7691/#/app5).
+full-bibliographic-reference: 'Totton N, Julious SA, Coates E, Hughes DA, Cook JA,
+  Biggs K, Hewitt C, Day S, Cook A. Appropriate design and reporting of superiority,
+  equivalence and non-inferiority clinical trials incorporating a benefit-risk assessment:
+  the BRAINS study including expert workshop. Health Technol Assess. 2023;27(20):1-58.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+- Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+- Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- adverse effect
+- adverse effects
+- B?R analyses
+- B?R analysis
+- B?R assessment
+- B?R assessments
+- B?R method
+- B?R methods
+- benefit
+- benefit-risk
+- benefits
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- equivalence
+- harm
+- harms
+- non-inferiority
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- risk
+- risks
+- superiority
+- trade-off
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

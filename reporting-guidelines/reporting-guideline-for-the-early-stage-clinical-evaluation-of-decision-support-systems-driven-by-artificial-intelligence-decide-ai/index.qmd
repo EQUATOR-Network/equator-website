@@ -1,0 +1,148 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting guideline for the early-stage clinical evaluation of decision support
+  systems driven by artificial intelligence: DECIDE-AI'
+acronym: DECIDE-AI
+provided-for: Reporting of studies describing the early-stage live clinical evaluation
+  of AI-based decision support systems.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: Read the full-text of the DECIDE-AI reporting guideline in the [BMJ](https://www.bmj.com/content/377/bmj-2022-070904)
+  or [Nature Medicine](https://www.nature.com/articles/s41591-022-01772-9).
+full-bibliographic-reference: |-
+  Vasey B, Nagendran M, Campbell B, Clifton DA, Collins GS, Denaxas S, Denniston AK, Faes L, Geerts B, Ibrahim M, Liu X, Mateen BA, Mathur P, McCradden MD, Morgan L, Ordish J, Rogers C, Saria S, Ting DSW, Watkinson P, Weber W, Wheatstone P, McCulloch P; DECIDE-AI expert group. Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI.
+
+  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
+
+  Nat Med. 2022;28(5):924-933. PMID: [35585198](https://pubmed.ncbi.nlm.nih.gov/35585198/)
+
+  BMJ. 2022;377:e070904. PMID: [35584845](https://pubmed.ncbi.nlm.nih.gov/35584845/)
+
+
+# OPTIONAL FIELDS
+rg-language: ''
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: The DECIDE-AI checklist is available in [Spanish](https://www.equator-network.org/wp-content/uploads/2022/05/DECIDE-AI-Spanish.pdf).
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+- Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- AI
+- AI system
+- AI systems
+- artificial intelligence
+- checklist
+- checklists
+- clinical AI studies
+- clinical AI study
+- clinical decision support systems
+- decision support
+- Developmental and Exploratory Clinical Investigations of DEcision support systems
+  driven by Artificial Intelligence (DECIDE-AI)
+- early
+- early-stage
+
+---
+
+{{< include ../_template.qmd >}}

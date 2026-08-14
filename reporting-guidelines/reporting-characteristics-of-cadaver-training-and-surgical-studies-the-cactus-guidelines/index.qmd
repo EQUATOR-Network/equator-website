@@ -1,0 +1,157 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting ChAracteristics of cadaver training and sUrgical studies: The CACTUS
+  guidelines'
+acronym: CACTUS
+provided-for: Reporting of the characteristics of human cadavers in anatomical, surgical,
+  surgical training, and device training studies.
+rg-doi: ''
+pmid-id: '[35429658](https://pubmed.ncbi.nlm.nih.gov/35429658/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/35429658/
+relevant-urls: ''
+full-bibliographic-reference: 'Mantica G, Leonardi R, Diaz R, Malinaric R, Parodi
+  S, Tappero S, Paraboschi I, Álvarez-Maestro M, Yuen-Chun Teoh J, Garriboli M, Ortega
+  Polledo LE, Soriero D, Pertile D, De Marchi D, Pini G, Rigatti L, Ghosh SK, Onigbinde
+  OA, Tafuri A, Carrion DM, Nikles S, Antoni A, Fransvea P, Esperto F, Herbella FAM,
+  Oxley da Rocha A, Vanaclocha V, Sánchez-Guillén L, Wainman B, Quiroga-Garza A, Fregatti
+  P, Murelli F, Van der Merwe A, Gomez Rivas J, Terrone C; CACTUS group. Reporting
+  ChAracteristics of cadaver training and sUrgical studies: The CACTUS guidelines.
+  Int J Surg. 2022;101:106619.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+- Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+- Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- anatomical
+- anatomy
+- CACTUS
+- CACTUS guidelines
+- cadaver
+- cadaver model
+- cadaveric
+- cadaveric model
+- cadaveric models
+- cadavers
+- corpse
+- human corpse
+- human corpses
+- pathologist
+- pathologists
+- simulation
+- surgeon
+- surgeons
+- surgery
+- surgical
+- surgical model
+- surgical models
+- training model
+- training models
+
+---
+
+{{< include ../_template.qmd >}}

@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: ELEVATE-GenAI
 acronym: ELEVATE-GenAI
-description: Structured guidance for reporting research using large language models
+provided-for: Structured guidance for reporting research using large language models
   (LLMs) in Health Economics and Outcomes Research
 rg-doi: 10.1016/j.jval.2025.06.018
 pmid-id: '[40653157](https://pubmed.ncbi.nlm.nih.gov/40653157/)'
@@ -26,6 +26,8 @@ relevant-editorials: ''
 primary-guideline: Read the full text of [ELEVATE-GenAI](https://www.sciencedirect.com/science/article/abs/pii/S1098301525024556).
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

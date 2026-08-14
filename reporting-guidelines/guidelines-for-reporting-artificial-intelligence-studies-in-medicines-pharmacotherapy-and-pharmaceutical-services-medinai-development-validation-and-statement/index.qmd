@@ -3,7 +3,7 @@
 title: 'Guidelines for reporting artificial intelligence studies in medicines, pharmacotherapy,
   and pharmaceutical services: Medin AI development, validation and statement'
 acronym: MedinAI
-description: Reporting AI studies in medicines, pharmacotherapy, and pharmaceutical
+provided-for: Reporting AI studies in medicines, pharmacotherapy, and pharmaceutical
   services
 rg-doi: 10.1007/s11096-025-01905-3
 pmid-id: '[40202573](https://pubmed.ncbi.nlm.nih.gov/40202573/)'
@@ -17,7 +17,7 @@ relevant-urls: |-
 full-bibliographic-reference: 'Bottacin WE, Teles de Souza R, Torelli Reis WC, Carolina
   Melchiors A. Guidelines for reporting artificial intelligence studies in medicines,
   pharmacotherapy, and pharmaceutical services: MedinAI development, validation and
-  statement. Int J Clin Pharm. 2025.'
+  statement. Int J Clin Pharm. 2025; 47: 945-956.'
 
 
 # OPTIONAL FIELDS
@@ -35,6 +35,8 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

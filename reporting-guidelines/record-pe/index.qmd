@@ -1,0 +1,171 @@
+---
+# REQUIRED FIELDS
+title: The reporting of studies conducted using observational routinely collected
+  health data statement for pharmacoepidemiology (RECORD-PE)
+acronym: RECORD-PE
+provided-for: Reporting of pharmacoepidemiological research undertaken using routinely
+  collected data.
+rg-doi: ''
+pmid-id: '[30429167](https://pubmed.ncbi.nlm.nih.gov/30429167/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/30429167/
+relevant-urls: The full-text of the RECORD-PE statement is freely available at:<https://www.bmj.com/content/363/bmj.k3532.full>
+full-bibliographic-reference: Langan SM, Schmidt SAJ, Wing K, Ehrenstein V, Nicholls
+  SG, Filion KB, Klungel O, Petersen I, Sorensen HT, Dixon WG, Guttmann A, Harron
+  K, Hemkens LG, Moher D, Schneeweiss S, Smeeth L, Sturkenboom M, von Elm E, Wang
+  SV, Benchimol EI. The reporting of studies conducted using observational routinely
+  collected health data statement for pharmacoepidemiology (RECORD-PE). BMJ 2018;363:k3532.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  **Generic**
+
+  [**RECORD**](https://www.equator-network.org/reporting-guidelines/record/): Benchimol EI, Smeeth L, Guttmann A, Harron K, Moher D, Petersen I, Sørensen HT, von Elm E, Langan SM; RECORD Working Committee. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement. PLoS Med. 2015;12(10):e1001885. PMID: [26440803](http://www.ncbi.nlm.nih.gov/pubmed/26440803)
+website-url: <http://www.record-statement.org/checklist-pe.php>
+additional-languages: |-
+  RECORD-PE is available in:
+
+  [French (PDF)](https://docs.google.com/viewer?url=http://www.record-statement.org/Files/pubs/2019%20-%20CMAJ%20-%20RECORD-PE%20French%20Translation.pdf)
+
+  [Japanese (PDF)](https://docs.google.com/viewer?url=http://www.record-statement.org/Files/pubs/2019%20-%20%20Japanese%20Journal%20of%20Quality%20and%20Safety%20in%20Healthcare%20-%20RECORD-PE%20Translation.pdf)
+
+  Simplified Chinese: [Part 1 (PDF)](https://docs.google.com/viewer?url=http://www.record-statement.org/Files/pubs/2019%20-%20%20Chinese%20Journal%20of%20Pharmacoepidemiology%20-%20RECORD-PE%20Translation%20-%201.pdf)| [Part 2 (PDF)](https://docs.google.com/viewer?url=http://www.record-statement.org/Files/pubs/2019%20-%20%20Chinese%20Journal%20of%20Pharmacoepidemiology%20-%20RECORD-PE%20Translation%20-%202.pdf)
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'yes'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+- Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- EHR
+- electronic health record
+- electronic health record data repositories
+- electronic health record data repository
+- health data
+- observational
+- observational data
+- observational data quality
+- observational routinely collected data
+- observational routinely collected health data
+- pharmacoeconomics
+- pharmacoepidemiological
+- pharmacoepidemiological research
+- pharmacoepidemiological studies
+- pharmacoepidemiological study
+- pharmacoepidemiology
+- pharmacology
+- RECORD extension
+- RECORD extensions
+- RECORD for pharmacoepidemiology
+- RECORD for pharmacoepidemiology checklist
+- RECORD-PE
+- RECORD-PE checklist
+- RECORD-PE Statement
+- routine
+- routinely
+- routinely collected
+- routinely collected data
+- routinely collected health data
+- STROBE extension
+
+---
+
+{{< include ../_template.qmd >}}

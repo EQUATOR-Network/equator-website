@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: The LEADING guideline
 acronym: LEADING
-description: Reporting standards for expert panel, best-estimate diagnosis, and longitudinal
+provided-for: Reporting standards for expert panel, best-estimate diagnosis, and longitudinal
   expert all data methods.
 rg-doi: 10.1016/j.comppsych.2025.152603
 pmid-id: '[40479924](https://pubmed.ncbi.nlm.nih.gov/40479924/)'
@@ -26,6 +26,8 @@ relevant-editorials: ''
 primary-guideline: Read the full text of the [paper](https://www.sciencedirect.com/science/article/pii/S0010440X25000318).
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

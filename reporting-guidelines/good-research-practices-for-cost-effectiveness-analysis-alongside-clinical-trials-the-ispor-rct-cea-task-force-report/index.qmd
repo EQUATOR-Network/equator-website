@@ -1,0 +1,162 @@
+---
+# REQUIRED FIELDS
+title: 'Good research practices for cost-effectiveness analysis alongside clinical
+  trials: the ISPOR  RCT-CEA Task Force report'
+acronym: ''
+provided-for: Cost-effectiveness analysis alongside clinical trials
+rg-doi: ''
+pmid-id: '[16176491](http://www.ncbi.nlm.nih.gov/pubmed/16176491)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/16176491
+relevant-urls: ''
+full-bibliographic-reference: 'Ramsey S, Willke R, Briggs A, Brown R, Buxton M, Chawla
+  A, Cook J, Glick H, Liljas B, Petitti D, Reed S. Good research practices for cost-effectiveness
+  analysis alongside clinical trials: the ISPOR RCT-CEA Task Force report. Value Health.
+  2005;8(5):521-533.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+- Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+- Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- C/E
+- CEA
+- CEAs
+- clinical trial
+- clinical trials
+- cost effectiveness
+- cost effectiveness analyses
+- cost effectiveness analysis
+- economic
+- economic analyses
+- economic analysis
+- economic data
+- economic evaluation
+- economic evaluations
+- International Society for Pharmacoeconomics and Outcomes Research
+- ISPOR
+- ISPOR RCT-CEA
+- pharmaceutical medicine
+- randomised
+- randomised clinical trial
+- randomised clinical trials
+- randomised clinical trials cost effectiveness analyses
+- randomised clinical trials cost effectiveness analysis
+- randomised trial
+- Randomised trials
+- randomized
+- randomized clinical trial
+- randomized clinical trials
+- randomized clinical trials cost effectiveness analyses
+- randomized clinical trials cost effectiveness analysis
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+
+---
+
+{{< include ../_template.qmd >}}

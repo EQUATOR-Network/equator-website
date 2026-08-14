@@ -1,0 +1,142 @@
+---
+# REQUIRED FIELDS
+title: 'Preliminary guideline for reporting bibliometric reviews of the biomedical
+  literature (BIBLIO) : a minimum requirements'
+acronym: BIBLIO
+provided-for: Reporting of bibliometric reviews.
+rg-doi: ''
+pmid-id: '[38102710](https://pubmed.ncbi.nlm.nih.gov/38102710/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38102710/
+relevant-urls: ''
+full-bibliographic-reference: 'Montazeri A, Mohammadi S, M Hesari P, Ghaemi M, Riazi
+  H, Sheikhi-Mobarakeh Z. Preliminary guideline for reporting bibliometric reviews
+  of the biomedical literature (BIBLIO): a minimum requirements. Syst Rev. 2023;12(1):239.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: '[BIBLIO Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2024/01/BIBLIO-Checklist.docx)  [BIBLIO
+  Checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/01/BIBLIO-Checklist.pdf)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- BIBLIO
+- BIBLIO checklist
+- bibliography
+- bibliometric
+- bibliometric review
+- bibliometric reviews
+- bibliometric studies
+- bibliometric study
+- bibliometrics
+- checklist
+- checklists
+- literature
+- review
+- reviews
+
+---
+
+{{< include ../_template.qmd >}}

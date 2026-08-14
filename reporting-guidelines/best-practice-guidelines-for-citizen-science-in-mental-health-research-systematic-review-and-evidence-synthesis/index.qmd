@@ -1,0 +1,178 @@
+---
+# REQUIRED FIELDS
+title: 'Best practice guidelines for citizen science in mental health research: systematic
+  review and evidence synthesis'
+acronym: ''
+provided-for: Reporting mental health citizen science research.
+rg-doi: ''
+pmid-id: '[37743990](https://pubmed.ncbi.nlm.nih.gov/37743990/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37743990/
+relevant-urls: ''
+full-bibliographic-reference: 'Todowede O, Lewandowski F, Kotera Y, Ashmore A, Rennick-Egglestone
+  S, Boyd D, Moran S, Ørjasæter KB, Repper J, Robotham D, Rowe M, Katsampa D, Slade
+  M. Best practice guidelines for citizen science in mental health research: systematic
+  review and evidence synthesis. Front Psychiatry. 2023;14:1175311.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+- Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+- Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+- Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+- Psychiatry
+- Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+- Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+- Ethical issues (consent etc.)
+# - Figures/Graphs
+- Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+- Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+- Title
+# - Whole report
+# - No report section specified
+keyword:
+- case report
+- case reports
+- case series
+- checklist
+- checklists
+- citizen
+- citizen science
+- citizen scientist
+- citizen scientists
+- clinical trial
+- clinical trials
+- cohort studies
+- cohort study
+- community
+- community science
+- crowd
+- economic evaluation
+- economic evaluations
+- mental health
+- mental ill health
+- observational
+- participant
+- participants
+- participatory
+- patient
+- patient and public involvement
+- PPI
+- psychiatry
+- psychology
+- public
+- public engagement
+- public involvement
+- qualitative
+- quality improvement
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- review
+- reviews
+- systematic review
+- systematic reviews
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

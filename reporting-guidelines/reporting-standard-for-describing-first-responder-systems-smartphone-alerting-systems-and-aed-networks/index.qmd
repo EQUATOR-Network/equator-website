@@ -1,0 +1,170 @@
+---
+# REQUIRED FIELDS
+title: Reporting standard for describing first responder systems, smartphone alerting
+  systems, and AED networks
+acronym: ''
+provided-for: Reporting of studies involving first responder systems, smartphone alerting
+  systems, and automated external defibrillator (AED) networks.
+rg-doi: ''
+pmid-id: '[38097108](https://pubmed.ncbi.nlm.nih.gov/38097108/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38097108/
+relevant-urls: ''
+full-bibliographic-reference: Müller MP, Metelmann C, Thies KC, Greif R, Scquizzato
+  T, Deakin CD, Auricchio A, Barry T, Berglund E, Böttiger BW, Burkart R, Busch HJ,
+  Caputo ML, Cheskes S, Cresta R, Damjanovic D, Degraeuwe E, Ekkel MM, Elschenbroich
+  D, Fredman D, Ganter J, Gregers MCT, Gronewald J, Hänsel M, Henriksen FL, Herzberg
+  L, Jonsson M, Joos J, Kooy TA, Krammel M, Marks T, Monsieurs K, Ng WM, Osche S,
+  Salcido DD, Scapigliati A, Schwietring J, Semeraro F, Snobelen P, Sowa J, Stieglis
+  R, Tan HL, Trummer G, Unterrainer J, Vercammen S, Wetsch WA, Metelmann B. Reporting
+  standard for describing first responder systems, smartphone alerting systems, and
+  AED networks. Resuscitation. 2023:110087.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+- Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+- Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+- Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+- Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+- Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- alert system
+- alert systems
+- alerting system
+- alerting systems
+- automated external defibrillator
+- automated external defibrillators
+- basic life support
+- cardiac
+- cardiac arrest
+- cardiac resuscitation
+- cardiology
+- citizen first responder
+- citizen first responders
+- community first responder
+- defibrillator
+- defibrillators
+- emergencies
+- emergency
+- first responder
+- first responder system
+- first responder systems
+- first responders
+- heart
+- life support
+- mobile phone
+- out-of-hospital
+- prehospital resuscitation
+- response
+- response time
+- resuscitation
+- smartphone
+- smartphone alerting system
+- smartphone alerting systems
+- smartphones
+- volunteer community responder
+- volunteer community responders
+
+---
+
+{{< include ../_template.qmd >}}

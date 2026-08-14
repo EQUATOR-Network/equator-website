@@ -3,7 +3,7 @@
 title: 'LETter To the EditoR Standards (LETTERS) : Considerations for Authors, Reviewers,
   and Editors'
 acronym: LETTERS
-description: Reporting in letters to the editor.
+provided-for: Reporting in letters to the editor.
 rg-doi: ''
 pmid-id: '[39355953](https://pubmed.ncbi.nlm.nih.gov/39355953/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39355953/
@@ -25,6 +25,8 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

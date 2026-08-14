@@ -1,0 +1,153 @@
+---
+# REQUIRED FIELDS
+title: 'Perspective: Guidelines for reporting team-based learning activities in the
+  medical and health sciences education literature'
+acronym: ''
+provided-for: Team-based learning activities in the medical and health sciences education
+  literature
+rg-doi: ''
+pmid-id: '[22373620](http://www.ncbi.nlm.nih.gov/pubmed/22373620)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/22373620
+relevant-urls: ''
+full-bibliographic-reference: 'Haidet P, Levine RE, Parmelee DX, Crow S, Kennedy F,
+  Kelly PA, Perkowski L, Michaelsen L, Richards BF. Perspective: Guidelines for reporting
+  team-based learning activities in the medical and health sciences education literature.
+  Acad Med. 2012;87(3):292-299.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+- Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- curricula
+- curriculum
+- education
+- educational
+- learning
+- learning teams
+- medical education
+- medical school
+- small group
+- small groups
+- TBL
+- TBL curriculum
+- TBL element
+- TBL elements
+- TBL implementation
+- TBL implementations
+- TBL intervention
+- TBL interventions
+- TBL studies
+- TBL study
+- teaching
+- team based
+- team based learning
+- team learning
+
+---
+
+{{< include ../_template.qmd >}}

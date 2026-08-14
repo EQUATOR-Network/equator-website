@@ -1,0 +1,151 @@
+---
+# REQUIRED FIELDS
+title: A tool to analyze the transferability of health promotion interventions
+acronym: ASTAIRE
+provided-for: Analysing transferability and to support the development and adaptation
+  of health promotion interventions to new settings.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: ''
+full-bibliographic-reference: Cambon L, Minary L, Ridde V, Alla F. A tool to analyze
+  the transferability of health promotion interventions. BMC Public Health 2013, 13:1184.
+  [Access full-text](http://www.biomedcentral.com/1471-2458/13/1184)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: |-
+  This reporting guideline has also been published in French:
+
+  Cambon L, Minary L, Ridde V, Alla F. [ASTAIRE: Tool for the analysis of the transferability and facilitation of the adaptation of interventions in health promotion, V2-2014]. Sante Publique. 2014;26(6):787-794. PMID: [25629673](http://www.ncbi.nlm.nih.gov/pubmed/25629673)
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- adapt
+- adaptation
+- analysis tool
+- ASTAIRE
+- ASTAIRE tool
+- checklist
+- complex intervention
+- complex interventions
+- health promotion
+- health promotion intervention
+- health promotion interventions
+- implement
+- implementation
+- intervention transfer
+- intervention transferability
+- knowledge transfer
+- primary intervention
+- research transfer
+- tool
+- transfer
+- transferability
+
+---
+
+{{< include ../_template.qmd >}}

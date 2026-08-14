@@ -1,0 +1,156 @@
+---
+# REQUIRED FIELDS
+title: 'Guidance on Conducting and REporting  DElphi Studies (CREDES) in palliative
+  care: Recommendations based on a methodological systematic review'
+acronym: CREDES
+provided-for: Reporting of Delphi studies in the context of studies using the Delphi
+  technique for the development of best practice guidance in palliative care.
+rg-doi: ''
+pmid-id: '[28190381](https://www.ncbi.nlm.nih.gov/pubmed/28190381)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/28190381
+relevant-urls: ''
+full-bibliographic-reference: 'Jünger S, Payne SA, Brine J, Radbruch L, Brearley SG.
+  Guidance on Conducting and REporting DElphi Studies (CREDES) in palliative care:
+  Recommendations based on a methodological systematic review. Palliative Medicine.
+  2017;31(8):684-706.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: A [blog post](https://eapcnet.wordpress.com/2018/08/13/the-taming-of-the-chameleon-guidance-on-conducting-and-reporting-delphi-studies-credes/)
+  about CREDES is available on the European Association of Palliative Care website.
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+- Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+- Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- best practice guideline
+- best practice guidelines
+- clinical practice
+- clinical practice guideline
+- clinical practice guidelines
+- consensus
+- CREDES
+- Delphi
+- Delphi process
+- Delphi round
+- Delphi studies
+- Delphi studies in palliative care
+- Delphi study
+- Delphi survey
+- Delphi technique
+- Delphi techniques
+- end of life care
+- expert consensus
+- hospice and palliative care
+- modified Delphi
+- palliative
+- palliative care
+- palliative care research
+- palliative research
+- practice guideline
+- practice guidelines
+
+---
+
+{{< include ../_template.qmd >}}

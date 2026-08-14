@@ -3,7 +3,7 @@
 title: Clinician-informed explainable artificial intelligence evaluation checklist
   with metrics (CLIX-M) for AI-powered clinical decision support systems
 acronym: CLIX-M
-description: Studies reporting the development and evaluation phases of explainable
+provided-for: Studies reporting the development and evaluation phases of explainable
   artificial intelligence (AI) component in AI-powered CDSS development
 rg-doi: 10.1038/s41746-025-01764-2
 pmid-id: '[40517152](https://pubmed.ncbi.nlm.nih.gov/40517152/)'
@@ -30,6 +30,8 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

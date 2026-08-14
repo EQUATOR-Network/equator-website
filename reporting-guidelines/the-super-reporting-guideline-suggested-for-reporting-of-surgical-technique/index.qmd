@@ -1,0 +1,178 @@
+---
+# REQUIRED FIELDS
+title: The SUPER reporting guideline suggested for reporting of surgical technique
+acronym: SUPER
+provided-for: Reporting of surgical technique.
+rg-doi: ''
+pmid-id: '[37601001](https://pubmed.ncbi.nlm.nih.gov/37601001/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37601001/
+relevant-urls: '[Read the full-text (PDF)](https://hbsn.amegroups.com/article/view/107955/pdf)
+  of the SUPER reporting guideline.'
+full-bibliographic-reference: Zhang K, Ma Y, Wu J, Shi Q, Barchi LC, Scarci M, Petersen
+  RH, Ng CSH, Hochwald S, Waseda R, Davoli F, Fruscio R, Levi Sandri GB, Gonzalez
+  M, Wei B, Piessen G, Shen J, Zhang X, Jiao P, He Y, Novoa NM, Bedetti B, Gilbert
+  S, Sihoe ADL, Toker A, Fiorelli A, Jimenez MF, Lerut T, Oo AY, Li GS, Tang X, Lu
+  Y, Elkhayat H, Štupnik T, Laisaar T, Abu Akar F, Gonzalez-Rivas D, Su Z, Qiu B,
+  Wang SD, Chen Y, Gao S. The SUPER reporting guideline suggested for reporting of
+  surgical technique. HepatoBiliary Surg Nutr 2023;12(4):534-544.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Zhang K, Wu J, Su Z, Ma Y, Shi Q, Barchi LC,
+  Laisaar T, Ng CSH, Gilbert S, Zhang X, Štupnik T, Lerut T, Jiao P, Elkhayat H, Novoa
+  NM, Fruscio R, Waseda R, Petersen RH, Fiorelli A, Sihoe ADL, Gonzalez-Rivas D, Scarci
+  M, Jimenez MF, Li GS, Tang X, Wang SD, Chen Y. The SUPER reporting guideline suggested
+  for reporting of surgical technique: explanation and elaboration. Gland Surg. 2023;12(6):749-766.
+  PMID: [37441012](https://pubmed.ncbi.nlm.nih.gov/37441012/)'
+guideline-history: ''
+relevant-more: ''
+website-url: <https://www.thesuper.org/>
+additional-languages: ''
+additional-information: |-
+  The SUPER guideline development protocol is available at:
+
+  Zhang K, Ma Y, Shi Q, Wu J, Shen J, He Y, Zhang X, Jiao P, Li GS, Tang X, Petersen RH, Ng CSH, Fiorelli A, Novoa NM, Bedetti B, Levi Sandri GB, Hochwald S, Lerut T, Sihoe ADL, Barchi LC, Gilbert S, Waseda R, Toker A, Gonzalez-Rivas D, Fruscio R, Scarci M, Davoli F, Piessen G, Qiu B, Wang SD, Chen Y, Gao S. Developing the surgical technique reporting checklist and standards: a study protocol. Gland Surg. 2021;10(8):2591-2599. PMID: [34527570](https://pubmed.ncbi.nlm.nih.gov/34527570/)
+
+  The scoping review that informed development of the SUPER guideline is available at:
+
+  Shi Q, Ma Y, Zhang X, Jiao P, Zhang K, Barchi LC, Bedetti B, Wu J, Wei B, Ng CSH, Toker A, Shen J, Fruscio R, Gilbert S, Petersen RH, Hochwald S, Štupnik T, Elkhayat H, Scarci M, Levi Sandri GB, Abu Akar F, Waseda R, Sihoe ADL, Fiorelli A, Gonzalez M, Davoli F, Li GS, Tang X, Qiu B, Wang SD, Chen Y, Gao S. Reporting guidelines for surgical technique could be improved: A scoping review and a call for action. J Clin Epidemiol. 2022:S0895-4356(22)00298-0. PMID: [36574532](https://pubmed.ncbi.nlm.nih.gov/36574532/) and the scoping review protocol is at PMID: [34422603](https://pubmed.ncbi.nlm.nih.gov/34422603/)
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- case report
+- case reports
+- case series
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- intervention
+- interventions
+- intraopterative
+- observational
+- observational studies
+- observational study
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- SUPER
+- SUPER checklist
+- SUPER guideline
+- surgeon
+- surgery
+- surgical
+- surgical innovation
+- surgical technique
+- Surgical techniqUe rePorting chEcklist and standaRds
+- surgical techniques
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

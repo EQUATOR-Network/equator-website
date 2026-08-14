@@ -1,0 +1,173 @@
+---
+# REQUIRED FIELDS
+title: 'Microbiology Investigation Criteria for Reporting Objectively (MICRO) : a
+  framework for the reporting and interpretation of clinical microbiology data'
+acronym: MICRO
+provided-for: Reports of studies involving human clinical microbiology data.
+rg-doi: ''
+pmid-id: '[30922309](https://www.ncbi.nlm.nih.gov/pubmed/30922309)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/30922309
+relevant-urls: 'The MICRO reporting framework is freely available to access at: <https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1301-1>'
+full-bibliographic-reference: 'Turner P, Fox-Lewis A, Shrestha P, Dance DAB, Wangrangsimakul
+  T, Cusack TP, Ling CL, Hopkins J, Roberts T, Limmathurotsakul D, Cooper BS, Dunachie
+  S, Moore CE, Dolecek C, van Doorn HR, Guerin PJ, Day NPJ, Ashley EA. Microbiology
+  Investigation Criteria for Reporting Objectively (MICRO): a framework for the reporting
+  and interpretation of clinical microbiology data. BMC Med. 2019;17(1):70.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: '[MICRO Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2019/04/MICRO_checklist_V1.docx)  [MICRO
+  Checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2019/04/MICRO_checklist_V1.pdf)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+- Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+- Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- AMR
+- AMR dataset
+- AMR datasets
+- antimicrobial
+- antimicrobial resistance
+- antimicrobial susceptibility
+- antimicrobial susceptibility testing
+- antimicrobials
+- AST
+- checklist
+- checklists
+- clinical antimicrobial resistance
+- clinical antimicrobial resistance data
+- clinical microbiology
+- clinical microbiology data
+- clinical microbiology dataset
+- clinical microbiology datasets
+- clinical sampling
+- data
+- dataset
+- datasets
+- drug resistance
+- human clinical microbiology data
+- infection
+- infections
+- infectious disease
+- infectious diseases
+- laboratories
+- laboratory
+- laboratory practice
+- MICRO
+- MICRO checklist
+- microbiologist
+- microbiologists
+- microbiology
+- Microbiology Investigation
+- Microbiology Investigation Criteria
+- Microbiology Investigation Criteria for Reporting Objectively
+- microbiology laboratory results
+- microbiology results
+- resistance
+- surveillance
+- surveillance data
+
+---
+
+{{< include ../_template.qmd >}}

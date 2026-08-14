@@ -1,0 +1,159 @@
+---
+# REQUIRED FIELDS
+title: Guidelines for uniform reporting of body fluid biomarker studies in neurologic
+  disorders
+acronym: ''
+provided-for: Reporting body fluid biomarker research studies in neurologic disorders.
+rg-doi: ''
+pmid-id: '[25150289](http://www.ncbi.nlm.nih.gov/pubmed/25150289)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25150289
+relevant-urls: ''
+full-bibliographic-reference: Gnanapavan S, Hegen H, Khalil M, Hemmer B, Franciotta
+  D, Hughes S, Hintzen R, Jeromin A, Havrdova E, Tumani H, Bertolotto A, Comabella
+  M, Frederiksen J, Álvarez-Cermeño JC, Villar L, Galimberti D, Myhr KM, Dujmovic
+  I, Fazekas F, Ionete C, Menge T, Kuhle J, Keir G, Deisenhammer F, Teunissen C, Giovannoni
+  G. Guidelines for uniform reporting of body fluid biomarker studies in neurologic
+  disorders. Neurology. 2014;83(13):1210-1216.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+- Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- biomarker
+- biomarker studies
+- biomarker study
+- biomarkers
+- BioMS-eu
+- BioMS-eu consortium
+- body fluid
+- body fluid biomarker
+- body fluid biomarker research
+- body fluid biomarker studies
+- body fluid biomarker study
+- body fluid biomarkers
+- body fluids
+- checklist
+- checklists
+- fluid
+- fluids
+- MS
+- multiple sclerosis
+- neurologic
+- neurologic disorder
+- neurologic disorders
+- neurological
+- neurological disorder
+- neurological disorders
+- neurology
+- neuroscience
+- neuroscience biomarkers
+- neurosciences
+
+---
+
+{{< include ../_template.qmd >}}

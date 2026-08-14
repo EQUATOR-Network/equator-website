@@ -1,0 +1,198 @@
+---
+# REQUIRED FIELDS
+title: 'SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised
+  publication guidelines from a detailed consensus process'
+acronym: SQUIRE 2.0
+provided-for: Quality improvement in health care
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: 'The full-text of the SQUIRE 2.0 update, published in 2015, is available
+  from: [SQUIRE 2.0](http://www.squire-statement.org/index.cfm?fuseaction=page.viewPage&pageID=471)'
+full-bibliographic-reference: |-
+  Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process.
+
+  This guideline was published simultaneously in 7 journals. You can read the guideline in any of these journals using the links below.
+
+  BMJ Qual Saf. 2015. PMID: [26369893](http://www.ncbi.nlm.nih.gov/pubmed/26369893)
+
+  J Nurs Care Qual. 2015. PMID: [26429125](http://www.ncbi.nlm.nih.gov/pubmed/26429125)
+
+  Am J Crit Care. 2015. PMID: [26523003](http://www.ncbi.nlm.nih.gov/pubmed/26523003)
+
+  Perm J. 2015. PMID: [26517437](http://www.ncbi.nlm.nih.gov/pubmed/26517437)
+
+  J Surg Res. 2015. PMID: [26515734](http://www.ncbi.nlm.nih.gov/pubmed/26515734)
+
+  J Contin Educ Nurs. 2015. PMID: [26509402](http://www.ncbi.nlm.nih.gov/pubmed/26509402)
+
+  J Am Coll Surg. 2016;222(3):317-323. PMID: [26385723](http://www.ncbi.nlm.nih.gov/pubmed/26385723)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Goodman D, Ogrinc G, Davies L, Baker GR, Barnsteiner
+  J, Foster TC, Gali K, Hilden J, Horwitz L, Kaplan HC, Leis J, Matulis JC, Michie
+  S, Miltner R, Neily J, Nelson WA, Niedner M, Oliver B, Rutman L, Thomson R, Thor
+  J. Explanation and elaboration of the SQUIRE (Standards for Quality Improvement
+  Reporting Excellence) Guidelines, V.2.0: examples of SQUIRE elements in the healthcare
+  improvement literature. BMJ Qual Saf. 2016;25(12):e7. PMID: [27076505](https://pubmed.ncbi.nlm.nih.gov/27076505/)'
+guideline-history: |-
+  **SQUIRE 1.0
+
+  **The SQUIRE reporting guideline was originally published in 2008.
+
+  Davidoff F, Batalden P, Stevens D, Ogrinc G, Mooney S. Publication guidelines for quality improvement in health care: evolution of the SQUIRE project.
+
+  Qual Saf Health Care. 2008;17 Suppl 1:i3-i9. PMID: [18836063
+
+  ](http://www.ncbi.nlm.nih.gov/pubmed/18836063)BMJ. 2009; 338:a3152. PMID: [19153129](http://www.ncbi.nlm.nih.gov/pubmed/19153129)
+
+  Jt Comm J Qual Patient Saf. 2008;34(11):681-687. PMID: [19025090](http://www.ncbi.nlm.nih.gov/pubmed/19025090)
+
+  Ann Intern Med. 2008;149(9):670-676. PMID: [18981488](http://www.ncbi.nlm.nih.gov/pubmed/18981488)
+
+  J Gen Intern Med. 2008;23(12):2125-2130. PMID: [18830766](http://www.ncbi.nlm.nih.gov/pubmed/18830766)
+
+  Ogrinc G, Mooney SE, Estrada C, Foster T, Goldmann D, Hall LW, Huizinga MM, Liu SK, Mills P, Neily J, Nelson W, Pronovost PJ, Provost L, Rubenstein LV, Speroff T, Splaine M, Thomson R, Tomolo AM, Watts B. The SQUIRE (Standards for QUality Improvement Reporting Excellence) guidelines for quality improvement reporting: explanation and elaboration. Qual Saf Health Care. 2008;17 Suppl 1:i13-32. PMID: [18836062](http://www.ncbi.nlm.nih.gov/pubmed/18836062)
+relevant-more: |-
+  **Specialised**
+
+  [**SQUIRE-EDU**](https://www.equator-network.org/reporting-guidelines/squire-edu-standards-for-quality-improvement-reporting-excellence-in-education-publication-guidelines-for-educational-improvement/): Ogrinc G, Armstrong GE, Dolansky MA, Singh MK, Davies L. SQUIRE-EDU (Standards for QUality Improvement Reporting Excellence in Education): Publication Guidelines for Educational Improvement. Acad Med. 2019 Oct;94(10):1461-1470. PMID: [30998575](https://pubmed.ncbi.nlm.nih.gov/30998575/)
+
+  [**SQUIRE-SIM**](https://www.equator-network.org/reporting-guidelines/squire-sim-standards-for-quality-improvement-reporting-excellence-for-simulation-publication-guidelines-for-simulation-based-quality-improvement-projects/): Stone KP, Rutman L, Calhoun AW, Reid J, Maa T, Bajaj K, Auerbach MA, Cheng A, Davies L, Deutsch E, Harwayne-Gidansky I, Kessler DO, Ogrinc G, Patterson M, Thomas A, Doughty C; And for the International Network in Simulation-Based Innovation, Research and Education (INSPIRE) SQUIRE-SIM Reporting Guidelines Investigators. SQUIRE-SIM (Standards for Quality Improvement Reporting Excellence for SIMulation): Publication Guidelines for Simulation-Based Quality Improvement Projects. Simul Healthc. 2024. PMID: [39162794](https://pubmed.ncbi.nlm.nih.gov/39162794/)
+website-url: <http://www.squire-statement.org/>
+additional-languages: The SQUIRE 2.0 guideline is available in [Italian](http://www.evidence.it/articolodettaglio/209/it/470/squire-20-standard-per-leccellenza-nel-reporting-degli-stud/articolo).
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: An online fillable SQUIRE checklist is also available via the GoodReports website
+  at <https://www.goodreports.org/reporting-checklists/squire/>.
+other-relevant-research: ''
+sticky: 'yes'
+downloads: '[SQUIRE 2.0 checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2012/12/SQUIRE-2.0-checklist.pdf)
+  - 2015 update'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+- Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- healthcare improvement
+- improvement
+- improvement program
+- improvement programme
+- improvement programmes
+- improvement programs
+- improvement studies
+- improvement study
+- improvement work
+- improvements
+- quality
+- quality improvement
+- quality improvement intervention
+- quality improvement interventions
+- quality improvement studies
+- quality improvement study
+- quality improvement work
+- quality improvements
+- safety
+- SQUIRE
+- SQUIRE 1.0
+- SQUIRE 2.0
+- SQUIRE 2.0 guidelines
+- SQUIRE 2.0 statement
+- SQUIRE statement
+- value
+
+---
+
+{{< include ../_template.qmd >}}

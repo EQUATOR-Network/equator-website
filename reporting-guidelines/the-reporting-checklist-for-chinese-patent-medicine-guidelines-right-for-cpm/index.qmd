@@ -1,0 +1,166 @@
+---
+# REQUIRED FIELDS
+title: 'The reporting checklist for Chinese patent medicine guidelines: RIGHT for
+  CPM'
+acronym: RIGHT for CPM
+provided-for: Reporting of Chinese patent medicine guidelines.
+rg-doi: ''
+pmid-id: '[38036197](https://pubmed.ncbi.nlm.nih.gov/38036197/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38036197/
+relevant-urls: ''
+full-bibliographic-reference: 'Li X, Huang L, Wang L, Jin X, Zhou Q, Ma Y, Wang Q,
+  Wang T, Hu X, Ye D, Mao Y, Xie Z, Chen Y, Wen C. The reporting checklist for Chinese
+  patent medicine guidelines: RIGHT for CPM. Pharmacol Res. 2024;199:107015.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  **Generic**
+
+  [**RIGHT**](https://www.equator-network.org/reporting-guidelines/right-statement/): Chen Y, Yang K, Marušić A, Qaseem A, Meerpohl JJ, Flottorp S, Akl EA, Schünemann HJ, Chan ESY, Falck-Ytter Y, Ahmed F, Barber S, Chen C, Zhang M, Xu B, Tian J, Song F, Shang H, Tang K, Wang Q, Norris SL; for the RIGHT (Reporting Items for Practice Guidelines in Healthcare) Working Group. A Reporting Tool for Practice Guidelines in Health Care: The RIGHT Statement. Ann Intern Med. 2017;166(2):128-132. PMID: [27893062](https://www.ncbi.nlm.nih.gov/pubmed/27893062)
+
+  **Specialised**
+
+  [**RIGHT-TCM**](https://www.equator-network.org/reporting-guidelines/the-right-extension-statement-for-traditional-chinese-medicine-development-recommendations-and-explanation/): Xie R, Xia Y, Chen Y, Li H, Shang H, Kuang X, Xia L, Guo Y. The RIGHT Extension Statement for Traditional Chinese Medicine: Development, Recommendations, and Explanation. Pharmacol Res. 2020;160:105178. PMID: [32889127](https://pubmed.ncbi.nlm.nih.gov/32889127)
+
+  [**RIGHT-PVG**](https://www.equator-network.org/reporting-guidelines/the-reporting-checklist-for-public-versions-of-guidelines-right-pvg/): Wang X, Chen Y, Akl EA, Tokalić R, Marušić A, Qaseem A, Falck-Ytter Y, Lee MS, Siedler M, Barber SL, Zhang M, Chan ESY, Estill J, Kwong JSW, Okumura A, Zhou Q, Yang K, Norris SL; RIGHT working group. The reporting checklist for public versions of guidelines: RIGHT-PVG. Implement Sci. 2021;16(1):10. PMID: [33430911](https://pubmed.ncbi.nlm.nih.gov/33430911/)
+
+  [**RIGHT for Acupuncture**](https://www.equator-network.org/reporting-guidelines/right-for-acupuncture/): Tang C, Duan Y, Zhang Y, Zhang Y, Chen Z, Tang X, Zeng J, Riley D, Lee MS, Kim YS, Zhao H, Marrone G, Zhu X, Ge S, Wen H, Zhao W, Zheng X, Solos I, Chen Y, Guyatt G, Lu L, Xu N; RIGHT (Reporting Items for Practice Guidelines in Healthcare) for Acupuncture Working Group. RIGHT for Acupuncture: An Extension of the RIGHT Statement for Clinical Practice Guidelines on Acupuncture. J Clin Epidemiol. 2021:S0895-4356(21)00173-6. PMID: [34091023](https://pubmed.ncbi.nlm.nih.gov/34091023/)
+
+  [**RIGHT for INT**](https://www.equator-network.org/reporting-guidelines/an-extension-of-the-right-statement-for-introductions-and-interpretations-of-clinical-practice-guidelines-right-for-int/): Zhou Q, Xing D, Li Q, Zhang J, Luo X, Yang N, Wang X, Yang K, Tian J, Li H, Li B, Cai Y, Jin Y, Lv L, Sun F, Shang S, Yuan B, Li J, Ma B, Li X, Yuan Y, Wu L, Wang B, Jiang L, Wang Z, Chen Y, Liang D. An extension of the RIGHT statement for introductions and interpretations of clinical practice guidelines: RIGHT for INT. J Evid Based Med. 2022;15(1):55-63. PMID: [35416438](https://pubmed.ncbi.nlm.nih.gov/35416438/)
+
+  [**RIGHT-Ad@pt**](https://www.equator-network.org/reporting-guidelines/a-reporting-tool-for-adapted-guidelines-in-health-care-the-right-adapt-checklist/): Song Y, Alonso-Coello P, Ballesteros M, Cluzeau F, Vernooij RWM, Arayssi T, Bhaumik S, Chen Y, Ghersi D, Langlois EV, Fuentes Padilla P, Schünemann HJ, Akl EA, Martínez García L; RIGHT-Ad@pt Working Group\*, Amer Y, Arevalo-Rodriguez I, Barnes S, Barreto J, Collis D, Dyer S, Fahim C, Florez I, Gallegos-Rivero V, Klugar M, Kuijpers T, Mathew JL, Munn Z, Norris S, Patiño-Lugo DF, Pramesh CS, Rodriguez J, Roy S, Shin ES, Sosa O, Vandvik PO, Velez M, Woodcraft R; RIGHT-Ad@pt Working Group. A Reporting Tool for Adapted Guidelines in Health Care: The RIGHT-Ad@pt Checklist. Ann Intern Med. 2022;175(5):710-719. PMID: [35286143](https://pubmed.ncbi.nlm.nih.gov/35286143/)
+
+  [**RIGHT-COI&F**](https://www.equator-network.org/reporting-guidelines/reporting-conflicts-of-interest-and-funding-in-health-care-guidelines-the-right-coif-checklist/): Xun Y, Estill J, Khabsa J, Florez ID, Guyatt GH, Norris SL, Lee MS, Ozaki A, Qaseem A, Schünemann HJ, Shao R, Chen Y, Akl EA; RIGHT-COI&F Working Groups. Reporting Conflicts of Interest and Funding in Health Care Guidelines: The RIGHT-COI&F Checklist. Ann Intern Med. 2024;177(6):782-790. PMID: [38739919](https://pubmed.ncbi.nlm.nih.gov/38739919/)
+website-url: <http://www.right-statement.org/extensions/59>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'yes'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+- Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+- Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- acupuncture
+- alternative medicine
+- checklist
+- checklists
+- Chinese herbal medicine
+- Chinese patent medicine
+- Chinese patent medicines
+- clinical guideline
+- clinical guidelines
+- clinical practice guideline
+- clinical practice guidelines
+- complementary medicine
+- CPM
+- CPM checklist
+- patent
+- patents
+- RIGHT extension
+- RIGHT for CPM
+- RIGHT for CPM checklist
+- TCM
+- traditional Chinese medicine
+- traditional medicine
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,157 @@
+---
+# REQUIRED FIELDS
+title: Recommendations for the assessment and reporting of multivariable logistic
+  regression in transplantation literature
+acronym: ''
+provided-for: Multivariable logistic regression in organ transplantation
+rg-doi: ''
+pmid-id: '[20642690](http://www.ncbi.nlm.nih.gov/pubmed/20642690)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/20642690
+relevant-urls: ''
+full-bibliographic-reference: Kalil AC, Mattei J, Florescu DF, Sun J, Kalil RS. Recommendations
+  for the assessment and reporting of multivariable logistic regression in transplantation
+  literature. Am J Transplant. 2010;10(7):1686-1694.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+- Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+- Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+- Renal medicine
+- Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- heart
+- heart transplant
+- kidney
+- kidney transplant
+- liver
+- liver transplant
+- logistic regression
+- logistic regression analyses
+- logistic regression analysis
+- logistic regression model
+- logistic regression models
+- lung
+- lung transplant
+- multivariable logistic regression
+- organ transplant
+- organ transplantation
+- organ transplants
+- renal transplant
+- solid organ transplant
+- statistic
+- statistical
+- statistical analyses
+- statistical analysis
+- statistical method
+- statistical methods
+- statistical methods and analyses
+- statistics
+- transplant
+- transplantation
+- transplants
+
+---
+
+{{< include ../_template.qmd >}}

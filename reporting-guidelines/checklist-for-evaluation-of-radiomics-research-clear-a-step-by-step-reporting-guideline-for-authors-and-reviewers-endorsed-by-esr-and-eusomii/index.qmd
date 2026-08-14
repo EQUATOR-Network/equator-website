@@ -1,0 +1,173 @@
+---
+# REQUIRED FIELDS
+title: 'CheckList for EvaluAtion of Radiomics research (CLEAR) : a step-by-step reporting
+  guideline for authors and reviewers endorsed by ESR and EuSo MII'
+acronym: CLEAR
+provided-for: Reporting clinical radiomics research.
+rg-doi: ''
+pmid-id: '[37142815](https://pubmed.ncbi.nlm.nih.gov/37142815/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37142815/
+relevant-urls: |-
+  The authors have developed two checklists a full version (CLEAR) and a shortened version (CLEAR-S). Dynamic checklists are available online at:
+
+  [CLEAR Checklist v1.0](https://clearchecklist.github.io/clear_checklist/CLEAR.html)
+
+  [CLEAR-S Checklist v1.0 (shortened)](https://clearchecklist.github.io/clear_checklist/CLEAR-S.html)
+full-bibliographic-reference: 'Kocak B, Baessler B, Bakas S, Cuocolo R, Fedorov A,
+  Maier-Hein L, Mercaldo N, Müller H, Orlhac F, Pinto Dos Santos D, Stanzione A, Ugga
+  L, Zwanenburg A. CheckList for EvaluAtion of Radiomics research (CLEAR): a step-by-step
+  reporting guideline for authors and reviewers endorsed by ESR and EuSoMII. Insights
+  Imaging. 2023;14(1):75.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Kocak B, Borgheresi A, Ponsiglione A, Andreychenko
+  AE, Cavallo AU, Stanzione A, Doniselli FM, Vernuccio F, Triantafyllou M, Cannella
+  R, Trotta R, Ghezzo S, Akinci D''Antonoli T, Cuocolo R. Explanation and Elaboration
+  with Examples for CLEAR (CLEAR-E3): an EuSoMII Radiomics Auditing Group Initiative.
+  Eur Radiol Exp. 2024;8(1):72. PMID: [38740707](https://pubmed.ncbi.nlm.nih.gov/38740707/)'
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- AI
+- artificial intelligence
+- checklist
+- CheckList for EvaluAtion of Radiomics research
+- checklists
+- CLEAR
+- CLEAR checklist
+- computed tomography
+- deep learning
+- diagnosis
+- diagnostic
+- image
+- imaging
+- machine learning
+- magnetic resonance imaging
+- medical image
+- medical images
+- ML
+- model
+- modeling
+- modelling
+- models
+- predict
+- prediction
+- predictive
+- predictive modeling
+- predictive modelling
+- prognosis
+- prognostic
+- radiology
+- radiomic
+- radiomics
+- statistical
+- statistics
+- texture analysis
+
+---
+
+{{< include ../_template.qmd >}}

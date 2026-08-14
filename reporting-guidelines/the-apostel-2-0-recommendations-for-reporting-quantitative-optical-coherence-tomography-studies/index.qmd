@@ -1,0 +1,170 @@
+---
+# REQUIRED FIELDS
+title: The APOSTEL 2.0 Recommendations for Reporting Quantitative Optical Coherence
+  Tomography Studies
+acronym: APOSTEL 2.0
+provided-for: Reporting quantitative optical coherence tomography research.
+rg-doi: ''
+pmid-id: '[33910937](https://pubmed.ncbi.nlm.nih.gov/33910937/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/33910937/
+relevant-urls: ''
+full-bibliographic-reference: Aytulun A, Cruz-Herranz A, Aktas O, Balcer LJ, Balk
+  L, Barboni P, Blanco AA, Calabresi PA, Costello F, Sanchez-Dalmau B, DeBuc DC, Feltgen
+  N, Finger RP, Frederiksen JL, Frohman E, Frohman T, Garway-Heath D, Gabilondo I,
+  Graves JS, Green AJ, Hartung HP, Havla J, Holz FG, Imitola J, Kenney R, Klistorner
+  A, Knier B, Korn T, Kolbe S, Krämer J, Lagrèze WA, Leocani L, Maier O, Martínez-Lapiscina
+  EH, Meuth S, Outteryck O, Paul F, Petzold A, Pihl-Jensen G, Preiningerova JL, Rebolleda
+  G, Ringelstein M, Saidha S, Schippling S, Schuman JS, Sergott RC, Toosy A, Villoslada
+  P, Wolf S, Yeh EA, Yu-Wai-Man P, Zimmermann HG, Brandt AU, Albrecht P. The APOSTEL
+  2.0 Recommendations for Reporting Quantitative Optical Coherence Tomography Studies.
+  Neurology. 2021:10.1212/WNL.0000000000012125.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+- Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+- Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+# - Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- APOSTEL 2.0
+- APOSTEL recommendations
+- case report
+- case reports
+- case studies
+- case study
+- clinical trial
+- clinical trials
+- neuro-ophthalmology
+- neurology
+- observational research
+- observational studies
+- observational study
+- OCT
+- ocular
+- ophthalmology
+- optical
+- optical coherence
+- optical coherence tomography
+- optical coherence tomography studies
+- optical coherence tomography study
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- retina
+- retinal
+- tomography
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

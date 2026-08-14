@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: The TRIPOD-LLM reporting guideline for studies using large language models
 acronym: TRIPOD-LLM
-description: Reporting of studies that are developing, tuning, prompt engineering
+provided-for: Reporting of studies that are developing, tuning, prompt engineering
   or evaluating a large language model (LLM).
 rg-doi: ''
 pmid-id: '[39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/)'
@@ -38,6 +38,8 @@ primary-guideline: ''
 other: The guideline includes a separate checklist for journal or conference abstracts
   of LLM-based studies (TRIPOD-LLM for abstracts).
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

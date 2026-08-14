@@ -1,0 +1,161 @@
+---
+# REQUIRED FIELDS
+title: 'Trial Forge Guidance 4: a guideline for reporting the results of randomised
+  Studies Within A Trial (SWATs)'
+acronym: ''
+provided-for: Reporting the results of randomised Studies Within A Trial (SWATs).
+rg-doi: ''
+pmid-id: '[38475795](https://pubmed.ncbi.nlm.nih.gov/38475795/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38475795/
+relevant-urls: '[Read the full-text](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-024-08004-0)
+  of this reporting guideline.'
+full-bibliographic-reference: 'Arundel CE, Clark LK, Parker A, Beard D, Coleman E,
+  Cooper C, Devane D, Eldridge S, Galvin S, Gillies K, Hewitt CE, Sutton C, Torgerson
+  DJ, Treweek S; PROMETHEUS GROUP. Trial Forge Guidance 4: a guideline for reporting
+  the results of randomised Studies Within A Trial (SWATs). Trials. 2024;25(1):183.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: An editable version of the checklist is available [here](https://www.trialforge.org/resource/trial-forge-guidance-4-a-guideline-for-reporting-the-results-of-randomised-studies-within-a-trial-swats/).
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- embedded randomised controlled trial
+- embedded randomized controlled trial
+- embedded trial
+- embedded trials
+- randomised controlled trial
+- randomised controlled trials
+- randomised SWAT
+- randomised SWAT evaluation
+- randomised SWAT evaluations
+- randomised SWATs
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized SWAT
+- randomized SWAT evaluation
+- randomized SWAT evaluations
+- randomized SWATs
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- Studies Within A Trial
+- Study Within A Trial
+- SWAT
+- SWATs
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

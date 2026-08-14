@@ -1,0 +1,147 @@
+---
+# REQUIRED FIELDS
+title: How to Report Light Exposure in Human Chronobiology and Sleep Research Experiments
+acronym: ''
+provided-for: Reporting light exposure and stimulus conditions in chronobiology, sleep
+  research and environmental psychology experiments.
+rg-doi: ''
+pmid-id: '[31281903](https://pubmed.ncbi.nlm.nih.gov/31281903/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/31281903/
+relevant-urls: '[Read the full-text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6609447/)
+  of this reporting guideline.'
+full-bibliographic-reference: Spitschan M, Stefani O, Blattner P, Gronfier C, Lockley
+  SW, Lucas RJ. How to Report Light Exposure in Human Chronobiology and Sleep Research
+  Experiments. Clocks Sleep. 2019;1(3):280-289.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+- Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- behavior
+- behavioral
+- behaviour
+- behavioural
+- chronobiology
+- circadian
+- environmental psychology
+- light
+- light exposure
+- non-visual function
+- physiological
+- physiology
+- psychological
+- psychology
+- retina
+- sleep
+- spectral
+- spectral data
+- vision
+
+---
+
+{{< include ../_template.qmd >}}

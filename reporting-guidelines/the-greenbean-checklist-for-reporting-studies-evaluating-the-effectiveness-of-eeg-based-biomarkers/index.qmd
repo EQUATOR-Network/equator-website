@@ -3,7 +3,7 @@
 title: The GREENBEAN checklist for reporting studies evaluating the effectiveness
   of EEG-based biomarkers
 acronym: GREENBEAN
-description: Reporting of studies evaluating the effectiveness of EEG-based biomarkers.
+provided-for: Reporting of studies evaluating the effectiveness of EEG-based biomarkers.
 rg-doi: 10.1016/j.clinph.2025.2110777
 pmid-id: ''
 pmid-url: ''
@@ -30,6 +30,8 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

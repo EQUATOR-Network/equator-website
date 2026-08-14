@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: Endo -STAR
 acronym: ''
-description: Reporting of future clinical trials for infrainguinal endovascular treatments
+provided-for: Reporting of future clinical trials for infrainguinal endovascular treatments
   of peripheral arterial disease.
 rg-doi: 10.1093/bjs/znaf020
 pmid-id: '[40241414](https://pubmed.ncbi.nlm.nih.gov/40241414/)'
@@ -33,6 +33,8 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

@@ -1,0 +1,166 @@
+---
+# REQUIRED FIELDS
+title: 'CARE-radiology statement explanation and elaboration: reporting guideline
+  for radiological case reports'
+acronym: CARE-radiology
+provided-for: Reporting radiological case reports.
+rg-doi: ''
+pmid-id: '[38458654](https://pubmed.ncbi.nlm.nih.gov/38458654/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38458654/
+relevant-urls: '[Read the full-text](https://ebm.bmj.com/content/early/2024/03/08/bmjebm-2023-112695.long)
+  of the CARE-radiology reporting guideline.'
+full-bibliographic-reference: 'Wang M, Luo X, Xiao X, Zhang L, Wang Q, Wang S, Wang
+  X, Xue H, Zhang L, Chen Y, Lei J, Štupnik T, Scarci M, Fiorelli A, Laisaar T, Fruscio
+  R, Elkhayat H, Novoa NM, Davoli F, Waseda R, Estill J, Norris SL, Riley DS, Tian
+  J. CARE-radiology statement explanation and elaboration: reporting guideline for
+  radiological case reports. BMJ Evid Based Med. 2024:bmjebm-2023-112695.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  **Generic**
+
+  [**CARE**](https://www.equator-network.org/reporting-guidelines/care/): Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development.
+
+  BMJ Case Rep. 2013; doi: 10.1136/bcr-2013-201554 PMID: [24155002](http://www.ncbi.nlm.nih.gov/pubmed/24155002)
+
+  Global Adv Health Med. 2013;[10.7453/gahmj.2013.008](http://www.gahmj.com/doi/abs/10.7453/gahmj.2013.008)
+
+  Dtsch Arztebl Int. 2013;110(37):603-608. PMID: [24078847](http://www.ncbi.nlm.nih.gov/pubmed/24078847)  [Full-text in English](http://www.aerzteblatt.de/int/archive/article/145667/The-CARE-Guidelines-Consensus-Based-Clinical-Case-Reporting-Guideline-Development) / [Full-text in German](http://www.aerzteblatt.de/archiv/145657/Die-Case-Reporting-%28CARE%29-Guideline-Entwicklung-einer-konsensbasierten-Leitlinie-fuer-die-Erstellung-klinischer-Fallberichte)
+
+  J Clin Epidemiol. 2014;67(1):46-51. PMID: [24035173](http://www.ncbi.nlm.nih.gov/pubmed/24035173)
+
+  J Med Case Rep. 2013;7(1):223. PMID: [24228906](http://www.ncbi.nlm.nih.gov/pubmed/24228906)  [Full-text](http://www.jmedicalcasereports.com/content/7/1/223).
+
+  J Diet Suppl. 2013;10(4):381-390. PMID: [24237192](http://www.ncbi.nlm.nih.gov/pubmed/24237192)
+
+  Headache. 2013;53(10):1541-1547. PMID: [24266334](http://www.ncbi.nlm.nih.gov/pubmed/24266334)
+
+  **Specialised**
+
+  **[Therapeutic Massage and Bodywork](https://www.equator-network.org/reporting-guidelines/adaptation-of-the-care-guidelines-for-therapeutic-massage-and-bodywork-publications-efforts-to-improve-the-impact-of-case-reports/)**: Munk N, Boulanger K. Adaptation of the CARE Guidelines for Therapeutic Massage and Bodywork Publications: Efforts To Improve the Impact of Case Reports. Int J Ther Massage Bodywork. 2014;7(3):32-40. PMID: [25184013](https://www.ncbi.nlm.nih.gov/pubmed/25184013)
+website-url: ''
+additional-languages: ''
+additional-information: '[Read the study protocol](https://atm.amegroups.org/article/view/88322/html)
+  for the development of CARE-radiology.'
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- CARE case extension
+- CARE-radiology
+- CARE-radiology checklist
+- case report
+- case reports
+- checklist
+- checklists
+- diagnosis
+- observation
+- observational
+- radiological
+- radiological case report
+- radiological case reports
+- radiology
+
+---
+
+{{< include ../_template.qmd >}}

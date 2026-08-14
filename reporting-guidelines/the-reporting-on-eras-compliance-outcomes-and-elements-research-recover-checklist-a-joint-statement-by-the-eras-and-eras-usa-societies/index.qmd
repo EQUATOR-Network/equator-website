@@ -1,0 +1,149 @@
+---
+# REQUIRED FIELDS
+title: 'The Reporting on ERAS Compliance, Outcomes, and Elements Research (RECOvER)
+  Checklist: A Joint Statement by the ERAS ® and ERAS ® USA Societies'
+acronym: RECOvER Checklist
+provided-for: Reporting of enhanced recovery after surgery (ERAS) related studies.
+rg-doi: ''
+pmid-id: '[30116862](https://www.ncbi.nlm.nih.gov/pubmed/30116862)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/30116862
+relevant-urls: The full-text of this reporting guideline is available at:<https://link.springer.com/article/10.1007/s00268-018-4753-0>
+full-bibliographic-reference: 'Elias KM, Stone AB, McGinigle K, Tankou JI, Scott MJ,
+  Fawcett WJ, Demartines N, Lobo DN, Ljungqvist O, Urman RD; ERAS® Society and ERAS®
+  USA. The Reporting on ERAS Compliance, Outcomes, and Elements Research (RECOvER)
+  Checklist: A Joint Statement by the ERAS® and ERAS® USA Societies. World J Surg.
+  2019 Jan;43(1):1-8.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- enhanced recovery
+- enhanced recovery after surgery
+- enhanced recovery research
+- ERAS
+- ERAS compliance
+- ERAS elements
+- ERAS outcomes
+- ERAS pathway
+- ERAS pathways
+- ERAS program
+- ERAS programme
+- ERAS programmes
+- ERAS programs
+- RECOvER Checklist
+- RECOvER Checklist for reporting of enhanced recovery research
+- Reporting on ERAS Compliance Outcomes and Elements Research (RECOvER) Checklist
+- surgery
+- surgical
+
+---
+
+{{< include ../_template.qmd >}}

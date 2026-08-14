@@ -1,0 +1,175 @@
+---
+# REQUIRED FIELDS
+title: 'The REFLECT statement: methods and processes of creating reporting guidelines
+  for randomized controlled trials for livestock and food safety by modifying the
+  CONSORT statement'
+acronym: REFLECT
+provided-for: Reporting randomised controlled trials for livestock and food safety
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: The REFLECT statement 22-item checklist is available to download from
+  the [Meridian Network website](https://meridian-network.org/reflect/).
+full-bibliographic-reference: |-
+  O'Connor AM, Sargeant JM, Gardner IA, Dickson JS, Torrence ME, Consensus Meeting Participants, Dewey CE, Dohoo IR, Evans RB, Gray JT, Greiner M, Keefe G, Lefebvre SL, Morley PS, Ramirez A, Sischo W, Smith DR, Snedeker K, Sofos J, Ward MP, Wills R. The REFLECT statement: methods and processes of creating reporting guidelines for randomized controlled trials for livestock and food safety by modifying the CONSORT statement.
+
+  This guideline was published simultaneously in 4 journals. You can read the guideline in any of these journals using the links below.
+
+  Zoonoses Public Health. 2010;57(2):95-104. PMID: [20070653](http://www.ncbi.nlm.nih.gov/pubmed/20070653)
+
+  J Food Prot. 2010;73(1):132-139. PMID: [20051216](http://www.ncbi.nlm.nih.gov/pubmed/20051216)
+
+  J Vet Intern Med. 2010;24(1):57-64. PMID: [20002546](http://www.ncbi.nlm.nih.gov/pubmed/20002546)
+
+  Prev Vet Med. 2010;93(1):11-18. PMID: [19926151](http://www.ncbi.nlm.nih.gov/pubmed/19926151)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: |-
+  Sargeant JM, O'Connor AM, Gardner IA, Dickson JS, Torrence ME; Consensus Meeting Participants. The REFLECT statement: reporting guidelines for randomized controlled trials in livestock and food safety: explanation and elaboration. Zoonoses Public Health. 2010;57(2):105-136. PMID: [20070652
+
+  ](http://www.ncbi.nlm.nih.gov/pubmed/20070652)
+
+  Sargeant JM, O'Connor AM, Gardner IA, Dickson JS, Torrence ME, Dohoo IR, Lefebvre SL, Morley PS, Ramirez A, Snedeker K. The REFLECT statement: reporting guidelines for randomized controlled trials in livestock and food safety: explanation and elaboration. J Food Prot. 2010;73(3):579-603. PMID: [20202349](http://www.ncbi.nlm.nih.gov/pubmed/20202349)
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: |-
+  The REFLECT statement checklist is available to download in Spanish and French from the [Meridian Network website](https://meridian-network.org/reflect/).
+
+  Visit our translations page to find out what other reporting guidelines are available in languages other than English: [reporting guideline translations](https://www.equator-network.org/library/translations-of-reporting-guidelines/)
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'yes'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- animal
+- animal health
+- animals
+- checklist
+- food
+- food production
+- food safety
+- livestock
+- livestock population
+- livestock populations
+- pre harvest
+- randomised
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- REFLECT
+- REFLECT Statement
+- safety
+- vet
+- veterinary
+- whole report
+
+---
+
+{{< include ../_template.qmd >}}

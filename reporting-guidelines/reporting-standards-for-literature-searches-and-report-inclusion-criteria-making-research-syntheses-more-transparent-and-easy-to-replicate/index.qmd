@@ -1,0 +1,157 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting standards for literature searches and report inclusion criteria:
+  making research syntheses more transparent and easy to replicate'
+acronym: ''
+provided-for: Reporting the methods used in a literature search.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: 'The full-text of this reporting guideline is available at: <http://onlinelibrary.wiley.com/doi/10.1002/jrsm.1127/abstract>'
+full-bibliographic-reference: 'Atkinson KM, Koenka AC, Sanchez CE, Moshontz H, Cooper
+  H. Reporting standards for literature searches and report inclusion criteria: making
+  research syntheses more transparent and easy to replicate. Research Synthesis Methods.
+  2015;6(1): 87–95.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: |-
+  For terminology and reporting of citation searching use the TARCiS Checklist
+
+  [Word](https://ub.unibas.ch/fileadmin/user_upload/universitaetsbibliothek/Universitaetsbibliothek/5_Standorte/UB_Medizin/TARCiS/TARCiS_Checklist_for_Terminology_and_Reporting_of_Citation_Searching.docx) | [PDF](https://ub.unibas.ch/fileadmin/user_upload/universitaetsbibliothek/Universitaetsbibliothek/5_Standorte/UB_Medizin/TARCiS/TARCiS_Checklist_for_Terminology_and_Reporting_of_Citation_Searching.pdf) | [TARCiS website](https://ub.unibas.ch/de/ub-medizin/tarcis/)
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- bibliographic database
+- bibliographic databases
+- citation search
+- citation searches
+- database search
+- database searches
+- inclusion
+- inclusion criteria
+- literature search
+- literature search methods
+- literature searches
+- literature searching
+- literature searching methods
+- reference database
+- reference databases
+- research syntheses
+- research synthesis
+- search
+- search methods
+- search strategies
+- search strategy
+- searching
+- searching methods
+- sifting
+- syntheses
+- synthesis
+
+---
+
+{{< include ../_template.qmd >}}

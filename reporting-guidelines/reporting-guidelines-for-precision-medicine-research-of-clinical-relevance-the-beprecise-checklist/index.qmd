@@ -1,0 +1,138 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting guidelines for precision medicine research of clinical relevance:
+  the Be PRECISE checklist'
+acronym: BePRECISE
+provided-for: Reporting of clinically relevant precision medicine research.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: '[Read the full-text](https://www.nature.com/articles/s41591-024-03033-3)
+  of the BePRECISE reporting guideline.'
+full-bibliographic-reference: 'Lim SS, Semnani-Azad Z, Morieri ML, Ng AH, Ahmad A,
+  Fitipaldi H, Boyle J, Collin C, Dennis JM, Langenberg C, Loos RJF, Morrison M, Ramsay
+  M, Sanyal AJ, Sattar N, Hivert MF, Gomez MF, Merino J, Tobias DK, Trenell MI, Rich
+  SS, Sargent JL, Franks PW. Reporting guidelines for precision medicine research
+  of clinical relevance: the BePRECISE checklist. Nat Med. 2024.30:1874–1881.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: '[BePRECISE Checklist (Word)](https://www.equator-network.org/wp-content/uploads/2024/07/BePRECISE-Checklist.docx)  [BePRECISE
+  Checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2024/07/BePRECISE-Checklist.pdf)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- BePRECISE
+- BePRECISE checklist
+- individualised medicine
+- individualized medicine
+- personalised medicine
+- personalized medicine
+- precision medicine
+
+---
+
+{{< include ../_template.qmd >}}

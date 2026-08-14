@@ -1,0 +1,177 @@
+---
+# REQUIRED FIELDS
+title: 'Strengthening the reporting of Genetic RIsk Prediction Studies: the GRIPS
+  Statement'
+acronym: GRIPS
+provided-for: Genetic risk prediction studies
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Janssens AC, Ioannidis JP, van Duijn CM, Little J, Khoury MJ; GRIPS Group. Strengthening the reporting of Genetic RIsk Prediction Studies: the GRIPS Statement.
+
+  PLoS Med. 2011 8(3):e1000420. PMID: [21423587](http://www.ncbi.nlm.nih.gov/pubmed/21423587)
+
+  Genet Med. 2011;13(5):453-456. PMID: [21502867](http://www.ncbi.nlm.nih.gov/pubmed/21502867)
+
+  Eur J Clin Inves. 2011;41(9):1004-1009. PMID: [21434891](http://www.ncbi.nlm.nih.gov/pubmed/21434891)
+
+  Eur J Epidemiol. 2011;26(4):255-259. PMID: [21431409](http://www.ncbi.nlm.nih.gov/pubmed/21431409)
+
+  J Clin Epidemiol. 2011;64(8):843-847. PMID: [21414754](http://www.ncbi.nlm.nih.gov/pubmed/21414754)
+
+  BMJ. 2011;16:342:d631. PMID: [21411493](http://www.ncbi.nlm.nih.gov/pubmed/21411493)
+
+  Genome Med. 2011;3(3):16. PMID: [21410995](http://www.ncbi.nlm.nih.gov/pubmed/21410995)
+
+  Eur J Hum Genet. 2011;19(8):833-836. PMID: [21407265](http://www.ncbi.nlm.nih.gov/pubmed/21407265)
+
+  Circ Cardiovasc Genet. 2011;4(2):206-209. PMID: [21406688](http://www.ncbi.nlm.nih.gov/pubmed/21406688)
+
+  Ann Intern Med. 2011;154(6):421-425. PMID: [21403077](http://www.ncbi.nlm.nih.gov/pubmed/21403077)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: |-
+  ACJW Janssens, JPA Ioannidis, S Bedrosian, P Boffetta, SM Dolan, N Dowling, I Fortier, AN Freedman, JM Grimshaw, J Gulcher, M Gwinn, MA Hlatky, H Janes, P Kraft, S Melillo, CJ O’Donnell, MJ Pencina, D Ransohoff, SD Schully, D Seminara, DM Winn, CF Wright, CM van Duijn, J Little, MJ Khoury. Strengthening the reporting of genetic risk prediction studies (GRIPS): explanation and elaboration.
+
+  Eur J Clin Invest. 2011;41(9):1010-1035. PMID: [21434890](http://www.ncbi.nlm.nih.gov/pubmed/21434890)
+
+  Eur J Epidemiol. 2011;26(4):313-337. PMID: [21424820](http://www.ncbi.nlm.nih.gov/pubmed/21424820)
+
+  J Clin Epidemiol. 2011;64(8):e1-22. PMID: [21414753](http://www.ncbi.nlm.nih.gov/pubmed/21414753)
+
+  Eur J Hum Genet. 2011;19(5):18. PMID: [21407270](http://www.ncbi.nlm.nih.gov/pubmed/21407270)
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+- Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- algorithms
+- gene
+- genetic
+- genetic risk
+- genetic risk prediction
+- genetic risk prediction studies
+- genetic risk prediction study
+- genetic risks
+- genetics
+- GRIPS
+- GRIPS statement
+- Human Genome Epidemiology Network
+- model
+- models
+- observational
+- observational studies
+- observational study
+- prediction
+- predictive
+- risk factor
+- risk factors
+- risk prediction
+
+---
+
+{{< include ../_template.qmd >}}

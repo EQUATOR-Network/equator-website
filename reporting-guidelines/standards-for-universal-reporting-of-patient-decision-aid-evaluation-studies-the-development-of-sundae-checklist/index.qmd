@@ -1,0 +1,170 @@
+---
+# REQUIRED FIELDS
+title: 'Standards for UNiversal reporting of patient Decision Aid Evaluation studies:
+  the development of SUNDAE Checklist'
+acronym: SUNDAE
+provided-for: Reporting of patient decision aid evaluation studies.
+rg-doi: ''
+pmid-id: '[29269567](https://www.ncbi.nlm.nih.gov/pubmed/29269567)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/29269567
+relevant-urls: 'The full-text of this reporting guideline is freely available at:
+  <http://qualitysafety.bmj.com/content/early/2017/12/21/bmjqs-2017-006986.long>'
+full-bibliographic-reference: 'Sepucha KR, Abhyankar P, Hoffman AS, Bekker HL, LeBlanc
+  A, Levin CA, Ropka M, Shaffer VA, Sheridan SL, Stacey D, Stalmeier P, Vo H, Wills
+  CE, Thomson R. Standards for UNiversal reporting of patient Decision Aid Evaluation
+  studies: the development of SUNDAE Checklist. BMJ Qual Saf. 2017.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: |-
+  Hoffman AS, Sepucha KR, Abhyankar P, Sheridan S, Bekker H, LeBlanc A, Levin C, Ropka M, Shaffer V, Stacey D, Stalmeier P, Vo H, Wills C, Thomson R. Explanation and elaboration of the Standards for UNiversal reporting of patient Decision Aid Evaluations (SUNDAE) guidelines: examples of reporting SUNDAE items from patient decision aid evaluation literature. BMJ Qual Saf. 2018. PMID: [29467235
+
+  ](https://www.ncbi.nlm.nih.gov/pubmed/29467235)Access the full-text at: <http://qualitysafety.bmj.com/content/early/2018/02/21/bmjqs-2017-006985.long>
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: 'Volk RJ, Coulter A. Advancing the science of patient decision
+  aids through reporting guidelines. BMJ Qual Saf. 2017. Freely available at: <http://qualitysafety.bmj.com/content/early/2018/01/25/bmjqs-2017-007657>'
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- decision
+- decision aid
+- decision aids
+- decision making
+- decisions
+- observational
+- patient
+- patient decision aid
+- patient decision aid evaluation
+- patient decision aid evaluations
+- patient decision aids
+- patient education
+- patients
+- PDA
+- PDA evaluation
+- PDA evaluations
+- PDAs
+- qualitative
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- Standards for UNiversal reporting of patient Decision Aid Evaluations
+- SUNDAE
+- SUNDAE Checklist
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

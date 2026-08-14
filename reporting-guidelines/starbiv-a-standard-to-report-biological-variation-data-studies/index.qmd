@@ -1,0 +1,128 @@
+---
+# REQUIRED FIELDS
+title: 'STARBIV : A standard to report biological variation data studies'
+acronym: STARBIV
+provided-for: Reporting Biological Variation Data Studies
+rg-doi: 10.1515/cclm-2024-0489.
+pmid-id: '[38965828](https://pubmed.ncbi.nlm.nih.gov/38965828/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38965828/
+relevant-urls: Online resources for STARBIV can be found [here](https://biologicalvariation.eu/Publication_Structure_V2_0.html).
+full-bibliographic-reference: |-
+  Bartlett WA, Sandberg S, Carobene A, Fernandez-Calle P, Diaz-Garzon J, Coskun A, Jonker N, Galior K, Gonzales-Lao E, Moreno-Parro I, Sufrate-Vergara B, Webster C, Itkonen O, Marques-García F, Aarsand AK. A standard to report biological variation data studies - based on an expert opinion.
+
+  Clin Chem Lab Med. 2024 Jul 8;63(1):52-59. doi: 10.1515/cclm-2024-0489.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://biologicalvariation.eu/Publication_Structure_V2_0.html>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: An editorial accompanying STARBIV can be found [here](https://journals.sagepub.com/doi/full/10.1177/00045632241311453).
+primary-guideline: Read the full STARBIV guidance [here](https://www.degruyterbrill.com/document/doi/10.1515/cclm-2024-0489/html).
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- No keywords provided
+
+---
+
+{{< include ../_template.qmd >}}

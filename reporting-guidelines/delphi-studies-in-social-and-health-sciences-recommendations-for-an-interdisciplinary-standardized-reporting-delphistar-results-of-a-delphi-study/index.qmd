@@ -3,10 +3,7 @@
 title: Delphi studies in social and health sciences -Recommendations for an interdisciplinary
   standardized reporting (DELPHISTAR) . Results of a Delphi study
 acronym: DELPHISTAR
-description: |-
-  Reporting Delphi studies in the health and social sciences
-
-  DELPHISTAR checklist ([Word](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_engl-2.docx))         DELPHISTAR checklist [(PDF](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_engl-1.pdf))
+provided-for: Reporting Delphi studies in the health and social sciences
 rg-doi: ''
 pmid-id: '[39186713](https://pubmed.ncbi.nlm.nih.gov/39186713/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39186713/
@@ -38,6 +35,9 @@ primary-guideline: ''
 other: 'The DELPHISTAR project was registered at the OSF platform and can be assessed
   on this page: <https://osf.io/gc4jk>'
 other-relevant-research: ''
+sticky: 'no'
+downloads: DELPHISTAR checklist ([Word](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_engl-2.docx)) 
+         DELPHISTAR checklist [(PDF](https://www.equator-network.org/wp-content/uploads/2024/11/RG_DELPHISTAR_engl-1.pdf))
 
 
 # LIST FIELDS

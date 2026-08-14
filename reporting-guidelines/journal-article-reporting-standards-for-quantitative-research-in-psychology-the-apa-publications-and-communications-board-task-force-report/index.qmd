@@ -1,0 +1,206 @@
+---
+# REQUIRED FIELDS
+title: 'Journal article reporting standards for quantitative research in psychology:
+  The APA Publications and Communications Board task force report'
+acronym: JARS-Quant
+provided-for: Reporting of quantitative research.
+rg-doi: ''
+pmid-id: '[29345484](https://pubmed.ncbi.nlm.nih.gov/29345484/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/29345484/
+relevant-urls: The [full-text of the JARS-Quant reporting guideline is freely available](https://content.apa.org/fulltext/2018-00750-002.html).
+full-bibliographic-reference: 'Appelbaum M, Cooper H, Kline RB, Mayo-Wilson E, Nezu
+  AM, Rao SM. Journal article reporting standards for quantitative research in psychology:
+  The APA Publications and Communications Board task force report. Am Psychol. 2018;73(1):3-25.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://apastyle.apa.org/jars/quantitative>
+additional-languages: ''
+additional-information: |-
+  The following JARS–Quant checklists are available:
+
+  General Quantitative Design Reporting Standards (JARS-Quant) - [JARS-Quant checklist (PDF)](https://apastyle.apa.org/jars/quant-table-1.pdf)
+
+  [Experimental Designs checklist (PDF)](https://apastyle.apa.org/jars/quant-table-2.pdf)
+
+  [Random Assignment checklist (PDF)](https://apastyle.apa.org/jars/quant-table-2a.pdf)
+
+  [Non-Random Assignment checklist (PDF)](https://apastyle.apa.org/jars/quant-table-2b.pdf)
+
+  [Clinical Trials checklist (PDF)](https://apastyle.apa.org/jars/quant-table-2c.pdf)
+
+  [Non-Experimental Designs checklist (PDF)](https://apastyle.apa.org/jars/quant-table-3.pdf)
+
+  [Longitudinal Studies checklist (PDF)](https://apastyle.apa.org/jars/quant-table-4.pdf)
+
+  [N-of-1 Studies checklist (PDF)](https://apastyle.apa.org/jars/quant-table-5.pdf)
+
+  [Replication Studies checklist (PDF)](https://apastyle.apa.org/jars/quant-table-6.pdf)
+
+  [Structural Equation Modeling checklist (PDF)](https://apastyle.apa.org/jars/quant-table-7.pdf)
+
+  [Bayesian Statistics checklist (PDF)](https://apastyle.apa.org/jars/quant-table-8.pdf)
+
+  [Quantitative Meta-Analysis Reporting Standards checklist (PDF)](https://apastyle.apa.org/jars/quant-table-9.pdf)
+
+  [JARS–Quant Decision Flowchart (PDF)](https://apastyle.apa.org/jars/jars-quant-decision-flowchart.pdf)
+
+  [JARS–Quant Participant Flowchart (PDF)](https://apastyle.apa.org/jars/jars-quant-participant-flowchart.pdf)
+relevant-editorials: ''
+primary-guideline: ''
+other: |-
+  See also the APA [JARS-REC](https://apastyle.apa.org/jars/race-ethnicity-culture) reporting standards for Race, Ethnicity, and Culture:
+
+  * [JARS-REC standards](https://apastyle.apa.org/jars/race-ethnicity-culture-executive-summary)
+
+  * [JARS-REC checklist (PDF)](https://apastyle.apa.org/jars/rec-table-1.pdf)
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+- Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- American Psychological Association
+- analytic methods
+- APA
+- APA Style
+- Bayesian
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- experimental
+- JARS
+- JARS-Quant
+- Journal Article Reporting Standards for Quantitative Research
+- longitudinal
+- longitudinal studies
+- longitudinal study
+- meta analyses
+- meta analysis
+- N-of-1
+- N-of-1 studies
+- N-of-1 study
+- non-random assignment
+- nonexperimental
+- primary quantitative research
+- psychological
+- psychology
+- quantitative
+- quantitative research
+- random assignment
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- replication
+- replication studies
+- replication study
+- statistics
+- structural equation modeling
+- structural equation modelling
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

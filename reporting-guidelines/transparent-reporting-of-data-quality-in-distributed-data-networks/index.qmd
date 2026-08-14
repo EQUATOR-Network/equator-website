@@ -1,0 +1,155 @@
+---
+# REQUIRED FIELDS
+title: Transparent reporting of data quality in distributed data networks
+acronym: ''
+provided-for: Reporting of data quality measures for studies that use observational
+  clinical and administrative data.
+rg-doi: ''
+pmid-id: '[25992385](http://www.ncbi.nlm.nih.gov/pubmed/25992385)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25992385
+relevant-urls: ''
+full-bibliographic-reference: Kahn MG, Brown JS, Chun AT, Davidson BN, Meeker D, Ryan
+  PB, Schilling LM, Weiskopf NG, Williams AE, Zozus MN. Transparent reporting of data
+  quality in distributed data networks. EGEMS (Wash DC). 2015;3(1):1052.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- administration
+- administrative
+- administrative data
+- administrative data research
+- checklist
+- checklists
+- clinical and administrative data
+- clinical data
+- data
+- data elements
+- data network
+- data processing
+- data quality
+- data quality assessment
+- data quality assessments
+- data quality transparency
+- data source
+- distributed data network
+- distributed network
+- distributed research network
+- distributed research networks
+- electronic data
+- observational
+- observational data
+- observational data quality
+- observational research
+- observational studies
+- observational study
+
+---
+
+{{< include ../_template.qmd >}}

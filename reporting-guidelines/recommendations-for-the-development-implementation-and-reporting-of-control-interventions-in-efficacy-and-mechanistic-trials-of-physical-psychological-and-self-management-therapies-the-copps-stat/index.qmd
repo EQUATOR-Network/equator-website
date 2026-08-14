@@ -1,0 +1,188 @@
+---
+# REQUIRED FIELDS
+title: 'Recommendations for the development, implementation, and reporting of control
+  interventions in efficacy and mechanistic trials of physical, psychological, and
+  self-management therapies: the Co PPS Statement'
+acronym: CoPPS
+provided-for: Reporting of control interventions in efficacy and mechanistic trials
+  of physical, psychological, and self-management therapies.
+rg-doi: ''
+pmid-id: '[37230508](https://pubmed.ncbi.nlm.nih.gov/37230508/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37230508/
+relevant-urls: |-
+  [Read the CoPPS Statement E&E paper](https://www.bmj.com/content/bmj/suppl/2023/05/25/bmj-2022-072108.DC1/hohd072108.wt1.pdf) (PDF).
+
+  [Access the CoPPS Statement checklist](https://www.bmj.com/content/bmj/suppl/2023/05/25/bmj-2022-072108.DC1/hohd072108.wt3.pdf) (PDF).
+full-bibliographic-reference: 'Hohenschurz-Schmidt D, Vase L, Scott W, Annoni M, Ajayi
+  OK, Barth J, Bennell K, Berna C, Bialosky J, Braithwaite F, Finnerup NB, Williams
+  ACC, Carlino E, Cerritelli F, Chaibi A, Cherkin D, Colloca L, Côté P, Darnall BD,
+  Evans R, Fabre L, Faria V, French S, Gerger H, Häuser W, Hinman RS, Ho D, Janssens
+  T, Jensen K, Johnston C, Juhl Lunde S, Keefe F, Kerns RD, Koechlin H, Kongsted A,
+  Michener LA, Moerman DE, Musial F, Newell D, Nicholas M, Palermo TM, Palermo S,
+  Peerdeman KJ, Pogatzki-Zahn EM, Puhl AA, Roberts L, Rossettini G, Tomczak Matthiesen
+  S, Underwood M, Vaucher P, Vollert J, Wartolowska K, Weimer K, Werner CP, Rice ASC,
+  Draper-Rodi J. Recommendations for the development, implementation, and reporting
+  of control interventions in efficacy and mechanistic trials of physical, psychological,
+  and self-management therapies: the CoPPS Statement. BMJ. 2023;381:e072108.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+- Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+- Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+- Physiotherapy
+# - Primary care
+# - Psychiatry
+- Psychology
+# - Public health
+# - Radiology
+- Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+- Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- control
+- controlled trial
+- controlled trials
+- controls
+- conversation
+- CoPPS
+- CoPPS Checklist
+- CoPPS Statement
+- education
+- educational
+- exercise
+- healing
+- intervention
+- interventions
+- mechanistic
+- mind-body
+- non-pharmacological
+- physical
+- physio
+- physiotherapy
+- placebo
+- placebos
+- psychological
+- psychology
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- rehabilitation
+- religious
+- self-management
+- sham
+- spiritual
+- therapies
+- therapy
+- TIDieR-Placebo
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

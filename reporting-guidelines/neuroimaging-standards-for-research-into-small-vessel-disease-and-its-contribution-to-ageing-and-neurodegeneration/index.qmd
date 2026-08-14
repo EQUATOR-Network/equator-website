@@ -1,0 +1,190 @@
+---
+# REQUIRED FIELDS
+title: Neuroimaging standards for research into small vessel disease and its contribution
+  to ageing and neurodegeneration
+acronym: STRIVE
+provided-for: Reporting of changes related to small vessel disease (SVD) on neuroimaging
+rg-doi: ''
+pmid-id: '[23867200](http://www.ncbi.nlm.nih.gov/pubmed/23867200)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/23867200
+relevant-urls: ''
+full-bibliographic-reference: Wardlaw JM, Smith EE, Biessels GJ, Cordonnier C, Fazekas
+  F, Frayne R, Lindley RI, O'Brien JT, Barkhof F, Benavente OR, Black SE, Brayne C,
+  Breteler M, Chabriat H, Decarli C, de Leeuw FE, Doubal F, Duering M, Fox NC, Greenberg
+  S, Hachinski V, Kilimann I, Mok V, Oostenbrugge Rv, Pantoni L, Speck O, Stephan
+  BC, Teipel S, Viswanathan A, Werring D, Chen C, Smith C, van Buchem M, Norrving
+  B, Gorelick PB, Dichgans M; STandards for ReportIng Vascular changes on nEuroimaging
+  (STRIVE v1). Neuroimaging standards for research into small vessel disease and its
+  contribution to ageing and neurodegeneration. Lancet Neurol. 2013;12(8):822-838.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+- Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- ageing
+- Alzheimer's
+- Alzheimer's disease
+- brain atrophy
+- cerebral
+- cerebral microbleed
+- cerebral microbleeds
+- cerebral small vessel disease
+- cerebrovascular
+- cerebrovascular disease
+- clinical trial
+- clinical trials
+- cognitive
+- cognitive decline
+- definition
+- dementia
+- experimental studies
+- experimental study
+- haemorrhagic lesion
+- haemorrhagic lesions
+- hemorrhagic lesion
+- hemorrhagic lesions
+- image
+- images
+- lacunar
+- lacunar infarctions
+- lacunar infarcts
+- lacunar strokes
+- lacune
+- magnetic resonance imaging
+- MRI
+- neurodegeneration
+- neurodegenerative
+- neurodegenerative disease
+- neurodegenerative diseases
+- neuroimaging
+- neurology
+- observational
+- observational studies
+- observational study
+- perivascular space
+- radiology
+- recent small subcortical infarct
+- small subcortical infarct
+- small vessel disease
+- STandards for ReportIng Vascular changes on nEuroimaging
+- STRIVE
+- stroke
+- SVD
+- terminology
+- trial
+- trials
+- vascular
+- vascular cognitive impairment
+- vascular dementia
+- vascular lesion
+- vascular lesions
+- white matter
+
+---
+
+{{< include ../_template.qmd >}}

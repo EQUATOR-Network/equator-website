@@ -1,0 +1,153 @@
+---
+# REQUIRED FIELDS
+title: 'A Systematic Review of Methods and Procedures Used in Ecological Momentary
+  Assessments of Diet and Physical Activity Research in Youth: An Adapted STROBE Checklist
+  for Reporting EMA Studies (CREMAS)'
+acronym: CREMAS
+provided-for: Reporting ecological momentary assessment (EMA) studies.
+rg-doi: ''
+pmid-id: '[27328833](https://pubmed.ncbi.nlm.nih.gov/27328833/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/27328833/
+relevant-urls: '[Read the full-text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4933800/)
+  of the CREMAS reporting guideline.'
+full-bibliographic-reference: 'Liao Y, Skelton K, Dunton G, Bruening M. A Systematic
+  Review of Methods and Procedures Used in Ecological Momentary Assessments of Diet
+  and Physical Activity Research in Youth: An Adapted STROBE Checklist for Reporting
+  EMA Studies (CREMAS). J Med Internet Res. 2016;18(6):e151.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+- Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+- Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- app
+- apps
+- checklist
+- Checklist for Reporting EMA Studies
+- checklists
+- computer
+- CREMAS
+- Ecological Momentary Assessment
+- electronic devices
+- EMA
+- EMA survey
+- EMA surveys
+- exercise
+- laptop
+- mobile device
+- mobile phone
+- momentary
+- nutrition
+- physical activity
+- STROBE
+- technology
+- young people
+- youth
+
+---
+
+{{< include ../_template.qmd >}}

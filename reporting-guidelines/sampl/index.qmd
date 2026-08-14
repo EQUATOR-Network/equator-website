@@ -1,0 +1,146 @@
+---
+# REQUIRED FIELDS
+title: 'Basic Statistical Reporting for Articles Published in Biomedical Journals:
+  The “Statistical Analyses and Methods in the Published Literature” or The SAMPL
+  Guidelines'
+acronym: SAMPL
+provided-for: Basic statistical reporting for articles published in biomedical journals
+rg-doi: ''
+pmid-id: '[25441757](http://www.ncbi.nlm.nih.gov/pubmed/25441757)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25441757
+relevant-urls: Download the [SAMPL Guidelines (PDF)](https://www.equator-network.org/wp-content/uploads/2013/07/SAMPL-Guidelines-6-27-13.pdf)
+full-bibliographic-reference: 'Lang TA, Altman DG. Basic statistical reporting for
+  articles published in biomedical journals: the "Statistical Analyses and Methods
+  in the Published Literature" or the SAMPL Guidelines. Int J Nurs Stud. 2015;52(1):5-9.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: 'These guidelines will also appear in “Guidelines for reporting
+  health research: A user’s manual," which will be released in early September 2013.'
+relevant-editorials: ''
+primary-guideline: ''
+other: 'The SAMPL guidelines were also published in 2013 in: Smart P, Maisonneuve
+  H, Polderman A (eds). Science Editors'' Handbook, European Association of Science
+  Editors, 2013.'
+other-relevant-research: ''
+sticky: 'yes'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- analyses
+- analysis
+- SAMPL
+- SAMPL guideline
+- SAMPL guidelines
+- statistic
+- statistical
+- statistical analyses
+- statistical analysis
+- statistical method
+- statistical methods
+- statistical methods and analyses
+- statistical result
+- statistical results
+- statistics
+
+---
+
+{{< include ../_template.qmd >}}

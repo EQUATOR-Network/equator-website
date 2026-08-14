@@ -1,0 +1,173 @@
+---
+# REQUIRED FIELDS
+title: 'Immunization site pain: case definition and guidelines for collection, analysis,
+  and presentation of immunization safety data'
+acronym: ''
+provided-for: Definition of immunization site pain as an adverse event following immunization
+rg-doi: ''
+pmid-id: '[22521267](http://www.ncbi.nlm.nih.gov/pubmed/22521267)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/22521267
+relevant-urls: ''
+full-bibliographic-reference: 'Gidudu JF, Walco GA, Taddio A, Zempsky WT, Halperin
+  SA, Calugar A, Gibbs NA, Hennig R, Jovancevic M, Netterlid E, O''Connor T, Oleske
+  JM, Varricchio F, Tsai TF, Seifert H, Schuind AE; Brighton Immunization Site Pain
+  Working Group. Immunization site pain: case definition and guidelines for collection,
+  analysis, and presentation of immunization safety data. Vaccine. 2012;30(30):4558-4577.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+- Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+- Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- adverse
+- adverse effect
+- adverse effects
+- adverse event
+- adverse events
+- adverse events following immunisation
+- adverse events following immunization
+- adverse reaction
+- adverse reactions
+- AEFI
+- Brighton Collaboration
+- case definition
+- case definitions
+- definition
+- definitions
+- harm
+- harms
+- immunisation
+- immunisation pain
+- immunisation safety
+- immunisation safety data
+- immunisation site pain
+- immunisations
+- immunization
+- immunization pain
+- immunization safety
+- immunization safety data
+- immunization site pain
+- immunizations
+- injection pain
+- needle pain
+- pain
+- pain assessment
+- safety
+- safety data
+- site pain
+- surveillance
+- unintended effect
+- unintended effects
+- vaccination
+- vaccinations
+- vaccine
+- vaccine safety
+- vaccines
+
+---
+
+{{< include ../_template.qmd >}}

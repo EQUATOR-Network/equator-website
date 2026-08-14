@@ -1,0 +1,172 @@
+---
+# REQUIRED FIELDS
+title: Developing a guideline to standardize the citation of bioresources in journal
+  articles (CoBRA)
+acronym: CoBRA
+provided-for: Citation of bioresources in journal articles
+rg-doi: ''
+pmid-id: '[25855867](http://www.ncbi.nlm.nih.gov/pubmed/25855867)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25855867
+relevant-urls: ''
+full-bibliographic-reference: Bravo E, Calzolari A, De Castro P, Mabile L, Napolitani
+  F, Rossi AM, Cambon-Thomsen A. Developing a guideline to standardize the citation
+  of bioresources in journal articles (CoBRA). BMC Med. 2015;13:33.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: |-
+  Read the BRIF meeting report from a workshop with journal editors held in Rome in 2013: [meeting report (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/BRIF-guidelines-ROME-WORKSHOP-REPORT.pdf)
+
+  The following papers have also been published by the BRIF researchers:
+
+  The BRIF initiative: Laurence Mabile, Raymond Dalgleish, Gudmundur A Thorisson, Mylène Deschênes, Robert Hewitt, Jane Carpenter, Elena Bravo, Mirella Filocamo, Pierre Antoine Gourraud, Jennifer R Harris, Paul Hofman, Francine Kauffmann, Maria Angeles Muñoz-Fernàndez, Markus Pasterk, Anne Cambon-Thomsen and BRIF working group. Quantifying the use of bioresources for promoting their sharing in scientific research. GigaScience. 2013;2:7. [Link to full-text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655103/)
+
+  Elena Bravo, Anne Cambon-Thomsen, Paola De Castro, Laurence Mabile, Federica Napolitani, Mariarosaria Napolitano, Anna Maria Rossi. Citation of bioresources in journal articles: moving towards standards. European Science Editing. 2013;39(2):36-38. [Link to full-text (PDF)](http://www.ease.org.uk/sites/default/files/essay_bioresources.pdf)
+relevant-editorials: ''
+primary-guideline: ''
+other: 'A guideline for reporting biospecimen information more generally is available
+  at: [BRISQ guideline](https://www.equator-network.org/reporting-guidelines/brisq/)'
+other-relevant-research: ''
+sticky: 'yes'
+downloads: '[CoBRA checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2015/03/Cobra-check-list.pdf)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+- Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- biobank
+- biobanking
+- biobanks
+- bioinformatics
+- biological sample
+- biological samples
+- biomedical
+- biomedical research
+- biomedical studies
+- biomedical study
+- biomolecular
+- bioresource
+- bioresource citation
+- bioresource citations
+- Bioresource Research Impact Factor
+- bioresources
+- biosample
+- biospecimen
+- biospecimens
+- BRIF
+- checklist
+- checklists
+- citation
+- citations
+- cite
+- citing
+- CoBRA
+- data
+- data sharing
+- database
+- databases
+- registries
+- registry
+- repositories
+- repository
+- research data
+- translational
+
+---
+
+{{< include ../_template.qmd >}}

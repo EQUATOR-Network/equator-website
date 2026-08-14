@@ -1,0 +1,175 @@
+---
+# REQUIRED FIELDS
+title: 'Development of the Anatomical Quality Assurance (AQUA) Checklist: guidelines
+  for reporting original anatomical studies'
+acronym: AQUA
+provided-for: Reporting original anatomical studies
+rg-doi: ''
+pmid-id: '[27801507](https://www.ncbi.nlm.nih.gov/pubmed/27801507)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/27801507
+relevant-urls: 'The AQUA checklist is freely available from: <http://www.eba.cm.uj.edu.pl/about-aqua>'
+full-bibliographic-reference: 'Tomaszewski KA, Henry BM, Ramakrishnan PK, Roy J, Vikse
+  J, Loukas M, Tubbs RS, Walocha JA. Development of the Anatomical Quality Assurance
+  (AQUA) Checklist: guidelines for reporting original anatomical studies. Clin Anat.
+  2016.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <http://www.eba.cm.uj.edu.pl/aqua>
+additional-languages: The AQUA checklist is also available in [French (PDF)](https://drive.google.com/file/d/0B9oZi4t81NkcaUV1UWRRVFl6cnM/view?usp=sharing),
+  [Spanish (PDF)](https://drive.google.com/file/d/0B_AZDPm1Mm0GQ2doTmdSTDlFRFE/view?usp=sharing)
+  and [Polish (PDF)](https://drive.google.com/file/d/0B_AZDPm1Mm0GSmhqOXNtbFF0Z2c/view?usp=sharing).
+additional-information: |-
+  The AQUA reporting guideline development team have also produced consensus guidelines specifically for reporting study ethics in anatomical research within the framework of the AQUA checklist (relating to checklist items 6, 16 and 17):
+
+  Henry BM, Vikse J, Pekala P, Loukas M, Tubbs RS, Walocha JA, Jones DG, Tomaszewski KA. Consensus guidelines for the uniform reporting of study ethics in anatomical research within the framework of the anatomical quality assurance (AQUA) checklist. Clin Anat. 2018;31(4):521-524. PMID: [29532521](https://www.ncbi.nlm.nih.gov/pubmed/29532521)
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: AQUA checklist[PDF](https://drive.google.com/file/d/0B8aUZqV2goZkTFQwUXNnQW5CZjA/view?usp=sharing)
+  / [Word](https://drive.google.com/file/d/0B8aUZqV2goZkRHFlQXJIMEROQjg/view?usp=sharing)
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+- Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- anatomical
+- anatomical data
+- Anatomical Quality Assurance
+- Anatomical Quality Assurance Checklist
+- anatomical research
+- anatomical studies
+- anatomical study
+- anatomy
+- AQUA
+- AQUA Checklist
+- cadaveric
+- cadaveric studies
+- cadaveric study
+- checklist
+- checklists
+- clinical anatomy
+- developmental
+- dissection
+- dissection studies
+- dissection study
+- EBA
+- electrophysiological
+- electrophysiological studies
+- electrophysiological study
+- evidence-based anatomy
+- gross
+- imaging
+- imaging studies
+- imaging study
+- International Evidence-Based Anatomy Working Group
+- microscopic
+- observational
+- observational research
+- observational studies
+- observational study
+- pathology
+- radiological
+- radiology
+- surface
+- surgical
+- translational
+
+---
+
+{{< include ../_template.qmd >}}

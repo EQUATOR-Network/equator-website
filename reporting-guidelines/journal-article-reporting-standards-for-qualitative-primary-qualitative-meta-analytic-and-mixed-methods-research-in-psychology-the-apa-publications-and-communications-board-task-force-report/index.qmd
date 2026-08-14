@@ -1,0 +1,165 @@
+---
+# REQUIRED FIELDS
+title: 'Journal article reporting standards for qualitative primary, qualitative meta-analytic,
+  and mixed methods research in psychology: The APA Publications and Communications
+  Board task force report'
+acronym: ''
+provided-for: Reporting of qualitative research, mixed methods research and qualitative
+  meta-analysis.
+rg-doi: ''
+pmid-id: '[29345485](https://pubmed.ncbi.nlm.nih.gov/29345485/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/29345485/
+relevant-urls: The JARS reporting guidelines are available in full-text at <https://content.apa.org/fulltext/2018-00750-003.html>
+full-bibliographic-reference: 'Levitt HM, Bamberg M, Creswell JW, Frost DM, Josselson
+  R, Suárez-Orozco C. Journal article reporting standards for qualitative primary,
+  qualitative meta-analytic, and mixed methods research in psychology: The APA Publications
+  and Communications Board task force report. Am Psychol. 2018;73(1):26-46.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://apastyle.apa.org/jars>
+additional-languages: ''
+additional-information: |-
+  These journal article reporting standards incorporate three separate reporting guidelines for the following study types:
+
+  Journal Article Reporting Standards for Qualitative Research (JARS-Qual) - [JARS-Qual Checklist (PDF)](https://apastyle.apa.org/jars/qual-table-1.pdf)
+
+  Mixed Methods Article Reporting Standards (MMARS) - [MMARS Checklist (PDF)](https://apastyle.apa.org/jars/mixed-table-1.pdf)
+
+  Qualitative Meta-Analysis Article Reporting Standards (QMARS) - [QMARS Checklist (PDF)](https://apastyle.apa.org/jars/qual-table-2.pdf)
+relevant-editorials: ''
+primary-guideline: ''
+other: |-
+  See also the APA [JARS-REC](https://apastyle.apa.org/jars/race-ethnicity-culture) reporting standards for Race, Ethnicity, and Culture:
+
+  * [JARS-REC standards](https://apastyle.apa.org/jars/race-ethnicity-culture-executive-summary)
+
+  * [JARS-REC checklist (PDF)](https://apastyle.apa.org/jars/rec-table-1.pdf)
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+- Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+- Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- American Psychological Association
+- APA
+- APA Style
+- JARS
+- JARS-Qual
+- Journal Article Reporting Standards for Qualitative Research
+- meta analyses
+- meta analysis
+- mixed method
+- mixed methods
+- mixed methods research
+- mixed methods studies
+- mixed methods study
+- MMARS
+- psychological
+- psychology
+- QMARS
+- qualitative
+- qualitative meta-analyses
+- qualitative meta-analysis
+- qualitative research
+- qualitative studies
+- qualitative study
+
+---
+
+{{< include ../_template.qmd >}}

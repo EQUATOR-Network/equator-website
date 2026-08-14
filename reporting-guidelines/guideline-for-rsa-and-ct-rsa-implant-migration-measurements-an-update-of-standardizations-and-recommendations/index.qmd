@@ -1,0 +1,163 @@
+---
+# REQUIRED FIELDS
+title: 'Guideline for RSA and CT-RSA implant migration measurements: an update of
+  standardizations and recommendations'
+acronym: ''
+provided-for: Reporting of prosthesis migration studies.
+rg-doi: ''
+pmid-id: '[38819193](https://pubmed.ncbi.nlm.nih.gov/38819193/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38819193/
+relevant-urls: ''
+full-bibliographic-reference: 'Kaptein BL, Pijls B, Koster L, Kärrholm J, Hull M,
+  Niesen A, Heesterbeek P, Callary S, Teeter M, Gascoyne T, Röhrl SM, Flivik G, Bragonzoni
+  L, Laende E, Sandberg O, Solomon LB, Nelissen R, Stilling M. Guideline for RSA and
+  CT-RSA implant migration measurements: an update of standardizations and recommendations.
+  Acta Orthop. 2024;95:256-267.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+- Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+- Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+- Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+- Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+- Title
+# - Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- computed radiography
+- computed tomography
+- computed tomography (CT)-based migration measurements
+- CT-RSA
+- diagnosis
+- diagnostic
+- digital radiography
+- hip
+- implant
+- implants
+- joint
+- joint prosthesis
+- joint replacement
+- joint replacements
+- joints
+- knee
+- migration
+- migration analysis
+- orthopaedic
+- orthopaedics
+- orthopedic
+- orthopedics
+- prostheses
+- prosthesis
+- prosthesis migration
+- radiograph
+- radiographs
+- radiostereometric
+- radiostereometric analysis
+- radiostereometry
+- roentgen stereophotogrammetric analysis
+- RSA
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,238 @@
+---
+# REQUIRED FIELDS
+title: 'Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022)
+  Statement: Updated Reporting Guidance for Health Economic Evaluations'
+acronym: CHEERS 2022
+provided-for: Economic evaluations of health interventions
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: 'Further information about the CHEERS Statement is available from:
+  [the International Society for Pharmacoeconomics and Outcomes (ISPOR) website](https://www.ispor.org/heor-resources/good-practices/article/consolidated-health-economic-evaluation-reporting-standards-2022-(cheers-2022)-statement-updated-reporting-guidance-for-health-economic-evaluations)'
+full-bibliographic-reference: |-
+  Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf J, Mullins CD, Petrou S, Pwu RF, Staniszewska S; CHEERS 2022 ISPOR Good Research Practices Task Force. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Statement: Updated Reporting Guidance for Health Economic Evaluations.
+
+  This guideline was published simultaneously in the following journals. You can read the guideline in any of these journals using the links below.
+
+  Value Health. 2022;25(1):3-9. PMID: [35031096](https://pubmed.ncbi.nlm.nih.gov/35031096/)
+
+  BMC Med. 2022;20(1):23. PMID: [35022047](https://pubmed.ncbi.nlm.nih.gov/35022047/)
+
+  J Manag Care Spec Pharm. 2022:1-10. PMID: [35016547](https://pubmed.ncbi.nlm.nih.gov/35016547/)
+
+  BMJ. 2022;376:e067975. PMID: [35017145](https://pubmed.ncbi.nlm.nih.gov/35017145/)
+
+  Pharmacoeconomics. 2022. PMID: [35015272](https://pubmed.ncbi.nlm.nih.gov/35015272/)
+
+  Appl Health Econ Health Policy. 2022. PMID: [35015207](https://pubmed.ncbi.nlm.nih.gov/35015207/)
+
+  Int J Technol Assess Health Care. 2022;38(1):e13. PMID: [35007499](https://pubmed.ncbi.nlm.nih.gov/35007499/)
+
+  J Med Econ. 2022;25(sup1):1-7. PMID: [35012427](https://pubmed.ncbi.nlm.nih.gov/35012427/)
+
+  BJOG. 2022;129(3):336-344. PMID: [35014160](https://pubmed.ncbi.nlm.nih.gov/35014160/)
+
+  Eur J Health Econ. 2022. PMID: [35084632](https://pubmed.ncbi.nlm.nih.gov/35084632/)
+
+  BMC Health Serv Res. 2022;22(1):114. PMID: [35081957](https://pubmed.ncbi.nlm.nih.gov/35081957/)
+
+  BMC Public Health. 2022;22(1):179. PMID: [35081920](https://pubmed.ncbi.nlm.nih.gov/35081920/)
+
+  Health Policy OPEN. [Volume 3, December 2022](https://doi.org/10.1016/j.hpopen.2021.100063).
+
+  MDM Policy Pract. 2022;7(1):23814683211061097. PMID: [35036563](https://pubmed.ncbi.nlm.nih.gov/35036563/)
+
+  Clin Ther. 2022;S0149-2918(22)00016-9. PMID: [35168801](https://pubmed.ncbi.nlm.nih.gov/35168801/)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Husereau D, Drummond M, Augustovski F, de Bekker-Grob
+  E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf
+  J, Mullins CD, Petrou S, Pwu RF, Staniszewska S. Consolidated Health Economic Evaluation
+  Reporting Standards (CHEERS) 2022 Explanation and Elaboration: A Report of the ISPOR
+  CHEERS II Good Practices Task Force. Value Health. 2022;25(1):10-31.  PMID: [35031088](https://pubmed.ncbi.nlm.nih.gov/35031088)'
+guideline-history: |-
+  CHEERS 2013
+
+  Husereau D, Drummond M, Petrou S, Carswell C, Moher D, Greenberg D, Augustovski F, Briggs AH, Mauskopf J, Loder E. Consolidated Health Economic Evaluation Reporting Standards (CHEERS) statement.
+
+  This guideline was published simultaneously in 10 journals.
+
+  Eur J Health Econ. 2013;14(3):367-372. PMID: [23526140](http://www.ncbi.nlm.nih.gov/pubmed/23526140)
+
+  Value Health. 2013;16(2):e1-e5. PMID: [23538200](http://www.ncbi.nlm.nih.gov/pubmed/23538200)
+
+  Clin Ther. 2013;35(4):356-363. PMID: [23537754](http://www.ncbi.nlm.nih.gov/pubmed/23537754)
+
+  Cost Eff Resour Alloc. 2013;11(1):6. PMID: [23531194](http://www.ncbi.nlm.nih.gov/pubmed/23531194)
+
+  BMC Med. 2013;11:80. PMID: [23531108](http://www.ncbi.nlm.nih.gov/pubmed/23531108)
+
+  BMJ. 2013;346:f1049. PMID: [23529982](http://www.ncbi.nlm.nih.gov/pubmed/23529982)
+
+  Pharmacoeconomics. 2013;31(5):361-367. PMID: [23529207](http://www.ncbi.nlm.nih.gov/pubmed/23529207)
+
+  J Med Econ. 2013;16(6):713-719. PMID: [23521434](http://www.ncbi.nlm.nih.gov/pubmed/23521434)
+
+  Int J Technol Assess Health Care. 2013;29(2):117-122. PMID: [23587340](http://www.ncbi.nlm.nih.gov/pubmed/23587340)
+
+  BJOG. 2013;120(6):765-770. PMID: [23565948](http://www.ncbi.nlm.nih.gov/pubmed/23565948)
+
+  Husereau D, Drummond M, Petrou S, Carswell C, Moher D, Greenberg D, Augustovski F, Briggs AH, Mauskopf J, Loder E; on behalf of the ISPOR Health Economic Evaluation Publication Guidelines - CHEERS Good Reporting Practices Task Force. Consolidated Health Economic Evaluation Reporting Standards (CHEERS)- Explanation and Elaboration: A Report of the ISPOR Health Economic Evaluation Publication Guidelines Good Reporting Practices Task Force. Value Health. 2013;16(2):231-250. PMID: [23538175](http://www.ncbi.nlm.nih.gov/pubmed/23538175)
+relevant-more: |-
+  **Specialised**
+
+  [**CHEERS-VOI**](https://www.equator-network.org/reporting-guidelines/cheers-voi/): Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: [37414276](https://pubmed.ncbi.nlm.nih.gov/37414276/)
+
+  [**CHEERS-AI**](https://www.equator-network.org/reporting-guidelines/consolidated-health-economic-evaluation-reporting-standards-for-interventions-that-use-artificial-intelligence-cheers-ai/): Elvidge J, Hawksworth C, Avşar TS, Zemplenyi A, Chalkidou A, Petrou S, Petykó Z, Srivastava D, Chandra G, Delaye J, Denniston A, Gomes M, Knies S, Nousios P, Siirtola P, Wang J, Dawoud D. Consolidated Health Economic Evaluation Reporting Standards for Interventions that use Artificial Intelligence (CHEERS-AI). Value Health. 2024:S1098-3015(24)02366-0. PMID: [38795956](https://pubmed.ncbi.nlm.nih.gov/38795956/)
+website-url: ''
+additional-languages: |-
+  CHEERS 2022
+
+  Augustovski F, García Martí S, Espinoza MA, Palacios A, Husereau D, Pichon-Riviere A. Estándares Consolidados de Reporte de Evaluaciones Económicas Sanitarias: adaptación al español de la lista de comprobación CHEERS 2022. Value Health Reg Issues. 2022;27:110-114. [Spanish translation](https://pubmed.ncbi.nlm.nih.gov/35031081)
+
+  Saygin Avşar T, Yiğit V, Yiğit A, Oğuz Arı H, Tecirli G, Dilmaç E, Husereau D. Konsolide Sağlık Ekonomisi Değerlendirme Raporlama Standartları Türkçe: Sağlık Hizmetlerinin Ekonomik Değerlendirmesinde Raporlama Standartlarının Türkiye Uyarlaması. Turkiye Klinikleri J Health Sci. 2023. [Turkish translation](https://www.turkiyeklinikleri.com/inpress_article/tr-konsolide-saglik-ekonomisi-degerlendirme-raporlama-standartlari-turkce-saglik-hizmetlerinin-ekonomikdegerlendirmesinde-raporlama-standartlarinin-turkiye-uyarlamasi-104015.html)
+
+  Guertin JR, Bénard E, Aubin M-C, Diaby V, Dragomir A, Latimer E, Tarride J-E, Husereau D. French Translation of the 2022 Version of the Consolidated Health Economic Evaluation Reporting Standards (CHEERS) Statement. Canadian Journal of Health Technologies. 2023;3(10). [French translation](https://canjhealthtechnol.ca/index.php/cjht/article/view/754)
+
+  Don Husereau, Michael Drummond, Federico Augustovski, Esther de Bekker-Grob, Andrew H Briggs, Chris Carswell, Lisa Caulley, Nathorn Chaiyakunapruk, Dan Greenberg, Elizabeth Loder, Josephine Mauskopf, C Daniel Mullins, Stavros Petrou, Raoh-Fang Pwu, Sophie Staniszewska, 肖月(译者), 邱英鹏(译者), 史黎炜(译者), 张治国(译者), 张歆(译者), 王海银(译者), 翟铁民(译者) on behalf of CHEERS 2022 ISPOR Good Research Practices Task Force. 卫生经济学评价报告标准共识2022（CHEERS 2022)：卫生经济学评价报告指导意见更新版. 英国医学杂志中文版. 2022:25(8):460-465. [Chinese translation](https://rs.yiigle.com/CN113904202208/1414478.htm)
+
+  Shiroiwa T, Noto S, Kobayashi M, Fukuda T. Consolidated Health Economic Evaluation Reporting Standards (CHEERS) 2022 explanation and elaboration. Journal of the National Institute of Public Health. 2023;72(4):344-369. [Japanese translation](https://www.jstage.jst.go.jp/article/jniph/72/4/72_344/_article/-char/en)
+
+  Werbrouck A, de Bekker-Grob E, Al M, Putman K, Willems R. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS II) statement: a validated Dutch translation. Expert Rev Pharmacoecon Outcomes Res. 2024;24(4):551-557. [Dutch translation](https://pubmed.ncbi.nlm.nih.gov/38400836/)
+
+  CHEERS 2013
+
+  The CHEERS Statement (2013) has been translated into [Spanish,](https://www.ncbi.nlm.nih.gov/pubmed/29702767)  [Chinese](http://rs.yiigle.com/resource_static.jspx?contentId=657115),
+
+  [Japanese (PDF)](https://www.niph.go.jp/journal/data/62-6/201362060009.pdf) and [Portuguese](https://pubmed.ncbi.nlm.nih.gov/29211152/).
+additional-information: '[Read a commentary](https://researchinvolvement.biomedcentral.com/articles/10.1186/s40900-023-00444-3)
+  advocating for greater public involvement in health economic evaluation, including
+  a guide for patient representatives and organisations (available in additional file
+  1 of the supplementary information) following suggestions made by the CHEERS 2022
+  Public Reference Group.'
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'yes'
+downloads: |-
+  [CHEERS 2022 checklist (PDF)](https://www.equator-network.org/wp-content/uploads/2013/04/CHEERS-2022-checklist-1.pdf)
+
+  [Interactive CHEERS 2022 checklist to generate a completed Word or PDF checklist](https://don-husereau.shinyapps.io/CHEERS/)
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+- Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- CHEERS
+- CHEERS 2022
+- CHEERS statement
+- economic
+- economic evaluation
+- economic evaluations
+- economics
+- evaluation
+- evaluations
+- health economic evaluation
+- health economic evaluations
+- health economics
+- intervention
+- interventions
+- ISPOR
+- pharmacoeconomics
+
+---
+
+{{< include ../_template.qmd >}}

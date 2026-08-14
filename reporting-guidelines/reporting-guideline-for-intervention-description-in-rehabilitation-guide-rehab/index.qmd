@@ -1,0 +1,134 @@
+---
+# REQUIRED FIELDS
+title: Reporting GUideline for Intervention DEscription in Rehabilitation (GUIDE-Rehab)
+acronym: GUIDE-Rehab
+provided-for: Guidance for reporting intervention studies of rehabilitation as a complex
+  intervention.
+rg-doi: 10.1136/bmjebm-2025-113997
+pmid-id: '[41390170](https://pubmed.ncbi.nlm.nih.gov/41390170/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/41390170/
+relevant-urls: ''
+full-bibliographic-reference: 'Negrini S, Arienti C, Armijo-Olivo S, Côté P, Heinemann
+  AW, Kiekens C, Kumbhare D, Levack W, Meyer-Feil T, Whyte J; RCTRACK Executive Committee;
+  GUIDE-Rehab Advisory Committee; Rehabilitation Journals Chief Editors; PREPARE Project
+  Clinical Partners. Reporting GUideline for Intervention DEscription in Rehabilitation
+  (GUIDE-Rehab): a tool to open the ''black box'' of rehabilitation complex interventions.
+  BMJ Evid Based Med. 2025 Dec 21:bmjebm-2025-113997. PMID: [41390170](https://pubmed.ncbi.nlm.nih.gov/41390170/)'
+
+
+# OPTIONAL FIELDS
+rg-language: ''
+explanation-and-elaboration-papers: The checklist and Explanation and Elaboration
+  can be found [here](https://ebm.bmj.com/content/ebmed/early/2025/12/21/bmjebm-2025-113997/DC3/embed/inline-supplementary-material-3.pdf?download=true).
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+- Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- rehabilitation
+- TIDieR
+- TIDieR checklist
+
+---
+
+{{< include ../_template.qmd >}}

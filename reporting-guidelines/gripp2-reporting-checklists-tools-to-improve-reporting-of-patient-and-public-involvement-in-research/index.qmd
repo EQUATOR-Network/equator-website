@@ -1,0 +1,191 @@
+---
+# REQUIRED FIELDS
+title: 'GRIPP 2 reporting checklists: tools to improve reporting of patient and public
+  involvement in research'
+acronym: GRIPP2
+provided-for: Reporting patient and public involvement in health and social care research.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Staniszewska S, Simera I, Seers K, Mockford C, Goodlad S, Altman DG, Moher D, Barber R, Denegri S, Entwistle A, Littlejohns P, Morris C, Suleman R. GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research.
+
+  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
+
+  BMJ. 2017;358:j3453. PMID: [28768629](https://pubmed.ncbi.nlm.nih.gov/28768629/)
+
+  Res Involv Engagem. 2017;3:13. PMID: [29062538](https://pubmed.ncbi.nlm.nih.gov/29062538/)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: 'Staniszewska S, Brett J, Mockford C, Barber R. The GRIPP checklist:
+  strengthening the quality of patient and public involvement reporting in research.
+  Int J Technol Assess Health Care. 2011 Oct;27(4):391-9. PMID: [22004782](https://www.ncbi.nlm.nih.gov/pubmed/22004782)'
+relevant-more: ''
+website-url: ''
+additional-languages: |-
+  A Japanese translation of the GRIPP2 short form can be found [here](https://www.equator-network.org/wp-content/uploads/2026/02/GRIPP2_ShortForm_Japanese.docx).
+
+  A Japanese translation of the GRIPP2 long form can be found [here](https://www.equator-network.org/wp-content/uploads/2026/02/GRIPP2_LongForm_Japanese.docx).
+additional-information: Read the project [summary (PDF)](https://www.equator-network.org/wp-content/uploads/2013/09/3869_Guidelines-for-reporting-the-impact-of-patient-involvement.pdf)
+  (December 2010)
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+- Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+- Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+- Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+- Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+- Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical guideline
+- clinical guidelines
+- clinical trial
+- clinical trials
+- community engagement
+- community-engaged research
+- engagement
+- GRIPP
+- GRIPP2
+- GRIPP2 checklist
+- GRIPP2 checklists
+- GRIPP2 long form
+- GRIPP2 short form
+- GRIPP2-LF
+- GRIPP2-SF
+- observational
+- observational studies
+- observational study
+- patient
+- patient and public involvement
+- patient charities
+- patient engagement
+- patient involvement
+- patient organisations
+- patient partners
+- patients
+- PPI
+- practice guideline
+- practice guidelines
+- public
+- public engagement
+- public involvement
+- qualitative
+- qualitative research
+- qualitative studies
+- qualitative study
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- review
+- systematic review
+- systematic reviews
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

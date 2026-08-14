@@ -1,0 +1,150 @@
+---
+# REQUIRED FIELDS
+title: 'Recommended reporting items for epidemic forecasting and prediction research:
+  The EPIFORGE 2020 guidelines'
+acronym: EPIFORGE 2020
+provided-for: Reporting of epidemic forecasting research.
+rg-doi: ''
+pmid-id: '[34665805](https://pubmed.ncbi.nlm.nih.gov/34665805/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/34665805/
+relevant-urls: '[Read the full-text of the EPIFORGE 2020](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003793)
+  reporting guideline.'
+full-bibliographic-reference: 'Pollett S, Johansson MA, Reich NG, Brett-Major D, Del
+  Valle SY, Venkatramanan S, Lowe R, Porco T, Berry IM, Deshpande A, Kraemer MUG,
+  Blazes DL, Pan-Ngum W, Vespigiani A, Mate SE, Silal SP, Kandula S, Sippy R, Quandelacy
+  TM, Morgan JJ, Ball J, Morton LC, Althouse BM, Pavlin J, van Panhuis W, Riley S,
+  Biggerstaff M, Viboud C, Brady O, Rivers C. Recommended reporting items for epidemic
+  forecasting and prediction research: The EPIFORGE 2020 guidelines. PLoS Med. 2021
+  Oct 19;18(10):e1003793.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+- Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- epidemic
+- epidemic forecasting research
+- epidemics
+- epidemiologic
+- epidemiology
+- EPIFORGE
+- EPIFORGE 2020
+- forecast
+- forecasting
+- infectious disease
+- infectious diseases
+- model
+- modeling
+- models
+- outbreak
+- prediction
+
+---
+
+{{< include ../_template.qmd >}}

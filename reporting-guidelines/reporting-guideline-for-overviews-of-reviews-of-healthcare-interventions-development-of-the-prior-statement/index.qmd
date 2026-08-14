@@ -1,0 +1,148 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting guideline for overviews of reviews of healthcare interventions:
+  development of the PRIOR statement'
+acronym: PRIOR
+provided-for: Reporting overviews of reviews of healthcare interventions.
+rg-doi: ''
+pmid-id: '[35944924](https://pubmed.ncbi.nlm.nih.gov/35944924/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/35944924/
+relevant-urls: |-
+  [Read the full-text](https://www.bmj.com/content/378/bmj-2022-070849.long) of the PRIOR Statement.
+
+  [Read the Prior Statement Explanation and Elaboration document (PDF)](https://www.bmj.com/highwire/filestream/1072600/field_highwire_adjunct_files/1/gatm070849.ww2.pdf).
+
+  [Access the PRIOR Checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2022/08/09/bmj-2022-070849.DC1/gatm070849.ww3.pdf).
+full-bibliographic-reference: 'Gates M, Gates A, Pieper D, Fernandes RM, Tricco AC,
+  Moher D, Brennan SE, Li T, Pollock M, Lunny C, Sepúlveda D, McKenzie JE, Scott SD,
+  Robinson KA, Matthias K, Bougioukas KI, Fusar-Poli P, Whiting P, Moss SJ, Hartling
+  L. Reporting guideline for overviews of reviews of healthcare interventions: development
+  of the PRIOR statement. BMJ. 2022.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: '[Read the protocol](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-019-1252-9)
+  for the development of the PRIOR Statement.'
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- healthcare intervention
+- healthcare interventions
+- intervention
+- interventions
+- overview
+- overview of systematic reviews
+- overviews
+- overviews of reviews
+- PRIOR
+- PRIOR Statement
+- review of reviews
+- review of systematic reviews
+- umbrella review
+
+---
+
+{{< include ../_template.qmd >}}

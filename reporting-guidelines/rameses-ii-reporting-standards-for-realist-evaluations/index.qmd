@@ -1,0 +1,157 @@
+---
+# REQUIRED FIELDS
+title: RAMESES  II reporting standards for realist evaluations
+acronym: RAMESES II
+provided-for: Reporting realist evaluations.
+rg-doi: ''
+pmid-id: '[27342217](http://www.ncbi.nlm.nih.gov/pubmed/27342217)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/27342217
+relevant-urls: 'This reporting guideline is freely available in full-text at: <https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-016-0643-1>'
+full-bibliographic-reference: Wong G, Westhorp G, Manzano A, Greenhalgh J, Jagosh
+  J, Greenhalgh T. RAMESES II reporting standards for realist evaluations.  BMC Med.
+  2016;14(1):96.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <http://www.ramesesproject.org/>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: 'Read the protocol for development of this guideline: [RAMESES II protocol](http://www.ncbi.nlm.nih.gov/pubmed/26238395)'
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+- Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- evaluation
+- evaluations
+- initiative evaluation
+- initiatives evaluation
+- policy evaluation
+- policy evaluations
+- program evaluation
+- program evaluations
+- programme evaluation
+- programme evaluations
+- programme theories
+- programme theory
+- RAMESES
+- RAMESES 2
+- RAMESES II
+- RE
+- real world
+- real world experience
+- real world experiences
+- realist
+- realist approach
+- realist evaluation
+- realist evaluations
+- realist evaluator
+- realist evaluators
+- realist philosophy
+- realist programme
+- realist theories
+- realist theory
+- theory driven
+- theory driven evaluation
+
+---
+
+{{< include ../_template.qmd >}}

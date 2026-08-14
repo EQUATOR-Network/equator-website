@@ -1,0 +1,172 @@
+---
+# REQUIRED FIELDS
+title: DELTA 2 guidance on choosing the target difference and undertaking and reporting
+  the sample size calculation for a randomised controlled trial
+acronym: DELTA2
+provided-for: Reporting the target difference (the effect size) in the sample size
+  calculation of a randomised controlled trial.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Cook JA, Julious SA, Sones W, Hampson LV, Hewitt C, Berlin JA, Ashby D, Emsley R, Fergusson DA, Walters SJ, Wilson ECF, Maclennan G, Stallard N, Rothwell JC, Bland M, Brown L, Ramsay CR, Cook A, Armstrong D, Altman D, Vale LD. DELTA2 guidance on choosing the target difference and undertaking and reporting the sample size calculation for a randomised controlled trial.
+
+  This guideline was published simultaneously in 2 journals. You can read the guideline in either of the journals using the links below.
+
+  Trials. 2018;19(1):606. PMID: [30400926](https://pubmed.ncbi.nlm.nih.gov/30400926/)
+
+  BMJ. 2018;363:k3750. PMID: [30560792](https://pubmed.ncbi.nlm.nih.gov/30560792/)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: 'Cook JA, Hislop J, Altman DG, Fayers P, Briggs AH, Ramsay CR,
+  Norrie JD, Harvey IM, Buckley B, Fergusson D, Ford I, Vale LD; DELTA group. Specifying
+  the target difference in the primary outcome for a randomised controlled trial:
+  guidance for researchers. Trials. 2015;16:12. PMID: [25928502](http://www.ncbi.nlm.nih.gov/pubmed/25928502)'
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: |-
+  [Read the protocol](https://pubmed.ncbi.nlm.nih.gov/28606102/) for development of this guideline.
+
+  [Read](https://pubmed.ncbi.nlm.nih.gov/30305155/) about the development of the DELTA2 guidance.
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+- Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- clinical trial
+- clinical trials
+- clinically important difference
+- CONSORT
+- DELTA project
+- outcome
+- outcomes
+- primary outcome
+- protocol
+- protocols
+- randomised controlled trial
+- randomised controlled trials
+- randomized controlled trial
+- randomized controlled trials
+- RCT
+- RCTs
+- realistic difference
+- sample size
+- sample size calculation
+- sample size calculations
+- SPIRIT
+- statistic
+- statistical
+- statistical analyses
+- statistical analysis
+- statistical method
+- statistical methods
+- target difference
+- target difference specification
+- trial
+- trial protocol
+- trial protocols
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

@@ -3,7 +3,7 @@
 title: 'Reflexology specific guidance for using the template for the intervention
   description and replication (TIDieR) : A delphi study'
 acronym: ''
-description: Reporting of reflexology intervention studies.
+provided-for: Reporting of reflexology intervention studies.
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
@@ -28,6 +28,8 @@ relevant-editorials: ''
 primary-guideline: ''
 other: '[Read the protocol](https://osf.io/reavn/) available on the OSF.'
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

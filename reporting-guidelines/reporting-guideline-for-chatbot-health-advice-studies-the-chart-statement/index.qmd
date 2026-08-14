@@ -2,9 +2,9 @@
 # REQUIRED FIELDS
 title: 'Reporting guideline for Chatbot Health Advice studies: the CHART statement'
 acronym: CHART
-description: Reporting recommendations for studies evaluating the performance of generative
-  artificial intelligence (AI)-driven chatbots when summarizing clinical evidence
-  and providing health advice.
+provided-for: Reporting recommendations for studies evaluating the performance of
+  generative artificial intelligence (AI)-driven chatbots when summarizing clinical
+  evidence and providing health advice.
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
@@ -41,6 +41,8 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS

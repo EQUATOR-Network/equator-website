@@ -1,0 +1,142 @@
+---
+# REQUIRED FIELDS
+title: A scoping review of the use of ethnographic approaches in implementation research
+  and recommendations for reporting
+acronym: ''
+provided-for: Reporting ethnographic approaches in implementation science (IS).
+rg-doi: ''
+pmid-id: '[34056611](https://pubmed.ncbi.nlm.nih.gov/34056611/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/34056611/
+relevant-urls: ''
+full-bibliographic-reference: Gertner AK, Franklin J, Roth I, Cruden GH, Haley AD,
+  Finley EP, Hamilton AB, Palinkas LA, Powell BJ. A scoping review of the use of ethnographic
+  approaches in implementation research and recommendations for reporting. Implement
+  Res Pract. 2021;2:10.1177/2633489521992743.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: '[Read a guide (PDF)](https://arc-sl.nihr.ac.uk/sites/default/files/uploads/files/Imp-Sci-reporting-guidelines-2023.pdf)
+  to reporting guidelines relevant to implementation studies developed by researchers
+  in the Centre for Implementation Science at King’s College London and King’s Improvement
+  Science and led by the National Institute for Health Research Applied Research Collaboration
+  South London (NIHR ARC South London) at King’s College Hospital NHS Foundation Trust
+  and supported by King’s Improvement Science.'
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- COREQ
+- ethnographic
+- ethnography
+- implementation
+- implementation science
+- observational
+- qualitative
+- qualitative studies
+- qualitative study
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,176 @@
+---
+# REQUIRED FIELDS
+title: REporting recommendations for tumour MARKer prognostic studies (REMARK)
+acronym: REMARK
+provided-for: Tumour marker prognostic studies
+rg-doi: ''
+pmid-id: '[16106245](http://www.ncbi.nlm.nih.gov/pubmed/16106245)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/16106245
+relevant-urls: Download the [REMARK checklist (Word)](https://www.equator-network.org/wp-content/uploads/2016/10/REMARK-checklist-for-EQUATOR-website-002.docx)
+  for tumour marker prognostic studies.
+full-bibliographic-reference: McShane LM, Altman DG, Sauerbrei W, Taube SE, Gion M,
+  Clark GM. REporting recommendations for tumour MARKer prognostic studies (REMARK).
+  Br J Cancer. 2005;93(4):387-391.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: |-
+  **Abridged explanation and elaboration**
+
+  Sauerbrei W, Taube SE, McShane LM, Cavenagh MM, Altman DG. Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK): An Abridged Explanation and Elaboration. J Natl Cancer Inst. 2018. PMID: [29873743](https://www.ncbi.nlm.nih.gov/pubmed/29873743)
+
+  **Detailed explanation and elaboration**
+
+  Altman DG, McShane LM, Sauerbrei W, Taube SE. Reporting recommendations for tumor marker prognostic studies (REMARK): explanation and elaboration.
+
+  BMC Med. 2012;10:51. PMID: [22642691](http://www.ncbi.nlm.nih.gov/pubmed/22642691)
+
+  PLoS Med. 9(5):e1001216. [Link to full-text](http://www.plosmedicine.org/article/info%3Adoi%2F10.1371%2Fjournal.pmed.1001216)
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: |-
+  **REMARK profile to aid structured reporting**
+
+  Sauerbrei W, Haeussler T, Balmford J, Huebner M. Structured reporting to improve transparency of analyses in prognostic marker studies. BMC Med. 2022;20(1):184. PMID: [35546237](https://pubmed.ncbi.nlm.nih.gov/35546237/)
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+- Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+- Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- assay
+- assays
+- biomarker
+- biomarkers
+- cancer
+- data presentation
+- European Organisation for Research and Treatment of Cancer
+- genetic
+- genetics
+- marker
+- markers
+- National Cancer Institute
+- observational
+- observational studies
+- observational study
+- oncology
+- prognosis
+- prognostic
+- prognostic marker
+- prognostic markers
+- prognostic studies
+- prognostic study
+- REMARK
+- specimen
+- statistical
+- tumor
+- tumor marker
+- tumor marker prognostic studies
+- tumor marker prognostic study
+- tumor markers
+- tumour
+- tumour marker
+- tumour marker prognostic studies
+- tumour marker prognostic study
+- tumour markers
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,150 @@
+---
+# REQUIRED FIELDS
+title: Reporting guidelines on remotely collected electronic mood data in mood disorder
+  (e MOOD)-recommendations
+acronym: eMOOD
+provided-for: Reporting of remotely collected electronic mood data.
+rg-doi: ''
+pmid-id: '[31175283](https://www.ncbi.nlm.nih.gov/pubmed/31175283)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/31175283
+relevant-urls: 'The full-text of this reporting guideline is freely available at:
+  <https://www.nature.com/articles/s41398-019-0484-8>'
+full-bibliographic-reference: Faurholt-Jepsen M, Geddes JR, Goodwin GM, Bauer M, Duffy
+  A, Vedel Kessing L, Saunders K. Reporting guidelines on remotely collected electronic
+  mood data in mood disorder (eMOOD) - recommendations. Transl Psychiatry. 2019;9(1):162.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: 'no'
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+- Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- bipolar disorder
+- checklist
+- checklists
+- data
+- digital electronic monitoring
+- electronic mood data
+- electronic mood monitoring research
+- eMOOD
+- mood
+- mood data
+- mood deviations
+- mood disorder
+- mood disorders
+- mood episode
+- mood instability
+- psychiatric
+- psychiatrist
+- psychiatry
+- remote monitoring
+- remotely collected electronic mood data
+- self-monitoring
+- unipolar disorder
+
+---
+
+{{< include ../_template.qmd >}}

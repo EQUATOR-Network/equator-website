@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: DID-METAB Checklist
 acronym: DID-METAB
-description: 'The DID-­METAB Checklist can be used for reporting metabolomic data
+provided-for: 'The DID-­METAB Checklist can be used for reporting metabolomic data
   obtained from biospecimens (e.g., saliva, urine, blood, stool) collected within
   human feeding studies in which the dietary intervention involves any of the following:
   1. Provision of a single food; 2. Partial diet provision—only some food/beverages
@@ -38,6 +38,8 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
+sticky: 'no'
+downloads: ''
 
 
 # LIST FIELDS
