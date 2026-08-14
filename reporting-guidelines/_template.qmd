@@ -12,6 +12,14 @@
 :::
 <!-- row -->
 
+::: {.g-col-md-4 data-content='{{< meta provided-for >}}'}
+**Provided for**
+:::
+::: {.g-col-md-8 .notranslate data-content='{{< meta provided-for >}}'}
+{{< meta provided-for >}}
+:::
+<!-- row -->
+
 ::: {.g-col-12 .g-col-md-4 data-content='{{< meta relevant-urls >}}'}
 **Relevant URLs**
 **(full-text if available)**
@@ -28,8 +36,16 @@
 [{{< meta pmid-id >}}](http://www.ncbi.nlm.nih.gov/pubmed/{{< meta pmid-id >}})
 :::
 <!-- row -->
+::: {.g-col-12 .g-col-md-4 data-content='{{< meta downloads >}}'}
+**Downloads**
+:::
+::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta downloads >}}'}
+{{< meta downloads >}}
+:::
+<!-- row -->
 :::
 <!-- grid-->
+
 ::: 
 <!-- background-colour -->
 :::
