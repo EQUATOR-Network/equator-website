@@ -32,11 +32,6 @@ intelligence and machine learning studies in healthcare, including
 - CONSORT-AI / SPIRIT-AI - for AI intervention studies
 - CHART - for evaluating chatbots providing medical advice
 
-Gary is also involved in development of risk of bias tools for machine
-learning diagnostic test accuracy studies (QUADAS-AI) and prediction
-model studies (PROBAST+AI), and the FUTURE-AI principles for trustworthy
-and deployable artificial intelligence in healthcare.
-
 Gary has also been involved in the development of numerous other
 reporting guidelines for other study designs, including the
 
