@@ -50,7 +50,7 @@ listing:
 
 # International EQUATOR Centres
 
-## Canadian EQUATOR Centre {#canada}
+## Canadian EQUATOR Centre
 
 In addition to helping to carry out the strategic vision of the EQUATOR Network in Canada, the focus of the Canadian EQUATOR Centre is on initiatives that have relevant down stream consequences for the conduct and reporting of biomedical research. Our current programs include:
 
