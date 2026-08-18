@@ -1,0 +1,11 @@
+---
+title: Tammy Hoffmann
+subtitle: Professor of Clinical Epidemiology, Institute for Evidence-Based Healthcare, Bond University, Australia
+image: thoffmann.jpg
+path: https://bond.edu.au/profile/tammy-hoffmann
+centre: australia
+order: 2
+executive-group-member: true
+---
+
+Professor Tammy Hoffmann is a Professor of Clinical Epidemiology at the Institute for Evidence-Based Healthcare, Bond University. Her research spans many aspects of evidence-based practice, shared decision making, knowledge translation, and minimising waste in research. Tammy has been involved in the development of a number of reporting guidelines. As part of her interest in improving the reporting, useability, and uptake of effective non-pharmacological interventions, she led the development of the TIDieR (Template for Intervention Description and Replication) checklist and guide. She has over 300 publications, including many in the world’s leading medical journals. She is also the lead author of a widely used interdisciplinary evidence-based practice book (Evidence-Based Practice across the Health Professions, 4th ed 2023).

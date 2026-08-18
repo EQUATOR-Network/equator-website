@@ -1,7 +1,7 @@
 ---
 title: James Harwood
 subtitle: Postdoctoral Research Fellow
-image: /assets/images/staff/JHarwood-300.webp
+image: jharwood.webp
 image-alt: James Harwood
 path: about/uk-equator-centre.html##james-harwood
 centre: uk

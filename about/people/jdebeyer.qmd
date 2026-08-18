@@ -1,7 +1,7 @@
 ---
 title: Jennifer de Beyer
 subtitle: Publication & Dissemination Specialist
-image: /assets/images/staff/Jen-de-Beyer.webp
+image: jdebeyer.webp
 image-alt: Jen de Beyer
 path: about/uk-equator-centre.html#jen-de-beyer
 centre: uk

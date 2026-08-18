@@ -1,0 +1,13 @@
+---
+title: Dr. David Moher
+subtitle: Senior Scientist, Ottawa Health Research Institute, Ottawa, Canada; Director, Canadian EQUATOR Centre, and former chair of the EQUATOR Network.
+image: dmoher.jpg
+path: https://ohri.ca/en/find-researcher/david-moher
+centre: canada
+order: 2
+executive-group-member: true
+---
+
+Dr David Moher is a senior scientist with the Ottawa Health Research Institute. He is also Associate Professor, Department of Epidemiology & Community Medicine, Faculty of Medicine, University of Ottawa, and holds a University of Ottawa Research Chair. In May 2014 he became Director of the Canadian EQUATOR Centre.
+
+David has published more than 150 papers, including approximately 40 systematic reviews and more than 50 articles on the methodology of conducting and reporting clinical trials and systematic reviews. He is Director of the University of Ottawa’s Evidence-based Practice Center, convenor of the Cochrane Collaboration’s Bias Methods Group, and an editorial board member of several journals. He helped develop many reporting guidelines, including the CONSORT, QUOROM / PRISMA, MOOSE, and STARD Statements.

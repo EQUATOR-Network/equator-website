@@ -1,7 +1,7 @@
 ---
 title: Doug Altman (1948-2018)
 subtitle: Founding Director of the UK EQUATOR Centre
-image: /assets/images/staff/DougAltman.jpeg
+image: daltman.jpeg
 path: https://www.ndorms.ox.ac.uk/news/thank-you-doug-altman
 centre: uk
 order: 5

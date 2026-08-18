@@ -1,11 +1,12 @@
 ---
 title: Gary Collins
 subtitle: Director
-image: /assets/images/staff/GaryCollins.webp
+image: gcollins.webp
 image-alt: Gary Collins, Director
 path: about/uk-equator-centre.html#gary-collins
 centre: uk
 order: 1
+executive-group-member: true
 editor: 
   markdown: 
     wrap: 72

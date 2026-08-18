@@ -1,0 +1,11 @@
+---
+title: Zhaoxiang Bian
+subtitle: Chair Professor in the School of Chinese Medicine and Tsang Shiu Tim Endowed Professor of Chinese Medicine Clinical Studies, Hong Kong Baptist University
+image: zbian.jpg
+path: https://www.hkbu.edu.hk/en/about/university-officers/professor-bian-zhaoxiang.html
+centre: china
+order: 2
+executive-group-member: true
+---
+
+Professor Bian obtained his Bachelor Degree of Chinese Medicine from the Nanjiang University of Chinese Medicine in 1988, Master Degree of Chinese Medicine from Beijing University of Chinese Medicine in 1991, and PhD degree in Integrative Chinese and Western Medicine from Guangzhou University of Chinese Medicine in 1994. Currently, he is Chair Professor in the School of Chinese Medicine and Tsang Shiu Tim Endowed Professor of Chinese Medicine Clinical Studies, Hong Kong Baptist University (HKBU), and also serves as associate Vice-President (Chinese Medicine Development) of HKBU, Director of Clinical Division, School of Chinese Medicine, Director of Hong Kong Chinese Medicine Clinical Study Centre and Director of Chinese EQUATOR Centre. Dr Bian’s major research interests are: (1) Clinical research methodology and reporting guidelines; (2) Clinical and translational study of gastrointestinal diseases; (3) Chinese medicine wisdom-driven new drug discovery and development. His academic achievements include 400+ academic publications, 80+ US & China patents, and one new drug clinical trial licence from China National Medical Product Administration.

@@ -22,6 +22,8 @@ website:
             href: about/uk-equator-centre.qmd
           - text: The EQUATOR Network
             href: about/equator-network.qmd
+          - text: International EQUATOR Centres
+            href: about/international-equator-centres.qmd
           - text: About reporting guidelines
             href: about/reporting-guidelines.qmd
           - text: Contact

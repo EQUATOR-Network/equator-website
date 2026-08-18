@@ -1,7 +1,7 @@
 ---
 title: Paula Dhiman 
 subtitle: Medical Statistician
-image: /assets/images/staff/pdhiman.jpg
+image: pdhiman.jpg
 image-alt: Paula Dhiman
 path: about/uk-equator-centre.html#paula-dhiman
 centre: uk
