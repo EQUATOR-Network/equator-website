@@ -37,7 +37,7 @@ other: |-
 
   Slade SC, Morris ME, Frawley H, Hay-Smith J. Comprehensive reporting of pelvic floor muscle training for urinary incontinence: CERT-PFMT. Physiotherapy. 2021;112:103-112. PMID: [34062452](https://pubmed.ncbi.nlm.nih.gov/34062452/)
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

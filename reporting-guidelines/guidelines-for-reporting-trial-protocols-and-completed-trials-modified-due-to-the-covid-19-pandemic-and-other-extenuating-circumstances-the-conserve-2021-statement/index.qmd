@@ -36,7 +36,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: '[CONSERVE-CONSORT & CONSERVE-SPIRIT Checklists (Word)](CONSERVE-Checklists.docx)'
 
 

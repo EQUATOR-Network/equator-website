@@ -27,7 +27,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: '[GROW checklist (PDF)](https://www.esmo.org/content/download/775073/18293338/1/ESMO-GROW-Checklist.pdf)  [GROW
   flowchart (Word)](https://www.esmo.org/content/download/775071/18293314/1/ESMO-GROW-Flowchart-Template.docx)'
 

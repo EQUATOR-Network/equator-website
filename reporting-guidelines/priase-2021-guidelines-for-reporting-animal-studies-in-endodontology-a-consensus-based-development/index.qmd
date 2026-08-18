@@ -33,7 +33,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: |-
   [PRIASE 2021 Checklist (Word)](http://pride-endodonticguidelines.org/PRIASE2021checklist.docx)
 

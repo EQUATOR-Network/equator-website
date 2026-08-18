@@ -29,7 +29,7 @@ relevant-editorials: ''
 primary-guideline: Read the full guidance [here](https://ese.arphahub.com/article/162102/).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

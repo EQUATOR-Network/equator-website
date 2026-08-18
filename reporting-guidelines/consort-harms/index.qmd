@@ -119,7 +119,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: |-
   *
 

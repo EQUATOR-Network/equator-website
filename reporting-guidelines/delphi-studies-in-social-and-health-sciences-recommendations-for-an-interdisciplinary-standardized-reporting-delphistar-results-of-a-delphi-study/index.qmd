@@ -34,7 +34,7 @@ primary-guideline: ''
 other: 'The DELPHISTAR project was registered at the OSF platform and can be assessed
   on this page: <https://osf.io/gc4jk>'
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: DELPHISTAR checklist ([Word](RG_DELPHISTAR_engl-2.docx))         DELPHISTAR
   checklist [(PDF](RG_DELPHISTAR_engl-1.pdf))
 

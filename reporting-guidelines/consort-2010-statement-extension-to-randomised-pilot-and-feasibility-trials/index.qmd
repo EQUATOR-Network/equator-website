@@ -131,7 +131,7 @@ other: |-
 
   Mellor K, Albury C, Dutton SJ, Eldridge S, Hopewell S. Recommendations for progression criteria during external randomised pilot trial design, conduct, analysis and reporting. Pilot Feasibility Stud. 2023;9(1):59. PMID: [37061720](https://pubmed.ncbi.nlm.nih.gov/37061720/)
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: '[CONSORT extension Pilot and Feasibility Trials Checklist (Word)](CONSORT-extension-Pilot-and-Feasibility-Trials-Checklist.doc)'
 
 

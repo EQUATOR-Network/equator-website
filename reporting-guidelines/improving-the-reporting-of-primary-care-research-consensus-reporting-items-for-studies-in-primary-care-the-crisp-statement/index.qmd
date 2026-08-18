@@ -69,7 +69,7 @@ relevant-editorials: |-
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: '[CRISP Checklist (Word)](CRISP-Reporting-Checklist-Version-1.0.docx)  [CRISP
   Checklist (PDF)](CRISP-Reporting-Checklist-Version-1.0.pdf)'
 

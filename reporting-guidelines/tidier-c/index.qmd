@@ -34,7 +34,7 @@ relevant-editorials: ''
 primary-guideline: Read the full TIDieR-C guidance [here](https://publications.aap.org/pediatrics/article-abstract/156/5/e2025072867/204573/Transparent-Reporting-of-Pediatric-Clinical-Trial?redirectedFrom=fulltext).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

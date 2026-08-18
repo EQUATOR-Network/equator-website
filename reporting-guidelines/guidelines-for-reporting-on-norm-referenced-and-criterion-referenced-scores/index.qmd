@@ -25,7 +25,7 @@ relevant-editorials: ''
 primary-guideline: Read the full GRoNC guidance [here](https://journals.sagepub.com/doi/10.1177/10731911251371395).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

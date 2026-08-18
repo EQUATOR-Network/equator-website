@@ -24,7 +24,7 @@ relevant-editorials: ''
 primary-guideline: Read the full guidance [here](https://journals.sagepub.com/doi/10.1177/02537176251363817).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

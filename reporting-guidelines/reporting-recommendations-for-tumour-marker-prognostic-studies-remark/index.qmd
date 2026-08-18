@@ -39,7 +39,7 @@ other-relevant-research: |-
   **REMARK profile to aid structured reporting**
 
   Sauerbrei W, Haeussler T, Balmford J, Huebner M. Structured reporting to improve transparency of analyses in prognostic marker studies. BMC Med. 2022;20(1):184. PMID: [35546237](https://pubmed.ncbi.nlm.nih.gov/35546237/)
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

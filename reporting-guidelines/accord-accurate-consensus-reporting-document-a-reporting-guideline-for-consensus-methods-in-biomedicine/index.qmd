@@ -35,7 +35,7 @@ primary-guideline: ''
 other: 'The ACCORD project was registered at the OSF platform and can be assessed
   on this page: <https://osf.io/2rzm9>'
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: '[ACCORD checklist (Word)](https://www.ismpp.org/assets/ACCORD/ACCORD%20checklist%20editable.docx)'
 
 

@@ -69,7 +69,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: |-
   SPIRIT-Outcomes checklist (for combined completion of SPIRIT 2013 and SPIRIT-Outcomes 2022 items) [PDF](https://www.spirit-statement.org/wp-content/uploads/Fillable-SPIRIT-Outcomes-2022-Checklist-with-SPIRIT-2013.pdf)
 

@@ -29,7 +29,7 @@ other: 'The SAMPL guidelines were also published in 2013 in: Smart P, Maisonneuv
   H, Polderman A (eds). Science Editors'' Handbook, European Association of Science
   Editors, 2013.'
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: ''
 
 

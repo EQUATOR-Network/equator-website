@@ -24,7 +24,7 @@ relevant-editorials: ''
 primary-guideline: Read the guidance [here](https://onlinelibrary.wiley.com/doi/epdf/10.1002/pds.5353).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

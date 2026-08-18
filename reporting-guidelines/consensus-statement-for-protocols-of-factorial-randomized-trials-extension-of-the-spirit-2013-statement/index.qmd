@@ -75,7 +75,7 @@ primary-guideline: ''
 other: 'The checklist for reporting of factorial randomised trials: extension of the
   SPIRIT 2013 Statement is located in Table 3.'
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: ''
 
 

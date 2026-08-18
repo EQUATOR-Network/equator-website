@@ -94,7 +94,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: '[PRISMA - A checklist (PDF)](https://www.prisma-statement.org/s/PRISMA-A-checklist-fmgd.pdf)  [PRISMA
   - A checklist (Word)](https://www.prisma-statement.org/s/PRISMA-A-checklist-m2n3.docx)'
 

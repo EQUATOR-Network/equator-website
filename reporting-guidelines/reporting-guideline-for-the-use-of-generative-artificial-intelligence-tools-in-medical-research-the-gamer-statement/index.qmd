@@ -28,7 +28,7 @@ relevant-editorials: ''
 primary-guideline: Read the full text of [GAMER](https://ebm.bmj.com/content/early/2025/05/13/bmjebm-2025-113825.long).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

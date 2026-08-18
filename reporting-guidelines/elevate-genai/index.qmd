@@ -26,7 +26,7 @@ relevant-editorials: ''
 primary-guideline: Read the full text of [ELEVATE-GenAI](https://www.sciencedirect.com/science/article/abs/pii/S1098301525024556).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

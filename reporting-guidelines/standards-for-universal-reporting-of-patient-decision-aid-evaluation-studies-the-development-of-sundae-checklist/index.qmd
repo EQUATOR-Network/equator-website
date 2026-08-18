@@ -31,7 +31,7 @@ relevant-editorials: 'Volk RJ, Coulter A. Advancing the science of patient decis
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

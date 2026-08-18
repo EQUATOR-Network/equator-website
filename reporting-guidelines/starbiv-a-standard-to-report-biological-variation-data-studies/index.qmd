@@ -25,7 +25,7 @@ relevant-editorials: An editorial accompanying STARBIV can be found [here](https
 primary-guideline: Read the full STARBIV guidance [here](https://www.degruyterbrill.com/document/doi/10.1515/cclm-2024-0489/html).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

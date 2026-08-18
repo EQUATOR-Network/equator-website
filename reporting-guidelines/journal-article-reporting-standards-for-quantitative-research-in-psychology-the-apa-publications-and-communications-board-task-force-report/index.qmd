@@ -59,7 +59,7 @@ other: |-
 
   * [JARS-REC checklist (PDF)](https://apastyle.apa.org/jars/rec-table-1.pdf)
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

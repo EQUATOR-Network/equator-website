@@ -141,7 +141,7 @@ relevant-editorials: 'Uhlig K, Menon V, Schmid CH. Recommendations for Reporting
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: |-
   STROBE checklist: combined [Word](STROBE_checklist_v4_combined.docx) / [PDF](STROBE_checklist_v4_combined.pdf)
 

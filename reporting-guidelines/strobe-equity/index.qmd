@@ -29,7 +29,7 @@ relevant-editorials: ''
 primary-guideline: Read the guidance [here](https://www.bmj.com/content/390/bmj-2024-083882)
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

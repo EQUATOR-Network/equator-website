@@ -99,7 +99,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: PRISMA-ScR Checklist [PDF](https://www.prisma-statement.org/s/PRISMA-ScR-Fillable-Checklist_11Sept2019.pdf)
   | [Word](https://www.prisma-statement.org/s/PRISMA-ScR-Fillable-Checklist_10Sept2019.docx)
 

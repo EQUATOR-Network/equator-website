@@ -32,7 +32,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: '[PRICE 2020 Checklist (Word)](PRICE-2020-Checklist.docx) [PRICE 2020 Flowchart
   (Word)](PRICE-2020-Flowchart.docx)'
 

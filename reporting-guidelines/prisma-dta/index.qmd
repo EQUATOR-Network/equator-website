@@ -100,7 +100,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: |-
   PRISMA-DTA checklist [Word](https://www.prisma-statement.org/s/PRISMA-DTA-Checklist-wx4t.docx) / [PDF](https://www.prisma-statement.org/s/PRISMA-DTA-Checklist-xh5j.pdf)
 

@@ -35,7 +35,7 @@ other: |-
 
   Bandrowski A, Brush M, Grethe JS et al. The Resource Identification Initiative: A cultural shift in publishing [version 2; referees: 2 approved]. F1000Research 2015, 4:134. PMID: [26594330](https://www.ncbi.nlm.nih.gov/pubmed/26594330)
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

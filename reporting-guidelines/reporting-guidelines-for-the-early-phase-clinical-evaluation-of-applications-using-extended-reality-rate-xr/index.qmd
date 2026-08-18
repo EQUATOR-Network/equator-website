@@ -29,7 +29,7 @@ relevant-editorials: ''
 primary-guideline: Read the full text of RATE-XR [here](https://www.jmir.org/2024/1/e56790/).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

@@ -33,7 +33,7 @@ other: 'Linkins LA, Iorio A, Little J, Lavis J. Extended reporting guidance for 
   effectiveness studies for variants of concern for COVID-19. Vaccine. 2022:S0264-410X(22)00422-4.
   PMID: [35443916](https://pubmed.ncbi.nlm.nih.gov/35443916/)'
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

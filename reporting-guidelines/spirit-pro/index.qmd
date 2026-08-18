@@ -72,7 +72,7 @@ other-relevant-research: 'Cruz Rivera S, Stephens R, Mercieca-Bebber R, Retzer A
   tools to support the involvement of patient partners in the development of clinical
   trial protocols with patient-reported outcomes (PROs), in accordance with SPIRIT-PRO
   Extension. BMJ Open. 2021;11(6):e046450. PMID: [34193492](https://pubmed.ncbi.nlm.nih.gov/34193492/)'
-sticky: 'yes'
+sticky: true
 downloads: ''
 
 

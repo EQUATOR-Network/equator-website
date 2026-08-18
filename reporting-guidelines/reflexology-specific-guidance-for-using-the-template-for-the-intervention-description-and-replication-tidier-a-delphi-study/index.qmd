@@ -28,7 +28,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: '[Read the protocol](https://osf.io/reavn/) available on the OSF.'
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

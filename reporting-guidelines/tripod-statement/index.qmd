@@ -93,7 +93,7 @@ primary-guideline: ''
 other: '[Read the protocol](https://pubmed.ncbi.nlm.nih.gov/34244270/) for the development
   of TRIPOD+AI.'
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: ''
 
 

@@ -24,7 +24,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: 'Read the protocol for development of this guideline: [RAMESES II protocol](http://www.ncbi.nlm.nih.gov/pubmed/26238395)'
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

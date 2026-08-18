@@ -24,7 +24,7 @@ relevant-editorials: ''
 primary-guideline: Read the full guidance [here](https://ebm.bmj.com/content/early/2025/07/01/bmjebm-2025-113641).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

@@ -24,7 +24,7 @@ relevant-editorials: ''
 primary-guideline: Read the guidance [here](https://doi.org/10.1080/14780887.2024.2382244).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

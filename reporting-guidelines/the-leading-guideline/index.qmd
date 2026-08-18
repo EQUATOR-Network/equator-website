@@ -26,7 +26,7 @@ relevant-editorials: ''
 primary-guideline: Read the full text of the [paper](https://www.sciencedirect.com/science/article/pii/S0010440X25000318).
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

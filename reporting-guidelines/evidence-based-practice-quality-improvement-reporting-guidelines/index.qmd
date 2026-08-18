@@ -24,7 +24,7 @@ relevant-editorials: ''
 primary-guideline: Read the full guidance [here](https://journals.lww.com/jncqjournal/fulltext/9900/evidence_based_practice_quality_improvement.267.aspx)
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

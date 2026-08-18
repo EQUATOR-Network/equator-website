@@ -109,7 +109,7 @@ other: |-
 
   Dietary assessment guidelines and interactive tools for the design and conduct of dietary assessment studies are available from: <https://www.nutritools.org/>
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: ''
 
 

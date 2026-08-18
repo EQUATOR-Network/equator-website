@@ -152,7 +152,7 @@ relevant-editorials: |-
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: '[CONSORT-SPI 2018 checklist (Word)](CONSORT-SPI-2018-Checklist.docx)  [CONSORT-SPI
   2018 checklist (PDF)](CONSORT-SPI-2018-Checklist.pdf)'
 

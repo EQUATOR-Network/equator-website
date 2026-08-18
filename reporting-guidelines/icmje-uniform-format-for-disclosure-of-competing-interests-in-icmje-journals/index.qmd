@@ -24,7 +24,7 @@ relevant-editorials: Read an [ICMJE editorial (PDF)](http://www.icmje.org/news-a
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

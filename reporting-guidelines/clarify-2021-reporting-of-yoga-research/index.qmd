@@ -30,7 +30,7 @@ relevant-editorials: 'Moonaz S, Nault D, Cramer H, Ward L. Releasing CLARIFY: A 
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

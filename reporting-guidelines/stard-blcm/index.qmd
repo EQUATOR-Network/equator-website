@@ -43,7 +43,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: '[STARD-BLCM Checklist (Word)](STARD-BLCM-Checklist.docx)'
 
 

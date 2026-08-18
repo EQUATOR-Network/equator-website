@@ -33,7 +33,7 @@ relevant-editorials: 'Guéchot J, Boursier J, de Ledinghen V, Poynard T, Carrat 
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

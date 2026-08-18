@@ -33,7 +33,7 @@ other: '[Read a guide (PDF)](https://arc-sl.nihr.ac.uk/sites/default/files/uploa
   South London (NIHR ARC South London) at King’s College Hospital NHS Foundation Trust
   and supported by King’s Improvement Science.'
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

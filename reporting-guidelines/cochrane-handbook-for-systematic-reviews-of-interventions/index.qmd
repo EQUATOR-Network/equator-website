@@ -34,7 +34,7 @@ other: |-
 
   Stovold E, Beecher D, Foxlee R, Noel-Storr A. Study flow diagrams in Cochrane systematic review updates: an adapted PRISMA flow diagram. Syst Rev. 2014 May 29;3:54. PMID: [24886533](http://www.ncbi.nlm.nih.gov/pubmed/24886533)
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 

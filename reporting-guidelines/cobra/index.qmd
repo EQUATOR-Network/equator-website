@@ -33,7 +33,7 @@ primary-guideline: ''
 other: 'A guideline for reporting biospecimen information more generally is available
   at: [BRISQ guideline](https://www.equator-network.org/reporting-guidelines/brisq/)'
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: '[CoBRA checklist (PDF)](Cobra-check-list.pdf)'
 
 

@@ -97,7 +97,7 @@ other: |-
 
   All data (including data relating to item development, survey instruments, data from the Delphi surveys, and consent documents) is available from the PRISMA-S Reporting Extension OSF site at <https://doi.org/10.17605/OSF.IO/YGN9W>
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: |-
   [PRISMA-S Checklist (Word)](https://osf.io/sfgvq/) [PRISMA-S Checklist (PDF)](https://osf.io/y765x/)
 

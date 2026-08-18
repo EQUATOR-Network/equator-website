@@ -46,7 +46,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: '[STROBE-Vet Checklist (PDF)](https://strobevetstatement.files.wordpress.com/2016/09/strobe-vet-checklist.pdf)
   [STROBE-Vet Checklist (Word)](https://strobevetstatement.files.wordpress.com/2016/09/strobe-vet-checklist.docx)'
 

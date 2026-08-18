@@ -130,7 +130,7 @@ other: |-
 
   The checklist of items to include when reporting a randomised factorial trial in a journal or conference abstract is located in Table 3.
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: ''
 
 

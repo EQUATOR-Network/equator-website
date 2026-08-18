@@ -34,7 +34,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: '[PRIRATE 2020 Checklist (Word)](PRIRATE-2020-checklist.docx)  [PRIRATE
   2020 Flowchart (Word)](PRIRATE-2020-flowchart.docx)'
 

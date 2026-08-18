@@ -65,7 +65,7 @@ primary-guideline: ''
 other: An online fillable CARE checklist is also available via the GoodReports website
   at <https://www.goodreports.org/reporting-checklists/care/>.
 other-relevant-research: ''
-sticky: 'yes'
+sticky: true
 downloads: '[CARE checklist (PDF)](https://static1.squarespace.com/static/5db7b349364ff063a6c58ab8/t/5db7bf175f869e5812fd4293/1572323098501/CARE-checklist-English-2013.pdf)'
 
 

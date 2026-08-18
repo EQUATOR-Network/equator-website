@@ -37,7 +37,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: 'Further information is available from: [MORECare Statement](http://www.kcl.ac.uk/lsm/research/divisions/cicelysaunders/research/studies/morecare.aspx)'
 other-relevant-research: ''
-sticky: 'no'
+sticky: false
 downloads: ''
 
 
