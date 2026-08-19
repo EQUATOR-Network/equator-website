@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-611f9a4f5276f3aa6c7bc3c7843ec587.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-967507bd66f73bb9cabde3b124e0295f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../training.html"> 
+    <a class="nav-link" href="https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school"> 
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -218,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Prediction Models</td>
 </tr>
 <tr class="even">
-<td><a href="../../reporting-guidelines/arrive">ARRIVE</a></td>
+<td><a href="../../reporting-guidelines/improving-bioscience-research-reporting-the-arrive-guidelines-for-reporting-animal-research">ARRIVE</a></td>
 <td>Animal Research</td>
 </tr>
 <tr class="odd">
@@ -390,8 +390,8 @@ The CHEERS Statement (2013) has been translated into <a href="https://www.ncbi.n
 </div>
 <div class="g-col-12 g-col-md-8 notranslate" data-content="Specialised CHEERS-VOI: Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: 37414276 CHEERS-AI: Elvidge J, Hawksworth C, Avşar TS, Zemplenyi A, Chalkidou A, Petrou S, Petykó Z, Srivastava D, Chandra G, Delaye J, Denniston A, Gomes M, Knies S, Nousios P, Siirtola P, Wang J, Dawoud D. Consolidated Health Economic Evaluation Reporting Standards for Interventions that use Artificial Intelligence (CHEERS-AI). Value Health. 2024:S1098-3015(24)02366-0. PMID: 38795956">
 <p><strong>Specialised</strong><br>
-<a href="https://www.equator-network.org/reporting-guidelines/cheers-voi/"><strong>CHEERS-VOI</strong></a>: Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37414276/">37414276</a><br>
-<a href="https://www.equator-network.org/reporting-guidelines/consolidated-health-economic-evaluation-reporting-standards-for-interventions-that-use-artificial-intelligence-cheers-ai/"><strong>CHEERS-AI</strong></a>: Elvidge J, Hawksworth C, Avşar TS, Zemplenyi A, Chalkidou A, Petrou S, Petykó Z, Srivastava D, Chandra G, Delaye J, Denniston A, Gomes M, Knies S, Nousios P, Siirtola P, Wang J, Dawoud D. Consolidated Health Economic Evaluation Reporting Standards for Interventions that use Artificial Intelligence (CHEERS-AI). Value Health. 2024:S1098-3015(24)02366-0. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38795956/">38795956</a></p>
+<a href="../../reporting-guidelines/cheers-voi/"><strong>CHEERS-VOI</strong></a>: Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37414276/">37414276</a><br>
+<a href="../../reporting-guidelines/consolidated-health-economic-evaluation-reporting-standards-for-interventions-that-use-artificial-intelligence-cheers-ai/"><strong>CHEERS-AI</strong></a>: Elvidge J, Hawksworth C, Avşar TS, Zemplenyi A, Chalkidou A, Petrou S, Petykó Z, Srivastava D, Chandra G, Delaye J, Denniston A, Gomes M, Knies S, Nousios P, Siirtola P, Wang J, Dawoud D. Consolidated Health Economic Evaluation Reporting Standards for Interventions that use Artificial Intelligence (CHEERS-AI). Value Health. 2024:S1098-3015(24)02366-0. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38795956/">38795956</a></p>
 </div>
 <!-- row -->
 <div class="g-col-12 g-col-md-4" data-content="">
@@ -550,6 +550,13 @@ Husereau D, Drummond M, Petrou S, Carswell C, Moher D, Greenberg D, Augustovski 
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -867,7 +874,7 @@ Husereau D, Drummond M, Petrou S, Carswell C, Moher D, Greenberg D, Augustovski 
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+<p>Created by the <a href="../../about/uk-equator-centre.html">UK EQUATOR Centre</a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
@@ -892,7 +899,7 @@ Husereau D, Drummond M, Petrou S, Carswell C, Moher D, Greenberg D, Augustovski 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../../github">
+    <a class="nav-link" href="https://github.com/EQUATOR-Network/equator-website">
       <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
 </i> 
     </a>

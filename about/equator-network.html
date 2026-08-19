@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-611f9a4f5276f3aa6c7bc3c7843ec587.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-967507bd66f73bb9cabde3b124e0295f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -157,7 +157,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../training.html"> 
+    <a class="nav-link" href="https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school"> 
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -250,7 +250,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="executive-group-members">Executive Group members</h2>
 <div id="listing-listing" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1787132154544" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1787145178111" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
 <div class="thumbnail"><a href="../about/people/gcollins.html" class="no-external">
 
 <img loading="lazy" src="../about/people/gcollins.webp" class="thumbnail-image" alt="Gary Collins, Director">
@@ -272,7 +272,7 @@ Professor Gary Collins is a 125th Anniversary Chair and Professor of Medical Sta
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1787132154544" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1787145178111" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
 <div class="thumbnail"><a href="../about/people/dmoher.html" class="no-external">
 
 <img loading="lazy" src="../about/people/dmoher.jpg" class="thumbnail-image">
@@ -294,7 +294,7 @@ Dr David Moher is a senior scientist with the Ottawa Health Research Institute. 
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1787132154545" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1787145178112" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
 <div class="thumbnail"><a href="../about/people/pravaud.html" class="no-external">
 
 <img loading="lazy" src="../about/people/pravaud.png" class="thumbnail-image">
@@ -316,7 +316,7 @@ Professor Philippe Ravaud is Director of the Centre of Epidemiology at the Hotel
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1787132154546" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
+<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1787145178113" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
 <div class="thumbnail"><a href="../about/people/thoffman.html" class="no-external">
 
 <img loading="lazy" src="../about/people/thoffmann.jpg" class="thumbnail-image">
@@ -338,7 +338,7 @@ Professor Tammy Hoffmann is a Professor of Clinical Epidemiology at the Institut
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1787132154547" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
+<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1787145178114" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
 <div class="thumbnail"><a href="../about/people/zbian.html" class="no-external">
 
 <img loading="lazy" src="../about/people/zbian.jpg" class="thumbnail-image">
@@ -497,6 +497,13 @@ Professor Bian obtained his Bachelor Degree of Chinese Medicine from the Nanjian
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -814,7 +821,7 @@ Professor Bian obtained his Bachelor Degree of Chinese Medicine from the Nanjian
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+<p>Created by the <a href="../about/uk-equator-centre.html">UK EQUATOR Centre</a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
@@ -839,7 +846,7 @@ Professor Bian obtained his Bachelor Degree of Chinese Medicine from the Nanjian
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../github">
+    <a class="nav-link" href="https://github.com/EQUATOR-Network/equator-website">
       <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
 </i> 
     </a>

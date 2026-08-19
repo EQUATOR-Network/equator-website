@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-611f9a4f5276f3aa6c7bc3c7843ec587.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-967507bd66f73bb9cabde3b124e0295f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../assets/css/main.css">
 <link rel="stylesheet" href="../../../assets/css/database-pages.css">
 <meta property="og:title" content="ENLIGHT-Field: Field research extension of the ENLIGHT Checklist and Guidelines for daylight, electric and mixed field research">
-<meta property="og:description" content="A group of researchers based in Germany, Switzerland, and the Netherlands, are working to extend the [ENLIGHT](https://www.equator-network.">
+<meta property="og:description" content="A group of researchers based in Germany, Switzerland, and the Netherlands, are working to extend the…">
 <meta property="og:image" content="https://equator-network.github.io/equator-website/reporting-guidelines/under-development/enlight-field-field-research-extension-of-the-enlight-checklist-and-guidelines-for-daylight-electric-and-mixed-field-research/assets/logos/equator_logo.png">
 </head>
 
@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../training.html"> 
+    <a class="nav-link" href="https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school"> 
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
       <h1 class="title">ENLIGHT-Field: Field research extension of the ENLIGHT Checklist and Guidelines for daylight, electric and mixed field research</h1>
                   <div>
         <div class="description">
-          A group of researchers based in Germany, Switzerland, and the Netherlands, are working to extend the <a href="https://www.equator-network.org/reporting-guidelines/enlight-a-consensus-checklist-for-reporting-laboratory-based-studies-on-the-non-visual-effects-of-light-in-humans/">ENLIGHT</a> reporting guideline, from a checklist for laboratory-based studies to guidance that includes trials and observational studies. The leaders consider that field studies on the effects of light on human health should be completely and transparently reported. They got funding from the Daylight Academy and published a protocol for this project.<br>
+          A group of researchers based in Germany, Switzerland, and the Netherlands, are working to extend the <a href="../../../reporting-guidelines/enlight-a-consensus-checklist-for-reporting-laboratory-based-studies-on-the-non-visual-effects-of-light-in-humans/">ENLIGHT</a> reporting guideline, from a checklist for laboratory-based studies to guidance that includes trials and observational studies. The leaders consider that field studies on the effects of light on human health should be completely and transparently reported. They got funding from the Daylight Academy and published a protocol for this project.<br>
           The study will use a three-stage consensus process, an online survey, an get feedback from Daylight Academy members for approval of the checklist. They plan to publish the guideline as an open-access document in 2025.<br>
           The original <a href="https://doi.org/10.1016/j.ebiom.2023.104889">ENLIGHT guideline publication</a> ENLIGHT project <a href="https://enlight-statement.org/">website</a> Daylight Academy <a href="https://daylight.academy">website</a> Protocol registration: <a href="https://osf.io/7z2bw/">https://osf.io/7z2bw/</a>
         </div>
@@ -280,6 +280,13 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -597,7 +604,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+<p>Created by the <a href="../../../about/uk-equator-centre.html">UK EQUATOR Centre</a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
@@ -622,7 +629,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../../../github">
+    <a class="nav-link" href="https://github.com/EQUATOR-Network/equator-website">
       <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
 </i> 
     </a>

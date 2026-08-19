@@ -334,7 +334,7 @@
       "/reporting-guidelines/a-structured-approach-to-documenting-a-search-strategy-for-publication-a-12-step-guideline-for-authors/index.html",
       "/reporting-guidelines/a-systematic-review-of-systematic-reviews-and-meta-analyses-of-animal-experiments-with-guidelines-for-reporting/index.html",
       "/reporting-guidelines/a-systematic-review-of-the-reporting-of-data-monitoring-committees-roles-interim-analysis-and-early-termination-in-pediatric-clinical-trials/index.html",
-      "/reporting-guidelines/amwa%e2%80%92emwa%e2%80%92ismpp-joint-position-statement-on-the-role-of-professional-medical-writers/index.html",
+      "/reporting-guidelines/amwa-emwa-ismpp-joint-position-statement-on-the-role-of-professional-medical-writers/index.html",
       "/reporting-guidelines/asas-recommendations-for-collecting-analysing-and-reporting-nsaid-intake-in-clinical-trialsepidemiological-studies-in-axial-spondyloarthritis/index.html",
       "/reporting-guidelines/adaptation-of-the-care-guidelines-for-therapeutic-massage-and-bodywork-publications-efforts-to-improve-the-impact-of-case-reports/index.html",
       "/reporting-guidelines/adjusting-for-treatment-switching-in-oncology-trials-a-systematic-review-and-recommendations-for-reporting/index.html",
@@ -907,23 +907,12 @@
     ]
   },
   {
-    "listing": "/about/uk-equator-centre.html",
+    "listing": "/index.html",
     "items": [
       "/about/people/gcollins.html",
       "/about/people/jharwood.html",
       "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
-    ]
-  },
-  {
-    "listing": "/about/equator-network.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
+      "/about/people/pdhiman.html"
     ]
   },
   {
@@ -937,16 +926,23 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
     "items": [
       "/about/people/gcollins.html",
       "/about/people/jharwood.html",
       "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
     ]
-  },
-  {
-    "listing": "/training.html",
-    "items": []
   }
 ]

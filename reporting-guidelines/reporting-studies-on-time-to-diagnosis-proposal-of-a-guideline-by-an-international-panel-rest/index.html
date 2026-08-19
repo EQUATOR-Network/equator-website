@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-611f9a4f5276f3aa6c7bc3c7843ec587.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-967507bd66f73bb9cabde3b124e0295f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../training.html"> 
+    <a class="nav-link" href="https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school"> 
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -218,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <td>Prediction Models</td>
 </tr>
 <tr class="even">
-<td><a href="../../reporting-guidelines/arrive">ARRIVE</a></td>
+<td><a href="../../reporting-guidelines/improving-bioscience-research-reporting-the-arrive-guidelines-for-reporting-animal-research">ARRIVE</a></td>
 <td>Animal Research</td>
 </tr>
 <tr class="odd">
@@ -510,6 +510,13 @@ Read a <a href="http://adc.bmj.com/content/99/3/244.abstract?sid=404e9ae2-bcf9-4
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -827,7 +834,7 @@ Read a <a href="http://adc.bmj.com/content/99/3/244.abstract?sid=404e9ae2-bcf9-4
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+<p>Created by the <a href="../../about/uk-equator-centre.html">UK EQUATOR Centre</a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
@@ -852,7 +859,7 @@ Read a <a href="http://adc.bmj.com/content/99/3/244.abstract?sid=404e9ae2-bcf9-4
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../../github">
+    <a class="nav-link" href="https://github.com/EQUATOR-Network/equator-website">
       <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
 </i> 
     </a>

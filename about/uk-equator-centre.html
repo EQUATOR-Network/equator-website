@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-611f9a4f5276f3aa6c7bc3c7843ec587.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-967507bd66f73bb9cabde3b124e0295f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -161,7 +161,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../training.html"> 
+    <a class="nav-link" href="https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school"> 
 <span class="menu-text">Training</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -244,7 +244,7 @@ window.Quarto = {
 <ul>
 <li>Development and maintenance of the EQUATOR Network website and resources.</li>
 <li>Maintaining the world’s only comprehensive database of reporting guidelines.</li>
-<li><a href="../training.html">Education and training</a>. Organising workshops, courses, seminars, conferences for researchers, research students, editors and peer reviewers.</li>
+<li><a href="https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school">Education and training</a>. Organising workshops, courses, seminars, conferences for researchers, research students, editors and peer reviewers.</li>
 <li>Collaborative activities to raise reporting standards.</li>
 <li>Developing new reporting guidelines.</li>
 <li>Implementation research to increase adherence to reporting guidelines.</li>
@@ -253,7 +253,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="staff">Staff</h2>
 <div id="listing-listing" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1787132154544" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1787145178111" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
 <div class="thumbnail"><a href="../about/people/gcollins.html" class="no-external">
 
 <img loading="lazy" src="../about/people/gcollins.webp" class="thumbnail-image" alt="Gary Collins, Director">
@@ -275,7 +275,7 @@ Professor Gary Collins is a 125th Anniversary Chair and Professor of Medical Sta
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1787132154545" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1787145178112" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
 <div class="thumbnail"><a href="../about/people/jharwood.html" class="no-external">
 
 <img loading="lazy" src="../about/people/jharwood.webp" class="thumbnail-image" alt="James Harwood">
@@ -297,7 +297,7 @@ James an implementation scientist at Oxford University working to improve the up
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1787132154545" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1787145178112" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
 <div class="thumbnail"><a href="../about/people/jdebeyer.html" class="no-external">
 
 <img loading="lazy" src="../about/people/jdebeyer.webp" class="thumbnail-image" alt="Jen de Beyer">
@@ -319,7 +319,7 @@ Dr Jen de Beyer teaches our academic writing, publication, and communication ski
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1787132154545" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1787145178112" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
 <div class="thumbnail"><a href="../about/people/pdhiman.html" class="no-external">
 
 <img loading="lazy" src="../about/people/pdhiman.jpg" class="thumbnail-image" alt="Paula Dhiman">
@@ -341,7 +341,7 @@ At the Centre for Statistics in Medicine, Dr Paula Dhiman investigates how medic
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1787132154542" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
+<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1787145178109" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
 <div class="thumbnail"><a href="../about/people/daltman.html" class="no-external">
 
 <img loading="lazy" src="../about/people/daltman.jpeg" class="thumbnail-image">
@@ -459,6 +459,13 @@ Professor Doug Altman was Professor of Statistics in Medicine at the University 
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -776,7 +783,7 @@ Professor Doug Altman was Professor of Statistics in Medicine at the University 
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Created by the <a href="https://www.equator-network.org/about-us/uk-equator-centre/">UK EQUATOR Centre</a></p>
+<p>Created by the <a href="../about/uk-equator-centre.html">UK EQUATOR Centre</a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
@@ -801,7 +808,7 @@ Professor Doug Altman was Professor of Statistics in Medicine at the University 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="../github">
+    <a class="nav-link" href="https://github.com/EQUATOR-Network/equator-website">
       <i class="bi bi-github" role="img" aria-label="EQUATOR GitHub">
 </i> 
     </a>
