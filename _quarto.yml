@@ -14,7 +14,7 @@ website:
     logo: "assets/logos/equator_logo.png"
     logo-alt: EQUATOR Network Home Page
     right:
-      - href: training.qmd
+      - href: https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school
         text: Training
       - text: About
         menu: 
