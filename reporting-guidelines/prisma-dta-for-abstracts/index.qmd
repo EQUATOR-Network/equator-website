@@ -26,7 +26,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**PRISMA 2020 Statement**](http://dev.equator-network.org/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.
+  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.
 
   PLoS Med. 2021;18(3):e1003583. PMID: [33780438](https://pubmed.ncbi.nlm.nih.gov/33780438/)
 
@@ -40,7 +40,7 @@ relevant-more: |-
 
   **Specialised**
 
-  [**PRISMA-Equity**](http://dev.equator-network.org/reporting-guidelines/prisma-equity/): Welch V, Petticrew M, Tugwell P, Moher D, O'Neill J, Waters E, White H; PRISMA-Equity Bellagio group. PRISMA-Equity 2012 Extension: Reporting Guidelines for Systematic Reviews with a Focus on Health Equity. PLoS Med. 2012;9(10):e1001333. PMID: [23222917](http://www.ncbi.nlm.nih.gov/pubmed/23222917)
+  [**PRISMA-Equity**](/reporting-guidelines/prisma-equity/): Welch V, Petticrew M, Tugwell P, Moher D, O'Neill J, Waters E, White H; PRISMA-Equity Bellagio group. PRISMA-Equity 2012 Extension: Reporting Guidelines for Systematic Reviews with a Focus on Health Equity. PLoS Med. 2012;9(10):e1001333. PMID: [23222917](http://www.ncbi.nlm.nih.gov/pubmed/23222917)
 
   Welch V, Petticrew M, Petkovic J, Moher D, Waters E, White H, Tugwell P; PRISMA-Equity Bellagio group. Extending the PRISMA statement to equity-focused systematic reviews (PRISMA-E 2012): explanation and elaboration.
 
@@ -48,35 +48,35 @@ relevant-more: |-
 
   J Clin Epidemiol. 2015. PMID: [26348799](http://www.ncbi.nlm.nih.gov/pubmed/26348799)
 
-  [**PRISMA-Abstracts 2020:**](http://dev.equator-network.org/reporting-guidelines/prisma-abstracts/) The PRISMA 2020 for Abstracts reporting guideline is contained within the main [PRISMA 2020 Statement paper](https://www.equator-network.org/reporting-guidelines/prisma/).
+  [**PRISMA-Abstracts 2020:**](/reporting-guidelines/prisma-abstracts/) The PRISMA 2020 for Abstracts reporting guideline is contained within the main [PRISMA 2020 Statement paper](/reporting-guidelines/prisma/).
 
-  [**PRISMA-P**](http://dev.equator-network.org/reporting-guidelines/prisma-protocols/): Moher D, Shamseer L, Clarke M, Ghersi D, Liberati A, Petticrew M, Shekelle P, Stewart LA. Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P) 2015 statement. Syst Rev. 2015;4(1):1. PMID: [25554246](http://www.ncbi.nlm.nih.gov/pubmed/25554246)
+  [**PRISMA-P**](/reporting-guidelines/prisma-protocols/): Moher D, Shamseer L, Clarke M, Ghersi D, Liberati A, Petticrew M, Shekelle P, Stewart LA. Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P) 2015 statement. Syst Rev. 2015;4(1):1. PMID: [25554246](http://www.ncbi.nlm.nih.gov/pubmed/25554246)
 
-  [**PRISMA-IPD**](http://dev.equator-network.org/reporting-guidelines/prisma-ipd/): Stewart LA, Clarke M, Rovers M, Riley RD, Simmonds M, Stewart G, Tierney JF; PRISMA-IPD Development Group. Preferred Reporting Items for Systematic Review and Meta-Analyses of individual participant data: the PRISMA-IPD Statement. JAMA. 2015;313(16):1657-1665. PMID: [25919529](http://www.ncbi.nlm.nih.gov/pubmed/25919529)
+  [**PRISMA-IPD**](/reporting-guidelines/prisma-ipd/): Stewart LA, Clarke M, Rovers M, Riley RD, Simmonds M, Stewart G, Tierney JF; PRISMA-IPD Development Group. Preferred Reporting Items for Systematic Review and Meta-Analyses of individual participant data: the PRISMA-IPD Statement. JAMA. 2015;313(16):1657-1665. PMID: [25919529](http://www.ncbi.nlm.nih.gov/pubmed/25919529)
 
-  [**PRISMA extension for network meta-analyses**](http://dev.equator-network.org/reporting-guidelines/prisma-extension-network-meta-analyses/): Hutton B, Salanti G, Caldwell DM, Chaimani A, Schmid CH, Cameron C, Ioannidis JP, Straus S, Thorlund K, Jansen JP, Mulrow C, Catalá-López F, Gøtzsche PC, Dickersin K, Boutron I, Altman DG, Moher D. The PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses of Health Care Interventions: Checklist and Explanations. Ann Intern Med. 2015;162(11):777-784. PMID: [26030634](http://www.ncbi.nlm.nih.gov/pubmed/26030634)
+  [**PRISMA extension for network meta-analyses**](/reporting-guidelines/prisma-extension-network-meta-analyses/): Hutton B, Salanti G, Caldwell DM, Chaimani A, Schmid CH, Cameron C, Ioannidis JP, Straus S, Thorlund K, Jansen JP, Mulrow C, Catalá-López F, Gøtzsche PC, Dickersin K, Boutron I, Altman DG, Moher D. The PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses of Health Care Interventions: Checklist and Explanations. Ann Intern Med. 2015;162(11):777-784. PMID: [26030634](http://www.ncbi.nlm.nih.gov/pubmed/26030634)
 
-  [**PRISMA-harms**](http://dev.equator-network.org/reporting-guidelines/prisma-harms/): Zorzela L, Loke YK, Ioannidis JP, Golder S, Santaguida P, Altman DG, Moher D, Vohra S; PRISMA harms group. PRISMA harms checklist: improving harms reporting in systematic reviews. BMJ. 2016;352:i157. PMID: [26830668](http://www.ncbi.nlm.nih.gov/pubmed/26830668)
+  [**PRISMA-harms**](/reporting-guidelines/prisma-harms/): Zorzela L, Loke YK, Ioannidis JP, Golder S, Santaguida P, Altman DG, Moher D, Vohra S; PRISMA harms group. PRISMA harms checklist: improving harms reporting in systematic reviews. BMJ. 2016;352:i157. PMID: [26830668](http://www.ncbi.nlm.nih.gov/pubmed/26830668)
 
-  [**PRISMA-CI**](http://dev.equator-network.org/reporting-guidelines/prisma-ci-extension-statement-checklist/): Guise JM, Butler ME, Chang C, Viswanathan M, Pigott T, Tugwell P; Complex Interventions Workgroup. AHRQ Series on Complex Intervention Systematic Reviews - Paper 6: PRISMA-CI Extension Statement & Checklist. J Clin Epidemiol. 2017. PMID: [28720516](https://www.ncbi.nlm.nih.gov/pubmed/28720516)
+  [**PRISMA-CI**](/reporting-guidelines/prisma-ci-extension-statement-checklist/): Guise JM, Butler ME, Chang C, Viswanathan M, Pigott T, Tugwell P; Complex Interventions Workgroup. AHRQ Series on Complex Intervention Systematic Reviews - Paper 6: PRISMA-CI Extension Statement & Checklist. J Clin Epidemiol. 2017. PMID: [28720516](https://www.ncbi.nlm.nih.gov/pubmed/28720516)
 
-  [**PRISMA-DTA**](http://dev.equator-network.org/reporting-guidelines/prisma-dta/): McInnes MDF, Moher D, Thombs BD, McGrath TA, Bossuyt PM; and the PRISMA-DTA Group. Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies: The PRISMA-DTA Statement. JAMA. 2018;319(4):388-396. PMID: [29362800](https://www.ncbi.nlm.nih.gov/pubmed/29362800)
+  [**PRISMA-DTA**](/reporting-guidelines/prisma-dta/): McInnes MDF, Moher D, Thombs BD, McGrath TA, Bossuyt PM; and the PRISMA-DTA Group. Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies: The PRISMA-DTA Statement. JAMA. 2018;319(4):388-396. PMID: [29362800](https://www.ncbi.nlm.nih.gov/pubmed/29362800)
 
-  [**PRISMA-A**](https://dev.equator-network.org/reporting-guidelines/prisma-acupuncture/): Wang X, Chen Y, Liu Y, Yao L, Estill J, Bian Z, Wu T, Shang H, Lee MS, Wei D, Tian J, Ma B, Wang Y, Tian G, Yang K. Reporting items for systematic reviews and meta-analyses of acupuncture: the PRISMA for acupuncture checklist. BMC Complement Altern Med. 2019;19(1):208. PMID: [31405367](https://www.ncbi.nlm.nih.gov/pubmed/31405367)
+  [**PRISMA-A**](/reporting-guidelines/prisma-acupuncture/): Wang X, Chen Y, Liu Y, Yao L, Estill J, Bian Z, Wu T, Shang H, Lee MS, Wei D, Tian J, Ma B, Wang Y, Tian G, Yang K. Reporting items for systematic reviews and meta-analyses of acupuncture: the PRISMA for acupuncture checklist. BMC Complement Altern Med. 2019;19(1):208. PMID: [31405367](https://www.ncbi.nlm.nih.gov/pubmed/31405367)
 
-  [**PRISMA-ScR**](http://dev.equator-network.org/reporting-guidelines/prisma-scr/): Tricco AC, Lillie E, Zarin W, O'Brien KK, Colquhoun H, Levac D, Moher D, Peters MDJ, Horsley T, Weeks L, Hempel S, Akl EA, Chang C, McGowan J, Stewart L, Hartling L, Aldcroft A, Wilson MG, Garritty C, Lewin S, Godfrey CM, Macdonald MT, Langlois EV, Soares-Weiser K, Moriarty J, Clifford T, Tunçalp Ö, Straus SE. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Ann Intern Med. 2018. PMID: [30178033](https://www.ncbi.nlm.nih.gov/pubmed/30178033)
+  [**PRISMA-ScR**](/reporting-guidelines/prisma-scr/): Tricco AC, Lillie E, Zarin W, O'Brien KK, Colquhoun H, Levac D, Moher D, Peters MDJ, Horsley T, Weeks L, Hempel S, Akl EA, Chang C, McGowan J, Stewart L, Hartling L, Aldcroft A, Wilson MG, Garritty C, Lewin S, Godfrey CM, Macdonald MT, Langlois EV, Soares-Weiser K, Moriarty J, Clifford T, Tunçalp Ö, Straus SE. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Ann Intern Med. 2018. PMID: [30178033](https://www.ncbi.nlm.nih.gov/pubmed/30178033)
 
-  [**PRISMA-CHM**](https://www.equator-network.org/reporting-guidelines/prisma-chinese-herbal-medicines-2020/): Zhang X, Tan R, Lam WC, Yao L, Wang X, Cheng CW, Liu F, Chan JC, Aixinjueluo Q, Lau CT, Chen Y, Yang K, Wu T, Lyu A, Bian Z. PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) Extension for Chinese Herbal Medicines 2020 (PRISMA-CHM 2020). Am J Chin Med. 2020;48(6):1279-1313. PMID: [32907365](https://pubmed.ncbi.nlm.nih.gov/32907365/)
+  [**PRISMA-CHM**](/reporting-guidelines/prisma-chinese-herbal-medicines-2020/): Zhang X, Tan R, Lam WC, Yao L, Wang X, Cheng CW, Liu F, Chan JC, Aixinjueluo Q, Lau CT, Chen Y, Yang K, Wu T, Lyu A, Bian Z. PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) Extension for Chinese Herbal Medicines 2020 (PRISMA-CHM 2020). Am J Chin Med. 2020;48(6):1279-1313. PMID: [32907365](https://pubmed.ncbi.nlm.nih.gov/32907365/)
 
-  [**PRISMA-M 2020**](https://www.equator-network.org/reporting-guidelines/prisma-extension-for-moxibustion-2020/): Zhang X, Tan R, Lam WC, Cheng CW, Yao L, Wang XQ, Li SY, Aixinjueluo QY, Yang KH, Shang HC, Wu TX, Lyu AP, Bian ZX. PRISMA extension for moxibustion 2020: recommendations, explanation, and elaboration. Syst Rev. 2020;9(1):247. PMID: [33100229](https://pubmed.ncbi.nlm.nih.gov/33100229/)
+  [**PRISMA-M 2020**](/reporting-guidelines/prisma-extension-for-moxibustion-2020/): Zhang X, Tan R, Lam WC, Cheng CW, Yao L, Wang XQ, Li SY, Aixinjueluo QY, Yang KH, Shang HC, Wu TX, Lyu AP, Bian ZX. PRISMA extension for moxibustion 2020: recommendations, explanation, and elaboration. Syst Rev. 2020;9(1):247. PMID: [33100229](https://pubmed.ncbi.nlm.nih.gov/33100229/)
 
-  [**PRISMA-S**](https://dev.equator-network.org/reporting-guidelines/prisma-s/): Rethlefsen ML, Kirtley S, Waffenschmidt S, Ayala AP, Moher D, Page MJ, Koffel JB; PRISMA-S Group. PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews.
+  [**PRISMA-S**](/reporting-guidelines/prisma-s/): Rethlefsen ML, Kirtley S, Waffenschmidt S, Ayala AP, Moher D, Page MJ, Koffel JB; PRISMA-S Group. PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews.
 
   Syst Rev. 2021;10(1):39. PMID: [33499930](https://pubmed.ncbi.nlm.nih.gov/33499930/)
 
   J Med Libr Assoc. 2021;109(2):174-200. PMID: [34285662](https://pubmed.ncbi.nlm.nih.gov/34285662/)
 
-  [**PRISMA-COSMIN for OMIs**](https://www.equator-network.org/reporting-guidelines/guideline-for-reporting-systematic-reviews-of-outcome-measurement-instruments-omis-prisma-cosmin-for-omis-2024/): Elsman EBM, Mokkink LB, Terwee CB, Beaton D, Gagnier JJ, Tricco AC, Baba A, Butcher NJ, Smith M, Hofstetter C, Lee Aiyegbusi O, Berardi A, Farmer J, Haywood KL, Krause KR, Markham S, Mayo-Wilson E, Mehdipour A, Ricketts J, Szatmari P, Touma Z, Moher D, Offringa M. Guideline for reporting systematic reviews of outcome measurement instruments (OMIs): PRISMA-COSMIN for OMIs 2024.
+  [**PRISMA-COSMIN for OMIs**](/reporting-guidelines/guideline-for-reporting-systematic-reviews-of-outcome-measurement-instruments-omis-prisma-cosmin-for-omis-2024/): Elsman EBM, Mokkink LB, Terwee CB, Beaton D, Gagnier JJ, Tricco AC, Baba A, Butcher NJ, Smith M, Hofstetter C, Lee Aiyegbusi O, Berardi A, Farmer J, Haywood KL, Krause KR, Markham S, Mayo-Wilson E, Mehdipour A, Ricketts J, Szatmari P, Touma Z, Moher D, Offringa M. Guideline for reporting systematic reviews of outcome measurement instruments (OMIs): PRISMA-COSMIN for OMIs 2024.
 
   J Clin Epidemiol. 2024:111422. PMID: [38849061](https://pubmed.ncbi.nlm.nih.gov/38849061/)
 
@@ -86,7 +86,7 @@ relevant-more: |-
 
   J Patient Rep Outcomes. 2024;8(1):64. PMID: [38977535](https://pubmed.ncbi.nlm.nih.gov/38977535/)
 
-  [**PRISMA-LSR**](https://www.equator-network.org/reporting-guidelines/prisma-lsr/): Akl EA, Khabsa J, Iannizzi C, Piechotta V, Kahale LA, Barker JM, McKenzie JE, Page MJ, Skoetz N; PRISMA-LSR Group. Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR): checklist and explanation. BMJ. 2024;387:e079183. PMID: [39562017](https://pubmed.ncbi.nlm.nih.gov/39562017/)
+  [**PRISMA-LSR**](/reporting-guidelines/prisma-lsr/): Akl EA, Khabsa J, Iannizzi C, Piechotta V, Kahale LA, Barker JM, McKenzie JE, Page MJ, Skoetz N; PRISMA-LSR Group. Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR): checklist and explanation. BMJ. 2024;387:e079183. PMID: [39562017](https://pubmed.ncbi.nlm.nih.gov/39562017/)
 website-url: <http://www.prisma-statement.org/Extensions/DTA>
 additional-languages: ''
 additional-information: ''

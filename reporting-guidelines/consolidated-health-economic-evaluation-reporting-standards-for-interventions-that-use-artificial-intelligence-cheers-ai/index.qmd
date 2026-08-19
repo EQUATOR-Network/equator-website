@@ -23,7 +23,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  **[CHEERS](https://www.equator-network.org/reporting-guidelines/cheers/)**: Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf J, Mullins CD, Petrou S, Pwu RF, Staniszewska S; CHEERS 2022 ISPOR Good Research Practices Task Force. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Statement: Updated Reporting Guidance for Health Economic Evaluations.
+  **[CHEERS](/reporting-guidelines/cheers/)**: Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf J, Mullins CD, Petrou S, Pwu RF, Staniszewska S; CHEERS 2022 ISPOR Good Research Practices Task Force. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Statement: Updated Reporting Guidance for Health Economic Evaluations.
 
   Value Health. 2022;25(1):3-9. PMID: [35031096](https://pubmed.ncbi.nlm.nih.gov/35031096/)
 
@@ -57,7 +57,7 @@ relevant-more: |-
 
   **Specialised**
 
-  **[CHEERS-VOI](https://www.equator-network.org/reporting-guidelines/cheers-voi/)**: Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: [37414276](https://pubmed.ncbi.nlm.nih.gov/37414276/)
+  **[CHEERS-VOI](/reporting-guidelines/cheers-voi/)**: Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: [37414276](https://pubmed.ncbi.nlm.nih.gov/37414276/)
 website-url: ''
 additional-languages: ''
 additional-information: ''

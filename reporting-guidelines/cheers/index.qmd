@@ -83,9 +83,9 @@ guideline-history: |-
 relevant-more: |-
   **Specialised**
 
-  [**CHEERS-VOI**](https://www.equator-network.org/reporting-guidelines/cheers-voi/): Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: [37414276](https://pubmed.ncbi.nlm.nih.gov/37414276/)
+  [**CHEERS-VOI**](/reporting-guidelines/cheers-voi/): Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: [37414276](https://pubmed.ncbi.nlm.nih.gov/37414276/)
 
-  [**CHEERS-AI**](https://www.equator-network.org/reporting-guidelines/consolidated-health-economic-evaluation-reporting-standards-for-interventions-that-use-artificial-intelligence-cheers-ai/): Elvidge J, Hawksworth C, Avşar TS, Zemplenyi A, Chalkidou A, Petrou S, Petykó Z, Srivastava D, Chandra G, Delaye J, Denniston A, Gomes M, Knies S, Nousios P, Siirtola P, Wang J, Dawoud D. Consolidated Health Economic Evaluation Reporting Standards for Interventions that use Artificial Intelligence (CHEERS-AI). Value Health. 2024:S1098-3015(24)02366-0. PMID: [38795956](https://pubmed.ncbi.nlm.nih.gov/38795956/)
+  [**CHEERS-AI**](/reporting-guidelines/consolidated-health-economic-evaluation-reporting-standards-for-interventions-that-use-artificial-intelligence-cheers-ai/): Elvidge J, Hawksworth C, Avşar TS, Zemplenyi A, Chalkidou A, Petrou S, Petykó Z, Srivastava D, Chandra G, Delaye J, Denniston A, Gomes M, Knies S, Nousios P, Siirtola P, Wang J, Dawoud D. Consolidated Health Economic Evaluation Reporting Standards for Interventions that use Artificial Intelligence (CHEERS-AI). Value Health. 2024:S1098-3015(24)02366-0. PMID: [38795956](https://pubmed.ncbi.nlm.nih.gov/38795956/)
 website-url: ''
 additional-languages: |-
   CHEERS 2022

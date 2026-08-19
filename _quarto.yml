@@ -33,7 +33,7 @@ website:
   page-footer:
     left: |
       Created by the
-      [UK EQUATOR Centre](https://www.equator-network.org/about-us/uk-equator-centre/)
+      [UK EQUATOR Centre](/about/uk-equator-centre.qmd)
     center:
       - text: "Terms of Use"
         href: terms-of-use.qmd

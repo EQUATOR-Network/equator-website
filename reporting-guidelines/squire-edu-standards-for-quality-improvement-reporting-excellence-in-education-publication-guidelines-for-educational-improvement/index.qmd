@@ -22,7 +22,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**SQUIRE 2.0**](https://www.equator-network.org/reporting-guidelines/squire/): Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process.
+  [**SQUIRE 2.0**](/reporting-guidelines/squire/): Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process.
 
   BMJ Qual Saf. 2015. PMID: [26369893](http://www.ncbi.nlm.nih.gov/pubmed/26369893)
 
@@ -40,7 +40,7 @@ relevant-more: |-
 
   **Specialised**
 
-  [**SQUIRE-SIM**](https://www.equator-network.org/reporting-guidelines/squire-sim-standards-for-quality-improvement-reporting-excellence-for-simulation-publication-guidelines-for-simulation-based-quality-improvement-projects/): Stone KP, Rutman L, Calhoun AW, Reid J, Maa T, Bajaj K, Auerbach MA, Cheng A, Davies L, Deutsch E, Harwayne-Gidansky I, Kessler DO, Ogrinc G, Patterson M, Thomas A, Doughty C; And for the International Network in Simulation-Based Innovation, Research and Education (INSPIRE) SQUIRE-SIM Reporting Guidelines Investigators. SQUIRE-SIM (Standards for Quality Improvement Reporting Excellence for SIMulation): Publication Guidelines for Simulation-Based Quality Improvement Projects. Simul Healthc. 2024. PMID: [39162794](https://pubmed.ncbi.nlm.nih.gov/39162794/)
+  [**SQUIRE-SIM**](/reporting-guidelines/squire-sim-standards-for-quality-improvement-reporting-excellence-for-simulation-publication-guidelines-for-simulation-based-quality-improvement-projects/): Stone KP, Rutman L, Calhoun AW, Reid J, Maa T, Bajaj K, Auerbach MA, Cheng A, Davies L, Deutsch E, Harwayne-Gidansky I, Kessler DO, Ogrinc G, Patterson M, Thomas A, Doughty C; And for the International Network in Simulation-Based Innovation, Research and Education (INSPIRE) SQUIRE-SIM Reporting Guidelines Investigators. SQUIRE-SIM (Standards for Quality Improvement Reporting Excellence for SIMulation): Publication Guidelines for Simulation-Based Quality Improvement Projects. Simul Healthc. 2024. PMID: [39162794](https://pubmed.ncbi.nlm.nih.gov/39162794/)
 website-url: <http://www.squire-statement.org/index.cfm?fuseaction=Page.ViewPage&pageId=515>
 additional-languages: ''
 additional-information: ''

@@ -23,7 +23,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**CARE**](https://www.equator-network.org/reporting-guidelines/care/): Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development.
+  [**CARE**](/reporting-guidelines/care/): Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development.
 
   BMJ Case Rep. 2013; doi: 10.1136/bcr-2013-201554 PMID: [24155002](http://www.ncbi.nlm.nih.gov/pubmed/24155002)
 
@@ -41,7 +41,7 @@ relevant-more: |-
 
   **Specialised**
 
-  **[Therapeutic Massage and Bodywork](https://www.equator-network.org/reporting-guidelines/adaptation-of-the-care-guidelines-for-therapeutic-massage-and-bodywork-publications-efforts-to-improve-the-impact-of-case-reports/)**: Munk N, Boulanger K. Adaptation of the CARE Guidelines for Therapeutic Massage and Bodywork Publications: Efforts To Improve the Impact of Case Reports. Int J Ther Massage Bodywork. 2014;7(3):32-40. PMID: [25184013](https://www.ncbi.nlm.nih.gov/pubmed/25184013)
+  **[Therapeutic Massage and Bodywork](/reporting-guidelines/adaptation-of-the-care-guidelines-for-therapeutic-massage-and-bodywork-publications-efforts-to-improve-the-impact-of-case-reports/)**: Munk N, Boulanger K. Adaptation of the CARE Guidelines for Therapeutic Massage and Bodywork Publications: Efforts To Improve the Impact of Case Reports. Int J Ther Massage Bodywork. 2014;7(3):32-40. PMID: [25184013](https://www.ncbi.nlm.nih.gov/pubmed/25184013)
 website-url: ''
 additional-languages: ''
 additional-information: '[Read the study protocol](https://atm.amegroups.org/article/view/88322/html)

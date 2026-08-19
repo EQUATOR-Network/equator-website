@@ -21,7 +21,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**TIDieR**](https://www.equator-network.org/reporting-guidelines/tidier/): Hoffmann T, Glasziou P, Boutron I, Milne R, Perera R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M, McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. BMJ. 2014;348:g1687. PMID: [24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)
+  [**TIDieR**](/reporting-guidelines/tidier/): Hoffmann T, Glasziou P, Boutron I, Milne R, Perera R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M, McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. BMJ. 2014;348:g1687. PMID: [24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)
 website-url: ''
 additional-languages: ''
 additional-information: ''

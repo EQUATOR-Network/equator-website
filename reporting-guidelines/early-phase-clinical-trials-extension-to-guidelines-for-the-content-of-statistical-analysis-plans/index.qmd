@@ -24,7 +24,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  **[Clinical Trial Statistical Analysis Plans](https://www.equator-network.org/reporting-guidelines/guidelines-for-the-content-of-statistical-analysis-plans-in-clinical-trials/)**: Gamble C, Krishan A, Stocken D, Lewis S, Juszczak E, Doré C, Williamson PR, Altman DG, Montgomery A, Lim P, Berlin J, Senn S, Day S, Barbachano Y, Loder E. Guidelines for the Content of Statistical Analysis Plans in Clinical Trials. JAMA. 2017;318(23):2337-2343. PMID: [29260229](https://pubmed.ncbi.nlm.nih.gov/29260229/)
+  **[Clinical Trial Statistical Analysis Plans](/reporting-guidelines/guidelines-for-the-content-of-statistical-analysis-plans-in-clinical-trials/)**: Gamble C, Krishan A, Stocken D, Lewis S, Juszczak E, Doré C, Williamson PR, Altman DG, Montgomery A, Lim P, Berlin J, Senn S, Day S, Barbachano Y, Loder E. Guidelines for the Content of Statistical Analysis Plans in Clinical Trials. JAMA. 2017;318(23):2337-2343. PMID: [29260229](https://pubmed.ncbi.nlm.nih.gov/29260229/)
 website-url: ''
 additional-languages: ''
 additional-information: ''

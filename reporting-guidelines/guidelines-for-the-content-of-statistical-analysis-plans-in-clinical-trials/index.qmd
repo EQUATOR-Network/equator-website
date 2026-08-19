@@ -22,7 +22,7 @@ guideline-history: ''
 relevant-more: |-
   **Specialised**
 
-  **[Early phase clinical trial statistical analysis plans](https://www.equator-network.org/reporting-guidelines/early-phase-clinical-trials-extension-to-guidelines-for-the-content-of-statistical-analysis-plans/)**: Homer V, Yap C, Bond S, Holmes J, Stocken D, Walker K, Robinson EJ, Wheeler G, Brown S, Hinsley S, Schipper M, Weir CJ, Rantell K, Prior T, Yu LM, Kirkpatrick J, Bedding A, Gamble C, Gaunt P. Early phase clinical trials extension to guidelines for the content of statistical analysis plans. BMJ. 2022;376:e068177. PMID: [35131744](https://pubmed.ncbi.nlm.nih.gov/35131744/)
+  **[Early phase clinical trial statistical analysis plans](/reporting-guidelines/early-phase-clinical-trials-extension-to-guidelines-for-the-content-of-statistical-analysis-plans/)**: Homer V, Yap C, Bond S, Holmes J, Stocken D, Walker K, Robinson EJ, Wheeler G, Brown S, Hinsley S, Schipper M, Weir CJ, Rantell K, Prior T, Yu LM, Kirkpatrick J, Bedding A, Gamble C, Gaunt P. Early phase clinical trials extension to guidelines for the content of statistical analysis plans. BMJ. 2022;376:e068177. PMID: [35131744](https://pubmed.ncbi.nlm.nih.gov/35131744/)
 website-url: <http://lctc.org.uk/SAP-Statement>
 additional-languages: ''
 additional-information: ''

@@ -21,13 +21,13 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**TIDieR**](https://www.equator-network.org/reporting-guidelines/tidier/): Hoffmann T, Glasziou P, Boutron I, Milne R, Perera R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M, McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. BMJ. 2014;348:g1687. PMID: [24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)
+  [**TIDieR**](/reporting-guidelines/tidier/): Hoffmann T, Glasziou P, Boutron I, Milne R, Perera R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M, McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. BMJ. 2014;348:g1687. PMID: [24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)
 
   **Specialisd**
 
-  [**TIDieR-PHP**](https://www.equator-network.org/reporting-guidelines/tidier-php-a-reporting-guideline-for-population-health-and-policy-interventions/): Campbell M, Katikireddi SV, Hoffmann T, Armstrong R, Waters E, Craig P. TIDieR-PHP: a reporting guideline for population health and policy interventions. BMJ. 2018;361:k1079. PMID: [29769210](https://www.ncbi.nlm.nih.gov/pubmed/29769210)
+  [**TIDieR-PHP**](/reporting-guidelines/tidier-php-a-reporting-guideline-for-population-health-and-policy-interventions/): Campbell M, Katikireddi SV, Hoffmann T, Armstrong R, Waters E, Craig P. TIDieR-PHP: a reporting guideline for population health and policy interventions. BMJ. 2018;361:k1079. PMID: [29769210](https://www.ncbi.nlm.nih.gov/pubmed/29769210)
 
-  [**TIDieR-C**](https://www.equator-network.org/reporting-guidelines/tidier-c/): Goren K, Lai VKW, Baba A, Smith M, Allegaert K, Butcher NJ, Fernandes R, Gill PJ, Hartling L, Juszczak E, Longmuir PE, Macarthur C, Mehta K, Metz D, Nguyen KA, Odermarsky M, Poluru R, Purper-Ouakil D, Reggiardo G, Stratton C, Szatmari P, Trivedi A, Upton J, Hoffmann T, Offringa M. Transparent Reporting of Pediatric Clinical Trial Interventions: TIDieR-Children and Adolescents. Pediatrics. 2025 Nov 1;156(5):e2025072867. PMID: [41087014](https://pubmed.ncbi.nlm.nih.gov/41087014/)
+  [**TIDieR-C**](/reporting-guidelines/tidier-c/): Goren K, Lai VKW, Baba A, Smith M, Allegaert K, Butcher NJ, Fernandes R, Gill PJ, Hartling L, Juszczak E, Longmuir PE, Macarthur C, Mehta K, Metz D, Nguyen KA, Odermarsky M, Poluru R, Purper-Ouakil D, Reggiardo G, Stratton C, Szatmari P, Trivedi A, Upton J, Hoffmann T, Offringa M. Transparent Reporting of Pediatric Clinical Trial Interventions: TIDieR-Children and Adolescents. Pediatrics. 2025 Nov 1;156(5):e2025072867. PMID: [41087014](https://pubmed.ncbi.nlm.nih.gov/41087014/)
 website-url: <http://www.tidierguide.org/>
 additional-languages: ''
 additional-information: |-

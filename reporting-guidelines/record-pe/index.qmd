@@ -23,7 +23,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**RECORD**](https://www.equator-network.org/reporting-guidelines/record/): Benchimol EI, Smeeth L, Guttmann A, Harron K, Moher D, Petersen I, Sørensen HT, von Elm E, Langan SM; RECORD Working Committee. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement. PLoS Med. 2015;12(10):e1001885. PMID: [26440803](http://www.ncbi.nlm.nih.gov/pubmed/26440803)
+  [**RECORD**](/reporting-guidelines/record/): Benchimol EI, Smeeth L, Guttmann A, Harron K, Moher D, Petersen I, Sørensen HT, von Elm E, Langan SM; RECORD Working Committee. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement. PLoS Med. 2015;12(10):e1001885. PMID: [26440803](http://www.ncbi.nlm.nih.gov/pubmed/26440803)
 website-url: <http://www.record-statement.org/checklist-pe.php>
 additional-languages: |-
   RECORD-PE is available in:

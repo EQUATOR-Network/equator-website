@@ -23,7 +23,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic
 
-  [STARD](https://www.equator-network.org/reporting-guidelines/stard/):** Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig L, LijmerJG Moher D, Rennie D, de Vet HCW, Kressel HY, Rifai N, Golub RM, Altman DG, Hooft L, Korevaar DA, Cohen JF, For the STARD Group. STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy Studies.
+  [STARD](/reporting-guidelines/stard/):** Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig L, LijmerJG Moher D, Rennie D, de Vet HCW, Kressel HY, Rifai N, Golub RM, Altman DG, Hooft L, Korevaar DA, Cohen JF, For the STARD Group. STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy Studies.
 
   BMJ 2015;351:h5527. PMID: [26511519](http://www.ncbi.nlm.nih.gov/pubmed/26511519)
 
@@ -33,11 +33,11 @@ relevant-more: |-
 
   **Specialised**
 
-  [**STRADAS-paraTB**](https://www.equator-network.org/reporting-guidelines/consensus-based-reporting-standards-for-diagnostic-test-accuracy-studies-for-paratuberculosis-in-ruminants/): Gardner IA, Nielsen SS, Whittington RJ, Collins MT, Bakker D, Harris B, Sreevatsan S, Lombard JE, Sweeney R, Smith DR, Gavalchin J, Eda S. Consensus-based reporting standards for diagnostic test accuracy studies for paratuberculosis in ruminants. Prev Vet Med. 2011;101(1-2):18-34. PMID: [21601933](http://www.ncbi.nlm.nih.gov/pubmed/21601933)
+  [**STRADAS-paraTB**](/reporting-guidelines/consensus-based-reporting-standards-for-diagnostic-test-accuracy-studies-for-paratuberculosis-in-ruminants/): Gardner IA, Nielsen SS, Whittington RJ, Collins MT, Bakker D, Harris B, Sreevatsan S, Lombard JE, Sweeney R, Smith DR, Gavalchin J, Eda S. Consensus-based reporting standards for diagnostic test accuracy studies for paratuberculosis in ruminants. Prev Vet Med. 2011;101(1-2):18-34. PMID: [21601933](http://www.ncbi.nlm.nih.gov/pubmed/21601933)
 
-  [**STARD-BLCM**](https://www.equator-network.org/reporting-guidelines/stard-blcm/): Kostoulas P, Nielsen SS, Branscum AJ, Johnson WO, Dendukuri N, Dhand NK, Toft N, Gardner IA. STARD-BLCM: Standards for the Reporting of Diagnostic accuracy studies that use Bayesian Latent Class Models. Prev Vet Med. 2017; 138:37-47. PMID: [28237234](https://www.ncbi.nlm.nih.gov/pubmed/28237234)
+  [**STARD-BLCM**](/reporting-guidelines/stard-blcm/): Kostoulas P, Nielsen SS, Branscum AJ, Johnson WO, Dendukuri N, Dhand NK, Toft N, Gardner IA. STARD-BLCM: Standards for the Reporting of Diagnostic accuracy studies that use Bayesian Latent Class Models. Prev Vet Med. 2017; 138:37-47. PMID: [28237234](https://www.ncbi.nlm.nih.gov/pubmed/28237234)
 
-  [**STARD for Abstracts**](https://www.equator-network.org/reporting-guidelines/stard-abstracts/): Cohen JF, Korevaar DA, Gatsonis CA, Glasziou PP, Hooft L, Moher D, Reitsma JB, de Vet HC, Bossuyt PM; STARD Group. STARD for Abstracts: essential items for reporting diagnostic accuracy studies in journal or conference abstracts. BMJ. 2017;358:j3751. PMID: [28819063](https://www.ncbi.nlm.nih.gov/pubmed/28819063)
+  [**STARD for Abstracts**](/reporting-guidelines/stard-abstracts/): Cohen JF, Korevaar DA, Gatsonis CA, Glasziou PP, Hooft L, Moher D, Reitsma JB, de Vet HC, Bossuyt PM; STARD Group. STARD for Abstracts: essential items for reporting diagnostic accuracy studies in journal or conference abstracts. BMJ. 2017;358:j3751. PMID: [28819063](https://www.ncbi.nlm.nih.gov/pubmed/28819063)
 website-url: <http://www.starddem.org/>
 additional-languages: ''
 additional-information: ''

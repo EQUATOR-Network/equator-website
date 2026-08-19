@@ -20,7 +20,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**[
 
-  **CERT**](https://www.equator-network.org/reporting-guidelines/consensus-on-exercise-reporting-template-cert/): Slade SC, Dionne CE, Underwood M, Buchbinder R, Beck B, Bennell K, Brosseau L, Costa L, Cramp F, Cup E, Feehan L, Ferreira M, Forbes S, Glasziou P, Habets B, Harris S, Hay-Smith J, Hillier S, Hinman R, Holland A, Hondras M, Kelly G, Kent P, Lauret GJ, Long A, Maher C, Morso L, Osteras N, Peterson T, Quinlivan R, Rees K, Regnaux JP, Rietberg M, Saunders D, Skoetz N, Sogaard K, Takken T, van Tulder M, Voet N, Ward L, White C. Consensus on Exercise Reporting Template (CERT): Modified Delphi Study. Phys Ther. 2016;96(10):1514-1524. PMID: [27149962](https://www.ncbi.nlm.nih.gov/pubmed/27149962)
+  **CERT**](/reporting-guidelines/consensus-on-exercise-reporting-template-cert/): Slade SC, Dionne CE, Underwood M, Buchbinder R, Beck B, Bennell K, Brosseau L, Costa L, Cramp F, Cup E, Feehan L, Ferreira M, Forbes S, Glasziou P, Habets B, Harris S, Hay-Smith J, Hillier S, Hinman R, Holland A, Hondras M, Kelly G, Kent P, Lauret GJ, Long A, Maher C, Morso L, Osteras N, Peterson T, Quinlivan R, Rees K, Regnaux JP, Rietberg M, Saunders D, Skoetz N, Sogaard K, Takken T, van Tulder M, Voet N, Ward L, White C. Consensus on Exercise Reporting Template (CERT): Modified Delphi Study. Phys Ther. 2016;96(10):1514-1524. PMID: [27149962](https://www.ncbi.nlm.nih.gov/pubmed/27149962)
 website-url: ''
 additional-languages: ''
 additional-information: ''

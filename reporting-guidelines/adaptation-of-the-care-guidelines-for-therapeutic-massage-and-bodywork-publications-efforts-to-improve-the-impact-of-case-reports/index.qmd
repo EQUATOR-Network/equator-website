@@ -20,7 +20,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**CARE**](https://www.equator-network.org/reporting-guidelines/care/): Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development.
+  [**CARE**](/reporting-guidelines/care/): Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development.
 
   BMJ Case Rep. 2013; doi: 10.1136/bcr-2013-201554 PMID: [24155002](http://www.ncbi.nlm.nih.gov/pubmed/24155002)
 
@@ -38,7 +38,7 @@ relevant-more: |-
 
   **Specialised**
 
-  [**CARE-radiology**](https://www.equator-network.org/reporting-guidelines/care-radiology-statement-explanation-and-elaboration-reporting-guideline-for-radiological-case-reports/): Wang M, Luo X, Xiao X, Zhang L, Wang Q, Wang S, Wang X, Xue H, Zhang L, Chen Y, Lei J, Štupnik T, Scarci M, Fiorelli A, Laisaar T, Fruscio R, Elkhayat H, Novoa NM, Davoli F, Waseda R, Estill J, Norris SL, Riley DS, Tian J. CARE-radiology statement explanation and elaboration: reporting guideline for radiological case reports. BMJ Evid Based Med. 2024:bmjebm-2023-112695. PMID: [38458654](https://pubmed.ncbi.nlm.nih.gov/38458654/)
+  [**CARE-radiology**](/reporting-guidelines/care-radiology-statement-explanation-and-elaboration-reporting-guideline-for-radiological-case-reports/): Wang M, Luo X, Xiao X, Zhang L, Wang Q, Wang S, Wang X, Xue H, Zhang L, Chen Y, Lei J, Štupnik T, Scarci M, Fiorelli A, Laisaar T, Fruscio R, Elkhayat H, Novoa NM, Davoli F, Waseda R, Estill J, Norris SL, Riley DS, Tian J. CARE-radiology statement explanation and elaboration: reporting guideline for radiological case reports. BMJ Evid Based Med. 2024:bmjebm-2023-112695. PMID: [38458654](https://pubmed.ncbi.nlm.nih.gov/38458654/)
 website-url: ''
 additional-languages: ''
 additional-information: ''

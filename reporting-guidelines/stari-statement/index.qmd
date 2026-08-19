@@ -25,7 +25,7 @@ guideline-history: ''
 relevant-more: |-
   **Specialised**
 
-  [**RIMES-SE**](https://www.equator-network.org/reporting-guidelines/the-reporting-recommendations-intended-for-pharmaceutical-risk-minimization-evaluation-studies-standards-for-reporting-of-implementation-studies-extension-rimes-se/): Smith MY, Morrato EH, Mora N, Nguyen V, Pinnock H, Winterstein AG. The Reporting Recommendations Intended for Pharmaceutical Risk Minimization Evaluation Studies: Standards for Reporting of Implementation Studies Extension (RIMES-SE). Drug Saf. 2024. PMID: [38478350](https://pubmed.ncbi.nlm.nih.gov/38478350/)
+  [**RIMES-SE**](/reporting-guidelines/the-reporting-recommendations-intended-for-pharmaceutical-risk-minimization-evaluation-studies-standards-for-reporting-of-implementation-studies-extension-rimes-se/): Smith MY, Morrato EH, Mora N, Nguyen V, Pinnock H, Winterstein AG. The Reporting Recommendations Intended for Pharmaceutical Risk Minimization Evaluation Studies: Standards for Reporting of Implementation Studies Extension (RIMES-SE). Drug Saf. 2024. PMID: [38478350](https://pubmed.ncbi.nlm.nih.gov/38478350/)
 website-url: ''
 additional-languages: ''
 additional-information: Read the StaRI [guideline development proposal document (PDF)](Proposal-for-reporting-guidelines-of-Implementation-Research-StaRI.pdf).

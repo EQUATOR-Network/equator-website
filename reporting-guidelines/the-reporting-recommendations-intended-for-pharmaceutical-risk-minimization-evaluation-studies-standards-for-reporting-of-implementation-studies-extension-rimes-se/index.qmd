@@ -23,7 +23,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**StaRI**](https://www.equator-network.org/reporting-guidelines/stari-statement/): Pinnock H, Barwick M, Carpenter CR, Eldridge S, Grandes G, Griffiths CJ, Rycroft-Malone J, Meissner P, Murray E, Patel A, Sheikh A, Taylor SJC, for the StaRI group. Standards for Reporting Implementation Studies (StaRI) statement. BMJ. 2017;356:i6795. PMID: [28264797](https://www.ncbi.nlm.nih.gov/pubmed/28264797)
+  [**StaRI**](/reporting-guidelines/stari-statement/): Pinnock H, Barwick M, Carpenter CR, Eldridge S, Grandes G, Griffiths CJ, Rycroft-Malone J, Meissner P, Murray E, Patel A, Sheikh A, Taylor SJC, for the StaRI group. Standards for Reporting Implementation Studies (StaRI) statement. BMJ. 2017;356:i6795. PMID: [28264797](https://www.ncbi.nlm.nih.gov/pubmed/28264797)
 website-url: ''
 additional-languages: ''
 additional-information: ''
