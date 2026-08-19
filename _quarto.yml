@@ -46,7 +46,7 @@ website:
         aria-label: Quarto Twitter
       - icon: github
         aria-label: EQUATOR GitHub
-        href: github
+        href: https://github.com/EQUATOR-Network/equator-website
   page-navigation: true
   open-graph: true
 
