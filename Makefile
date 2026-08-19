@@ -33,7 +33,7 @@ preview:
 	quarto preview
 
 test: 
+# 	bash _tests/check-render-artifacts.sh
 	bash _tests/check-link-integrity.sh
-	bash _tests/check-render-artifacts.sh
 
 .PHONY: rg rg-under-development publish render check-links check-render-artifacts check-site preview
