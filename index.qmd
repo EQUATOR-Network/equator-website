@@ -239,7 +239,7 @@ accurate reporting and wider use of robust reporting guidelines.
 
 We advance the work done by individual guideline development groups. We
 maintain a database of reporting guidelines, run [training
-courses](training.qmd) on how to write research articles, have resources
+courses](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school) on how to write research articles, have resources
 for
 [publishers](https://www.equator-network.org/toolkits/using-guidelines-in-journals/),
 [peer
@@ -288,7 +288,7 @@ The UK EQUATOR Centre’s [Publication School]{.emphasise} is a hands-on
 course designed for early-career researchers who want to take control of
 the writing process and get their work out into the world.
 
-[Learn more »](training.qmd)
+[Learn more »](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school)
 
 <!-- lead -->
 ::::
