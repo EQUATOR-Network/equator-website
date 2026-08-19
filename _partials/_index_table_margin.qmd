@@ -18,11 +18,10 @@ editor:
 | [CARE](/reporting-guidelines/care) | Case Reports |
 | [STARD](/reporting-guidelines/stard) | Diagnostic studies |
 | [TRIPOD+AI](/reporting-guidelines/tripod-statement/) | Prediction Models |
-| [ARRIVE](/reporting-guidelines/arrive) | Animal Research |
+| [ARRIVE](/reporting-guidelines/improving-bioscience-research-reporting-the-arrive-guidelines-for-reporting-animal-research) | Animal Research |
 | [SQUIRE](/reporting-guidelines/squire) | Quality Improvement |
 | [CHEERS](/reporting-guidelines/cheers/) | Economic Evaluations |
-| | [Search all](/reporting-guidelines/index.qmd) |
+|  | [Search all](/reporting-guidelines/index.qmd) |
 
 : {tbl-colwidths="\[35,65\]"}
-
 :::

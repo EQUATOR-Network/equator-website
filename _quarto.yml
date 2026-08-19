@@ -57,7 +57,12 @@ format:
     toc: true
     title-block-banner: true
     title-block-banner-color: white
-
+    grid:
+      sidebar-width: 250px
+      body-width: 800px
+      margin-width: 300px
+    link-external-icon: true
+    link-external-newwindow: true
 
 
 
