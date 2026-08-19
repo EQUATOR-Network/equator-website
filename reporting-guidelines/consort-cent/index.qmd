@@ -60,7 +60,7 @@ relevant-more: |-
 
   **[CONSORT PRO](https://www.equator-network.org/reporting-guidelines/consort-pro/)**: Calvert M, Blazeby J, Altman DG, Revicki DA, Moher D, Brundage MD; CONSORT PRO Group. Reporting of patient-reported outcomes in randomized trials: the CONSORT PRO extension. JAMA. 2013;309(8):814-22. PMID: [23443445](http://www.ncbi.nlm.nih.gov/pubmed/23443445)
 
-  **[CONSORT for orthodontic trials](%20/reporting-guidelines/the-consort-statement-application-within-and-adaptations-for-orthodontic-trials/)**: Pandis N, Fleming PS, Hopewell S, Altman DG. The CONSORT Statement: Application within and adaptations for orthodontic trials. Am J Orthod Dentofacial Orthop. 2015;147(6):663-679. PMID: [26038070](http://www.ncbi.nlm.nih.gov/pubmed/26038070)
+  **[CONSORT for orthodontic trials](reporting-guidelines/the-consort-statement-application-within-and-adaptations-for-orthodontic-trials/)**: Pandis N, Fleming PS, Hopewell S, Altman DG. The CONSORT Statement: Application within and adaptations for orthodontic trials. Am J Orthod Dentofacial Orthop. 2015;147(6):663-679. PMID: [26038070](http://www.ncbi.nlm.nih.gov/pubmed/26038070)
 
   **[TIDieR](https://www.equator-network.org/reporting-guidelines/tidier/)**: Hoffmann T, Glasziou P, Boutron I, Milne R, Perera R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M, McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. BMJ. 2014;348:g1687. PMID: [24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)
 

@@ -37,7 +37,7 @@ They break the writing process into manageable pieces. Read the guidance before 
 
 You decide how best to arrange information, and whether to present it in the article body, in a figure or table, or in a supplement. 
 
-To learn more about writing skills, develop good writing habits, and how to use reporting guidelines, see our [training](/training.qmd). 
+To learn more about writing skills, develop good writing habits, and how to use reporting guidelines, see our [training](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school). 
 
 <!-- [Read more about writing guides](writing-using-reporting-guidelines.qmd) -->
 
