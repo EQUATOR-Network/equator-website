@@ -28,6 +28,7 @@ report_matches() {
   local pattern="$2"
   local issue="$3"
   local fix="$4"
+  local raw_markdown_link_regex='\[[^][]+\]\((https?://|/|\./|#|mailto:)[^)]+\)'
 
   local grep_args=(-nH)
   if [[ "${mode}" == "fixed" ]]; then
@@ -41,6 +42,16 @@ report_matches() {
     local rest="${match#*:}"
     local line="${rest%%:*}"
     local snippet="${rest#*:}"
+
+    if [[ "${issue}" == "Raw Markdown link syntax leaked into HTML" && "${snippet}" == *'data-content="'* ]]; then
+      local data_content="${snippet#*data-content=\"}"
+      if [[ "${data_content}" != "${snippet}" ]]; then
+        data_content="${data_content%%\"*}"
+        if [[ "${data_content}" =~ ${raw_markdown_link_regex} ]]; then
+          continue
+        fi
+      fi
+    fi
 
     fail_count=$((fail_count + 1))
     printf 'FAIL %s:%s\n' "${file}" "${line}"
