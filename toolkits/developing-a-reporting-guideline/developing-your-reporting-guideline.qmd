@@ -1,0 +1,43 @@
+# Developing your reporting guideline
+
+Experienced guideline developers suggest holding a face-to-face consensus meeting. Before the meeting, they suggest running pre-meeting activities to generate a list of potential reporting-related items for discussing and prioritising at the meeting. The meeting is also used to plan the writing process and set the publication and dissemination strategy.
+
+## Pre-meeting: Identify and invite participants
+
+Stakeholders with a wide range of expertise should be included in the wider development group, including, for example,:
+
+- Statisticians
+- Epidemiologists
+- Methodologists
+- Content experts (at least 25% of the wider group)
+- Journal editors
+- Professional medical writers
+- Patient and the public representatives
+
+We suggest sending invitations to join the group at least 6 months before the face-to-face meeting.
+
+## Pre-meeting: Generate a list of items (e.g., Delphi exercise)
+
+A list of reporting items for discussion at the meeting can be generated from the original literature search and from expert consultation, then refined by wider consultation with stakeholders. Pre-meeting consultation also allows members of the development group who cannot attend the face-to-face meeting to give their input.
+
+Experienced developers often use an email Delphi consensus process to invite stakeholders to rate items identified from the literature and/or to add missing items to the list. Iterative rounds can be used to further refine the list. If the final list remains unmanageable, the executive group can decide to merge similar items or remove items that were rated as less important.
+
+## Pre-meeting: Decide meeting details
+
+The executive group should consider the following when planning the face-to-face meeting:
+
+- Size (max 30 people) and duration (1-3 days) of the meeting
+- Meeting logistics (venue, meals, transport, etc.) are best coordinated centrally, preferably by a dedicated coordinator
+- Meeting agenda
+- Pre-meeting materials for participants (background reading, initial item list)
+- Audio and or visual recording, with transcription and translation as needed
+
+## Face-to-face meeting
+
+The face-to-face meeting should generally cover the following activities:
+
+- Present background information and results of pre-meeting activities
+- Discuss each possible item, using empirical evidence, opinions collected pre-meeting, consensus opinion at the meeting, and voting if necessary to decide which items to include in the final guideline and/or checklist
+- Discuss other guideline requirements, such as developing a flow diagram of participants
+- Discuss the [publication strategy](./writing-up-and-publishing-your-reporting-guideline.qmd) for the guideline and assign responsibility for each step and authorship. In particular, decide responsibility for the [Explanation and Elaboration](./writing-up-and-publishing-your-reporting-guideline.qmd#EandE) document.
+- Discuss the [dissemination strategy](./disseminating-your-reporting-guideline.qmd) for the guideline and assign responsibility for each action.

@@ -14,8 +14,26 @@ website:
     logo: "assets/logos/equator_logo.png"
     logo-alt: EQUATOR Network Home Page
     right:
+      - text: Reporting Guidelines
+        menu: 
+          - text: What are reporting guidelines?
+            href: about/reporting-guidelines.qmd
+          - text: Search reporting guidelines
+            href: reporting-guidelines/index.qmd
+          - text: Search reporting guidelines under development
+            href: reporting-guidelines/under-development/index.qmd
       - href: https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school
         text: Training
+      - text: Toolkits
+        menu: 
+          - text: For authors
+            href: toolkits/writing-research.qmd
+          - text: For journals
+            href: toolkits/using-guidelines-in-journals.qmd
+          - text: For peer reviewers
+            href: toolkits/peer-reviewing-research.qmd
+          - text: For reporting guideline developers
+            href: toolkits/developing-a-reporting-guideline/index.qmd
       - text: About
         menu: 
           - text: The UK EQUATOR Centre
@@ -24,8 +42,6 @@ website:
             href: about/equator-network.qmd
           - text: International EQUATOR Centres
             href: about/international-equator-centres.qmd
-          - text: About reporting guidelines
-            href: about/reporting-guidelines.qmd
           - text: Contact
             href: about/contact.qmd
       - href: reporting-guidelines/index.qmd
@@ -49,6 +65,28 @@ website:
         href: https://github.com/EQUATOR-Network/equator-website
   page-navigation: true
   open-graph: true
+  sidebar:
+    - id: developers
+      title: "For reporting guideline developers"
+      style: "docked"
+      collapse-level: 2
+      contents:
+        - text: Introduction
+          href: toolkits/developing-a-reporting-guideline/index.qmd
+        - text: Identifying the need
+          href: toolkits/developing-a-reporting-guideline/identifying-the-need-for-a-new-reporting-guideline.qmd
+        - text: Getting ready
+          href: toolkits/developing-a-reporting-guideline/getting-ready-to-develop-your-guideline.qmd
+        - text: Developing
+          href: toolkits/developing-a-reporting-guideline/developing-your-reporting-guideline.qmd
+        - text: Writing up and publishing
+          href: toolkits/developing-a-reporting-guideline/writing-up-and-publishing-your-reporting-guideline.qmd
+        - text: Disseminating
+          href: toolkits/developing-a-reporting-guideline/disseminating-your-reporting-guideline.qmd
+        - text: Updating
+          href: toolkits/developing-a-reporting-guideline/updating-and-extending-your-reporting-guideline.qmd
+        - text: More resources
+          href: toolkits/developing-a-reporting-guideline/more-resources-on-developing-a-reporting-guideline.qmd
 
 format:
   html:
@@ -64,10 +102,10 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     include-in-header:
-      - scripts/headers.html
-      - scripts/gtm-head.html
+      - _scripts/headers.html
+      - _scripts/gtm-head.html
     include-before-body: 
-      - scripts/gtm-body.html
+      - _scripts/gtm-body.html
 
 
 

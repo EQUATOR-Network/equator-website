@@ -1,0 +1,34 @@
+# Getting ready to develop your guideline
+
+## Set up your executive group
+
+Developing a robust reporting guideline needs input from a wide range of stakeholders with differing areas of expertise. We suggest establishing a core ‘executive’ group to oversee guideline development and consulting with a much wider group throughout the development process. Ideally your executive group will include people from different organisations and countries, and will represent the stakeholder groups you will later engage with, including, for example:
+
+- Statisticians
+- Epidemiologists
+- Methodologists
+- Content experts
+- Journal editors
+- Professional medical writers
+- Patient and the public representatives
+
+If you’re developing an extension to an existing guideline, you can make it official by inviting members of the original guideline development group to join yours.
+
+## Register your reporting guideline
+
+As soon as you have identified the need for a new reporting guideline and have a solid plan for developing it, we encourage you to register with us. The EQUATOR Network keeps a [public register of guidelines that are either planned or under development](reporting-guidelines/under-development). Simply complete a brief form outlining details of the planned guideline and we will add an entry for the guideline to our register.
+
+You can keep the entry updated by sending us more information about your development process as it progresses. Often more than one group identifies the need for a guideline at the same time. By registering, we prevent duplication of effort and help collaboration by helping potential developers contact each other.
+
+## Review the literature
+
+Once you’ve identified that a new reporting guideline is needed, and considered whether a whole new guideline or an extension is most appropriate, you’ll need to do a thorough literature review. You should aim to
+
+- Identify any previous guidance in this area
+- Look for evidence of poor reporting in this area (expanding on what you did in step 1)
+- Identify information that could be a source of bias in this area, so should be considered for inclusion in the guideline
+- Write a protocol for developing your reporting guideline
+
+## Obtain funding
+
+Experienced guideline developers suggest obtaining funding for early development work, the main development in-person meeting, and post-meeting writing up. In 2010, it was estimated that developers should seek around CAN$120,000 to cover total costs.

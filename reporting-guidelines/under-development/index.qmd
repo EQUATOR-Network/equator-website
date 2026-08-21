@@ -1,6 +1,8 @@
 ---
 title: "Search Reporting Guidelines Under Development"
 page-layout: full
+aliases: 
+    - library/reporting-guidelines-under-development
 listing:
     contents: "*/index.qmd"
     type: table

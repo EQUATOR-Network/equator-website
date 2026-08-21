@@ -1,0 +1,17 @@
+# Updating and extending your reporting guideline
+
+## Measure your guideline’s impact
+
+We recommend assessing the impact of reporting guidelines. An external evaluation of your guideline’s impact is preferable. This could be done by encouraging journals that choose to endorse your guideline to measure its impact on the papers either submitted to or published by that journal.
+
+## Translate your guideline
+
+Many guidelines are translated to aid dissemination and uptake. Ensuring that the specific meaning of reporting items in the guideline remains the same after its translation is crucial. It is good translation practice to use a two-stage process (translation and back-translation) and include a member of the original guideline development team to check the back-translation. Your guideline could include an explicit translation policy, such as those in the [SPIRIT Statement](http://www.spirit-statement.org/spirit-statement/translations/) and [CONSORT Statement](http://www.consort-statement.org/consort-statement/translation-policy).
+
+## Extend your guideline
+
+Other groups may wish to extend your guideline to consider a different clinical area or a particularly problematic reporting issue. Consider developing an explicit policy on extensions to your guideline, including how these can be recognised as an official extension and nominating a contact liaison person for your guideline.
+
+## Update your guideline
+
+It is important to keep your reporting guideline up-to-date. You could develop an explicit policy on how often and by what means your guideline will be updated. Consider whether a member of the original development team should be included and whether an update should be linked with impact assessment.

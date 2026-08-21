@@ -428,3 +428,5 @@ FodyWeavers.xsd
 /data-import/*
 
 .DS_Store
+
+**/*.quarto_ipynb
