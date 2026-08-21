@@ -15,9 +15,6 @@ rg:
 rg-under-development:
 	@bash _utils/create-rg-under-development.sh
 
-publish: render
-	quarto publish gh-pages --no-render
-
 render:
 	quarto render
 
@@ -36,4 +33,4 @@ test:
 # 	bash _tests/check-render-artifacts.sh
 	bash _tests/check-link-integrity.sh
 
-.PHONY: rg rg-under-development publish render check-links check-render-artifacts check-site preview
+.PHONY: rg rg-under-development render check-links check-render-artifacts check-site preview
