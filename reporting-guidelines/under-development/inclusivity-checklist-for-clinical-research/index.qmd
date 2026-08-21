@@ -5,12 +5,12 @@ year-registered: 2025
 date-updated: null
 contact-name: Ann Cheng, University of Leicester.
 contact-email: ac968@leicester.ac.uk
-description: 'Under-representation in clinical research leads to evidence gaps and reduced generalisability of findings. The inclusion of under-represented groups has become a central priority for funding bodies, regulators, and patient communities worldwide. Most notably, research inclusion is now a key condition for National Institute for Health and Care Research (NIHR) funding; the Health Research Authority (HRA) and Medicines and Healthcare products Regulatory Agency (MHRA) are developing the “Inclusion and Diversity Plan” which sponsors and researchers will complete optionally as part of the approval process. Whilst guidance documents and policy statements exists, for example, the NIHR INCLUDE framework, implementation remains variable and operational tools to support researchers are limited.
-
-
-  Reporting research inclusion as part of the wider clinical study currently lacks transparency and remains inconsistent at best. Consensus-based checklists which have been successfully developed in other areas of research, such as CONSORT and PRIMSA, have demonstrably improved transparency, rigour, and reporting quality. As such, a consensus-driven tool focused specifically on inclusivity could play a critical role in bridging the gap between principle and practice, by providing a structured mechanism for researchers to embed inclusivity considerations across all stages of the research pathway.'
 categories:
 - Observational studies
 ---
+
+Under-representation in clinical research leads to evidence gaps and reduced generalisability of findings. The inclusion of under-represented groups has become a central priority for funding bodies, regulators, and patient communities worldwide. Most notably, research inclusion is now a key condition for National Institute for Health and Care Research (NIHR) funding; the Health Research Authority (HRA) and Medicines and Healthcare products Regulatory Agency (MHRA) are developing the “Inclusion and Diversity Plan” which sponsors and researchers will complete optionally as part of the approval process. Whilst guidance documents and policy statements exists, for example, the NIHR INCLUDE framework, implementation remains variable and operational tools to support researchers are limited.
+
+Reporting research inclusion as part of the wider clinical study currently lacks transparency and remains inconsistent at best. Consensus-based checklists which have been successfully developed in other areas of research, such as CONSORT and PRIMSA, have demonstrably improved transparency, rigour, and reporting quality. As such, a consensus-driven tool focused specifically on inclusivity could play a critical role in bridging the gap between principle and practice, by providing a structured mechanism for researchers to embed inclusivity considerations across all stages of the research pathway.
 
 {{< include ../_template.qmd >}}

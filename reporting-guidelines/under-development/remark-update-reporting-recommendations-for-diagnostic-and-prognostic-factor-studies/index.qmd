@@ -5,12 +5,12 @@ year-registered: 2021
 date-updated: 5 February 2026
 contact-name: Gary Collins; Richard Riley; Ben Van Calster
 contact-email: g.s.collins@bham.ac.uk; r.d.riley@bham.ac.uk; ben.vancalster@kuleuven.be
-description: 'The Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK) guideline was published in 2005 to encourage complete and transparent reporting of studies that investigate the prognostic value of a tumor marker. The recommendations in REMARK can be applied more broadly to include diagnostic and predictive markers as well as markers outside the field of oncology. To increase uptake and improve reporting of any marker study, we will develop an-updated and broader in scope, version of the guideline.
-
-
-  The-updated guidance will be developed following published guidance from the EQUATOR Network, and will comprise five stages. In stage one, a list of potential items will be drafted by a steering group involving researchers with expertise in diagnostic and prognostic prediction. In stage two we will consult a diverse group of key stakeholders using a Delphi process to identify which potential items should be considered. Stage three will be a consensus meeting involving the steering group and other individuals with relevant expertise to consolidate and prioritise key items to be included in update guidance. Stage four will involve finalising the checklist, and writing the accompanying explanation and elaboration. In the fifth and final stage, we will disseminate the guidance via journals, conferences, blogs, websites, and social media. The-updated recommendation will enhance reporting standards for diagnostic and prognostic marker studies across clinical fields.'
 categories:
 - Other
 ---
+
+The Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK) guideline was published in 2005 to encourage complete and transparent reporting of studies that investigate the prognostic value of a tumor marker. The recommendations in REMARK can be applied more broadly to include diagnostic and predictive markers as well as markers outside the field of oncology. To increase uptake and improve reporting of any marker study, we will develop an-updated and broader in scope, version of the guideline.
+
+The-updated guidance will be developed following published guidance from the EQUATOR Network, and will comprise five stages. In stage one, a list of potential items will be drafted by a steering group involving researchers with expertise in diagnostic and prognostic prediction. In stage two we will consult a diverse group of key stakeholders using a Delphi process to identify which potential items should be considered. Stage three will be a consensus meeting involving the steering group and other individuals with relevant expertise to consolidate and prioritise key items to be included in update guidance. Stage four will involve finalising the checklist, and writing the accompanying explanation and elaboration. In the fifth and final stage, we will disseminate the guidance via journals, conferences, blogs, websites, and social media. The-updated recommendation will enhance reporting standards for diagnostic and prognostic marker studies across clinical fields.
 
 {{< include ../_template.qmd >}}

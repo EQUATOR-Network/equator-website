@@ -5,9 +5,14 @@ year-registered: 2024
 date-updated: null
 contact-name: Joseph Kwon, Nuffield Department of Primary Care Health Sciences, University of Oxford
 contact-email: joseph.kwon@phc.ox.ac.uk
-description: "Systematic reviews of health economic evaluations consider health economic evaluations, which compare the effects of different healthcare interventions on economic outcomes (e.g. incremental cost-effectiveness ratios, incremental benefits, etc). However, these reviews, albeit common, have varied quality standards of reporting.\n\nA group based in the University of Oxford, with PRISMA representatives, is leading this project of developing a reporting guideline for systematic reviews of health economic evaluations. A working group is being formed, and the leaders plan to perform a scoping review of the methodological literature, a Delphi survey, a consensus meeting, and piloting before launching. The project has funding from NIHR, and the group plans to publish the reporting guideline in 2026, as an open-access document. \n\n- Project registration: [https://osf.io/fspg9](https://osf.io/fspg9)"
 categories:
 - Literature reviews
 ---
+
+Systematic reviews of health economic evaluations consider health economic evaluations, which compare the effects of different healthcare interventions on economic outcomes (e.g. incremental cost-effectiveness ratios, incremental benefits, etc). However, these reviews, albeit common, have varied quality standards of reporting.
+
+A group based in the University of Oxford, with PRISMA representatives, is leading this project of developing a reporting guideline for systematic reviews of health economic evaluations. A working group is being formed, and the leaders plan to perform a scoping review of the methodological literature, a Delphi survey, a consensus meeting, and piloting before launching. The project has funding from NIHR, and the group plans to publish the reporting guideline in 2026, as an open-access document. 
+
+- Project registration: [https://osf.io/fspg9](https://osf.io/fspg9)
 
 {{< include ../_template.qmd >}}

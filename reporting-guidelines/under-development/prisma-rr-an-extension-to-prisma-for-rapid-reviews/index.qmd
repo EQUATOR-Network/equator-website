@@ -5,17 +5,15 @@ year-registered: 2015
 date-updated: June 2024
 contact-name: Andrea Tricco
 contact-email: Andrea.tricco@unityhealth.to
-description: 'This reporting guideline will address reporting for rapid reviews. Rapid reviews can be described as systematic reviews where methods modifications are made to expedite the review completion time.
-
-
-  June 2024 update - following delays the guideline development has restarted and is currently at the protocol development stage. The development group plan to firstly conduct a scoping review to identify a list of items that could be included in the PRISMA-RR extension. This will be followed by a multi-round electronic Delphi survey with relevant knowledge users to solicit feedback on potential guideline items to create a preliminary list of items for the PRISMA-RR extension. A virtual consensus meeting will then be held with the steering committee and key experts in the field to refine the list of reporting items. A pilot-test will finalise the list of items to be included in the PRISMA-RR extension.
-
-
-  - Read the [scoping review protocol](https://pubmed.ncbi.nlm.nih.gov/39829235/)
-
-  - [Read the interim guidance](https://ebm.bmj.com/content/early/2024/07/21/bmjebm-2024-112899.long) developed by the group'
 categories:
 - Literature reviews
 ---
+
+This reporting guideline will address reporting for rapid reviews. Rapid reviews can be described as systematic reviews where methods modifications are made to expedite the review completion time.
+
+June 2024 update - following delays the guideline development has restarted and is currently at the protocol development stage. The development group plan to firstly conduct a scoping review to identify a list of items that could be included in the PRISMA-RR extension. This will be followed by a multi-round electronic Delphi survey with relevant knowledge users to solicit feedback on potential guideline items to create a preliminary list of items for the PRISMA-RR extension. A virtual consensus meeting will then be held with the steering committee and key experts in the field to refine the list of reporting items. A pilot-test will finalise the list of items to be included in the PRISMA-RR extension.
+
+- Read the [scoping review protocol](https://pubmed.ncbi.nlm.nih.gov/39829235/)
+- [Read the interim guidance](https://ebm.bmj.com/content/early/2024/07/21/bmjebm-2024-112899.long) developed by the group
 
 {{< include ../_template.qmd >}}

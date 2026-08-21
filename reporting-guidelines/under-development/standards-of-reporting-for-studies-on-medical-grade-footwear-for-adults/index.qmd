@@ -5,18 +5,16 @@ year-registered: 2025
 date-updated: null
 contact-name: Jaap J. van Netten, University Medical Center Groningen, the Netherlands & Amsterdam UMC, the Netherlands.
 contact-email: j.j.vannetten@amsterdamumc.nl
-description: 'Medical grade footwear is frequently prescribed in the treatment and prevention of many different diseases, with the aim of increasing people’s capacity for mobility. This footwear, which is a combination of the shoes and its insole, can achieve improved mobility in many different ways, such as by enhancing stability, supporting deformities, reducing pain, protecting from trauma or redistributing plantar pressure. As medical grade footwear is also a device with many different components, entangling the beneficial, the non-effective and the potentially harmful effects of (components of) such footwear is complex, and requires careful and high-quality scientific studies.
-
-
-  Studies on medical grade footwear are ever more frequent. A quick search on PubMed on 10 October 2025 shows that at this moment 25% of all >15,000 publications in this field are from the last 5 years, while 55% of all >380 systematic reviews have been published after 2020. While these studies have generated important insights in the effectiveness of medical grade footwear, a consistent theme in the systematic reviews done is the lack of high-quality studies. Initiatives to improve scientific quality of studies on medical grade footwear are needed.
-
-
-  In various systematic reviews on medical grade footwear, it was concluded that study reporting could be improved. Large variations were especially seen in the descriptions of the footwear that investigated, while complete, clear and consistent reporting is required. This hampers risk of bias assessment of these studies, and limits the opportunities to adequately inform clinical decision-making. This has led to calls for the development of standards of reporting for studies on medical grade footwear interventions.
-
-
-  We have searched the EQUATOR-network, pubmed and grey literature, and currently no reporting standards for studies on medical grade footwear are available or under development. With millions of adult patients relying on medical grade footwear, with thousands of yearly publications, and with consistent calls for higher quality reporting of this complex medical device, our aim is to develop standards of reporting for studies on medical grade footwear.'
 categories:
 - Observational studies
 ---
+
+Medical grade footwear is frequently prescribed in the treatment and prevention of many different diseases, with the aim of increasing people’s capacity for mobility. This footwear, which is a combination of the shoes and its insole, can achieve improved mobility in many different ways, such as by enhancing stability, supporting deformities, reducing pain, protecting from trauma or redistributing plantar pressure. As medical grade footwear is also a device with many different components, entangling the beneficial, the non-effective and the potentially harmful effects of (components of) such footwear is complex, and requires careful and high-quality scientific studies.
+
+Studies on medical grade footwear are ever more frequent. A quick search on PubMed on 10 October 2025 shows that at this moment 25% of all >15,000 publications in this field are from the last 5 years, while 55% of all >380 systematic reviews have been published after 2020. While these studies have generated important insights in the effectiveness of medical grade footwear, a consistent theme in the systematic reviews done is the lack of high-quality studies. Initiatives to improve scientific quality of studies on medical grade footwear are needed.
+
+In various systematic reviews on medical grade footwear, it was concluded that study reporting could be improved. Large variations were especially seen in the descriptions of the footwear that investigated, while complete, clear and consistent reporting is required. This hampers risk of bias assessment of these studies, and limits the opportunities to adequately inform clinical decision-making. This has led to calls for the development of standards of reporting for studies on medical grade footwear interventions.
+
+We have searched the EQUATOR-network, pubmed and grey literature, and currently no reporting standards for studies on medical grade footwear are available or under development. With millions of adult patients relying on medical grade footwear, with thousands of yearly publications, and with consistent calls for higher quality reporting of this complex medical device, our aim is to develop standards of reporting for studies on medical grade footwear.
 
 {{< include ../_template.qmd >}}

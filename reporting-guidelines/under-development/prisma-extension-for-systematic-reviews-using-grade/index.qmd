@@ -5,12 +5,12 @@ year-registered: 2023
 date-updated: null
 contact-name: Philipp Dahm, GRADE Working Group, GRADE Guidance Group and US GRADE Network
 contact-email: pdahm@umn.edu
-description: 'Members of the GRADE Working Group, GRADE Guidance Group and US GRADE Network are extending the PRISMA reporting guideline with the support of the original PRISMA authors. The plan is to develop an extension of the current PRISMA reporting checklist specific for systematic reviews that use [GRADE](https://www.gradeworkinggroup.org) to assess the certainty of evidence, and drawing on established methods for publishing GRADE guidance. Biweekly virtual meetings of the core group will be held, and smaller groups will discuss candidate items for the checklist. A consensus process will be used to identify those deemed critical for transparent GRADE reporting. The checklist will be presented in GRADE meetings to be revised and approved.
-
-
-  Development started on November 2022 and the group plans to publish the statement in several journals, preferably as open access papers (depending on journal).'
 categories:
 - Literature reviews
 ---
+
+Members of the GRADE Working Group, GRADE Guidance Group and US GRADE Network are extending the PRISMA reporting guideline with the support of the original PRISMA authors. The plan is to develop an extension of the current PRISMA reporting checklist specific for systematic reviews that use [GRADE](https://www.gradeworkinggroup.org) to assess the certainty of evidence, and drawing on established methods for publishing GRADE guidance. Biweekly virtual meetings of the core group will be held, and smaller groups will discuss candidate items for the checklist. A consensus process will be used to identify those deemed critical for transparent GRADE reporting. The checklist will be presented in GRADE meetings to be revised and approved.
+
+Development started on November 2022 and the group plans to publish the statement in several journals, preferably as open access papers (depending on journal).
 
 {{< include ../_template.qmd >}}

@@ -5,9 +5,10 @@ year-registered: 2014
 date-updated: 2019 and 2021
 contact-name: Dr. Jennifer Prah-Ruger
 contact-email: jenpr@mail.med.upenn.edu
-description: 'A protocol for this guideline was published in 2016: [PMID 27707687](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5071616/). In April 2019, the group informed EQUATOR that the reporting guideline was still under development. A systematic review was published in 2021 in [Health Economics Review](https://static1.squarespace.com/static/57486e7fb09f954951e2ccdd/t/5ffb4e184bdf4d63ce609464/1610305049481/Micro-costing+in+health+and+medicine-+a+critical+appraisal.pdf) journal.'
 categories:
 - Other
 ---
+
+A protocol for this guideline was published in 2016: [PMID 27707687](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5071616/). In April 2019, the group informed EQUATOR that the reporting guideline was still under development. A systematic review was published in 2021 in [Health Economics Review](https://static1.squarespace.com/static/57486e7fb09f954951e2ccdd/t/5ffb4e184bdf4d63ce609464/1610305049481/Micro-costing+in+health+and+medicine-+a+critical+appraisal.pdf) journal.
 
 {{< include ../_template.qmd >}}

@@ -5,11 +5,11 @@ year-registered: 2025
 date-updated: null
 contact-name: Yutong Fei
 contact-email: feiyt@bucm.edu.cn
+rg-description: 'The STRICTA (Standards for Reporting Interventions in Clinical Trials of Acupuncture) reporting guidelines, first published in 2001, as an official extension of the CONSORT statement, has general guiding significance in improving the reporting norms of clinical trials for acupuncture interventions. During the past 14 years after the adoption of the STRICTA II, scholars have put forward suggestions (such as organization of treatment: individual therapy or group therapy) for improved reporting of acupuncture interventions in clinical trials. The STRICTA could be further updated and improved in the light of the current situation to help improve the transparency and standardization of the reporting of interventions in acupuncture-related clinical trials.
+
+  <ul'
 categories:
 - Clinical Trials
 ---
-
-The STRICTA (Standards for Reporting Interventions in Clinical Trials of Acupuncture) reporting guidelines, first published in 2001, as an official extension of the CONSORT statement, has general guiding significance in improving the reporting norms of clinical trials for acupuncture interventions. During the past 14 years after the adoption of the STRICTA II, scholars have put forward suggestions (such as organization of treatment: individual therapy or group therapy) for improved reporting of acupuncture interventions in clinical trials. The STRICTA could be further updated and improved in the light of the current situation to help improve the transparency and standardization of the reporting of interventions in acupuncture-related clinical trials.
-<ul
 
 {{< include ../_template.qmd >}}

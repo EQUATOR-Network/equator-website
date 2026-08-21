@@ -5,21 +5,18 @@ year-registered: 2026
 date-updated: null
 contact-name: Yuting Duan; Junhua Zhang
 contact-email: 18702009530@163.com; zjhtcm@foxmail.com
-description: 'Organoids are 3D in vitro structures derived from stem cells that recapitulate the cellular heterogeneity, architecture, and function of human organs. They have been widely used in preclinical and early clinical research, however, organoid trials have unique features distinct from conventional clinical trials, such as organoid derivation, culture, characterization, quality control, and intervention administration.
-
-
-  At present, the WHO Trial Registration Data Set (TRDS) does not cover these organoid‑specific items, leading to incomplete, inconsistent, and non‑transparent registration of organoid trials worldwide. Poor registration hinders study reproducibility, peer review, clinical translation, and public trust.
-
-
-  To address this gap, we propose to develop the WHO TRDS extension for organoid, a reporting checklist tailored to organoid‑related clinical trials.
-
-
-  In this guideline, organoid clinical research is defined as observational or experimental studies that use human biological samples (healthy or patient-derived tissues, cells, blood, etc.) to construct organoids, with the core goal of addressing clinical disease-related questions. This definition explicitly includes in vitro studies using human-derived materials, which may not be regarded as clinical research under conventional definitions. Based on research purpose and application scenario, organoid clinical research is further categorized into six core types: (1) drug sensitivity testing / drug screening; (2) disease modeling; (3) disease diagnosis; (4) database construction; (5) disease treatment; and (6) regenerative medicine /organoid transplantation.
-
-
-  This extension will supplement organoid‑specific registration items while remaining compatible with the core WHO TRDS framework. It will improve the completeness, transparency, and quality of organoid trial registration, support evidence synthesis and clinical translation, and promote the rigorous and sustainable development of organoid medicine globally.'
 categories:
 - Other
 ---
+
+Organoids are 3D in vitro structures derived from stem cells that recapitulate the cellular heterogeneity, architecture, and function of human organs. They have been widely used in preclinical and early clinical research, however, organoid trials have unique features distinct from conventional clinical trials, such as organoid derivation, culture, characterization, quality control, and intervention administration.
+
+At present, the WHO Trial Registration Data Set (TRDS) does not cover these organoid‑specific items, leading to incomplete, inconsistent, and non‑transparent registration of organoid trials worldwide. Poor registration hinders study reproducibility, peer review, clinical translation, and public trust.
+
+To address this gap, we propose to develop the WHO TRDS extension for organoid, a reporting checklist tailored to organoid‑related clinical trials.
+
+In this guideline, organoid clinical research is defined as observational or experimental studies that use human biological samples (healthy or patient-derived tissues, cells, blood, etc.) to construct organoids, with the core goal of addressing clinical disease-related questions. This definition explicitly includes in vitro studies using human-derived materials, which may not be regarded as clinical research under conventional definitions. Based on research purpose and application scenario, organoid clinical research is further categorized into six core types: (1) drug sensitivity testing / drug screening; (2) disease modeling; (3) disease diagnosis; (4) database construction; (5) disease treatment; and (6) regenerative medicine /organoid transplantation.
+
+This extension will supplement organoid‑specific registration items while remaining compatible with the core WHO TRDS framework. It will improve the completeness, transparency, and quality of organoid trial registration, support evidence synthesis and clinical translation, and promote the rigorous and sustainable development of organoid medicine globally.
 
 {{< include ../_template.qmd >}}

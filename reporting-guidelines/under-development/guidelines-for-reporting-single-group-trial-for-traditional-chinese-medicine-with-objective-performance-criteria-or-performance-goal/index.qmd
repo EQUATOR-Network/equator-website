@@ -5,12 +5,12 @@ year-registered: 2022
 date-updated: null
 contact-name: Mei Han
 contact-email: hanmeizoujin@163.com
+rg-description: 'Single-group trials are interventional studies without a control group. Objective performance criteria (OPC) or performance goal (PG) can be used to evaluate the intervention effect in situations where it is difficult to perform randomised controlled trials. As it is difficult to implement randomisation and use placebos in traditional Chinese medicine (TCM), single-group trials with OPC and PG have become common to evaluate non-drug therapy and syndrome differentiation in TCM. The existing reporting guidelines for trials (such as CONSORT) are not applicable for single-group trials, so a group of 15 researchers from the Evidence-Based Centre of Beijing University of Traditional Chinese Medicine decided to develop one.
+
+
+  The group is applying for funding for the project and is conducting a literature review about single-group trials and reporting guidelines for TCM. A survey with trial investigators, health care professionals, methodologists, statisticians, trial coordinators, journal editors and representatives from the research ethics community is planned for 2023, as well as a consensus meeting, to decide on the checklist items for reporting. The group plans to publish the reporting guideline as an open-access document in 2024.'
 categories:
 - Clinical Trials
 ---
-
-Single-group trials are interventional studies without a control group. Objective performance criteria (OPC) or performance goal (PG) can be used to evaluate the intervention effect in situations where it is difficult to perform randomised controlled trials. As it is difficult to implement randomisation and use placebos in traditional Chinese medicine (TCM), single-group trials with OPC and PG have become common to evaluate non-drug therapy and syndrome differentiation in TCM. The existing reporting guidelines for trials (such as CONSORT) are not applicable for single-group trials, so a group of 15 researchers from the Evidence-Based Centre of Beijing University of Traditional Chinese Medicine decided to develop one.
-
-The group is applying for funding for the project and is conducting a literature review about single-group trials and reporting guidelines for TCM. A survey with trial investigators, health care professionals, methodologists, statisticians, trial coordinators, journal editors and representatives from the research ethics community is planned for 2023, as well as a consensus meeting, to decide on the checklist items for reporting. The group plans to publish the reporting guideline as an open-access document in 2024.
 
 {{< include ../_template.qmd >}}

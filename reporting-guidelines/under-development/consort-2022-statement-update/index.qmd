@@ -5,12 +5,12 @@ year-registered: 2020
 date-updated: null
 contact-name: Dr David Moher
 contact-email: dmoher@ohri.ca
+rg-description: 'The CONSORT authors plan to update the CONSORT 2010 Statement, which includes a 25-item checklist and the flow diagram. The 2022 CONSORT update will provide guidance for reporting all randomized, controlled trials but focuses on the most common design type---individually randomized, 2-group, parallel trials. Other trial designs, such as cluster randomized trials and noninferiority trials, require varying amounts of additional information. They plan to also update the explanation and elaboration article, which explains the inclusion of each checklist item, provides methodological background and gives published examples of transparent reporting.
+
+
+  The CONSORT and SPIRIT groups have merged, and the resulting combined group will update both guidelines simultaneously. The individuals in SPIRIT-CONSORT are An-Wen Chan, Kenneth Schulz, David Moher, Asbjørn Hróbjartsson, Isabelle Boutron, and Sally Hopewell. They started development in 2019 and are currently conducting a comprehensive literature search for evidence. As part of the development process, they will organize an international face-to-face consensus meeting. With the COVID-19 pandemic, they do not believe they can hold that meeting until late 2021. Thus, at present, they plan to publish the materials in 2022 as open access documents.'
 categories:
 - Clinical Trials
 ---
-
-The CONSORT authors plan to update the CONSORT 2010 Statement, which includes a 25-item checklist and the flow diagram. The 2022 CONSORT update will provide guidance for reporting all randomized, controlled trials but focuses on the most common design type---individually randomized, 2-group, parallel trials. Other trial designs, such as cluster randomized trials and noninferiority trials, require varying amounts of additional information. They plan to also update the explanation and elaboration article, which explains the inclusion of each checklist item, provides methodological background and gives published examples of transparent reporting.
-
-The CONSORT and SPIRIT groups have merged, and the resulting combined group will update both guidelines simultaneously. The individuals in SPIRIT-CONSORT are An-Wen Chan, Kenneth Schulz, David Moher, Asbjørn Hróbjartsson, Isabelle Boutron, and Sally Hopewell. They started development in 2019 and are currently conducting a comprehensive literature search for evidence. As part of the development process, they will organize an international face-to-face consensus meeting. With the COVID-19 pandemic, they do not believe they can hold that meeting until late 2021. Thus, at present, they plan to publish the materials in 2022 as open access documents.
 
 {{< include ../_template.qmd >}}

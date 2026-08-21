@@ -5,13 +5,14 @@ year-registered: 2023
 date-updated: 9 January 2024
 contact-name: Zhao-xiang Bian; Xuan Zhang
 contact-email: bianzxiang@gmail.com; zhangxuan87418@126.com
+rg-description: 'The Chinese EQUATOR Centre is involved in the development of this reporting guideline for clinical trials combining both Western Medicine and Chinese Medicine interventions. The work started, with funding, in January 2022, and group is currently reviewing the literature for the generation of a draft checklist. Next steps are a three-round Delphi survey, a consensus meeting and the publication of the guidance as an open access document, which the group plans for 2024.
+
+
+  - Read the [protocol](https://pubmed.ncbi.nlm.nih.gov/37457590/)
+
+  - Read the results of two studies investigating the reporting quality of clinical trials with integrated Chinese and Western medicine in [angina pectoris](https://pubmed.ncbi.nlm.nih.gov/37221472/) and [ulcerative colitis](https://pubmed.ncbi.nlm.nih.gov/38062492/).'
 categories:
 - Clinical Trials
 ---
-
-The Chinese EQUATOR Centre is involved in the development of this reporting guideline for clinical trials combining both Western Medicine and Chinese Medicine interventions. The work started, with funding, in January 2022, and group is currently reviewing the literature for the generation of a draft checklist. Next steps are a three-round Delphi survey, a consensus meeting and the publication of the guidance as an open access document, which the group plans for 2024.
-
-- Read the [protocol](https://pubmed.ncbi.nlm.nih.gov/37457590/)
-- Read the results of two studies investigating the reporting quality of clinical trials with integrated Chinese and Western medicine in [angina pectoris](https://pubmed.ncbi.nlm.nih.gov/37221472/) and [ulcerative colitis](https://pubmed.ncbi.nlm.nih.gov/38062492/).
 
 {{< include ../_template.qmd >}}

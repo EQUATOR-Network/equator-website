@@ -5,12 +5,12 @@ year-registered: 2017
 date-updated: null
 contact-name: Maurice Zeegers
 contact-email: m.zeegers@maastrichtuniversity.nl
-description: 'The guidelines aim to define a comprehensive set of standard protocol items for observational studies, and by doing so facilitates and encourages researchers to prepare a study protocol of sufficient quality, prior to data collection.
-
-
-  - Read the protocol at the [OSF](https://osf.io/t6rvj/) register or the [JMIR](https://www.researchprotocols.org/2020/10/e17864) journal'
 categories:
 - Observational studies
 ---
+
+The guidelines aim to define a comprehensive set of standard protocol items for observational studies, and by doing so facilitates and encourages researchers to prepare a study protocol of sufficient quality, prior to data collection.
+
+- Read the protocol at the [OSF](https://osf.io/t6rvj/) register or the [JMIR](https://www.researchprotocols.org/2020/10/e17864) journal
 
 {{< include ../_template.qmd >}}

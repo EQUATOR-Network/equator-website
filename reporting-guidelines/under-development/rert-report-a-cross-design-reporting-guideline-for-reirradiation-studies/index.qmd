@@ -5,18 +5,16 @@ year-registered: 2026
 date-updated: null
 contact-name: Arnaud Beddok, Institut Godinot, Reims, France; Université de Reims Champagne-Ardenne (CRESTIC); Yale School of Medicine, USA. .
 contact-email: a.beddok@gmail.com
-description: 'Reirradiation (reRT) is increasingly used across tumor sites, supported by advances in imaging, treatment planning, and delivery that enable safer retreatment strategies. However, reRT studies remain highly heterogeneous in their reporting, particularly regarding prior irradiation, cumulative dose evaluation, assumptions on tissue recovery, target definition, organ-at-risk constraints, and the integration of prior and current treatment courses. While this heterogeneity reflects clinical complexity, inconsistencies in how these elements are reported severely limit comparability between studies, weaken evidence synthesis, and hinder the development of robust and transferable clinical knowledge.
-
-
-  Existing reporting guidelines from the EQUATOR Network, including CONSORT, STROBE, and TRIPOD, have substantially improved research transparency but do not address the specific methodological challenges inherent to reRT, such as the integration of multi-course radiotherapy data and cumulative dose assessment. Building upon recent consensus efforts that established standards for dose evaluation and clinical workflows, recent ESTRO-endorsed initiatives have further highlighted major inconsistencies in terminology, reporting practices, and dose evaluation methods, reinforcing the need for structured and standardized reporting.
-
-
-  This project aims to develop a dedicated cross-design reporting guideline for reRT studies, aligned with existing EQUATOR frameworks while addressing the specific complexities of reirradiation. The guideline will define a minimal set of mandatory reporting items, applicable across study designs, tumour sites, and radiotherapy techniques.
-
-
-  The primary objective is to develop a structured reporting guideline to improve reproducibility, comparability, and clinical interpretability of reRT research. As a secondary implementation tool, a structured eCRF-like framework may also be developed to facilitate standardized data capture and practical adoption of the reporting recommendations.'
 categories:
 - Observational studies
 ---
+
+Reirradiation (reRT) is increasingly used across tumor sites, supported by advances in imaging, treatment planning, and delivery that enable safer retreatment strategies. However, reRT studies remain highly heterogeneous in their reporting, particularly regarding prior irradiation, cumulative dose evaluation, assumptions on tissue recovery, target definition, organ-at-risk constraints, and the integration of prior and current treatment courses. While this heterogeneity reflects clinical complexity, inconsistencies in how these elements are reported severely limit comparability between studies, weaken evidence synthesis, and hinder the development of robust and transferable clinical knowledge.
+
+Existing reporting guidelines from the EQUATOR Network, including CONSORT, STROBE, and TRIPOD, have substantially improved research transparency but do not address the specific methodological challenges inherent to reRT, such as the integration of multi-course radiotherapy data and cumulative dose assessment. Building upon recent consensus efforts that established standards for dose evaluation and clinical workflows, recent ESTRO-endorsed initiatives have further highlighted major inconsistencies in terminology, reporting practices, and dose evaluation methods, reinforcing the need for structured and standardized reporting.
+
+This project aims to develop a dedicated cross-design reporting guideline for reRT studies, aligned with existing EQUATOR frameworks while addressing the specific complexities of reirradiation. The guideline will define a minimal set of mandatory reporting items, applicable across study designs, tumour sites, and radiotherapy techniques.
+
+The primary objective is to develop a structured reporting guideline to improve reproducibility, comparability, and clinical interpretability of reRT research. As a secondary implementation tool, a structured eCRF-like framework may also be developed to facilitate standardized data capture and practical adoption of the reporting recommendations.
 
 {{< include ../_template.qmd >}}

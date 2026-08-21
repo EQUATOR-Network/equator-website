@@ -5,12 +5,12 @@ year-registered: 2024
 date-updated: 26 November 2024
 contact-name: Liu Tinglan
 contact-email: hhl716@163.com
-description: 'Placebo effects and patient expectations can significantly influence outcomes of acupuncture treatment. The leaders of this project consider CONSORT, a guideline for clinical trials, insufficient to adequately guide the reporting of the implementation of blinding procedures in acupuncture trials. They propose to develop a guideline that will support authors on reporting these procedures, and possibly help with their evaluation as well. According to the project leaders, “This guideline will provide clear instructions on how to report the methods and results of blinding procedures, including the assessment of blinding success and the comprehensive and transparent reports of blinding . The scope of the guideline will encompass the entire process of trial design, from the initial designing stages through to the final reporting of results.”
-
-
-  They plan to develop the guideline first establishing the project team, which will not include members of the public (patients). A Delphi survey is planned, as well as an expert consensus meeting and a pre-test of the checklist. The authors declare they have funding for the project from High-level Talent Programme of Beijing University of Chinese Medicine. They plan to publish the reporting guideline as an open-access document in 2027.'
 categories:
 - Other
 ---
+
+Placebo effects and patient expectations can significantly influence outcomes of acupuncture treatment. The leaders of this project consider CONSORT, a guideline for clinical trials, insufficient to adequately guide the reporting of the implementation of blinding procedures in acupuncture trials. They propose to develop a guideline that will support authors on reporting these procedures, and possibly help with their evaluation as well. According to the project leaders, “This guideline will provide clear instructions on how to report the methods and results of blinding procedures, including the assessment of blinding success and the comprehensive and transparent reports of blinding . The scope of the guideline will encompass the entire process of trial design, from the initial designing stages through to the final reporting of results.”
+
+They plan to develop the guideline first establishing the project team, which will not include members of the public (patients). A Delphi survey is planned, as well as an expert consensus meeting and a pre-test of the checklist. The authors declare they have funding for the project from High-level Talent Programme of Beijing University of Chinese Medicine. They plan to publish the reporting guideline as an open-access document in 2027.
 
 {{< include ../_template.qmd >}}

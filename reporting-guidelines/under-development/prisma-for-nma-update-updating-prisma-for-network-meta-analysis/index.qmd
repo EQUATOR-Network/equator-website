@@ -5,9 +5,15 @@ year-registered: 2024
 date-updated: null
 contact-name: Areti-Angeliki Veroniki, Institute for Health Policy, Management, and Evaluation, University of Toronto
 contact-email: Areti-Angeliki.Veroniki@unityhealth.to
-description: "The extension of PRISMA dedicated to network meta-analysis (NMA) has been published in 2015. In 2020, the PRISMA statement was-updated to reflect advances in the conduct and reporting of systematic reviews. These advances have yet to be incorporated into the PRISMA extension for NMA. Other  advancements in NMA methodology also necessitate a significant update to PRISMA-NMA.  \n\nThe group responsible for this update will conduct a scoping review to develop a list of items for potential inclusion in the extension, then run a Delphi survey, a consensus meeting and a pilot test. They plan to publish the checklist together with the explanation and elaboration (E&E) document updating PRISMA-NMA. A patient partner is involved in the Steering Committee. The project is funded by the Canadian Institutes of Health Research. The-updated PRISMA-NMA will be published open access in 2026.\n\n- Project protocol at OSF: [https://osf.io/7bkwy](https://osf.io/7bkwy)\n- Read the [scoping review protocol](https://pubmed.ncbi.nlm.nih.gov/39829235/)"
 categories:
 - Literature reviews
 ---
+
+The extension of PRISMA dedicated to network meta-analysis (NMA) has been published in 2015. In 2020, the PRISMA statement was-updated to reflect advances in the conduct and reporting of systematic reviews. These advances have yet to be incorporated into the PRISMA extension for NMA. Other  advancements in NMA methodology also necessitate a significant update to PRISMA-NMA.  
+
+The group responsible for this update will conduct a scoping review to develop a list of items for potential inclusion in the extension, then run a Delphi survey, a consensus meeting and a pilot test. They plan to publish the checklist together with the explanation and elaboration (E&E) document updating PRISMA-NMA. A patient partner is involved in the Steering Committee. The project is funded by the Canadian Institutes of Health Research. The-updated PRISMA-NMA will be published open access in 2026.
+
+- Project protocol at OSF: [https://osf.io/7bkwy](https://osf.io/7bkwy)
+- Read the [scoping review protocol](https://pubmed.ncbi.nlm.nih.gov/39829235/)
 
 {{< include ../_template.qmd >}}

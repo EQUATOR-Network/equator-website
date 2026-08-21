@@ -5,17 +5,15 @@ year-registered: 2024
 date-updated: null
 contact-name: Daniel Reichenpfader
 contact-email: daniel.reichenpfader@bfh.ch
-description: 'An executive group of researchers in Switzerland is developing a reporting guideline for studies involving the extraction of information from clinical reports texts, with a focus on the use of natural language processing (or artificial intelligence) techniques. The lack of consistency in reporting can make it difficult to compare and replicate studies.
-
-
-  The group has already conducted a scoping review on the subject which identified the lack of a reporting guideline to support authors on what information to report. They have designed a checklist draft to undergo a Delphi survey with experts, and a consensus meeting. They aim to publish the reporting guideline as an open-access document in 2025.
-
-
-  [Scoping review](https://www.nature.com/articles/s41746-024-01219-0)
-
-  [Preliminary checklist draft](https://pubmed.ncbi.nlm.nih.gov/39176531/)'
 categories:
 - Other
 ---
+
+An executive group of researchers in Switzerland is developing a reporting guideline for studies involving the extraction of information from clinical reports texts, with a focus on the use of natural language processing (or artificial intelligence) techniques. The lack of consistency in reporting can make it difficult to compare and replicate studies.
+
+The group has already conducted a scoping review on the subject which identified the lack of a reporting guideline to support authors on what information to report. They have designed a checklist draft to undergo a Delphi survey with experts, and a consensus meeting. They aim to publish the reporting guideline as an open-access document in 2025.
+
+[Scoping review](https://www.nature.com/articles/s41746-024-01219-0)
+[Preliminary checklist draft](https://pubmed.ncbi.nlm.nih.gov/39176531/)
 
 {{< include ../_template.qmd >}}

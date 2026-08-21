@@ -5,20 +5,24 @@ year-registered: 2025
 date-updated: null
 contact-name: Non Wyn Davies
 contact-email: nnd22ppy@bangor.ac.uk
+rg-description: 'Guideline rationale: Trial run-in phases are used as an enrichment strategy in later phase clinical studies to select participants based on certain factors or characteristics to reduce variability and increase effect size. Participants may typically be ineligible for randomisation in the main trial based on a lack of adherence, placebo response, or intolerance to the active medicine.
+
+
+  Previous reviews have characterized the frequency and reporting of clinical trial run-in phases. Other literature has also examined the assessment and reporting of medication adherence during drug development. Despite this, no published articles specifically examine medication adherence in the run-in phase of trials. In response to this, a systematic review was conducted examining the methodological and reporting rigour of medication adherence during the run-in phase of phase 2 and 3 drug trials (6). The review reports poor characterization and reporting of medication adherence during the run-in phase, with the methods used often at high risk of bias.
+
+
+  The Food and Drug Administration''s guidance for Enrichment Strategies for Clinical Trials and the World Health Organization''s guidance for Best Practices for Clinical Trials both describe run-in phases as an enrichment strategy to select adherent participants for the main trial. However, neither these, or other regulatory authorities (e.g. European Medicines Agency, or Medicines and Healthcare Products Regulatory Agency) provide guidance about how best to measure, characterise and report adherence in the run-in phase. Moreover, the Consolidated Standards of Reporting Trials (CONSORT) statement also fails to mention the run-in phase.
+
+
+  The findings of the review, coupled with the lack of regulatory guidance on run-ins highlights the need for guidance on the measurement, analysis and reporting of medication adherence during the run-in phase of trials.
+
+
+  Project aim: To develop guidelines on best practice for the measurement, analysis and reporting of medication adherence in the run-in phase of trials. This guidance will apply to run-ins that measure medication adherence.
+
+
+  - Website: https://osf.io/hctxf'
 categories:
 - Clinical Trials
 ---
-
-Guideline rationale: Trial run-in phases are used as an enrichment strategy in later phase clinical studies to select participants based on certain factors or characteristics to reduce variability and increase effect size. Participants may typically be ineligible for randomisation in the main trial based on a lack of adherence, placebo response, or intolerance to the active medicine.
-
-Previous reviews have characterized the frequency and reporting of clinical trial run-in phases. Other literature has also examined the assessment and reporting of medication adherence during drug development. Despite this, no published articles specifically examine medication adherence in the run-in phase of trials. In response to this, a systematic review was conducted examining the methodological and reporting rigour of medication adherence during the run-in phase of phase 2 and 3 drug trials (6). The review reports poor characterization and reporting of medication adherence during the run-in phase, with the methods used often at high risk of bias.
-
-The Food and Drug Administration's guidance for Enrichment Strategies for Clinical Trials and the World Health Organization's guidance for Best Practices for Clinical Trials both describe run-in phases as an enrichment strategy to select adherent participants for the main trial. However, neither these, or other regulatory authorities (e.g. European Medicines Agency, or Medicines and Healthcare Products Regulatory Agency) provide guidance about how best to measure, characterise and report adherence in the run-in phase. Moreover, the Consolidated Standards of Reporting Trials (CONSORT) statement also fails to mention the run-in phase.
-
-The findings of the review, coupled with the lack of regulatory guidance on run-ins highlights the need for guidance on the measurement, analysis and reporting of medication adherence during the run-in phase of trials.
-
-Project aim: To develop guidelines on best practice for the measurement, analysis and reporting of medication adherence in the run-in phase of trials. This guidance will apply to run-ins that measure medication adherence.
-
-- Website: https://osf.io/hctxf
 
 {{< include ../_template.qmd >}}

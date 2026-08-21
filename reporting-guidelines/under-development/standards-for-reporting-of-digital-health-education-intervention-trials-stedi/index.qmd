@@ -5,12 +5,12 @@ year-registered: 2017
 date-updated: null
 contact-name: Josip Car
 contact-email: josip.car@ntu.edu.sg
+rg-description: 'Digital health education is an umbrella term encompassing a broad spectrum of educational interventions characterised by their technological contents, learning objectives/outcomes, measurement tools, learning approaches and delivery settings used for health. These interventions, although varying greatly in content and quality, are widely evaluated in randomised controlled trials (RCTs).
+
+
+  Read the study [protocol (PDF)](https://www.equator-network.org/wp-content/uploads/2018/01/STEDI-Statement-Protocol-updated-Jan-2018.pdf)'
 categories:
 - Clinical Trials
 ---
-
-Digital health education is an umbrella term encompassing a broad spectrum of educational interventions characterised by their technological contents, learning objectives/outcomes, measurement tools, learning approaches and delivery settings used for health. These interventions, although varying greatly in content and quality, are widely evaluated in randomised controlled trials (RCTs).
-
-Read the study [protocol (PDF)](https://www.equator-network.org/wp-content/uploads/2018/01/STEDI-Statement-Protocol-updated-Jan-2018.pdf)
 
 {{< include ../_template.qmd >}}

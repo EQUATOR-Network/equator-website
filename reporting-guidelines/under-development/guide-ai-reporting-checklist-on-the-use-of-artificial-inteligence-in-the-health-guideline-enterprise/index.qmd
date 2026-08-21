@@ -5,15 +5,14 @@ year-registered: 2024
 date-updated: null
 contact-name: Holger Schünemann
 contact-email: holger.schunemann@hunimed.eu
-description: 'In the specific context of the guideline enterprise, AI may support the planning, development and adaptation, reporting, implementation, impact evaluation, certification and appraisal stages. For example, AI tools have the potential of (i) supporting the analysis and synthesis of evidence necessary for the formulation of recommendations, (ii) supporting the assessment of the certainty of evidence, (iii) generating output complementary to that of guideline panel members on question generation, or (iv) improving the quality of dissemination materials and tailoring them to different target audiences. However, there is a need for standardisation and transparency in the reporting of the use of these AI tools and processes. The developers therefore plan to produce a reporting guideline for reporting of AI use in the whole guideline entreprise (from the planning of guidelines to their implementation and evaluation).
-
-
-  The group plan to conduct (i) a scoping review on the use and reporting of AI tools in the guideline enterprise, (ii) draft reporting items based on gathered information, (iii) compare reporting items attained with Guidelines International Network (GIN) extension checklist on use of AI in the guideline enterprise and add relevant subjects and items, (iv) meet with relevant stakeholders (v) evaluate the relative importance of the reporting checklist items and vote on those relevant to the reporting of AI use and (vi) write a manuscript and explanation and elaboration document for publication in a scientific journal.
-
-
-  Work on the project began in June 2024 and the group plan to publish the new guideline as an open access document.'
 categories:
 - Other
 ---
+
+In the specific context of the guideline enterprise, AI may support the planning, development and adaptation, reporting, implementation, impact evaluation, certification and appraisal stages. For example, AI tools have the potential of (i) supporting the analysis and synthesis of evidence necessary for the formulation of recommendations, (ii) supporting the assessment of the certainty of evidence, (iii) generating output complementary to that of guideline panel members on question generation, or (iv) improving the quality of dissemination materials and tailoring them to different target audiences. However, there is a need for standardisation and transparency in the reporting of the use of these AI tools and processes. The developers therefore plan to produce a reporting guideline for reporting of AI use in the whole guideline entreprise (from the planning of guidelines to their implementation and evaluation).
+
+The group plan to conduct (i) a scoping review on the use and reporting of AI tools in the guideline enterprise, (ii) draft reporting items based on gathered information, (iii) compare reporting items attained with Guidelines International Network (GIN) extension checklist on use of AI in the guideline enterprise and add relevant subjects and items, (iv) meet with relevant stakeholders (v) evaluate the relative importance of the reporting checklist items and vote on those relevant to the reporting of AI use and (vi) write a manuscript and explanation and elaboration document for publication in a scientific journal.
+
+Work on the project began in June 2024 and the group plan to publish the new guideline as an open access document.
 
 {{< include ../_template.qmd >}}

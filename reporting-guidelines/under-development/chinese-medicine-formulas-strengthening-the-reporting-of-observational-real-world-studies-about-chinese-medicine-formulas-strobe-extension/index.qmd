@@ -5,21 +5,18 @@ year-registered: 2023
 date-updated: null
 contact-name: Yana Qi, West China Hospital, Sichuan University.
 contact-email: qiyana2012@163.com
-description: 'The developers of this reporting guideline, a group from West China Observational studies about traditional ChiHospital, Sichuan University, have identified that traditional Chinese medicine (TCM) formulae or Chinese patent drugs use are increasing, but the reporting of the studies about them lack transparency.
-
-
-  The reporting guideline under development will focus on improving the transparent reporting of studies about fixed or individualised formulae (including Chinese patent drugs approved for listing). It will capture reporting elements considered fundamental when using real-world data (RWD) and routinely collected data (RCD) in TCM.
-
-
-  It will probably not include acupuncture, moxibustion, cupping, massage and other TCM  therapies already covered by [STROBE-TCM](https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-observational-studies/#TCM), another reporting guideline currently under development.
-
-
-  The group has been in contact-with STROBE lead authors to develop this guideline as a STROBE extension. The development started in November 2021 with a literature mapping of observational real-world studies and field-specific guidelines, a Delphi survey, a face-to-face consensus meeting, pilot testing and dissemination. The group plans to publish the reporting guideline as an open access document in the end of 2024.
-
-
-  The project is-registered in the [Open Science Framework](https://osf.io/ebypt) platform.'
 categories:
 - Observational studies
 ---
+
+The developers of this reporting guideline, a group from West China Observational studies about traditional ChiHospital, Sichuan University, have identified that traditional Chinese medicine (TCM) formulae or Chinese patent drugs use are increasing, but the reporting of the studies about them lack transparency.
+
+The reporting guideline under development will focus on improving the transparent reporting of studies about fixed or individualised formulae (including Chinese patent drugs approved for listing). It will capture reporting elements considered fundamental when using real-world data (RWD) and routinely collected data (RCD) in TCM.
+
+It will probably not include acupuncture, moxibustion, cupping, massage and other TCM  therapies already covered by [STROBE-TCM](https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-observational-studies/#TCM), another reporting guideline currently under development.
+
+The group has been in contact-with STROBE lead authors to develop this guideline as a STROBE extension. The development started in November 2021 with a literature mapping of observational real-world studies and field-specific guidelines, a Delphi survey, a face-to-face consensus meeting, pilot testing and dissemination. The group plans to publish the reporting guideline as an open access document in the end of 2024.
+
+The project is-registered in the [Open Science Framework](https://osf.io/ebypt) platform.
 
 {{< include ../_template.qmd >}}

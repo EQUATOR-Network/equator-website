@@ -5,12 +5,12 @@ year-registered: 2026
 date-updated: null
 contact-name: Ana Baumann
 contact-email: abaumannwalker@wustl.edu
+rg-description: 'The field of adaptation has been advanced considerable since the late 1990''s. Systematic reviews and meta-analysis have shown the importance of adapting interventions to increase the reach and retention of historically and currently marginalized populations in clinical and implementation science trials. Additionally, the field of adaptation has indicated that there may be adaptations needed as interventions are implemented and then sustained in usual care. Despite the plethora of frameworks informing how to adapt, when to adapt, and how to track adaptations made to interventions, systematic, narrative and scoping reviews -- along with our recent ongoing review -- show that there is no consistency in reporting in adaptation studies. When there is inconsistency in reporting of study methods and outcomes, it affects replication of science and understanding of mechanisms of change of the interventions being adapted. To address this gap, we will develop reporting guidelines for adaptation studies.
+
+
+  - Project website: https://sites.wustl.edu/trace/'
 categories:
 - Clinical Trials
 ---
-
-The field of adaptation has been advanced considerable since the late 1990's. Systematic reviews and meta-analysis have shown the importance of adapting interventions to increase the reach and retention of historically and currently marginalized populations in clinical and implementation science trials. Additionally, the field of adaptation has indicated that there may be adaptations needed as interventions are implemented and then sustained in usual care. Despite the plethora of frameworks informing how to adapt, when to adapt, and how to track adaptations made to interventions, systematic, narrative and scoping reviews -- along with our recent ongoing review -- show that there is no consistency in reporting in adaptation studies. When there is inconsistency in reporting of study methods and outcomes, it affects replication of science and understanding of mechanisms of change of the interventions being adapted. To address this gap, we will develop reporting guidelines for adaptation studies.
-
-- Project website: https://sites.wustl.edu/trace/
 
 {{< include ../_template.qmd >}}

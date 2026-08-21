@@ -5,21 +5,17 @@ year-registered: 2024
 date-updated: null
 contact-name: Manuel Spitschan
 contact-email: manuel.spitschan@tum.de
-description: 'A group of researchers based in Germany, Switzerland, and the Netherlands, are working to extend the [ENLIGHT](/reporting-guidelines/enlight-a-consensus-checklist-for-reporting-laboratory-based-studies-on-the-non-visual-effects-of-light-in-humans/) reporting guideline, from a checklist for laboratory-based studies to guidance that includes trials and observational studies. The leaders consider that field studies on the effects of light on human health should be completely and transparently reported. They got funding from the Daylight Academy and published a protocol for this project.
-
-
-  The study will use a three-stage consensus process, an online survey, an get feedback from Daylight Academy members for approval of the checklist. They plan to publish the guideline as an open-access document in 2025.
-
-
-  The original [ENLIGHT guideline publication](https://doi.org/10.1016/j.ebiom.2023.104889)
-
-  ENLIGHT project [website](https://enlight-statement.org/)
-
-  Daylight Academy [website](https://daylight.academy)
-
-  Protocol registration: [https://osf.io/7z2bw/](https://osf.io/7z2bw/)'
 categories:
 - Other
 ---
+
+A group of researchers based in Germany, Switzerland, and the Netherlands, are working to extend the [ENLIGHT](https://www.equator-network.org/reporting-guidelines/enlight-a-consensus-checklist-for-reporting-laboratory-based-studies-on-the-non-visual-effects-of-light-in-humans/) reporting guideline, from a checklist for laboratory-based studies to guidance that includes trials and observational studies. The leaders consider that field studies on the effects of light on human health should be completely and transparently reported. They got funding from the Daylight Academy and published a protocol for this project.
+
+The study will use a three-stage consensus process, an online survey, an get feedback from Daylight Academy members for approval of the checklist. They plan to publish the guideline as an open-access document in 2025.
+
+The original [ENLIGHT guideline publication](https://doi.org/10.1016/j.ebiom.2023.104889)
+ENLIGHT project [website](https://enlight-statement.org/)
+Daylight Academy [website](https://daylight.academy)
+Protocol registration: [https://osf.io/7z2bw/](https://osf.io/7z2bw/)
 
 {{< include ../_template.qmd >}}

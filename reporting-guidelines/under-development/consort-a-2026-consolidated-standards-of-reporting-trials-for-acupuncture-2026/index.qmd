@@ -5,10 +5,9 @@ year-registered: 2025
 date-updated: null
 contact-name: Yuting Duan
 contact-email: 18702009530@163.com
+rg-description: CONSORT-A 2026 is essential to address the limitations of the outdated 2010 version, integrate fully with CONSORT 2025 statement, incorporate lessons learned and methodological advances from the past 15 years, and ultimately ensure the quality, transparency, and usability of acupuncture clinical trials.
 categories:
 - Clinical Trials
 ---
-
-CONSORT-A 2026 is essential to address the limitations of the outdated 2010 version, integrate fully with CONSORT 2025 statement, incorporate lessons learned and methodological advances from the past 15 years, and ultimately ensure the quality, transparency, and usability of acupuncture clinical trials.
 
 {{< include ../_template.qmd >}}

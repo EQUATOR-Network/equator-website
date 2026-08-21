@@ -5,15 +5,14 @@ year-registered: 2024
 date-updated: null
 contact-name: Syl Slatman
 contact-email: Syl.slatman@han.nl
-description: 'Virtual reality (VR) is increasingly being used in healthcare as an (adjunct) intervention to treat patients. Therapeutic VR could be used for a variety of treatment goals, including patient education, distraction or exposure therapy. The developers plan to produce reporting guidelines for therapeutic VR interventions for patients in healthcare. The group has completed a systematic literature review to identify potential items for the reporting guidelines, based on >100 scientific publications of VR in healthcare studies. Preparation for a modified, three step, e-Delphi study among experts is underway and this will be followed by a consensus meeting to finalise the guideline.
-
-
-  The developers plan to publish this reporting guideline in 2025, as an open access document.
-
-
-  Project details: [https://osf.io/hfp4m/](https://osf.io/hfp4m/)'
 categories:
 - Other
 ---
+
+Virtual reality (VR) is increasingly being used in healthcare as an (adjunct) intervention to treat patients. Therapeutic VR could be used for a variety of treatment goals, including patient education, distraction or exposure therapy. The developers plan to produce reporting guidelines for therapeutic VR interventions for patients in healthcare. The group has completed a systematic literature review to identify potential items for the reporting guidelines, based on >100 scientific publications of VR in healthcare studies. Preparation for a modified, three step, e-Delphi study among experts is underway and this will be followed by a consensus meeting to finalise the guideline.
+
+The developers plan to publish this reporting guideline in 2025, as an open access document.
+
+Project details: [https://osf.io/hfp4m/](https://osf.io/hfp4m/)
 
 {{< include ../_template.qmd >}}

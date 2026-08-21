@@ -5,18 +5,16 @@ year-registered: 2025
 date-updated: null
 contact-name: Yuting Duan; Zhirui Xu
 contact-email: 18702009530@163.com; xuzhirui777@163.com
-description: 'Organoids, rapid developed from 2009 since small intestinal organoid successful cultivation,are three-dimensional (3D) miniature structures cultured in vitro produced from stem cells that recapitulate the cellular heterogeneity,structure, and functions of human organs. As they are similar to the original organs and carry human genetic information,organoids hold great promise in pre-clinical experiments compared with traditional animal models and two-dimensional (2D) cell lines, which can alleviate the contradiction between the long culture period and the poor stability and accelerate the process of clinical transformation.In recent years, organoids have been widely applied in the pre-clinical research of biomedical research especially tumorigenesis, establishment of disease models, preclinical drug testing or drug screening as well as personalized regenerative medicine and gene repair.
-
-
-  However, no comprehensive standardized guidelines of reporting on pre-clinical organoids research have been proposed. This may properly lead to omission of important information and key features or inconsistencies in reporting,which can further inhibit reproducibility.
-
-
-  Hence,to improve the quality and transparency of organoids pre-clinical research, we aim to develop the REFORM checklist, which will provide the guidance on reporting core elements for the organoids pre-clinical researches.
-
-
-  The developers plan to publish this reporting guideline in 2026, as an open access document.'
 categories:
 - Other
 ---
+
+Organoids, rapid developed from 2009 since small intestinal organoid successful cultivation,are three-dimensional (3D) miniature structures cultured in vitro produced from stem cells that recapitulate the cellular heterogeneity,structure, and functions of human organs. As they are similar to the original organs and carry human genetic information,organoids hold great promise in pre-clinical experiments compared with traditional animal models and two-dimensional (2D) cell lines, which can alleviate the contradiction between the long culture period and the poor stability and accelerate the process of clinical transformation.In recent years, organoids have been widely applied in the pre-clinical research of biomedical research especially tumorigenesis, establishment of disease models, preclinical drug testing or drug screening as well as personalized regenerative medicine and gene repair.
+
+However, no comprehensive standardized guidelines of reporting on pre-clinical organoids research have been proposed. This may properly lead to omission of important information and key features or inconsistencies in reporting,which can further inhibit reproducibility.
+
+Hence,to improve the quality and transparency of organoids pre-clinical research, we aim to develop the REFORM checklist, which will provide the guidance on reporting core elements for the organoids pre-clinical researches.
+
+The developers plan to publish this reporting guideline in 2026, as an open access document.
 
 {{< include ../_template.qmd >}}

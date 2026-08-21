@@ -5,12 +5,12 @@ year-registered: 2023
 date-updated: null
 contact-name: Jonathan E. Slutzman
 contact-email: jslutzman@mgh.harvard.edu
-description: 'The healthcare sector contributes to greenhouse gas and other environmental emissions, and there has been an increase in publications about the “sustainable healthcare space”, including healthcare products, services, and systems. However, there is no reporting standard for these studies. The ECoHealth project aims to increase the quality of publications to enable critical appraisal, interpretation and replication.
-
-
-  The development of this reporting guideline started in 2022, funded by Harvard Medical School, with a review of the literature, and a three-round Delphi survey, after ethics approval was obtained, is planned. The Delphi panel will include healthcare practitioners and environmental and industrial engineers, healthcare administrators, healthcare product regulatory agency representatives and journal editors. The group plans to publish the reporting guideline in 2024.'
 categories:
 - Other
 ---
+
+The healthcare sector contributes to greenhouse gas and other environmental emissions, and there has been an increase in publications about the “sustainable healthcare space”, including healthcare products, services, and systems. However, there is no reporting standard for these studies. The ECoHealth project aims to increase the quality of publications to enable critical appraisal, interpretation and replication.
+
+The development of this reporting guideline started in 2022, funded by Harvard Medical School, with a review of the literature, and a three-round Delphi survey, after ethics approval was obtained, is planned. The Delphi panel will include healthcare practitioners and environmental and industrial engineers, healthcare administrators, healthcare product regulatory agency representatives and journal editors. The group plans to publish the reporting guideline in 2024.
 
 {{< include ../_template.qmd >}}

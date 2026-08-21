@@ -5,12 +5,12 @@ year-registered: 2025
 date-updated: null
 contact-name: Vera Weirauch
 contact-email: Vera.weirauch@uni-wh.de
-description: 'The literature shows a wide variety and heterogeneity of evaluation and incorporation practices, as and under-reporting of both participatory approaches and evaluation of digital health interventions (DHIs). Several existing guidelines cover different aspects of health research, but a guideline for the reporting of the participatory development and participatory evaluation of DHIs is lacking. Therefore, a new reporting guideline is needed to facilitate the systematic development and evaluation of DHIs and to promote best practices in participatory research.
-
-
-  Protocol: [https://osf.io/vc39r](https://osf.io/vc39r)'
 categories:
 - Other
 ---
+
+The literature shows a wide variety and heterogeneity of evaluation and incorporation practices, as and under-reporting of both participatory approaches and evaluation of digital health interventions (DHIs). Several existing guidelines cover different aspects of health research, but a guideline for the reporting of the participatory development and participatory evaluation of DHIs is lacking. Therefore, a new reporting guideline is needed to facilitate the systematic development and evaluation of DHIs and to promote best practices in participatory research.
+
+Protocol: [https://osf.io/vc39r](https://osf.io/vc39r)
 
 {{< include ../_template.qmd >}}

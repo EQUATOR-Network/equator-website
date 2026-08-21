@@ -5,23 +5,18 @@ year-registered: 2026
 date-updated: null
 contact-name: Robyn Smith, Department of Medicine, Royal Melbourne Hospital, Faculty of Medicine, Dentistry and Health Sciences, University of Melbourne, Australia.
 contact-email: robyn.smith@unimelb.edu.au
-description: 'A Community of Practice (CoP) is a group of people who interact regularly and learn together with the aim of making a difference to a shared area of interest or
-
-  practice - for example, a group of nurses who want to improve clinical care for older people. Much has been written about CoPs, yet there are often gaps in the way
-
-  they are described in the peer reviewed literature or reports. Unclear or missing detail on elements such as context, group process or activities, evaluation, value or outcomes makes it difficult to understand what helps a CoP to function well or what to compare when researching or planning a new group.
-
-
-  Although CoPs are often applied in health care as a mechanism to support learning, implementation of new approaches or to foster practice change, no reporting guideline currently exists.
-
-  To fill this gap this project asks international experts to reflect on what is important to include when describing or writing about CoPs. The elements chosen by the expert panel will be included in a CoP Reporting Guide that will aid researchers and practitioners to define, describe, or write about CoPs more clearly. For the wide range of people who run and join CoPs, this work
-
-  will develop the understanding of what a CoP is, which is important for evaluating what works and what does not. Greater clarity and consistency in reports will enhance CoP design and implementation and inform decisions made on investing in CoPs as an approach. The guide will also aid the practitioners and researchers evaluating CoPs by providing clear guidance on what to include when measuring, discussing, or writing about CoPs.
-
-
-  The team aims to publish the CoP Reporting Guide in a peer reviewed publication, share through professional forums and to make it freely available to download. We anticipate this work will be completed by the end of 2026.'
 categories:
 - Observational studies
 ---
+
+A Community of Practice (CoP) is a group of people who interact regularly and learn together with the aim of making a difference to a shared area of interest or
+practice - for example, a group of nurses who want to improve clinical care for older people. Much has been written about CoPs, yet there are often gaps in the way
+they are described in the peer reviewed literature or reports. Unclear or missing detail on elements such as context, group process or activities, evaluation, value or outcomes makes it difficult to understand what helps a CoP to function well or what to compare when researching or planning a new group.
+
+Although CoPs are often applied in health care as a mechanism to support learning, implementation of new approaches or to foster practice change, no reporting guideline currently exists.
+To fill this gap this project asks international experts to reflect on what is important to include when describing or writing about CoPs. The elements chosen by the expert panel will be included in a CoP Reporting Guide that will aid researchers and practitioners to define, describe, or write about CoPs more clearly. For the wide range of people who run and join CoPs, this work
+will develop the understanding of what a CoP is, which is important for evaluating what works and what does not. Greater clarity and consistency in reports will enhance CoP design and implementation and inform decisions made on investing in CoPs as an approach. The guide will also aid the practitioners and researchers evaluating CoPs by providing clear guidance on what to include when measuring, discussing, or writing about CoPs.
+
+The team aims to publish the CoP Reporting Guide in a peer reviewed publication, share through professional forums and to make it freely available to download. We anticipate this work will be completed by the end of 2026.
 
 {{< include ../_template.qmd >}}

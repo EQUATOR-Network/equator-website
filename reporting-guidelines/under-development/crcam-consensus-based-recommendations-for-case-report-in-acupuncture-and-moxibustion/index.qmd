@@ -5,9 +5,10 @@ year-registered: 2022
 date-updated: null
 contact-name: Hao Wang and Ling Guan, China Association for Acupuncture and Moxibustion and The Sixth Medical Center of PLA General Hospital.
 contact-email: whao@bucm.edu.cn
-description: This project will develop a new reporting guideline for manuscripts of case reports covering the description of clinical cases in acupuncture, moxibustion, electroacupuncture, scalp acupuncture, auricular acupuncture, fire needling, dermal needling, wrist and ankle needling, transcutaneous point electrical stimulation, laser acupuncture and other acupuncture treatments. It started in September 2022 with the convening of a working group and a literature review. A three-round Delphi survey is planned. The China Association for Acupuncture and Moxibustion financially supports the project. The reporting guideline is planned to be submitted for publication in 2023 as an open-access document.
 categories:
 - Observational studies
 ---
+
+This project will develop a new reporting guideline for manuscripts of case reports covering the description of clinical cases in acupuncture, moxibustion, electroacupuncture, scalp acupuncture, auricular acupuncture, fire needling, dermal needling, wrist and ankle needling, transcutaneous point electrical stimulation, laser acupuncture and other acupuncture treatments. It started in September 2022 with the convening of a working group and a literature review. A three-round Delphi survey is planned. The China Association for Acupuncture and Moxibustion financially supports the project. The reporting guideline is planned to be submitted for publication in 2023 as an open-access document.
 
 {{< include ../_template.qmd >}}

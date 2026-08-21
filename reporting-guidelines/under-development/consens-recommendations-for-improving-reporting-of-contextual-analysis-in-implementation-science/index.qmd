@@ -5,12 +5,12 @@ year-registered: 2052
 date-updated: null
 contact-name: Juliane Mielke
 contact-email: juliane.mielke@unibas.ch
-description: 'Contextual analysis is an important part of the implementation science methodology and pivotal in informing subsequent phases of implementation science projects, such as intervention development / adaption, choice of contextually adapted implementation strategies and interpretation of outcomes. However, existing reporting guidelines lack specificity regarding how contextual analysis should be reported. This deficiency leads to variations and gaps in reporting that turn contextual analysis into a “black box” and diminish its contribution over the course of implementation science projects. In order to strengthen the reporting of contextual analysis, this project aims to build a guideline for the reporting of contextual analysis in implementation science that can complement existing implementation science reporting guidelines (e.g. StaRI).
-
-
-  Website: [https://nursing.unibas.ch/de/forschung/forschungsprojekte/laufende-projekte/consens/](https://nursing.unibas.ch/de/forschung/forschungsprojekte/laufende-projekte/consens/)'
 categories:
 - Other
 ---
+
+Contextual analysis is an important part of the implementation science methodology and pivotal in informing subsequent phases of implementation science projects, such as intervention development / adaption, choice of contextually adapted implementation strategies and interpretation of outcomes. However, existing reporting guidelines lack specificity regarding how contextual analysis should be reported. This deficiency leads to variations and gaps in reporting that turn contextual analysis into a “black box” and diminish its contribution over the course of implementation science projects. In order to strengthen the reporting of contextual analysis, this project aims to build a guideline for the reporting of contextual analysis in implementation science that can complement existing implementation science reporting guidelines (e.g. StaRI).
+
+Website: [https://nursing.unibas.ch/de/forschung/forschungsprojekte/laufende-projekte/consens/](https://nursing.unibas.ch/de/forschung/forschungsprojekte/laufende-projekte/consens/)
 
 {{< include ../_template.qmd >}}

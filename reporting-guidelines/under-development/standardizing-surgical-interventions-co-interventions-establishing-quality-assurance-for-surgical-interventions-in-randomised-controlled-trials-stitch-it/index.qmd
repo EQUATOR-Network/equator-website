@@ -5,12 +5,12 @@ year-registered: 2016
 date-updated: November 2021
 contact-name: Natalie Blencowe
 contact-email: natalie.blencowe@bristol.ac.uk
+rg-description: 'Guidance is under development to help trial teams report surgical interventions in randomised controlled trials (RCTs) to supplement information from CONSORT-NPT, SPIRIT and TIDieR. The guideline will provide a structured approach for reporting quality assurance measures for surgical interventions in RCTs and their protocols so that the reports offer details about intervention standardisation and adherence to these standards (i.e., quality assurance). A Delphi process and a consensus meeting are planned.
+
+
+  The author informed that funding for the project was obtained in April 2019. The group plans to publish the guideline in 2023 as an open-access document.'
 categories:
 - Clinical Trials
 ---
-
-Guidance is under development to help trial teams report surgical interventions in randomised controlled trials (RCTs) to supplement information from CONSORT-NPT, SPIRIT and TIDieR. The guideline will provide a structured approach for reporting quality assurance measures for surgical interventions in RCTs and their protocols so that the reports offer details about intervention standardisation and adherence to these standards (i.e., quality assurance). A Delphi process and a consensus meeting are planned.
-
-The author informed that funding for the project was obtained in April 2019. The group plans to publish the guideline in 2023 as an open-access document.
 
 {{< include ../_template.qmd >}}

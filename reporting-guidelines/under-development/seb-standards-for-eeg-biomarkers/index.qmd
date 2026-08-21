@@ -5,12 +5,12 @@ year-registered: 2023
 date-updated: null
 contact-name: Joshua Ewen
 contact-email: ewen@kennedykrieger.org
-description: 'Electroencephalogram (EEG) is a test used to help diagnose and monitor conditions affecting the brain, especially epilepsy. With the endorsement of the International Federation of Clinical Neurophysiology (IFCN) in November 2022, a group of 11 collaborators are developing this reporting guideline including literature reviews, a Delphi study (which has already started) and a final consensus meeting planned. The final product will guide authors, reviewers and editors toward specifying important technical parameters for reproducible diagnostic accuracy studies and prediction models.
-
-
-  The guideline will focus on studies specifically related to the development and validation of EEG-based biomarkers, including a number of methodological details related specifically to EEG (both during a cognitive task and spontaneous/resting-stata recording). The group declares, however, that EEG-based biomarkers are involved in a number of contexts-of-use beyond diagnosis: real-time monitoring of physiological changes, prediction of change to an intervention and prognostication of natural history, for example. The group plans to publish the guidance in 2023 in IFCN’ journal, Clinical Neurophysiology.'
 categories:
 - Other
 ---
+
+Electroencephalogram (EEG) is a test used to help diagnose and monitor conditions affecting the brain, especially epilepsy. With the endorsement of the International Federation of Clinical Neurophysiology (IFCN) in November 2022, a group of 11 collaborators are developing this reporting guideline including literature reviews, a Delphi study (which has already started) and a final consensus meeting planned. The final product will guide authors, reviewers and editors toward specifying important technical parameters for reproducible diagnostic accuracy studies and prediction models.
+
+The guideline will focus on studies specifically related to the development and validation of EEG-based biomarkers, including a number of methodological details related specifically to EEG (both during a cognitive task and spontaneous/resting-stata recording). The group declares, however, that EEG-based biomarkers are involved in a number of contexts-of-use beyond diagnosis: real-time monitoring of physiological changes, prediction of change to an intervention and prognostication of natural history, for example. The group plans to publish the guidance in 2023 in IFCN’ journal, Clinical Neurophysiology.
 
 {{< include ../_template.qmd >}}

@@ -5,12 +5,12 @@ year-registered: 2025
 date-updated: null
 contact-name: Fanuel Meckson Bickton
 contact-email: fbickton@mlw.mw
-description: 'The PRe-EquiP-LMICs group comprises diverse professionals from LMICs and HICs across the globe who aim to develop guidelines for conducting and reporting global, participatory research in pulmonary rehabilitation (PR) to promote equitable participation from LMICs.
-
-
-  The group will develop PRe-EquiP-LMICs guidelines following the EQUATOR methodological toolkit/guidance for developing reporting guidelines, including a systematic review (completed), a Delphi survey, and a consensus meeting. The group will develop a preliminary list of conduct and reporting items from their recently completed systematic review. A Delphi survey (involving stakeholders from the wider pulmonary rehabilitation(PR) community, physiotherapists, patients with chronic respiratory disease and/or their caregivers/representatives, and policy makers) will then be conducted in order to ascertain the importance of the included items. The guideline document (including a final checklist) will be finalised in a consensus meeting, along with the production of an explanation and elaboration document.'
 categories:
 - Other
 ---
+
+The PRe-EquiP-LMICs group comprises diverse professionals from LMICs and HICs across the globe who aim to develop guidelines for conducting and reporting global, participatory research in pulmonary rehabilitation (PR) to promote equitable participation from LMICs.
+
+The group will develop PRe-EquiP-LMICs guidelines following the EQUATOR methodological toolkit/guidance for developing reporting guidelines, including a systematic review (completed), a Delphi survey, and a consensus meeting. The group will develop a preliminary list of conduct and reporting items from their recently completed systematic review. A Delphi survey (involving stakeholders from the wider pulmonary rehabilitation(PR) community, physiotherapists, patients with chronic respiratory disease and/or their caregivers/representatives, and policy makers) will then be conducted in order to ascertain the importance of the included items. The guideline document (including a final checklist) will be finalised in a consensus meeting, along with the production of an explanation and elaboration document.
 
 {{< include ../_template.qmd >}}

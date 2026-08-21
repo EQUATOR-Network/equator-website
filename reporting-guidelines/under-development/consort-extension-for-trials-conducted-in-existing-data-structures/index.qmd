@@ -5,12 +5,12 @@ year-registered: 2017
 date-updated: 6 October 2017
 contact-name: Linda Kwakkenbos, PhD; Brett D. Thombs, PhD
 contact-email: Kwakkenbosl@gmail.com; Brett.thombs@mcgill.ca
+rg-description: 'The objective of the proposed project is to develop a consensus-driven guideline to improve the reporting of trials conducted in existing data structures, including researcher-generated cohorts, registries, electronic health records, and administrative databases. This will be done as an extension of the Consolidated Standards of Reporting Trials (CONSORT) for trials conducted in existing data structures.
+
+
+  Read the project [summary (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/CONSORT-for-Trials-in-Existing-Data-Structures.pdf)'
 categories:
 - Clinical Trials
 ---
-
-The objective of the proposed project is to develop a consensus-driven guideline to improve the reporting of trials conducted in existing data structures, including researcher-generated cohorts, registries, electronic health records, and administrative databases. This will be done as an extension of the Consolidated Standards of Reporting Trials (CONSORT) for trials conducted in existing data structures.
-
-Read the project [summary (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/CONSORT-for-Trials-in-Existing-Data-Structures.pdf)
 
 {{< include ../_template.qmd >}}

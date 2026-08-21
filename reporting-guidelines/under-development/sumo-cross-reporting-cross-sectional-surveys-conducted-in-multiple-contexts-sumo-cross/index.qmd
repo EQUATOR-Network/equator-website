@@ -5,15 +5,14 @@ year-registered: 2024
 date-updated: null
 contact-name: Sameh Eltaybani, The University of Tokyo, Japan. .
 contact-email: eltaybanisameh@gmail.com
-description: 'This project aims to develop a reporting guideline for cross-sectional surveys conducted in multiple contexts, such as multinational, multi regional, and multicultural situations. According to the developers, guidelines such as [STROBE](/reporting-guidelines/strobe/) or [PRICSA](https://academic.oup.com/jssam/article/11/4/743/7136601?login=false) do not cover several aspects of surveys conducted in multiple contexts such as diverse healthcare systems, specific procedures for data management and sharing across countries/regions, or different languages.
-
-
-  The group is currently developing the study protocol and establishing the steering committee. The project is funded by by the Japan Society for the Promotion of Science (JSPS), KAKENHI Grant (number: JP24K20268). Developers plan to publish the reporting guideline as an open access document in 2028.
-
-
-  The group has-registered this project on the Open Science Framework: [https://doi.org/10.17605/OSF.IO/T6R98](https://doi.org/10.17605/OSF.IO/T6R98 ''https://doi.org/10.17605/OSF.IO/T6R98'').'
 categories:
 - Observational studies
 ---
+
+This project aims to develop a reporting guideline for cross-sectional surveys conducted in multiple contexts, such as multinational, multi regional, and multicultural situations. According to the developers, guidelines such as [STROBE](https://www.equator-network.org/reporting-guidelines/strobe/) or [PRICSA](https://academic.oup.com/jssam/article/11/4/743/7136601?login=false) do not cover several aspects of surveys conducted in multiple contexts such as diverse healthcare systems, specific procedures for data management and sharing across countries/regions, or different languages.
+
+The group is currently developing the study protocol and establishing the steering committee. The project is funded by by the Japan Society for the Promotion of Science (JSPS), KAKENHI Grant (number: JP24K20268). Developers plan to publish the reporting guideline as an open access document in 2028.
+
+The group has-registered this project on the Open Science Framework: [https://doi.org/10.17605/OSF.IO/T6R98](https://doi.org/10.17605/OSF.IO/T6R98 'https://doi.org/10.17605/OSF.IO/T6R98').
 
 {{< include ../_template.qmd >}}

@@ -5,17 +5,15 @@ year-registered: 2023
 date-updated: null
 contact-name: Ameenat Lola Solebo
 contact-email: lola.solebo@gosh.nhs.uk
-description: 'This project is for the development of an extension to the APOSTEL reporting guideline, specifically focused on the anterior segment structures in optical coherence tomography (OCT), such as corneal thickness, angle parameters, and quantification of inflammation. The ophthalmologists leading the project will form a panel of experts (authors of published studies reporting quantitative AS-OCT data) and conduct a Delphi study to evaluate APOSTEL recommendations. In a second stage, a consensus meeting online will review the list of items based on the changes proposed, and a second Delphi round will give opportunity to the panel to accept or reject items.
-
-
-  The development will start in May 2023, when the group expects to have responses from the original authors of APOSTEL. They plan to publish the reporting guideline on late 2025 as an open access document.
-
-
-  - Study protocol is available [here](https://www.medrxiv.org/content/10.1101/2023.11.21.23298845v2).
-
-  - Nomenclature study results are available [here](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2837462).'
 categories:
 - Other
 ---
+
+This project is for the development of an extension to the APOSTEL reporting guideline, specifically focused on the anterior segment structures in optical coherence tomography (OCT), such as corneal thickness, angle parameters, and quantification of inflammation. The ophthalmologists leading the project will form a panel of experts (authors of published studies reporting quantitative AS-OCT data) and conduct a Delphi study to evaluate APOSTEL recommendations. In a second stage, a consensus meeting online will review the list of items based on the changes proposed, and a second Delphi round will give opportunity to the panel to accept or reject items.
+
+The development will start in May 2023, when the group expects to have responses from the original authors of APOSTEL. They plan to publish the reporting guideline on late 2025 as an open access document.
+
+- Study protocol is available [here](https://www.medrxiv.org/content/10.1101/2023.11.21.23298845v2).
+- Nomenclature study results are available [here](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2837462).
 
 {{< include ../_template.qmd >}}

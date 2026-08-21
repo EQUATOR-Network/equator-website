@@ -5,12 +5,12 @@ year-registered: 2020
 date-updated: null
 contact-name: Fleming Bjerrum (Copenhagen Academy for Medical Education and Simulation, Capital Region of Denmark).
 contact-email: fbjerrum@gmail.com
-description: 'The objective of this working group is to develop a reporting guideline for studies investigating the validity in medical education tests. The reporting guideline will cover all types assessment tools (i.e. checklists, rating scales and simulator metrics) for health professional education (i.e. doctors, dentists, medical students, nurses, midwives, radiology assistants).
-
-
-  The international steering committee has conducted and published a literature review on the subject, to ascertain the need for a reporting guideline. The group plans to conduct a three-round Delphi study to reach consensus on the checklist items. They plan to publish the reporting guideline in early 2021, if possible as an open-access paper. They are also setting a website for the tool.'
 categories:
 - Observational studies
 ---
+
+The objective of this working group is to develop a reporting guideline for studies investigating the validity in medical education tests. The reporting guideline will cover all types assessment tools (i.e. checklists, rating scales and simulator metrics) for health professional education (i.e. doctors, dentists, medical students, nurses, midwives, radiology assistants).
+
+The international steering committee has conducted and published a literature review on the subject, to ascertain the need for a reporting guideline. The group plans to conduct a three-round Delphi study to reach consensus on the checklist items. They plan to publish the reporting guideline in early 2021, if possible as an open-access paper. They are also setting a website for the tool.
 
 {{< include ../_template.qmd >}}

@@ -5,9 +5,10 @@ year-registered: 2023
 date-updated: null
 contact-name: Soo Young Kim and Wonyoung Jung
 contact-email: wyjung.md@gmail.com; hallymfm@gmail.com
-description: Outbreak reports offer a timeline-based narrative of methods, findings, and public health responses in active or recently finished outbreaks or public health inquiries. These reports typically encompass the reason for the investigation, symptoms or pathogens involved, time and place of the outbreak, identification of affected individuals, as well as the investigation methods, results, and implications for public health. The ideal structure for these reports is a narrative format that sequentially presents the events. A group of physicians in the Department of Family Medicine Kangdong Sacred Heart Hospital, in South Korea, started developing this reporting guideline for reports of outbreaks of transmissible diseases and the community-level interventions to mitigate them. They have funding from Korea Disease Control and Prevention Agency and they plan to publish the guideline, as an open access document, in 2023.
 categories:
 - Other
 ---
+
+Outbreak reports offer a timeline-based narrative of methods, findings, and public health responses in active or recently finished outbreaks or public health inquiries. These reports typically encompass the reason for the investigation, symptoms or pathogens involved, time and place of the outbreak, identification of affected individuals, as well as the investigation methods, results, and implications for public health. The ideal structure for these reports is a narrative format that sequentially presents the events. A group of physicians in the Department of Family Medicine Kangdong Sacred Heart Hospital, in South Korea, started developing this reporting guideline for reports of outbreaks of transmissible diseases and the community-level interventions to mitigate them. They have funding from Korea Disease Control and Prevention Agency and they plan to publish the guideline, as an open access document, in 2023.
 
 {{< include ../_template.qmd >}}

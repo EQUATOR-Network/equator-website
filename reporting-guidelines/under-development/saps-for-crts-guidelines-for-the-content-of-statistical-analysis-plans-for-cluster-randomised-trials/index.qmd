@@ -5,12 +5,12 @@ year-registered: 2023
 date-updated: null
 contact-name: Karla Hemming
 contact-email: k.hemming@bham.ac.uk
+rg-description: 'The statistical analysis for cluster randomised trials has many complexities not yet addressed by the available guidance for statistical analysis plans. A group from the Institute of Applied Health Research University of Birmingham, Queen Mary University of London, University College London, and Ottawa Hospital Research Institute started developing an extension for the [Guidelines for the Content of Statistical Analysis Plans in Clinical Trials](https://jamanetwork.com/journals/jama/fullarticle/2666509). One member of the team of the original guideline will join the group.
+
+
+  A systematic review of the literature and a Delphi survey are planned, as well as a consensus meeting and piloting before publication. The group obtained partial funding from the UK NIHR Collaborations for Leadership in Applied Health Research and Care West Midlands initiative and the MRC-NIHR Develop Guidance for Better Research Methods grant for Developing guidance. They plan to publish the guidance as an open access document in 2024.'
 categories:
 - Clinical Trials
 ---
-
-The statistical analysis for cluster randomised trials has many complexities not yet addressed by the available guidance for statistical analysis plans. A group from the Institute of Applied Health Research University of Birmingham, Queen Mary University of London, University College London, and Ottawa Hospital Research Institute started developing an extension for the [Guidelines for the Content of Statistical Analysis Plans in Clinical Trials](https://jamanetwork.com/journals/jama/fullarticle/2666509). One member of the team of the original guideline will join the group.
-
-A systematic review of the literature and a Delphi survey are planned, as well as a consensus meeting and piloting before publication. The group obtained partial funding from the UK NIHR Collaborations for Leadership in Applied Health Research and Care West Midlands initiative and the MRC-NIHR Develop Guidance for Better Research Methods grant for Developing guidance. They plan to publish the guidance as an open access document in 2024.
 
 {{< include ../_template.qmd >}}

@@ -5,16 +5,19 @@ year-registered: 2014
 date-updated: 31 January 2024
 contact-name: Dr Martin Offringa
 contact-email: martin.offringa@sickkids.ca
+rg-description: 'An official extension of the CONSORT 2010 Statement for reporting randomised controlled trials in children is currently under development. A Delphi process to generate possible reporting standards for the guideline has taken place in 2009-2010. A systematic review of the literature was conducted in Q2-3 2014. A Consensus meeting was held on 16 September 2014. The evidence synthesis, Delphi survey and international consensus have been completed. The checklists have been finalised (available on request).
+
+
+  Update January 2024: The updates to CONSORT-C are underway. Periodic updates are shared on the [EnRICH website](https://lab.research.sickkids.ca/enrich/reporting-standards/spirit-consort-c/).
+
+
+  - [Read the results](https://pubmed.ncbi.nlm.nih.gov/26385379/) of the systematic review
+
+  - [Read a viewpoint article](https://pubmed.ncbi.nlm.nih.gov/38147343/) published in JAMA Pediatrics
+
+  - [Read the project protocol](https://pubmed.ncbi.nlm.nih.gov/38287439/)'
 categories:
 - Clinical Trials
 ---
-
-An official extension of the CONSORT 2010 Statement for reporting randomised controlled trials in children is currently under development. A Delphi process to generate possible reporting standards for the guideline has taken place in 2009-2010. A systematic review of the literature was conducted in Q2-3 2014. A Consensus meeting was held on 16 September 2014. The evidence synthesis, Delphi survey and international consensus have been completed. The checklists have been finalised (available on request).
-
-Update January 2024: The updates to CONSORT-C are underway. Periodic updates are shared on the [EnRICH website](https://lab.research.sickkids.ca/enrich/reporting-standards/spirit-consort-c/).
-
-- [Read the results](https://pubmed.ncbi.nlm.nih.gov/26385379/) of the systematic review
-- [Read a viewpoint article](https://pubmed.ncbi.nlm.nih.gov/38147343/) published in JAMA Pediatrics
-- [Read the project protocol](https://pubmed.ncbi.nlm.nih.gov/38287439/)
 
 {{< include ../_template.qmd >}}

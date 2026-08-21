@@ -5,25 +5,20 @@ year-registered: 2024
 date-updated: null
 contact-name: Stefano Negrini
 contact-email: stefano.negrini@unimi.it
-description: 'During the development of the RCTRACK Guideline, the expert Consensus identified the need of a specific guideline for interventions’ description for all the different study designs. It was decided to develop the GUIDE-Rehab Guideline as an accompanying guide for RCTRACK. The development of GUIDE-Rehab followed the same methodology as the RCTRACK in the first phases, and then was developed autonomously in the final Delphi processes. GUIDE-Rehab will be a smaller checklist focused on rehabilitation interventions in all study designs, including randomised clinical trials (RCTs) which are the main focus of RCTRACK. The Delphi rounds have completed and the group is ready to publish the reporting guideline soon, as an open access document.
-
-
-  GUIDE-Rehab should be used together with the RCTRACK Guideline when RCTs are concerned, as an additional help for a careful description of the intervention (RCTRACK will refer to GUIDE-Rehab for intervention description). It should be used as an independent guideline for all other study designs concerning rehabilitation interventions.
-
-
-  The project did not receive specific funding. [Cochrane Rehabilitation](http://www.rehabilitation.cochrane.org/) supported the development of the guideline in total autonomy.
-
-
-  Published materials about GUIDE-Rehab:
-
-
-  1. Levack WM, Malmivaara A, Meyer T, Negrini S. Methodological problems in rehabilitation research. Report from a cochrane rehabilitation methodology meeting. Eur J Phys Rehabil Med. 2019 Jun;55(3):319-321. doi: 10.23736/S1973-9087.19.05811-8. Epub 2019 Apr 15.
-
-  2. Negrini S, Meyer Psy T, Arienti C, Malmivaara A, Frontera WR; Cochrane Rehabilitation Methodology Meeting participants. In Search of Solutions for Evidence Generation in Rehabilitation: The Second Cochrane Rehabilitation Methodology Meeting. Am J Phys Med Rehabil. 2020 Mar;99(3):181-182. doi: 10.1097/PHM.0000000000001374.
-
-  3. Arienti C, Armijo-Olivo S, Minozzi S, Tjosvold L, Lazzarini SG, Patrini M, Negrini S. Methodological Issues in Rehabilitation Research: A Scoping Review. Arch Phys Med Rehabil. 2021 Aug;102(8):1614-1622.e14. doi: 10.1016/j.apmr.2021.04.006. Epub 2021 May 11. PMID: 33989598.'
 categories:
 - Other
 ---
+
+During the development of the RCTRACK Guideline, the expert Consensus identified the need of a specific guideline for interventions’ description for all the different study designs. It was decided to develop the GUIDE-Rehab Guideline as an accompanying guide for RCTRACK. The development of GUIDE-Rehab followed the same methodology as the RCTRACK in the first phases, and then was developed autonomously in the final Delphi processes. GUIDE-Rehab will be a smaller checklist focused on rehabilitation interventions in all study designs, including randomised clinical trials (RCTs) which are the main focus of RCTRACK. The Delphi rounds have completed and the group is ready to publish the reporting guideline soon, as an open access document.
+
+GUIDE-Rehab should be used together with the RCTRACK Guideline when RCTs are concerned, as an additional help for a careful description of the intervention (RCTRACK will refer to GUIDE-Rehab for intervention description). It should be used as an independent guideline for all other study designs concerning rehabilitation interventions.
+
+The project did not receive specific funding. [Cochrane Rehabilitation](http://www.rehabilitation.cochrane.org/) supported the development of the guideline in total autonomy.
+
+Published materials about GUIDE-Rehab:
+
+1. Levack WM, Malmivaara A, Meyer T, Negrini S. Methodological problems in rehabilitation research. Report from a cochrane rehabilitation methodology meeting. Eur J Phys Rehabil Med. 2019 Jun;55(3):319-321. doi: 10.23736/S1973-9087.19.05811-8. Epub 2019 Apr 15.
+2. Negrini S, Meyer Psy T, Arienti C, Malmivaara A, Frontera WR; Cochrane Rehabilitation Methodology Meeting participants. In Search of Solutions for Evidence Generation in Rehabilitation: The Second Cochrane Rehabilitation Methodology Meeting. Am J Phys Med Rehabil. 2020 Mar;99(3):181-182. doi: 10.1097/PHM.0000000000001374.
+3. Arienti C, Armijo-Olivo S, Minozzi S, Tjosvold L, Lazzarini SG, Patrini M, Negrini S. Methodological Issues in Rehabilitation Research: A Scoping Review. Arch Phys Med Rehabil. 2021 Aug;102(8):1614-1622.e14. doi: 10.1016/j.apmr.2021.04.006. Epub 2021 May 11. PMID: 33989598.
 
 {{< include ../_template.qmd >}}

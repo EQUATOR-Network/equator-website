@@ -5,18 +5,16 @@ year-registered: 2019
 date-updated: null
 contact-name: Dr Amy Price
 contact-email: amyprice@stanford.edu
-description: 'The PLOT consortium aims to build a research reporting checklist for protocols of randomised controlled trials involving the online participation of patients and citizens. PLOT is designed as an extension of the SPIRIT reporting guideline but focussed on the reporting of patient and public involvement (PPI) in trials conducted through the internet. The checklist will apply to clinical trials and also to mixed methods study protocols.
-
-
-  The group has reviewed the literature on patient and public involvement in the design of clinical trials, about the engagement of citizens in clinical trials through online sources and about dissemination practices about PPI. They are also identifying uncertainties around informed consent.
-
-
-  An online Delphi process will be used to develop the reporting guideline to be used in writing protocols for clinical trials involving self-recruitment. This process involves a wide range of stakeholders: researchers, clinicians, patient and public representatives, guideline developers, publishers, epidemiologists, methodologists, ethicists, content experts, funders, journal editors. The PLOT research reporting guideline will be piloted with student groups, new career researchers, contributors for English as a second language, and members of the public (planned for mid-2020). The group plans to publish the PLOT reporting guideline as an open-access document in the last quarter of 2021.
-
-
-  There is a dissemination plan for PLOT involving a dedicated website, the inclusion in the EQUATOR database, publishing editorials, lobbying with journals, academic institutions and funders, presentations in conferences, posting in social media, and online training.'
 categories:
 - Clinical trial protocols
 ---
+
+The PLOT consortium aims to build a research reporting checklist for protocols of randomised controlled trials involving the online participation of patients and citizens. PLOT is designed as an extension of the SPIRIT reporting guideline but focussed on the reporting of patient and public involvement (PPI) in trials conducted through the internet. The checklist will apply to clinical trials and also to mixed methods study protocols.
+
+The group has reviewed the literature on patient and public involvement in the design of clinical trials, about the engagement of citizens in clinical trials through online sources and about dissemination practices about PPI. They are also identifying uncertainties around informed consent.
+
+An online Delphi process will be used to develop the reporting guideline to be used in writing protocols for clinical trials involving self-recruitment. This process involves a wide range of stakeholders: researchers, clinicians, patient and public representatives, guideline developers, publishers, epidemiologists, methodologists, ethicists, content experts, funders, journal editors. The PLOT research reporting guideline will be piloted with student groups, new career researchers, contributors for English as a second language, and members of the public (planned for mid-2020). The group plans to publish the PLOT reporting guideline as an open-access document in the last quarter of 2021.
+
+There is a dissemination plan for PLOT involving a dedicated website, the inclusion in the EQUATOR database, publishing editorials, lobbying with journals, academic institutions and funders, presentations in conferences, posting in social media, and online training.
 
 {{< include ../_template.qmd >}}

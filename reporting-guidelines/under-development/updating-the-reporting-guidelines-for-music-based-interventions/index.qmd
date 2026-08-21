@@ -5,9 +5,10 @@ year-registered: 2023
 date-updated: null
 contact-name: Sheri L Robb
 contact-email: shrobb@iu.edu
-description: Published in 2011, the [Reporting Guidelines for Music-Based Interventions](/reporting-guidelines/reporting-guidelines-for-music-based-interventions/) focuses on the description of the music intervention and is intended to be used in conjunction with methods-specific reporting guidelines (e.g., CONSORT, TREND, STROBE, PRISMA etc.). The guideline is now under review for updating. The project involves the conduction of two survey rounds with a pool of researchers on music and music-based interventions to reach consensus on the-updated checklist items. The first round started on November 2022. The work is funded and the group plans to publish the update in 2023. Authors of the original guideline are involved.
 categories:
 - Other
 ---
+
+Published in 2011, the [Reporting Guidelines for Music-Based Interventions](https://www.equator-network.org/reporting-guidelines/reporting-guidelines-for-music-based-interventions/) focuses on the description of the music intervention and is intended to be used in conjunction with methods-specific reporting guidelines (e.g., CONSORT, TREND, STROBE, PRISMA etc.). The guideline is now under review for updating. The project involves the conduction of two survey rounds with a pool of researchers on music and music-based interventions to reach consensus on the-updated checklist items. The first round started on November 2022. The work is funded and the group plans to publish the update in 2023. Authors of the original guideline are involved.
 
 {{< include ../_template.qmd >}}

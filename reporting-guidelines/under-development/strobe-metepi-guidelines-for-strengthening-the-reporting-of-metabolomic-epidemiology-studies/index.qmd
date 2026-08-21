@@ -5,12 +5,12 @@ year-registered: 2021
 date-updated: null
 contact-name: Rachel S. Kelly, Channing Division of Network Medicine, Brigham and Women’s Hospital and Harvard Medical School.
 contact-email: hprke@channing.harvard.edu
-description: 'The aim of STROBE-MetEpi, an extension of the STROBE reporting guideline, is to define a comprehensive list of protocol items that should be reported in every published metabolomic epidemiology study. The guideline will include reporting standards for both the metabolomic aspects of a study (sample collection, sample storage, profiling platforms quality control, etc.) and the epidemiological aspects (study design, study population, data processing, statistical analyses etc.). It will include observational and diagnostic and prognostic studies.
-
-
-  Experts recruited from across the field of metabolomic epidemiology representing broad diversity in experience and expertise, including epidemiologists, chemists, and computational biologists, are collaborating in the project. The writing team plans to conduct several meetings and literature review to reach a consensus on a checklist of items, that they intend to publish together with an elaboration and explanation document, in an open-access format by 2022.'
 categories:
 - Observational studies
 ---
+
+The aim of STROBE-MetEpi, an extension of the STROBE reporting guideline, is to define a comprehensive list of protocol items that should be reported in every published metabolomic epidemiology study. The guideline will include reporting standards for both the metabolomic aspects of a study (sample collection, sample storage, profiling platforms quality control, etc.) and the epidemiological aspects (study design, study population, data processing, statistical analyses etc.). It will include observational and diagnostic and prognostic studies.
+
+Experts recruited from across the field of metabolomic epidemiology representing broad diversity in experience and expertise, including epidemiologists, chemists, and computational biologists, are collaborating in the project. The writing team plans to conduct several meetings and literature review to reach a consensus on a checklist of items, that they intend to publish together with an elaboration and explanation document, in an open-access format by 2022.
 
 {{< include ../_template.qmd >}}

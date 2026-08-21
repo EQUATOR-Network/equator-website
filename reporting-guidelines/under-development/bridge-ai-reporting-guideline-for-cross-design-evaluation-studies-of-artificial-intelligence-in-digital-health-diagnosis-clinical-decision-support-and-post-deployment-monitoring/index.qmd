@@ -5,21 +5,18 @@ year-registered: 2026
 date-updated: null
 contact-name: Hamid Reza Marateb
 contact-email: Hamid.reza.marateb@upc.edu
-description: 'BRIDGE stands for Bias Reduction for Implementation, Deployment, Governance, and Equity. BRIDGE-AI is a new, cross-design reporting guideline for evaluation studies of artificial intelligence (AI) in digital health, particularly diagnosis, prognosis, clinical decision support, workflow integration, and post-deployment monitoring. It is not conceived as an extension of a single existing guideline. Instead, it addresses reporting items that cut across study designs and evaluation phases and are currently dispersed across the AI literature.
-
-
-  The guideline is organised around eight workgroups: WG1 fairness and data representativeness; WG2 robustness and stress-testing; WG3 traceability, documentation and accountability; WG4 explainability and transparency; WG5 usability, human-AI interaction and automation bias; WG6 governance, ethical oversight and regulatory alignment; WG7 clinical and public health integration/workflow evaluation; and WG8 post-deployment monitoring, drift detection and lifecycle quality.
-
-
-  Candidate reporting items are also being grounded in ISO/IEC standards and technical specifications, including ISO/IEC TR 24027 and ISO/IEC TS 12791 for bias and unwanted bias treatment, ISO/IEC TR 24028 for trustworthiness and transparency, ISO/IEC TR 24029-1 and ISO/IEC 24029-2 for robustness assessment, ISO/IEC 23894 for AI risk management, and ISO/IEC TS 4213 for machine learning classification performance assessment.
-
-
-  A new guideline is needed because existing AI guidance on EQUATOR is largely design-specific or phase-specific—for example trials, protocols, diagnostic accuracy studies, prediction models, or early-stage clinical evaluation—whereas trustworthy digital health evaluation also requires consistent reporting of subgroup performance, oversight, lifecycle monitoring, workflow fit, and post-deployment drift. BRIDGE-AI will therefore complement existing guidance while remaining a standalone new reporting guideline entry.
-
-
-  Project website: [https://bridge-a-i.com/](https://bridge-a-i.com/)'
 categories:
 - Other
 ---
+
+BRIDGE stands for Bias Reduction for Implementation, Deployment, Governance, and Equity. BRIDGE-AI is a new, cross-design reporting guideline for evaluation studies of artificial intelligence (AI) in digital health, particularly diagnosis, prognosis, clinical decision support, workflow integration, and post-deployment monitoring. It is not conceived as an extension of a single existing guideline. Instead, it addresses reporting items that cut across study designs and evaluation phases and are currently dispersed across the AI literature.
+
+The guideline is organised around eight workgroups: WG1 fairness and data representativeness; WG2 robustness and stress-testing; WG3 traceability, documentation and accountability; WG4 explainability and transparency; WG5 usability, human-AI interaction and automation bias; WG6 governance, ethical oversight and regulatory alignment; WG7 clinical and public health integration/workflow evaluation; and WG8 post-deployment monitoring, drift detection and lifecycle quality.
+
+Candidate reporting items are also being grounded in ISO/IEC standards and technical specifications, including ISO/IEC TR 24027 and ISO/IEC TS 12791 for bias and unwanted bias treatment, ISO/IEC TR 24028 for trustworthiness and transparency, ISO/IEC TR 24029-1 and ISO/IEC 24029-2 for robustness assessment, ISO/IEC 23894 for AI risk management, and ISO/IEC TS 4213 for machine learning classification performance assessment.
+
+A new guideline is needed because existing AI guidance on EQUATOR is largely design-specific or phase-specific—for example trials, protocols, diagnostic accuracy studies, prediction models, or early-stage clinical evaluation—whereas trustworthy digital health evaluation also requires consistent reporting of subgroup performance, oversight, lifecycle monitoring, workflow fit, and post-deployment drift. BRIDGE-AI will therefore complement existing guidance while remaining a standalone new reporting guideline entry.
+
+Project website: [https://bridge-a-i.com/](https://bridge-a-i.com/)
 
 {{< include ../_template.qmd >}}

@@ -5,14 +5,13 @@ year-registered: 2025
 date-updated: null
 contact-name: Yuting Duan; Zhaoxian Bian; Yaolong Chen
 contact-email: 18702009530@163.com; bianzxiang@gmail.com; chenyaolong@lzu.edu.cn
-description: 'SPIRIT-A 2026 will be essential extension of SPIRIT 2025. Since 2016, more and more acupuncture RCTs published on TOP journals, and simutanously the reporting standard for acupuncture RCT protocols are also crucial to acupuncture researchers, practitioners, peer-reviewers, journal editors, policy-makers and other stakeholders. The reporting guideline will be developed to ensure the quality, transparency, and usability of acupuncture clinical trials protocols.
-
-
-  - Protocol of the Delphi study can be accessed [here](https://doi.org/10.15131/shef.data.29268875.v1)
-
-  - Protocol of the qualitative study can be accessed [here](https://doi.org/10.15131/shef.data.27733932.v1)'
 categories:
 - Clinical trial protocols
 ---
+
+SPIRIT-A 2026 will be essential extension of SPIRIT 2025. Since 2016, more and more acupuncture RCTs published on TOP journals, and simutanously the reporting standard for acupuncture RCT protocols are also crucial to acupuncture researchers, practitioners, peer-reviewers, journal editors, policy-makers and other stakeholders. The reporting guideline will be developed to ensure the quality, transparency, and usability of acupuncture clinical trials protocols.
+
+- Protocol of the Delphi study can be accessed [here](https://doi.org/10.15131/shef.data.29268875.v1)
+- Protocol of the qualitative study can be accessed [here](https://doi.org/10.15131/shef.data.27733932.v1)
 
 {{< include ../_template.qmd >}}

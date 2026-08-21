@@ -5,16 +5,19 @@ year-registered: 2020
 date-updated: null
 contact-name: Dr Tim Kendall; Dr Max Robinson
 contact-email: Tim.Kendall@ed.ac.uk; max.robinson@newcastle.ac.uk
+rg-description: 'The CONSORT-Path Core Delivery and Advisory groups propose to create an extension to the CONSORT statement to define the minimum reporting of pathology items within a study.
+
+
+  The guideline development process follows the methodology recommended by the EQUATOR network and will consist of the following phases:
+
+
+  1. A systematic review of existing guidance relating to the practice of pathology within clinical trials and the creation of a unified item list.
+
+  2. Consensus modified Delphi process informed by the systematic review unified item list.
+
+  3. Final consensus meeting. An international group of diverse stakeholders, including clinical trialists of all specialities, regulators, journal editors, industry and patient partners will produce the final elements defining the CONSORT-Path standards. Planned for Spring 2022.'
 categories:
 - Clinical Trials
 ---
-
-The CONSORT-Path Core Delivery and Advisory groups propose to create an extension to the CONSORT statement to define the minimum reporting of pathology items within a study.
-
-The guideline development process follows the methodology recommended by the EQUATOR network and will consist of the following phases:
-
-1. A systematic review of existing guidance relating to the practice of pathology within clinical trials and the creation of a unified item list.
-2. Consensus modified Delphi process informed by the systematic review unified item list.
-3. Final consensus meeting. An international group of diverse stakeholders, including clinical trialists of all specialities, regulators, journal editors, industry and patient partners will produce the final elements defining the CONSORT-Path standards. Planned for Spring 2022.
 
 {{< include ../_template.qmd >}}

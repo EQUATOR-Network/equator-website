@@ -5,18 +5,15 @@ year-registered: 2014
 date-updated: 31 January 2024
 contact-name: Dr Martin Offringa
 contact-email: martin.offringa@sickkids.ca
-description: 'An official extension of the SPIRIT 2013 Statement defining standard protocol items for clinical trials in children is currently under development. A Delphi process to generate possible reporting standards for the guideline has taken place in Q2-3 2014. A Consensus meeting was held on 15 September 2014. The group informs that the evidence synthesis, Delphi survey and international consensus have been completed. The checklists have been finalised (available on request).
-
-  Update January 2024: The updates to SPIRIT-C are underway. Periodic updates are shared on the [EnRICH website](https://lab.research.sickkids.ca/enrich/reporting-standards/spirit-consort-c/).
-
-
-  - [Read the results](https://pubmed.ncbi.nlm.nih.gov/26385379/) of the systematic review
-
-  - [Read a viewpoint article](https://pubmed.ncbi.nlm.nih.gov/38147343/) published in JAMA Pediatrics
-
-  - [Read the project protocol](https://pubmed.ncbi.nlm.nih.gov/38287439/)'
 categories:
 - Clinical trial protocols
 ---
+
+An official extension of the SPIRIT 2013 Statement defining standard protocol items for clinical trials in children is currently under development. A Delphi process to generate possible reporting standards for the guideline has taken place in Q2-3 2014. A Consensus meeting was held on 15 September 2014. The group informs that the evidence synthesis, Delphi survey and international consensus have been completed. The checklists have been finalised (available on request).
+Update January 2024: The updates to SPIRIT-C are underway. Periodic updates are shared on the [EnRICH website](https://lab.research.sickkids.ca/enrich/reporting-standards/spirit-consort-c/).
+
+- [Read the results](https://pubmed.ncbi.nlm.nih.gov/26385379/) of the systematic review
+- [Read a viewpoint article](https://pubmed.ncbi.nlm.nih.gov/38147343/) published in JAMA Pediatrics
+- [Read the project protocol](https://pubmed.ncbi.nlm.nih.gov/38287439/)
 
 {{< include ../_template.qmd >}}

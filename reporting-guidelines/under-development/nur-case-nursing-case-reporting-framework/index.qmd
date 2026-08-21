@@ -5,14 +5,13 @@ year-registered: 2025
 date-updated: null
 contact-name: Dr. Claudio-Alberto Rodríguez-Suárez, Research Support Unit, Insular Maternal and Child University Hospital Complex, Canary Islands Health Service, and Department of Nursing, Faculty of Health Sciences, University of Las Palmas de Gran Canaria, Las Palmas, Canary Islands, Spain.
 contact-email: claudioalberto.rodriguez@ulpgc.es
-description: 'The CAse REport (CARE) guidelines were developed to ensure transparency and precision in the reporting and publication of patient case studies; however, they are
-
-  not tailored to the specific characteristics of nursing clinical cases, nor have any extensions been developed to adapt them to the nursing process. The researchers therefore plan to develop a reporting guideline specifically focused on nursing clinical case reports.
-
-
-  A Delphi study with experts recruited through purposive sampling, all of whom have experience in publishing nursing clinical case reports, will be conducted. Following a literature review and analysis of the items included in the CARE guidelines, a list of items adapted to the nursing process will be proposed. Up to three successive Delphi rounds will be conducted until consensus is reached.'
 categories:
 - Observational studies
 ---
+
+The CAse REport (CARE) guidelines were developed to ensure transparency and precision in the reporting and publication of patient case studies; however, they are
+not tailored to the specific characteristics of nursing clinical cases, nor have any extensions been developed to adapt them to the nursing process. The researchers therefore plan to develop a reporting guideline specifically focused on nursing clinical case reports.
+
+A Delphi study with experts recruited through purposive sampling, all of whom have experience in publishing nursing clinical case reports, will be conducted. Following a literature review and analysis of the items included in the CARE guidelines, a list of items adapted to the nursing process will be proposed. Up to three successive Delphi rounds will be conducted until consensus is reached.
 
 {{< include ../_template.qmd >}}

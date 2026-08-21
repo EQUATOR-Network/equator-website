@@ -5,15 +5,14 @@ year-registered: 2025
 date-updated: null
 contact-name: Xuan Yu; Elie Akl
 contact-email: xuan_yu@hkbu.edu.hk; ea32@aub.edu.lb
-description: 'Guideline developers have increasingly engaged various interest-holders in all stages of guideline development. However, reporting on interest-holder engagement in practice guidelines often lacks transparency. Questions such as which interest-holders were included, how they were recruited, and how they were engaged in the process are often not described in detail.
-
-
-  To address these gaps, the RIGHT working group will collaborate with the MuSE Consortium to generate an initial list of items, hold consensus surveys and a consensus meeting with 20 representatives to develop a standardised reporting tool for interest-holder engagement in practice guidelines (RIGHT-MuSE extension).
-
-
-  Website: [https://www.right-statement.org/](https://www.right-statement.org/)'
 categories:
 - Other
 ---
+
+Guideline developers have increasingly engaged various interest-holders in all stages of guideline development. However, reporting on interest-holder engagement in practice guidelines often lacks transparency. Questions such as which interest-holders were included, how they were recruited, and how they were engaged in the process are often not described in detail.
+
+To address these gaps, the RIGHT working group will collaborate with the MuSE Consortium to generate an initial list of items, hold consensus surveys and a consensus meeting with 20 representatives to develop a standardised reporting tool for interest-holder engagement in practice guidelines (RIGHT-MuSE extension).
+
+Website: [https://www.right-statement.org/](https://www.right-statement.org/)
 
 {{< include ../_template.qmd >}}

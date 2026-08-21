@@ -5,21 +5,28 @@ year-registered: 2024
 date-updated: null
 contact-name: Brennan Kahan
 contact-email: b.kahan@ucl.ac.uk
+rg-description: 'An estimand is a description of the exact treatment effect that reflects tue clinical question in a clinical trial. The International Conference on Harmonization released an [addendum](https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e9-r1-addendum-estimands-and-sensitivity-analysis-clinical-trials-guideline-statistical-principles-clinical-trials-step-5_en.pdf) setting out a framework for using estimands in trials to clarify the interpretation of reported treatment effects. This addendum describes five attributes which need to be reported in order for the treatment effect to be well defined:
+
+  - Population of patients
+
+  - Treatment condition(s)
+
+  - Endpoint/variable
+
+  - Population-level summary measure
+
+  - Strategies for handling intercurrent events
+
+
+  The addendum was primarily developed for individually randomised trials. However, there is growing recognition that cluster randomised trials (in which "clusters" of participants, such as hospitals, schools, or villages, are randomised) may have additional considerations when defining the estimand, including the population of clusters that are of interest, and how patients and clusters should be weighted in the estimand definition.
+
+
+  A group researchers based on the MRC Clinical Trials Unit at UCL is developing a reporting guideline for estimates in cluster randomised trials. They plan to conduct a scoping review, a three-round Delphi survey, and a consensus meeting to develop the checklist. They plan to publish the reporting guideline as an open-access document in 2026.
+
+
+  - Protocol registration: https://osf.io/a5kdy/'
 categories:
 - Clinical Trials
 ---
-
-An estimand is a description of the exact treatment effect that reflects tue clinical question in a clinical trial. The International Conference on Harmonization released an [addendum](https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e9-r1-addendum-estimands-and-sensitivity-analysis-clinical-trials-guideline-statistical-principles-clinical-trials-step-5_en.pdf) setting out a framework for using estimands in trials to clarify the interpretation of reported treatment effects. This addendum describes five attributes which need to be reported in order for the treatment effect to be well defined:
-- Population of patients
-- Treatment condition(s)
-- Endpoint/variable
-- Population-level summary measure
-- Strategies for handling intercurrent events
-
-The addendum was primarily developed for individually randomised trials. However, there is growing recognition that cluster randomised trials (in which "clusters" of participants, such as hospitals, schools, or villages, are randomised) may have additional considerations when defining the estimand, including the population of clusters that are of interest, and how patients and clusters should be weighted in the estimand definition.
-
-A group researchers based on the MRC Clinical Trials Unit at UCL is developing a reporting guideline for estimates in cluster randomised trials. They plan to conduct a scoping review, a three-round Delphi survey, and a consensus meeting to develop the checklist. They plan to publish the reporting guideline as an open-access document in 2026.
-
-- Protocol registration: https://osf.io/a5kdy/
 
 {{< include ../_template.qmd >}}

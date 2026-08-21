@@ -5,12 +5,12 @@ year-registered: 2023
 date-updated: null
 contact-name: Lucy Elliott
 contact-email: Le17602@bristol.ac.uk
+rg-description: 'Anaesthesia-directed perioperative interventions are complex, often comprising multiple interacting components and elements of preoperative and postoperative care. The complex nature of these interventions has major implications for the design and delivery of perioperative RCTs. To improve the reporting of clinical trials in anaesthesia, this group is working on a reporting guideline that will help authors to describe interventions in sufficient detail to enable replication, and that they are delivered in a sufficiently standardised fashion to ensure protocol adherence and to facilitate robust comparisons with other interventions. The reporting guideline will cover the reporting of the anaesthesia intervention in trials and trials protocols, and development started in 2021. The team has already worked on thematic analysis of anaesthetic intervention components, drafting frameworks for each mode of anaesthesia. Focus groups were conducted in 2022 with triallists, key stakeholders and journal editors to elicit additional categories to be added and consider clarity and feasibility issues. The frameworks are being refined through ongoing cognitive interviews.
+
+
+  This study is supported by a grant from the Association of Anaesthetists of Great Britain and Ireland (AAGBI) via the National Institute of Academic Anaesthesia that was awarded in January 2022, and the group plan to publish the reporting guideline, as an open access document, in 2023.'
 categories:
 - Clinical Trials
 ---
-
-Anaesthesia-directed perioperative interventions are complex, often comprising multiple interacting components and elements of preoperative and postoperative care. The complex nature of these interventions has major implications for the design and delivery of perioperative RCTs. To improve the reporting of clinical trials in anaesthesia, this group is working on a reporting guideline that will help authors to describe interventions in sufficient detail to enable replication, and that they are delivered in a sufficiently standardised fashion to ensure protocol adherence and to facilitate robust comparisons with other interventions. The reporting guideline will cover the reporting of the anaesthesia intervention in trials and trials protocols, and development started in 2021. The team has already worked on thematic analysis of anaesthetic intervention components, drafting frameworks for each mode of anaesthesia. Focus groups were conducted in 2022 with triallists, key stakeholders and journal editors to elicit additional categories to be added and consider clarity and feasibility issues. The frameworks are being refined through ongoing cognitive interviews.
-
-This study is supported by a grant from the Association of Anaesthetists of Great Britain and Ireland (AAGBI) via the National Institute of Academic Anaesthesia that was awarded in January 2022, and the group plan to publish the reporting guideline, as an open access document, in 2023.
 
 {{< include ../_template.qmd >}}
