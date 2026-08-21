@@ -16,7 +16,7 @@ If you’re developing an extension to an existing guideline, you can make it of
 
 ## Register your reporting guideline
 
-As soon as you have identified the need for a new reporting guideline and have a solid plan for developing it, we encourage you to register with us. The EQUATOR Network keeps a [public register of guidelines that are either planned or under development](reporting-guidelines/under-development/index.qmd). Simply complete a brief form outlining details of the planned guideline and we will add an entry for the guideline to our register.
+As soon as you have identified the need for a new reporting guideline and have a solid plan for developing it, we encourage you to register with us. The EQUATOR Network keeps a [public register of guidelines that are either planned or under development](/reporting-guidelines/under-development/index.qmd). Simply complete a brief form outlining details of the planned guideline and we will add an entry for the guideline to our register.
 
 You can keep the entry updated by sending us more information about your development process as it progresses. Often more than one group identifies the need for a guideline at the same time. By registering, we prevent duplication of effort and help collaboration by helping potential developers contact each other.
 
