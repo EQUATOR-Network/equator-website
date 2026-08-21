@@ -6,13 +6,13 @@ title: Privacy Policy
 
 The EQUATOR (Enhancing the QUAlity and Transparency Of health Research) Network is an international initiative that seeks to improve the reliability and value of published health research literature by promoting transparent and accurate reporting and wider use of robust reporting guidelines.
 
-This website is operated by the University of Oxford. We are committed to protecting the privacy and security of your personal information (‘personal data’).
+This website is operated by the University of Birmingham We are committed to protecting the privacy and security of your personal information (‘personal data’).
 
 This policy (together with our [Terms of Use](terms-of-use.qmd)) describes how we collect and use your personal data during your use of our site, in accordance with the General Data Protection Regulation (GDPR) and associated data protection legislation. Where we refer in this policy to your ‘personal data’, we mean any recorded information that is about you and from which you can be identified. It does not include data where your identity has been removed (anonymous data).
 
 ## Who is using your personal data?
 
-The University of Oxford is the “data controller” for the information that you provide to us when visiting this website. This means that we decide how to use it and are responsible for looking after it in accordance with the GDPR.
+The University of Birmingham is the “data controller” for the information that you provide to us when visiting this website. This means that we decide how to use it and are responsible for looking after it in accordance with the GDPR.
 
 Access to your personal data within the University will be provided to those staff who need to view it as part of their work in connection with the operation of this website. It will also be shared with the third parties described below. By visiting our site, you are accepting and consenting to the practices described in this policy.
 
@@ -109,12 +109,10 @@ __utmt | Google | Used to throttle the speed of requests to the server. | 1 day 
 __utmv | Google | Saves user-defined tracking parameters for use in Google Analytics. | Session | HTTP Cookie
 __utmz | Google | Collects data on where the user came from, what search engine was used, what link was clicked and what search term was used. Used by Google Analytics. | 6 months | HTTP Cookie
 
-We use Oxford University's agreement with Microsoft Clarity to capture how you use and interact with our website through behavioural metrics, heatmaps, and session replay to improve and market our products/services. Website usage data is captured using first and third-party cookies and other tracking technologies to determine the popularity of products/services and online activity. Additionally, we use this information for site optimization, fraud/security purposes, and advertising. For more information about how Microsoft collects and uses your data, visit the [Microsoft Privacy Statement](https://www.microsoft.com/privacy/privacystatement).
-
 ## Changes to this policy
 
 Any changes we may make to our privacy policy in the future will be posted on this page. Please check back frequently to see any updates or changes to our privacy policy.
 
 ## Contact
 
-If you wish to raise any queries or concerns about this privacy policy, please contact us at equator@csm.ox.ac.uk.
+If you wish to raise any queries or concerns about this privacy policy, please contact us at g.s.collins@bham.ac.uk
