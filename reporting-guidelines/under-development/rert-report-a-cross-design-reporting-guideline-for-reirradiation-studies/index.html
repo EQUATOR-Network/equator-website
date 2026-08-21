@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Reirradiation (reRT) is increasingly used across tumor sites, supported by advances in imaging, treatment planning, and delivery that enable safer retreatment strategies. However, reRT studies remain highly heterogeneous in their reporting, particularly regarding prior irradiation, cumulative dose evaluation, assumptions on tissue recovery, target definition, organ-at-risk constraints, and the integration of prior and current treatment courses. While this heterogeneity reflects clinical complexity, inconsistencies in how these elements are reported severely limit comparability between studies, weaken evidence synthesis, and hinder the development of robust and transferable clinical knowledge. Existing reporting guidelines from the EQUATOR Network, including CONSORT, STROBE, and TRIPOD, have substantially improved research transparency but do not address the specific methodological challenges inherent to reRT, such as the integration of multi-course radiotherapy data and cumulative dose assessment. Building upon recent consensus efforts that established standards for dose evaluation and clinical workflows, recent ESTRO-endorsed initiatives have further highlighted major inconsistencies in terminology, reporting practices, and dose evaluation methods, reinforcing the need for structured and standardized reporting. This project aims to develop a dedicated cross-design reporting guideline for reRT studies, aligned with existing EQUATOR frameworks while addressing the specific complexities of reirradiation. The guideline will define a minimal set of mandatory reporting items, applicable across study designs, tumour sites, and radiotherapy techniques. The primary objective is to develop a structured reporting guideline to improve reproducibility, comparability, and clinical interpretability of reRT research. As a secondary implementation tool, a structured eCRF-like framework may also be developed to facilitate standardized data capture and practical adoption of the reporting recommendations.">
 
 <title>ReRT-REPORT: A cross-design reporting guideline for reirradiation studies</title>
 <style>
@@ -43,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-967507bd66f73bb9cabde3b124e0295f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-ee8dd5c00517f1fa58071cedc441ef20.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -75,12 +74,20 @@ ul.task-list li input[type="checkbox"] {
         color: white;
       }
 </style>
+<meta http-equiv="x-content-type-options" content="nosniff">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M6ZTFP7');</script>
+<!-- End Google Tag Manager -->
 
 
 <link rel="stylesheet" href="../../../assets/css/main.css">
 <link rel="stylesheet" href="../../../assets/css/database-pages.css">
 <meta property="og:title" content="ReRT-REPORT: A cross-design reporting guideline for reirradiation studies">
-<meta property="og:description" content="Reirradiation (reRT) is increasingly used across tumor sites, supported by advances in imaging, treatment planning, and delivery that enable safer retreatment strategies.">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://equator-network.github.io/equator-website/reporting-guidelines/under-development/rert-report-a-cross-design-reporting-guideline-for-reirradiation-studies/assets/logos/equator_logo.png">
 </head>
 
@@ -101,10 +108,52 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reporting-guidelines" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Reporting Guidelines</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-reporting-guidelines">    
+        <li>
+    <a class="dropdown-item" href="../../../about/reporting-guidelines.html">
+ <span class="dropdown-text">What are reporting guidelines?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../reporting-guidelines/index.html">
+ <span class="dropdown-text">Search reporting guidelines</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../reporting-guidelines/under-development/index.html">
+ <span class="dropdown-text">Search reporting guidelines under development</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school"> 
 <span class="menu-text">Training</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-toolkits" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Toolkits</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-toolkits">    
+        <li>
+    <a class="dropdown-item" href="../../../toolkits/writing-research.html">
+ <span class="dropdown-text">For authors</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../toolkits/using-guidelines-in-journals.html">
+ <span class="dropdown-text">For journals</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../toolkits/peer-reviewing-research.html">
+ <span class="dropdown-text">For peer reviewers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../toolkits/developing-a-reporting-guideline/index.html">
+ <span class="dropdown-text">For reporting guideline developers</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
@@ -121,10 +170,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../../../about/international-equator-centres.html">
  <span class="dropdown-text">International EQUATOR Centres</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../about/reporting-guidelines.html">
- <span class="dropdown-text">About reporting guidelines</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../../about/contact.html">
@@ -149,15 +194,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">ReRT-REPORT: A cross-design reporting guideline for reirradiation studies</h1>
-                  <div>
-        <div class="description">
-          Reirradiation (reRT) is increasingly used across tumor sites, supported by advances in imaging, treatment planning, and delivery that enable safer retreatment strategies. However, reRT studies remain highly heterogeneous in their reporting, particularly regarding prior irradiation, cumulative dose evaluation, assumptions on tissue recovery, target definition, organ-at-risk constraints, and the integration of prior and current treatment courses. While this heterogeneity reflects clinical complexity, inconsistencies in how these elements are reported severely limit comparability between studies, weaken evidence synthesis, and hinder the development of robust and transferable clinical knowledge.<br>
-          Existing reporting guidelines from the EQUATOR Network, including CONSORT, STROBE, and TRIPOD, have substantially improved research transparency but do not address the specific methodological challenges inherent to reRT, such as the integration of multi-course radiotherapy data and cumulative dose assessment. Building upon recent consensus efforts that established standards for dose evaluation and clinical workflows, recent ESTRO-endorsed initiatives have further highlighted major inconsistencies in terminology, reporting practices, and dose evaluation methods, reinforcing the need for structured and standardized reporting.<br>
-          This project aims to develop a dedicated cross-design reporting guideline for reRT studies, aligned with existing EQUATOR frameworks while addressing the specific complexities of reirradiation. The guideline will define a minimal set of mandatory reporting items, applicable across study designs, tumour sites, and radiotherapy techniques.<br>
-          The primary objective is to develop a structured reporting guideline to improve reproducibility, comparability, and clinical interpretability of reRT research. As a secondary implementation tool, a structured eCRF-like framework may also be developed to facilitate standardized data capture and practical adoption of the reporting recommendations.
-        </div>
-      </div>
-                          <div class="quarto-categories">
+                                <div class="quarto-categories">
                 <div class="quarto-category">Observational studies</div>
               </div>
                   </div>
@@ -180,11 +217,18 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
 
 
 
+<p>Reirradiation (reRT) is increasingly used across tumor sites, supported by advances in imaging, treatment planning, and delivery that enable safer retreatment strategies. However, reRT studies remain highly heterogeneous in their reporting, particularly regarding prior irradiation, cumulative dose evaluation, assumptions on tissue recovery, target definition, organ-at-risk constraints, and the integration of prior and current treatment courses. While this heterogeneity reflects clinical complexity, inconsistencies in how these elements are reported severely limit comparability between studies, weaken evidence synthesis, and hinder the development of robust and transferable clinical knowledge.</p>
+<p>Existing reporting guidelines from the EQUATOR Network, including CONSORT, STROBE, and TRIPOD, have substantially improved research transparency but do not address the specific methodological challenges inherent to reRT, such as the integration of multi-course radiotherapy data and cumulative dose assessment. Building upon recent consensus efforts that established standards for dose evaluation and clinical workflows, recent ESTRO-endorsed initiatives have further highlighted major inconsistencies in terminology, reporting practices, and dose evaluation methods, reinforcing the need for structured and standardized reporting.</p>
+<p>This project aims to develop a dedicated cross-design reporting guideline for reRT studies, aligned with existing EQUATOR frameworks while addressing the specific complexities of reirradiation. The guideline will define a minimal set of mandatory reporting items, applicable across study designs, tumour sites, and radiotherapy techniques.</p>
+<p>The primary objective is to develop a structured reporting guideline to improve reproducibility, comparability, and clinical interpretability of reRT research. As a secondary implementation tool, a structured eCRF-like framework may also be developed to facilitate standardized data capture and practical adoption of the reporting recommendations.</p>
 <p>Registered: 18 May 2026</p>
 <div data-content="">
 <p>Last updated: </p>

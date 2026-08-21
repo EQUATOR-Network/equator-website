@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Based on literature reviews and prior experience, numerous inconsistencies have been identified in the reporting of diagnostic imaging studies, especially within dental radiology. Recognising that these same concerns apply broadly across all medical imaging, a new framework is urgently required. Existing tools such as CONSORT AI and SPIRIT AI distinguish themselves by narrow orientations centred on trials or protocols, often lacking the architectural depth to encompass the entire diagnostic workflow. The “Completeness, Learnability, Applicability, Interpretability, Reproducibility, and Evaluation” (CLAIRE) framework aims to bridge this gap. It is presented in three components: (i) a table detailing the importance of each featured concept, (ii) a checklist, and (iii) a grading score to assess the overall reporting quality of a manuscript. CLAIRE seamlessly integrates methodological rigour with real world clinical relevance. It operationalises its six core principles into a unified checklist that uniquely mandates the disclosure of raw results for critical appraisal and heavily emphasises interpretability for clinicians who are not experts in the field. Furthermore, by incorporating an objective scoring system, CLAIRE transcends basic reporting to provide a reproducible assessment tool for journal editors and peer reviewers, effectively bridging the gap between technical artificial intelligence development and safe, transparent clinical application.">
 
 <title>The CLAIRE statement: a comprehensive reporting and assessing guideline for artificial intelligence in diagnostic imaging</title>
 <style>
@@ -43,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-967507bd66f73bb9cabde3b124e0295f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-ee8dd5c00517f1fa58071cedc441ef20.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -75,12 +74,20 @@ ul.task-list li input[type="checkbox"] {
         color: white;
       }
 </style>
+<meta http-equiv="x-content-type-options" content="nosniff">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M6ZTFP7');</script>
+<!-- End Google Tag Manager -->
 
 
 <link rel="stylesheet" href="../../../assets/css/main.css">
 <link rel="stylesheet" href="../../../assets/css/database-pages.css">
 <meta property="og:title" content="The CLAIRE statement: a comprehensive reporting and assessing guideline for artificial intelligence in diagnostic imaging">
-<meta property="og:description" content="Based on literature reviews and prior experience, numerous inconsistencies have been identified in the reporting of diagnostic imaging studies, especially within dental radiology. Recognising that these same concerns apply broadly across all medical imaging, a new framework is urgently required. Existing tools such as CONSORT AI and SPIRIT AI distinguish themselves by narrow orientations centred on trials or protocols, often lacking the architectural depth to encompass the entire diagnostic workflow. The “Completeness, Learnability, Applicability, Interpretability, Reproducibility, and Evaluation” (CLAIRE) framework aims to bridge this gap. It is presented in three components: (i) a table detailing the importance of each featured concept, (ii) a checklist, and (iii) a grading score to assess the overall reporting quality of a manuscript. CLAIRE seamlessly integrates methodological rigour with real world clinical relevance. It operationalises its six core principles into a unified checklist that uniquely mandates the disclosure of raw results for critical appraisal and heavily emphasises interpretability for clinicians who are not experts in the field. Furthermore, by incorporating an objective scoring system, CLAIRE transcends basic reporting to provide a reproducible assessment tool for journal editors and peer reviewers, effectively bridging the gap between technical artificial intelligence development and safe, transparent clinical application.">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://equator-network.github.io/equator-website/reporting-guidelines/under-development/the-claire-statement-a-comprehensive-reporting-and-assessing-guideline-for-artificial-intelligence-in-diagnostic-imaging/assets/logos/equator_logo.png">
 </head>
 
@@ -101,10 +108,52 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reporting-guidelines" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Reporting Guidelines</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-reporting-guidelines">    
+        <li>
+    <a class="dropdown-item" href="../../../about/reporting-guidelines.html">
+ <span class="dropdown-text">What are reporting guidelines?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../reporting-guidelines/index.html">
+ <span class="dropdown-text">Search reporting guidelines</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../reporting-guidelines/under-development/index.html">
+ <span class="dropdown-text">Search reporting guidelines under development</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school"> 
 <span class="menu-text">Training</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-toolkits" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Toolkits</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-toolkits">    
+        <li>
+    <a class="dropdown-item" href="../../../toolkits/writing-research.html">
+ <span class="dropdown-text">For authors</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../toolkits/using-guidelines-in-journals.html">
+ <span class="dropdown-text">For journals</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../toolkits/peer-reviewing-research.html">
+ <span class="dropdown-text">For peer reviewers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../toolkits/developing-a-reporting-guideline/index.html">
+ <span class="dropdown-text">For reporting guideline developers</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
@@ -121,10 +170,6 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../../../about/international-equator-centres.html">
  <span class="dropdown-text">International EQUATOR Centres</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../about/reporting-guidelines.html">
- <span class="dropdown-text">About reporting guidelines</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../../about/contact.html">
@@ -149,12 +194,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">The CLAIRE statement: a comprehensive reporting and assessing guideline for artificial intelligence in diagnostic imaging</h1>
-                  <div>
-        <div class="description">
-          Based on literature reviews and prior experience, numerous inconsistencies have been identified in the reporting of diagnostic imaging studies, especially within dental radiology. Recognising that these same concerns apply broadly across all medical imaging, a new framework is urgently required. Existing tools such as CONSORT AI and SPIRIT AI distinguish themselves by narrow orientations centred on trials or protocols, often lacking the architectural depth to encompass the entire diagnostic workflow. The “Completeness, Learnability, Applicability, Interpretability, Reproducibility, and Evaluation” (CLAIRE) framework aims to bridge this gap. It is presented in three components: (i) a table detailing the importance of each featured concept, (ii) a checklist, and (iii) a grading score to assess the overall reporting quality of a manuscript. CLAIRE seamlessly integrates methodological rigour with real world clinical relevance. It operationalises its six core principles into a unified checklist that uniquely mandates the disclosure of raw results for critical appraisal and heavily emphasises interpretability for clinicians who are not experts in the field. Furthermore, by incorporating an objective scoring system, CLAIRE transcends basic reporting to provide a reproducible assessment tool for journal editors and peer reviewers, effectively bridging the gap between technical artificial intelligence development and safe, transparent clinical application.
-        </div>
-      </div>
-                          <div class="quarto-categories">
+                                <div class="quarto-categories">
                 <div class="quarto-category">Other</div>
               </div>
                   </div>
@@ -177,11 +217,15 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
 
 
 
+<p>Based on literature reviews and prior experience, numerous inconsistencies have been identified in the reporting of diagnostic imaging studies, especially within dental radiology. Recognising that these same concerns apply broadly across all medical imaging, a new framework is urgently required. Existing tools such as CONSORT AI and SPIRIT AI distinguish themselves by narrow orientations centred on trials or protocols, often lacking the architectural depth to encompass the entire diagnostic workflow. The “Completeness, Learnability, Applicability, Interpretability, Reproducibility, and Evaluation” (CLAIRE) framework aims to bridge this gap. It is presented in three components: (i) a table detailing the importance of each featured concept, (ii) a checklist, and (iii) a grading score to assess the overall reporting quality of a manuscript. CLAIRE seamlessly integrates methodological rigour with real world clinical relevance. It operationalises its six core principles into a unified checklist that uniquely mandates the disclosure of raw results for critical appraisal and heavily emphasises interpretability for clinicians who are not experts in the field. Furthermore, by incorporating an objective scoring system, CLAIRE transcends basic reporting to provide a reproducible assessment tool for journal editors and peer reviewers, effectively bridging the gap between technical artificial intelligence development and safe, transparent clinical application.</p>
 <p>Registered: 01 April 2026</p>
 <div data-content="">
 <p>Last updated: </p>
