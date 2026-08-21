@@ -5,21 +5,18 @@ year-registered: 2023
 date-updated: null
 contact-name: Fernando Sousa
 contact-email: Fernando.sousa@monash.edu
-rg-description: 'Intervention fidelity refers to how an intervention is delivered and engaged as intended in a clinical trial. If an intervention has poor fidelity but shows effective outcomes, the observed effects may be derived from other factors rather than from intervention itself. These interpretations are only possible when intervention fidelity is clearly reported in clinical trials.
-
-
-  After conducting a literature review to identify the available checklists and reporting guidelines of intervention fidelity, a research team based in Australia confirmed the need for a new reporting guidelines and wrote a protocol for its development, submitted to ethics review.
-
-
-  Findings from the literature review (e.g., previous checklists) were used to inform the development of the preliminary survey items. The initial list of items will be extensively discussed with the steering committee and then used in a three-round Delphi survey alongside open-ended questions. The first Delphi round is planned to start in January 2024.
-
-
-  A subsequent consensus meeting will involve clinical trialists, methodology experts, and journal editors. Following, the guideline will be piloted, wording will be revised accordingly, and the group plans to  publish the final statement and explanation and elaboration documents in an open access journal in 2024.
-
-
-  The group has obtained funding from the Australian Government Research Training Program (RTP) Scholarship'
 categories:
 - Clinical Trials
 ---
+
+Intervention fidelity refers to how an intervention is delivered and engaged as intended in a clinical trial. If an intervention has poor fidelity but shows effective outcomes, the observed effects may be derived from other factors rather than from intervention itself. These interpretations are only possible when intervention fidelity is clearly reported in clinical trials.
+
+After conducting a literature review to identify the available checklists and reporting guidelines of intervention fidelity, a research team based in Australia confirmed the need for a new reporting guidelines and wrote a protocol for its development, submitted to ethics review.
+
+Findings from the literature review (e.g., previous checklists) were used to inform the development of the preliminary survey items. The initial list of items will be extensively discussed with the steering committee and then used in a three-round Delphi survey alongside open-ended questions. The first Delphi round is planned to start in January 2024.
+
+A subsequent consensus meeting will involve clinical trialists, methodology experts, and journal editors. Following, the guideline will be piloted, wording will be revised accordingly, and the group plans to  publish the final statement and explanation and elaboration documents in an open access journal in 2024.
+
+The group has obtained funding from the Australian Government Research Training Program (RTP) Scholarship
 
 {{< include ../_template.qmd >}}

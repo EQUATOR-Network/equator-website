@@ -5,12 +5,12 @@ year-registered: 2024
 date-updated: null
 contact-name: Xuan Zhang
 contact-email: zhangxuan@hkbu.edu.hk
-rg-description: 'The developers of this reporting guideline have found evidence that clinical trials of Chinese herbal medicine formulae frequently fail to report on adverse events. They propose to create a checklist to help researchers report more explicitly methods and procedures for observing adverse reactions as well as provide more thorough and in-depth information on the population, severity, and medication conditions of adverse reactions in such trials, toxicological tests and safety evaluations.
-
-
-  Developers plan to review the literature to identify potential items for the checklist, run Delphi surveys and a consensus meeting to finalise wording, pilot test and finalise and publish the reporting guideline and an explanation and elaboration documents in open-access journals in 2027. They also plan to submit the work to conferences. The project leaders have applied for funding by the Chinese Medicine Development Fund Hong Kong.'
 categories:
 - Clinical Trials
 ---
+
+The developers of this reporting guideline have found evidence that clinical trials of Chinese herbal medicine formulae frequently fail to report on adverse events. They propose to create a checklist to help researchers report more explicitly methods and procedures for observing adverse reactions as well as provide more thorough and in-depth information on the population, severity, and medication conditions of adverse reactions in such trials, toxicological tests and safety evaluations.
+
+Developers plan to review the literature to identify potential items for the checklist, run Delphi surveys and a consensus meeting to finalise wording, pilot test and finalise and publish the reporting guideline and an explanation and elaboration documents in open-access journals in 2027. They also plan to submit the work to conferences. The project leaders have applied for funding by the Chinese Medicine Development Fund Hong Kong.
 
 {{< include ../_template.qmd >}}

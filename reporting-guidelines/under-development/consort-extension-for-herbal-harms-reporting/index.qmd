@@ -5,15 +5,14 @@ year-registered: 2024
 date-updated: null
 contact-name: Hongcai Shang; Rui Zheng
 contact-email: shanghongcai@126.com; zhengrui0904@163.com
-rg-description: 'The chemical composition of herbal medicinal products varies depending on the geographic source of the plant material, the climate in which it was grown, the time of harvest, and others. Even when herbal products are standardised for the content of known active or marker compounds to achieve more consistent pharmaceutical quality, there is variation in the concentrations of other constituents. Herbal medicines are often used as complementary therapies to conventional Western medicine, making it difficult to determine potential interactions between the two treatments, which may lead to unknown adverse events. These variations can result in differences in pharmacologic activity in vitro and in bioavailability in humans. In some traditional medical systems, such as Traditional Chinese Medicine, toxic herbs are also used. This is risk information that requires additional attention.
-
-
-  The developers of this reporting guideline have found evidence that clinical trials of herbal medicine frequently fail to report adverse events. They propose to create a checklist to help researchers report more explicitly methods and procedures for observing adverse reactions as well as provide more thorough and in-depth information on the population, severity, and medication conditions of adverse reactions in such trials, toxicological tests, herb-drug interaction information and safety evaluations. Developers intend to conduct a literature review to identify potential items for the checklist. They will then carry out three Delphi surveys and hold a consensus meeting to finalise the wording. The next steps include pilot testing, finalising, and publishing in open-access journals.
-
-
-  The group involves experts from universities in Hong Kong, Canada, and others and received funding from Beijing University, including representatives from CONSORT and the Chinese EQUATOR Centre. They plan to publish the reporting guideline as an open-access document in 2027.'
 categories:
 - Clinical Trials
 ---
+
+The chemical composition of herbal medicinal products varies depending on the geographic source of the plant material, the climate in which it was grown, the time of harvest, and others. Even when herbal products are standardised for the content of known active or marker compounds to achieve more consistent pharmaceutical quality, there is variation in the concentrations of other constituents. Herbal medicines are often used as complementary therapies to conventional Western medicine, making it difficult to determine potential interactions between the two treatments, which may lead to unknown adverse events. These variations can result in differences in pharmacologic activity in vitro and in bioavailability in humans. In some traditional medical systems, such as Traditional Chinese Medicine, toxic herbs are also used. This is risk information that requires additional attention.
+
+The developers of this reporting guideline have found evidence that clinical trials of herbal medicine frequently fail to report adverse events. They propose to create a checklist to help researchers report more explicitly methods and procedures for observing adverse reactions as well as provide more thorough and in-depth information on the population, severity, and medication conditions of adverse reactions in such trials, toxicological tests, herb-drug interaction information and safety evaluations. Developers intend to conduct a literature review to identify potential items for the checklist. They will then carry out three Delphi surveys and hold a consensus meeting to finalise the wording. The next steps include pilot testing, finalising, and publishing in open-access journals.
+
+The group involves experts from universities in Hong Kong, Canada, and others and received funding from Beijing University, including representatives from CONSORT and the Chinese EQUATOR Centre. They plan to publish the reporting guideline as an open-access document in 2027.
 
 {{< include ../_template.qmd >}}

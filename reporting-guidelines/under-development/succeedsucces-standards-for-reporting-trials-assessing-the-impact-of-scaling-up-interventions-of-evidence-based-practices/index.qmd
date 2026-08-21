@@ -5,21 +5,18 @@ year-registered: 2017
 date-updated: null
 contact-name: France Legare
 contact-email: france.legare@mfa.ulaval.ca
-rg-description: '"This proposed reporting guideline is born out of our work in the field of implementing large-scale evidence-based practices. We are currently involved in 3 systematic reviews of scaling-up trials, one that we lead (see [Effective interventions for scaling up evidence-based practices in primary care: a systematic review](https://www.crd.york.ac.uk/PROSPERO/display_record.asp?ID=CRD42016041461)) and the needs of policymakers in Canada. As director of the knowledge translation component of the CIHR FRQS MSSS Quebec SPOR SUPPORT unit, we have been asked by policymakers to provide evidence of effective scaling-up intervention. However, up to this point, we observed very poor reporting. As concluded in one of our reports, ''there are still many gaps in the science of scaling up in real-world health care settings''. These gaps are hampering policymakers as well as system managers, to ensure that the vast majority can benefit from the favourable impact of EBP. Canada is perceived as a country of perpetual pilot projects and there is a mounting frustration of not getting the return on investment of the billions of dollars spent on research in this country. The scaling-up of evidence-based practice (EBP) is a relatively new emerging concept in health. Although there is no definitive agreed-upon definition, the World Health Organization defines it as deliberate efforts to increase the impact of successfully tested health innovations (EBP) so as to benefit more people and to foster policy and programme development on a lasting basis. Yet, there is a persistent failure to scale up EBPs, especially in high-income countries. Our ongoing systematic review about effective strategies for scaling up EBP in primary care identified 25 studies. We observed the following gaps in knowledge: a) poor reporting; b) lack of a clear measure of the scaling up outcome (i.e., a measure of coverage with a numerator -- the number of units covered by the EBP and a denominator -- total number of units targeted); c) unclear distinction between the EBP and the strategies used to scale up the EBP; d) lack of rigorous studies from high-income countries; d) poor representation of primary care clinical contexts; e) little assessment of potential harms; and f) absence of patients and public engagement in designing the scaling-up strategies. Therefore, we would like to address the lack of a specific reporting guideline on scaling up trials."
-
-
-  The group will draw the needed resources from the Canada Research Chair and explore if the same can be done with resources from the CIHR FRQS MSSS Quebec SPOR SUPPORT unit (post-doctoral student).
-
-
-  Read the project [protocol](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-019-1258-3).
-
-
-  [Project website](http://www.decision.chaire.fmed.ulaval.ca/en/home-page)
-
-
-  [Canada Research Chair in Shared Decision Making and Knowledge Translation and Unité de Soutien Composantes](http://unitesoutiensrapqc.ca/composantes/)'
 categories:
 - Clinical Trials
 ---
+
+"This proposed reporting guideline is born out of our work in the field of implementing large-scale evidence-based practices. We are currently involved in 3 systematic reviews of scaling-up trials, one that we lead (see [Effective interventions for scaling up evidence-based practices in primary care: a systematic review](https://www.crd.york.ac.uk/PROSPERO/display_record.asp?ID=CRD42016041461)) and the needs of policymakers in Canada. As director of the knowledge translation component of the CIHR FRQS MSSS Quebec SPOR SUPPORT unit, we have been asked by policymakers to provide evidence of effective scaling-up intervention. However, up to this point, we observed very poor reporting. As concluded in one of our reports, 'there are still many gaps in the science of scaling up in real-world health care settings'. These gaps are hampering policymakers as well as system managers, to ensure that the vast majority can benefit from the favourable impact of EBP. Canada is perceived as a country of perpetual pilot projects and there is a mounting frustration of not getting the return on investment of the billions of dollars spent on research in this country. The scaling-up of evidence-based practice (EBP) is a relatively new emerging concept in health. Although there is no definitive agreed-upon definition, the World Health Organization defines it as deliberate efforts to increase the impact of successfully tested health innovations (EBP) so as to benefit more people and to foster policy and programme development on a lasting basis. Yet, there is a persistent failure to scale up EBPs, especially in high-income countries. Our ongoing systematic review about effective strategies for scaling up EBP in primary care identified 25 studies. We observed the following gaps in knowledge: a) poor reporting; b) lack of a clear measure of the scaling up outcome (i.e., a measure of coverage with a numerator -- the number of units covered by the EBP and a denominator -- total number of units targeted); c) unclear distinction between the EBP and the strategies used to scale up the EBP; d) lack of rigorous studies from high-income countries; d) poor representation of primary care clinical contexts; e) little assessment of potential harms; and f) absence of patients and public engagement in designing the scaling-up strategies. Therefore, we would like to address the lack of a specific reporting guideline on scaling up trials."
+
+The group will draw the needed resources from the Canada Research Chair and explore if the same can be done with resources from the CIHR FRQS MSSS Quebec SPOR SUPPORT unit (post-doctoral student).
+
+Read the project [protocol](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-019-1258-3).
+
+[Project website](http://www.decision.chaire.fmed.ulaval.ca/en/home-page)
+
+[Canada Research Chair in Shared Decision Making and Knowledge Translation and Unité de Soutien Composantes](http://unitesoutiensrapqc.ca/composantes/)
 
 {{< include ../_template.qmd >}}

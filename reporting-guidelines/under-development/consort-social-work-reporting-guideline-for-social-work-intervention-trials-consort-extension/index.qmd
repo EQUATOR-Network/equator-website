@@ -5,23 +5,18 @@ year-registered: 2024
 date-updated: null
 contact-name: Bei Pan
 contact-email: panb16@163.com
-rg-description: 'This project aims to develop a reporting checklist for randomised controlled trials (RCTs) in the field of social work. Social work interventions often involve complex, multi-component programs that target various psychosocial, behavioural, and environmental factors. The contexts and mechanisms of these interventions can be quite different from clinical interventions in healthcare. A tailored reporting guideline would ensure that crucial details about the nature, content, delivery modes, and contextual factors of social work interventions are clearly reported. Reporting guidelines need to capture important details about these study settings, partnerships with providers/agencies, implementation processes and fidelity aspects. This ensures better contextualisation and transferability of findings.
-
-
-  The following steps are planned in the development:
-
-
-  - A systematic literature review of the current state of social work RCT research, identifying major reporting quality issues;
-
-  - Establishment of a multidisciplinary steering committee;
-
-  - Drafting the initial version of the guideline items and run a consensus meeting for feedback;
-
-  - Pilot testing in a sample of completed, high-quality social work RCT studies, where researchers will be asked to use the draft guideline to prepare reports, and collect user feedback;
-
-  - Incorporating feedback from the pilot testing, finalise, and publish as an open access document.'
 categories:
 - Clinical Trials
 ---
+
+This project aims to develop a reporting checklist for randomised controlled trials (RCTs) in the field of social work. Social work interventions often involve complex, multi-component programs that target various psychosocial, behavioural, and environmental factors. The contexts and mechanisms of these interventions can be quite different from clinical interventions in healthcare. A tailored reporting guideline would ensure that crucial details about the nature, content, delivery modes, and contextual factors of social work interventions are clearly reported. Reporting guidelines need to capture important details about these study settings, partnerships with providers/agencies, implementation processes and fidelity aspects. This ensures better contextualisation and transferability of findings.
+
+The following steps are planned in the development:
+
+- A systematic literature review of the current state of social work RCT research, identifying major reporting quality issues;
+- Establishment of a multidisciplinary steering committee;
+- Drafting the initial version of the guideline items and run a consensus meeting for feedback;
+- Pilot testing in a sample of completed, high-quality social work RCT studies, where researchers will be asked to use the draft guideline to prepare reports, and collect user feedback;
+- Incorporating feedback from the pilot testing, finalise, and publish as an open access document.
 
 {{< include ../_template.qmd >}}

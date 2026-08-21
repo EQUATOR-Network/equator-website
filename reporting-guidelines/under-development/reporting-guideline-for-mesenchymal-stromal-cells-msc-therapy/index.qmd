@@ -5,14 +5,13 @@ year-registered: 2021
 date-updated: null
 contact-name: Dr Bernard Thébaud
 contact-email: bthebaud@toh.ca
-rg-description: 'This guideline is being developed for creating standards for complete and transparent reporting of clinical trials using mesenchymal stromal cells (MSC). It starts with the development of a consensual definition of MSC and will work on MSC  characteristics, manufacturing methods and interventions. A scoping review has started and a two-round Delphi consensus method will be used, with the first round planned for November 2021. A face-to-face consensus meeting will follow. The group leading the project plans to publish the reporting guideline as an open-access document in 2022.
-
-
-  - Scoping review results available in the Open Science Framework: https://osf.io/3dsqx
-
-  - Protocol published in BMJ Open: https://bmjopen.bmj.com/content/11/10/e054740'
 categories:
 - Clinical Trials
 ---
+
+This guideline is being developed for creating standards for complete and transparent reporting of clinical trials using mesenchymal stromal cells (MSC). It starts with the development of a consensual definition of MSC and will work on MSC  characteristics, manufacturing methods and interventions. A scoping review has started and a two-round Delphi consensus method will be used, with the first round planned for November 2021. A face-to-face consensus meeting will follow. The group leading the project plans to publish the reporting guideline as an open-access document in 2022.
+
+- Scoping review results available in the Open Science Framework: https://osf.io/3dsqx
+- Protocol published in BMJ Open: https://bmjopen.bmj.com/content/11/10/e054740
 
 {{< include ../_template.qmd >}}

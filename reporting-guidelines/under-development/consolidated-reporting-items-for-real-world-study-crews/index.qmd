@@ -5,9 +5,10 @@ year-registered: 2019
 date-updated: null
 contact-name: Professor Zhaoxiang Bian
 contact-email: bianzxiang@gmail.com
-rg-description: Journal editors, methodologists and researchers of real-world trials have gathered in a group led by Hong Kong Chinese Medicine Clinical Study Centre, Hong Kong Baptist University, and started developing a reporting guideline for this type of study. The group plans to conduct a literature review, that started in August 2019 and establish an international multidisciplinary team, including a Development Group, a Delphi Panellists Group and an Advisory Group. They will run three rounds of modified Delphi surveys, face-to-face consensus meetings, consultations with advisors, pilot tests of the draft list of checklist items. The group plans to publish the reporting guideline, as an open-access document, in 2020.
 categories:
 - Clinical Trials
 ---
+
+Journal editors, methodologists and researchers of real-world trials have gathered in a group led by Hong Kong Chinese Medicine Clinical Study Centre, Hong Kong Baptist University, and started developing a reporting guideline for this type of study. The group plans to conduct a literature review, that started in August 2019 and establish an international multidisciplinary team, including a Development Group, a Delphi Panellists Group and an Advisory Group. They will run three rounds of modified Delphi surveys, face-to-face consensus meetings, consultations with advisors, pilot tests of the draft list of checklist items. The group plans to publish the reporting guideline, as an open-access document, in 2020.
 
 {{< include ../_template.qmd >}}

@@ -5,18 +5,16 @@ year-registered: 2024
 date-updated: null
 contact-name: Sophie Hall
 contact-email: Sophie.hall@nottingham.ac.uk
-rg-description: 'Dog-assisted interventions (DAIs) are therapeutic activities that involve a dog and aim to improve people''s health and wellbeing, usually with a focus on improving mental health. DAIs can vary widely between providers and settings. Most existing DAI evidence is based on small studies with scientific flaws, which lack important details when published, including the risks to both human and dog partners.
-
-
-  The AD ASTRA group will develop SPIRIT and CONSORT extensions for trials involving DAIs. The statements will provide authors with a standard reporting structure to facilitate completeness and transparency and aid in critical appraisal and interpretation of DAIs.
-
-
-  Representatives will be invited from dog-assisted intervention providers, clinicians, academics, and patients/their caregiver/support teams, to participate in the development. A systematic review will be conducted to identify randomised controlled trials using DAIs and reporting gaps. A Delphi survey and consensus workshop will finalise the items. The project is funded by an NIHR Program Development Grant. The group plans to publish the reporting guideline in the end of 2025 as an open access document.
-
-
-  - Protocol: https://osf.io/59fwh'
 categories:
 - Clinical Trials
 ---
+
+Dog-assisted interventions (DAIs) are therapeutic activities that involve a dog and aim to improve people's health and wellbeing, usually with a focus on improving mental health. DAIs can vary widely between providers and settings. Most existing DAI evidence is based on small studies with scientific flaws, which lack important details when published, including the risks to both human and dog partners.
+
+The AD ASTRA group will develop SPIRIT and CONSORT extensions for trials involving DAIs. The statements will provide authors with a standard reporting structure to facilitate completeness and transparency and aid in critical appraisal and interpretation of DAIs.
+
+Representatives will be invited from dog-assisted intervention providers, clinicians, academics, and patients/their caregiver/support teams, to participate in the development. A systematic review will be conducted to identify randomised controlled trials using DAIs and reporting gaps. A Delphi survey and consensus workshop will finalise the items. The project is funded by an NIHR Program Development Grant. The group plans to publish the reporting guideline in the end of 2025 as an open access document.
+
+- Protocol: https://osf.io/59fwh
 
 {{< include ../_template.qmd >}}

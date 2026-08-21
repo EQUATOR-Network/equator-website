@@ -5,17 +5,15 @@ year-registered: 2025
 date-updated: null
 contact-name: Emily Alger; Christina Yap
 contact-email: emily.alger@icr.ac.uk; christina.yap@icr.ac.uk
-rg-description: 'In line with the FDA''s Project Optimus initiative, there is increasing recognition of the value of Patient-reported Outcome (PRO) data to inform the tolerability assessment for investigational therapies in early phase dose-finding oncology trials (DFOTs). PROs, where patients directly report their symptomatic adverse events or quality of life, offer a complementary perspective to clinician-assessed toxicities and can enhance dose optimisation. Whilst tools such as PRO-CTCAE enable patients to self-assess their treatment- related toxicities, investigating and reporting the right PRO research objectives is crucial to ensure these early phase trials provide meaningful, patient-centred insights.
-
-
-  However, research indicates that PRO objectives in DFOTs are often unclear, with reporting and analyses not always aligned with the study aims. Clear recommendations for critical PRO objectives to be prioritised in DFOTs and their reporting are necessary to guide trialists in generating robust data.
-
-
-  The OPTIMISE-AR project is establishing guidelines for the reporting of PRO data within DFOTs. After firstly identifying critical PRO objectives (Part 1), we will develop guidelines for the reporting of such objectives within data visualisations figures and statistical analysis
-
-  methods to ensure PROs are reported rigorously and clearly by authors. The project aims to enhance the quality and clarity of PRO research objectives and PRO statistical analysis in early phase trial reports and publications. This guidance will enable trialists to systematically integrate PROs into their trials. By doing so, it supports more informed, patient-centred decision-making, and contributes to the development of safer, more effective therapies.'
 categories:
 - Clinical Trials
 ---
+
+In line with the FDA's Project Optimus initiative, there is increasing recognition of the value of Patient-reported Outcome (PRO) data to inform the tolerability assessment for investigational therapies in early phase dose-finding oncology trials (DFOTs). PROs, where patients directly report their symptomatic adverse events or quality of life, offer a complementary perspective to clinician-assessed toxicities and can enhance dose optimisation. Whilst tools such as PRO-CTCAE enable patients to self-assess their treatment- related toxicities, investigating and reporting the right PRO research objectives is crucial to ensure these early phase trials provide meaningful, patient-centred insights.
+
+However, research indicates that PRO objectives in DFOTs are often unclear, with reporting and analyses not always aligned with the study aims. Clear recommendations for critical PRO objectives to be prioritised in DFOTs and their reporting are necessary to guide trialists in generating robust data.
+
+The OPTIMISE-AR project is establishing guidelines for the reporting of PRO data within DFOTs. After firstly identifying critical PRO objectives (Part 1), we will develop guidelines for the reporting of such objectives within data visualisations figures and statistical analysis
+methods to ensure PROs are reported rigorously and clearly by authors. The project aims to enhance the quality and clarity of PRO research objectives and PRO statistical analysis in early phase trial reports and publications. This guidance will enable trialists to systematically integrate PROs into their trials. By doing so, it supports more informed, patient-centred decision-making, and contributes to the development of safer, more effective therapies.
 
 {{< include ../_template.qmd >}}

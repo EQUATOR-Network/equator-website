@@ -5,15 +5,14 @@ year-registered: 2019
 date-updated: November 2019
 contact-name: Stavros A. Antoniou, MD
 contact-email: stavros.antoniou@hotmail.com
-rg-description: 'AGREE II (Appraisal of Guidelines for Research and Evaluation) is a framework for developing, appraising and reporting clinical practice guidelines. The group involved in the development of this reporting guideline extension has hypothesised that the original AGREE II document may not be fully relevant to clinical practice guidelines for surgical interventions and embarked therefore on the Guideline Assessment Project (GAP), divided into three phases (GAP I, II and III). The executive group consists of surgeons, members of surgical quality and research boards, guideline developers, evidence synthesis experts, GRADE methodologists, biostatisticians, and 2 leaders of the AGREE Group.
-
-
-  The group has published the protocol for the development of the guideline as an open-access [paper](https://bmjopen.bmj.com/content/10/8/e037107.full). They first performed a structured [review](https://www.ncbi.nlm.nih.gov/pubmed/30188402) in 2018 to identify clinical practice guidelines published in a 10-year period in the field of surgery (GAP I). Using statistical models, they have developed and [published](https://link.springer.com/article/10.1007/s00464-021-08604-w) an evaluation of 67 existing guidelines in 2020 (GAP II). Furthermore, they conducted a Delphi process of a panel of stakeholders (GAP III) to inform the development of the extension document. The executive group discussed the results of the three parts of the project and finalised the document in a consensus meeting in September 2021. In this meeting, they decided on the name of the guideline: AGREE-S.
-
-
-  They plan to publish the explanation and elaboration manuscript as an open-access paper in 2022.'
 categories:
 - Clinical Trials
 ---
+
+AGREE II (Appraisal of Guidelines for Research and Evaluation) is a framework for developing, appraising and reporting clinical practice guidelines. The group involved in the development of this reporting guideline extension has hypothesised that the original AGREE II document may not be fully relevant to clinical practice guidelines for surgical interventions and embarked therefore on the Guideline Assessment Project (GAP), divided into three phases (GAP I, II and III). The executive group consists of surgeons, members of surgical quality and research boards, guideline developers, evidence synthesis experts, GRADE methodologists, biostatisticians, and 2 leaders of the AGREE Group.
+
+The group has published the protocol for the development of the guideline as an open-access [paper](https://bmjopen.bmj.com/content/10/8/e037107.full). They first performed a structured [review](https://www.ncbi.nlm.nih.gov/pubmed/30188402) in 2018 to identify clinical practice guidelines published in a 10-year period in the field of surgery (GAP I). Using statistical models, they have developed and [published](https://link.springer.com/article/10.1007/s00464-021-08604-w) an evaluation of 67 existing guidelines in 2020 (GAP II). Furthermore, they conducted a Delphi process of a panel of stakeholders (GAP III) to inform the development of the extension document. The executive group discussed the results of the three parts of the project and finalised the document in a consensus meeting in September 2021. In this meeting, they decided on the name of the guideline: AGREE-S.
+
+They plan to publish the explanation and elaboration manuscript as an open-access paper in 2022.
 
 {{< include ../_template.qmd >}}

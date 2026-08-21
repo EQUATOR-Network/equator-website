@@ -5,21 +5,18 @@ year-registered: 2025
 date-updated: null
 contact-name: Anastasia A Theodosiou; Diane F Gbesemete
 contact-email: theodosiou@glasgow.ac.uk; d.gbesemete@soton.ac.uk
-rg-description: 'Controlled human infection (CHI) studies --- also known as human challenge studies or controlled human infection models (CHIMs) --- involve the deliberate exposure of healthy volunteers to microorganisms under controlled conditions. These studies are increasingly used to explore microbial pathogenesis, investigate host-pathogen interactions, and accelerate vaccine and drug development, all within a rigorously monitored research environment.
-
-
-  Despite their scientific value and growing prominence, CHI studies currently lack a dedicated reporting guideline. As such, reporting practices have naturally varied, particularly regarding key methodological elements such as inoculum production and dose, colonisation or disease endpoints, adverse event classification, ethical safeguards, and stakeholder engagement. The absence of harmonised guidance may limit reproducibility, comparability, and potentially even confidence in reported findings.
-
-
-  CONSORT-CHI is an extension of the CONSORT statement, developed to enhance quality, transparency, and completeness of CHI study reporting across diverse settings. It provides CHI-specific guidance on reporting study design, inoculum characteristics, endpoints, and adverse events. The guideline also addresses the unique ethical and operational aspects of CHI studies, including community engagement, regulatory variation between countries, and special circumstances such as use of genetically-modified organisms and inclusion of traditionally under-represented populations.
-
-
-  CONSORT-CHI is intended primarily for researchers, but may also be useful to regulators, ethics committees, funders, journal editors, and policy-makers. It is applicable to a broad range of CHI study types, including bacterial, viral, and parasitic models, as well as both mechanistic and therapeutic studies.
-
-
-  By supporting more consistent, transparent reporting, CONSORT-CHI aims to strengthen scientific and public confidence in CHI as a rigorous and ethical research methodology.'
 categories:
 - Clinical Trials
 ---
+
+Controlled human infection (CHI) studies --- also known as human challenge studies or controlled human infection models (CHIMs) --- involve the deliberate exposure of healthy volunteers to microorganisms under controlled conditions. These studies are increasingly used to explore microbial pathogenesis, investigate host-pathogen interactions, and accelerate vaccine and drug development, all within a rigorously monitored research environment.
+
+Despite their scientific value and growing prominence, CHI studies currently lack a dedicated reporting guideline. As such, reporting practices have naturally varied, particularly regarding key methodological elements such as inoculum production and dose, colonisation or disease endpoints, adverse event classification, ethical safeguards, and stakeholder engagement. The absence of harmonised guidance may limit reproducibility, comparability, and potentially even confidence in reported findings.
+
+CONSORT-CHI is an extension of the CONSORT statement, developed to enhance quality, transparency, and completeness of CHI study reporting across diverse settings. It provides CHI-specific guidance on reporting study design, inoculum characteristics, endpoints, and adverse events. The guideline also addresses the unique ethical and operational aspects of CHI studies, including community engagement, regulatory variation between countries, and special circumstances such as use of genetically-modified organisms and inclusion of traditionally under-represented populations.
+
+CONSORT-CHI is intended primarily for researchers, but may also be useful to regulators, ethics committees, funders, journal editors, and policy-makers. It is applicable to a broad range of CHI study types, including bacterial, viral, and parasitic models, as well as both mechanistic and therapeutic studies.
+
+By supporting more consistent, transparent reporting, CONSORT-CHI aims to strengthen scientific and public confidence in CHI as a rigorous and ethical research methodology.
 
 {{< include ../_template.qmd >}}

@@ -5,18 +5,16 @@ year-registered: 2018
 date-updated: 13 June 2022
 contact-name: Michael Schlüssel
 contact-email: michael.schlussel@ndorms.ox.ac.uk
-rg-description: 'This evidence-based and consensus-driven reporting guideline is being developed for randomised controlled trials (RCTs) of nutritional interventions. Although almost all of the elements in the CONSORT Statement apply equally to the reporting of RCTs of nutritional interventions, some elements might need to be adapted, tailored or extended.
-
-
-  The "Consolidated Standards Of Reporting Trials of NUTritional interventions" is an official CONSORT development aiming at consolidating existing -- and potentially new -- guidance for reporting such studies. It will provide examples of good reporting for each item in the final consolidated checklist, with explanations for each adaptation or additional item.
-
-
-  Interested stakeholders should contact the project team to get involved in the development and dissemination of this reporting guideline.
-
-
-  - The project is also registered in the Open Science Framework platform and the detailed project can be found [here](https://osf.io/b38z9/).'
 categories:
 - Clinical Trials
 ---
+
+This evidence-based and consensus-driven reporting guideline is being developed for randomised controlled trials (RCTs) of nutritional interventions. Although almost all of the elements in the CONSORT Statement apply equally to the reporting of RCTs of nutritional interventions, some elements might need to be adapted, tailored or extended.
+
+The "Consolidated Standards Of Reporting Trials of NUTritional interventions" is an official CONSORT development aiming at consolidating existing -- and potentially new -- guidance for reporting such studies. It will provide examples of good reporting for each item in the final consolidated checklist, with explanations for each adaptation or additional item.
+
+Interested stakeholders should contact the project team to get involved in the development and dissemination of this reporting guideline.
+
+- The project is also registered in the Open Science Framework platform and the detailed project can be found [here](https://osf.io/b38z9/).
 
 {{< include ../_template.qmd >}}

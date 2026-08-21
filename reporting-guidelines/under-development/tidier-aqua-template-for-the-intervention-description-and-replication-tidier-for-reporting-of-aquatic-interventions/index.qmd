@@ -5,15 +5,14 @@ year-registered: 2025
 date-updated: null
 contact-name: Anna Ogonowska-Slodownik
 contact-email: Anna.ogonowskaslodownik@awf.edu.pl
-rg-description: 'Aquatic therapy/exercise is widely used intervention for diverse populations. It offers unique therapeutic benefits due to the physical properties of water, such as buoyancy, viscosity, hydrostatic pressure, and thermal effects. However, despite a growing body of research on aquatic interventions, studies often lack sufficient detail to allow replication, clinical implementation, or meaningful comparison between trials. This hinders the translation of evidence into practice and limits the inclusion of aquatic therapy studies in systematic reviews and meta-analyses.
-
-
-  Currently, there is no reporting guideline specifically designed for aquatic therapy interventions. While the original TIDieR (Template for Intervention Description and Replication) checklist is a valuable tool for improving the quality of intervention reporting, it does not adequately capture critical components unique to aquatic settings. These include environmental factors (e.g., water depth and temperature), therapist positioning, equipment use in water, safety procedures, and the influence of hydrodynamic forces on movement. As a result, published studies often omit key contextual and procedural details that are essential for replication and for understanding intervention effects.
-
-
-  The TIDieR-aqua considerations are being planned to be developed to fill this gap. It will adapt and extend the original TIDieR checklist to reflect the specific requirements of aquatic therapy. Its aim is to support researchers in providing complete and transparent descriptions of their interventions, ensuring that all critical information is reported consistently across studies. This will facilitate replication, improve intervention fidelity, enhance the interpretation of study findings, and strengthen the evidence base for aquatic studies.'
 categories:
 - Clinical Trials
 ---
+
+Aquatic therapy/exercise is widely used intervention for diverse populations. It offers unique therapeutic benefits due to the physical properties of water, such as buoyancy, viscosity, hydrostatic pressure, and thermal effects. However, despite a growing body of research on aquatic interventions, studies often lack sufficient detail to allow replication, clinical implementation, or meaningful comparison between trials. This hinders the translation of evidence into practice and limits the inclusion of aquatic therapy studies in systematic reviews and meta-analyses.
+
+Currently, there is no reporting guideline specifically designed for aquatic therapy interventions. While the original TIDieR (Template for Intervention Description and Replication) checklist is a valuable tool for improving the quality of intervention reporting, it does not adequately capture critical components unique to aquatic settings. These include environmental factors (e.g., water depth and temperature), therapist positioning, equipment use in water, safety procedures, and the influence of hydrodynamic forces on movement. As a result, published studies often omit key contextual and procedural details that are essential for replication and for understanding intervention effects.
+
+The TIDieR-aqua considerations are being planned to be developed to fill this gap. It will adapt and extend the original TIDieR checklist to reflect the specific requirements of aquatic therapy. Its aim is to support researchers in providing complete and transparent descriptions of their interventions, ensuring that all critical information is reported consistently across studies. This will facilitate replication, improve intervention fidelity, enhance the interpretation of study findings, and strengthen the evidence base for aquatic studies.
 
 {{< include ../_template.qmd >}}

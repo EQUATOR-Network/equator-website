@@ -5,9 +5,10 @@ year-registered: 2015
 date-updated: null
 contact-name: Lance Till
 contact-email: Till@jbassoc.com
-rg-description: 'This project aims to develop a comprehensive set of reporting guidelines for home visiting that improve and enhance the accuracy of reporting home visiting intervention evaluations. Specifically, the reporting guidelines focus on: (1) reporting effectiveness and efficacy studies, (2) incorporation of study designs endorsed by the Home Visiting Effectiveness of Evidence (HomVEE), and (3) inclusion of more thorough guidelines for reporting home visiting intervention design and implementation data.'
 categories:
 - Clinical Trials
 ---
+
+This project aims to develop a comprehensive set of reporting guidelines for home visiting that improve and enhance the accuracy of reporting home visiting intervention evaluations. Specifically, the reporting guidelines focus on: (1) reporting effectiveness and efficacy studies, (2) incorporation of study designs endorsed by the Home Visiting Effectiveness of Evidence (HomVEE), and (3) inclusion of more thorough guidelines for reporting home visiting intervention design and implementation data.
 
 {{< include ../_template.qmd >}}
