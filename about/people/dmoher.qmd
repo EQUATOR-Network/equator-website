@@ -1,5 +1,5 @@
 ---
-title: Dr. David Moher
+title: David Moher
 subtitle: Senior Scientist, Ottawa Health Research Institute, Ottawa, Canada; Director, Canadian EQUATOR Centre, and former chair of the EQUATOR Network.
 image: dmoher.jpg
 path: https://ohri.ca/en/find-researcher/david-moher

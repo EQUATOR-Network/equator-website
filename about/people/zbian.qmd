@@ -1,6 +1,6 @@
 ---
 title: Zhaoxiang Bian
-subtitle: Chair Professor in the School of Chinese Medicine and Tsang Shiu Tim Endowed Professor of Chinese Medicine Clinical Studies, Hong Kong Baptist University
+subtitle: Chair Professor in the School of Chinese Medicine and Tsang Shiu Tim Endowed Professor of Chinese Medicine Clinical Studies, Hong Kong Baptist University; Director of the Chinese EQUATOR Centre
 image: zbian.jpg
 path: https://www.hkbu.edu.hk/en/about/university-officers/professor-bian-zhaoxiang.html
 centre: china

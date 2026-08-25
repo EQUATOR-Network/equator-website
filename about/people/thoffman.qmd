@@ -1,6 +1,6 @@
 ---
 title: Tammy Hoffmann
-subtitle: Professor of Clinical Epidemiology, Institute for Evidence-Based Healthcare, Bond University, Australia
+subtitle: Professor of Clinical Epidemiology, Institute for Evidence-Based Healthcare, Bond University, Australia; Director of the Australian EQUATOR Centre
 image: thoffmann.jpg
 path: https://bond.edu.au/profile/tammy-hoffmann
 centre: australia

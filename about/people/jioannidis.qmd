@@ -1,6 +1,6 @@
 ---
 title: John P.A. Ioannidis
-subtitle: Director of the USA EQUATOR Centre
+subtitle: Director of the USA EQUATOR Centre, Stanford University
 image: jioannidis.jpg
 image-alt: John Ioannidis
 path: https://med.stanford.edu/profiles/john-ioannidis

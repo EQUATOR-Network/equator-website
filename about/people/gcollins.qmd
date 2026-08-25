@@ -1,6 +1,6 @@
 ---
 title: Gary Collins
-subtitle: Director
+subtitle: Director, Professor of Medical Statistics, University of Birmingham
 image: gcollins.webp
 image-alt: Gary Collins, Director
 path: about/uk-equator-centre.html#gary-collins
