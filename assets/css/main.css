@@ -52,3 +52,11 @@ section {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+.quarto-listing-filter {
+    width: 50%
+}
+
+.quarto-listing-filter .form-control {
+    border: 1px solid var(--green-primary);
+}
