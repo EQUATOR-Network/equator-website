@@ -137,6 +137,7 @@ other: |-
   Blom JW, Muth C, Glasziou P, McCormack JP, Perera R, Poortvliet RKE, Numans ME, Thürmann P, Thiem U, Thio SL, Van Driel M, Beyer M, Van den Akker M, Knottnerus JA. Describing deprescribing trials better: an elaboration of the CONSORT statement. J Clin Epidemiol. 2020;127:87-95.  PMID: [32707072](https://pubmed.ncbi.nlm.nih.gov/32707072/)
 other-relevant-research: ''
 sticky: true
+search-priority: 1
 downloads: '[CONSORT 2025 Checklist (Download from CONSORT-SPIRIT website)](https://www.consort-spirit.org/)'
 
 

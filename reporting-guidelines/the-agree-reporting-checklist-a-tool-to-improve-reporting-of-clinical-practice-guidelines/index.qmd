@@ -29,6 +29,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
+search-priority: 1
 downloads: '[AGREE Reporting Checklist (PDF)](AGREE-Reporting-Checklist.pdf) [AGREE
   Reporting Checklist (Word)](AGREE-Reporting-Guideline-Checklist.docx)'
 

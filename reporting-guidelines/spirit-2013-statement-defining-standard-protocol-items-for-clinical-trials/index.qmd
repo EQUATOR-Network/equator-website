@@ -1,7 +1,7 @@
 ---
 # REQUIRED FIELDS
 title: 'SPIRIT 2025 Statement: Defining standard protocol items for clinical trials'
-acronym: SPIRIT 2013
+acronym: SPIRIT
 provided-for: Defining standard protocol items for clinical trials
 rg-doi: ''
 pmid-id: ''
@@ -70,6 +70,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
+search-priority: 1
 downloads: '[SPIRIT 2025 Checklist (Download from CONSORT-SPIRIT website)](https://www.consort-spirit.org/)'
 
 

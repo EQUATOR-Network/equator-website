@@ -142,6 +142,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
+search-priority: 1
 downloads: |-
   STROBE checklist: combined [Word](STROBE_checklist_v4_combined.docx) / [PDF](STROBE_checklist_v4_combined.pdf)
 

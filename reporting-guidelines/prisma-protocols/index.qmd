@@ -93,6 +93,7 @@ other: An online fillable PRISMA-P checklist is also available via the GoodRepor
   website at <https://www.goodreports.org/reporting-checklists/prisma-p/>.
 other-relevant-research: ''
 sticky: true
+search-priority: 1
 downloads: PRISMA-P checklist [PDF](https://www.prisma-statement.org/s/PRISMA-P-checklist.pdf)
   | [Word](https://www.prisma-statement.org/s/PRISMA-P-checklist.docx)
 

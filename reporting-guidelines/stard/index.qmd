@@ -102,6 +102,7 @@ other: |-
   The STARD guideline developers have written a paper describing in detail the methods used in the updating process for this reporting guideline. The full-text of this paper is available at: [Updating standards for reporting diagnostic accuracy: the development of STARD 2015](http://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-016-0014-7)
 other-relevant-research: ''
 sticky: true
+search-priority: 1
 downloads: |-
   [STARD 2015 checklist (PDF)](STARD-2015-checklist.pdf) [STARD 2015 flow diagram (PDF)](STARD-2015-flow-diagram.pdf)
 

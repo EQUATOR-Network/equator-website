@@ -117,6 +117,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
+search-priority: 1
 downloads: |-
   [CHEERS 2022 checklist (PDF)](CHEERS-2022-checklist-1.pdf)
 

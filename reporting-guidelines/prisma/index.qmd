@@ -127,6 +127,7 @@ other: An online fillable PRISMA 2020 checklist is also available via the GoodRe
   website at <https://www.goodreports.org/reporting-checklists/prisma/>.
 other-relevant-research: ''
 sticky: true
+search-priority: 1
 downloads: |-
   [PRISMA 2020 checklist (Word)](https://www.prisma-statement.org/s/PRISMA_2020_checklist-gely.docx)  [PRISMA 2020 checklist (PDF)](https://www.prisma-statement.org/s/PRISMA_2020_checklist-djgh.pdf)
 

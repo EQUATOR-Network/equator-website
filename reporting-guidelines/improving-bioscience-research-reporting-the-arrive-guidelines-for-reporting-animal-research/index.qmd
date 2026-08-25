@@ -64,6 +64,7 @@ other: An online fillable ARRIVE 2.0 checklist is also available via the GoodRep
   website at <https://www.goodreports.org/reporting-checklists/arrive2/>.
 other-relevant-research: ''
 sticky: true
+search-priority: 1
 downloads: ''
 
 
