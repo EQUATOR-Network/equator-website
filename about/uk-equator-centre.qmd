@@ -17,7 +17,7 @@ The UK EQUATOR Centre's work includes:
 
 - Development and maintenance of the EQUATOR Network website and resources.
 - Maintaining the world's only comprehensive database of reporting guidelines.
-- [Education and training](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school) is led by the UK EQUATOR branch at the University of Oxford.
+- [Education and training](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school) led by the branch at the University of Oxford.
 - Organising workshops, courses, seminars, conferences for researchers, research students, editors and peer reviewers.
 - Collaborative activities to raise reporting standards.
 - Developing new reporting guidelines.
