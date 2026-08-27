@@ -3,8 +3,7 @@
 ## We produce tools and templates for you to easily implement reporting guidelines in your existing journal workflow
 
 If you would like to share your journal’s templates and tools for inclusion
-in this toolkit, please contact us on
-[g.s.collins\@bham.ac.uk](mailto:g.s.collins@bham.ac.uk). We’d also love to
+in this toolkit, please [contact us](/about/contact.qmd). We’d also love to
 hear whether these tools are useful in your journal!
 
 ## Letters to authors
