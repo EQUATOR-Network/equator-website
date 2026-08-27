@@ -8,4 +8,4 @@ centre: uk
 order: 4
 ---
 
-At the Centre for Statistics in Medicine, Dr Paula Dhiman investigates how medical research is done, focusing on the methodological conduct and reporting of non-randomised research, with a view to helping improve the quality and integrity of future research. This is known as meta-research or “research on research”. Paula is passionate about statistical methodology and observational research and is particularly interested in prediction modelling.
+Dr Paula Dhiman, at the Centre for Statistics in Medicine, investigates how medical research is done, focusing on the methodological conduct and reporting of non-randomised research, with a view to helping improve the quality and integrity of future research. This is known as meta-research or “research on research”. Paula is passionate about statistical methodology and observational research and is particularly interested in prediction modelling.

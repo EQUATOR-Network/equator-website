@@ -44,7 +44,7 @@ intelligence and machine learning studies in healthcare, including
 - [CHART](https://doi.org/10.1136/bmjmed-2025-001632 "CHART") - for
   evaluating chatbots providing medical advice
 
-Gary has also developed numerous other reporting guidelines for other study designs, including the
+Gary has also developed numerous other reporting guidelines for other study designs, including
 
 - [GATHER](https://doi.org/10.1016/S0140-6736(16)30388-9 "GATHER")
   statement for studies providing global health estimates
