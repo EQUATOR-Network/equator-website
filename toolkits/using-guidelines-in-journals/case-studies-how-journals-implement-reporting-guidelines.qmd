@@ -1,0 +1,64 @@
+# Case studies: How journals implement reporting guidelines
+
+Some editors have shared with us their experience of setting up policies
+and procedures aiming to improve transparency and accuracy of research
+reporting in their journal. The contributions below describe first hand
+personal experience and provide valuable practical information for other
+colleagues contemplating the same activity.
+
+**\*\*\*\*\***
+
+**Clinical trial reporting and the Journal of Investigative Dermatology,**
+January 2010 ***Professor Hywel Williams***, Clinical Trials Editor of the
+Journal of Investigative Dermatology, has [shared with us their experience
+(PDF)](https://www.equator-network.org/wp-content/uploads/2013/01/3242_Clinical+Trial+Journal+of+Investigative+Dermatology+final+EQ.pdf)
+of implementing the CONSORT Statement and compulsory trial registration and
+how the journal checks on compliance to CONSORT.
+
+**\*\*\*\*\***
+
+**Reporting policies and the smaller journal,** January 2010\*\* *Dr Jason
+Roberts*\*\*, Managing Editor of Headache, [summarised their experience
+(PDF)](https://www.equator-network.org/wp-content/uploads/2013/01/3243_EQUATOR+Reporting+Policies+Smaller+Journal_final.pdf)
+of changing submission and peer review processes in order to raise the
+quality of published articles. Headache is a smaller sub-specialty medical
+journal and this article might be of interest to all editors of similar
+types of journals. Appendices: [Appendix 1
+(PDF):](https://www.equator-network.org/wp-content/uploads/2013/01/3244_EQUATOR+Article+Appendix+1.pdf)
+Behavioral/Nonpharmacological Clinical Trials Checklist for Headache
+[Appendix 2
+(PDF)](https://www.equator-network.org/wp-content/uploads/2013/01/3246_EQUATOR+Article+Appendix+2.pdf):
+Case Reports Checklist for Headache
+
+*Related articles (freely available):* Roberts J. [An Author’s Guide to
+Publication
+Ethics](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1526-4610.2009.01379.x):
+A Review of Emerging Standards in Biomedical Journals. Headache 2009;
+49(4):578 – 589.
+
+Loder EW, Penzien DB. [Improving the Quality of Research Reporting:
+Headache Steps Up to the
+Plate](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1526-4610.2009.01356.x).
+Headache 2009; 49 (3):335 – 340.
+
+**\*\*\*\*\***
+
+**Developmental Medicine & Child Neurology: Introducing new policies on
+research reporting into guidelines for authors and peer reviewers,** April
+2009. [Read about the experience of introducing new policies to the journal
+(PDF)](https://www.equator-network.org/wp-content/uploads/2013/01/2378_Developmental+Medicine+and+Child+Neurology+journal.pdf)
+**Dr Chris Morris**, Associate Editor of the Developmental Medicine and
+Child Neurology
+
+**\*\*\*\*\***
+
+*Please share your journal’s experiences with reporting guidelines,
+positive or negative, by contacting g.s.collins\@bham.ac.uk*
+
+- [**Read more here**](whats-wrong-with-health-reporting-today.qmd) about
+  the problems in health research reporting that we hope to deal with using
+  reporting guidelines
+- [**Read more
+  here**](creating-your-journals-reporting-guideline-policy.qmd) if you
+  want to start implementing reporting guidelines in your journal
+- [**Go back**](index.qmd) to the toolkit homepage

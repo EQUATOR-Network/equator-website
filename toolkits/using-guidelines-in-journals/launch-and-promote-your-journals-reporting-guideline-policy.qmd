@@ -1,0 +1,103 @@
+# Launch and promote your journal’s reporting guideline policy
+
+Once you’ve designed your reporting guideline policy, you’ll need to let
+your readers, authors, and reviewers know about it. You could launch your
+policy using:
+
+- [An editorial](#sec-publish-editorial)
+- [Updated Instructions for Authors](#sec-instructions-for-authors)
+- [Updated Instructions for Reviewers](#sec-instructions-for-reviewers)
+- [Training courses for authors](#sec-training-courses-for-authors)
+
+## **Follow up**
+
+A once-off promotion of your reporting guideline policy is unlikely to
+reach every author and reader of your journal. We suggest that you could
+keep publicising your reporting guideline policy by:
+
+- Writing follow-up editorials
+- Publishing articles in society newsletters
+- Publishing positive author feedback
+- Mentioning policy adherence in the annual editor’s thank-you
+- Offering training sessions on reporting guidelines at key meetings
+- Evaluating the reporting quality improvement in your journal after a set
+  period
+
+## Publish an editorial {#sec-publish-editorial}
+
+An editorial is a great opportunity to introduce your new reporting
+guideline policy and explain why you’ve chosen it. Publishers may find it
+helpful to publish the same editorial across multiple journals at once.
+
+Here are a few examples of editorials explaining a journal’s reporting
+guideline policy:
+
+- Lovell DP. Commentary: statistics for biomarkers. Biomarkers. 2012;
+  17(3):193-200. PMID:
+  [22332747](http://www.ncbi.nlm.nih.gov/pubmed/22332747)
+- Sweet JJ. Editorial. EQUATOR – reporting guidelines for “Enhancing the
+  QUality and Transparency Of health Research”. 2014; 28(4):547-548. Clin
+  Neuropsychol. PMID:
+  [24983313](http://www.ncbi.nlm.nih.gov/pubmed/24983313)
+- Tong A, Craig JC. Horses for courses: promoting transparent reporting of
+  qualitative research in AJKD. Am J Kidney Dis. 2014; 63(1):1-3. PMID:
+  [24360221](http://www.ncbi.nlm.nih.gov/pubmed/24360221)
+- McLeroy KR, Northridge ME, Balcazar H, Greenberg MR, Landers SJ.
+  Reporting guidelines and the American Journal of Public Health’s adoption
+  of Preferred Reporting Items for Systematic reviews and Meta-Analyses. Am
+  J Public Health. 2012; 102(5):780-784. PMID:
+  [22420806](http://www.ncbi.nlm.nih.gov/pubmed/22420806)
+- Chan L, Heinemann AW, Roberts J. Elevating the quality of disability and
+  rehabilitation research: mandatory use of the reporting guidelines. Am J
+  Occup Ther. 2014; 68(2):127-129. PMID:
+  [24581397](http://www.ncbi.nlm.nih.gov/pubmed/24581397). 
+
+## Instructions for Authors {#sec-instructions-for-authors}
+
+[**Download template paragraphs
+(Word)**](https://www.equator-network.org/wp-content/uploads/2016/11/EQUATOR-Network-Toolkits-Instructions-to-authors-template.docx)
+to add to your Instructions for Authors. There are paragraphs for each
+implementation route. Editors may like to use just the first short
+paragraph or two to explain their policy. Publishers may like to also use
+the additional explanations. If you have selected certain guidelines for
+your journal, there are also sentences introducing key guidelines.
+
+## Instructions for Reviewers {#sec-instructions-for-reviewers}
+
+Regardless of which implementation route you select, we encourage you to
+alert your peer reviewers to reporting guidelines. They are an excellent
+tool for identifying whether an article includes all of the information the
+reviewer needs to properly judge an article.
+
+In 2012, [we found](https://www.ncbi.nlm.nih.gov/pubmed/22558178) that
+around 35% of journals offered freely accessible online instructions about
+their peer review process and, of those, about half mention reporting
+guidelines. [We’ve written a
+toolkit](https://www.equator-network.org/toolkits/peer-reviewing-research/)
+to help peer reviewers to use reporting guidelines as a first step in
+judging a manuscript.
+
+[**Download template paragraphs
+(Word)**](https://www.equator-network.org/wp-content/uploads/2016/11/EQUATOR-Network-Toolkits-Instructions-to-reviewers-template.docx)
+to add to your Instructions for Reviewers. There are paragraphs for each
+implementation route. Editors may like to use just the first short
+paragraph or two to explain their policy. Publishers may like to also use
+the additional explanations. If you have selected certain guidelines for
+your journal, there are also sentences introducing key guidelines.
+
+## Training courses for authors {#sec-training-courses-for-authors}
+
+You could deliver online and in person training courses explaining your
+reporting guideline policy to your authors.
+
+*If you would like to share your training materials here, please get in
+touch at g.s.collins@bham.ac.uk!*
+
+- We’ve got [**tools and
+  templates**](tools-and-templates-for-implementing-reporting-guidelines.qmd)
+  to help you implement your policy
+- [**Read more
+  here**](creating-your-journals-reporting-guideline-policy.qmd) if you’d
+  like to go through the process of setting your implementation policy
+  again
+- [**Go back**](index.qmd) to the toolkit homepage

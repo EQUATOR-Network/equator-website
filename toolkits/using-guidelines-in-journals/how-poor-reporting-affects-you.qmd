@@ -1,0 +1,35 @@
+# How poor reporting affects you
+
+Poor reporting creates waste on the same appalling scale at every level of
+health research. As the volume of health-related literature continues to
+explode:
+
+- Academics keeping up with the literature are wasting their time reading
+  published bad reports – you don’t know it’s bad until you’ve read it
+- Editors are wasting their time processing bad reports that will be
+  published, but won’t contribute to their journal
+- Journals are wasting space and resources on bad reports that cannot be
+  used in systematic reviews and thus are less likely to (and should not!)
+  be cited
+- Clinicians are unknowingly using bad reports to determine patients’ care
+
+Medical research makes prominent headlines because it explicitly affects
+people’s lives. However, clinical decision-making should only be informed
+by good evidence. Good evidence is published accurately, completely, and in
+a timely fashion; then processed into systematic reviews and clinical
+practice guidelines.
+
+A coordinated effort by all parties involved in the different aspects of
+health-related research is urgently needed to ensure that the literature is
+populated with good evidence untainted by bad reporting. Journals play an
+indispensable role in disseminating research findings and are on the front
+line of quality assurance. Journal publishers and editors have the power to
+improve the quality of published evidence and substantially increase its
+use.
+
+- [**Read more here**](reporting-guidelines-and-journals-fact-fiction.qmd)
+  if you’re uncertain about the role of reporting guidelines in journals
+- [**Read more
+  here**](creating-your-journals-reporting-guideline-policy.qmd) if you
+  want to start implementing reporting guidelines in your journal
+- [**Go back**](index.qmd) to the toolkit homepage

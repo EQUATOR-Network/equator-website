@@ -1,0 +1,33 @@
+# Tools and templates for implementing reporting guidelines
+
+## We produce tools and templates for you to easily implement reporting guidelines in your existing journal workflow
+
+If you would like to share your journal’s templates and tools for inclusion
+in this toolkit, please contact us on
+[g.s.collins\@bham.ac.uk](mailto:g.s.collins@bham.ac.uk). We’d also love to
+hear whether these tools are useful in your journal!
+
+## Letters to authors
+
+The following templates are designed for use by journals requiring
+reporting guidelines and checking compliance with the policy by either
+editorial staff or peer reviewers.
+
+- [Request revisions to comply with a reporting guideline after checks by
+  an editor or a single peer reviewer
+  (Word)](https://www.equator-network.org/wp-content/uploads/2016/11/EQUATOR-Network-Toolkits-Resubmit-after-editor-or-reveiwer-triage-letter-template.docx)
+- [Request revisions to comply with a reporting guideline after full peer
+  review
+  (Word)](https://www.equator-network.org/wp-content/uploads/2016/11/EQUATOR-Network-Toolkits-Resubmit-after-peer-review-letter-template.docx)
+- [Request revisions to comply with a reporting guideline alongside
+  acceptance
+  (Word)](https://www.equator-network.org/wp-content/uploads/2016/11/EQUATOR-Network-Toolkits-Acceptance-letter-template.docx)
+
+Keep checking back for more tools and templates to help you include
+reporting guidelines in your journal’s workflow.
+
+- Find [**suggestions and
+  templates**](launch-and-promote-your-journals-reporting-guideline-policy.qmd)
+  for communicating your reporting guideline policy to your readers,
+  authors, and reviewers
+- [**Go back**](index.qmd) to the toolkit homepage

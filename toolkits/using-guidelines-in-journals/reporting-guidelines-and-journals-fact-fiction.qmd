@@ -1,0 +1,179 @@
+# Reporting guidelines and journals: fact & fiction
+
+We’ve spoken to editors and publishers about why they haven’t implemented
+reporting guidelines yet. Here are some common reasons why you might be
+hesitating about taking up the GoodReports challenge. For each common
+misgiving, read evidence for the positive impact of using reporting
+guidelines, the impact of not using them, and the tools we offer you to
+overcome any barriers you encounter. [This short
+article](https://www.csescienceeditor.org/article/the-equator-network-supporting-editors-in-publishing-well-reported-health-research/)
+in *Science Editor* also explains how reporting guidelines can support the
+work that journal editors do.
+
+## What are reporting guidelines supposed to accomplish?
+
+Reporting guidelines are here to make all of our lives easier – author,
+reader, peer reviewer, journal, and systematic reviewer.
+
+A weight of evidence has found that a staggering number of the health
+research articles published each year are not fit for purpose. They do not
+include enough information about the study for a reader to properly
+understand and evaluate it, or for a researcher to replicate it, or for a
+systematic reviewer to include it in a review.  The work thus cannot be
+added to the body of clinical evidence used for clinical decision-making
+and is wasted.
+
+Our current publishing and academic reward systems is clearly insufficient
+for treating this problem.
+
+Reporting guidelines are an important step towards fixing the deficiencies
+in our scientific literature. Groups of clinicians, academics, systematic
+reviewers, and statisticians have come together to define the minimum set
+of information that each group needs to be able to use a particular kind of
+study. Reporting guidelines now exist for most general study types.
+Specific guidelines have also been created for particular outcomes and
+methods that are routinely reported badly.
+
+If authors use reporting guidelines when they write up their work, the
+resulting manuscripts can be understood, replicated, and used in clinical
+decision-making.
+
+## Aren’t reporting guidelines are just another box-checking exercise?
+
+Reporting guidelines should be used while writing an article, not as a
+box-checking exercise at the submission stage. You may find poor compliance
+the first time that an author submits after you implement guidelines. This
+toolkit includes a template letter to the author requesting resubmission
+once the article has been made compliant with the relevant guideline. This
+letter includes an explanation of why reporting guidelines are necessary
+and a link back to the EQUATOR Network. As authors become educated about
+reporting guidelines, they will integrate their use in their writing
+process and, we hope, eventually use them at the research design phase, to
+ensure every item requested by a guideline has been considered.
+
+Some authors require authors to submit a checklist indicating the page
+number on which each guideline information item has been addressed. This is
+not simply an administrative hurdle, but helps authors to report every
+necessary item, acting as a ‘completeness review’.
+
+## Do reporting guidelines actually help transparency, usability, and reproducibility?
+
+Yes! We see a significant increase in reporting quality when a journal
+endorses a reporting guideline.
+
+## Peer and editorial review can pick up the problems you’re mentioning; we don’t need reporting guidelines
+
+We know that existing peer and editorial review are not enough to ensure
+complete reporting. Every clinical specialty and every study type that has
+been checked suffers from poor reporting.
+
+In fact, reporting guidelines are a helpful tool for peer reviewers! They
+help the reviewer to systematically check that all essential information
+has been reported.
+
+## We don’t have anyone who can deal with reporting guidelines
+
+Included within this toolkit is a selection of tools to make implementing
+guidelines as simple as possible. We have a workflow for a simple ‘endorse’
+route that only requires a change to your ‘Instructions to Authors’ and
+links for authors to get reporting guidelines if they wish.
+
+Some journals that have chosen to implement the ‘require checklist’ route
+have trained their editorial administrative staff to check guideline
+compliance on submission, as part of submission triage. If you choose to
+implement guidelines through this route, you can access training here.
+
+Some journals that have chosen to implement the ‘require checklist’ route
+ask a first peer reviewer to check guideline compliance, before recruiting
+a second and third reviewer. If the manuscript fails, peer review halts and
+the article is returned. The toolkit includes a template letter to the
+author requesting resubmission once the article has been made compliant
+with the relevant guideline. This letter includes an explanation of why
+reporting guidelines are necessary and a link back to the EQUATOR Network.
+The toolkit also includes template instructions to peer reviewers and
+editable versions of common checklists with additional explanation for
+reviewers to use.
+
+## Authors won’t choose our journal if they have to deal with reporting guidelines
+
+Journals that have used either the ‘require’ or ‘endorse’ routes for
+reporting guidelines have found no significant change in their submission
+rates. We have a workflow for a simple ‘endorse’ route that places no
+requirements on authors that you may feel more comfortable starting with.
+
+Some clinical specialties have reached a critical mass of journals
+implementing reporting guidelines.
+
+## Implementing reporting guidelines will delay publication
+
+Implementing reporting guidelines speeds up publication of well-reported
+articles and speeds up rejection of poorly reported articles:
+
+- Authors have a clear template when writing their manuscript. They don’t
+  have to spend as much time worrying about whether they are missing
+  crucial details and how to best report their methodology
+- If authors haven’t considered every item in a checklist, writing their
+  manuscript may take longer. However, this lack of consideration points to
+  potential flaws in the methodology; better these are caught and corrected
+  at the writing stage than going to peer review and wasting the time of
+  overworked reviewers.
+- Editors have a tool to quickly triage and send back poorly reported
+  manuscripts, reducing the number of manuscripts going to overworked
+  reviewers. Triage can be done in a matter of minutes, whereas full peer
+  review takes weeks.
+- Peer reviewers have a tool to quickly triage and send back poorly
+  reported manuscripts, reducing the time they spend reviewing an article
+  that needs substantial rewriting.
+
+## Asking peer reviewers to use reporting guidelines will delay review
+
+- Peer reviewers can use reporting guidelines as a tool to quickly triage
+  and send back poorly reported manuscripts, reducing the time they spend
+  reviewing an article that needs substantial rewriting.
+- It is easier to judge the methodological quality of a study that is fully
+  reported, as all of the crucial information is easily presented. The
+  reviewer doesn’t need to hunt for details or guess what was done.
+
+## Articles written using a reporting guideline are formulaic; there’s no room for creativity
+
+Reporting guidelines give a minimum set of information that must be
+included in an article for it to be transparent, reproducible, and usable.
+Guidelines do not prescribe the language that authors should use to report
+this information. Guidelines are also not prescriptive about the
+introduction, discussion, and interpretation sections of an article.
+Guidelines have the most to say about the methods and results sections: if
+important information is missing here, then the article is useless. A
+creatively written scientific article that cannot be understood, used in a
+systematic review, or integrated into a clinician’s practice is not a
+scientific article, it is science fiction.
+
+## My journal can’t afford to implement reporting guidelines
+
+Included within this toolkit is selection of tools to make implementing
+guidelines as simple as possible. We have a workflow for a simple ‘endorse’
+route that only requires a change to your ‘Instructions to Authors’ and
+links for authors to get reporting guidelines if they wish.
+
+## Good reporting isn’t a journal’s responsibility
+
+Good reporting is everyone’s responsibility.
+
+## Implementing guidelines is too onerous for authors
+
+Reporting guidelines offer authors a clear template when writing their
+manuscript. They don’t have to spend as much time worrying about whether
+they are missing crucial details and how to best report their methodology.
+
+If authors haven’t considered every item in a checklist, writing their
+manuscript may indeed take longer. However, this lack of consideration
+points to potential flaws in the methodology; better these are caught and
+corrected at the writing stage than going to peer review and wasting the
+time of overworked reviewers.
+
+- [**Read about
+  journals**](case-studies-how-journals-implement-reporting-guidelines.qmd)
+  that have successfully implemented reporting guidelines
+- [**Read more
+  here**](creating-your-journals-reporting-guideline-policy.qmd) if you
+  want to start implementing reporting guidelines in your journal
+- [**Go back**](index.qmd) to the toolkit homepage

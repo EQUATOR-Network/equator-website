@@ -1,0 +1,122 @@
+# Creating your journal’s reporting guideline policy
+
+Every journal has a different set of needs and its own submission and
+administrative workflow. You’ll want to develop a reporting guideline
+policy that works for your journal. We suggest working through these seven
+steps to develop a coherent policy, working with your editorial team,
+authors, and reviewers.
+
+## 1. What are your journal’s needs?
+
+Before developing your reporting guideline policy, take some time to
+evaluate the state of reporting in your field, to see what you need from
+your policy. You might like to internally evaluate the quality of reporting
+in your journal at the moment, to see whether your authors are already
+using reporting guidelines. You could evaluate the literature on reporting
+quality in your journal’s speciality. You could also evaluate the reporting
+guideline policies of other journals in your speciality.
+
+## 2. Who will champion reporting guidelines at your journal?
+
+Depending on the reporting guideline policy you choose, you may need to
+educate your editorial team, board members, and authors. Having a core team
+dedicated to implementing your policy and taking responsibility for
+education can be very helpful. Your core team could include editorial
+office staff, editorial board members, authors, reviewers, and the
+editor-in-chief.
+
+## 3. Which reporting guidelines will your journal use?
+
+Some journals give authors the freedom to select any appropriate reporting
+guideline from the EQUATOR Network database. However, the EQUATOR Network
+database includes every reporting guideline, regardless of how rigorous its
+development process. Other journals select some key reporting guidelines
+that cover the majority of their articles to endorse.
+
+If you decide to select a few key guidelines, we suggest the following
+steps to ensure selecting robust reporting guidelines:
+
+1.  Identify the health research study types published in your journal
+2.  Identify a generic reporting guideline for each study type in the
+    EQUATOR Network database. The [EQUATOR
+    Wizard](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines/)
+    may be helpful for this task
+3.  Identify any specialty-specific reporting guidelines relevant for your
+    journal in the EQUATOR Network database
+4.  For each guideline, check that it was developed transparently and
+    reproducibly.
+5.  For each guideline, check that its development included searching for
+    and using existing relevant evidence
+6.  For each guideline, check that consensus was used in its development
+    process
+7.  For each guideline, check that it has either been evaluated or that an
+    evaluation is planned
+
+## 4. Policy detail: will you ‘endorse’ or ‘require’ reporting guidelines?
+
+Use [**this worksheet
+(Word)**](https://www.equator-network.org/wp-content/uploads/2016/11/EQUATOR-Network-Toolkits-Your-reporting-guideline-policy-endorse-or-require.docx)
+to guide a discussion about what your journal’s reporting guideline policy
+will look like, and whether you want to endorse or require reporting
+guidelines. We suggest involving authors, reviewers, and editorial board
+members in this discussion.
+
+We offer tools and support for [**four major routes for
+implementation**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/four-possible-implementation-routes/),
+two that endorse guidelines and two that require them.
+
+You should now have enough information to draft your journal’s reporting
+guideline policy and sketch out how reporting guidelines will fit into your
+journal’s workflow.
+
+## 5. Do you need to get policy approval from your publisher or society?
+
+You could request formal support of your new policy from either your
+publisher or your sponsoring society before launch. This level of support
+helps affirm the importance of good reporting for authors. It can also be
+helpful for editorial teams to have worked through any concerns about
+[**submission rates and other
+issues**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/reporting-guidelines-and-journals-fact-fiction/)
+with publishers/sponsors before launch.
+
+## 6. Deciding how to launch your policy
+
+If you have chosen an ‘endorse’ policy, you can simply launch your policy
+and continue to educate authors as you go along. If you have chosen a
+‘require’ policy, you may like to first implement a phased launch. You
+could first require just one reporting guideline, say for randomised
+controlled trials, and get authors comfortable with this requirement before
+launching the comprehensive policy. Alternatively, you could first endorse
+your full set of reporting guidelines and give authors a fixed period, say
+1 year, before the guidelines are required.
+
+## 7. Launch preparations
+
+Once you have agreed on your reporting guideline policy and launch plan,
+you’ll need to get ready for launch by preparing promotional materials and
+updating your workflow. We have a collection of [**tools and
+templates**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines/)
+to help you integrate reporting guidelines into your workflow. We also have
+suggestions for how you can [**promote your new
+policy**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/launch-and-promote-your-journals-reporting-guideline-policy/)
+amongst your readers and authors, using editorials and other tools.
+
+If you have chosen a ‘require’ route, you may also need to develop training
+for whichever team members will check for guideline compliance.
+
+*Adapted from Chapter 29 of* Guidelines for Reporting Health Research: A
+User’s Manual, *First Edition. Edited by D Moher, DG Altman, KF Schultz, I
+Simera, and E Wager. 2014 John Wiley & Sons.* [Read the full chapter
+(PDF)](https://www.equator-network.org/wp-content/uploads/2016/12/Roberts-etal-Chapter-29-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
+and [learn more about this
+textbook](https://www.equator-network.org/library/equator-network-reporting-guideline-manual/).
+
+- [**Read about**](four-possible-implementation-routes.qmd) the four
+  general reporting guideline policies that journals use
+- [**Launch and promote your reporting guideline
+  policy**](launch-and-promote-your-journals-reporting-guideline-policy.qmd)
+  with editorials and author instructions
+- [**Get tools and
+  templates**](tools-and-templates-for-implementing-reporting-guidelines.qmd)
+  to help integrate your policy into your journal’s workflow
+- [**Go back**](index.qmd) to the toolkit homepage
