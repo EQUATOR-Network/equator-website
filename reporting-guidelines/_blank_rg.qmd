@@ -25,6 +25,9 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 
+sticky: false # or true
+search-priority: 100 # lower number = higher priority
+
 # LIST FIELDS
 study-design:
 # - Animal pre-clinical research
