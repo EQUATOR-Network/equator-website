@@ -1,0 +1,11 @@
+---
+title: Paula Dhiman 
+subtitle: Medical Statistician
+image: pdhiman.jpg
+image-alt: Paula Dhiman
+path: about/uk-equator-centre.html#paula-dhiman
+centre: uk
+order: 4
+---
+
+At the Centre for Statistics in Medicine, Dr Paula Dhiman investigates how medical research is done, focusing on the methodological conduct and reporting of non-randomised research, with a view to helping improve the quality and integrity of future research. This is known as meta-research or “research on research”. Paula is passionate about statistical methodology and observational research and is particularly interested in prediction modelling.

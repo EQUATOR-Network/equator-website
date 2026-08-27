@@ -1,0 +1,16 @@
+---
+title: 'Reporting Guideline for Clinical Practice Guidelines for Medical Nutrition Therapy: An Extension of the RIGHT Statement'
+date-registered: 16 January 2024
+year-registered: 2024
+date-updated: null
+contact-name: Mengyan Wang
+contact-email: wangmengyan_up@163.com
+categories:
+- Other
+---
+
+This project will develop a guideline for reporting clinical practice guidelines (CPGs) for interventions involving nutrition therapy. The tool is planned as an extension of the RIGHT Statement. The project leaders, based on Evidence-Based Nutrition Research Team of West China Hospital, Sichuan University, plan to first run a literature review, searching for reporting guidelines in nutrition and for CPGs (such as RIGHT) and also articles assessing the quality of CPGs in nutrition. Then they will run Delphi surveys and conduct a consensus meeting to finalise the checklist. Funding support was obtained from West China Hospital of Sichuan University. The group plans to publish the reporting guideline as an open access document in 2025.
+
+Protocol: [https://osf.io/f3x2z/?view_only=680430078b1f42319ad62c69820e5ea3](https://osf.io/f3x2z/?view_only=680430078b1f42319ad62c69820e5ea3)
+
+{{< include ../_template.qmd >}}

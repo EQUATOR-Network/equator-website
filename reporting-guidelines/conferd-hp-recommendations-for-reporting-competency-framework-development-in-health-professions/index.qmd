@@ -1,0 +1,147 @@
+---
+# REQUIRED FIELDS
+title: 'CONFERD-HP : recommendations for reporting COmpeteNcy FramEwoRk Development
+  in health professions'
+acronym: CONFERD-HP
+provided-for: Reporting the development of competency frameworks in the health professions.
+rg-doi: ''
+pmid-id: '[36413510](https://pubmed.ncbi.nlm.nih.gov/36413510/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/36413510/
+relevant-urls: The checklist can be downloaded at the [CONFERD-HP website](http://conferd-guideline.org/conferd-hp-checklist/).
+full-bibliographic-reference: 'Batt AM, Tavares W, Horsley T, Rich JV, Williams B;
+  CONFERD-HP Collaborators. CONFERD-HP: recommendations for reporting COmpeteNcy FramEwoRk
+  Development in health professions. Br J Surg. 2022:znac394'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <http://conferd-guideline.org/>
+additional-languages: ''
+additional-information: |-
+  Read the scoping review that informed development of this reporting guideline:
+
+  Batt AM, Tavares W, Williams B. The development of competency frameworks in healthcare professions: a scoping review. Adv Health Sci Educ Theory Pract. 2020;25(4):913-987. PMID: [31797195](https://pubmed.ncbi.nlm.nih.gov/31797195/)
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+- Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+- Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- competency
+- competency framework
+- COmpeteNcy FramEwoRk Development in Health Professions
+- competency frameworks
+- CONFERD-HP
+- education
+- framework
+- health professions
+- health professions education
+- medical education
+- mixed methods
+- practice
+- professional
+- professional practice
+- qualitative
+
+---
+
+{{< include ../_template.qmd >}}

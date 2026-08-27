@@ -1,0 +1,158 @@
+---
+# REQUIRED FIELDS
+title: 'PRICE 2020 guidelines for reporting case reports in Endodontics: a consensus-based
+  development'
+acronym: PRICE 2020
+provided-for: Reporting case reports in the specialty of Endodontology.
+rg-doi: ''
+pmid-id: '[32090342](https://www.ncbi.nlm.nih.gov/pubmed/32090342)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/32090342
+relevant-urls: ''
+full-bibliographic-reference: 'Nagendrababu V, Chong BS, McCabe P, Shah PK, Priya
+  E, Jayaraman J, Pulikkotil SJ, Setzer FC, Sunde PT, Dummer PMH. PRICE 2020 guidelines
+  for reporting case reports in Endodontics: a consensus-based development. Int Endod
+  J. 2020;53(5):619-626.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Nagendrababu V, Chong BS, McCabe P, Shah PK,
+  Priya E, Jayaraman J, Pulikkotil SJ, Dummer PMH. PRICE 2020 guidelines for reporting
+  case reports in Endodontics: explanation and elaboration. Int Endod J. 2020. PMID:
+  [32221975](https://www.ncbi.nlm.nih.gov/pubmed/32221975)'
+guideline-history: ''
+relevant-more: ''
+website-url: <http://pride-endodonticguidelines.org/price/>
+additional-languages: ''
+additional-information: |-
+  The protocol for guideline development is available at:
+
+  Nagendrababu V, Chong BS, McCabe P, Shah PK, Priya E, Jayaraman J, Pulikkotil SJ, Dummer PMH. Guidelines for reporting the quality of clinical case reports in Endodontics: a development protocol. Int Endod J. 2019 Jun;52(6):775-778. PMID: [30586165](https://www.ncbi.nlm.nih.gov/pubmed/30586165)
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: '[PRICE 2020 Checklist (Word)](PRICE-2020-Checklist.docx) [PRICE 2020 Flowchart
+  (Word)](PRICE-2020-Flowchart.docx)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+- Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- case report
+- case reports
+- checklist
+- checklists
+- dental
+- Dentist
+- Dentistry
+- endodontic
+- Endodontics
+- endodontology
+- figure
+- figures
+- flow chart
+- illustration
+- illustrations
+- image
+- images
+- Preferred Reporting Items for Case reports in Endodontics (PRICE) 2020 guidelines
+- PRICE 2020
+- PRICE 2020 guidelines
+- PRICE checklist
+- PRICE flow chart
+- PRICE guidelines
+
+---
+
+{{< include ../_template.qmd >}}

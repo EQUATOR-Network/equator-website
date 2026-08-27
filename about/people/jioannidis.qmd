@@ -1,0 +1,27 @@
+---
+title: John P.A. Ioannidis
+subtitle: Director of the USA EQUATOR Centre, Stanford University
+image: jioannidis.jpg
+image-alt: John Ioannidis
+path: https://med.stanford.edu/profiles/john-ioannidis
+centre: usa
+order: 1
+---
+
+John P.A. Ioannidis, MD, DSc, is Professor of Medicine, of Epidemiology and Population Health, and (by courtesy) of Biomedical Data Science and Co-Director, Meta-Research Innovation Center at Stanford (METRICS) at Stanford University. He has served as President of the Association of American Physicians and has won many awards, including the European Award for Excellence in Clinical Science, Medal for Distinguished Service, Teachers College, Columbia U, Chanchlani Global Health Award, Epiphany Science Courage Award, Einstein fellow, Gordon award, Albert Stuyvenberg Medal, Harwood Prize, Blake Award, Founders’ Medal for MAER-Net). He has been inducted in Association of American Physicians, European Academy of Cancer Sciences, American Epidemiological Society, European Academy of Sciences and Arts, US National Academy of Medicine and Accademia delle Scienze (Bologna) and has received honorary doctorates from Erasmus University Rotterdam, University of Athens, University of Tilburg, University of Edinburgh, Aristotle University of Thessaloniki and McMaster University.
+
+John has been involved in the conception, development and publication of many reporting guidelines and has led research on diverse meta-research areas, providing evidence for research practices, biases, and solutions for improving research efficiency in biomedicine and beyond. He has also been a co-director of the International Congress on Peer Review and Scientific Publication that is co-organized by METRICS, BMJ, and JAMA.
+
+## METRICS affiliates
+
+As an interdisciplinary, solutions focused center, METRICS has recruited a large number of Stanford faculty from multiple disciplines within and outside biomedicine. Our researchers, postdoctoral fellows, visiting scholars, and students add additional depth and breadth to METRICS research activities and initiatives.
+
+METRICS Affiliates are recognized leaders in the field of meta-research who are studying research practices in the areas of methods, evaluation, reporting, reproducibility and incentives with the goal of generating evidence to strengthen the research enterprise. We are grateful to have a large number of affiliates from leading research institutions from around the world.
+
+METRICS partners with a broad range of organizations working to improve best research practices through engagement on specific initiatives, targeted research, the sharing of best practices, and participation in working groups.
+
+A list of METRICS affiliates, postdoctoral fellows, and other researchers involved in METRICS can be found in the METRICS website: https://metrics.stanford.edu/ along with additional information about our work, collaborations, and events.
+
+## Funding
+
+Work at METRICS has been funded by federal grants in the USA, unrestricted gifts to Stanford University, grants from non-profit foundations, as well as the Stanford University School of Medicine and Stanford Department of Medicine. We do not accept any funding from for-profit entities.

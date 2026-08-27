@@ -1,0 +1,16 @@
+---
+title: PRINMA-A — Preferred Reporting Items for Network Meta-Analysis of Acupuncture Statement
+date-registered: 15 March 2023
+year-registered: 2023
+date-updated: null
+contact-name: Xiuxia Li, Lanzhou University
+contact-email: lixiuxia@lzu.edu.cn
+categories:
+- Literature reviews
+---
+
+With funding from the National Natural Science Foundation in China, a group of researchers in evidence-based Chinese medicine at Lanzhou University is developing a reporting guideline for studies including network meta-analysis (NMA). According to the group, “A significant advantage of NMA is the ability to consider comparisons of all interventions in the study, including evidence for direct and indirect comparisons”. The new tool aims at helping authors to repor acupuncture-related NMA studies.
+
+The work started in June 2022, with a literature review. A Delphi survey is planned for March 2023, and next steps will be consensus meetings, writing of the statement and explanation and elaboration documents, publication of the reporting guideline as an open-access document, and dissemination.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,144 @@
+---
+# REQUIRED FIELDS
+title: A systematic review and cluster analysis approach of 103 studies of high-intensity
+  interval training on cardiorespiratory fitness
+acronym: AGReHIIT
+provided-for: Reporting high-intensity interval training (HIIT) protocols.
+rg-doi: ''
+pmid-id: '[37738464](https://pubmed.ncbi.nlm.nih.gov/37738464/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37738464/
+relevant-urls: ''
+full-bibliographic-reference: Cadenas-Sanchez C, Fernández-Rodríguez R, Martínez-Vizcaíno
+  V, de Los Reyes González N, Lavie CJ, Galán-Mercant A, Jiménez-Pavón D. A systematic
+  review and cluster analysis approach of 103 studies of high-intensity interval training
+  on cardiorespiratory fitness. Eur J Prev Cardiol. 2023:zwad309.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+- Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+- Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+- Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- AGReHIIT
+- cardiometabolic
+- cardiorespiratory
+- cardiorespiratory fitness
+- CRF
+- exercise
+- exercising
+- fitness
+- high-intensity interval training
+- HIIT
+- physical
+- physical activity
+- protcol
+- protocols
+- sport
+- training
+
+---
+
+{{< include ../_template.qmd >}}

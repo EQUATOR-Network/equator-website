@@ -1,0 +1,74 @@
+---
+listing:
+    id: listing
+    contents: 
+    - ../about/people/*qmd
+    include: 
+        executive-group-member: true
+    image-align: left
+    sort: order
+---
+
+
+# EQUATOR Network: what we do and how we are organised
+
+The EQUATOR Network is an “umbrella” organisation that brings together researchers, medical journal editors, peer reviewers, developers of reporting guidelines, research funding bodies and other collaborators with mutual interest in improving the quality of research publications and of research itself.
+
+We are developing into a global initiative covering all areas of health research and all nations, and actively involving all key stakeholders. We have launched the first five national centres that will substantially contribute to expanding EQUATOR activities: the [UK EQUATOR Centre](https://www.equator-network.org/about-us/uk-equator-centre/) (also the EQUATOR Network’s head office), [French EQUATOR Centre](https://www.equator-network.org/about-us/french-equator-centre/), [Canadian EQUATOR Centre](https://www.equator-network.org/about-us/canadian-equator-centre/), [Australasian EQUATOR Centre](https://www.equator-network.org/about-us/australasian-equator-centre/),  [Chinese EQUATOR Centre](https://www.equator-network.org/about-us/chinese-equator-centre/) and [US EQUATOR Centre](https://www.equator-network.org/about-us/usa-equator-centre/). The new centres will focus on national activities aimed at raising awareness and supporting adoption of good research reporting practices. They will work with partner organisations and initiatives and will also contribute to the work of the EQUATOR Network as a whole.
+
+## EQUATOR’s mission and goals
+
+The EQUATOR mission is to achieve accurate, complete, and transparent reporting of all health research studies to support research reproducibility and usefulness. Our work increases the value of health research and helps to minimise avoidable waste of financial and human investments in health research projects.
+
+To achieve its mission the EQUATOR Network has the following major goals:
+
+- Maintain and further develop a comprehensive collection of online resources providing up-to-date information, tools and other materials related to health research reporting ([Library for health research reporting](https://www.equator-network.org/library/))
+- Actively promote the use of reporting guidelines and good research reporting practices through an education and [training](https://www.equator-network.org/category/events/) programme
+- Assist in the [development](http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000217), dissemination and implementation of robust reporting guidelines
+- Support journals, universities and other organisations in [implementing reporting guidelines](https://www.equator-network.org/toolkits/) through development of tools, strategies, education and other activities
+- Undertake [research projects](https://www.equator-network.org/about-us/) enhancing the value of health-related research
+- Set up a global network of local [EQUATOR centres](https://www.equator-network.org/about-us/) to facilitate the improvement of health research reporting on a worldwide scale
+
+Aside from its core activities of providing focused resources and training, EQUATOR is committed to research on current research and its publication to enhance the value of health-related research. Research topics include reviews of time trends in the nature and quality of publications; the development of tools and strategies to improve the planning, design, conduct/management and reporting of biomedical research; and investigating strategies to help journals to improve the quality of manuscripts.
+
+The EQUATOR Network is directed by an international Executive Group that brings together leading experts in health research methodology, statistics, reporting and editorial work.
+
+## Executive Group members
+
+::: {#listing}
+:::
+
+## Advisory Group members
+
+- **Ana Marušić**, Professor and Chair, Department of Research in Biomedicine and Health, University of Split, Croatia
+
+## Former Executive Group members
+
+- **Doug Altman**, former Professor of Statistics in Medicine, Centre for Statistics in Medicine, University of Oxford, UK; Director, UK EQUATOR Centre
+- **Iveta Simera**, formerly Senior Operations & Development Manager at The Global Health Network (TGHN), Centre for Tropical Medicine & Global Health, University of Oxford, UK
+
+## Former Advisory Group members
+
+- **John Hoey**, Associate Professor (adjunct), University of Toronto, Toronto, Canada
+- **Kenneth F. Schulz**, Distinguished Scientist and Vice President, Quantitative Sciences, Family Health International, Chapel Hill, USA
+- **Trish Groves**, formerly Head of Research, BMJ & Editor-in-chief, BMJ Open
+
+## EQUATOR Milestones
+
+Since its launch in 2008, the programme has already achieved important milestones:
+
+- Developed a free online [Library for health research reporting](https://www.equator-network.org/library/)
+- In collaboration with the Pan American Health Organization (PAHO/WHO) launched a Spanish section in the EQUATOR website and signed a three year memorandum on mutual collaboration in promoting responsible research reporting in the Americas, especially in Latin America and the Caribbean regions
+- Built international recognition and reputation as the leading authority and resource portal in the area of health research reporting. Reference to EQUATOR is included in the “[Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals](http://www.icmje.org/)” (formerly Uniform Requirements for Biomedical Manuscripts), the most fundamental guidelines developed by the International Committee of Medical Journal Editors that are followed by most biomedical journals
+- Organised workshops, seminars, talks and Annual Lectures on issues relevant to research reporting (see our [past events](https://www.equator-network.org/category/events/all-past-events/))
+- Together with the German Cochrane Centre organised the 1st EQUATOR Scientific Symposium: [ACT now: Accuracy, Completeness and Transparency in health research reporting](https://www.equator-network.org/2012/10/10/act-now-accuracy-completeness-and-transparency-in-health-research-reporting/), Freiburg, October 2012
+- Completed several research projects and published a number of [research papers and articles promoting good research reporting](https://www.equator-network.org/about-us/uk-equator-centre/equator-publications/)
+- Published a regular [online newsletter](https://www.equator-network.org/category/news/newsletter-only/) and set up a [LinkedIn group](http://www.linkedin.com/groups/EQUATOR-Network-Improving-reporting-health-5032663) disseminating information about new reporting guidelines and the latest developments
+
+## Principles
+
+The work of EQUATOR increases the **usability of available research evidence**. Our work supports the work of organisations such as the Cochrane Collaboration in the development of systematic reviews and NICE in the development of clinical practice guidelines. EQUATOR also helps research funders maximise the utility of new information arising from the research they fund.
+
+Complete, accurate and transparent reporting is an **integral part of responsible research conduct**. Reporting guidelines are important tools for achieving high standards in reporting health studies. In order to reach their potential, reporting guidelines need to be used widely and routinely by researchers/authors, editors and peer reviewers. This effort needs to be strongly supported by research funders and regulatory bodies.
+
+EQUATOR is a **long-term programme of research support** and **improvement** and not a closed fixed term project. Ongoing EQUATOR activities are expected to increase the usability and value of published research both in clinical practice and to aid further research, thus ensuring that maximum value is gained from financial investment in health research.

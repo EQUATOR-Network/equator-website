@@ -1,0 +1,158 @@
+---
+# REQUIRED FIELDS
+title: Guidelines for the Content of Statistical Analysis Plans in Clinical Trials
+acronym: ''
+provided-for: Reporting of statistical analysis plans (SAPs) for clinical trials.
+rg-doi: ''
+pmid-id: '[29260229](https://pubmed.ncbi.nlm.nih.gov/29260229/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/29260229/
+relevant-urls: 'The full-text of this guideline is freely available at: <https://jamanetwork.com/journals/jama/fullarticle/2666509>'
+full-bibliographic-reference: Gamble C, Krishan A, Stocken D, Lewis S, Juszczak E,
+  Doré C, Williamson PR, Altman DG, Montgomery A, Lim P, Berlin J, Senn S, Day S,
+  Barbachano Y, Loder E. Guidelines for the Content of Statistical Analysis Plans
+  in Clinical Trials. JAMA. 2017;318(23):2337-2343.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: The [explanation and elaboration content for the
+  SAP Statement (PDF)](http://lctc.org.uk/Content/SAP%20Statement_%20Elaboration%20Document%20v1.0.pdf)
+  is freely available.
+guideline-history: ''
+relevant-more: |-
+  **Specialised**
+
+  **[Early phase clinical trial statistical analysis plans](/reporting-guidelines/early-phase-clinical-trials-extension-to-guidelines-for-the-content-of-statistical-analysis-plans/)**: Homer V, Yap C, Bond S, Holmes J, Stocken D, Walker K, Robinson EJ, Wheeler G, Brown S, Hinsley S, Schipper M, Weir CJ, Rantell K, Prior T, Yu LM, Kirkpatrick J, Bedding A, Gamble C, Gaunt P. Early phase clinical trials extension to guidelines for the content of statistical analysis plans. BMJ. 2022;376:e068177. PMID: [35131744](https://pubmed.ncbi.nlm.nih.gov/35131744/)
+website-url: <http://lctc.org.uk/SAP-Statement>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: '[Statistical Analysis Plan (SAP) Checklist (Word)](http://lctc.org.uk/Content/SAP%202019%20Checklist.docx)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+- Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- analysis plan
+- clinical trial
+- clinical trial SAP
+- clinical trial statistical analysis plan
+- clinical trials
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- SAP
+- SAP guidance
+- SAP guideline
+- SAPs
+- statistic
+- statistical
+- statistical analyses
+- statistical analysis
+- statistical analysis plan
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

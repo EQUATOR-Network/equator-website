@@ -1,0 +1,148 @@
+---
+# REQUIRED FIELDS
+title: ESPACOMP Medication Adherence Reporting Guideline (EMERGE)
+acronym: EMERGE
+provided-for: Reporting of medication adherence research
+rg-doi: ''
+pmid-id: '[29946690](https://www.ncbi.nlm.nih.gov/pubmed/29946690)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/29946690
+relevant-urls: ''
+full-bibliographic-reference: De Geest S, Zullig LL, Dunbar-Jacob J, Helmy R, Hughes
+  DA, Wilson IB, Vrijens B. ESPACOMP Medication Adherence Reporting Guideline (EMERGE).
+  Ann Intern Med. 2018;169(1):30-35.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <http://www.espacomp.eu/emerge>
+additional-languages: ''
+additional-information: Read the [EMERGE Delphi protocol](http://bmjopen.bmj.com/content/7/2/e013496).
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: '[EMERGE Checklist (Word)](2018-EMERGE-guidelines-Checklist-V1.docx)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- behavioral science
+- behavioural science
+- biostatistics
+- EMERGE
+- ESPACOMP
+- European Society for Patient Adherence COMpliance and Persistence
+- health economics
+- medication
+- medication adherence
+- Medication Adherence Reporting Guideline
+- medication compliance
+- medication non-adherence
+- medication non-compliance
+- medication nonadherence
+- medication noncompliance
+- medication persistence
+- medicine
+- nursing
+- pharmacometrics
+- pharmacy
+- sociology
+- taxonomy
+
+---
+
+{{< include ../_template.qmd >}}

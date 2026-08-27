@@ -1,0 +1,164 @@
+---
+# REQUIRED FIELDS
+title: 'Evaluation of post-introduction COVID- 19 vaccine effectiveness: Summary of
+  interim guidance of the World Health Organization'
+acronym: ''
+provided-for: Reporting of post-introduction COVID-19 vaccine effectiveness evaluations.
+rg-doi: ''
+pmid-id: '[34119350](https://pubmed.ncbi.nlm.nih.gov/34119350/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/34119350/
+relevant-urls: |-
+  The [full-text of this guideline is freely available](https://www.sciencedirect.com/science/article/pii/S0264410X21007076).
+
+  Table 4 presents an extension to the Strengthening the reporting of observational studies in epidemiology (STROBE) checklist with recommended additional elements for reporting COVID-19 vaccine effectiveness studies.
+full-bibliographic-reference: 'Patel MK, Bergeri I, Bresee JS, Cowling BJ, Crowcroft
+  NS, Fahmy K, Hirve S, Kang G, Katz MA, Lanata CF, L''Azou Jackson M, Joshi S, Lipsitch
+  M, Mwenda JM, Nogareda F, Orenstein WA, Ortiz JR, Pebody R, Schrag SJ, Smith PG,
+  Srikantiah P, Subissi L, Valenciano M, Vaughn DW, Verani JR, Wilder-Smith A, Feikin
+  DR. Evaluation of post-introduction COVID-19 vaccine effectiveness: Summary of interim
+  guidance of the World Health Organization. Vaccine. 2021:S0264-410X(21)00707-6.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: 'Linkins LA, Iorio A, Little J, Lavis J. Extended reporting guidance for vaccine
+  effectiveness studies for variants of concern for COVID-19. Vaccine. 2022:S0264-410X(22)00422-4.
+  PMID: [35443916](https://pubmed.ncbi.nlm.nih.gov/35443916/)'
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+- Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+- Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- Coronavirus
+- Coronavirus disease
+- COVID-19
+- COVID-19 vaccine
+- COVID-19 VE evaluation
+- COVID-19 VE evaluations
+- evaluation
+- evaluations
+- infection
+- observational
+- observational studies
+- observational study
+- post-implementation
+- post-introduction
+- post-introduction evaluation
+- post-introduction evaluations
+- post-introduction vaccine effectiveness evaluation
+- post-introduction vaccine effectiveness evaluations
+- real-world conditions
+- SARS-CoV-2
+- surveillance
+- vaccination
+- vaccine
+- vaccine effectiveness evaluation
+- vaccine effectiveness evaluations
+- vaccines
+- VE
+- VE evaluation
+- VE evaluations
+
+---
+
+{{< include ../_template.qmd >}}

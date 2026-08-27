@@ -1,0 +1,158 @@
+---
+# REQUIRED FIELDS
+title: Cochrane Handbook for Systematic Reviews of Interventions Version 6.1
+acronym: ''
+provided-for: Systematic reviews of interventions.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: 'The full-text of this handbook is freely available from: [Cochrane
+  Handbook](https://training.cochrane.org/cochrane-handbook-systematic-reviews-interventions)'
+full-bibliographic-reference: Higgins JPT, Thomas J, Chandler J, Cumpston M, Li T,
+  Page MJ, Welch VA (editors). Cochrane Handbook for Systematic Reviews of Interventions
+  version 6.1 (updated September 2020). Cochrane, 2020.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: |-
+  **Other guidance available from the Cochrane Collaboration**
+
+  Methodological expectations of Cochrane Intervention Reviews (MECIR): Standards for the conduct and reporting of new Cochrane Intervention Reviews, reporting of protocols and the planning, conduct and reporting of updates. Full-text available from: [MECIR guidance](https://community.cochrane.org/mecir-manual)
+
+  Methodological expectations of Cochrane Intervention Reviews (MECIR): Standards for the reporting of plain language summaries in new Cochrane Intervention Reviews 2013. Full-text available from: [Plain language summaries (PDF)](https://methods.cochrane.org/sites/default/files/public/uploads/pleacs_2019.pdf)
+
+  The PRISMA flow diagram has been adapted for use in Cochrane systematic review updates. Further details are available in the article below:
+
+  Stovold E, Beecher D, Foxlee R, Noel-Storr A. Study flow diagrams in Cochrane systematic review updates: an adapted PRISMA flow diagram. Syst Rev. 2014 May 29;3:54. PMID: [24886533](http://www.ncbi.nlm.nih.gov/pubmed/24886533)
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- Cochrane
+- Cochrane Collaboration
+- Cochrane handbook
+- Cochrane intervention review
+- Cochrane intervention reviews
+- cochrane review
+- cochrane reviews
+- handbook
+- intervention review
+- intervention reviews
+- MECIR
+- meta analyses
+- meta analysis
+- plain language
+- plain language summaries
+- plain language summary
+- review
+- reviews
+- systematic
+- systematic review
+- systematic reviews
+- whole report
+
+---
+
+{{< include ../_template.qmd >}}

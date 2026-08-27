@@ -1,0 +1,202 @@
+---
+# REQUIRED FIELDS
+title: 'Improving the Reporting of Primary Care Research: Consensus Reporting Items
+  for Studies in Primary Care-the CRISP Statement'
+acronym: CRISP
+provided-for: Reporting primary care research.
+rg-doi: ''
+pmid-id: '[37788942](https://pubmed.ncbi.nlm.nih.gov/37788942/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37788942/
+relevant-urls: ''
+full-bibliographic-reference: 'Phillips WR, Sturgiss E, Glasziou P, Hartman TCO, Orkin
+  AM, Prathivadi P, Reeve J, Russell GM, Weel CV. Improving the Reporting of Primary
+  Care Research: Consensus Reporting Items for Studies in Primary Care-the CRISP Statement.
+  Ann Fam Med. 2023:3029.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: '[Read the CRISP Explanation and Examples Guide](https://www.annfammed.org/content/suppl/2023/10/02/afm.3029.DC1)
+  which is available online in the Supplementary Appendix to the main CRISP Statement.'
+guideline-history: ''
+relevant-more: ''
+website-url: <https://crisp-pc.org/>
+additional-languages: |-
+  **Statement
+
+  **The CRISP Statement with explanations and examples, has also been also published in Chinese at:
+
+  Phillips WR, Sturgiss, Glasziou P, et al. Improving the Reporting of Primary Care Research: Consensus Reporting Items for Studies in Primary Care—the CRISP Statement. [等. 改进基本医疗（初级保健）研究报告内容的CRISP共识声明[J]. 中国全科医学.] Chinese General Practice. <https://www.chinagp.net/CN/10.12114/j.issn.1007-9572.2024.A0025>
+
+  **Checklist**
+
+  [CRISP Checklist Brazilian Portuguese (Word)](CRISP_Checklist_Brazilian_Portuguese.docx)
+
+  [CRISP Checklist Brazilian Portuguese (PDF)](CRISP_Checklist_Brazilian_Portuguese.pdf)
+
+  [CRISP Checklist Chinese (PDF)](CRISP-Checklist-Chinese-Version.pdf)
+
+  [CRISP Checklist French (Word)](FR-CRISP-Reporting-Checklist-2024.docx)
+
+  [CRISP Checklist French (PDF)](FR-CRISP-Reporting-Checklist-2024.pdf)
+
+  [CRISP Checklist German (Word)](CRISP_Checklist_German_Deutsch.docx)
+
+  [CRISP Checklist German (PDF)](CRISP_Checklist_German_Deutsch.pdf)
+
+  [CRISP Checklist Spanish (Word)](CRISP_Checklist_Espanol.docx)
+
+  [CRISP Checklist Spanish (PDF)](CRISP-Checklist-Espanol.pdf)
+
+  [CRISP checklist Turkish (Word)](CRISP-Checklist-Turkish-final-2024.10.1.docx)
+
+  [CRISP checklist Turkish (PDF)](CRISP-Checklist-Turkish-final-2024.10.1-1.pdf)
+
+  **Explanation and Elaboration**
+
+  [CRISP Explanation and examples Chinese (PDF)](CRISP-Explanation-and-Examples-Chinese-Version.pdf)
+additional-information: ''
+relevant-editorials: |-
+  Phillips WR, Sturgiss EA, Kendall S, Akman M. Reporting study results in primary health care: the CRISP guidelines. Prim Health Care Res Dev. 2024;25:e52. PMID: [39417283](https://pubmed.ncbi.nlm.nih.gov/39417283/)
+
+  Phillips WR, Sturgiss E. CRISP: A checklist for primary health care and family medicine research in Africa and worldwide. Afr J Prm Health Care Fam Med. 2024;16(1), a4790. <https://doi.org/10.4102/phcfm.v16i1.4790>
+
+  Rodríguez JE, van Vugt VA, Gorin SS. Commentary on the CRISP Statement. Ann Fam Med. 2023;21(6):482. PMID: [38012034](https://pubmed.ncbi.nlm.nih.gov/38012034/)
+
+  Sturgiss EA, Phillips WR. The Consensus Reporting Items for Studies in Primary Care (CRISP) checklist - the first research reporting guideline made by and for primary care. Aust J Prim Health. 2024;30:PY24115. PMID: [39213388](https://pubmed.ncbi.nlm.nih.gov/39213388/)
+
+  Phillips WR, Sturgiss EA. CRISP Checklist advances primary care through responsive research reporting. Lancet Primary Care 2025; [10.1016/j.lanprc.2025.100003](https://doi.org/10.1016/j.lanprc.2025.100003)
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: '[CRISP Checklist (Word)](CRISP-Reporting-Checklist-Version-1.0.docx)  [CRISP
+  Checklist (PDF)](CRISP-Reporting-Checklist-Version-1.0.pdf)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+- Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+- Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- community
+- Consensus Reporting Items for Studies in Primary Care Checklist
+- CRiSP
+- CRISP Statement
+- family
+- family medicine
+- family practice
+- general practice
+- GP
+- mixed methods
+- observational
+- PC research
+- primary care
+- qualitative
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

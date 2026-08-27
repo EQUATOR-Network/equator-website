@@ -1,0 +1,16 @@
+---
+title: 'Reporting checklist for systematic review of clinical practice guidelines: a RIGHT extension statement'
+date-registered: 30 September 2025
+year-registered: 2025
+date-updated: null
+contact-name: Xuanlin Li, Zhejiang Chinese Medical University
+contact-email: lixuanlinhnzy@163.com
+categories:
+- Literature reviews
+---
+
+Scientific reporting of clinical practice guidelines helps promote the completeness, transparency, and reliability of guidelines. The current existence of multiple clinical practice guidelines in a particular field or for a particular disease at the same time calls for a systematic review of these guidelines to analyse their methodological quality, quality of reporting, quality of the evidence and the direction, strength and content of the recommendations, investigative analysis of a particular part of the guideline. Currently, systematic reviews of clinical practice guidelines are widely published, but a reporting checklist of such systematic reviews is lacking. Therefore, we drew on the RIGHT, PRISMA, and MOOSE checklist development process and on the standardized production steps provided by the EQUAOR Collaborative Network to develop the SCREEN (reporting checklist for SystematiC Review of clinical practicE guidEliNes) checklist with a view to providing a useful tool for better reporting of systematic reviews of clinical practice guidelines.
+
+The development of RIGHT for SCREEN has received support from Pro. Yaolong Chen, the initiator of the RIGHT statement, as a co-initiator, providing methodological guidance for the development of the extension version of RIGHT for SCREEN.
+
+{{< include ../_template.qmd >}}

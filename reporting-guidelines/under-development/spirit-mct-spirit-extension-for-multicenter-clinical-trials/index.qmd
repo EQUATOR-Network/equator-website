@@ -1,0 +1,21 @@
+---
+title: SPIRIT-MCT - SPIRIT Extension for Multicenter Clinical Trials
+date-registered: 18 May 2022
+year-registered: 2022
+date-updated: 9 January 2024
+contact-name: Prof. Zhao-Xiang Bian; Dr Xuan Zhang
+contact-email: bianzxiang@gmail.com; zhangxuan@hkbu.edu.hk
+categories:
+- Clinical trial protocols
+---
+
+Multicentre trials are increasingly common, but writing protocols for such studies can be challenging. This project aims to find solutions to help reduce heterogeneity between study centres and avoid excessive centre effects on treatments. This will be an extension of the SPIRIT reporting guideline for multicentre trials.
+
+The project, funded by Health and Medical Research Fund (Hong Kong), is led by the Chinese EQUATOR Centre and includes a multidisciplinary team of clinicians, trialists, methodologists, developers of reporting guidelines, epidemiologists, statisticians and editors. Using SPIRIT as a starting point, the group leading the project is reviewing the literature, and they plan to conduct a Delphi survey and a consensus meeting to agree on the final items of the checklist. They also plan a pilot study to test the applicability of the checklist.
+
+The group plans to publish the reporting guideline as an open-access document in 2023.
+
+- Read the [protocol](https://pubmed.ncbi.nlm.nih.gov/37780430/)
+- Read the [results of a cross-sectional study](https://pubmed.ncbi.nlm.nih.gov/36869004/) investigating the reporting of multicenter clinical trial protocols
+
+{{< include ../_template.qmd >}}

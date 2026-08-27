@@ -1,0 +1,156 @@
+---
+# REQUIRED FIELDS
+title: 'Standards for reporting qualitative research: a synthesis of recommendations'
+acronym: SRQR
+provided-for: Reporting of qualitative research studies.
+rg-doi: ''
+pmid-id: '[24979285](http://www.ncbi.nlm.nih.gov/pubmed/24979285)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/24979285
+relevant-urls: |-
+  The full-text of this reporting guideline is available at: [SRQR guideline](https://journals.lww.com/academicmedicine/fulltext/2014/09000/Standards_for_Reporting_Qualitative_Research__A.21.aspx)
+
+  Detailed descriptions of each reporting item and examples are available in the supplementary material at:<http://links.lww.com/ACADMED/A218>
+full-bibliographic-reference: 'O''Brien BC, Harris IB, Beckman TJ, Reed DA, Cook DA.
+  Standards for reporting qualitative research: a synthesis of recommendations. Acad
+  Med. 2014;89(9):1245-1251.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: The SRQR checklist is available in [French](https://www.sciencedirect.com/science/article/pii/S1779012322001504).
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: true
+search-priority: 1
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- experience
+- experiences
+- individual
+- perspective
+- perspectives
+- qualitative
+- qualitative approach
+- qualitative approaches
+- qualitative data
+- qualitative health research
+- qualitative method
+- qualitative methods
+- qualitative research
+- qualitative research methodologies
+- qualitative research methods
+- qualitative research review
+- qualitative research studies
+- qualitative research study
+- qualitative results
+- qualitative studies
+- qualitative study
+- social
+- SRQR
+- standards for reporting qualitative research
+
+---
+
+{{< include ../_template.qmd >}}

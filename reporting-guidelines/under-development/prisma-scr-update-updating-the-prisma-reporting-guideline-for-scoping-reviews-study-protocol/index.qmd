@@ -1,0 +1,18 @@
+---
+title: 'PRISMA-ScR update - Updating the PRISMA reporting guideline for scoping reviews: study protocol'
+date-registered: 2 April 2024
+year-registered: 2024
+date-updated: null
+contact-name: Andrea Tricco, University of Toronto
+contact-email: Andrea.Tricco@unityhealth.to
+categories:
+- Literature reviews
+---
+
+The PRISMA (Preferred Reporting Items for Systematic reviews and Meta-Analyses) reporting guideline was created to improve transparency and reproducibility in systematic reviews, and was later extended to guide reporting of other research synthesis methodologies including scoping reviews (ScRs) in 2018. However, important advances in ScR methods (like data extraction techniques, evidence synthesis and automation tools) along with the-updated PRISMA 2020 guideline for systematic reviews call for a considerable update to the PRISMA-ScR guideline to ensure continued rigour and fit for purpose. 
+
+The updating project began in 2024 with a the gathering of a steering committee and the start of a scoping review to list items that could be considered in the reporting guideline (with the search strategy already developed as of March 2024). A multi-round Delphi survey will be conducted virtually with diverse knowledge users (including researchers, ScR experts, editors, clinicians, policy makers, patient and public partners) to select, refine, and compile a preliminary list of guideline items. A virtual consensus meeting of the steering committee and key experts in the field will take place to refine the list of guideline items. The group plans to pilot-test to finalise the PRISMA-ScR reporting guideline and then plan the dissemination. 
+
+- Read the [scoping review protocol](https://pubmed.ncbi.nlm.nih.gov/39829235/)
+
+{{< include ../_template.qmd >}}

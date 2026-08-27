@@ -1,0 +1,14 @@
+---
+title: TREATS-RG - Transparent Reporting for Essential oil & Aroma Therapeutic Studies—Reporting Guideline
+date-registered: 5 January 2024
+year-registered: 2024
+date-updated: null
+contact-name: Marian Reven
+contact-email: Marian.reven@hsc.wvu.edu
+categories:
+- Other
+---
+
+Development of this reporting guideline started in 2021. Systematic reviews have shown that the evidence for the beneficial effect of aromatherapy in healthcare is inconclusive, as many published studies lack enough description of essential oils, carrier methods, and the intervention. This consensus-based reporting guideline will address this gap and is designed to be used in addition to other reporting guidelines such as CONSORT, STROBE, and CARE. The group developing this reporting guideline (ARQAT, [www.arqat.org](http://www.arqat.org)) plans to review the literature, conduct a Delphi survey and face-to-face consensus meeting and publish the guidance open access by the end of 2025.
+
+{{< include ../_template.qmd >}}

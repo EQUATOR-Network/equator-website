@@ -1,0 +1,155 @@
+---
+# REQUIRED FIELDS
+title: 'Checklist for the preparation and review of pain clinical trial publications:
+  a pain-specific supplement to CONSORT'
+acronym: ''
+provided-for: Reporting details specific to pain clinical trials.
+rg-doi: ''
+pmid-id: '[28989992](https://www.ncbi.nlm.nih.gov/pubmed/28989992)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/28989992
+relevant-urls: ''
+full-bibliographic-reference: 'Gewandter JS, Eisenach JC, Gross RA, Jensen MP, Keefe
+  FJ, Lee DA, Turk DC. Checklist for the preparation and review of pain clinical trial
+  publications: a pain-specific supplement to CONSORT. Pain Rep. 2019;4(3):e621.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+- Narrative sections (discussion etc.)
+- Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- analgesic
+- analgesic RCT
+- analgesic RCTs
+- analgesics
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- CONSORT extension
+- pain
+- pain clinical trial
+- pain clinical trials
+- pain treatment
+- pain treatments
+- pain trial
+- pain trials
+- randomised clinical trial
+- randomised clinical trials
+- randomised trial
+- randomised trials
+- randomized clinical trial
+- randomized clinical trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

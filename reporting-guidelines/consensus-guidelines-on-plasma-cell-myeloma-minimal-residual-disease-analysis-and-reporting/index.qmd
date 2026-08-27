@@ -1,0 +1,171 @@
+---
+# REQUIRED FIELDS
+title: Consensus guidelines on plasma cell myeloma minimal residual disease analysis
+  and reporting
+acronym: ''
+provided-for: Flow cytometry minimal residual disease analysis and reporting in multiple
+  myeloma.
+rg-doi: ''
+pmid-id: '[25619868](http://www.ncbi.nlm.nih.gov/pubmed/25619868)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25619868
+relevant-urls: ''
+full-bibliographic-reference: Arroz M, Came N, Lin P, Chen W, Yuan C, Lagoo A, Monreal
+  M, de Tute R, Vergilio JA, Rawstron AC, Paiva B. Consensus guidelines on plasma
+  cell myeloma minimal residual disease analysis and reporting. Cytometry B Clin Cytom.
+  2016;90(1):31-39.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+- Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+- Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- antigen
+- antigens
+- bone marrow
+- bone marrow cells
+- bone marrow plasma cells
+- cancer
+- clinical trial
+- clinical trials
+- cytometry
+- flow cytometry
+- flow cytometry data sets
+- flow-MRD
+- gating parameters
+- minimal residual disease
+- minimal residual disease testing
+- MRD analyses
+- MRD analysis
+- multiple myeloma
+- myeloma
+- neoplasm
+- neoplasms
+- neoplastic
+- neoplastic plasma cells
+- oncology
+- phenotypic marker
+- phenotypic markers
+- plasma
+- plasma cell
+- plasma cell myeloma
+- prognosis
+- prognostic
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- residual disease analysis
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

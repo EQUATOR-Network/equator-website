@@ -1,0 +1,17 @@
+---
+title: Preferred Reporting Items for Systematic reviews and Meta-Analyses - PRISMA Extension of Preclinical In Vivo Animal Experiments
+date-registered: 12 March 2020
+year-registered: 2020
+date-updated: null
+contact-name: Dr Manoj M. Lalu, The Ottawa Hospital Research Institute
+contact-email: mlalu@toh.ca
+categories:
+- Literature reviews
+---
+
+This reporting guideline is an extension to the Preferred Reporting Items for Systematic reviews and Meta-Analysis (PRISMA), specifically for systematic reviews research performed in preclinical, in vivo animal models. The guideline development will occur in five phases: 1) Group establishment to help and provide expertise in the guideline development; 2) A cross-sectional study to describe the characteristics of and assess the reporting of contemporary preclinical systematic reviews; 3) Delphi Exercise; 4) Written Guidance, and 5) Dissemination. 
+The Core Group (n=14 to date) will lead the development and dissemination of the guidelines and includes members with expertise in various disciplines pertinent to guideline development, systematic reviews and meta-analysis, and in vivo animal experiments. This group formed in Fall 2018 and finalized its membership in February 2020. The group have performed an environmental scan by systematically searching the literature for published preclinical systematic reviews and have identified and synthesized the characteristics of these reviews in Summer 2019. The Delphi will start in Summer 2020 and finish in Fall 2020. The group aims to finalize the guidelines and have the results of the environmental scan and conference proceedings submitted for publication by Winter 2021.
+
+The protocol for the overall project has been publicly posted on Open Science Framework at [https://osf.io/g4kqz/](https://osf.io/g4kqz/). Within this project, the protocols for the cross-sectional study and the Delphi study have been posted as project components.
+
+{{< include ../_template.qmd >}}

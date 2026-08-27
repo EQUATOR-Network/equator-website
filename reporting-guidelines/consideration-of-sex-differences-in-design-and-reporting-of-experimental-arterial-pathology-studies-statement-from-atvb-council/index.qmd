@@ -1,0 +1,161 @@
+---
+# REQUIRED FIELDS
+title: Consideration of Sex Differences in Design and Reporting of Experimental Arterial
+  Pathology Studies -Statement From ATVB Council
+acronym: ''
+provided-for: Reporting sex as a biological variable in animal models of atherosclerosis,
+  thoracic and abdominal aortic aneurysms, and peripheral arterial disease.
+rg-doi: ''
+pmid-id: '[29301789](https://www.ncbi.nlm.nih.gov/pubmed/29301789)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/29301789
+relevant-urls: ''
+full-bibliographic-reference: Robinet P, Milewicz DM, Cassis LA, Leeper NJ, Lu HS,
+  Smith JD. Consideration of Sex Differences in Design and Reporting of Experimental
+  Arterial Pathology Studies-Statement From ATVB Council. Arterioscler Thromb Vasc
+  Biol. 2018.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+- Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+- Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- AAA
+- abdominal aortic aneurysm
+- abdominal aortic aneurysms
+- acute aortic dissection
+- acute aortic dissections
+- animal model
+- animal models
+- animal research
+- animal studies
+- animal study
+- arterial disease
+- arterial diseases
+- atherosclerosis
+- atherosclerotic
+- biological variable
+- biological variables
+- cardiology
+- cardiovascular
+- CHD
+- coronary heart disease
+- myocardial infarction
+- PAD
+- peripheral arterial disease
+- pre clinical
+- preclinical
+- sex
+- sex difference
+- sex differences
+- thoracic aortic aneurysm
+- thoracic aortic aneurysms
+- vascular pathologies
+- vascular pathology
+
+---
+
+{{< include ../_template.qmd >}}

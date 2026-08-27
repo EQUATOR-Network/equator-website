@@ -1,0 +1,175 @@
+---
+# REQUIRED FIELDS
+title: 'The OHStat Guidelines for Reporting Observational Studies and Clinical Trials
+  in Oral Health Research: Manuscript Checklist'
+acronym: OHStat
+provided-for: Reporting observational studies and clinical trials in oral health research.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Best AM, Lang TA, Greenberg BL, Gunsolley JC, Ioannidou E; Task Force on Design and Analysis in Oral Health Research. The OHStat Guidelines for Reporting Observational Studies and Clinical Trials in Oral Health Research: Manuscript Checklist.
+
+  This guideline was published simultaneously in 5 journals. You can read the guideline in any of these journals using the links below.
+
+  J Am Dent Assoc. 2024:S0002-8177(24)00315-5. PMID: [39001724](https://pubmed.ncbi.nlm.nih.gov/39001724/)
+
+  J Endod. 2024:S0099-2399(24)00302-9. PMID: [39007795](https://pubmed.ncbi.nlm.nih.gov/39007795/)
+
+  J Dent Res. 2024:220345241247028. PMID: [38993043](https://pubmed.ncbi.nlm.nih.gov/38993043/)
+
+  J Oral Maxillofac Surg. 2024:S0278-2391(24)00585-8. PMID: [39033786](https://pubmed.ncbi.nlm.nih.gov/39033786/)
+
+  Angle Orthod (2024). [Link to full-text](https://meridian.allenpress.com/angle-orthodontist/article/doi/10.2319/OHStat_Guidelines.1/501485/The-OHStat-guidelines-for-reporting-observational).
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: |-
+  Best AM, Lang TA, Greenberg BL, Gunsolley JC, Ioannidou E; Task Force on Design and Analysis in Oral Health Research. The OHStat Guidelines for Reporting Observational Studies and Clinical Trials in Oral Health Research: explanation and elaboration.
+
+  J Am Dent Assoc. 2024:S0002-8177(24)00316-7. PMID: [39001723](https://pubmed.ncbi.nlm.nih.gov/39001723/)
+
+  JDR Clin Trans Res. 2024:23800844241247029. PMID: [38993046](https://pubmed.ncbi.nlm.nih.gov/38993046/)
+
+  J Oral Maxillofac Surg. 2024. [Link to full-text](https://www.joms.org/article/S0278-2391(24)00584-6/fulltext).
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+- Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- dental
+- Dentist
+- Dentistry
+- nonrandomised trial
+- nonrandomised trials
+- nonrandomized trial
+- nonrandomized trials
+- observation
+- observational
+- OHStat
+- OHStat checklist
+- OHStat guidelines
+- oral
+- oral health
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,22 @@
+---
+title: PRISMA-PF - Preferred Reporting Items for Systematic Reviews and Meta-Analysis of Prognostic Factor Studies
+date-registered: 6 June 2024
+year-registered: 2024
+date-updated: null
+contact-name: Anneke Damen. Julius Center of Health Sciences and Primary Care, UMC Utrecht
+contact-email: j.a.a.damen@umcutrecht.nl
+categories:
+- Literature reviews
+---
+
+PRISMA-PF will be a reporting guideline for systematic reviews and meta-analysis of prognostic factor studies. The guideline is planned to help researchers report reviews of aggregate data identifying or comparing prognostic factors for populations.
+
+The guideline will not cover systematic reviews for which there is already guidance available, such as TRIPOD-SRMA (for individualised risk predictions) and incremental value of predictors). Furthermore, the guideline is not intended for reporting systematic reviews of predictive factor studies, in which the goal is to study the predictive value of a certain factor to predict treatment response. Finally, it is not intended for the reporting of individual participant data meta-analysis (IPD-MA).
+
+An initial list of items will be composed based on PRISMA 2020 and TRIPOD-SRMA and discussions within the executive committee. A Delphi survey will follow, with at least two rounds, and in between survey rounds, the item list will be discussed and refined by the executive committee. After the last survey round, the executive committee will finalise the PRISMA-PF, pilot it on a number of systematic reviews and adapt if necessary.
+
+Development started in December 2023, without funding, and is planned to finish in 2025, when it will be published as an open-access document.
+
+- Short protocol: [https://osf.io/5me9x/?view\_only=ac554094136a49679e8c2ed4e04ec2a0](https://osf.io/5me9x/?view_only=ac554094136a49679e8c2ed4e04ec2a0)
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,151 @@
+---
+# REQUIRED FIELDS
+title: 'Recommended guidelines for uniform reporting of pediatric advanced life support:
+  the pediatric Utstein style'
+acronym: ''
+provided-for: Paediatric advanced life support
+rg-doi: ''
+pmid-id: '[7574133](http://www.ncbi.nlm.nih.gov/pubmed/7574133)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/7574133
+relevant-urls: ''
+full-bibliographic-reference: 'Zaritsky A, Nadkarni V, Hazinski MF, Foltin G, Quan
+  L, Wright J, Fiser D, Zideman D, O''Malley P, Chameides L. Recommended guidelines
+  for uniform reporting of pediatric advanced life support: the pediatric Utstein
+  style. Ann Emerg Med. 1995;26(4):487-503.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+- Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- advanced life support
+- ALS
+- American Academy of Pediatrics
+- American Heart Association
+- child
+- children
+- data
+- life support
+- paediatric
+- paediatric advanced life support
+- paediatric ALS
+- paediatric resuscitation
+- paediatric Utstein
+- paediatrics
+- pediatric
+- pediatric advanced life support
+- pediatric ALS
+- pediatric resuscitation
+- pediatric Utstein
+- pediatrics
+- resuscitation
+- task force
+- Utstein
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,38 @@
+/* hiding empty database fields */
+[data-content=''] {
+    display: none;
+}
+[data-content=""] {
+    display: none;
+}
+[data-content^='?'] {
+    display: none;
+}
+.reporting-guideline-key-info-box {
+    background-color: var(--green-very-light);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.column-margin .rg-table {
+    margin-bottom: 1.25rem;
+    padding: .4em .7em;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 300px;
+}
+
+.column-margin .rg-table {
+        margin-top: 1rem;
+}
+
+.column-margin .rg-table table tbody tr td {
+    border: none;
+}
+
+.column-margin .rg-table table {
+    border-style: none;
+}

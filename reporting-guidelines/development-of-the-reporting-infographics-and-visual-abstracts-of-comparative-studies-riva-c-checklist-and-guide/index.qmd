@@ -1,0 +1,172 @@
+---
+# REQUIRED FIELDS
+title: Development of the Reporting Infographics and Visual Abstracts of Comparative
+  studies (RIVA-C) checklist and guide
+acronym: RIVA-C
+provided-for: Reporting of infographics which summarise comparative studies of health
+  and medical interventions.
+rg-doi: ''
+pmid-id: '[38242568](https://pubmed.ncbi.nlm.nih.gov/38242568/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38242568/
+relevant-urls: |-
+  The RIVA-C reporting checklist can be accessed from the journal website in [supplementary file 6 (PDF)](https://ebm.bmj.com/content/ebmed/early/2024/01/19/bmjebm-2023-112784/DC1/embed/inline-supplementary-material-1.pdf?download=true), pages 117-120.
+
+  The RIVA-C explanation and examples can be accessed from the journal website in [supplementary file 1 (PDF)](https://ebm.bmj.com/content/ebmed/early/2024/01/19/bmjebm-2023-112784/DC1/embed/inline-supplementary-material-1.pdf?download=true), pages 1-36.
+full-bibliographic-reference: Zadro JR, Ferreira GE, Stahl-Timmins W, Egger V, Elkins
+  MR, Gamble AR, O'Keeffe M, McCaffery KJ, Harris IA, Ardern CL, West CA, Maher CG,
+  Hoffmann TC. Development of the Reporting Infographics and Visual Abstracts of Comparative
+  studies (RIVA-C) checklist and guide. BMJ Evid Based Med. 2024:bmjebm-2023-112784.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+- Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- abstract
+- abstracts
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- cohort
+- cohort studies
+- cohort study
+- comparative studies
+- comparative study
+- graphical abstract
+- graphical abstracts
+- infographic
+- infographics
+- information graphics
+- observational
+- observational studies
+- observational study
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- Reporting Infographics and Visual Abstracts of Comparative studies checklist
+- review
+- reviews
+- RIVA-C
+- RIVA-C checklist
+- systematic review
+- systematic reviews
+- trial
+- trials
+- visual abstract
+- visual abstracts
+
+---
+
+{{< include ../_template.qmd >}}

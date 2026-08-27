@@ -1,0 +1,147 @@
+---
+# REQUIRED FIELDS
+title: Reporting guidelines on how to write a complete and transparent abstract for
+  overviews of systematic reviews of health care interventions
+acronym: PRIO for abstracts
+provided-for: Reporting in abstracts of overviews of intervention systematic reviews.
+rg-doi: ''
+pmid-id: '[30336211](https://www.ncbi.nlm.nih.gov/pubmed/30336211)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/30336211
+relevant-urls: ''
+full-bibliographic-reference: Bougioukas KI, Bouras E, Apostolidou-Kiouti F, Kokkali
+  S, Arvanitidou M, Haidich AB. Reporting guidelines on how to write a complete and
+  transparent abstract for overviews of systematic reviews of health care interventions.
+  J Clin Epidemiol. 2019;106:70-79.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+- Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- abstract
+- abstract of overview of systematic reviews
+- abstracts
+- abstracts of overview of systematic reviews
+- checklist
+- OoSRs
+- OoSRs abstract
+- OoSRs abstracts
+- overview
+- overview of systematic reviews
+- overviews
+- overviews of systematic reviews
+- Preferred Reporting Items for OoSRs abstracts
+- PRIO
+- PRIO for abstracts
+- PRIO for abstracts checklist
+- SRs
+- systematic review
+- systematic reviews
+
+---
+
+{{< include ../_template.qmd >}}

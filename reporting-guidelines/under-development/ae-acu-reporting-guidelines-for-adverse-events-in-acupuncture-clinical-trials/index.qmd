@@ -1,0 +1,16 @@
+---
+title: AE-ACU -- Reporting guidelines for Adverse Events in ACUpuncture clinical trials
+date-registered: 2 May 2024
+year-registered: 2024
+date-updated: null
+contact-name: Yan Shiyan
+contact-email: yanshiyan@bucm.edu.cn
+categories:
+- Clinical Trials
+---
+
+Acupuncture therapy, with its unique advantages, has been widely used worldwide to treat various diseases. However, due to its unique operation method of inserting needles into acupoints, it inevitably leads to bleeding, haematoma, and even more serious adverse events. These may cause undue pain to patients and unnecessary trouble to medical practitioners, especially affecting the development and promotion of acupuncture therapy. Attention should be paid to various adverse events during the acupuncture treatment process, and measures should be taken to prevent and mitigate various adverse events. Furthermore, it is essential to accurately recognise and precisely report various adverse events in acupuncture clinical trials. This reporting guideline developments plan to release guidance to help standardise the reporting of adverse events in acupuncture clinical trials, improve the quality of their reporting, and effectively promote the advancement of research on acupuncture adverse events.
+
+A steering group will be gathered including content experts for acupuncture, methodologists, journal editors, professional medical writers, and patients and public representatives. The literature will be reviewed, a Delphi survey will be conducted, as well as a final consensus meeting. The group plans to publish the reporting guideline in  2027.
+
+{{< include ../_template.qmd >}}

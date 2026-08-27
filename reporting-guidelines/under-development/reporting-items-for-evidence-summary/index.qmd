@@ -1,0 +1,22 @@
+---
+title: Reporting Items for Evidence Summary
+date-registered: 10 October 2025
+year-registered: 2025
+date-updated: null
+contact-name: Dong Pang
+contact-email: pangdong@bjmu.edu.cn
+categories:
+- Other
+---
+
+This reporting guideline is specifically designed for evidence summary articles in the healthcare field. Such articles serve as a vital bridge between research evidence and clinical practice, particularly supporting evidence translation projects and the development of practice guidelines. As a concise form of evidence synthesis, they distill complex research into actionable recommendations to meet the growing clinical demand for efficient knowledge translation. For example, in China, the annual number of published evidence summary articles rose to 311 by 2021, mostly in high-impact journals covering oncology, neurology, and other major clinical fields.Reasons for Developing the New Reporting Guideline1. Methodological inconsistencies in existing practices
+
+Evidence summary articles often lack key methodological details, such as structured research questions, transparent search strategies, and clear evidence grading criteria—weakening their reproducibility and methodological rigor. Meanwhile, the existing “Critical Appraisal for Summaries of Evidence (CASE) tool”, though conceptually relevant, has not been adopted by major journals, leaving a gap in quality evaluation standards.2. Insufficient reporting standardization
+
+Current existing reporting recommendations for evidence summaries include the following aspects: 
+a. JBI Evidence Summary: With rich experience in developing rapid review and evidence summary methodologies, JBI aims to complete evidence summaries within a week, using a fixed 6-part structure (title, question, clinical bottom line, characteristics of the Evidence, best practice recommendations, references). 
+b. Critically Appraised Topic (CAT): Organized around clinical questions, CAT provides both research appraisal and clinical relevance explanations. It follows 5 steps of evidence-based practice (EBP): “Ask, Search, Appraise, Apply, Evaluate”. 
+c. Framework by Weijie Xing (Fudan University): Derived from analyzing domestic and international evidence summaries, it includes 5 sections (background, methods, results, discussion, Summary).However, these frameworks only outline overall structures without specifying details of each reporting item. Moreover, their development did not follow the methodological guidelines for reporting standard formulation recommended by the EQUATOR Network. Additionally, key information is often missing—such as unclear basis for recommendation strength, undisclosed conflict-of-interest statements, and inadequate documentation of evidence integration methods—hindering readers’ assessment of research credibility and applicability.Escalating needs for practice and translation 
+As foundational inputs for clinical practice innovations and intervention development, poorly reported evidence summaries may lead to risks like misleading practice changes or suboptimal protocol design
+
+{{< include ../_template.qmd >}}

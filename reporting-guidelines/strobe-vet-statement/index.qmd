@@ -1,0 +1,172 @@
+---
+# REQUIRED FIELDS
+title: Methods and processes of developing the strengthening the reporting of observational
+  studies in epidemiology – veterinary (STROBE-Vet) statement
+acronym: STROBE-Vet
+provided-for: Reporting of observational studies in veterinary research related to
+  animal health, production, welfare, and food safety.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: The [STROBE-Vet Statement (PDF)](https://strobevetstatement.files.wordpress.com/2016/09/strobe-and-strobe-vet-statements.pdf)
+  is freely available.
+full-bibliographic-reference: |-
+  Sargeant JM, O'Connor AM, Dohoo IR, Erb HN, Cevallos M, Egger M, Ersbøll AK, Martin SW, Nielsen LR, Pearl DL, Pfeiffer DU, Sanchez J, Torrence ME, Vigre H, Waldner C, Ward MP. Methods and processes of developing the strengthening the reporting of observational studies in epidemiology - veterinary (STROBE-Vet) statement.
+
+  This guideline was published simultaneously in 4 journals. You can read the guideline in any of these journals using the links below.
+
+  Prev Vet Med. 2016;134:188-196. PMID: [27836042](https://www.ncbi.nlm.nih.gov/pubmed/27836042)
+
+  J Vet Intern Med. 2016 Nov;30(6):1887-1895. PMID: [27859753](https://www.ncbi.nlm.nih.gov/pubmed/27859753)
+
+  Zoonoses Public Health. 2016 Dec;63(8):651-661. PMID: [27873478](https://www.ncbi.nlm.nih.gov/pubmed/27873478)
+
+  J Food Prot. 2016 Dec;79(12):2211-2219. PMID: [28221964](https://www.ncbi.nlm.nih.gov/pubmed/28221964)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: |-
+  O'Connor AM, Sargeant JM, Dohoo IR, Erb HN, Cevallos M, Egger M, Ersbøll AK, Martin SW, Nielsen LR, Pearl DL, Pfeiffer DU, Sanchez J, Torrence ME, Vigre H, Waldner C, Ward MP. Explanation and Elaboration Document for the STROBE-Vet Statement: Strengthening the Reporting of Observational Studies in Epidemiology-Veterinary Extension.
+
+  The explanation and elaboration paper for this guideline was published simultaneously in 2 journals. You can read the explanation and elaboration paper in any of these journals using the links below.
+
+  J Vet Intern Med. 2016 Nov;30(6):1896-1928. PMID: [27859752](https://www.ncbi.nlm.nih.gov/pubmed/27859752)
+
+  Zoonoses Public Health. 2016 Dec;63(8):662-698. PMID: [27873473](https://www.ncbi.nlm.nih.gov/pubmed/27873473)
+guideline-history: ''
+relevant-more: ''
+website-url: <https://strobevet-statement.org/>
+additional-languages: |-
+  The STROBE-Vet Statement is available in [French](https://strobevet-statement.org/la-declaration-veterinaire-strobe/) and [Spanish](https://strobevet-statement.org/la-declaracion-de-strobe-vet/).
+
+  The STROBE-Vet Checklist is available in [Turkish (PDF)](STROBE-VET-Turkish-translation.pdf).
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: true
+downloads: '[STROBE-Vet Checklist (PDF)](https://strobevetstatement.files.wordpress.com/2016/09/strobe-vet-checklist.pdf)
+  [STROBE-Vet Checklist (Word)](https://strobevetstatement.files.wordpress.com/2016/09/strobe-vet-checklist.docx)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- animal
+- animal health
+- animal populations
+- animal production
+- animal welfare
+- animals
+- food
+- food production
+- food safety
+- observational
+- observational research
+- observational studies
+- observational study
+- STROBE
+- STROBE veterinary
+- STROBE-Vet
+- STROBE-Vet checklist
+- STROBE-Vet Statement
+- vet
+- veterinary
+- veterinary medicine
+- veterinary practice
+- veterinary research
+
+---
+
+{{< include ../_template.qmd >}}

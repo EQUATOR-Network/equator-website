@@ -1,0 +1,11 @@
+---
+title: Jennifer de Beyer
+subtitle: Publication & Dissemination Specialist
+image: jdebeyer.webp
+image-alt: Jen de Beyer
+path: about/uk-equator-centre.html#jen-de-beyer
+centre: uk
+order: 3
+---
+
+Dr Jen de Beyer teaches our academic writing, publication, and communication skills courses and develops resources on how to write fantastic health research articles, such as our toolkits. You’re also likely to find her promoting reporting guidelines and clear reporting through our social media channels (@EQUATORNetwork) and at conferences. Jen completed a doctorate in systems biology, focusing on biochemistry, and worked in academic editing before joining the UK EQUATOR Centre in 2015.

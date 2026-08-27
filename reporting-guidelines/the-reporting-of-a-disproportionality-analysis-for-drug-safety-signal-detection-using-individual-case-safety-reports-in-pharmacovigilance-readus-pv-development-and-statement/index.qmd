@@ -1,0 +1,170 @@
+---
+# REQUIRED FIELDS
+title: 'The Reporting of a Disproportionality Analysis for Drug Safety Signal Detection
+  Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV) : Development
+  and Statement'
+acronym: READUS-PV
+provided-for: Reporting of disproportionality analyses.
+rg-doi: ''
+pmid-id: '[38713346](https://pubmed.ncbi.nlm.nih.gov/38713346/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38713346/
+relevant-urls: Access the [READUS-PV checklist](https://readus-statement.org/readus-statement/)
+  and the [READUS-PV checklist for abstracts](https://readus-statement.org/readus-statement/).
+full-bibliographic-reference: 'Fusaroli M, Salvo F, Begaud B, AlShammari TM, Bate
+  A, Battini V, Brueckner A, Candore G, Carnovale C, Crisafulli S, Cutroneo PM, Dolladille
+  C, Drici MD, Faillie JL, Goldman A, Hauben M, Herdeiro MT, Mahaux O, Manlik K, Montastruc
+  F, Noguchi Y, Norén GN, Noseda R, Onakpoya IJ, Pariente A, Poluzzi E, Salem M, Sartori
+  D, Trinh NTH, Tuccori M, van Hunsel F, van Puijenbroek E, Raschi E, Khouri C. The
+  Reporting of a Disproportionality Analysis for Drug Safety Signal Detection Using
+  Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Development and
+  Statement. Drug Saf. 2024;47(6):575-584.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Fusaroli M, Salvo F, Begaud B, AlShammari TM,
+  Bate A, Battini V, Brueckner A, Candore G, Carnovale C, Crisafulli S, Cutroneo PM,
+  Dolladille C, Drici MD, Faillie JL, Goldman A, Hauben M, Herdeiro MT, Mahaux O,
+  Manlik K, Montastruc F, Noguchi Y, Norén GN, Noseda R, Onakpoya IJ, Pariente A,
+  Poluzzi E, Salem M, Sartori D, Trinh NTH, Tuccori M, van Hunsel F, van Puijenbroek
+  E, Raschi E, Khouri C. The REporting of A Disproportionality Analysis for DrUg Safety
+  Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV):
+  Explanation and Elaboration. Drug Saf. 2024;47(6):585-599. PMID: [38713347](https://pubmed.ncbi.nlm.nih.gov/38713347/)'
+guideline-history: ''
+relevant-more: ''
+website-url: <http://www.readus-statement.org/>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+- Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+- Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+- Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- adverse drug reaction
+- adverse drug reactions
+- adverse reaction
+- adverse reactions
+- case report
+- case reports
+- case safety report
+- checklist
+- disproportionality
+- disproportionality analyses
+- disproportionality analysis
+- drug
+- drug safety
+- medicine
+- medicines
+- observation
+- observational
+- pharmacoepidemiological
+- pharmacoepidemiology
+- pharmacology
+- pharmacovigilance
+- READUS-PV
+- READUS-PV checklist
+- READUS-PV guideline
+- READUS-PV guidelines
+- READUS-PV statement
+- regulatory
+- safety signal
+- safety signals
+
+---
+
+{{< include ../_template.qmd >}}

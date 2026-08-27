@@ -1,0 +1,158 @@
+---
+# REQUIRED FIELDS
+title: 'Methodology used in studies reporting chronic kidney disease prevalence: a
+  systematic literature review'
+acronym: ''
+provided-for: Reporting of chronic kidney disease prevalence studies.
+rg-doi: ''
+pmid-id: '[26209739](http://www.ncbi.nlm.nih.gov/pubmed/26209739)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/26209739
+relevant-urls: ''
+full-bibliographic-reference: 'Brück K, Jager KJ, Dounousi E, Kainz A, Nitsch D, Ärnlöv
+  J, Rothenbacher D, Browne G, Capuano V, Ferraro PM, Ferrieres J, Gambaro G, Guessous
+  I, Hallan S, Kastarinen M, Navis G, Gonzalez AO, Palmieri L, Romundstad S, Spoto
+  B, Stengel B, Tomson C, Tripepi G, Völzke H, Wiȩcek A, Gansevoort R, Schöttker B,
+  Wanner C, Vinhas J, Zoccali C, Van Biesen W, Stel VS; European CKD Burden Consortium.
+  Methodology used in studies reporting chronic kidney disease prevalence: a systematic
+  literature review. Nephrol Dial Transplant. 2015;30 Suppl 4:iv6-16.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+- Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- biological sample
+- biological sample collection
+- biological samples
+- chronic kidney disease
+- chronic kidney disease prevalence
+- CKD
+- CKD prevalence
+- epidemiology
+- European CKD Burden Consortium
+- kidney
+- kidney disease
+- kidney disease prevalence
+- kidney function
+- kidneys
+- nephrology
+- observational
+- observational research
+- observational studies
+- observational study
+- population
+- renal
+- renal medicine
+- sample collection
+- sample selection
+- sampling
+- sampling frame
+- study population
+
+---
+
+{{< include ../_template.qmd >}}

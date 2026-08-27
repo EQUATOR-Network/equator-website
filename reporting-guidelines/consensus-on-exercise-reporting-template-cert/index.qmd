@@ -1,0 +1,176 @@
+---
+# REQUIRED FIELDS
+title: 'Consensus on Exercise Reporting Template (CERT) : Modified Delphi Study'
+acronym: CERT
+provided-for: Reporting exercise programs in clinical trials
+rg-doi: ''
+pmid-id: '[27149962](https://www.ncbi.nlm.nih.gov/pubmed/27149962)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/27149962
+relevant-urls: ''
+full-bibliographic-reference: 'Slade SC, Dionne CE, Underwood M, Buchbinder R, Beck
+  B, Bennell K, Brosseau L, Costa L, Cramp F, Cup E, Feehan L, Ferreira M, Forbes
+  S, Glasziou P, Habets B, Harris S, Hay-Smith J, Hillier S, Hinman R, Holland A,
+  Hondras M, Kelly G, Kent P, Lauret GJ, Long A, Maher C, Morso L, Osteras N, Peterson
+  T, Quinlivan R, Rees K, Regnaux JP, Rietberg M, Saunders D, Skoetz N, Sogaard K,
+  Takken T, van Tulder M, Voet N, Ward L, White C. Consensus on Exercise Reporting
+  Template (CERT): Modified Delphi Study. Phys Ther. 2016;96(10):1514-1524.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Slade SC, Dionne CE, Underwood M, Buchbinder
+  R. Consensus on Exercise Reporting Template (CERT): Explanation and Elaboration
+  Statement. Br J Sports Med. 2016. PMID: [27707738](https://www.ncbi.nlm.nih.gov/pubmed/27707738)'
+guideline-history: ''
+relevant-more: |-
+  **Specialised**
+
+  [**Therapeutic exercise interventions**](/reporting-guidelines/improving-the-reporting-of-therapeutic-exercise-interventions-in-rehabilitation-research/): Page P, Hoogenboom B, Voight M.Improving the reporting of therapeutic exercise interventions in rehabilitation research. Int J Sports Phys Ther. 2017;12(2):297-304. PMID: [28515984](https://www.ncbi.nlm.nih.gov/pubmed/28515984)
+website-url: ''
+additional-languages: The CERT Explanation and Elaboration Statement is also available
+  in [Italian (PDF)](Articolo_CERT.pdf).
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: |-
+  Contextualisation guidance for using the CERT guideline to report pelvic floor muscle training studies has been developed. Read about CERT-PFMT:
+
+  Slade SC, Morris ME, Frawley H, Hay-Smith J. Comprehensive reporting of pelvic floor muscle training for urinary incontinence: CERT-PFMT. Physiotherapy. 2021;112:103-112. PMID: [34062452](https://pubmed.ncbi.nlm.nih.gov/34062452/)
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+- Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- aerobic
+- aerobic exercise
+- aerobics
+- balance training
+- CERT
+- clinical trial
+- clinical trials
+- complex intervention
+- complex interventions
+- Consensus on Exercise Reporting Template
+- CONSORT
+- exercise
+- exercise intervention
+- exercise interventions
+- exercise program
+- exercise programme
+- exercise programmes
+- exercise programs
+- flexibility training
+- movement training
+- Pilates
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- resistance training
+- SPIRIT
+- TIDieR
+- trial
+- trials
+- yoga
+
+---
+
+{{< include ../_template.qmd >}}

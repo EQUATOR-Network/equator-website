@@ -1,0 +1,37 @@
+---
+title: Terms of Use
+---
+
+This page sets out the terms of use of the EQUATOR Network website. Use of this website signifies agreement to these terms.
+
+## Copyright
+
+Unless otherwise noted, all materials contained in this site are copyrighted and may not be used except as provided in these terms and conditions or in the copyright notice or other proprietary notice provided with the relevant materials.
+
+The materials contained in the site may be downloaded or copied provided that ALL copies retain the copyright and any other proprietary notices contained on the materials. No material may be modified, edited or taken out of context such that its use creates a false or misleading statement or impression as to the positions, statements or actions of the EQUATOR Network.
+
+## Accuracy
+
+While we have taken every care to compile accurate information and to keep it up-to-date, we cannot guarantee its correctness and completeness. The information provided on this site does not constitute business, medical or other professional advice, and is subject to change. We do not accept responsibility for any loss, damage or expense resulting from the use of this information.
+
+## Availability
+
+We cannot guarantee uninterrupted access to this website, or the sites to which it links. We can accept no responsibility for any damages arising from the loss or use of this information.
+
+## Privacy policy
+
+We respect the privacy of people who use our website. View our [privacy policy](privacy-policy.qmd).
+
+## Site access and cookies
+
+The website monitors access to the site for the purpose of system administration of the web server and statistical monitoring of website usage. This may include ‘cookies’.
+
+A cookie is a message given to a web browser by a web server. The message is then stored on your PC by the browser in a text file called cookie.txt. Every time the browser obtains a page from the server this cookie message is sent back. A cookie can be used to identify users and personalise their visit by customising web pages for them.
+
+You may need to change the settings on your browser to be able to accept these cookies. This does not affect your ability to access the site in any way.
+
+Please view our privacy policy for more detailed information about the cookies used on this website.
+
+If you sign up to receive the EQUATOR Newsletter, we may also automatically collect technical information about how you interact with the EQUATOR newsletter to help us improve our newsletter.
+
+We improve our website by using Microsoft Clarity to see how you use our website. By using our site, you agree that we and Microsoft can collect and use this data.

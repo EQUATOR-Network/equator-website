@@ -1,0 +1,18 @@
+---
+title: TRoCA - Transparent Reporting of Cluster Analyses
+date-registered: 27 November 2024
+year-registered: 2024
+date-updated: null
+contact-name: Daniil Lisik
+contact-email: daniil.lisik@gmail.com
+categories:
+- Other
+---
+
+Data-driven cluster analyses are widely used to derive subgorups, and find natural clusters of individuals based on the individual characteristics. However, the critical appraisal and comparison of cluster analysis studies can be substantially hampered by poor reporting. Although comprehensive and well-written checklists are available for prediction model studies (e.g., TRIPOD+AI), no checklist has been specifically developed for studies incorporating cluster analyses.
+
+Researchers based in Sweden decided to develop a new reporting guideline applicable to studies using machine learning/artificial intelligence. They plan to conduct a literature review and a Delphi survey. They plan to publish the guidance as an open access document in 2025.
+
+Study protocol is available [here](https://bmjopen.bmj.com/content/15/8/e099609.full).
+
+{{< include ../_template.qmd >}}

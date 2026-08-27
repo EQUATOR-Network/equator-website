@@ -1,0 +1,149 @@
+---
+# REQUIRED FIELDS
+title: 'Standardized reporting of clinical practice guidelines: a proposal from the
+  Conference on Guideline Standardization'
+acronym: COGS
+provided-for: To support more comprehensive documentation of practice guidelines.
+rg-doi: ''
+pmid-id: '[13679327](http://www.ncbi.nlm.nih.gov/pubmed/13679327)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/13679327
+relevant-urls: ''
+full-bibliographic-reference: 'Shiffman RN, Shekelle P, Overhage JM, Slutsky J, Grimshaw
+  J, Deshpande AM. Standardized reporting of clinical practice guidelines: a proposal
+  from the Conference on Guideline Standardization. Ann Intern Med. 2003;139(6):493-498.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: Clinical practice guidelines
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+- Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- clinical guideline
+- clinical guidelines
+- clinical practice
+- clinical practice guideline
+- clinical practice guidelines
+- COGS
+- COGS checklist
+- COGS statement
+- Conference on Guideline Standardization
+- documentation
+- guideline
+- guideline documentation
+- guideline standardisation
+- guideline standardization
+- guidelines
+- implement
+- implementation
+- practice
+- practice guideline
+- practice guidelines
+- quality
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,158 @@
+---
+# REQUIRED FIELDS
+title: 'ACCORD  (ACcurate  COnsensus Reporting Document): A reporting guideline for
+  consensus methods in biomedicine developed via a modified Delphi'
+acronym: ACCORD
+provided-for: Reporting consensus methods used in biomedical research.
+rg-doi: ''
+pmid-id: '[38261576](https://pubmed.ncbi.nlm.nih.gov/38261576/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38261576/
+relevant-urls: '[Read the full-text](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004326)
+  of the ACCORD guideline.'
+full-bibliographic-reference: 'Gattrell WT, Logullo P, van Zuuren EJ, Price A, Hughes
+  EL, Blazey P, Winchester CC, Tovey D, Goldman K, Hungin AP, Harrison N. ACCORD (ACcurate
+  COnsensus Reporting Document): A reporting guideline for consensus methods in biomedicine
+  developed via a modified Delphi. PLoS Med. 2024;21(1):e1004326.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Logullo P, van Zuuren EJ, Winchester CC, Tovey
+  D, Gattrell WT, Price A, Harrison N, Goldman K, Chisholm A, Walters K, Blazey P.
+  ACcurate COnsensus Reporting Document (ACCORD) explanation and elaboration: Guidance
+  and examples to support reporting consensus methods. PLoS Med. 2024;21(5):e1004390.
+  PMID: [38709851](https://pubmed.ncbi.nlm.nih.gov/38709851/)'
+guideline-history: ''
+relevant-more: ''
+website-url: <https://www.ismpp.org/accord>
+additional-languages: ''
+additional-information: |-
+  Read the [ACCORD study protocol](https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-022-00122-0).
+
+  Read the [systematic review](https://bmjopen.bmj.com/content/12/9/e065154.long) that informed development of the ACCORD reporting guideline.
+relevant-editorials: ''
+primary-guideline: ''
+other: 'The ACCORD project was registered at the OSF platform and can be assessed
+  on this page: <https://osf.io/2rzm9>'
+other-relevant-research: ''
+sticky: false
+downloads: '[ACCORD checklist (Word)](https://www.ismpp.org/assets/ACCORD/ACCORD%20checklist%20editable.docx)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+- Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- ACCORD
+- ACCORD checklist
+- ACcurate COnsensus Reporting Document
+- checklist
+- checklists
+- consensus
+- consensus exercise
+- consensus method
+- consensus methods
+- consensus panel
+- consensus panels
+- consensus process
+- consensus studies
+- consensus study
+- consensus-based studies
+- consensus-based study
+- Delphi
+- nominal group technique
+- RAM
+- RAND appropriateness method
+- UCLA appropriateness method
+
+---
+
+{{< include ../_template.qmd >}}

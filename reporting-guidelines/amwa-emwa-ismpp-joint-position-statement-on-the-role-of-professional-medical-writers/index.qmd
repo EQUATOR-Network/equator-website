@@ -1,0 +1,137 @@
+---
+# REQUIRED FIELDS
+title: AMWA ‒ EMWA ‒ ISMPP Joint Position Statement on the Role of Professional Medical
+  Writers
+acronym: ''
+provided-for: Professional medical writers who develop medical and scientific publications.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: 'The full-text of this statement is available at: [AMWA‒EMWA‒ISMPP
+  Joint Position Statement (PDF)](http://www.ismpp.org/assets/docs/Inititives/amwa-emwa-ismpp%20joint%20position%20statement%20on%20the%20role%20of%20professional%20medical%20writers_january%202017.pdf)'
+full-bibliographic-reference: Winchester C. AMWA‒EMWA‒ISMPP Joint Position Statement
+  on the Role of Professional Medical Writers. Medical Writing. 2017;26(1).
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+- Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+- Conflict of interest
+# - Data
+- Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- American Medical Writers Association
+- AMWA
+- EMWA
+- European Medical Writers Association
+- International Society for Medical Publication Professionals
+- ISMPP
+- medical writer
+- medical writers
+- position statement
+- professional medical writer
+
+---
+
+{{< include ../_template.qmd >}}

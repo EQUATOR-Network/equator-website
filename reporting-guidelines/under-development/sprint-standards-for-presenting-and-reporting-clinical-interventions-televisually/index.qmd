@@ -1,0 +1,16 @@
+---
+title: 'SPRINT: Standards for Presenting and Reporting clinical InterveNtions Televisually'
+date-registered: 21 December 2023
+year-registered: 2023
+date-updated: null
+contact-name: Hutan Ashrafian
+contact-email: hutan@ic.ac.uk
+categories:
+- Other
+---
+
+The SPRINT guidelines are under development to help authors of scientific manuscripts generate televisual information for scientific content such as videos linked to journal articles. The videos focused in this guidance are of clinical interventions (for example, surgery) and a subset of health research videos, including case reports. The authors expect the guidance will be integrated in journal guidelines for presenting televisual information. They aim to develop guidelines for the reporting of videos of clinical interventions by health researchers to ensure high quality and technically accurate videos which can improve communication, enable replication, safely inform, educate, enhance learning curves and drive innovation in healthcare.
+
+The developers plans are to evaluate the current reporting landscape on available videos, define reporting and quality standards for these videos via interviews with stakeholders and a Delphi exercise, and evaluate the impact of implementing the standards. They plan to publish the guidance in the end of 2024.
+
+{{< include ../_template.qmd >}}

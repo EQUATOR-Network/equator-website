@@ -1,0 +1,173 @@
+---
+# REQUIRED FIELDS
+title: Standards for Reporting Implementation Studies (StaRI) Statement
+acronym: StaRI
+provided-for: Reporting of implementation studies, employing a range of study designs
+  to develop and evaluate implementation strategies with the aim of enhancing adoption
+  and sustainability of effective interventions.
+rg-doi: ''
+pmid-id: '[28264797](https://www.ncbi.nlm.nih.gov/pubmed/28264797)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/28264797
+relevant-urls: 'The StaRI Statement is freely available to access at: <http://www.bmj.com/content/356/bmj.i6795.full>'
+full-bibliographic-reference: Pinnock H, Barwick M, Carpenter CR, Eldridge S, Grandes
+  G, Griffiths CJ, Rycroft-Malone J, Meissner P, Murray E, Patel A, Sheikh A, Taylor
+  SJC, for the StaRI group. Standards for Reporting Implementation Studies (StaRI)
+  statement.  BMJ. 2017;356:i6795.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Pinnock H, Barwick M, Carpenter CR, Eldrige S,
+  Grandes G, Griffiths CJ, Rycroft-Malone J, Meissner P, Murray E, Patel A, Sheikh
+  A, Taylor S, for the StaRI group. Standards for Reporting Implementation Studies
+  (StaRI): Explanation and Elaboration document. BMJ Open. 2017;7:e013318. PMID: [28373250](https://www.ncbi.nlm.nih.gov/pubmed/28373250)'
+guideline-history: ''
+relevant-more: |-
+  **Specialised**
+
+  [**RIMES-SE**](/reporting-guidelines/the-reporting-recommendations-intended-for-pharmaceutical-risk-minimization-evaluation-studies-standards-for-reporting-of-implementation-studies-extension-rimes-se/): Smith MY, Morrato EH, Mora N, Nguyen V, Pinnock H, Winterstein AG. The Reporting Recommendations Intended for Pharmaceutical Risk Minimization Evaluation Studies: Standards for Reporting of Implementation Studies Extension (RIMES-SE). Drug Saf. 2024. PMID: [38478350](https://pubmed.ncbi.nlm.nih.gov/38478350/)
+website-url: ''
+additional-languages: ''
+additional-information: Read the StaRI [guideline development proposal document (PDF)](Proposal-for-reporting-guidelines-of-Implementation-Research-StaRI.pdf).
+relevant-editorials: ''
+primary-guideline: ''
+other: '[Read a guide (PDF)](https://arc-sl.nihr.ac.uk/sites/default/files/uploads/files/Imp-Sci-reporting-guidelines-2023.pdf)
+  to reporting guidelines relevant to implementation studies developed by researchers
+  in the Centre for Implementation Science at King’s College London and King’s Improvement
+  Science and led by the National Institute for Health Research Applied Research Collaboration
+  South London (NIHR ARC South London) at King’s College Hospital NHS Foundation Trust
+  and supported by King’s Improvement Science.'
+other-relevant-research: ''
+sticky: false
+downloads: '[StaRI checklist (Word)](StaRI-checklist-for-author-completion.docx)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+- Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+- Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+- Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- implementation
+- implementation research
+- implementation science
+- implementation strategies
+- implementation strategy
+- implementation studies
+- implementation study
+- observational
+- observational research
+- observational studies
+- observational study
+- phase 4
+- phase IV
+- phase IV implementation
+- phase IV implementation studies
+- phase IV implementation study
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- StaRi
+- StaRI checklist
+- StaRi Statement
+
+---
+
+{{< include ../_template.qmd >}}

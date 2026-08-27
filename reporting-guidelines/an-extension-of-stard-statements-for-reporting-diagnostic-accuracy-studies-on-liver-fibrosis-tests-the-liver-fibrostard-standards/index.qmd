@@ -1,0 +1,174 @@
+---
+# REQUIRED FIELDS
+title: 'An extension of STARD statements for reporting diagnostic accuracy studies
+  on liver fibrosis tests: the Liver -FibroSTARD standards'
+acronym: Liver-FibroSTARD
+provided-for: Reporting cross-sectional diagnostic accuracy studies of non-invasive
+  liver fibrosis tests.
+rg-doi: ''
+pmid-id: '[25450206](http://www.ncbi.nlm.nih.gov/pubmed/25450206)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25450206
+relevant-urls: ''
+full-bibliographic-reference: 'Boursier J, de Ledinghen V, Poynard T, Guéchot J, Carrat
+  F, Leroy V, Wong GL, Friedrich-Rust M, Fraquelli M, Plebani M, Sebastiani G, Myers
+  R, Angulo P, Bertrais S, Wendum D, Bricault I, Calès P; ARDENT group; AFEF. An extension
+  of STARD statements for reporting diagnostic accuracy studies on liver fibrosis
+  tests: the Liver-FibroSTARD standards. J Hepatol. 2015;62(4):807-815.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: 'Guéchot J, Boursier J, de Ledinghen V, Poynard T, Carrat F,
+  Leroy V, Wong GL, Friedrich-Rust M, Fraquelli M, Plebani M, Sebastiani G, Myers
+  R, Angulo P, Bertrais S, Wendum D, Bricault I, Calès P; ARDENT group and/or AFEF.
+  Liver-FibroSTARD checklist and glossary: tools for standardized design and reporting
+  of diagnostic accuracy studies of liver fibrosis tests. Clin Chem Lab Med. 2015;53(8):1135-1137.
+  PMID: [25997161](http://www.ncbi.nlm.nih.gov/pubmed/25997161)'
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+- Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- chronic liver disease
+- chronic liver diseases
+- cirrhosis
+- CLD
+- clinical trial
+- clinical trials
+- diagnostic
+- diagnostic accuracy
+- diagnostic accuracy research
+- diagnostic accuracy studies
+- diagnostic accuracy study
+- diagnostic accuracy testing
+- diagnostic accuracy tests
+- diagnostic studies
+- diagnostic study
+- diagnostic test accuracy
+- fibrosis
+- hepatology
+- liver
+- liver disease
+- liver fibrosis
+- liver fibrosis evaluation
+- liver fibrosis test
+- liver fibrosis tests
+- Liver-FibroSTARD
+- Liver-FibroSTARD checklist
+- Liver-FibroSTARD glossary
+- Liver-FibroSTARD standards
+- non-invasive liver fibrosis test
+- non-invasive liver fibrosis tests
+- observational
+- observational studies
+- observational study
+- STARD
+- STARD statement
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,171 @@
+---
+# REQUIRED FIELDS
+title: Financial Conflicts of Interest Checklist 2010 for clinical research studies
+acronym: ''
+provided-for: Detailed reporting of different aspects of financial conflicts of interest
+  (fCOI)
+rg-doi: ''
+pmid-id: '[21686297]( http://www.ncbi.nlm.nih.gov/pubmed/21686297)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/21686297
+relevant-urls: ''
+full-bibliographic-reference: Paula A Rochon, John Hoey, An-Wen Chan, Lorraine E Ferris,
+  Joel Lexchin, Sunila R Kalkar, Melanie Sekeres, Wei Wu, Marleen Van Laethem, Andrea
+  Gruneir, M James Maskalyk, David L Streiner, Jennifer Gold, Nathan Taback, David
+  Moher. Financial Conflicts of Interest Checklist 2010 for clinical research studies.
+  Open Med. 2010;4(1):e69-91.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+- Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklist 2010
+- clinical trial
+- clinical trials
+- COI
+- COIs
+- competing interest
+- competing interests
+- conflict
+- conflict of interest
+- conflict of interests
+- conflicts of interest
+- declaration
+- declarations
+- experimental studies
+- experimental study
+- fCOI
+- fCOI checklist 2010
+- fCOIs
+- finance
+- financial
+- financial conflict of interest
+- financial conflict of interests
+- financial conflicts of interest
+- Financial Conflicts of Interest Checklist 2010
+- financial declaration
+- funding
+- funding declaration
+- funding support
+- interest
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- Randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,135 @@
+---
+# REQUIRED FIELDS
+title: 'Transparent reporting of observational studies emulating a target trial: the
+  TARGET Statement'
+acronym: TARGET
+provided-for: The Transparent Reporting of Observational Studies Emulating a Target
+  Trial (TARGET) guideline was developed for reporting analyses of observational data
+  that explicitly aim to estimate causal effects by emulating a target trial.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: Download the checklist [here](https://target-guideline.org/files/TARGET_checklist_editable_2025.docx).
+full-bibliographic-reference: |-
+  Cashin AG, Hansford HJ, Hernán MA, Swanson SA, Lee H, Jones MD, Dahabreh IJ, Dickerman BA, Egger M, Garcia-Albeniz X, Golub RM, Islam N, Lodi S, Moreno-Betancur M, Pearson SA, Schneeweiss S, Sharp MK, Sterne JAC, Stuart EA, McAuley JH. Transparent reporting of observational studies emulating a target trial: the TARGET Statement.
+
+  This guideline was published simultaneously in 2 journals. You can read the guideline in any of these journals using the links below.
+
+  [BMJ](https://www.bmj.com/content/390/bmj-2025-087179.long). 2025; 390:e087179. PMID: [40903028](https://pubmed.ncbi.nlm.nih.gov/40903028/)
+
+  [JAMA](https://jamanetwork.com/journals/jama/fullarticle/2837724). 2025. PMID: [40899949](https://pubmed.ncbi.nlm.nih.gov/40899949/)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://target-guideline.org/>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- No keywords provided
+
+---
+
+{{< include ../_template.qmd >}}

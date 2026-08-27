@@ -1,0 +1,14 @@
+---
+title: CORMMIX - Consolidated Checklist for Reporting Mixed-Methods Research
+date-registered: 11 July 2023
+year-registered: 2023
+date-updated: null
+contact-name: Muhammad Abdul Hadi
+contact-email: mabdulhadi@qu.edu.qa
+categories:
+- Other
+---
+
+This project aims to develop a Consolidated Checklist for Reporting Mixed-Methods Research (CORMMIX) to enhance the reporting quality and transparency of studies using both qualitative and quantitative methods (mixed methods). CORMMIX will provide a structured framework covering all aspects of the research process, from planning and data collection to analysis and reporting. The first steps of the development started in March 2023, with literature review, generation of a pool of items to report, and a Delphi survey will follow. The team has funding from the Qatar university through a student grant, and they plan to publish the reporting guideline as an open access document.
+
+{{< include ../_template.qmd >}}

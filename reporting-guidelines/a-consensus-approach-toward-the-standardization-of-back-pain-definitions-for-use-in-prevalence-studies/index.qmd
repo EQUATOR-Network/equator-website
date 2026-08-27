@@ -1,0 +1,150 @@
+---
+# REQUIRED FIELDS
+title: A consensus approach toward the standardization of back pain definitions for
+  use in prevalence studies
+acronym: DOLBaPP
+provided-for: Standardising definitions of low back pain for epidemiological prevalence
+  studies
+rg-doi: ''
+pmid-id: '[18165754](http://www.ncbi.nlm.nih.gov/pubmed/18165754)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/18165754
+relevant-urls: The full-text of the definitions of low back pain prevalence is available
+  from the [DOLBaPP website](https://www.backpaindefs.org/index.html).
+full-bibliographic-reference: Dionne CE, Dunn KM, Croft PR, Nachemson AL, Buchbinder
+  R, Walker BF, Wyatt M, Cassidy JD, Rossignol M, Leboeuf-Yde C, Hartvigsen J, Leino-Arjas
+  P, Latza U, Reis S, Gil Del Real MT, Kovacs FM, Oberg B, Cedraschi C, Bouter LM,
+  Koes BW, Picavet HS, van Tulder MW, Burton K, Foster NE, Macfarlane GJ, Thomas E,
+  Underwood M, Waddell G, Shekelle P, Volinn E, Von Korff M. A consensus approach
+  toward the standardization of back pain definitions for use in prevalence studies.
+  Spine (Phila Pa 1976).2008;33(1):95-103.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://www.backpaindefs.org/index.html>
+additional-languages: The Delphi Definitions of Low Back Pain Prevalence (DOLBaPP)
+  standards are also available in [other languages](https://www.backpaindefs.org/official_versions.html).
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+- Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- back
+- back pain
+- back pain prevalence
+- definition
+- definitions
+- epidemiologic prevalence studies
+- epidemiological
+- epidemiology
+- long standing back pain
+- low back pain
+- pain
+- prevalence
+- prevalence studies
+- prevalence study
+- severe back pain
+- severe low back pain
+
+---
+
+{{< include ../_template.qmd >}}

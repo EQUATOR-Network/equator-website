@@ -1,0 +1,154 @@
+---
+# REQUIRED FIELDS
+title: 'Homeopathic clinical case reports: Development of a supplement (HOM-CASE)
+  to the CARE clinical case reporting guideline'
+acronym: HOM-CASE
+provided-for: Reporting clinical case reports in homeopathy.
+rg-doi: ''
+pmid-id: '[27062953](http://www.ncbi.nlm.nih.gov/pubmed/27062953)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/27062953
+relevant-urls: ''
+full-bibliographic-reference: 'van Haselen RA. Homeopathic clinical case reports:
+  Development of a supplement (HOM-CASE) to the CARE clinical case reporting guideline.
+  Complement Ther Med. 2016;25:78-85.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+- Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- CAM
+- CARE
+- CARE case extension
+- CARE checklist
+- CARE extension
+- CARE guideline
+- CARE guideline extension
+- case
+- case report
+- case reporting
+- case reports
+- clinical case report
+- clinical case reporting
+- clinical case reports
+- complementary and alternative medicine
+- complementary medicine
+- HOM-CASE
+- homeopath
+- homeopathic
+- homeopathic clinical case report
+- homeopathic clinical case reports
+- homeopaths
+- homeopathy
+- homoeopath
+- homoeopathic
+- homoeopaths
+- homoeopathy
+
+---
+
+{{< include ../_template.qmd >}}

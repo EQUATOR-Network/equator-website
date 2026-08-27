@@ -1,0 +1,18 @@
+---
+title: RECASE - Reporting Acupuncture-related Adverse Events following the CARE guidelines for case reports
+date-registered: 29 July 2024
+year-registered: 2024
+date-updated: null
+contact-name: Tae-Hun Kim, Kyung Hee University, South Korea. .
+contact-email: rockandmineral@gmail.com
+categories:
+- Observational studies
+---
+
+Acupuncture is a considerably safe intervention when it is administered in an appropriate clinical setting by well-educated and experienced practitioners. However, acupuncture-related adverse events (AEs) have been reported, in stable numbers over the years.  The most serious problem among these AE cases is that essential information for judging the appropriateness of the acupuncture practice is not reported clearly. According to this project leaders, case studies on acupuncture-related AEs are not regarded sufficiently informative to reduce errors or enhance safety in future acupuncture practice, and can lead to exaggeration of acupuncture-related harm among the general public. Reporting guidelines for accurate and transparent reporting in acupuncture-related AE case reports are needed to address these problems.
+
+This group is developing a reporting guideline for case reports of AEs in acupuncture. Work started in 2023 with a review of case reports of AEs. A Delphi survey will be conducted, followed by a face-to-face consensus meeting. Next, the group will ask feedback from small numbers of potential guideline users and incorporate opinions. The guidance statement with explanatory documents will be published as an open access document. At the time of registration, the group is seeking ethical approval for the Delphi surveys.
+
+The systematic review that will base the project has been-registered in [Research Registry](https://www.researchregistry.com/browse-the-registry#registryofsystematicreviewsmeta-analyses/registryofsystematicreviewsmeta-analysesdetails/623d4e99ddf69a001fc9d154/).
+
+{{< include ../_template.qmd >}}

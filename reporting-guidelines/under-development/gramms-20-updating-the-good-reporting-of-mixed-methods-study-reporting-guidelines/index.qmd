@@ -1,0 +1,14 @@
+---
+title: 'GRAMMS 2.0: Updating the good reporting of mixed methods study reporting guidelines'
+date-registered: 10 October 2025
+year-registered: 2025
+date-updated: null
+contact-name: Sarah Munce
+contact-email: smunce@hollandbloorview.ca
+categories:
+- Other
+---
+
+In 2008, the Good Reporting of a Mixed Methods Study (GRAMMS) was introduced. However, GRAMMS is more than 15 years old and needs to be-updated to reflect better current practices and innovations in the field of mixed methods research (MMR). Indeed, the field has advanced substantially in specific areas of integration, including integration strategies, assessment of the fit of integration, meta-inferences, joint displays, and other critical aspects, such as methodological quality and reporting, generalization, as well as cross-cultural MMR. Recent reviews in specific fields, including primary care, nursing, health services research, palliative care, and chiropractic services, for example, have examined empirical MMR studies and highlighted areas for improvement in the quality of reporting. Developing an-updated GRAMMS guideline and checklist is one way to close this gap. It is essential to promote quality reporting of mixed methods studies in health services research and interdisciplinary fields so that researchers, practitioners, decision makers, and other relevant knowledge users have access to high-quality MMR study findings to inform practice and policy making.
+
+{{< include ../_template.qmd >}}

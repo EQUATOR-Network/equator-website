@@ -1,0 +1,186 @@
+---
+# REQUIRED FIELDS
+title: Consensus on the reporting and experimental design of clinical and cognitive-behavioural
+  neurofeedback studies (CRED-nf checklist)
+acronym: CRED-nf checklist
+provided-for: Reporting of clinical and cognitive-behavioural neurofeedback experiments.
+rg-doi: ''
+pmid-id: '[32176800](https://www.ncbi.nlm.nih.gov/pubmed/32176800)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/32176800
+relevant-urls: ''
+full-bibliographic-reference: Ros T, Enriquez-Geppert S, Zotev V, Young KD, Wood G,
+  Whitfield-Gabrieli S, Wan F, Vuilleumier P, Vialatte F, Van De Ville D, Todder D,
+  Surmeli T, Sulzer JS, Strehl U, Sterman MB, Steiner NJ, Sorger B, Soekadar SR, Sitaram
+  R, Sherlin LH, Schönenberg M, Scharnowski F, Schabus M, Rubia K, Rosa A, Reiner
+  M, Pineda JA, Paret C, Ossadtchi A, Nicholson AA, Nan W, Minguez J, Micoulaud-Franchi
+  JA, Mehler DMA, Lührs M, Lubar J, Lotte F, Linden DEJ, Lewis-Peacock JA, Lebedev
+  MA, Lanius RA, Kübler A, Kranczioch C, Koush Y, Konicar L, Kohl SH, Kober SE, Klados
+  MA, Jeunet C, Janssen TWP, Huster RJ, Hoedlmoser K, Hirshberg LM, Heunis S, Hendler
+  T, Hampson M, Guggisberg AG, Guggenberger R, Gruzelier JH, Göbel RW, Gninenko N,
+  Gharabaghi A, Frewen P, Fovet T, Fernández T, Escolano C, Ehlis AC, Drechsler R,
+  Christopher deCharms R, Debener S, De Ridder D, Davelaar EJ, Congedo M, Cavazza
+  M, Breteler MHM, Brandeis D, Bodurka J73, Birbaumer N, Bazanova OM, Barth B, Bamidis
+  PD, Auer T, Arns M, Thibault RT. Consensus on the reporting and experimental design
+  of clinical and cognitive-behavioural neurofeedback studies (CRED-nf checklist).
+  Brain. 2020 Mar 16.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <http://www.rtfin.org/CREDnf>
+additional-languages: ''
+additional-information: The checklist is available either from the online checklist
+  tool available at [www.rtfin.org/CREDnf](http://www.rtfin.org/CREDnf) or it can
+  be downloaded from the supplementary material section on the journal website.
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+- Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+- Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- behavioral
+- behavioural
+- brain
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- cognition
+- cognitive
+- cognitive-behavioral
+- cognitive-behavioural
+- cognitive-behavioural neurofeedback
+- CRED-nf
+- CRED-nf checklist
+- data
+- EEG
+- electroencephalography
+- experiment
+- experimental
+- feedback
+- fMRI
+- fNIRS
+- functional MRI
+- functional near infrared spectroscopy
+- magnetic resonance imaging
+- magnetoencephalography
+- MEG
+- neural
+- neural feedback
+- neurofeedback
+- neurology
+- neuropsychology
+- psychology
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

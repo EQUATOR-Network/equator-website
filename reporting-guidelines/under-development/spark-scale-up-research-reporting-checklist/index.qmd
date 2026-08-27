@@ -1,0 +1,14 @@
+---
+title: SPARK - Scale Up Research Reporting Checklist
+date-registered: 31 July 2024
+year-registered: 2024
+date-updated: null
+contact-name: Gina Agarwal and Jasdeep Brar
+contact-email: gina.agarwal@gmail.com; brarj14@mcmaster.ca
+categories:
+- Other
+---
+
+Scale up is an important aspect of implementation research, aiming to scientifically explore the widespread, sustained adoption of proven interventions to create a generalisable knowledge base. Typically, intervention implementation has already been piloted at a smaller, local scale, while scale up research refers to the study of processes and factors that influence the widespread, sustainable adoption of evidence-based interventions, practices, or programs beyond their initial pilot settings.An international group of implementation research and global health researchers is working to develop a reporting guideline for scale up studies. An initial scoping review and a brainstorming session were conducted in 2023. A Delphi survey is planned. The Global Alliance for Chronic Diseases (GACD) is supporting the work by providing coordination and logistics and funding open access publications. The group plans to publish the reporting guideline in 2025, as an open access document.
+
+{{< include ../_template.qmd >}}

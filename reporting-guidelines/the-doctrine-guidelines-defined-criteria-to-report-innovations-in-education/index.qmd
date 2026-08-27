@@ -1,0 +1,146 @@
+---
+# REQUIRED FIELDS
+title: 'The Do CTRINE Guidelines: Defined Criteria To Report INnovations in Education'
+acronym: DoCTRINE
+provided-for: Reporting of educational innovations in curriculum development.
+rg-doi: ''
+pmid-id: '[35171122](https://pubmed.ncbi.nlm.nih.gov/35171122/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/35171122/
+relevant-urls: ''
+full-bibliographic-reference: 'Blanco M, Prunuske J, DiCorcia M, Learman LA, Mutcheson
+  B, Huang GC. The DoCTRINE Guidelines: Defined Criteria To Report INnovations in
+  Education. Acad Med. 2022;97(5):689-695.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: '[DoCTRINE Checklist (Word)](DoCTRINE-Guideline-Checklist.docx)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+- Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- curricula
+- curriculum
+- Defined Criteria To Report INnovations in Education
+- DoCTRINE
+- DoCTRINE checklist
+- education
+- educational
+- health professional education
+- health professions education
+- innovation
+- innovations
+- innovations in education
+- medical education
+- observational studies
+- observational study
+- qualitative
+- qualitative studies
+- qualitative study
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

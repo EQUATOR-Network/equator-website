@@ -1,0 +1,231 @@
+---
+# REQUIRED FIELDS
+title: 'STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy
+  Studies'
+acronym: STARD 2015
+provided-for: Studies of diagnostic accuracy.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: The full-text of the STARD 2015 reporting guideline for diagnostic
+  accuracy studies is available to download as a[PDF](STARD-2015-paper.pdf) file.
+full-bibliographic-reference: |-
+  Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig L, LijmerJG Moher D, Rennie D, de Vet HCW, Kressel HY, Rifai N, Golub RM, Altman DG, Hooft L, Korevaar DA, Cohen JF, For the STARD Group. STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy Studies.
+
+  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.
+
+  BMJ. 2015;351:h5527. PMID: [26511519](http://www.ncbi.nlm.nih.gov/pubmed/26511519)
+
+  Radiology. 2015:151516. PMID: [26509226](http://www.ncbi.nlm.nih.gov/pubmed/26509226)
+
+  Clinical Chemistry. 2015. pii: clinchem.2015.246280. PMID: [26510957](http://www.ncbi.nlm.nih.gov/pubmed/26510957)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: |-
+  Cohen JF, Korevaar DA, Altman DG, Bruns DE, Gatsonis CA, Hooft L, Irwig L, Levine D, Reitsma JB, de Vet HCW, Bossuyt PMM. STARD 2015 guidelines for reporting diagnostic accuracy studies: explanation and elaboration. BMJ Open 2016;6:e012799
+
+  <http://bmjopen.bmj.com/content/6/11/e012799.abstract>
+guideline-history: |-
+  The STARD reporting guideline was originally published in 2003.
+
+  Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig LM, Lijmer JG, Moher D, Rennie D, de Vet HC. Towards complete and accurate reporting of studies of diagnostic accuracy: the STARD initiative. Standards for Reporting of Diagnostic Accuracy.
+
+  Clin Chem. 2003; 49(1):1-6. PMID: [12507953
+
+  ](http://www.ncbi.nlm.nih.gov/pubmed/12507953)BMJ. 2003; 326(7379):41-44. PMID: [12511463](http://www.ncbi.nlm.nih.gov/pubmed/12511463)
+
+  Radiology. 2003; 226(1):24-28. PMID: [12511664](http://www.ncbi.nlm.nih.gov/pubmed/12511664)
+
+  Ann Intern Med. 2003; 138(1):40-44. PMID: [12513043](http://www.ncbi.nlm.nih.gov/pubmed/12513043)
+
+  Am J Clin Pathol. 2003; 119(1):18-22. PMID: [12520693](http://www.ncbi.nlm.nih.gov/pubmed/12520693)
+
+  Clin Biochem. 2003; 36(1):2-7. PMID: [12554053](http://www.ncbi.nlm.nih.gov/pubmed/12554053)
+
+  Clin Chem Lab Med. 2003; 41(1):68-73. PMID: [12636052](http://www.ncbi.nlm.nih.gov/pubmed/12636052)
+
+  Explanation and elaboration
+
+  Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig LM, et al. The STARD statement for reporting studies of diagnostic accuracy: explanation and elaboration.
+
+  Clin Chem. 2003; 49(1):7-18. PMID: [12507954](http://www.ncbi.nlm.nih.gov/pubmed/12507954)
+
+  Ann Intern Med. 2003; 138(1):W1-12. PMID: [12513067](http://www.ncbi.nlm.nih.gov/pubmed/12513067)
+relevant-more: |-
+  **Specialised**
+
+  [**STARDdem**](/reporting-guidelines/starddem/): Noel-Storr AH, McCleery JM, Richard E, Ritchie CW, Flicker L, Cullum SJ, Davis D, Quinn TJ, Hyde C, Rutjes AW, Smailagic N, Marcus S, Black S, Blennow K, Brayne C, Fiorivanti M, Johnson JK, Köpke S, Schneider LS, Simmons A, Mattsson N, Zetterberg H, Bossuyt PM, Wilcock G, McShane R. Reporting standards for studies of diagnostic test accuracy in dementia: The STARDdem Initiative. Neurology. 2014;83(4):364-373. PMID: [24944261](http://www.ncbi.nlm.nih.gov/pubmed/24944261)
+
+  [**STRADAS-paraTB**](/reporting-guidelines/consensus-based-reporting-standards-for-diagnostic-test-accuracy-studies-for-paratuberculosis-in-ruminants/): Gardner IA, Nielsen SS, Whittington RJ, Collins MT, Bakker D, Harris B, Sreevatsan S, Lombard JE, Sweeney R, Smith DR, Gavalchin J, Eda S. Consensus-based reporting standards for diagnostic test accuracy studies for paratuberculosis in ruminants. Prev Vet Med. 2011;101(1-2):18-34. PMID: [21601933](http://www.ncbi.nlm.nih.gov/pubmed/21601933)
+
+  **[STARD-BLCM](/reporting-guidelines/stard-blcm/)**: Kostoulas P, Nielsen SS, Branscum AJ, Johnson WO, Dendukuri N, Dhand NK, Toft N, Gardner IA. STARD-BLCM: Standards for the Reporting of Diagnostic accuracy studies that use Bayesian Latent Class Models. Prev Vet Med. 2017; 138:37-47. PMID: [28237234](https://www.ncbi.nlm.nih.gov/pubmed/28237234)
+
+  [**STARD for Abstracts**](/reporting-guidelines/stard-abstracts/): Cohen JF, Korevaar DA, Gatsonis CA, Glasziou PP, Hooft L, Moher D, Reitsma JB, de Vet HC, Bossuyt PM; STARD Group. STARD for Abstracts: essential items for reporting diagnostic accuracy studies in journal or conference abstracts. BMJ. 2017;358:j3751. PMID: [28819063](https://www.ncbi.nlm.nih.gov/pubmed/28819063)
+
+  [**STARD -AI**](/reporting-guidelines/the-stard-ai-reporting-guideline-for-diagnostic-accuracy-studies-using-artificial-intelligence/): Sounderajah V, Guni A, Liu X, Collins GS, Karthikesalingam A, Markar SR, Golub RM, Denniston AK, Shetty S, Moher D, Bossuyt PM, Darzi A, Ashrafian H; STARD-AI Steering Committee. The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence. Nat Med. 2025 Sep 15. doi: 10.1038/s41591-025-03953-8PMID: [40954311](https://www.ncbi.nlm.nih.gov/pubmed/28819063)
+website-url: ''
+additional-languages: |-
+  **STARD 2015**
+
+  The updated STARD 2015 reporting guideline for diagnostic accuracy studies is available in [Italian](http://www.evidence.it/articolodettaglio/209/it/480/stard-2015-checklist-aggiornata-per-il-reporting-degli-studi-di/articolo).
+
+  The STARD 2015 Checklist is available in [Turkish (PDF)](STARD-2015-Turkish-translation.pdf).
+
+  **STARD 2003**
+
+  The following translations of the original STARD guideline published in 2003 are available: [Chinese](http://caod.oriprobe.com/articles/11216244/Towards_Complete_and_Accurate_Reporting_of_Studies_of_Diagnostic_Accur.htm); [Dutch](http://www.ncbi.nlm.nih.gov/pubmed/12661118); [French](http://www.jle.com/fr/revues/medecine/med/e-docs/00/04/3A/30/resume.phtml); [Italian](http://www.sipmel.it/it/riviste/articolo.php/1057); [German](https://www.thieme-connect.com/products/ejournals/abstract/10.1055/s-0031-1272979); [Spanish](http://www.sciencedirect.com/science/article/pii/S0025775305722107).
+
+  The Japanese translation of the STARD Statement is published in the Official Journal of the Japanese Society of Laboratory Medicine. 2004. 52(5):465-471.
+
+  The STARD 2003 Checklist is available in[Turkish (PDF)](STARD-Turkish-translation.pdf).
+additional-information: |-
+  **Objective of the STARD initiative**
+
+  The objective of the STARD initiative is to improve the completeness and transparency of reporting of studies of diagnostic accuracy, to allow readers to assess the potential for bias in the study (internal validity) and to evaluate its generalisability (external validity).
+
+  **Contact**
+
+  To contact the STARD group please email Jérémie Cohen,[[email protected]](https://www.equator-network.org/cdn-cgi/l/email-protection#c5afa0b7a0a8aca0eba6aaada0ab85acabb6a0b7a8eba3b7)
+
+  **April 2014**: The STARD Group and the EQUATOR Network are working together to enhance the information available on this website about the STARD guideline and initiative.
+
+  **November 2014**: The STARD Group is working to update the STARD guideline. A consensus meeting was held in Amsterdam, the Netherlands, in September 2014 and a first draft updated checklist was prepared. Those interested in the process can contact the STARD initiative for more details.
+
+  **October 2015**: The updated STARD 2015 guideline was published.
+relevant-editorials: ''
+primary-guideline: ''
+other: |-
+  An online fillable STARD checklist is also available via the GoodReports website at <https://www.goodreports.org/reporting-checklists/stard/>.
+
+  The STARD guideline developers have written a paper describing in detail the methods used in the updating process for this reporting guideline. The full-text of this paper is available at: [Updating standards for reporting diagnostic accuracy: the development of STARD 2015](http://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-016-0014-7)
+other-relevant-research: ''
+sticky: true
+search-priority: 1
+downloads: |-
+  [STARD 2015 checklist (PDF)](STARD-2015-checklist.pdf) [STARD 2015 flow diagram (PDF)](STARD-2015-flow-diagram.pdf)
+
+  [STARD 2015 checklist (Word)](STARD-2015-Checklist.docx)
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- accuracy
+- checklist
+- diagnosis
+- diagnostic
+- diagnostic accuracy
+- diagnostic accuracy research
+- diagnostic accuracy studies
+- diagnostic accuracy study
+- diagnostic accuracy test
+- diagnostic accuracy testing
+- diagnostic accuracy tests
+- diagnostic test
+- diagnostic test accuracy
+- diagnostic testing
+- flow diagram
+- initiative
+- STARD
+- STARD 2015
+- STARD 2015 checklist
+- STARD 2015 statement
+- STARD checklist
+- STARD initiative
+- STARD statement
+- statement
+
+---
+
+{{< include ../_template.qmd >}}

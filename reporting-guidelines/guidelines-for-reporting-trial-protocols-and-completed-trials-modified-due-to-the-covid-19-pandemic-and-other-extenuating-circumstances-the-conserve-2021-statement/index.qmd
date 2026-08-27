@@ -1,0 +1,177 @@
+---
+# REQUIRED FIELDS
+title: 'Guidelines for Reporting Trial Protocols and Completed Trials Modified Due
+  to the COVID- 19 Pandemic and Other Extenuating Circumstances: The CONSERVE 2021
+  Statement'
+acronym: CONSERVE
+provided-for: Reporting of trials and trial protocols that undergo important modifications
+  in response to extenuating circumstances.
+rg-doi: ''
+pmid-id: '[34152382](https://pubmed.ncbi.nlm.nih.gov/34152382/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/34152382/
+relevant-urls: |-
+  The [full-text of the CONSERVE 2021 Statement is freely available](https://jamanetwork.com/journals/jama/fullarticle/2781397).
+
+  The authors have developed an implementation tool and two reporting checklists for CONSERVE which are included as a supplement to the journal article.
+full-bibliographic-reference: 'Orkin AM, Gill PJ, Ghersi D, Campbell L, Sugarman J,
+  Emsley R, Steg PG, Weijer C, Simes J, Rombey T, Williams HC, Wittes J, Moher D,
+  Richards DP, Kasamon Y, Getz K, Hopewell S, Dickersin K, Wu T, Ayala AP, Schulz
+  KF, Calleja S, Boutron I, Ross JS, Golub RM, Khan KM, Mulrow C, Siegfried N, Heber
+  J, Lee N, Kearney PR, Wanyenze RK, Hróbjartsson A, Williams R, Bhandari N, Jüni
+  P, Chan AW; CONSERVE Group. Guidelines for Reporting Trial Protocols and Completed
+  Trials Modified Due to the COVID-19 Pandemic and Other Extenuating Circumstances:
+  The CONSERVE 2021 Statement. JAMA. 2021.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: The CONSERVE 2021 Statement is an extension to both the CONSORT
+  and SPIRIT Statements.
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: true
+downloads: '[CONSERVE-CONSORT & CONSERVE-SPIRIT Checklists (Word)](CONSERVE-Checklists.docx)'
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+- Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- CONSERVE
+- CONSERVE-CONSORT
+- CONSERVE-SPIRIT
+- CONSORT and SPIRIT Extension for RCTs Revised in Extenuating Circumstances
+- CONSORT extension
+- COVID-19
+- COVID-19 pandemic
+- extenuating circumstances
+- interim data analyses
+- interim data analysis
+- joint extension for CONSORT and SPIRIT
+- modification
+- modifications
+- protocol
+- protocols
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- responsible parties
+- responsible party
+- SPIRIT Extension
+- trial
+- trial modification
+- trial modifications
+- trial protocol checklist
+- trial report checklist
+- trials
+- unforeseen circumstances
+- unplanned change
+- unplanned changes
+
+---
+
+{{< include ../_template.qmd >}}

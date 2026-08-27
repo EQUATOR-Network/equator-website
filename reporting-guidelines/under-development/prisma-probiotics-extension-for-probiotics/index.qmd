@@ -1,0 +1,19 @@
+---
+title: 'PRISMA-probiotics: Extension for probiotics'
+date-registered: 23 May 2025
+year-registered: 2025
+date-updated: null
+contact-name: Verónica Romero Ferreiro, Universidad Europea de Madrid
+contact-email: veronica.romero@universidadeuropea.es
+categories:
+- Literature reviews
+---
+
+Systematic reviews are essential tools for synthesizing evidence and informing clinical decision-making. The PRISMA (Preferred Reporting Items for Systematic reviews and Meta-Analyses) statement provides a standardized framework to enhance the transparency and completeness of reporting in systematic reviews. However, specific domains—such as the use of probiotics in clinical and experimental research—present unique challenges that are not fully addressed by the core PRISMA checklist.
+
+Probiotics are live microorganisms that, when administered in adequate amounts, confer health benefits to the host. Their use spans various disciplines including gastroenterology, immunology, pediatrics, gerontology, and psychiatry - amongst others-, and the body of evidence surrounding their efficacy and safety continues to grow. Nevertheless, systematic reviews in this field often suffer from poor reporting related to key probiotic-specific variables, such as strain identification, dosage, viability, delivery format, duration of administration, and host factors influencing outcomes. These omissions limit the reproducibility of findings, reduce the utility of reviews for clinicians and policymakers, and hinder the translation of research into practice.
+
+This PRISMA extension aims to fill this gap by providing a specialized reporting guideline tailored to systematic reviews involving probiotics. It will build upon the core PRISMA 2020 framework, while adding targeted items that reflect the complexity and specificity of probiotic interventions. The extension will help ensure that systematic reviews in this field report essential details that enable proper interpretation, replication, and application of findings. 
+There is a pressing need for this extension due to the increasing number of published reviews on probiotics, many of which vary greatly in quality and reporting standards. By improving consistency and transparency, the PRISMA-Probiotics extension will enhance the value of systematic reviews for all stakeholders—including researchers, clinicians, guideline developers, and patients—and ultimately support better evidence-based decisions in the use of probiotics.
+
+{{< include ../_template.qmd >}}

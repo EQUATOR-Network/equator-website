@@ -1,0 +1,194 @@
+---
+# REQUIRED FIELDS
+title: A checklist to improve reporting of group-based behaviour-change interventions
+acronym: ''
+provided-for: Reporting of group-based behaviour-change interventions
+rg-doi: ''
+pmid-id: '[26403082](http://www.ncbi.nlm.nih.gov/pubmed/26403082)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/26403082
+relevant-urls: Read the [full-text of this reporting guideline (PDF)](http://www.biomedcentral.com/content/pdf/s12889-015-2300-6.pdf).
+full-bibliographic-reference: Borek AJ, Abraham C, Smith JR, Greaves CJ, Tarrant M.
+  A checklist to improve reporting of group-based behaviour-change interventions.
+  BMC Public Health. 2015;15(1):963.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+- Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+- Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- behavior
+- behavior change
+- behavior change intervention
+- behavior change interventions
+- behavioral
+- behavioral medicine
+- behavioral science
+- behaviour
+- behaviour change
+- behaviour change intervention
+- behaviour change interventions
+- behavioural
+- behavioural intervention
+- behavioural interventions
+- behavioural medicine
+- behavioural science
+- characteristic
+- characteristics
+- checklist
+- checklists
+- educational change process
+- educational change processes
+- facilitation
+- facilitator
+- facilitators
+- GB-BCI
+- GB-BCIs
+- group based intervention
+- group based interventions
+- group characterisation
+- group characterization
+- group context
+- group dynamic
+- group dynamics
+- group facilitation
+- group intervention
+- group interventions
+- group participants
+- group participation
+- group session
+- group sessions
+- group-based
+- group-based behavior-change intervention
+- group-based behavior-change interventions
+- group-based behaviour-change intervention
+- group-based behaviour-change interventions
+- group-based health intervention
+- group-based health interventions
+- group-focused
+- individual behavior
+- individual behaviors
+- individual behaviour
+- individual behaviours
+- individual change
+- individual changes
+- intervention
+- intervention delivery
+- intervention description
+- intervention descriptions
+- interventions
+- mechanism of change
+- mechanisms of change
+- participant
+- participant characteristic
+- participant characteristics
+- participants
+- psychological change process
+- psychological change processes
+
+---
+
+{{< include ../_template.qmd >}}

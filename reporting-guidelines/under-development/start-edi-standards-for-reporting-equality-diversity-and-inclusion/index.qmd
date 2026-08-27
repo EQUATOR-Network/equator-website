@@ -1,0 +1,16 @@
+---
+title: START-EDI - STAndards for ReporTing Equality, Diversity and Inclusion
+date-registered: 31 July 2024
+year-registered: 2024
+date-updated: null
+contact-name: Michael Fadel
+contact-email: m.fadel@imperial.ac.uk
+categories:
+- Other
+---
+
+Integrating equality, diversity and inclusion (EDI) into clinical research is essential to ensure findings are reproducible, relevant and to address the needs of different communities. There are currently no universally accepted guidelines for the reporting of EDI in research, which can lead to inconsistent and inadequate reporting. While some EDI considerations are included in equity extensions of CONSORT and PRISMA, these extensions are specifically designed for equity-focused studies or reviews, and do not apply to all studies.START-EDI Steering Committee members from the NIHR Research Design Service (RDS) designed a toolkit (2022) to guide researchers on how to embed EDI in applied health and social care research. A scoping review was conducted where authors scored the reporting of EDI across papers describing studies on gastrointestinal cancers. They found that issues like structural inequality, public involvement and budgeting for inclusion, ethnicity, and socio-economic status had very low or null rates of reporting. Another systematic review will be conducted to define the essential components of EDI and strategies for optimising diversity and inclusion. The group will then conduct a Delphi survey and a final hybrid consensus meeting.The checklist created will be piloted to ensure usability, and the group plans to produce translations and a strategy for dissemination. Development started in January 2024, and the group has applied for funding (from the MRC). They have partial infrastructure and PhD funding from the NIHR. A protocol was submitted for publication as a journal article. They plan to publish the final reporting guideline in 2026, as an open access document.
+
+Protocol registration in the Open Science Framework: [https://osf.io/8udbq/](https://osf.io/8udbq/).
+
+{{< include ../_template.qmd >}}

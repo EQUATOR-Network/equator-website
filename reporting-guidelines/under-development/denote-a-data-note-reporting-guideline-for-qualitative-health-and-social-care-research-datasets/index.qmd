@@ -1,0 +1,18 @@
+---
+title: DeNote - A data note reporting guideline for qualitative health and social care research datasets
+date-registered: 23 October 2024
+year-registered: 2024
+date-updated: null
+contact-name: Hannah Long
+contact-email: hannah.long@manchester.ac.uk
+categories:
+- Other
+---
+
+Data notes, data papers, data articles, or data descriptors are a class of peer-reviewed article that succinctly describe how and why an archived research dataset was created and the nature and characteristics of research datasets stored in a public repository, with the purpose of enhancing research transparency and increasing the visibility of research datasets. However, according to the developers of this reporting guideline, there is no existing reporting guideline for data note articles describing qualitative health and social care research datasets. There is also little to no general writing guidance (in relevant scientific papers or on publisher or journal webpages) to authors of qualitative health and social care research who wish to produce such an article. The only existing guidance for producing data notes is exclusive to quantitative research datasets, which is not suitable for or applicable to qualitative research datasets. The DeNote reporting guideline will offer important guidance to authors producing data note articles describing qualitative health and social care research data.
+
+The steering committee has representatives from the universities of Manchester, Galway, and the University College London, and they acknowledge funding from the University of Manchester’s ‘Research England Enhancing Research Culture’ fund, awarded via an Open Research Fellowship to Dr Hannah Long.
+
+Their plans include a rapid scoping review of the literature, a survey with experts and public and patient representatives, a consensus workshop with private online voting, and another round of comments once the draft is ready. The study group has submitted an ethics application for the project. They plan to publish the reporting guideline, open access, in 2025.
+
+{{< include ../_template.qmd >}}

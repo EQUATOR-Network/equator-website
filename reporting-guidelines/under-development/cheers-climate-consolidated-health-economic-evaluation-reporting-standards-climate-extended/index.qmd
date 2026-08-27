@@ -1,0 +1,19 @@
+---
+title: CHEERS ClimatE - Consolidated Health economic evaluation reporting standards Climate Extended
+date-registered: 22 November 2023
+year-registered: 2023
+date-updated: null
+contact-name: Oliver Lange
+contact-email: olange@uni-bremen.de
+categories:
+- Other
+---
+
+This project aims to develop an extension of the CHEERS (Consolidated Health Economic Evaluation Reporting Standards) reporting guideline for studies where health economic evaluation provides information for calculating greenhouse gases, or the climate impact (climate costs) of health technologies, as carbon emissions affect health economic evaluations.
+
+A group from the University of Bremen is finishing the development of a reporting guideline that aims at facilitating climate footprinting alongside health economic evaluation. They started the project in 2022 and plan to submit a paper for publication in the end of 2023.
+
+- An early version of the project was presented at the German Society for Health Economics annual conference. An abstract in German is available via the link: [https://www.dggoe.de/konferenzen/2023/programm/52/sitzung/176](https://www.dggoe.de/konferenzen/2023/programm/52/sitzung/176)
+- The group-registered the project with OSF: [https://doi.org/10.17605/OSF.IO/2AW8N](https://doi.org/10.17605/OSF.IO/2AW8N)
+
+{{< include ../_template.qmd >}}

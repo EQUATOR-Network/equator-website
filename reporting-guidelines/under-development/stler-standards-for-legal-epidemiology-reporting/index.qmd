@@ -1,0 +1,16 @@
+---
+title: 'STLER: Standards for Legal Epidemiology Reporting'
+date-registered: 26 March 2025
+year-registered: 2025
+date-updated: null
+contact-name: Scott Burris
+contact-email: scott.burris@temple.edu
+categories:
+- Other
+---
+
+Structured legal data are a facet of many different kinds of scientific research, including mapping studies (measuring the distribution and attributes of law over space and time), legal implementation studies, and evaluations of the effects of law on health or related outcomes. Current research frequently fails to provide the methodological transparency as to the legal research and measurement procedures needed for studies to meet basic scientific standards. Many published studies in which law is an exposure or other key variable lack sufficient detail on how laws and policies are defined and measured, leaving audiences unable to evaluate the validity of findings.The development group aim to produce reporting guidelines for legal epidemiology studies. The Delphi method will be used to explore consensus on potential items to be included in the reporting standards. An online panel of experts will be recruited to rate the importance of individual reporting standards in several questionnaire rounds, with each questionnaire refined based on the feedback from respondents on the previous round. This process will be used to inform the list of reporting standards to be considered for inclusion in the guideline at a consensus meeting.
+
+Website: [https://phlr.temple.edu/our-work/projects/legal-measurement-methods-consortium](https://phlr.temple.edu/our-work/projects/legal-measurement-methods-consortium)
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,151 @@
+---
+# REQUIRED FIELDS
+title: 'Standards of reporting for MRI-targeted biopsy studies (START) of the prostate:
+  recommendations from an International Working Group'
+acronym: START
+provided-for: Reporting MRI-targeted biopsy studies of the prostate
+rg-doi: ''
+pmid-id: '[23537686](http://www.ncbi.nlm.nih.gov/pubmed/23537686)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/23537686
+relevant-urls: ''
+full-bibliographic-reference: 'Moore CM, Kasivisvanathan V, Eggener S, Emberton M,
+  Fütterer JJ, Gill IS, Grubb Iii RL, Hadaschik B, Klotz L, Margolis DJ, Marks LS,
+  Melamed J, Oto A, Palmer SL, Pinto P, Puech P, Punwani S, Rosenkrantz AB, Schoots
+  IG, Simon R, Taneja SS, Turkbey B, Ukimura O, van der Meulen J, Villers A, Watanabe
+  Y; START Consortium. Standards of reporting for MRI-targeted biopsy studies (START)
+  of the prostate: recommendations from an International Working Group. Eur Urol.
+  2013;64(4):544-552.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+- Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- biopsies
+- biopsy
+- biopsy specimen
+- biopsy specimens
+- magnetic resonance
+- magnetic resonance imaging
+- MRI
+- MRI guided biopsy
+- MRI targeted biopsy
+- MRI targeted prostate biopsy
+- MRIs
+- prostate
+- prostate biopsy
+- prostate magnetic resonance imaging
+- prostate MRI
+- prostate specific antigen
+- PSA
+- START
+- START checklist
+- urology
+
+---
+
+{{< include ../_template.qmd >}}

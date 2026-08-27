@@ -1,0 +1,18 @@
+---
+title: STORMS - Strengthening The Organising and Reporting of Microbiome Studies
+date-registered: 22 October 2019
+year-registered: 2019
+date-updated: null
+contact-name: Chloe Mirzayi, City University of New York School of Public Health, Department of Epidemiology and Biostatistics, Institute for Implementation Science in Population Health, Waldron Lab
+contact-email: Chloe.mirzayi@sph.cuny.edu
+categories:
+- Observational studies
+---
+
+The group from the Department of Epidemiology and Biostatistics, City University of New York School of Public Health, is preparing a guideline for the reporting of epidemiological studies of the human microbiome. These studies typically address microbiome diversity, richness, and composition across categories of exposure, disease, or other phenotypes. Individual taxa of bacteria that are differentially abundant between groups are usually identified. They are typically observational, although experimental human microbiome studies are possible.
+
+The project began in June 2019 with a systematic review of microbiome literature. A working group of bioinformaticians, epidemiologists, biostatisticians, and graduate students with an interest and expertise in the human microbiome was convened. an initial draft of guidelines was drafted. Working group members then tested the guidelines by reviewing recent microbiome articles using the guidelines. Revisions were made based on the ensuing discussion. The checklist is currently in the second set of pilot testing and revisions.
+
+The group prepared a draft of the guidelines and accompanying paper and plan to pre-publish it on bioRxiv by the end of 2019, with a formal publication as an open-access article in 2020.
+
+{{< include ../_template.qmd >}}

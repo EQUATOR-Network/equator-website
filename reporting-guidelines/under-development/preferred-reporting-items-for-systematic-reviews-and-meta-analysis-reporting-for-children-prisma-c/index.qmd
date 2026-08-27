@@ -1,0 +1,23 @@
+---
+title: Preferred Reporting Items for Systematic reviews and Meta-Analysis - Reporting for Children (PRISMA-C)
+date-registered: 6 November 2014
+year-registered: 2014
+date-updated: 14 June 2022; 20 November 2024
+contact-name: Dr Martin Offringa
+contact-email: martin.offringa@sickkids.ca
+categories:
+- Literature reviews
+---
+
+An official extension of the PRISMA 2009 Statement defining standard reporting items for systematic review in children is currently under development. A Delphi process to generate possible reporting standards for PRISMA-C and a consensus meeting have taken place in 2015. The evidence synthesis, Delphi survey and international consensus have been completed. The checklists have been finalized (available on request).
+
+In February 2022 the group-updated their website saying that PRISMA-PC Statement and Explanation and Elaboration document will be published in Q2 2022.
+
+November 2024 Update 
+After having identified the paediatric specific items for SPIRIT and CONSORT (trials) through a lengthy, international process, we are currently updating the PRISMA | Protocol-Children & Adolescents and PRISMA-Children and Adolescents checklists and will have updates in Q2 of 2025.
+
+Read the [project summary (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/Project-Summary-PRISMA-PC-and-PRISMA-C.pdf) 
+Details on this project can be found here: [PRISMA-Children (C) and PRISMA-Protocol for Children (P-C) Extensions: a study protocol for the development of guidelines for the conduct and reporting of systematic reviews and meta-analyses of newborn and child health research](https://www.ncbi.nlm.nih.gov/pubmed/27091820). 
+Visit the EnRICH [Website](https://lab.research.sickkids.ca/enrich/research-projects/prisma-c-prisma-pc/)
+
+{{< include ../_template.qmd >}}

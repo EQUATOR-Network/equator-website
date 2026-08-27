@@ -1,0 +1,18 @@
+---
+title: 'A framework for the identification and reporting of modifications to surgical procedures: The Surgical Modification and Reporting Tool (SMART) Checklist'
+date-registered: 2 July 2024
+year-registered: 2024
+date-updated: null
+contact-name: Dr James Olivier
+contact-email: James.Olivier@nhs.net
+categories:
+- Other
+---
+
+Innovation in surgery plays an important role in improving outcomes from these procedures and subsequent advances in care. Innovation must be evaluated and reported in an accurate and standardised way to enhance incremental learning between surgeons and centres, reduce risk and avoid stifling innovation. Guidance on evaluating and reporting surgical innovation (such as the IDEAL framework) recognises the importance of reporting modifications but there is a lack of consensus on how to identify, report and share them.
+
+The developers plan to produce a reporting guideline to allow stakeholders to identify and report modifications to surgical innovation and are currently conducting a systematic review to identify primary literature reporting innovative procedures and devices. The findings of this systematic review and in-depth qualitative analysis will be used to develop a provisional modification reporting checklist. The second phase of the research will be to undertake think-aloud interviews with key stakeholders to optimise the reporting tool.
+
+Work on the project began in 2023 and the group plan to publish the new guideline as an open access document.
+
+{{< include ../_template.qmd >}}

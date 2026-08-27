@@ -1,0 +1,23 @@
+---
+title: Transparent Reporting of Educational Interventions and Curriculum Research in Health Professions Education
+date-registered: 01 April 2026
+year-registered: 2026
+date-updated: null
+contact-name: Waqar M. Naqvi, AD Vivum Education and Research, Qatar.
+contact-email: waqarmn@gmail.com
+categories:
+- Observational studies
+---
+
+The TEACH reporting guideline will be developed in accordance with established methodological guidance for the development of reporting guidelines. An international multidisciplinary executive group will first be formed to oversee the development process. This group will include experts in health professions education, educational research, pedagogy, curriculum design, assessment, trial methodology, statistics, journal editing and reporting guideline methodology.
+
+The first phase will involve a scoping and methodological review of the literature to identify existing reporting guidance relevant to educational
+interventions and to examine deficiencies in current reporting practices in health professions education research. Findings from this review will be used to generate an initial list of candidate reporting items. A formal protocol describing the guideline development process will also be prepared.
+
+In the second phase, candidate items will be refined through structured pre-consensus consultation using a modified Delphi process. Participants will be purposively recruited from international health professions education networks, including members of the International FAIMER Fellowship community, AMEE (Association for Medical Education in Europe), and experienced researchers, educators, journal editors and methodological experts involved in educational research and reporting guideline development.
+
+The third phase will involve a consensus meeting, conducted either virtually or in person, during which the Delphi results and supporting evidence will be reviewed and the final reporting checklist and item structure will be agreed.
+
+In the final phase, the draft guideline will be piloted with intended users, including researchers, educators and journal editors, to assess clarity, feasibility and usability. Revisions will be made where necessary. Final outputs will include the TEACH reporting checklist and an accompanying Explanation and Elaboration document intended for peer-reviewed open-access publication and wide international dissemination.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,146 @@
+---
+# REQUIRED FIELDS
+title: 'Standardized Reporting of Machine Learning Applications in Urology: The STREAM-URO
+  Framework'
+acronym: STREAM-URO
+provided-for: Reporting of machine learning studies in urology.
+rg-doi: ''
+pmid-id: '[34362709](https://pubmed.ncbi.nlm.nih.gov/34362709/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/34362709/
+relevant-urls: ''
+full-bibliographic-reference: 'Kwong JCC, McLoughlin LC, Haider M, Goldenberg MG,
+  Erdman L, Rickard M, Lorenzo AJ, Hung AJ, Farcas M, Goldenberg L, Nguan C, Braga
+  LH, Mamdani M, Goldenberg A, Kulkarni GS. Standardized Reporting of Machine Learning
+  Applications in Urology: The STREAM-URO Framework. Eur Urol Focus. 2021 Jul;7(4):672-682.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+- Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+- Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- AI
+- artificial intelligence
+- checklist
+- checklists
+- deep learning
+- diagnosis
+- diagnostic
+- machine learning
+- ML
+- predict
+- prediction
+- prognosis
+- prognostic
+- Standardized Reporting of Machine Learning Applications in Urology framework
+- STREAM-URO
+- urological
+- urologist
+- urology
+
+---
+
+{{< include ../_template.qmd >}}

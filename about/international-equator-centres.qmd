@@ -1,0 +1,120 @@
+---
+listing:
+    -   id: canada
+        contents: 
+            - ../about/people/*qmd
+        include: 
+            centre: canada
+        image-align: left
+        sort: order
+        type: grid
+        max-description-length: 50
+    -   id: australia
+        contents: 
+            - ../about/people/*qmd
+        include: 
+            centre: australia
+        image-align: left
+        sort: order
+        type: grid
+        max-description-length: 50
+    -   id: france
+        contents: 
+            - ../about/people/*qmd
+        include: 
+            centre: france
+        image-align: left
+        sort: order
+        type: grid
+        max-description-length: 50
+    -   id: china
+        contents: 
+            - ../about/people/*qmd
+        include: 
+            centre: china
+        image-align: left
+        sort: order
+        type: grid
+        max-description-length: 50
+    -   id: usa
+        contents: 
+            - ../about/people/*qmd
+        include: 
+            centre: usa
+        image-align: left
+        sort: order
+        type: grid
+        max-description-length: 50
+
+---
+
+# International EQUATOR Centres
+
+## Canadian EQUATOR Centre
+
+In addition to helping to carry out the strategic vision of the EQUATOR Network in Canada, the focus of the Canadian EQUATOR Centre is on initiatives that have relevant down stream consequences for the conduct and reporting of biomedical research. Our current programs include:
+
+* A broad research program on deceptive journals and publishers
+* A program on peer review, including how it is measured; and developing core competencies for peer reviewers
+* Investigating how to reduce waste and increase value in biomedical research
+* A comprehensive training and education program on journalology
+
+::: {#canada}
+:::
+
+## Australasian EQUATOR Centre 
+
+In addition to helping carry out the strategic vision of the EQUATOR Network in Australia and the Asia-Pacific region, the [Australasian EQUATOR Centre’s](https://bond.edu.au/iebh/our-research/australasian-equator-centre) focus is on reducing waste and enhancing the value of biomedical research.
+
+Examples of our current activities include:
+
+* Improving the descriptions of interventions in research (such as trials and systematic reviews) and developing online tools to enable authors to more easily create complete descriptions of interventions
+* Developing tools, including automation tools, that enable many steps in the systematic review process to be done faster and more efficiently
+* Undertaking research in research waste and creating resources to increase the value of research (in conjunction with the Reward Alliance)
+* Contributing to the creation and/or updating of key reporting guidelines (e.g. TIDieR, PRISMA, STARD, PRISMA for Abstracts)
+* Providing training activities within the Australasian region in research reporting, publication skills, and research protocols.
+
+::: {#australia}
+:::
+
+## French EQUATOR Centre 
+
+In addition to help carrying out the strategic vision of the EQUATOR network in France and in French speaking countries, the focus of the French EQUATOR centre is on increasing/improving/enhancing the value of biomedical research. This will be done through the improvement of the planning, design, conduct/management and reporting of biomedical research.
+
+Our current programs include the following activities:
+
+* Mapping the planning, posting, reporting (through journals) and data sharing of biomedical research worldwide.
+* Developing interventional research on research in order to improve the planning, design, conduct/management and reporting of biomedical research. We are developing various interventions such as freely available online tools and we assess them using high level of evidence study designs (randomized controlled trials, time-series analysis, split-manuscript design etc).
+* Rethinking the peer-review process:
+    * Improving the traditional peer-review process, developing and evaluating interventions to improve the peer-review process in randomized controlled trials.
+    * Assessing new models of peer-review through simulation modelling using empirical data.
+* Creating a platform where biomedical journals, publishers and editors would commit to share some of their data on peer-review (figures related to the peer-review process and peer-reviewers’ reports) and could volunteer to participate in trials.
+
+::: {#france}
+:::
+
+## Chinese EQUATOR Centre
+
+* The Chinese EQUATOR Centre will adopt the principles of the EQUATOR Network mission and vision, and enhance its impact throughout China.
+* Based on the principle of the EQUATOR Network, to enhance the medical research quality through education and training in different conferences, workshops, seminars, and other related activities.
+* To improve the quality of Chinese medicine clinical research.
+
+Visit the Chinese EQUATOR Centre [website](http://www.equator-chinese.org/pages/en/index/index.html).
+
+::: {#china}
+:::
+
+## USA EQUATOR Centre
+
+The USA EQUATOR Centre is based at the Meta-Research Innovation Center at Stanford (METRICS) at Stanford University.
+
+Launched in April 2014 with a founding grant from the Laura and John Arnold Foundation, the Meta-Research Innovation Center at Stanford (METRICS) is a research to action center focused on transforming research practices to improve the quality of scientific studies in biomedicine and beyond. METRICS fosters multi-disciplinary research collaborations to help produce solutions that increase the effectiveness and value of scientific investigation. By serving as a lens that both focuses and helps magnify the impact of scholars, policymakers and others working on meta-research issues, we hope to enhance the public discourse and advance the development of policies and practices that maximize the use of best research practices.
+
+The key focus of the USA EQUATOR Centre:
+
+* Build the meta-research field and catalyze solutions-focused research to develop best scientific practices
+* Provide leaders with the skills and knowledge needed to support the development and implementation of high-quality research
+* Transform research practices to strengthen the evidence base for informed decision-making
+
+::: {#usa}
+:::

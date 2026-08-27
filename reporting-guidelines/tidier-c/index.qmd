@@ -1,0 +1,137 @@
+---
+# REQUIRED FIELDS
+title: TIDieR-C
+acronym: TIDieR-C
+provided-for: Reporting of Paediatric Clinical Trial Interventions
+rg-doi: 10.1542/peds.2025-072867
+pmid-id: '[41087014](https://pubmed.ncbi.nlm.nih.gov/41087014/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/41087014/
+relevant-urls: Word and PDF versions of the TIDieR-C checklist can be found on [here](https://lab.research.sickkids.ca/enrich/tidier-c/).
+full-bibliographic-reference: 'Goren K, Lai VKW, Baba A, Smith M, Allegaert K, Butcher
+  NJ, Fernandes R, Gill PJ, Hartling L, Juszczak E, Longmuir PE, Macarthur C, Mehta
+  K, Metz D, Nguyen KA, Odermarsky M, Poluru R, Purper-Ouakil D, Reggiardo G, Stratton
+  C, Szatmari P, Trivedi A, Upton J, Hoffmann T, Offringa M. Transparent Reporting
+  of Pediatric Clinical Trial Interventions: TIDieR-Children and Adolescents. Pediatrics.
+  2025 Nov 1;156(5):e2025072867. doi: 10.1542/peds.2025-072867.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  **Generic**
+
+  [**TIDieR**](/reporting-guidelines/tidier/): Hoffmann T, Glasziou P, Boutron I, Milne R, Perera R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M, McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. BMJ. 2014;348:g1687. PMID:[24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)
+
+  **Specialisd**
+
+  [**TIDieR-PHP**](/reporting-guidelines/tidier-php-a-reporting-guideline-for-population-health-and-policy-interventions/): Campbell M, Katikireddi SV, Hoffmann T, Armstrong R, Waters E, Craig P. TIDieR-PHP: a reporting guideline for population health and policy interventions. BMJ. 2018;361:k1079. PMID:[29769210](https://www.ncbi.nlm.nih.gov/pubmed/29769210)
+website-url: <https://lab.research.sickkids.ca/enrich/tidier-c/>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: Read the full TIDieR-C guidance [here](https://publications.aap.org/pediatrics/article-abstract/156/5/e2025072867/204573/Transparent-Reporting-of-Pediatric-Clinical-Trial?redirectedFrom=fulltext).
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+- Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- No keywords provided
+
+---
+
+{{< include ../_template.qmd >}}

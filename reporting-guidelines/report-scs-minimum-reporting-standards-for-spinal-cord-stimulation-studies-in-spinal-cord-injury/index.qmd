@@ -1,0 +1,169 @@
+---
+# REQUIRED FIELDS
+title: 'REPORT-SCS : minimum reporting standards for spinal cord stimulation studies
+  in spinal cord injury'
+acronym: REPORT-SCS
+provided-for: Reporting electrical spinal cord stimulation (SCS) parameters in pre-clinical
+  and clinical spinal cord injury (SCI) studies involving non-invasive and invasive
+  electrical SCS.
+rg-doi: ''
+pmid-id: '[38271712](https://pubmed.ncbi.nlm.nih.gov/38271712/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38271712/
+relevant-urls: ''
+full-bibliographic-reference: 'Malik RN, Samejima S, Shackleton C, Miller T, Pedrocchi
+  ALG, Rabchevsky AG, Moritz CT, Darrow D, Field-Fote EC, Guanziroli E, Ambrosini
+  E, Molteni F, Gad P, Mushahwar VK, Sachdeva R, Krassioukov AV. REPORT-SCS: minimum
+  reporting standards for spinal cord stimulation studies in spinal cord injury. J
+  Neural Eng. 2024;21(1).'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+- Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- autonomic function
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- electrical spinal cord stimulation
+- epidural SCS
+- motor function
+- neural
+- neurological
+- neurology
+- neuropathic
+- observation
+- observational
+- pre clinical
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- REPORT-SCS
+- SCI
+- SCS
+- spinal
+- spinal cord injury
+- spinal cord stimulation
+- spine
+- stimulation
+- stimulation parameter
+- stimulation parameters
+- transcutaneous SCS
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

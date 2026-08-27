@@ -1,0 +1,158 @@
+---
+# REQUIRED FIELDS
+title: Reporting standards for percutaneous thermal ablation of renal cell carcinoma
+acronym: ''
+provided-for: Percutaneous thermal ablation of primary renal cell carcinoma
+rg-doi: ''
+pmid-id: '[19560028](http://www.ncbi.nlm.nih.gov/pubmed/19560028)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/19560028
+relevant-urls: ''
+full-bibliographic-reference: Clark TW, Millward SF, Gervais DA, Goldberg SN, Grassi
+  CJ, Kinney TB, Phillips DA, Sacks D, Cardella JF; Technology Assessment Committee
+  of the Society of Interventional Radiology. Reporting standards for percutaneous
+  thermal ablation of renal cell carcinoma. J Vasc Interv Radiol. 2009; 20(7 Suppl):S409-S416.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: 'Clark TW, Millward SF, Gervais DA, Goldberg SN, Grassi CJ, Kinney
+  TB, Phillips DA, Sacks D, Cardella JF. Reporting standards for percutaneous thermal
+  ablation of renal cell carcinoma. J Vasc Interv Radiol. 2006;17(10):1563-1570. PMID:
+  [17056998](http://www.ncbi.nlm.nih.gov/pubmed/17056998)'
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+- Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+- Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+- Harms/adverse effects/safety data
+- Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+- Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- ablation
+- cancer
+- carcinoma
+- cost
+- cost effectiveness
+- costs
+- kidney
+- neoplasm
+- neoplasms
+- nephrology
+- oncology
+- percutaneous
+- percutaneous thermal ablation of renal cell carcinoma
+- QALY
+- quality of life
+- radiology
+- RCC
+- renal
+- renal cell carcinoma
+- renal medicine
+- surgery
+- surgical
+- technology assessment
+- thermal ablation
+- tumor
+- tumors
+- tumour
+- tumours
+
+---
+
+{{< include ../_template.qmd >}}

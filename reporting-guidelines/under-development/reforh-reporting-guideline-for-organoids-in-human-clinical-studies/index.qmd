@@ -1,0 +1,14 @@
+---
+title: 'REFORH: REporting guideline For ORganoids in Human clinical studies'
+date-registered: 22 January 2026
+year-registered: 2026
+date-updated: null
+contact-name: Yuting Duan or Rong Zhang
+contact-email: 18702009530@163.com; 15513821256@163.com
+categories:
+- Other
+---
+
+Organoids are three-dimensional structures derived from pluripotent stem cells, adult stem cells, or primary somatic cells, and retain key histological, molecular, and genetic features of their tissue of origin. In recent years, organoid technologies have increasingly been incorporated into human clinical studies, including studies in which patient-derived organoids are generated from clinical samples and used to investigate clinical response patterns, drug sensitivity, or associations between organoid-based readouts and patient-level clinical characteristics or outcomes. Moreover, organoid models align with the “3Rs” principle—Replacement, Reduction, and Refinement— and are increasingly explored as human-relevant experimental systems that may complement traditional animal-based approaches. Recent regulatory initiatives, including those from the U.S. Food and Drug Administration, have acknowledged the potential role of organoid-based and other in vitro methods as part of New Approach Methodologies aimed at reducing reliance on animal testing in drug development and translational research contexts.The increasing number of organoid-related clinical studies in recent years further underscores the need to establish a reporting guideline. As interest in organoid-based clinical research continues to grow, so does the demand for standardized reporting guidelines.However, no dedicated reporting framework currently exists for organoid-based clinical studies, increasing the risk of incomplete reporting and the prevalence of selective interpretation of findings. For example, clinical studies involving organoids typically require reporting on the organoid’s composition, source, derivation, and key experimental or analytical procedures. However, existing reporting guidelines for clinical research, such as CONSORT for randomized trials and STROBE for observational studies, do not include items addressing these organoid-specific considerations.Therefore, the project leads advocate for the development of a reporting guideline specific to organoid clinical studies. Such a guideline would not only improve the quality and transparency of organoid research reporting but also facilitate the translation of basic science into clinical applications, ultimately accelerating the advancement of personalized medicine and interdisciplinary innovation.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,18 @@
+---
+title: STAR-MBMA - Standards for Transparent and Accurate Reporting of Model-Based Meta-Analyses - General Guideline
+date-registered: 4 September 2024
+year-registered: 2024
+date-updated: null
+contact-name: Sun Feng, Department of Epidemiology and Biostatistics, School of Public Health, Peking University
+contact-email: sunfeng@bjmu.edu.cn
+categories:
+- Literature reviews
+---
+
+Model-based meta-analysis (MBMA) is a novel quantitative method of meta-analysis that primarily relies on pharmacological knowledge, including pharmacokinetics and pharmacodynamics, to quantify the dose-response and time-course relationships. However, there is still a lack of standardisation in describing the systematic process of collecting the data and the core process of MBMA modeling.
+
+The group developing this reporting guideline started with a [systematic review](https://pubmed.ncbi.nlm.nih.gov/38724461/) evaluating the reporting quality of MBMA, and will conduct a Delphi survey to reach consensus on the preliminary list created. A consensus meeting will follow, and then the checklist will be piloted before publication. The group plans to publish in 2026, open access.
+
+The leading group received funding for this project from the National Natural Science Foundation of China and the Key Projects of Scientific Act for Drug Regulation of China.
+
+{{< include ../_template.qmd >}}

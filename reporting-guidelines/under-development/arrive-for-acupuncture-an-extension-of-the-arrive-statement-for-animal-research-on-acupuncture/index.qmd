@@ -1,0 +1,20 @@
+---
+title: ARRIVE for Acupuncture -- An extension of the ARRIVE Statement for Animal Research on Acupuncture
+date-registered: 21 November 2018
+year-registered: 2018
+date-updated: null
+contact-name: Yuting Duan
+contact-email: 18702009530@163.com
+categories:
+- Clinical Trials
+---
+
+In June 2010, "Improving Bioscience Research Reporting: The ARRIVE Guidelines for Reporting Animal Research" was published in PLOS BIOLOGY by Carol Kilkenny and has received considerable attention. Although it offered a reporting checklist for animal pre-clinical studies, there were some barriers in their applicability to acupuncture due to its specificity in terms of rationales, details of manipulation, the operation locations and different strengths of evidence compared to other health care interventions. Several studies stated that the reporting quality of animal research on acupuncture is poor. It is necessary to standardise the reporting guideline for animal research as an extended version of the ARRIVE guidelines, which has the following advantages: 1) To provide regulations for animal research developers; 2) To obtain more precise and clear guidelines for readers and experimental researchers; 3) To evaluate the reporting quality of animal research on acupuncture and improve the transparency of research reports for editors and reviewers.
+
+The group will develop the study design according to the methodology recommended by  EQUATOR Network, modified as appropriate. They will establish an international multidisciplinary group including clinical practitioners, acupuncturists, researchers of reporting guidelines on acupuncture, clinical epidemiologists and statisticians. The research team consists of three groups: the Development Group, the Delphi Panellists Group and the Advisor Group. They are currently performing a literature review to systematic review the reporting guidelines of acupuncture and case reports of acupuncture published in peer-review articles. Then they will conduct three rounds of modified Delphi surveys, a face-to-face consensus meeting, consultations with advisers, pilot tests of the draft list of reports and promotion of the checklist.
+
+The group plans to publish the study protocol in a peer-review paper soon, and the reporting guideline in December 2021.
+
+Institution: Hong Kong Chinese Medicine Clinical Study Centre, School of Chinese Medicine, Hong Kong Baptist University
+
+{{< include ../_template.qmd >}}

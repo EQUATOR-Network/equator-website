@@ -1,0 +1,14 @@
+---
+title: CROP - Checklist for RepOrting Process evaluations in healthcare
+date-registered: 23 May 2025
+year-registered: 2025
+date-updated: null
+contact-name: Lisa Cruycke
+contact-email: lisa.cruycke@vub.be
+categories:
+- Other
+---
+
+Complex interventions are commonly used in health services research. Currently, the focus is not only the primary outcome of the trial, but the study process including the design and execution of the intervention is equally important. A key role of a process evaluation is to investigate how an intervention can be implemented into practice and policy, when effective. On the other hand, a process evaluation can assist in identifying why an intervention is unexpectedly ineffective or has unanticipated consequences, and how it can be optimized . Process evaluations conducted alongside clinical trials are rare, particularly in the field of multidisciplinary therapy research for neurological rehabilitation. They are similarly scarce in other areas of rehabilitation research. Although there has been a recent rise in published research on theories and frameworks guiding process evaluations for complex interventions, the inconsistency in reporting makes it challenging for researchers to design or replicate these evaluations effectively. To address this gap, this study aims to create a checklist based on existing literature and further refined through a Delphi study. By standardizing the reporting process, this generic checklist will serve as a valuable tool for future research, helping more researchers conduct robust and replicable process evaluations.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,5 @@
+project: 
+  pre-render:
+    - bash _utils/generate-og-description-metadata.sh
+  post-render:
+    - bash _utils/cleanup-generated-og-metadata.sh

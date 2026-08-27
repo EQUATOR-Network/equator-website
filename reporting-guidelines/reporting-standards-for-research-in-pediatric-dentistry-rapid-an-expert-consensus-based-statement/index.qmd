@@ -1,0 +1,153 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting stAndards for research in PedIatric Dentistry (RAPID) : an expert
+  consensus-based statement'
+acronym: RAPID
+provided-for: Reporting paediatric dentistry research studies.
+rg-doi: ''
+pmid-id: '[34301229](https://pubmed.ncbi.nlm.nih.gov/34301229/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/34301229/
+relevant-urls: |-
+  The [full-text of the RAPID reporting guideline](https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-021-01698-7) is freely available.
+
+  Ten reporting checklists have been developed covering:
+
+  General; Oral Medicine; Pathology and Radiology; Children with Special Healthcare Needs; Sedation and Hospital Dentistry; Behavior Guidance; Dental Caries; Preventive and Restorative Dentistry; Pulp Therapy; Trauma; Interceptive Orthodontics.
+full-bibliographic-reference: 'Jayaraman J, Dhar V, Donly KJ, Priya E, Raggio DP,
+  Childers NK, Wright TJ, Nagendrababu V, Clarke M, King N, Clarkson J, Innes NPT.
+  Reporting stAndards for research in PedIatric Dentistry (RAPID): an expert consensus-based
+  statement. BMC Oral Health. 2021;21(1):369.'
+
+
+# OPTIONAL FIELDS
+rg-language: ''
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://rapid-statement.org/>
+additional-languages: ''
+additional-information: Read the [protocol](https://pubmed.ncbi.nlm.nih.gov/31411790/)
+  for the development of the RAPID guideline.
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+- Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- child
+- children
+- dental
+- Dentist
+- Dentistry
+- oral medicine
+- orthodontics
+- orthodontist
+- paediatric
+- paediatric dentistry
+- pediatric
+- pediatric dentistry
+- RAPID
+- RAPID checklist
+- RAPID guideline
+- RAPID guidelines
+- RAPID statement
+
+---
+
+{{< include ../_template.qmd >}}

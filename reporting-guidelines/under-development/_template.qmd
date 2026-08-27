@@ -1,0 +1,8 @@
+Registered: {{< meta date-registered >}}
+
+::: {data-content='{{< meta date-updated >}}'}
+Last updated: {{< meta date-updated >}}
+:::
+
+**Contact:** {{< meta contact-name >}} 
+**Email:** {{< meta contact-email >}}

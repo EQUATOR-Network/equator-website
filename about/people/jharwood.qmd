@@ -1,0 +1,11 @@
+---
+title: James Harwood
+subtitle: Postdoctoral Research Fellow
+image: jharwood.webp
+image-alt: James Harwood
+path: about/uk-equator-centre.html##james-harwood
+centre: uk
+order: 2
+---
+
+Dr James Harwood is an implementation scientist at the University of Oxford working to improve the uptake of meta–science interventions that promote quality and transparency in healthcare research. As a member of UK EQUATOR he is developing this website as a platform for disseminating reporting guidelines. This work builds upon his previous research which used behaviour change theory to understand why researchers do not adhere to reporting guidelines, and to identify ways to increase adherence. He often uses mixed-methods and draws upon his pre-DPhil experience as a software developer.

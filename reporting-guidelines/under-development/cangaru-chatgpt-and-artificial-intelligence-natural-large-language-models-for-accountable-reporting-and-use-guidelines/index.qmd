@@ -1,0 +1,16 @@
+---
+title: CANGARU - ChatGPT and Artificial Intelligence Natural Large Language Models for Accountable Reporting and Use Guidelines
+date-registered: 29 March 2023
+year-registered: 2023
+date-updated: null
+contact-name: Giovanni E. Cacciamani
+contact-email: giovanni.cacciamani@med.usc.edu
+categories:
+- Other
+---
+
+The CANGARU checklist aims to provide a comprehensive evaluation of the use of ChatGPT and large language models (LLMs) in healthcare and scientific research and its impact on scientific writing. ChatGPT has gained attention in the medical and scientific community since its launch in December 2022 as a potential tool for decreasing workload while maintaining the workflow. However, its use has raised concerns about its impact on the integrity of scientific literature. CANGARU will focus on standardising the reporting of methods and results for clinical and scientific studies using ChatGPT and other LLMs. The tool will list the most relevant technical details a data scientist needs to report for future reproducibility.
+
+The group developing CANGARU, including representatives from EQUATOR, COPE and editorial members of biomedical and scientific leading journals will conduct a systematic review of the literature, already-registered in the PROSPERO database (CDR: [CRD42023406875](https://www.crd.york.ac.uk/PROSPERO/display_record.php?RecordID=406875)). The topics identified will be ranked through a Delphi exercise, and after that a team of experts will evaluate the guideline. The panel will include scientists, clinicians, researchers, statisticians, computer scientists, engineers, methodologists, and journal editors. The group plans to publish the reporting guideline in March 2024 as an open-access document, later translated to Spanish, French and Chinese.
+
+{{< include ../_template.qmd >}}

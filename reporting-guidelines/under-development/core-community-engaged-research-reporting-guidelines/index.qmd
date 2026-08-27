@@ -1,0 +1,18 @@
+---
+title: 'CORE: Community Engaged Research Reporting Guidelines'
+date-registered: 25 July 2025
+year-registered: 2025
+date-updated: null
+contact-name: Jessica Kersey
+contact-email: jkersey@wustl.edu
+categories:
+- Other
+---
+
+Community-engaged research is a transformative approach to scientific inquiry that fundamentally reimagines the traditional research paradigm. Unlike conventional research methodologies, this approach deliberately integrates diverse interest holders as true co-equal partners throughout the entire research process. This model goes far beyond superficial consultation with community members, instead positioning community members as active co-creators of knowledge, research design, implementation, and interpretation of results. By centering the authentic experiences, perspectives, and expertise of community members, this approach generates research that is inherently more meaningful, contextually relevant, and potentially transformative.
+
+Community-engaged research allows for the development of research questions that emerge directly from community needs and priorities, rather than being solely driven by academic or institutional interests. Consequently, the research methodologies become more nuanced, culturally responsive, and potentially more effective in addressing complex health and social challenges.Reflecting the growing recognition of its value, there are numerous efforts to expand the use of community-engaged research. However, researchers often lack clear, consistent guidance for implementing these complex collaborative approaches. The absence of standardized resources can lead to inconsistent practices that may range from well-intentioned but ineffective to potentially harmful. A lack of sensitivity to the ethical complexity of community-engaged research can ultimately undermine the very goals of meaningful community engagement. Stronger and more explicit guidance is needed to ensure that community-engaged research is rigorous, ethical, and effective.
+
+Standardized reporting guidelines can fill this need. Reporting guidelines have significantly improved research rigor and transparency, efficiency of peer review, and enhance the usability of research. Developing robust, flexible reporting guidelines could serve as a critical tool for ensuring that community engagement is substantive, ethical, and truly reflective of community needs and priorities. By establishing clear standards for documenting engagement processes, power-sharing arrangements, and community benefits, such guidelines would not only enhance research quality and transparency but also facilitate the sharing of best practices across diverse fields and contexts. This approach promises to transform community-engaged research from a well-intentioned but inconsistently applied concept to a rigorous and genuinely collaborative approach to scientific research.Because community-engaged research is an approach rather than a specific study design, we envision that these new community-engaged research reporting guidelines will be used as a supplement to existing design-specific reporting guidelines (e.g. CONSORT, STROBE).
+
+{{< include ../_template.qmd >}}

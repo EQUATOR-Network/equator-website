@@ -1,0 +1,164 @@
+---
+# REQUIRED FIELDS
+title: 'Unique identification of research resources in the biomedical literature:
+  the Resource Identification Initiative (RRID)'
+acronym: ''
+provided-for: Reporting the key resources used to produce the scientific findings
+  reported in the biomedical literature such as antibodies, model organisms, and software
+  projects.
+rg-doi: ''
+pmid-id: '[24032093](https://www.ncbi.nlm.nih.gov/pubmed/24032093)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/24032093
+relevant-urls: |-
+  The full-text of this reporting guideline is freely available at: <https://peerj.com/articles/148/>
+
+  Access the summary reporting guideline checklist at: <https://www.force11.org/group/resource-identification-initiative/recommended-reporting-guidelines-life-science-resources>
+full-bibliographic-reference: 'Vasilevsky NA, Brush MH, Paddock H, Ponting L, Tripathy
+  SJ, LaRocca GM, Haendel MA. On the reproducibility of science: unique identification
+  of research resources in the biomedical literature. PeerJ. 2013;1:e148.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://www.force11.org/group/resource-identification-initiative/>
+additional-languages: ''
+additional-information: 'The Resource Identification Portal is available at: <http://scicrunch.com/resources>'
+relevant-editorials: 'Bandrowski AE, Martone ME. RRIDs: A Simple Step toward Improving
+  Reproducibility through Rigor and Transparency of Experimental Methods. Neuron.
+  2016;90(3):434-6. PMID: [27151636](https://www.ncbi.nlm.nih.gov/pubmed/27151636)'
+primary-guideline: ''
+other: |-
+  Read about this initiative:
+
+  Bandrowski A, Brush M, Grethe JS et al. The Resource Identification Initiative: A cultural shift in publishing [version 2; referees: 2 approved]. F1000Research 2015, 4:134. PMID: [26594330](https://www.ncbi.nlm.nih.gov/pubmed/26594330)
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+- Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- antibodies
+- antibody
+- biologic
+- biological resource
+- biological resources
+- biologics
+- bioresource
+- bioresources
+- cell line
+- cell lines
+- constructs
+- database
+- databases
+- knockdown reagent
+- knockdown reagents
+- model organisms
+- organism
+- organisms
+- research resource identifier
+- research resource identifiers
+- resource identification
+- resource identification initiative
+- RRID
+- RRIDs
+- sequence molecule
+- sequence molecules
+- software
+
+---
+
+{{< include ../_template.qmd >}}

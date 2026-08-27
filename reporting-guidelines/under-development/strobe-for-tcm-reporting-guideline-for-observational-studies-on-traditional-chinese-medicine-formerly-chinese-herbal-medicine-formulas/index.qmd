@@ -1,0 +1,22 @@
+---
+title: STROBE for TCM - Reporting Guideline for observational studies on Traditional Chinese Medicine (formerly Chinese Herbal Medicine Formulas)
+date-registered: 29 July 2019
+year-registered: 2019
+date-updated: null
+contact-name: Professor Zhaoxiang Bian, Hong Kong Chinese Medicine Clinical Study Centre, School of Chinese Medicine, Hong Kong Baptist University.
+contact-email: bianzxiang@gmail.com
+categories:
+- Observational studies
+---
+
+Chinese herbal medicine (CHM) formulas are the major components of traditional Chinese medicine interventions. The group aims to develop an extension of STROBE focused on CHM, to enhance the transparency and quality of observational studies on CHM, and following the methodology recommended by the EQUATOR Network.
+
+The development of STROBE for CHM started on 1st July 2019, with a literature review to draft the checklist items. The group will establish an international multidisciplinary team, including a Development Group, a Delphi Panellists Group, and an Advisory Group, and run three rounds of modified Delphi surveys, face-to-face consensus meetings, consultations with advisors, pilot tests of the draft list of reports and promotion of the checklist.
+
+**September 2019 Update**: please note that the reporting guideline development group originally planned to focus this guideline on Chinese herbal medicine (CHM) but following a literature review broadened the scope to cover traditional Chinese medicine (TCM). The title of this reporting guideline under development has therefore been revised in order to reflect this change.
+
+**August 2020 Update**: the group informs they finished a systematic review on the quality of reporting of cohort, case-control and cross-sectional studies on TCM, to be published soon. They plan to contact-the original STROBE authors for comments and suggestions before drafting the initial checklist.
+
+The group plans to publish the reporting guideline as an open-access document on December 2022.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,29 @@
+---
+title: The UK EQUATOR Centre
+date: ''
+listing:
+    id: listing
+    contents: 
+    - ../about/people/*qmd
+    include: 
+        centre: uk
+    image-align: left
+    sort: order
+---
+
+The UK EQUATOR Centre is run by Professor Gary Collins at the University of Birmingham. The UK Centre is the head office of the EQUATOR Network. The Centre works with partner organisations and initiatives and contributes to the work of the EQUATOR Network as a whole.
+
+The UK EQUATOR Centre's work includes:
+
+- Development and maintenance of the EQUATOR Network website and resources.
+- Maintaining the world's only comprehensive database of reporting guidelines.
+- [Education and training](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school) led by the branch at the University of Oxford.
+- Organising workshops, courses, seminars, conferences for researchers, research students, editors and peer reviewers.
+- Collaborative activities to raise reporting standards.
+- Developing new reporting guidelines.
+- Implementation research to increase adherence to reporting guidelines.
+
+## Staff
+
+::: {#listing}
+:::

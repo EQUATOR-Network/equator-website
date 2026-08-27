@@ -1,0 +1,143 @@
+---
+# REQUIRED FIELDS
+title: 'Checklist for Artificial Intelligence in Medical Imaging (CLAIM) : 2024 Update'
+acronym: CLAIM
+provided-for: Reporting of artificial intelligence (AI) in Medical Imaging studies.
+rg-doi: ''
+pmid-id: '[38809149](https://pubmed.ncbi.nlm.nih.gov/38809149/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38809149/
+relevant-urls: '[Read the full-text](https://pubs.rsna.org/doi/10.1148/ryai.240300)
+  of the CLAIM reporting guideline.'
+full-bibliographic-reference: 'Tejani AS, Klontzas ME, Gatti AA, Mongan JT, Moy L,
+  Park SH, Kahn CE Jr; CLAIM 2024 Update Panel. Checklist for Artificial Intelligence
+  in Medical Imaging (CLAIM): 2024 Update. Radiol Artif Intell. 2024;6(4):e240300.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: 'Mongan J, Moy L, Kahn CE Jr. Checklist for Artificial Intelligence
+  in Medical Imaging (CLAIM): A Guide for Authors and Reviewers. Radiol Artif Intell.
+  2020;2(2):e200029. PMID: [33937821](https://pubmed.ncbi.nlm.nih.gov/33937821/)'
+relevant-more: ''
+website-url: <https://pubs.rsna.org/page/ai/claim>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+- Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- AI
+- artificial intelligence
+- checklist
+- Checklist for AI in Medical Imaging
+- checklists
+- CLAIM
+- CLAIM 2024
+- CLAIM checklist
+- image
+- imaging
+- medical image
+- medical images
+- medical imaging
+- radiology
+
+---
+
+{{< include ../_template.qmd >}}

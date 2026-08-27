@@ -1,0 +1,181 @@
+---
+# REQUIRED FIELDS
+title: 'Development of the Standards of Reporting of Neurological Disorders (STROND)
+  checklist: A guideline for the reporting of incidence and prevalence studies in
+  neuroepidemiology'
+acronym: STROND
+provided-for: Reporting of incidence and prevalence studies in neuroepidemiology.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Bennett DA, Brayne C, Feigin VL, Barker-Collo S, Brainin M, Davis D, Gallo V, Jetté N, Karch A, Kurtzke JF, Lavados PM, Logroscino G, Nagel G, Preux PM, Rothwell PM, Svenson LW. Development of the Standards of Reporting of Neurological Disorders (STROND) checklist: A guideline for the reporting of incidence and prevalence studies in neuroepidemiology.
+
+  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
+
+  Neurology. 2015;85(9):821-828. PMID: [26163431](http://www.ncbi.nlm.nih.gov/pubmed/26163431)
+
+  Eur J Epidemiol. 2015 Jul;30(7):569-576. PMID: [26088602](http://www.ncbi.nlm.nih.gov/pubmed/26088602)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Bennett DA, Brayne C, Feigin VL, Barker-Collo
+  S, Brainin M, Davis D, Gallo V, Jetté N, Karch A, Kurtzke JF, Lavados PM, Logroscino
+  G, Nagel G, Preux PM, Rothwell PM, Svenson LW. Explanation and Elaboration of the
+  Standards of Reporting of Neurological Disorders Checklist: A Guideline for the
+  Reporting of Incidence and Prevalence Studies in Neuroepidemiology. Neuroepidemiology.
+  2015;45(2):113-137. PMID: [26390430](http://www.ncbi.nlm.nih.gov/pubmed/26390430)'
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: |-
+  Resources produced during the development of this reporting guideline:
+
+  [Project outline (PDF)](6010_Guidelines+for+the+Reporting+of+Neuro-Epidemiological+Studies.pdf) (March 2013)
+
+  [Conference presentation (PDF)](6028_ICNE_Nice_talk_Nov_2012.pdf) outlining the project
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- burden
+- checklist
+- checklists
+- description
+- descriptive
+- descriptive health policy research
+- descriptive health research
+- epidemiological
+- epidemiological studies
+- epidemiological study
+- epidemiology
+- global burden
+- incidence
+- incidence and prevalence studies
+- incidence and prevalence study
+- incidence studies
+- incidence study
+- neuroepidemiological
+- neuroepidemiology
+- neurologic condition
+- neurologic conditions
+- neurologic disease
+- neurologic diseases
+- neurologic disorder
+- neurologic disorders
+- neurological
+- neurological condition
+- neurological conditions
+- neurological disease
+- neurological diseases
+- neurological disorder
+- neurological disorders
+- neurology
+- prevalence
+- prevalence studies
+- prevalence study
+- STROND
+- STROND checklist
+
+---
+
+{{< include ../_template.qmd >}}

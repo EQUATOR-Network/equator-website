@@ -1,0 +1,166 @@
+---
+# REQUIRED FIELDS
+title: Utstein-style guidelines on uniform reporting of in-hospital cardiopulmonary
+  resuscitation in dogs and cats
+acronym: ''
+provided-for: Reporting clinical in-hospital cardiopulmonary resuscitation (CPR) events
+  in dogs and cats.
+rg-doi: ''
+pmid-id: '[26744261](http://www.ncbi.nlm.nih.gov/pubmed/26744261)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/26744261
+relevant-urls: ''
+full-bibliographic-reference: 'Boller M, Fletcher DJ, Brainard BM, Haskins S, Hopper
+  K, Nadkarni VM, Morley PT, McMichael M, Nishimura R, Robben JH, Rozanski E, Rudloff
+  E, Rush J, Shih A, Smarick S, Tello LH. Utstein-style guidelines on uniform reporting
+  of in-hospital cardiopulmonary resuscitation in dogs and cats. A RECOVER statement.
+  J Vet Emerg Crit Care (San Antonio). 2016;26(1): 11-34.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+- Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+- Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- animal
+- animals
+- cardiac
+- cardiac arrest
+- cardiopulmonary
+- cardiopulmonary arrest
+- cardiopulmonary emergencies
+- cardiopulmonary emergency
+- cardiopulmonary resuscitation
+- cardiopulmonary resuscitation studies
+- cardiopulmonary resuscitation study
+- cat
+- cats
+- CPA
+- CPR
+- CPR studies
+- CPR study
+- CPR terminology
+- dog
+- dogs
+- in hospital 'Utstein style'
+- in hospital resuscitation
+- small animal
+- small animal veterinary medicine
+- small animals
+- Utstein
+- Utstein style
+- vet
+- veterinary
+- veterinary CPR research
+- veterinary in hospital
+- veterinary in hospital CPR studies
+- veterinary in hospital CPR study
+- veterinary medicine
+- veterinary practice
+- veterinary research
+
+---
+
+{{< include ../_template.qmd >}}

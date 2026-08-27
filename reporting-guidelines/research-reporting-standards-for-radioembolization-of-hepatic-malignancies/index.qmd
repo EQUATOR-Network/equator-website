@@ -1,0 +1,163 @@
+---
+# REQUIRED FIELDS
+title: Research reporting standards for radioembolization of hepatic malignancies
+acronym: ''
+provided-for: Reporting clinical studies of radioembolization of hepatic malignancies
+rg-doi: ''
+pmid-id: '[21353979](http://www.ncbi.nlm.nih.gov/pubmed/21353979)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/21353979
+relevant-urls: ''
+full-bibliographic-reference: Salem R, Lewandowski RJ, Gates VL, Nutting CW, Murthy
+  R, Rose SC, Soulen MC, Geschwind JF, Kulik L, Kim YH, Spreafico C, Maccauro M, Bester
+  L, Brown DB, Ryu RK, Sze DY, Rilling WS, Sato KT, Sangro B, Bilbao JI, Jakobs TF,
+  Ezziddin S, Kulkarni S, Kulkarni A, Liu DM, Valenti D, Hilgard P, Antoch G, Muller
+  SP, Alsuhaibani H, Mulcahy MF, Burrel M, Real MI, Spies S, Esmail AA, Raoul JL,
+  Garin E, Johnson MS, Benson AB 3rd, Sharma RA, Wasan H, Lambert B, Memon K, Kennedy
+  AS, Riaz A; Technology Assessment Committee; Interventional Oncology Task Force
+  of the Society of Interventional Radiology. Research reporting standards for radioembolization
+  of hepatic malignancies. J Vasc Interv Radiol. 2011;22(3):265-278.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+- Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+- Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+- Harms/adverse effects/safety data
+- Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+- Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- carcinoma
+- cost
+- cost effectiveness
+- costs
+- embolisation
+- embolization
+- gastroenterology
+- HCC
+- hepatic
+- hepatic malignancies
+- hepatic malignancy
+- hepatocellular
+- hepatocellular carcinoma
+- image guided
+- intrahepatic cholangiocarcinoma
+- liver
+- liver cancer
+- liver neoplasm
+- liver neoplasms
+- liver tumor
+- liver tumors
+- liver tumour
+- liver tumours
+- malignancies
+- malignancy
+- oncology
+- radioembolisation
+- radioembolization
+- radiology
+- transcatheter tumor therapy
+- transcatheter tumour therapy
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,181 @@
+---
+# REQUIRED FIELDS
+title: Reporting standards for endovascular treatment of pulmonary embolism
+acronym: ''
+provided-for: Endovascular treatment of pulmonary embolism
+rg-doi: ''
+pmid-id: '[20123190](http://www.ncbi.nlm.nih.gov/pubmed/20123190)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/20123190
+relevant-urls: ''
+full-bibliographic-reference: Banovac F, Buckley DC, Kuo WT, Lough DM, Martin LG,
+  Millward SF, Clark TW, Kundu S, Rajan DK, Sacks D, Cardella JF; Technology Assessment
+  Committee of the Society of Interventional Radiology. Reporting standards for endovascular
+  treatment of pulmonary embolism. J Vasc Interv Radiol. 2010;21(1):44-53.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+- Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+- Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- anticoagulation
+- catheter directed therapy
+- catheter directed thrombolysis
+- CDT
+- clinical trial
+- clinical trials
+- deep venous thrombosis
+- DVT
+- embolisation
+- embolism
+- embolization
+- endovascular
+- endovascular therapies
+- endovascular therapy
+- endovascular treatment
+- experimental studies
+- experimental study
+- inferior vena cava
+- IVC
+- IVC filter
+- IVC filters
+- mechanical thrombectomy
+- non-RCT
+- non-RCTs
+- nonrandomised trial
+- nonrandomized trial
+- PE
+- pulmonary embolism
+- radiological
+- radiology
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- Randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- respiratory
+- respiratory medicine
+- surgery
+- surgical
+- surgical embolectomy
+- systemic thrombolytic therapy
+- thrombectomy
+- thromboembolic
+- thrombolysis
+- thrombolytic
+- thrombolytic therapy
+- trial
+- trials
+- vascular
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,25 @@
+# Identifying the need for a new reporting guideline
+
+Before developing a new reporting guideline, we suggest you consider four questions:
+
+## 1. Are research reports in this particular area reported badly?
+
+Is there evidence that research reports are missing information that most readers/users need? A new reporting guideline is not required if the missing details are not useful to researchers reading the published paper. It is important to identify who the potential users of these research studies are and what information they need to understand, replicate, and/or make further use of the research report.
+
+## 2. Do the authors of poorly reported studies use an existing reporting guideline?
+
+There are already reporting guidelines available for all of the broad study design types. Before you develop a new reporting guideline, you should have concrete evidence that research reports are still missing essential information even when authors use these general reporting guidelines. If authors are not using the existing general reporting guidelines, a new reporting guideline is not necessarily required. Instead, an awareness-raising and education campaign in your field highlighting existing reporting guidelines would be more appropriate.
+
+## 3. Is there an existing reporting guideline that authors could be using?
+
+Even if there is concrete evidence that authors are using existing guidelines and still missing essential information, a new reporting guideline may not be the answer. Authors may not be using the right reporting guideline for their work. Check if there is a guideline or extension for a particular speciality that would actually solve the reporting problem in your area. There are many reporting guidelines available ([in our database](/reporting-guidelines)) and it is important to make sure that none of these is sufficient to address the problem that you have identified. Again, if you find a reporting guideline that would solve your area’s problems, an awareness-raising and education campaign would be more appropriate.
+
+## 4. Are the existing reporting guidelines specific enough for your area?
+
+You’ve determined that authors are using the right general reporting guideline but are still missing essential information. Now consider whether a completely new reporting guideline is required or whether a few extra reporting items could be added to an existing reporting guideline. If all that is needed is to add a few items, then extending an existing guideline is more appropriate than creating a completely new guideline.
+
+Considering each of these questions will ensure that your plans and ideas for developing a reporting guideline are well thought through and focused, and that your work will positively contribute to efforts to improve the quality of published research literature.
+
+## What’s the difference between a reporting guideline and an extension?
+
+An extension to a reporting guideline typically builds on the existing guideline. It just adds or expands a few items to make the guideline work even better for a particular sub-study design or clinical area. It doesn’t add items that aren’t related to that area – it uses the main guideline as the backbone. To make an extension official, the original guideline development team should be aware of the extension and one member of that team should be involved in the extension’s development.

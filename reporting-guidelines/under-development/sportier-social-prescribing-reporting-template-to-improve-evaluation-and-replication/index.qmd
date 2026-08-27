@@ -1,0 +1,19 @@
+---
+title: 'SPoRTIER: Social Prescribing Reporting Template to Improve Evaluation and Replication'
+date-registered: 28 August 2018
+year-registered: 2018
+date-updated: null
+contact-name: Sarah Hotham
+contact-email: S.Hotham@kent.ac.uk
+categories:
+- Observational studies
+---
+
+This guideline is being developed by researchers at the Centre for Health Services Studies, University of Kent, to improve the quality and completeness of reporting for Social Prescribing programmes. Social prescribing provides a non-medical referral option to improve health and wellbeing. Referrals can be to a range of programmes from befriending schemes, volunteering opportunities, supported education, arts, physical activity, as well as support with employment or legal advice.
+
+Different Social Prescribing models have evolved across England reflecting local needs, service provider expertise and commissioning contracts. Consequently, models vary greatly in terms of aims of the service, delivery partners, referral pathways, staffing, and service user outcomes making it difficult to identify features of a successful model, for whom social prescribing benefits, and under what circumstances.
+
+SPoRTIER will provide a standardised useable template to capture contextual details on different programmes and how these programmes are being implemented to aid understanding of how social prescribing contributes to changes in health and wellbeing.
+Development of SPoRTIER is based on the EQUATOR Network methodological framework for developing reporting guidelines.
+
+{{< include ../_template.qmd >}}

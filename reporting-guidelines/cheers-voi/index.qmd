@@ -1,0 +1,181 @@
+---
+# REQUIRED FIELDS
+title: CHEERS Value of Information (CHEERS-VOI) Reporting Standards – Explanation
+  and Elaboration
+acronym: CHEERS-VOI
+provided-for: Reporting economic evaluations that include a value of information (VOI)
+  analysis.
+rg-doi: ''
+pmid-id: '[37414276](https://pubmed.ncbi.nlm.nih.gov/37414276/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37414276/
+relevant-urls: ''
+full-bibliographic-reference: Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau
+  D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI)
+  Reporting Standards - Explanation and Elaboration. Value Health. 2023.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  **Generic**
+
+  [**CHEERS**](/reporting-guidelines/cheers/): Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf J, Mullins CD, Petrou S, Pwu RF, Staniszewska S; CHEERS 2022 ISPOR Good Research Practices Task Force. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Statement: Updated Reporting Guidance for Health Economic Evaluations.
+
+  Value Health. 2022;25(1):3-9. PMID: [35031096](https://pubmed.ncbi.nlm.nih.gov/35031096/)
+
+  BMC Med. 2022;20(1):23. PMID: [35022047](https://pubmed.ncbi.nlm.nih.gov/35022047/)
+
+  J Manag Care Spec Pharm. 2022:1-10. PMID: [35016547](https://pubmed.ncbi.nlm.nih.gov/35016547/)
+
+  BMJ. 2022;376:e067975. PMID: [35017145](https://pubmed.ncbi.nlm.nih.gov/35017145/)
+
+  Pharmacoeconomics. 2022. PMID: [35015272](https://pubmed.ncbi.nlm.nih.gov/35015272/)
+
+  Appl Health Econ Health Policy. 2022. PMID: [35015207](https://pubmed.ncbi.nlm.nih.gov/35015207/)
+
+  Int J Technol Assess Health Care. 2022;38(1):e13. PMID: [35007499](https://pubmed.ncbi.nlm.nih.gov/35007499/)
+
+  J Med Econ. 2022;25(sup1):1-7. PMID: [35012427](https://pubmed.ncbi.nlm.nih.gov/35012427/)
+
+  BJOG. 2022;129(3):336-344. PMID: [35014160](https://pubmed.ncbi.nlm.nih.gov/35014160/)
+
+  Eur J Health Econ. 2022. PMID: [35084632](https://pubmed.ncbi.nlm.nih.gov/35084632/)
+
+  BMC Health Serv Res. 2022;22(1):114. PMID: [35081957](https://pubmed.ncbi.nlm.nih.gov/35081957/)
+
+  BMC Public Health. 2022;22(1):179. PMID: [35081920](https://pubmed.ncbi.nlm.nih.gov/35081920/)
+
+  Health Policy OPEN. [Volume 3, December 2022](https://doi.org/10.1016/j.hpopen.2021.100063).
+
+  MDM Policy Pract. 2022;7(1):23814683211061097. PMID: [35036563](https://pubmed.ncbi.nlm.nih.gov/35036563/)
+
+  Clin Ther. 2022;S0149-2918(22)00016-9. PMID: [35168801](https://pubmed.ncbi.nlm.nih.gov/35168801/)
+
+  **Specialised**
+
+  [**CHEERS-AI**](/reporting-guidelines/consolidated-health-economic-evaluation-reporting-standards-for-interventions-that-use-artificial-intelligence-cheers-ai/): Elvidge J, Hawksworth C, Avşar TS, Zemplenyi A, Chalkidou A, Petrou S, Petykó Z, Srivastava D, Chandra G, Delaye J, Denniston A, Gomes M, Knies S, Nousios P, Siirtola P, Wang J, Dawoud D. Consolidated Health Economic Evaluation Reporting Standards for Interventions that use Artificial Intelligence (CHEERS-AI). Value Health. 2024:S1098-3015(24)02366-0. PMID: [38795956](https://pubmed.ncbi.nlm.nih.gov/38795956/)
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: true
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+- Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- CHEERS extension
+- CHEERS-VOI
+- CHEERS-VOI checklist
+- cost
+- costs
+- economic
+- economic evaluation
+- economic evaluations
+- economics
+- value
+- value of information
+- VOI
+- VOI analyses
+- VOI analysis
+
+---
+
+{{< include ../_template.qmd >}}

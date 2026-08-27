@@ -1,0 +1,18 @@
+---
+title: 'A reporting tool for evidence-based guidelines on Chinese medicine for public health emergencies: an extension of the RIGHT statement'
+date-registered: 9 January 2023
+year-registered: 2023
+date-updated: null
+contact-name: Xiaojia Ni; Yaolong Chen
+contact-email: grace1984325@126.com; chenyaolong@lzu.edu.cn
+categories:
+- Other
+---
+
+A group of Chinese researchers secured funding to conduct this study aiming to develop reporting standard for scientific reports on the formulation process of evidence-based guidelines for Chinese medicine in response to public health emergencies. This will be an extension of the RIGHT Statement, and the authors inform they obtained approval for the development from the RIGHT working group.
+
+The work started in April 2022 with a literature review of existing clinical practice guidelines on Chinese medicine for public health emergencies, including a content analysis, a reporting quality assessment and a systematic review of methodological research, aiming at generating the initial checklist. In a second step, a semi-structured interview of potential users of the reporting tool, aiming at revising the checklist, will be conducted, followed by a Delphi exercise.
+
+Developers plan to publish this reporting guideline in 2024, as an open access document.
+
+{{< include ../_template.qmd >}}

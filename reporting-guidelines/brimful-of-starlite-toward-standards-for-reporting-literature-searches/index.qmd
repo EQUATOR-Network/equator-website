@@ -1,0 +1,137 @@
+---
+# REQUIRED FIELDS
+title: '“Brimful of STARLITE ”: toward standards for reporting literature searches'
+acronym: STARLITE
+provided-for: Reporting literature searches.
+rg-doi: ''
+pmid-id: '[17082834](http://www.ncbi.nlm.nih.gov/pubmed/17082834)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/17082834
+relevant-urls: ''
+full-bibliographic-reference: 'Booth A. "Brimful of STARLITE": toward standards for
+  reporting literature searches. J Med Libr Assoc. 2006;94(4):421-429, e205.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: |-
+  For terminology and reporting of citation searching use the TARCiS Checklist
+
+  [Word](https://ub.unibas.ch/fileadmin/user_upload/universitaetsbibliothek/Universitaetsbibliothek/5_Standorte/UB_Medizin/TARCiS/TARCiS_Checklist_for_Terminology_and_Reporting_of_Citation_Searching.docx) | [PDF](https://ub.unibas.ch/fileadmin/user_upload/universitaetsbibliothek/Universitaetsbibliothek/5_Standorte/UB_Medizin/TARCiS/TARCiS_Checklist_for_Terminology_and_Reporting_of_Citation_Searching.pdf) | [TARCiS website](https://ub.unibas.ch/de/ub-medizin/tarcis/)
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- information retrieval
+- IR
+- literature search
+- literature searches
+- literature searching
+- search
+- search method
+- search methods
+- STARLITE
+
+---
+
+{{< include ../_template.qmd >}}

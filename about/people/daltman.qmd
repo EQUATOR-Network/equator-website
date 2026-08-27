@@ -1,0 +1,12 @@
+---
+title: Doug Altman (1948-2018)
+subtitle: Founding Director of the UK EQUATOR Centre
+image: daltman.jpeg
+path: https://www.ndorms.ox.ac.uk/news/thank-you-doug-altman
+centre: uk
+order: 5
+---
+
+Professor Doug Altman was Professor of Statistics in Medicine at the University of Oxford, UK and founder of the Centre for Statistics in Medicine. He was a co-founder of the EQUATOR Network, chair of the EQUATOR Steering Group, and Founding Director of the UK EQUATOR Centre.
+
+Doug published over 800 articles in peer-reviewed journals, including many aimed at clarifying statistical methods and ideas for medical researchers. He was the author of Practical Statistics for Medical Research (1991) and co-editor of Statistics with Confidence (1989 and 2000) and Systematic Reviews in Health Care (1995 and 2001). He was a statistical advisor to the Cochrane Collaboration and the BMJ. Doug had a long-standing interest in the reporting of medical research and was an executive member of several groups working on reporting guidelines, including CONSORT for randomised trials, QUOROM / PRISMA for systematic reviews, STROBE for epidemiological studies, and REMARK for tumour marker prognostic studies.

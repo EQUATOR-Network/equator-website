@@ -1,0 +1,151 @@
+---
+# REQUIRED FIELDS
+title: Preferred Reporting Of Case Series in Surgery (PROCESS) 2023 guidelines
+acronym: PROCESS
+provided-for: Reporting surgical case series.
+rg-doi: ''
+pmid-id: '[37988417](https://pubmed.ncbi.nlm.nih.gov/37988417/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37988417/
+relevant-urls: ''
+full-bibliographic-reference: Mathew G, Sohrabi C, Franchi T, Nicola M, Kerwan A,
+  Agha R; PROCESS Group. Preferred Reporting Of Case Series in Surgery (PROCESS) 2023
+  guidelines. Int J Surg. 2023;109(12):3760-3769.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: |-
+  The PROCESS reporting guideline was originally published in 2016 and updated in 2018 and 2020.
+
+  2016
+
+  Agha RA, Fowler AJ, Rajmohan S, Barai I, Orgill DP; PROCESS Group. Preferred reporting of case series in surgery; the PROCESS guidelines. Int J Surg. 2016;36 (Pt A):319-323. PMID: [27770639](https://www.ncbi.nlm.nih.gov/pubmed/27770639)
+
+  2018 update
+
+  Agha RA, Borrelli MR, Farwana R, Koshy K, Fowler A, Orgill DP; SCARE Group. The PROCESS 2018 Statement: Updating Consensus Preferred Reporting Of CasE Series in Surgery (PROCESS) Guidelines. Int J Surg. 2018. PMID: [30359781](https://www.ncbi.nlm.nih.gov/pubmed/30359781)
+
+  2020 update
+
+  Agha RA, Sohrabi C, Mathew G, Franchi T, Kerwan A, O'Neill N; PROCESS Group. The PROCESS 2020 Guideline: Updating Consensus Preferred Reporting Of CasE Series in Surgery (PROCESS) Guidelines. Int J Surg. 2020:S1743-9191(20)30779-2. PMID: [33189880](https://pubmed.ncbi.nlm.nih.gov/33189880/)
+relevant-more: ''
+website-url: <http://www.processguideline.com/>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- case report
+- case series
+- checklist
+- checklists
+- PROCESS
+- PROCESS checklist
+- PROCESS guideline
+- PROCESS guidelines
+- surgery
+- surgery case series
+- surgical
+- surgical case series
+
+---
+
+{{< include ../_template.qmd >}}

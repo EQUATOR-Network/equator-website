@@ -1,0 +1,28 @@
+---
+title: TAE-ACU - The Terminology criteria of Adverse Events for ACUpuncture
+date-registered: 29 July 2024
+year-registered: 2024
+date-updated: null
+contact-name: Yan Shiyan
+contact-email: yanshiyan@bucm.edu.cn
+categories:
+- Other
+---
+
+Standardized adverse events terminology is crucial for consistent reporting and effective scrutiny of adverse events information. Unlike pharmacological therapy, acupuncture therapy presents some different types and attributes of adverse events.
+
+This project will develop an exhaustive terminology criteria of adverse events for acupuncture, in which each terminology will include an English translation, severity classification, and precise explanations.
+
+The group developing this guidance has planned the steps of their work:
+
+- Set up a core executive group to provide constructive guidance for each stage of development of the terminology criteria and oversee the development. The executive group will include content experts for acupuncture, methodologists, medical terminology expert, medical English expert, and patients and public representatives.
+- The executive group will deliberate and finalise the research scope of the terminology and the reference terminology blueprint.
+- A literature research, Delphi questionnaire surveys, and other research methods will be used to methodically collect acupuncture adverse event terminologies.
+- In accordance with the predetermined rules, standardise and normalise the collected terminologies; classify and grade the encoded terminologies.
+- Establish English translations for all terminologies.
+- Determine the definitions of all terminologies.
+- Maintain and update the terminology criteria continuously.
+
+The group plans to publish the guidance in 2027. They have not given information about funding for the project or whether the guidance will be published open access.
+
+{{< include ../_template.qmd >}}

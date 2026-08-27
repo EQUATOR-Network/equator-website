@@ -1,0 +1,148 @@
+---
+# REQUIRED FIELDS
+title: EACTS / ESCVS best practice guidelines for reporting treatment results in the
+  thoracic aorta
+acronym: ''
+provided-for: Reporting results of treatment in the thoracic aorta
+rg-doi: ''
+pmid-id: '[19339194](http://www.ncbi.nlm.nih.gov/pubmed/19339194)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/19339194
+relevant-urls: ''
+full-bibliographic-reference: Turina MI, Shennib H, Dunning J, Cheng D, Martin J,
+  Muneretto C, Schueler S, von Segesser L, Sergeant PT; EACTS/ESCVS committee. EACTS/ESCVS
+  best practice guidelines for reporting treatment results in the thoracic aorta.
+  Eur J Cardiothorac Surg. 2009;35(6):927-930.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+- Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+- Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+- Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- aneurysm
+- aorta
+- aortic
+- cardiothoracic
+- cardiovascular medicine
+- EACTS
+- endovascular
+- endovascular device
+- endovascular devices
+- endovascular mode
+- ESCVS
+- EVAR
+- OPEN
+- open surgical repair
+- surgery
+- surgical
+- TEVAR
+- thoracic
+- thoracic aorta
+- thoracic endovascular repair
+
+---
+
+{{< include ../_template.qmd >}}

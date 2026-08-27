@@ -1,0 +1,17 @@
+---
+title: 'POCUS-REPORT: Reporting Guideline for Clinical and Research Studies Using Point-of-Care Ultrasound'
+date-registered: 17 June 2025
+year-registered: 2025
+date-updated: null
+contact-name: Rosana Aparecida Pereira, POCUS Innovation and Research Hub, affiliated with the University of São Paulo at Ribeirão Preto College of Nursing. ; Fernanda Raphael Escobar Gimenes, University of São Paulo at Ribeirão Preto College of Nursing.
+contact-email: rosanna.pereira@gmail.com; fregimenes@eerp.usp.br
+categories:
+- Observational studies
+---
+
+Recent literature has highlighted both the increasing use of POCUS and the need for greater methodological rigour and standardisation in the way these studies are conducted and reported . The use of bedside ultrasound has expanded significantly across various medical specialties, driven by its ability to provide rapid, non-invasive, and low-cost assessments at the point of care , . However, several authors emphasise the importance of appropriate professional training, standardisation of techniques, and the application of validated protocols to ensure the safety and effectiveness of the method.
+
+Despite the existence of general reporting guidelines such as STARD, CONSORT, and PRISMA, these do not account for the methodological specificities associated with POCUS. This method possesses unique characteristics, such as strong operator dependence, variation in image acquisition protocols, different types of equipment, and the integration of the examination within the immediate clinical context. These particularities directly impact the internal and external validity of studies and, consequently, their applicability in clinical practice.
+Given this scenario, the need for a new reporting guideline that addresses the specificities of POCUS is justified, with the aim of promoting greater transparency, standardisation, and methodological rigour in scientific communication. Such an initiative will contribute to improving the quality of published studies, facilitate the replication of research, strengthen the evidence base, and support clinicians, researchers, peer reviewers, and editors in the critical appraisal of studies involving bedside ultrasound.
+
+{{< include ../_template.qmd >}}

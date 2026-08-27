@@ -1,0 +1,199 @@
+---
+# REQUIRED FIELDS
+title: 'Developing the Clarity and Openness in Reporting: E3-based (CORE) reference
+  user manual for creation of clinical study reports in the era of clinical trial
+  transparency'
+acronym: CORE Reference
+provided-for: Reporting clinical study reports (CSRs).
+rg-doi: ''
+pmid-id: '[29451540](https://pubmed.ncbi.nlm.nih.gov/29451540/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/29451540/
+relevant-urls: |-
+  The full-text of this reporting guideline is freely available from: <http://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-016-0009-4>
+
+  The CORE Reference Manual and Mapping Tool can be downloaded from:
+
+  <http://www.core-reference.org/core-reference/>
+full-bibliographic-reference: 'Hamilton S, Bernstein AB, Blakey G, Fagan V, Farrow
+  T, Jordan D, Seiler W, Shannon A, Gertel A and for the Budapest Working Group. Developing
+  the Clarity and Openness in Reporting: E3-based (CORE) reference user manual for
+  creation of clinical study reports in the era of clinical trial transparency. Res
+  Integr Peer Rev. 2016;1(4).'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <http://​www.​core-reference.​org>
+additional-languages: ''
+additional-information: |-
+  Additional documents prepared during the development of this guideline:
+
+  Hamilton, S, Seiler W, Gertel A. The EMWA Budapest Working Group: A 2-year collaboration to make recommendations for aligning the ICH E3 guidance with current practice and developing clinical study protocol guidance. Medical Writing 2014;23(4):281-288. [Link to paper](http://www.tandfonline.com/doi/full/10.1179/2047480614Z.000000000254)
+
+  [Press release (PDF)](http://www.emwa.org/Documents/CORE%20Press%20Release-28jan15_final.pdf) dated 28 January 2015
+
+  CORE Reference BWG [team members list (PDF)](http://www.emwa.org/Documents/CORE%20Team-02feb15.pdf)
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- Budapest Working Group
+- CCI
+- clarity and openness in reporting
+- clinical studies
+- clinical study
+- clinical study report
+- clinical study reports
+- clinical trial
+- clinical trials
+- commercially confidential information
+- CORE
+- CORE Reference
+- CORE Reference user manual
+- CSR
+- CSRs
+- disclosure
+- disclosure-ready
+- drug
+- E3
+- E3-based
+- E3-based reference
+- EMA Policy 0070
+- ICH E3
+- ICH guidelines
+- interventional
+- interventional clinical studies
+- interventional clinical study
+- medicinal
+- personal protected data
+- personal protected information
+- pharmaceutical
+- Policy 0070
+- PPD
+- PPI
+- proactive anonymisation
+- proactive anonymization
+- randomised clinical trial
+- randomised clinical trials
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized clinical trial
+- randomized clinical trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- regulatory
+- study report
+- study reports
+- therapeutic
+- transparency
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,22 @@
+---
+title: 'COREMILK: COnsensus Guidelines for REsearch on Human MILK'
+date-registered: 25 July 2025
+year-registered: 2025
+date-updated: null
+contact-name: Lisa Stinson, The University Western Australia.
+contact-email: Lisa.stinson@uwa.edu.au
+categories:
+- Observational studies
+---
+
+Human milk research is an expanding and critical field with important implications for maternal and infant health, yet methodological reporting across human milk composition studies is highly variable and frequently incomplete. The proposed reporting guideline, COREMILK (COnsensus Guidelines for REsearch on Human MILK), will provide a standardized framework for reporting research focused on human milk composition analysis.
+
+This guideline will apply to studies investigating any component of human milk (macronutrients, micronutrients, bioactives, microbiota, contaminants, and other constituents) across different populations and contexts. It will cover observational studies, interventional studies, and method development or validation studies involving analysis of human milk composition. COREMILK will specify minimum essential reporting standards across several key domains, including participant demographics, lactation and feeding practices, milk sample collection, handling and storage methods, analytical procedures, and statistical reporting.
+
+A new reporting guideline is urgently needed to address significant inconsistencies in current reporting practices. Critical methodological factors - such as sampling time postpartum, collection technique (hand expression vs. pumping), milk fraction analysed (whole vs. skim), and analytical validation details - are often inadequately described or omitted entirely. These omissions impair reproducibility, prevent robust meta-analyses, and limit the translation of findings into clinical and public health practice. Existing general reporting guidelines (e.g., CONSORT, STROBE) are not tailored to the unique challenges of human milk research and thus cannot fully meet the field’s needs.
+
+By establishing consensus-based reporting standards, COREMILK will strengthen the transparency, comparability, and interpretability of human milk composition research. The guideline is intended to support researchers, reviewers, editors, and funders in improving research quality and accelerating progress in this vital area of maternal and child health science.
+
+- Project page: [https://coremilk.org/](https://coremilk.org/)
+
+{{< include ../_template.qmd >}}

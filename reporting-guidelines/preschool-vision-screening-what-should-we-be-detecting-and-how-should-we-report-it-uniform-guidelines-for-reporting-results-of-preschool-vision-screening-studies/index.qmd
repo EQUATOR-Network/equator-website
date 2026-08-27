@@ -1,0 +1,154 @@
+---
+# REQUIRED FIELDS
+title: 'Preschool vision screening: what should we be detecting and how should we
+  report it? Uniform guidelines for reporting results of preschool vision screening
+  studies'
+acronym: ''
+provided-for: Reporting results of preschool vision screening studies
+rg-doi: ''
+pmid-id: '[14566312](http://www.ncbi.nlm.nih.gov/pubmed/14566312)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/14566312
+relevant-urls: ''
+full-bibliographic-reference: 'Donahue SP, Arnold RW, Ruben JB; AAPOS Vision Screening
+  Committee. Preschool vision screening: what should we be detecting and how should
+  we report it? Uniform guidelines for reporting results of preschool vision screening
+  studies. J AAPOS. 2003;7(5):314-316.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+- Ophthalmology
+- Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- amblyogenic factors
+- amblyopia
+- child
+- children
+- data
+- eye
+- ophthalmic
+- ophthalmology
+- paediatric
+- paediatrics
+- pediatric
+- pediatrics
+- preschool
+- preschool vision screening
+- risk factor
+- risk factors
+- screening
+- sensitivity and specificity data
+- sensitivity data
+- specificity data
+- vision
+- vision loss
+- vision screening
+- visual
+- young people
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,16 @@
+---
+title: PROM-GRIP - Patient-Reported Outcome Measures - Guideline for Reporting In clinical Practice
+date-registered: 5 August 2024
+year-registered: 2024
+date-updated: null
+contact-name: null
+contact-email: null
+categories:
+- Other
+---
+
+Patient-reported outcomes (PROs) are aspects of a patient’s health status that are reported directly by the patient, without interpretation by a healthcare provider or anyone else, which are measured using Patient Reported Outcome Measures (PROMs). According to the developers of this reporting guideline, there is no consensus on what constitutes complete and sufficient reporting in studies of PROM use in clinical practice. Factors such as healthcare provider training in PROM use, how PROM scores are fed back, whether instructions are given on how to act on PROM scores, and whether the patient receives feedback on PROM scores are potentially important points to report. However, there is currently a great deal of variability in what studies report about the use of PROMs in clinical practice. The goal of the group is to improve the quality of reporting in studies that illustrate or evaluate the use of PROMs in clinical practice.
+
+The guideline will be applicable to any study design in which PROMS are used. Development started in 2023, with a systematic review, and a two-round Delphi survey and a consensus meeting are planned, as well as piloting. An implementation and integrated knowledge translation plan will follow. The project is being developed without funding so far, but the group plans to publish the reporting guideline as an open access document in 2025.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,14 @@
+---
+title: MuRMuR-AI - MultiReader Multicase Reporting (MuRMuR) Guidelines, including AI-Assisted Image Interpretation
+date-registered: 22 July 2025
+year-registered: 2025
+date-updated: null
+contact-name: Alex Novak
+contact-email: alex.novak@ouh.nhs.uk
+categories:
+- Other
+---
+
+Multicase multireader studies (MCMRS) are essential for evaluating human diagnostic performance when interpreting medical imaging. However, to date there is no standardised reporting framework, leading to variability in study design, analysis, and interpretation. The increasing use of AI-assisted image interpretation technologies further complicates reporting due to added methodological considerations and detail required in terms of the development of the technologies being evaluated. These evaluations often form a key part of regulatory approval, but there is little consensus or comparability between studies of different AI-led technologies, even for the same use case. This study, using Delphi consensus methodology aligned with the ACCORD reporting guideline, aims to developed consensus-based reporting recommendations to enhance the transparency, reproducibility, and quality of MCMRS, particularly those evaluating the impact of AI-assisted image interpretation technologies on reader accuracy.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,161 @@
+---
+# REQUIRED FIELDS
+title: 'Good research practices for comparative effectiveness research: Defining,
+  reporting and interpreting nonrandomized studies of treatment effects using secondary
+  data sources'
+acronym: ''
+provided-for: Defining, reporting and interpreting nonrandomized studies of treatment
+  effects using secondary data sources
+rg-doi: ''
+pmid-id: '[19793072](http://www.ncbi.nlm.nih.gov/pubmed/19793072)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/19793072
+relevant-urls: ''
+full-bibliographic-reference: 'Berger ML, Mamdani M, Atkins D, Johnson ML. Good research
+  practices for comparative effectiveness research: Defining, reporting and interpreting
+  nonrandomized studies of treatment effects using secondary data sources: The ISPOR
+  good research practices for retrospective database analysis task force report -
+  Part i. Value Health. 2009;12(8):1044-1052.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+- Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- comparative effectiveness
+- comparative effectiveness research
+- data
+- data source
+- data sources
+- database
+- database analysis
+- experimental studies
+- experimental study
+- ISPOR
+- non-randomised
+- non-randomized
+- non-RCT
+- non-RCTs
+- nonrandomised
+- nonrandomised studies
+- nonrandomised study
+- nonrandomized
+- nonrandomized studies
+- nonrandomized study
+- NRS
+- NRSs
+- retrospective
+- retrospective database analysis
+- secondary data
+- secondary data source
+- secondary data sources
+- secondary databases
+- treatment
+- treatments
+
+---
+
+{{< include ../_template.qmd >}}

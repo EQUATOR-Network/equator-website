@@ -1,0 +1,37 @@
+# How to develop a reporting guideline
+
+Welcome to our toolkit for developing a reporting guideline!
+
+Using the resources you find here will help you decide whether a new reporting guideline is needed and write a useful and useable guideline.
+
+You’ve probably found your way here because you’re aware of problems in how a particular kind of health research is reported, and you want to do something to improve this. Thank you for your commitment to enhancing the quality and transparency of health research!
+
+## In this toolkit
+
+This toolkit will guide you through every step of developing a reporting guideline and support you in getting your reporting guideline into the hands of the researchers who need it. We will cover:
+
+- [Identifying the need for a reporting guideline](identifying-the-need-for-a-new-reporting-guideline.qmd)
+- [Getting ready: Literature reviews, registration, and funding](getting-ready-to-develop-your-guideline.qmd)
+- [Developing your reporting guideline](developing-your-reporting-guideline.qmd)
+- [Writing up and publishing your reporting guideline](writing-up-and-publishing-your-reporting-guideline.qmd)
+- [Disseminating your reporting guideline](disseminating-your-reporting-guideline.qmd)
+- [Updating your reporting guideline](updating-and-extending-your-reporting-guideline.qmd)
+
+The guidance in this toolkit is based on the EQUATOR publication “[Guidance for developers of health research reporting guidelines](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000217)“. You can find more resources on developing a reporting guideline on this [page](https://www.equator-network.org/toolkits/developing-a-reporting-guideline/more-resources-on-developing-a-reporting-guideline/).
+
+## What are reporting guidelines?
+
+Reporting guidelines are simple, structured tools for health researchers to use while writing manuscripts. They provide minimum lists of information needed to ensure a manuscript can be, for example,
+
+- Understood by a reader,
+- Replicated by a researcher,
+- Used by a doctor to make a clinical decision, and
+- Included in a systematic review.
+
+Reporting guidelines are more than just some thoughts about what needs to be in an academic paper. We define a reporting guideline as:
+
+> “A checklist, flow diagram, or structured text to guide authors in reporting a specific type of research, developed using explicit methodology.”
+
+You can see an example of a [checklist here (Word)](https://www.equator-network.org/wp-content/uploads/2013/09/CONSORT-2010-Checklist-MS-Word.doc) and a [flow diagram here (Word)](https://www.equator-network.org/wp-content/uploads/2013/09/CONSORT-2010-Flow-Diagram-MS-Word.doc). Whether presented as structured text or a checklist, a reporting guideline presents a clear list of reporting items that should appear in a paper and explains how the list was developed.
+
+_We hope you find the contents of this toolkit helpful. If you have any questions or concerns, please get in touch with the EQUATOR Network team_ [_by email_](mailto:equator@csm.ox.ac.uk)_,_ [_on Twitter_](https://twitter.com/EQUATORNetwork)_, or_ [_on Facebook_](https://www.facebook.com/EquatorNetwork/)_. We welcome any training materials or literature collections that you have found useful in your development of reporting guidelines!_

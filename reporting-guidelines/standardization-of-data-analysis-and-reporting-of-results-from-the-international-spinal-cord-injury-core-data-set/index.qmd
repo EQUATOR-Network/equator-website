@@ -1,0 +1,155 @@
+---
+# REQUIRED FIELDS
+title: International Spinal Cord Injury Core Data Set (version 3.0) – including standardization
+  of reporting
+acronym: ''
+provided-for: Reporting of results using the International Spinal Cord Injury (SCI)
+  Core Data Set
+rg-doi: ''
+pmid-id: '[36307730](https://pubmed.ncbi.nlm.nih.gov/36307730/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/36307730/
+relevant-urls: ''
+full-bibliographic-reference: Biering-Sørensen F, Charlifue S, Chen Y, New PW, Noonan
+  V, Post MWM, Rupp R, Vogel L. International Spinal Cord Injury Core Data Set (version
+  3.0) - including standardization of reporting. Spinal Cord. 2022.
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: |-
+  2017
+
+  Biering-Sørensen F, DeVivo MJ, Charlifue S, Chen Y, New PW, Noonan V, Post MWM, Vogel L. International Spinal Cord Injury Core Data Set (version 2.0) - including standardization of reporting. Spinal Cord. 2017;55(8):759-764. PMID: [28555665](https://pubmed.ncbi.nlm.nih.gov/28555665/)
+
+  2011
+
+  DeVivo MJ, Biering-Sørensen F, New P, Chen Y; International Spinal Cord Injury Data Set. Standardization of data analysis and reporting of results from the International Spinal Cord Injury Core Data Set. Spinal Cord. 2011;49(5):596-599. PMID: [21135863](http://www.ncbi.nlm.nih.gov/pubmed/21135863)
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- analysis
+- cord injury
+- core data set
+- data
+- data analysis
+- data set
+- International Spinal Cord Injury Core Data Set
+- neurological
+- neurology
+- SCI
+- SCI core data set
+- SCI core data sets
+- SCI data set
+- SCI data sets
+- spinal
+- spinal cord
+- spinal cord injury
+- spinal injury
+- spine
+- study participants
+
+---
+
+{{< include ../_template.qmd >}}

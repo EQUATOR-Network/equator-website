@@ -1,0 +1,137 @@
+---
+# REQUIRED FIELDS
+title: 'Reporting guidelines for physiotherapy case reports: a consensus-based development
+  (PhyCARE)'
+acronym: PhyCARE
+provided-for: Structured reporting of physiotherapy case reports, encompassing physiotherapy-specific
+  assessments and interventions.
+rg-doi: 10.1136/bmjopen-2025-110765
+pmid-id: '[41592824](https://pubmed.ncbi.nlm.nih.gov/41592824/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/41592824/
+relevant-urls: The PhyCARE checklist can be found [here](https://bmjopen.bmj.com/content/bmjopen/16/1/e110765/DC7/embed/inline-supplementary-material-7.pdf?download=true).
+full-bibliographic-reference: 'Naqvi WM, Mishra GV, Shaikh SZ, Pashine AA, Sánchez
+  Romero EA, Swaminathan N, Jiandani MP, Herrero P, Zazulak B, Macpherson CE, Goyal
+  C, Zadro JR, Sahni P, Innocenti T, Quazi Syed Z, Hoogeboom T, Kiekens C. PhyCARE
+  reporting guidelines for physiotherapy case reports: a consensus-based development.
+  BMJ Open. 2026 Jan 27;16(1):e110765. doi: [10.1136/bmjopen-2025-110765](https://bmjopen.bmj.com/content/16/1/e110765).'
+
+
+# OPTIONAL FIELDS
+rg-language: ''
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+- Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+- Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- CARE
+- CARE case extension
+- CARE checklist
+- CARE guidelines
+- CARE Guidelines extension
+- CARE Statement extension
+- complementary medicine
+
+---
+
+{{< include ../_template.qmd >}}

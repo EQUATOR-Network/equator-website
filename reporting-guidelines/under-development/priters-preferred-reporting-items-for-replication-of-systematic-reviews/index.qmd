@@ -1,0 +1,26 @@
+---
+title: PRITERS - Preferred Reporting Items for Replication of Systematic Reviews
+date-registered: 23 May 2025
+year-registered: 2025
+date-updated: null
+contact-name: Kehu Yang, School of Basic Medical Sciences, Lanzhou University, China
+contact-email: yangkh@lzu.edu.cn
+categories:
+- Literature reviews
+---
+
+Systematic reviews are considered the gold standard for synthesizing evidence to inform research, practice, and policy. However, the reliability and validity of systematic review findings could depend heavily on their reproducibility and replicability. Replication of systematic reviews would play a critical role in verifying results, identifying potential biases, and updating evidence to reflect new data. Despite its importance, the reporting of systematic review replication studies is rare. As an emerging field the adoption of guidelines will support consistency, transparency, and rigor.
+
+Existing reporting guidelines, such as PRISMA, provide comprehensive frameworks for conducting and reporting systematic reviews and meta-analyses but do not address the unique challenges and requirements of replication studies. These include documenting variations in replication methodologies, specifying the rationale for replication, and reporting discrepancies between original and replicated findings.
+
+The Preferred Reporting Items for Replication of Systematic Reviews: PRITERS Statement aims to fill this gap by providing a standardized reporting framework tailored to replication studies in systematic reviews. It is designed to enhance transparency, reproducibility, and comparability across replication studies while promoting the integrity of evidence synthesis. 
+PRITERS will guide researchers in clearly reporting:
+
+1\. The justification, purpose and scope of the replication (e.g., direct replication, conceptual replication, or methodological critique). 
+2\. Any modifications or updates made to the original systematic review protocol (including those made during conduct of the review). 
+3\. Detailed comparisons of methods, results, and conclusions between the original and replicated reviews. 
+4\. Limitations and implications of the replication findings.
+
+By ensuring clarity and uniformity in reporting, PRITERS will support researchers, journal editors, and policy-makers in evaluating the robustness of systematic review findings and in identifying areas for methodological improvement. Ultimately, PRITERS aims to strengthen the credibility and reliability of systematic reviews as foundational tools for evidence-based decision-making.
+
+{{< include ../_template.qmd >}}

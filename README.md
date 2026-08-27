@@ -1,0 +1,2 @@
+# equator-website
+The EQUATOR Network's website

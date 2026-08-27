@@ -1,0 +1,19 @@
+---
+title: 'PREHOSPITAL-CARE: A consensus-based guideline for publishing pre-hospital case reports'
+date-registered: 4 October 2018
+year-registered: 2018
+date-updated: null
+contact-name: James Pearce
+contact-email: james.pearce@flinders.edu.au
+categories:
+- Observational studies
+---
+
+PREHOSPITAL-CARE is a consensus-based guideline under development for publishing pre-hospital case reports. It will be an extension to the CAse REport (CARE) clinical case reporting guideline.
+
+Currently, case reports published on pre-hospital care rarely follow the CARE guideline. The quality of these publications is highly variable. The aim of the PREHOSPITAL-CARE guideline is to improve the quality of pre-hospital care case reports. In January 2021, the authors published a protocol for the project.
+
+- Website: [https://prehospital-care.org](https://prehospital-care.org)
+- Protocol publication: [https://ajp.paramedics.org/index.php/ajp/article/view/885](https://ajp.paramedics.org/index.php/ajp/article/view/885)
+
+{{< include ../_template.qmd >}}

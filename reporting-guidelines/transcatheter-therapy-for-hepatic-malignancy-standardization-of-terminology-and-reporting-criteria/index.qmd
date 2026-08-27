@@ -1,0 +1,172 @@
+---
+# REQUIRED FIELDS
+title: 'Transcatheter Therapy for Hepatic Malignancy: Standardization of Terminology
+  and Reporting Criteria'
+acronym: ''
+provided-for: Transcatheter therapies for hepatic malignancy
+rg-doi: ''
+pmid-id: '[19560030](http://www.ncbi.nlm.nih.gov/pubmed/19560030)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/19560030
+relevant-urls: ''
+full-bibliographic-reference: 'Brown DB, Gould JE, Gervais DA, Goldberg SN, Murthy
+  R, Millward SF, Rilling WS, Geschwind JF, Salem R, Vedantham S, Cardella JF, Soulen
+  MC; Society of Interventional Radiology Technology Assessment Committee and the
+  International Working Group on Image-Guided Tumor Ablation. Transcatheter Therapy
+  for Hepatic Malignancy: Standardization of Terminology and Reporting Criteria. J
+  Vasc Interv Radiol. 2009;20(7 Suppl):S425-S434.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: 'Brown DB, Gould JE, Gervais DA, Goldberg SN, Murthy R, Millward
+  SF, Rilling WS, Geschwind JF, Salem R, Vedantham S, Cardella JF, Soulen MC. Transcatheter
+  Therapy for Hepatic Malignancy: Standardization of Terminology and Reporting Criteria.
+  J Vasc Interv Radiol. 2007;18(12):1469-1478. PMID: [18057279](http://www.ncbi.nlm.nih.gov/pubmed/18057279)'
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+- Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+- Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+- Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+- Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+- Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+- Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- ablation
+- cancer
+- catheter
+- catheter directed therapy
+- chemoembolisation
+- chemoembolization
+- chemotherapeutic infusion
+- embolisation
+- embolization
+- gastroenterology
+- HCC
+- hepatic
+- hepatic malignancy
+- hepatic tumor
+- hepatic tumors
+- hepatic tumour
+- hepatic tumours
+- hepatocellular carcinoma
+- image guided transcatheter tumor therapy
+- image guided transcatheter tumour therapy
+- interventional oncology
+- intravascular
+- malignancy
+- oncology
+- radioembolization
+- radiology
+- surgery
+- transcatheter
+- transcatheter therapies
+- transcatheter therapy
+- transcatheter therapy for hepatic malignancy
+- tumor
+- tumors
+- tumour
+- tumours
+- unresectable hepatic tumor
+- unresectable hepatic tumors
+- unresectable hepatic tumour
+- unresectable hepatic tumours
+
+---
+
+{{< include ../_template.qmd >}}

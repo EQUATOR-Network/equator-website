@@ -1,0 +1,167 @@
+---
+# REQUIRED FIELDS
+title: 'Guidelines for Developing and Reporting Machine Learning Predictive Models
+  in Biomedical Research: A Multidisciplinary View'
+acronym: ''
+provided-for: Reporting of machine learning predictive model specifications and results
+  in biomedical research.
+rg-doi: ''
+pmid-id: '[27986644](https://www.ncbi.nlm.nih.gov/pubmed/27986644)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/27986644
+relevant-urls: ''
+full-bibliographic-reference: 'Luo W, Phung D, Tran T, Gupta S, Rana S, Karmakar C,
+  Shilton A, Yearwood J, Dimitrova N, Ho TB, Venkatesh S, Berk M. Guidelines for Developing
+  and Reporting Machine Learning Predictive Models in Biomedical Research: A Multidisciplinary
+  View. J Med Internet Res. 2016;18(12):e323.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+- Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- big data
+- clinical prediction rule
+- data
+- diagnosis
+- diagnostic
+- diagnostic research
+- diagnostic studies
+- diagnostic study
+- machine learning
+- machine learning model
+- machine learning models
+- machine learning predictive method
+- machine learning predictive methods
+- machine learning predictive model
+- machine learning predictive models
+- machine learning technique
+- machine learning techniques
+- prediction
+- prediction rule
+- predictive method
+- predictive methods
+- predictive model
+- predictive models
+- prognosis
+- prognostic
+- prognostic research
+- prognostic studies
+- prognostic study
+- statistical
+- statistical analyses
+- statistical analysis
+- statistical method
+- statistical methods
+- statistical model
+- statistical models
+- statistical technique
+- statistical techniques
+- statistics
+
+---
+
+{{< include ../_template.qmd >}}

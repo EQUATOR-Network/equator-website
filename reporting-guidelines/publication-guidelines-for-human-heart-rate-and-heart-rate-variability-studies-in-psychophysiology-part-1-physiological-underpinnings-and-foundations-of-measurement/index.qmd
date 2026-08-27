@@ -1,0 +1,162 @@
+---
+# REQUIRED FIELDS
+title: 'Publication guidelines for human heart rate and heart rate variability studies
+  in psychophysiology -Part 1: Physiological underpinnings and foundations of measurement'
+acronym: ''
+provided-for: Reporting heart rate (HR) and heart rate variability (HRV) studies.
+rg-doi: ''
+pmid-id: '[38873876](https://pubmed.ncbi.nlm.nih.gov/38873876/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38873876/
+relevant-urls: ''
+full-bibliographic-reference: 'Quigley KS, Gianaros PJ, Norman GJ, Jennings JR, Berntson
+  GG, de Geus EJC. Publication guidelines for human heart rate and heart rate variability
+  studies in psychophysiology-Part 1: Physiological underpinnings and foundations
+  of measurement. Psychophysiology. 2024;61(9):e14604.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+- Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+- Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+- Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+- Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+- Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+- Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- arrhythmia
+- brain
+- cardiac
+- cardiology
+- clinical trial
+- clinical trials
+- electrocardiographic
+- heart
+- heart rate
+- heart rate variability
+- heart rhythm
+- heartbeat
+- HR
+- HRV
+- observational
+- photoplethysmographic
+- physiology
+- psychology
+- psychophysiological
+- psychophysiology
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- respiratory sinus arrhythmia
+- trial
+- trials
+- vascular
+
+---
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,14 @@
+---
+#YAML
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,60 @@
+
+::: {.callout-note collapse="true" appearance="simple"}
+
+## How to use reporting guidelines {#how-to-use}
+
+## Reporting guidelines are recommendations to help write up research clearly.
+
+Your research will be used by people from different disciplines and backgrounds for decades to come. Reporting guidelines are community-created recommendations for describing what you did and what you found so that everyone can understand, repeat, apply, and synthesise your work. Although they recommend information to include in your manuscript, they don't dictate how to order that information.
+
+Most reporting guidelines consist of the full guidance (sometimes called an Explanation and Elaboration document) and a checklist. The full guidance provides detailed explanations and examples for each item, and the checklist allows you to demonstrate adherence to editors.
+
+You can use reporting guidelines throughout your research process. However you use reporting guidelines, please cite them.
+
+::: {.content-block .center}
+
+::: {.features}
+
+::: {.feature}
+![](/assets/images/bubblecons/bubblecons_work_from_home_workspace-40-icon-line-colour.svg){.feature-icon .img-fluid}
+
+#### Writing manuscripts
+Write confidently using a reporting guideline to quickly turn a blank page into a thorough and impactful manuscript. 
+
+::: {.learn-more}
+[Learn more »](/about/reporting-guidelines.qmd#writing)
+:::
+:::
+
+::: {.feature}
+![](/assets/images/bubblecons/bubblecons_notes_clip-task-2-icon-line-colour.svg){.feature-icon .img-fluid}
+
+#### Checking
+Use a reporting checklist to demonstrate to an editor or peer reviewer that you have included everything. Many journals require completed checklists at submission.
+
+
+::: {.learn-more} 
+[Learn more »](/about/reporting-guidelines.qmd#reporting-checklists)
+:::
+:::
+
+::: {.feature}
+![](/assets/images/bubblecons/bubblecons_notes_pencil-24-icon-line-colour.svg){.feature-icon .img-fluid}
+
+#### Writing applications
+Reporting guidelines can help you write funding applications, ethics applications, and protocols, but they won't make design decisions for you!
+
+::: {.learn-more}
+[Learn more »](/about/reporting-guidelines.qmd#writing-applications)
+:::
+:::
+
+:::
+
+:::
+
+### Reporting guidelines are neither design nor quality appraisal tools.
+
+Although reporting guidelines recommend information to include when writing up research, they do not mandate how to design research. Similarly, when reviewing literature, although you can use reporting guidelines to assess whether a manuscript is well reported, you cannot use them to appraise whether that study is well designed. 
+
+:::

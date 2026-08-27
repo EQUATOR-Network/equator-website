@@ -1,0 +1,175 @@
+---
+# REQUIRED FIELDS
+title: The Single -Case Reporting Guideline In BEhavioural Interventions (SCRIBE)
+  2016 Statement
+acronym: SCRIBE
+provided-for: Reporting single-case research.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Tate RL, Perdices M, Rosenkoetter U, Shadish W, Vohra S, Barlow DH, Horner R, Kazdin A, Kratochwill T, McDonald S, Sampson M, Shamseer L, Togher L, Albin R, Backman C, Douglas J, Evans JJ, Gast D, Manolov R, Mitchell G, Nickels L, Nikles J, Ownsworth T, Rose M, Schmid CH and Wilson B. The Single-Case Reporting Guideline In BEhavioural Interventions (SCRIBE) 2016 Statement.
+
+  This guideline was published simultaneously in 9 journals. You can read the guideline in any of these journals using the links below.
+
+  J Clin Epidemiol. 2016;73:142-152. PMID: [27101888](http://www.ncbi.nlm.nih.gov/pubmed/27101888)
+
+  Arch Sci Psychol. 2016;4(1):1-9. doi: [10.1037/arc0000026](http://psycnet.apa.org/journals/arc/4/1/1.html)
+
+  Aphasiology. 2016;30(7):862-876. PMID: [27279674](http://www.ncbi.nlm.nih.gov/pubmed/27279674)
+
+  Phys Ther. 2016;96(7):e1-e10. PMID: [27371692](http://www.ncbi.nlm.nih.gov/pubmed/27371692)
+
+  Am J Occup Ther. 2016;70(4):7004320010p1-11. PMID: [27294998
+
+  ](http://www.ncbi.nlm.nih.gov/pubmed/27294998)J Sch Psychol. 2016;56:133-142. PMID: [27268573](http://www.ncbi.nlm.nih.gov/pubmed/27268573)
+
+  Can J Occup Ther. 2016;83(3):184-195. PMID: [27231387
+
+  ](http://www.ncbi.nlm.nih.gov/pubmed/27231387)Evid Based Commun Assess Interv. 2016;10(1):44-58. PMID: [27499802
+
+  ](http://www.ncbi.nlm.nih.gov/pubmed/27499802)Neuropsychol Rehabil. 2016:1-15. PMID: [27499422](http://www.ncbi.nlm.nih.gov/pubmed/27499422)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Tate RL, Perdices M, Rosenkoetter U, McDonald
+  S, Togher L, Shadish W, Horner R, Kratochwill T, Barlow DH, Kazdin A, Sampson M,
+  Shamseer L and Vohra S, for the SCRIBE Group (2016). The Single-Case Reporting Guideline
+  In BEhavioural Interventions (SCRIBE) 2016: Explanation and elaboration. Arch Sci
+  Psychol. 4(1): 10-31. [doi:10.1037/arc0000027](http://psycnet.apa.org/journals/arc/4/1/10.html)'
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: Read the [SCRIBE project abstract (PDF)](SCRIBE-development-abstract.pdf)
+  which was prepared to outline development of this reporting guideline.
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+- Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+- Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- behavior
+- behavioral intervention
+- behavioral interventions
+- behavioral medicine
+- behavioral science
+- behavioral sciences
+- behaviour
+- behavioural intervention
+- behavioural interventions
+- behavioural medicine
+- behavioural science
+- behavioural sciences
+- checklist
+- checklists
+- SCRIBE
+- SCRIBE 2016
+- SCRIBE checklist
+- SCRIBE Statement
+- single participant
+- single patient
+- single-case
+- single-case design
+- single-case experiment
+- single-case research
+
+---
+
+{{< include ../_template.qmd >}}

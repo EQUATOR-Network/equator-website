@@ -1,0 +1,12 @@
+---
+title: Philippe Ravaud
+subtitle: Director, Centre of Epidemiology at the Hotel-Dieu (Paris); Director, French EQUATOR Centre
+image: pravaud.png
+path: https://www.mastercer.com/professors/professor-ravaud/
+centre: france
+order: 2
+executive-group-member: true
+---
+Professor Philippe Ravaud is Director of the Centre of Epidemiology at the Hotel-Dieu (Paris), Director of the French Cochrane Centre, Director of the INSERM Research Team “Methods of therapeutic evaluation of chronic diseases”, and a senior lecturer at Paris Descartes University and Columbia University (Mailman School of Public Health). In May 2014 he became Director of the French EQUATOR Centre.
+
+Philippe received his MD from Pierre and Marie Curie University, Paris and completed a residence in rheumatology in the Assistance Publique-Hopitaux de Paris network. In parallel, he received an MSc in Epidemiology and a PhD in Clinical Epidemiology at the University of Nancy (France). For over 15 years his primary research has been evaluating and developing methodological solutions to assess treatments in patients with chronic diseases. The methods used are multiple (e.g., methodological systematic reviews, simulations, analytical methods, development of sham trials). His recent research has addressed evaluating non-pharmacological treatments; developing and validating endpoints; meta-analyses and network meta-analyses; and interpreting and communicating research results. His publication record includes more than 280 peer-reviewed papers, including 28 in the “big 6″ medical journals; he is the first or last author for more than 110 articles.

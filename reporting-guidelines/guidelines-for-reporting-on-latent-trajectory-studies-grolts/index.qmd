@@ -1,0 +1,163 @@
+---
+# REQUIRED FIELDS
+title: Guidelines for Reporting on Latent Trajectory Studies (GRoLTS)
+acronym: GRoLTS
+provided-for: Reporting the results of latent trajectory analysis across research
+  fields.
+rg-doi: ''
+pmid-id: ''
+pmid-url: ''
+relevant-urls: 'The full-text of the this reporting guideline is available at: <http://www.tandfonline.com/doi/full/10.1080/10705511.2016.1247646?scroll=top&needAccess=true>'
+full-bibliographic-reference: 'van de Schoot R, Sijbrandij M, Winter SD, Depaoli S,
+  Vermunt JK. Guidelines for Reporting on Latent Trajectory Studies (GRoLTS). Structural
+  Equation Modeling: A Multidisciplinary Journal. 2017;24(3):451-467.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+- Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+- Results
+# - Statistical analysis plan-whole report
+- Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+keyword:
+- checklist
+- checklists
+- data
+- GRoLTS
+- latent
+- latent class
+- latent class growth analysis
+- latent classes
+- latent growth mixture modeling
+- latent growth mixture modelling
+- latent trajectory analyses
+- latent trajectory analysis
+- latent trajectory model
+- latent trajectory models
+- latent trajectory studies
+- latent trajectory study
+- LCGA
+- LCGA studies
+- LCGA study
+- LGMM
+- LGMM studies
+- LGMM study
+- mixture model framework
+- mixture modeling
+- mixture modelling
+- SEM
+- statistic
+- statistical
+- statistical analyses
+- statistical analysis
+- statistical method
+- statistical methods
+- statistical model
+- statistical models
+- statistical technique
+- statistical techniques
+
+---
+
+{{< include ../_template.qmd >}}

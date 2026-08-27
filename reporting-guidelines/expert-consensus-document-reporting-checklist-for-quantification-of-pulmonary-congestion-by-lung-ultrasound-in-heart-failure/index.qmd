@@ -1,0 +1,166 @@
+---
+# REQUIRED FIELDS
+title: 'Expert consensus document: Reporting checklist for quantification of pulmonary
+  congestion by lung ultrasound in heart failure'
+acronym: ''
+provided-for: Reporting of lung ultrasound (LUS) in heart failure research.
+rg-doi: ''
+pmid-id: '[31218825](https://pubmed.ncbi.nlm.nih.gov/31218825/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/31218825/
+relevant-urls: ''
+full-bibliographic-reference: 'Platz E, Jhund PS, Girerd N, Pivetta E, McMurray JJV,
+  Peacock WF, Masip J, Martin-Sanchez FJ, Miró Ò, Price S, Cullen L, Maisel AS, Vrints
+  C, Cowie MR, DiSomma S, Bueno H, Mebazaa A, Gualandro DM, Tavares M, Metra M, Coats
+  AJS, Ruschitzka F, Seferovic PM, Mueller C; Study Group on Acute Heart Failure of
+  the Acute Cardiovascular Care Association and the Heart Failure Association of the
+  European Society of Cardiology. Expert consensus document: Reporting checklist for
+  quantification of pulmonary congestion by lung ultrasound in heart failure. Eur
+  J Heart Fail. 2019;21(7):844-851.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+- Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+- Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+- Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+# - No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- cardiology
+- cardiovascular
+- checklist
+- checklists
+- clinical trial
+- clinical trials
+- diagnosis
+- diagnostic
+- epidemiological
+- epidemiology
+- heart
+- heart failure
+- HF
+- lung
+- lung ultrasound
+- LUS
+- observational
+- prognosis
+- prognostic
+- pulmonary
+- pulmonary congestion
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- trial
+- trials
+- ultrasound
+
+---
+
+{{< include ../_template.qmd >}}

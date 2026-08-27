@@ -1,0 +1,18 @@
+---
+title: 'TIDIER-A 2026: TIDieR extension for acupuncture: Template for Acupuncture Intervention Description and Replication'
+date-registered: 27 July 2025
+year-registered: 2025
+date-updated: null
+contact-name: Yuting Duan
+contact-email: 18702009530@163.com
+categories:
+- Clinical Trials
+---
+
+Acupuncture is a cornerstone of distinctive Traditional Chinese Medicine therapies and one of the most globally recognized complementary and alternative medicine modalities. With its low cost, ease to operate, and minimal side effects, acupuncture plays an irreplaceable role in primary healthcare, chronic disease management, and geriatric healthcare worldwide.
+
+The key characteristics of acupuncture interventions are individualized treatment and dynamic adjustment. Its effectiveness relies on the synergy of various unique elements, such as acupoint location and needling parameters (needle type, depth, angle, manipulation techniques). However, in current acupuncture research, issues like vague descriptions of interventions, missing information on intervention content, and a lack of standardized reporting have become major obstacles to its advancement. Prof. Tammy C Hoffmann et al. developed reporting guidelines for interventions in 2014, the TIDieR framework lacks the specificity and comprehensive coverage needed for acupuncture research. As a generic intervention reporting framework, it doesn't include personalized elements crucial to acupuncture, such as precise acupoint location, specific needling techniques, and syndrome differentiation for point selection, making it difficult to address the unique requirements of acupuncture interventions. While the STRICTA guidelines for acupuncture primarily focus on the methodological reporting of acupuncture RCTs, they leave out other types of studies like cohort studies and case reports. Furthermore, STRICTA's descriptions of acupuncture interventions are often too general and vague, leading to low study reproducibility and making it difficult to replicate findings.
+
+Therefore, we're developing acupuncture intervention reporting guidelines as a TIDieR extension. Our aim is to address the limitations of the original TIDieR (lack of specificity) and STRICTA (only covering RCTs). We want to provide detailed guidance on acupuncture techniques, improve the quality of acupuncture evidence, provide clinicians with replicable treatment protocols, and facilitate the translation of research findings into clinical practice.
+
+{{< include ../_template.qmd >}}

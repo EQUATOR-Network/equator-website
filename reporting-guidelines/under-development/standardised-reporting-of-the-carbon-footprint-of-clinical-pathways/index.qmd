@@ -1,0 +1,18 @@
+---
+title: Standardised Reporting of the Carbon Footprint of Clinical Pathways
+date-registered: 25 March 2024
+year-registered: 2024
+date-updated: null
+contact-name: Sheryl Wilmott; Mahmood Bhutta
+contact-email: sheryl.wilmott@nhs.net; m.bhutta@bsms.ac.uk
+categories:
+- Other
+---
+
+The objective of this guideline is to improve the quality and comprehensiveness of reporting on the carbon emissions associated with clinical care pathways, in particular, the reporting of pathways with a component of remote care, often facilitated by the use of digital technologies.
+
+The development started in January 2024, led by a group from Leeds Teaching Hospitals Trust and Brighton and Sussex Medical School. They clarify that the difference between their project and another already under development, [ECoHealth](https://www.equator-network.org/library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-other-study-designs/#ECO), is that ECoHealth is looking to evaluating products in healthcare, whereas this new project will cover pathways. They argue there is a need to “standardise what components are included in measuring the carbon footprint of a clinical pathway. That will include the products, medications, clinical appointments etc in that pathway.”
+
+A Steering Group has been formed, aiming to produce a preliminary checklist by the end of 2024, to be published by 2026.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,18 @@
+---
+title: 'STROBE-D: Strengthening the Reporting og Observational Studies in Epidemiology for Drowning (STROBE-D): An extension of the STROBE statement for drowning research'
+date-registered: 10 October 2025
+year-registered: 2025
+date-updated: null
+contact-name: Niklas Breindahl, Prehospital Center Region Zealand Ringstedgade 61, 13th floor, 4700 Næstved, Denmark.
+contact-email: Niklas.breindahl@gmail.com
+categories:
+- Observational studies
+---
+
+Drowning remains a significant global health issue, yet much of the research in this field is observational in nature due to ethical, practical, and logistical constraints. Despite the availability of the STROBE statement, adherence to these guidelines within the drowning research community has been inconsistent and often incomplete. A preliminary analysis from our ongoing systematic review indicates that fewer than 50% of published observational drowning studies fully comply with the original STROBE checklist.
+
+This lack of adherence suggests that the current STROBE framework may not sufficiently capture the unique aspects of drowning-related research, which often includes highly context-specific variables such as environmental conditions, rescue logistics, water safety practices, resuscitation details, and outcome classification based on diverse international definitions. As a result, many key methodological elements and contextual factors are either underreported or inconsistently presented, hindering reproducibility, critical appraisal, and evidence synthesis.
+
+To address these limitations, we propose the development of a STROBE extension specifically tailored to drowning-related observational studies. The goal is not to replace the core STROBE framework but to build upon it by incorporating drowning-specific reporting elements that improve clarity, transparency, and comparability across studies. Such an extension would provide structured guidance for authors, reviewers, and editors, helping to standardise reporting practices.
+
+{{< include ../_template.qmd >}}

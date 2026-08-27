@@ -1,0 +1,166 @@
+---
+# REQUIRED FIELDS
+title: 'Development of the ASSESS tool: a comprehenSive tool to Support rEporting
+  and critical appraiSal of qualitative, quantitative, and mixed methods implementation
+  reSearch outcomes'
+acronym: ASSESS
+provided-for: Describing studies focused on implementation that use qualitative, quantitative,
+  and/or mixed methodologies.
+rg-doi: ''
+pmid-id: '[35346390](https://pubmed.ncbi.nlm.nih.gov/35346390/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/35346390/
+relevant-urls: Access the [ASSESS tool checklist](https://publichealth.nyu.edu/w/isee/tools/assess-tool).
+full-bibliographic-reference: 'Ryan N, Vieira D, Gyamfi J, Ojo T, Shelley D, Ogedegbe
+  O, Iwelunmor J, Peprah E. Development of the ASSESS tool: a comprehenSive tool to
+  Support rEporting and critical appraiSal of qualitative, quantitative, and mixed
+  methods implementation reSearch outcomes. Implement Sci Commun. 2022;3(1):34.'
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: ''
+website-url: <https://publichealth.nyu.edu/w/isee/tools/assess-tool>
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: '[Read a guide (PDF)](https://arc-sl.nihr.ac.uk/sites/default/files/uploads/files/Imp-Sci-reporting-guidelines-2023.pdf)
+  to reporting guidelines relevant to implementation studies developed by researchers
+  in the Centre for Implementation Science at King’s College London and King’s Improvement
+  Science and led by the National Institute for Health Research Applied Research Collaboration
+  South London (NIHR ARC South London) at King’s College Hospital NHS Foundation Trust
+  and supported by King’s Improvement Science.'
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+- Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+- Mixed methods studies
+- Observational studies
+# - Other
+# - Patent landscapes
+- Qualitative research
+- Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- ASSESS
+- ASSESS tool
+- checklist
+- checklists
+- implementation
+- implementation outcome
+- implementation outcomes
+- implementation research
+- implementation science
+- implementation strategies
+- implementation strategy
+- meta analysis
+- mixed methods
+- qualitative
+- quantitative
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- review
+- reviews
+- systematic review
+- systematic reviews
+- trial
+- trials
+
+---
+
+{{< include ../_template.qmd >}}

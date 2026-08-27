@@ -1,0 +1,15 @@
+---
+title: 'DICE Checklist: a reporting guideline for strengthening diversity, inclusion, culture, and equity considerations within musculoskeletal research'
+date-registered: 14 June 2026
+year-registered: 2026
+date-updated: null
+contact-name: Josielli Comachio
+contact-email: Josielli.comachio@sydney.edu.au
+categories:
+- Other
+---
+
+This checklist is needed because culturally and linguistically diverse communities are often under-represented in clinical research, which can limit how relevant and useful research findings are for real-world healthcare. Without a structured checklist, important issues may be missed, such as whether recruitment materials are culturally appropriate, whether interpreters or translated resources are needed, whether community engagement has occurred, and whether data collection methods are suitable for people with different languages, health literacy levels, or cultural backgrounds. 
+The checklist provides a practical way to help research teams consider inclusion from the beginning of the study, rather than treating diversity as an afterthought. It can support better recruitment, more meaningful participation, stronger ethical practice, and more accurate interpretation of findings. Ultimately, it helps ensure that clinical research produces evidence that is more equitable, applicable, and beneficial to the populations who will use healthcare services.
+
+{{< include ../_template.qmd >}}
