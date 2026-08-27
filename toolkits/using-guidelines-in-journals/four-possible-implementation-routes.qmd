@@ -18,7 +18,7 @@ consistent message about what they can expect for their use.
 Simply state that your journal supports reporting guidelines. You can raise
 awareness of reporting guidelines amongst your readers and authors using
 the [**steps suggested
-here**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/launch-and-promote-your-journals-reporting-guideline-policy/)**.**
+here**](launch-and-promote-your-journals-reporting-guideline-policy.qmd)**.**
 
 ## 2. Endorse reporting guidelines and request a checklist
 
@@ -29,7 +29,7 @@ an editorial staff member check them. You could also send them to your peer
 reviewers to aid in review. You can raise awareness of reporting guidelines
 amongst your readers, authors, and peer reviewers using the [**steps
 suggested
-here**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/launch-and-promote-your-journals-reporting-guideline-policy/)**.**
+here**](launch-and-promote-your-journals-reporting-guideline-policy.qmd)**.**
 
 ## 3. Require reporting guidelines, proved with a submitted checklist
 
@@ -39,7 +39,7 @@ indication of which guideline they have used. Editorial staff do not accept
 any publication that does not address reporting guidelines in some way. You
 can let your readers, authors, and peer reviewers know about your policy
 using the [**steps suggested
-here**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/launch-and-promote-your-journals-reporting-guideline-policy/)**.**
+here**](launch-and-promote-your-journals-reporting-guideline-policy.qmd)**.**
 
 There are two possible enforcement routes
 
