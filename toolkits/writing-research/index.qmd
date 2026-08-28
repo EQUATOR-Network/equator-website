@@ -1,0 +1,144 @@
+# How to write a great research paper using reporting guidelines
+
+## Using the resources you find here will set you on the right road to writing a great research paper using reporting guidelines
+
+When published, your article will start a new independent life. It will be
+read and critically appraised, and it may contribute to systematic reviews,
+inform clinical guidelines, and influence clinical practice.
+
+Before you submit your paper to a journal, you need to consider whether the
+article will achieve its purpose:
+
+- Will a Cochrane reviewer be able to scrutinise your study’s methods to
+  assess the risk of bias?
+- Would another researcher be able to replicate your experiment?
+- Can numerical results be extracted from your paper easily?
+- Have you provided enough detail about your intervention to allow its use
+  in clinical practice?
+
+The resources in this toolkit will help you achieve a long and useful life
+for your article by reporting it in the best way possible.
+
+- [Browse the EQUATOR library of reporting guidelines](#sec-RGlibrary)
+- [Read chapters from our textbook explaining why reporting guidelines are
+  helpful](#sec-EQtextbook)
+- [Look at examples of good reporting](#sec-Goodexamples)
+- [Read a “How to…” article on reporting medical research](#sec-Howto)
+- [Use an annotated journal article from Authoraid as
+  inspiration](#sec-AuthoraidAnotated)
+- [Follow the ICJME recommendations](#sec-ICJMERecs)
+- [Professional medical writing support](#-sec-professionalsupport)
+- [General guidance on scientific writing](#-sec-scientificwriting)
+
+## EQUATOR Library of Reporting Guidelines {#sec-RGlibrary}
+
+The first step is to find a reporting guideline for your study. You might
+also want to supplement a common reporting guideline with any specific
+guidance for your clinical area or study type. After using the wizard, we
+suggest visiting the [EQUATOR Database of Reporting
+Guidelines](/reporting-guidelines/).
+
+This is a searchable database of all reporting guidelines. Use the
+drop-down menus to see all of the reporting guidelines and extensions for a
+study type. You can also search for guidelines written specifically for
+certain clinical specialties. The free-text search lets you search
+guidelines’ titles, associated keywords, and the bibliographic details of
+any related papers.
+
+## Why are reporting guidelines so helpful? {#sec-EQtextbook}
+
+The EQUATOR team has edited a textbook called *Guidelines for Reporting
+Health Research: A User’s Manual*. It explains why we need standardised
+reporting of important details in health research publications and how to
+use reporting guidelines. It also has chapters on the guidelines most
+commonly required by journals. You can read some sample chapters here:
+
+- [Chapter 1: Importance of transparent reporting of health research
+  (PDF)](https://www.equator-network.org/wp-content/uploads/2016/10/AltmanMoher-Chapter-1-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
+- [Chapter 4: Using reporting guidelines effectively to ensure good
+  reporting of health research
+  (PDF)](https://www.equator-network.org/wp-content/uploads/2016/12/AltmanSimera-Chapter-4-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
+- [Chapter 5: Ambiguities and confusions between reporting and conduct
+  (PDF)](https://www.equator-network.org/wp-content/uploads/2016/12/SchultzMoherAltman-Chapter-5-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
+- [Chapter 17: STROBE (STrengthening the Reporting of Observational studies
+  in Epidemiology)
+  (PDF)](https://www.equator-network.org/wp-content/uploads/2016/12/CevallosEgger-Chapter-17-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
+
+You can read more about the textbook on this
+[page](https://www.equator-network.org/library/equator-network-reporting-guideline-manual/).
+
+## Examples of good reporting {#sec-Goodexamples}
+
+Once you have the right reporting guideline and know what items to report,
+it’s always a good idea to look at good examples for inspiration. Several
+guideline development groups have published articles with examples of good
+reporting for each item on their checklist.
+
+Find examples of good reporting in:
+
+- [Randomised
+  trials](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844943/), including
+  [trials of non-pharmacological
+  interventions](https://www.ncbi.nlm.nih.gov/pubmed/18283207)
+- [Observational
+  studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2020496/)
+- [Trial abstracts](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2211558/)
+  ([read a selection of worked examples
+  (PDF)](http://www.consort-statement.org/Media/Default/Downloads/Extensions/CONSORT%20Extension%20for%20Abstracts%20checklist%20examples.pdf)
+  of using CONSORT for abstracts)
+- [Systematic
+  reviews](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2707010/) and
+  [protocols for systematic
+  reviews](http://www.bmj.com/content/349/bmj.g7647)
+- [Diagnostic accuracy
+  studies](http://clinchem.aaccjnls.org/content/49/1/7.long)
+- [Prediction modelling
+  studies](https://www.ncbi.nlm.nih.gov/pubmed/25560730)
+- [Quality improvement
+  studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2602740/)
+- [Trial
+  protocols](http://www.bmj.com/content/346/bmj.e7586.full?ijkey=QpAJnYI57zIwVr3&keytype=ref)
+
+## Reporting medical research {#sec-Howto}
+
+An essential “How to…”
+[article](https://www.ncbi.nlm.nih.gov/pubmed/23656235) published in *The
+International Journal of Clinical Practice* by former EQUATOR members Iveta
+Simera and Doug Altman on scientific writing and the key principles of
+responsible research reporting.
+
+A [guide
+(PDF)](https://arc-sl.nihr.ac.uk/sites/default/files/uploads/files/Imp%20Sci%20Reporting%20Guidelines%202023_0.pdf)
+to reporting guidelines relevant to implementation studies has been
+developed by researchers in the Centre for Implementation Science at King’s
+College London and King’s Improvement Science.
+
+## Authoraid annotated journal article {#sec-AuthoraidAnotated}
+
+This resource on the [Authoraid
+website](http://www.authoraid.info/en/resources/details/648/) presents a
+journal article from *PLoS ONE* with annotated comments on aspects of the
+scientific writing.
+
+## ICMJE Recommendations {#sec-ICJMERecs}
+
+[Recommendations for the Conduct, Reporting, Editing, and Publication of
+Scholarly Work in Medical Journals](http://www.icmje.org/recommendations/)
+(ICMJE Recommendations) are produced by the International Committee of
+Medical Journal Editors. They are intended primarily for use by authors who
+submit their work for publication to ICMJE member journals, although many
+non-ICMJE journals recommend their use.
+
+## Professional medical writing support {#-sec-professionalsupport}
+
+The EQUATOR Library has an [additional
+page](https://www.equator-network.org/library/professional-support/) of
+useful resources for both medical writers and those seeking professional
+support, including the writing and publication of industry-sponsored
+research. The resources include the latest [Good Publication Practice for
+Communicating Company-Sponsored Medical Research: GPP3
+Guidelines](https://www.ncbi.nlm.nih.gov/pubmed/26259067) and the [Joint
+Statement
+(PDF)](https://www.ismpp.org/assets/docs/Inititives/amwa-emwa-ismpp%20joint%20position%20statement%20on%20the%20role%20of%20professional%20medical%20writers_january%202017.pdf)
+from AMWA, EMWA and ISMPP on the important role of professional medical
+writers.

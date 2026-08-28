@@ -35,7 +35,7 @@ website:
       - text: Toolkits
         menu: 
           - text: For authors
-            href: toolkits/writing-research.qmd
+            href: toolkits/writing-research/index.qmd
           - text: For journals
             href: toolkits/using-guidelines-in-journals/index.qmd
           - text: For peer reviewers

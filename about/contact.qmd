@@ -5,14 +5,9 @@ date: ''
 
 ## Please send all general enquiries to
 
-Professor Gary S. Collins, PhD
-
-Director of the UK EQUATOR Centre
-
-Department of Applied Health Sciences
-
-University of Birmingham
-
-United Kingdom
-
-Email: [g.s.collins\@bham.ac.uk](mailto:g.s.collins@bham.ac.uk)
+| Professor Gary S. Collins, PhD
+| Director of the UK EQUATOR Centre
+| Department of Applied Health Sciences
+| University of Birmingham
+| United Kingdom
+| Email: [g.s.collins\@bham.ac.uk](mailto:g.s.collins@bham.ac.uk)
