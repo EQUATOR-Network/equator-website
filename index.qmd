@@ -44,6 +44,9 @@ community-created recommendations that ensure [everyone]{#typewriter-words .emph
 :::
 
 ::: hero-buttons
+<!-- I think we might need to add one possibly two more buttons -->
+<!-- one for registering a RGUD -->
+<!-- and maybe one for registering a new RG -->
 [Search 700+ reporting guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action .btn-primary .btn .btn-lg role="button"}
 
 [[›](#general-reporting-guidelines){.modern-link}]{.chevron .modern-link}[ View popular reporting guidelines](#general-reporting-guidelines){.modern-link}
