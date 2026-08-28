@@ -14,26 +14,6 @@ website:
     logo: "assets/logos/equator_logo.png"
     logo-alt: EQUATOR Network Home Page
     right:
-      - text: Reporting Guidelines
-        menu: 
-          - text: What are reporting guidelines?
-            href: about/reporting-guidelines.qmd
-          - text: Search reporting guidelines
-            href: reporting-guidelines/index.qmd
-          - text: Search reporting guidelines under development
-            href: reporting-guidelines/under-development/index.qmd
-      - href: https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school
-        text: Training
-      - text: Toolkits
-        menu: 
-          - text: For authors
-            href: toolkits/writing-research.qmd
-          - text: For journals
-            href: toolkits/using-guidelines-in-journals/index.qmd
-          - text: For peer reviewers
-            href: toolkits/peer-reviewing-research.qmd
-          - text: For reporting guideline developers
-            href: toolkits/developing-a-reporting-guideline/index.qmd
       - text: About
         menu: 
           - text: The UK EQUATOR Centre
@@ -44,6 +24,26 @@ website:
             href: about/international-equator-centres.qmd
           - text: Contact
             href: about/contact.qmd
+      - text: Library
+        menu: 
+          - text: What are reporting guidelines?
+            href: about/reporting-guidelines.qmd
+          - text: Search reporting guidelines
+            href: reporting-guidelines/index.qmd
+          - text: Search reporting guidelines under development
+            href: reporting-guidelines/under-development/index.qmd
+      - text: Toolkits
+        menu: 
+          - text: For authors
+            href: toolkits/writing-research.qmd
+          - text: For journals
+            href: toolkits/using-guidelines-in-journals/index.qmd
+          - text: For peer reviewers
+            href: toolkits/peer-reviewing-research.qmd
+          - text: For reporting guideline developers
+            href: toolkits/developing-a-reporting-guideline/index.qmd
+      - href: https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school
+        text: Training
       - href: reporting-guidelines/index.qmd
         icon: search
   page-footer:

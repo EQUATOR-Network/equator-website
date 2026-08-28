@@ -47,8 +47,9 @@ community-created recommendations that ensure [everyone]{#typewriter-words .emph
 <!-- I think we might need to add one possibly two more buttons
 (1) one for registering a RGUD 
 (2) one for registering a new RG
-or just a single register button which then goes to a point in the page where both are mentioned and linking to where more information can be found.
-One will go to the RGUD page which I've migrated over (not linked to anything yet) and a new page for new published RGs; as I get quite a few emails asking about the proceess of getting new guidelines in the library, so some brief instructions on that would be useful. RGUD and new RGs are the most frequent correspondence I get; quiet a few each week -->
+or just a single register button which then goes to a point in the page where both are mentioned and linking to where more information can be found (LATTITUDES has something like this lattitudes-network.org, 'Suggest or register a tool').
+So for RGS, one will go to the RGUD page which I've migrated over (not linked to anything yet) and a new page for new published RGs; as I get quite a few emails asking about the process of getting new guidelines in the library, so some brief instructions on that would be useful. RGUD and new RGs are the most frequent correspondence I get; quiet a few each week 
+-->
 [Search 700+ reporting guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action .btn-primary .btn .btn-lg role="button"}
 
 [[›](#general-reporting-guidelines){.modern-link}]{.chevron .modern-link}[ View popular reporting guidelines](#general-reporting-guidelines){.modern-link}
