@@ -63,7 +63,7 @@ how the list was developed.
 
 We hope you find the contents of this toolkit helpful. If you have any
 questions or concerns, please get in touch with the EQUATOR Network team by
-[email](mailto:g.s.collins@bham.ac.uk), on
+[email](/about/contact.qmd), on
 [Twitter](https://twitter.com/EQUATORNetwork), or on
 [LinkedIn](https://www.linkedin.com/groups/5032663/). We welcome any extra
 tools or case studies that you would like to contribute from your journal!
