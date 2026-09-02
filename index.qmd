@@ -49,14 +49,11 @@ community-created recommendations that ensure [everyone]{#typewriter-words
 guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action
 .btn-primary .btn .btn-lg role="button"}
 
-[[›](#general-reporting-guidelines){.modern-link}]{.chevron}[ View popular
-reporting guidelines](#general-reporting-guidelines){.modern-link}
+[[›]{.chevron} View popular reporting guidelines](#general-reporting-guidelines){.modern-link}
 
-[[›](#sec-what-are-rgs){.modern-link}]{.chevron}[ What are reporting
-guidelines?](#sec-what-are-rgs){.modern-link}
+[[›]{.chevron} What are reporting guidelines?](#sec-what-are-rgs){.modern-link}
 
-[[›](#about-equator){.modern-link}]{.chevron}[ About The EQUATOR
-Network](#about-equator){.modern-link}
+[[›]{.chevron} About The EQUATOR Network](#about-equator){.modern-link}
 :::
 
 <!-- hero buttons -->
