@@ -24,7 +24,7 @@ website:
             href: about/international-equator-centres.qmd
           - text: Contact
             href: about/contact.qmd
-      - text: Library
+      - text: Reporting Guidelines
         menu: 
           - text: What are reporting guidelines?
             href: about/reporting-guidelines.qmd
