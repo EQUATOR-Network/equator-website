@@ -81,20 +81,16 @@ Find examples of good reporting in:
 - [Observational
   studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2020496/)
 - [Trial abstracts](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2211558/)
-  ([read a selection of worked examples
-  (PDF)](http://www.consort-statement.org/Media/Default/Downloads/Extensions/CONSORT%20Extension%20for%20Abstracts%20checklist%20examples.pdf)
   of using CONSORT for abstracts)
 - [Systematic reviews](https://pubmed.ncbi.nlm.nih.gov/33781993/) and
   [protocols for systematic
-  reviews](http://www.bmj.com/content/349/bmj.g7647)
-- [Diagnostic accuracy
-  studies](http://clinchem.aaccjnls.org/content/49/1/7.long)
+  reviews](https://pubmed.ncbi.nlm.nih.gov/25555855/)
+- [Diagnostic accuracy studies](https://pubmed.ncbi.nlm.nih.gov/28137831/)
 - [Prediction modelling
   studies](https://www.ncbi.nlm.nih.gov/pubmed/25560730)
 - [Quality improvement
   studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2602740/)
-- [Trial
-  protocols](http://www.bmj.com/content/346/bmj.e7586.full?ijkey=QpAJnYI57zIwVr3&keytype=ref)
+- [Trial protocols](https://pubmed.ncbi.nlm.nih.gov/40294956/)
 
 ## Reporting medical research {#sec-Howto}
 
