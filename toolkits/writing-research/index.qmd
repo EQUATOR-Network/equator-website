@@ -27,8 +27,7 @@ for your article by reporting it in the best way possible.
 - [Use an annotated journal article from Authoraid as
   inspiration](#sec-AuthoraidAnotated)
 - [Follow the ICJME recommendations](#sec-ICJMERecs)
-- [Professional medical writing support](#-sec-professionalsupport)
-- [General guidance on scientific writing](#-sec-scientificwriting)
+- [Professional medical writing support](#sec-professionalsupport)
 
 ## EQUATOR Library of Reporting Guidelines {#sec-RGlibrary}
 
@@ -129,7 +128,7 @@ Medical Journal Editors. They are intended primarily for use by authors who
 submit their work for publication to ICMJE member journals, although many
 non-ICMJE journals recommend their use.
 
-## Professional medical writing support {#-sec-professionalsupport}
+## Professional medical writing support {#sec-professionalsupport}
 
 The EQUATOR Library has an [additional
 page](https://www.equator-network.org/library/professional-support/) of
