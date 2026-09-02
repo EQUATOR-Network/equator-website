@@ -23,7 +23,7 @@ guideline-history: 'Reporting of noninferiority and equivalence randomized trial
 relevant-more: |-
   **Generic**
 
-  [**CONSORT 2025 Statement**](/reporting-guidelines/consort/): Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne D, Farmer A, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson D, Vohra S, White IR, Boutron I. CONSORT 2025 statement: updated guideline for reporting randomised trials.
+  [CONSORT 2025 Statement](/reporting-guidelines/consort/): Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne D, Farmer A, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson D, Vohra S, White IR, Boutron I. CONSORT 2025 statement: updated guideline for reporting randomised trials.
 
   BMJ. 2025; 388:e081123.[PMID:40228833](https://pubmed.ncbi.nlm.nih.gov/40228833/)
 
@@ -57,7 +57,7 @@ relevant-more: |-
 
   [**STRICTA Controlled trials of acupuncture**](/reporting-guidelines/consort-stricta/):  MacPherson H, Altman DG, Hammerschlag R, Youping L, Taixiang W, White A, Moher D; STRICTA Revision Group. Revised STandards for Reporting Interventions in Clinical Trials of Acupuncture (STRICTA): extending the CONSORT statement. PLoS Med. 2010;7(6):e1000261. PMID: [20543992](http://www.ncbi.nlm.nih.gov/pubmed/20543992)
 
-  **[CONSORT PRO](/reporting-guidelines/consort-pro/):** Calvert M, Blazeby J, Altman DG, Revicki DA, Moher D, Brundage MD; CONSORT PRO Group. Reporting of patient-reported outcomes in randomized trials: the CONSORT PRO extension. JAMA. 2013;309(8):814-822. PMID: [23443445](http://www.ncbi.nlm.nih.gov/pubmed/23443445)
+  [**CONSORT PRO**](/reporting-guidelines/consort-pro/): Calvert M, Blazeby J, Altman DG, Revicki DA, Moher D, Brundage MD; CONSORT PRO Group. Reporting of patient-reported outcomes in randomized trials: the CONSORT PRO extension. JAMA. 2013;309(8):814-822. PMID: [23443445](http://www.ncbi.nlm.nih.gov/pubmed/23443445)
 
   **[CONSORT-CENT](/reporting-guidelines/consort-cent/)**: Vohra S, Shamseer L, Sampson M, Bukutu C, Schmid CH, Tate R, Nikles J, Zucker DR, Kravitz R, Guyatt G, Altman DG, Moher D; CENT group. CONSORT extension for reporting N-of-1 trials (CENT) 2015 Statement.BMJ. 2015;350:h1738.  PMID: [25976398](http://www.ncbi.nlm.nih.gov/pubmed/25976398)
 
@@ -247,7 +247,6 @@ keyword:
 - RCTs
 - trial
 - trials
-
 ---
 
 {{< include ../_template.qmd >}}
