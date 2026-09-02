@@ -75,8 +75,7 @@ reporting for each item on their checklist.
 
 Find examples of good reporting in:
 
-- [Randomised
-  trials](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2844943/), including
+- [Randomised trials](https://pubmed.ncbi.nlm.nih.gov/40228832/), including
   [trials of non-pharmacological
   interventions](https://www.ncbi.nlm.nih.gov/pubmed/18283207)
 - [Observational
@@ -85,8 +84,7 @@ Find examples of good reporting in:
   ([read a selection of worked examples
   (PDF)](http://www.consort-statement.org/Media/Default/Downloads/Extensions/CONSORT%20Extension%20for%20Abstracts%20checklist%20examples.pdf)
   of using CONSORT for abstracts)
-- [Systematic
-  reviews](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2707010/) and
+- [Systematic reviews](https://pubmed.ncbi.nlm.nih.gov/33781993/) and
   [protocols for systematic
   reviews](http://www.bmj.com/content/349/bmj.g7647)
 - [Diagnostic accuracy
