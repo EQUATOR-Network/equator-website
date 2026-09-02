@@ -50,9 +50,8 @@ article](https://www.csescienceeditor.org/article/the-equator-network-supporting
 in *Science Editor* explains a bit more about how reporting guidelines can
 support the work that journal editors do.
 
-- [**Read more here**](how-poor-reporting-affects-you.qmd) if you’re
-  uncertain about how bad reporting affects journals
-- [**Read more
-  here**](creating-your-journals-reporting-guideline-policy.qmd) if you
-  want to start implementing reporting guidelines in your journal
-- [**Gino back**](index.qmd) to the toolkit homepage
+- [Read more here](how-poor-reporting-affects-you.qmd) if you’re uncertain
+  about how bad reporting affects journals
+- [Read more here](creating-your-journals-reporting-guideline-policy.qmd)
+  if you want to start implementing reporting guidelines in your journal
+- [Go back](index.qmd) to the toolkit homepage

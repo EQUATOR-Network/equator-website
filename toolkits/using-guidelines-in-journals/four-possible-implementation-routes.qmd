@@ -2,23 +2,23 @@
 
 We offer tools and support for four major routes for implementation that
 cover the majority of reporting guideline policies. We strongly encourage
-the use of the **require** routes wherever possible, as these routes result
-in much better improvements in reporting.
+the use of the require routes wherever possible, as these routes result in
+much better improvements in reporting.
 
-There is no **require** route without an enforcement step. Conceptually,
-there is no difference between simply **endorsing** and **requiring**
-without enforcement. Authors receive mixed messages when journals claim to
-**require** reporting guidelines but do nothing to check whether these
-guidelines are actually followed. To create cultural change, we need to
-standardise how we talk about reporting guidelines and give authors a
-consistent message about what they can expect for their use.
+There is no require route without an enforcement step. Conceptually, there
+is no difference between simply endorsing and requiring without
+enforcement. Authors receive mixed messages when journals claim to require
+reporting guidelines but do nothing to check whether these guidelines are
+actually followed. To create cultural change, we need to standardise how we
+talk about reporting guidelines and give authors a consistent message about
+what they can expect for their use.
 
 ## 1. Endorse reporting guidelines
 
 Simply state that your journal supports reporting guidelines. You can raise
 awareness of reporting guidelines amongst your readers and authors using
-the [**steps suggested
-here**](launch-and-promote-your-journals-reporting-guideline-policy.qmd)**.**
+the [steps suggested
+here](launch-and-promote-your-journals-reporting-guideline-policy.qmd).
 
 ## 2. Endorse reporting guidelines and request a checklist
 
@@ -27,9 +27,9 @@ authors use appropriate checklists when writing and submitting. Some
 authors may send in their checklist; how will you use these? You could have
 an editorial staff member check them. You could also send them to your peer
 reviewers to aid in review. You can raise awareness of reporting guidelines
-amongst your readers, authors, and peer reviewers using the [**steps
+amongst your readers, authors, and peer reviewers using the [steps
 suggested
-here**](launch-and-promote-your-journals-reporting-guideline-policy.qmd)**.**
+here](launch-and-promote-your-journals-reporting-guideline-policy.qmd).
 
 ## 3. Require reporting guidelines, proved with a submitted checklist
 
@@ -38,8 +38,8 @@ a compulsory route for authors to submit a completed checklist or an
 indication of which guideline they have used. Editorial staff do not accept
 any publication that does not address reporting guidelines in some way. You
 can let your readers, authors, and peer reviewers know about your policy
-using the [**steps suggested
-here**](launch-and-promote-your-journals-reporting-guideline-policy.qmd)**.**
+using the [steps suggested
+here](launch-and-promote-your-journals-reporting-guideline-policy.qmd).
 
 There are two possible enforcement routes
 
@@ -49,8 +49,8 @@ You could train editorial staff to confirm that the correct reporting
 guideline has been used and check that it has been properly adhered to. If
 checklist items have not been addressed in the paper, the editorial staff
 can immediately return the paper for revision. You’ll find a suitable
-[**template letter
-here**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines#letters).
+[template letter
+here](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines#letters).
 
 ## 2. Peer reviewers confirm checklist use
 
@@ -59,24 +59,23 @@ guideline has been used. You could then have one peer reviewer confirm that
 the correct reporting guideline has been used and check that it has been
 adhered to. If checklist items have not been addressed in the paper, peer
 review would stop and editorial staff can immediately return the paper for
-revision. You’ll find a suitable [**template letter
-here**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines#letters).
+revision. You’ll find a suitable [template letter
+here](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines#letters).
 Only once the reporting is complete do you send the paper for full peer
 review.
 
 Alternatively, you could send the paper for full peer review on receipt and
 have all peer reviewers comment on reporting, using the reporting
 guideline. Improperly addressed checklist items would then be included with
-other requested revisions. You’ll find a suitable [**template letter
-here**](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines#letters).
+other requested revisions. You’ll find a suitable [template letter
+here](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines#letters).
 
-- [**Develop your
-  own**](creating-your-journals-reporting-guideline-policy.qmd) reporting
-  guideline policy
-- [**Promote your reporting guideline
-  policy**](launch-and-promote-your-journals-reporting-guideline-policy.qmd)
+- [Develop your own](creating-your-journals-reporting-guideline-policy.qmd)
+  reporting guideline policy
+- [Promote your reporting guideline
+  policy](launch-and-promote-your-journals-reporting-guideline-policy.qmd)
   with editorials and author instructions
-- [**Get tools and
-  templates**](tools-and-templates-for-implementing-reporting-guidelines.qmd)
+- [Get tools and
+  templates](tools-and-templates-for-implementing-reporting-guidelines.qmd)
   to help integrate your policy into your journal’s workflow
-- [**Go back**](index.qmd) to the toolkit homepage
+- [Go back](index.qmd) to the toolkit homepage

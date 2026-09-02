@@ -27,9 +27,8 @@ line of quality assurance. Journal publishers and editors have the power to
 improve the quality of published evidence and substantially increase its
 use.
 
-- [**Read more here**](reporting-guidelines-and-journals-fact-fiction.qmd)
-  if you’re uncertain about the role of reporting guidelines in journals
-- [**Read more
-  here**](creating-your-journals-reporting-guideline-policy.qmd) if you
-  want to start implementing reporting guidelines in your journal
-- [**Go back**](index.qmd) to the toolkit homepage
+- [Read more here](reporting-guidelines-and-journals-fact-fiction.qmd) if
+  you’re uncertain about the role of reporting guidelines in journals
+- [Read more here](creating-your-journals-reporting-guideline-policy.qmd)
+  if you want to start implementing reporting guidelines in your journal
+- [Go back](index.qmd) to the toolkit homepage

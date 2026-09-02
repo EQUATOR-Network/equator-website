@@ -170,10 +170,9 @@ points to potential flaws in the methodology; better these are caught and
 corrected at the writing stage than going to peer review and wasting the
 time of overworked reviewers.
 
-- [**Read about
-  journals**](case-studies-how-journals-implement-reporting-guidelines.qmd)
+- [Read about
+  journals](case-studies-how-journals-implement-reporting-guidelines.qmd)
   that have successfully implemented reporting guidelines
-- [**Read more
-  here**](creating-your-journals-reporting-guideline-policy.qmd) if you
-  want to start implementing reporting guidelines in your journal
-- [**Go back**](index.qmd) to the toolkit homepage
+- [Read more here](creating-your-journals-reporting-guideline-policy.qmd)
+  if you want to start implementing reporting guidelines in your journal
+- [Go back](index.qmd) to the toolkit homepage
