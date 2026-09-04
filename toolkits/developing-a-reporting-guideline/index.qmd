@@ -27,7 +27,7 @@ hands of the researchers who need it. We will cover:
   guideline](writing-up-and-publishing-your-reporting-guideline.qmd)
 - [Disseminating your reporting
   guideline](disseminating-your-reporting-guideline.qmd)
-- [Informing EQUATOR](new_rg.qmd)
+- [Requesting inclusion in the EQUATOR list of reporting guidelines](new_rg.qmd)
 - [Updating your reporting
   guideline](updating-and-extending-your-reporting-guideline.qmd)
 
