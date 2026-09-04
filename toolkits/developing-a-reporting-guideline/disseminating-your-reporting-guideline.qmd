@@ -1,14 +1,20 @@
 # Disseminating your reporting guideline
 
-Simply publishing a reporting guideline is unlikely to make a difference to the quality of future reporting. An implementation plan will help ensure that your reporting guideline reaches the researchers who need it. Some common strategies are:
+Simply publishing a reporting guideline is unlikely to make a difference to
+the quality of future reporting. An implementation plan will help ensure
+that your reporting guideline reaches the researchers who need it. Some
+common strategies are:
 
 - Making the checklist freely available in an editable format
 
 - Creating a dedicated website containing additional resources
 
-- An updated entry in the EQUATOR Network database
+- [Provide us with details so we can create an entry in the EQUATOR Network
+  database](new_rg.qmd)
 
-- Publishing journal editorials, written by your team or by the journal staff. It is particularly effective to have a number of journals in a field simultaneously publish an editorial in support of your guideline
+- Publishing journal editorials, written by your team or by the journal
+  staff. It is particularly effective to have a number of journals in a
+  field simultaneously publish an editorial in support of your guideline
 
 - Obtaining journal and other organisational endorsement
 
@@ -18,6 +24,8 @@ Simply publishing a reporting guideline is unlikely to make a difference to the 
 
 - Delivering a webinar explaining your guideline
 
-- Developing and delivering training in using your guideline, whether face-to-face or online
+- Developing and delivering training in using your guideline, whether
+  face-to-face or online
 
-- Partnering with the EQUATOR Network or similar organisations in their promotional activities
+- Partnering with the EQUATOR Network or similar organisations in their
+  promotional activities
