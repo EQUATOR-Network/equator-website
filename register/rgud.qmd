@@ -1,0 +1,120 @@
+<!-- need to create an index file, that talks broadly about registration -->
+
+<!-- both RGUD but also new guidelines (something we don't currently mention) -->
+
+# Reporting guidelines under development
+
+## The EQUATOR Network register of reporting guidelines under development
+
+The EQUATOR Network provides a space for registering reporting guidelines
+that are **currently under development** around the world.
+
+We encourage researchers to register the development of reporting
+guidelines and extensions here for free and also to keep the register entry
+up to date by contacting us to update it with the latest progress.
+
+The EQUATOR Network recommends that authors seek permission from the
+original development group if they plan to develop an extension or
+translation of an existing reporting guideline.
+
+**Any extensions or translation requests will be sent to the original
+development group, for their approval, before posting on the EQUATOR
+website.**
+
+## Why register?
+
+- To **raise awareness**: by telling others that you are developing a
+  reporting guideline, you can attract collaboration from others;
+- To **prevent duplication** of effort: before starting to develop a new
+  reporting guideline, developers should first check this register to see
+  if someone has already started developing the same or a similar
+  guideline. They can then offer to join existing development groups
+   instead of wasting time and resources by creating duplicate guidelines;
+- To **be transparent**: protocols, no matter how simple and short, can be
+  published and disseminated through this channel so that the development
+  methods are clear for all.
+
+## What you can — and cannot — register here?
+
+You **can** register here:
+
+- the development of a reporting guideline for a **research article
+  published in a scientific journal**:
+
+*“A reporting guideline is a checklist, flow diagram, or structured text to
+guide authors in reporting a specific type of research, developed using
+explicit methodology”.*
+
+- the development of a checklist or statement, the explanation and
+  elaboration (E&E) document under development, the protocol of your
+  project, the website dedicated to this development and other associated
+  materials
+- the progress of your work, by sending us news about steps finished, such
+  as the publication of protocols or systematic reviews, the start of
+  Delphi surveys and consensus meetings scheduled
+
+You **cannot** register here:
+
+- clinical guidelines: guidance you are developing for **clinical
+  practice** in any field
+- guidance for the **conduct** of research or **methodological** guidelines
+  (unless they are part of a reporting guideline)
+- the **translation** of existing reporting guidelines (but you can request
+  for the translation, once complete, to be added to the relevant reporting
+  guideline record in our main database)
+- guidance or checklists developed specifically for the **critical
+  appraisal** or evaluation of the reporting of health research studies
+- guidance whose development has already **finished**, even if not yet
+  published
+- guidance on the quality of communication between healthcare providers,
+  such as pathology or laboratory reports or medical records, or any report
+  **not intended for publication** as a scientific paper.
+
+## Disclaimers
+
+***Not an endorsement***
+
+Registration of a reporting guideline under development and inclusion on
+this web page does not imply endorsement by the EQUATOR Network.
+
+***Responsibilities***
+
+The contents of the reporting guidelines under development listed here are
+their authors’ responsibility, and no liability is accepted for any use of
+reporting guidelines under development information included in these pages.
+
+Authors should ensure that they have the appropriate authority to develop
+the reporting guideline being registered and that all of the information
+submitted to us is accurate to the best of their knowledge.
+
+***Content of this register*** <!-- link to the new RGUD search --> You can
+search HERE for any reporting guidelines currently under development.
+
+This list is not an exhaustive collection of reporting guidelines under
+development, and we encourage the community to provide us with links to
+others that are known to be under development.
+
+**The EQUATOR Network may remove any reporting guideline under development,
+particularly those registered more than 5 years ago, from these pages at
+any time at its sole discretion.** 
+
+## How to register
+
+Please register your planned guideline using this form:
+[Registration-form](Registration-form-for-reporting-guidelines-under-development-May-2026.docx).
+
+Please take care to fill in all fields, as incomplete forms may be returned
+to authors. Feel free to add additional information where applicable.
+
+The EQUATOR Network will summarise the information provided in the
+registration form for publication on the website. The information on the
+forms helps us verify if the project is about the development of a
+reporting guideline (and not a methodological or clinical guideline) and
+any duplication or overlap with other reporting guidelines under
+development or already published.
+
+## Guidance for developing reporting guidelines
+
+Visit the EQUATOR Network [toolkit on how to develop a reporting
+guideline](/toolkits/developing-a-reporting-guideline/) for essential
+information and advice.

@@ -75,6 +75,8 @@ website:
           href: toolkits/developing-a-reporting-guideline/index.qmd
         - text: Identifying the need
           href: toolkits/developing-a-reporting-guideline/identifying-the-need-for-a-new-reporting-guideline.qmd
+        - text: Registration
+          href: toolkits/developing-a-reporting-guideline/rgud_equator.qmd
         - text: Getting ready
           href: toolkits/developing-a-reporting-guideline/getting-ready-to-develop-your-guideline.qmd
         - text: Developing

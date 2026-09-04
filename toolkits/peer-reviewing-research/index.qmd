@@ -1,0 +1,143 @@
+# Peer reviewing research
+
+## Welcome to our toolkit for peer reviewing health research!
+
+## Using the resources you find here will help you decide whether a research manuscript contains enough detail to judge its quality
+
+- [Learn about using reporting guidelines to help your peer
+  review](#sec-PRandRG)
+- [Peer review training and guides from higher education institutions and
+  publishers](https://www.equator-network.org/toolkits/reporting-guidelines-in-peer-review/peer-review-training-and-resources/#PRTraining)
+- [Peer review in the news and
+  literature](https://www.equator-network.org/toolkits/reporting-guidelines-in-peer-review/peer-review-training-and-resources/#PRNews)
+
+## Reporting guidelines in peer review {#sec-PRandRG}
+
+Reporting guidelines are tools for health researchers to use while writing
+manuscripts. They provide minimum lists of information needed to ensure a
+manuscript can be
+
+- Understood by a reader,
+- Replicated by a researcher,
+- Used by a doctor to make a clinical decision, and
+- Included in a systematic review.
+
+Reporting guidelines are also helpful for reviewers. If the information
+required by a reporting guideline is not included in a manuscript, then you
+cannot properly judge the quality of that study. In 2012, [we
+found](https://www.ncbi.nlm.nih.gov/pubmed/22558178) that around 35% of
+journals offered freely accessible online instructions about their peer
+review process and, of those, about half mentioned reporting guidelines.
+
+## Identifying the right reporting guideline
+
+Some journals ask their authors to complete the appropriate reporting
+guideline checklist on submission, and pass these on to their peer
+reviewers. Other journals ask their peer reviewers to identify an
+appropriate reporting guideline themselves and take it into account when
+reviewing. Even if your journal hasn’t mentioned reporting guidelines,
+you’ll still find them useful in your review.
+
+Use [our toolkit to find the right reporting
+guideline](https://www.equator-network.org/toolkits/selecting-the-appropriate-reporting-guideline/)
+for the manuscript you are reviewing. If you are struggling to figure out
+what kind of study the authors have done, the following definitions may
+help:
+
+- If the manuscript reports the design of a study that hasn’t yet been
+  done, it is a
+  [**protocol**](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=study-protocols&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=+)
+- If the manuscript reports on a collection of the existing literature, it
+  is a **review**
+- If the authors set some inclusion criteria, then collected all relevant
+  articles for including in their review, it is a [**systematic
+  review**](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=systematic-reviews-and-meta-analyses&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=+)
+- If the authors picked a representative collection of articles to include
+  in their review, it is a **narrative review**
+- [**Qualitative
+  research**](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=qualitative-research&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=)
+  collects descriptive data, such as unstructured interviews, a story, or a
+  case study
+- **Quantitative research** collects numerical data, such as height and
+  weight
+- If the manuscript looks at how cost effective an intervention is, it is
+  an [**economic
+  evaluation**](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=economic-evaluations&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=+)
+- If the manuscript tells the story of one patient, or a group of similar
+  patients, then it describes a [**case
+  study**](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=0&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=case+report&btn_submit=Search+Reporting+Guidelines)
+  or a **series of case studies**
+- If the manuscript describes research into an intervention, treatment,
+  risk factor, or exposure, and the participants were selected **after**
+  they received the intervention/exposure/etc. under study, the manuscript
+  describes [**observational
+  research**](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=observational-studies&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=+&eq_guidelines_study_design_sub_cat=0)
+- If the manuscript describes research into an intervention, treatment,
+  risk factor, or exposure, the participants were selected **before** they
+  received the intervention/exposure/etc. under study, and the researchers
+  **did not allocate** which intervention/exposure/etc. they received (they
+  decided/their doctor decided/life just happened), then the manuscript
+  describes [**observational
+  research**](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=observational-studies&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=+&eq_guidelines_study_design_sub_cat=0)
+- If the manuscript describes research into an intervention or treatment,
+  the participants were selected **before** they received the intervention,
+  the researchers **allocated** which intervention they each received, and
+  the researchers used a **non-random** way to decide which intervention
+  they each received (e.g., based on symptoms), the manuscript describes a
+  **non-randomised trial**
+- If the manuscript describes research into an intervention or treatment,
+  the participants were selected **before** they received the intervention,
+  the researchers **allocated** which intervention they each received, and
+  the researchers used a **random** allocation to decide which intervention
+  they each received, the manuscript describes a [**randomised controlled
+  trial**](https://www.equator-network.org/?post_type=eq_guidelines&eq_guidelines_study_design=experimental-studies&eq_guidelines_clinical_specialty=0&eq_guidelines_report_section=0&s=)
+
+## Using reporting guidelines to check completeness
+
+Once you have identified the right guideline, you’re ready to start your
+completeness check. Go through the guideline item by item. Check whether
+each item is discussed fully in the manuscript.
+
+> The authors don’t have to have done every item, they just have to have
+> discussed it. For example, say you are reviewing a randomised controlled
+> trial and are checking for completeness using
+> [CONSORT](https://www.equator-network.org/reporting-guidelines/consort/).
+> Item 11a asks about blinding. The authors may not have been able to blind
+> their participants, due to the nature of the intervention. This is
+> absolutely fine! However, the authors do need to state in the manuscript
+> that participants were not blinded, and why.
+
+Make a note of every item that is missing or incompletely discussed. Do you
+have enough information to be able to peer review this article, or is it
+reported so incompletely that you can stop your review straight away? If
+many important items have been left out, you might want to send your
+annotated guideline to the editor and ask them whether they would like to
+stop the review process and get the authors to resubmit a complete
+manuscript that can be judged.
+
+If the journal you are peer reviewing uses reporting guideline checklists
+and sent you a completed one from the authors, the checking job is made
+even easier. The completed checklist should show the page on which each
+piece of information is listed. Authors might list some items as not
+applicable. Use your judgement as to whether information in the paper makes
+clear why an item is not applicable, or whether the authors need to address
+the point explicitly in the manuscript. Remember, future readers will only
+have access to the manuscript, not the authors for clarification, so every
+item needs to be fully explained in the manuscript!
+
+Once you have completed your initial check using a reporting guideline,
+you’re ready to critically appraise the manuscript.
+
+- [Find peer reviewer training from publishers, higher education
+  institutions and
+  academics](https://www.equator-network.org/toolkits/reporting-guidelines-in-peer-review/peer-review-training-and-resources/#PRTraining)
+- [Read about peer review in the news and
+  literature](https://www.equator-network.org/toolkits/reporting-guidelines-in-peer-review/peer-review-training-and-resources/#PRNews)
+
+*We hope you find the contents of this toolkit helpful. If you have any
+questions or concerns, please get in touch with the EQUATOR Network team
+by* [email](/about/contact.qmd)*, on*
+[Twitter](https://twitter.com/EQUATORNetwork)*, or*
+[LinkedIn](https://www.linkedin.com/groups/5032663/)*. We welcome any extra
+training materials or literature collections that you have found useful in
+your peer review!*
