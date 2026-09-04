@@ -904,22 +904,13 @@
     ]
   },
   {
-    "listing": "/about/equator-network.html",
+    "listing": "/about/international-equator-centres.html",
     "items": [
-      "/about/people/gcollins.html",
       "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
       "/about/people/thoffman.html",
-      "/about/people/zbian.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
     ]
   },
   {
@@ -933,13 +924,22 @@
     ]
   },
   {
-    "listing": "/about/international-equator-centres.html",
+    "listing": "/index.html",
     "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
+    ]
+  },
+  {
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
       "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
       "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   }
 ]

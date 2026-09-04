@@ -3448,319 +3448,14 @@
     ]
   },
   {
-    "objectID": "toolkits/writing-research/index.html#using-the-resources-you-find-here-will-set-you-on-the-right-road-to-writing-a-great-research-paper-using-reporting-guidelines",
-    "href": "toolkits/writing-research/index.html#using-the-resources-you-find-here-will-set-you-on-the-right-road-to-writing-a-great-research-paper-using-reporting-guidelines",
-    "title": "How to write a great research paper using reporting guidelines",
-    "section": "Using the resources you find here will set you on the right road to writing a great research paper using reporting guidelines",
-    "text": "Using the resources you find here will set you on the right road to writing a great research paper using reporting guidelines\nWhen published, your article will start a new independent life. It will be read and critically appraised, and it may contribute to systematic reviews, inform clinical guidelines, and influence clinical practice.\nBefore you submit your paper to a journal, you need to consider whether the article will achieve its purpose:\n\nWill a Cochrane reviewer be able to scrutinise your study’s methods to assess the risk of bias?\nWould another researcher be able to replicate your experiment?\nCan numerical results be extracted from your paper easily?\nHave you provided enough detail about your intervention to allow its use in clinical practice?\n\nThe resources in this toolkit will help you achieve a long and useful life for your article by reporting it in the best way possible.\n\nBrowse the EQUATOR library of reporting guidelines\nRead chapters from our textbook explaining why reporting guidelines are helpful\nLook at examples of good reporting\nRead a “How to…” article on reporting medical research\nUse an annotated journal article from Authoraid as inspiration\nFollow the ICJME recommendations\nProfessional medical writing support"
-  },
-  {
-    "objectID": "toolkits/writing-research/index.html#sec-RGlibrary",
-    "href": "toolkits/writing-research/index.html#sec-RGlibrary",
-    "title": "How to write a great research paper using reporting guidelines",
-    "section": "EQUATOR Library of Reporting Guidelines",
-    "text": "EQUATOR Library of Reporting Guidelines\nThe first step is to find a reporting guideline for your study. You might also want to supplement a common reporting guideline with any specific guidance for your clinical area or study type. After using the wizard, we suggest visiting the EQUATOR Database of Reporting Guidelines.\nThis is a searchable database of all reporting guidelines. Use the drop-down menus to see all of the reporting guidelines and extensions for a study type. You can also search for guidelines written specifically for certain clinical specialties. The free-text search lets you search guidelines’ titles, associated keywords, and the bibliographic details of any related papers."
-  },
-  {
-    "objectID": "toolkits/writing-research/index.html#sec-EQtextbook",
-    "href": "toolkits/writing-research/index.html#sec-EQtextbook",
-    "title": "How to write a great research paper using reporting guidelines",
-    "section": "Why are reporting guidelines so helpful?",
-    "text": "Why are reporting guidelines so helpful?\nThe EQUATOR team has edited a textbook called Guidelines for Reporting Health Research: A User’s Manual. It explains why we need standardised reporting of important details in health research publications and how to use reporting guidelines. It also has chapters on the guidelines most commonly required by journals. You can read some sample chapters here:\n\nChapter 1: Importance of transparent reporting of health research (PDF)\nChapter 4: Using reporting guidelines effectively to ensure good reporting of health research (PDF)\nChapter 5: Ambiguities and confusions between reporting and conduct (PDF)\nChapter 17: STROBE (STrengthening the Reporting of Observational studies in Epidemiology) (PDF)\n\nYou can read more about the textbook on this page."
-  },
-  {
-    "objectID": "toolkits/writing-research/index.html#sec-Goodexamples",
-    "href": "toolkits/writing-research/index.html#sec-Goodexamples",
-    "title": "How to write a great research paper using reporting guidelines",
-    "section": "Examples of good reporting",
-    "text": "Examples of good reporting\nOnce you have the right reporting guideline and know what items to report, it’s always a good idea to look at good examples for inspiration. Several guideline development groups have published articles with examples of good reporting for each item on their checklist.\nFind examples of good reporting in:\n\nRandomised trials, including trials of non-pharmacological interventions\nObservational studies\nTrial abstracts of using CONSORT for abstracts)\nSystematic reviews and protocols for systematic reviews\nDiagnostic accuracy studies\nPrediction modelling studies\nQuality improvement studies\nTrial protocols"
-  },
-  {
-    "objectID": "toolkits/writing-research/index.html#sec-Howto",
-    "href": "toolkits/writing-research/index.html#sec-Howto",
-    "title": "How to write a great research paper using reporting guidelines",
-    "section": "Reporting medical research",
-    "text": "Reporting medical research\nAn essential “How to…” article published in The International Journal of Clinical Practice by former EQUATOR members Iveta Simera and Doug Altman on scientific writing and the key principles of responsible research reporting.\nA guide (PDF) to reporting guidelines relevant to implementation studies has been developed by researchers in the Centre for Implementation Science at King’s College London and King’s Improvement Science."
-  },
-  {
-    "objectID": "toolkits/writing-research/index.html#sec-AuthoraidAnotated",
-    "href": "toolkits/writing-research/index.html#sec-AuthoraidAnotated",
-    "title": "How to write a great research paper using reporting guidelines",
-    "section": "Authoraid annotated journal article",
-    "text": "Authoraid annotated journal article\nThis resource on the Authoraid website presents a journal article from PLoS ONE with annotated comments on aspects of the scientific writing."
-  },
-  {
-    "objectID": "toolkits/writing-research/index.html#sec-ICJMERecs",
-    "href": "toolkits/writing-research/index.html#sec-ICJMERecs",
-    "title": "How to write a great research paper using reporting guidelines",
-    "section": "ICMJE Recommendations",
-    "text": "ICMJE Recommendations\nRecommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals (ICMJE Recommendations) are produced by the International Committee of Medical Journal Editors. They are intended primarily for use by authors who submit their work for publication to ICMJE member journals, although many non-ICMJE journals recommend their use."
-  },
-  {
-    "objectID": "toolkits/writing-research/index.html#sec-professionalsupport",
-    "href": "toolkits/writing-research/index.html#sec-professionalsupport",
-    "title": "How to write a great research paper using reporting guidelines",
-    "section": "Professional medical writing support",
-    "text": "Professional medical writing support\nThe EQUATOR Library has an additional page of useful resources for both medical writers and those seeking professional support, including the writing and publication of industry-sponsored research. The resources include the latest Good Publication Practice for Communicating Company-Sponsored Medical Research: GPP3 Guidelines and the Joint Statement (PDF) from AMWA, EMWA and ISMPP on the important role of professional medical writers."
-  },
-  {
-    "objectID": "terms-of-use.html",
-    "href": "terms-of-use.html",
-    "title": "Terms of Use",
+    "objectID": "toolkits/developing-a-reporting-guideline/new_rg.html",
+    "href": "toolkits/developing-a-reporting-guideline/new_rg.html",
+    "title": "",
     "section": "",
-    "text": "This page sets out the terms of use of the EQUATOR Network website. Use of this website signifies agreement to these terms."
-  },
-  {
-    "objectID": "terms-of-use.html#copyright",
-    "href": "terms-of-use.html#copyright",
-    "title": "Terms of Use",
-    "section": "Copyright",
-    "text": "Copyright\nUnless otherwise noted, all materials contained in this site are copyrighted and may not be used except as provided in these terms and conditions or in the copyright notice or other proprietary notice provided with the relevant materials.\nThe materials contained in the site may be downloaded or copied provided that ALL copies retain the copyright and any other proprietary notices contained on the materials. No material may be modified, edited or taken out of context such that its use creates a false or misleading statement or impression as to the positions, statements or actions of the EQUATOR Network."
-  },
-  {
-    "objectID": "terms-of-use.html#accuracy",
-    "href": "terms-of-use.html#accuracy",
-    "title": "Terms of Use",
-    "section": "Accuracy",
-    "text": "Accuracy\nWhile we have taken every care to compile accurate information and to keep it up-to-date, we cannot guarantee its correctness and completeness. The information provided on this site does not constitute business, medical or other professional advice, and is subject to change. We do not accept responsibility for any loss, damage or expense resulting from the use of this information."
-  },
-  {
-    "objectID": "terms-of-use.html#availability",
-    "href": "terms-of-use.html#availability",
-    "title": "Terms of Use",
-    "section": "Availability",
-    "text": "Availability\nWe cannot guarantee uninterrupted access to this website, or the sites to which it links. We can accept no responsibility for any damages arising from the loss or use of this information."
-  },
-  {
-    "objectID": "terms-of-use.html#privacy-policy",
-    "href": "terms-of-use.html#privacy-policy",
-    "title": "Terms of Use",
-    "section": "Privacy policy",
-    "text": "Privacy policy\nWe respect the privacy of people who use our website. View our privacy policy."
-  },
-  {
-    "objectID": "terms-of-use.html#site-access-and-cookies",
-    "href": "terms-of-use.html#site-access-and-cookies",
-    "title": "Terms of Use",
-    "section": "Site access and cookies",
-    "text": "Site access and cookies\nThe website monitors access to the site for the purpose of system administration of the web server and statistical monitoring of website usage. This may include ‘cookies’.\nA cookie is a message given to a web browser by a web server. The message is then stored on your PC by the browser in a text file called cookie.txt. Every time the browser obtains a page from the server this cookie message is sent back. A cookie can be used to identify users and personalise their visit by customising web pages for them.\nYou may need to change the settings on your browser to be able to accept these cookies. This does not affect your ability to access the site in any way.\nPlease view our privacy policy for more detailed information about the cookies used on this website.\nIf you sign up to receive the EQUATOR Newsletter, we may also automatically collect technical information about how you interact with the EQUATOR newsletter to help us improve our newsletter.\nWe improve our website by using Microsoft Clarity to see how you use our website. By using our site, you agree that we and Microsoft can collect and use this data."
-  },
-  {
-    "objectID": "about/people/zbian.html",
-    "href": "about/people/zbian.html",
-    "title": "Zhaoxiang Bian",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Bian obtained his Bachelor Degree of Chinese Medicine from the Nanjiang University of Chinese Medicine in 1988, Master Degree of Chinese Medicine from Beijing University of Chinese Medicine in 1991, and PhD degree in Integrative Chinese and Western Medicine from Guangzhou University of Chinese Medicine in 1994. Currently, he is Chair Professor in the School of Chinese Medicine and Tsang Shiu Tim Endowed Professor of Chinese Medicine Clinical Studies, Hong Kong Baptist University (HKBU), and also serves as associate Vice-President (Chinese Medicine Development) of HKBU, Director of Clinical Division, School of Chinese Medicine, Director of Hong Kong Chinese Medicine Clinical Study Centre and Director of Chinese EQUATOR Centre. Dr Bian’s major research interests are: (1) Clinical research methodology and reporting guidelines; (2) Clinical and translational study of gastrointestinal diseases; (3) Chinese medicine wisdom-driven new drug discovery and development. His academic achievements include 400+ academic publications, 80+ US & China patents, and one new drug clinical trial licence from China National Medical Product Administration."
-  },
-  {
-    "objectID": "about/people/jdebeyer.html",
-    "href": "about/people/jdebeyer.html",
-    "title": "Jennifer de Beyer",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nDr Jen de Beyer teaches our academic writing, publication, and communication skills courses and develops resources on how to write fantastic health research articles, such as our toolkits. You’re also likely to find her promoting reporting guidelines and clear reporting through our social media channels (@EQUATORNetwork) and at conferences. Jen completed a doctorate in systems biology, focusing on biochemistry, and worked in academic editing before joining the UK EQUATOR Centre in 2015."
-  },
-  {
-    "objectID": "about/people/dmoher.html",
-    "href": "about/people/dmoher.html",
-    "title": "David Moher",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nDr David Moher is a senior scientist with the Ottawa Health Research Institute. He is also Associate Professor, Department of Epidemiology & Community Medicine, Faculty of Medicine, University of Ottawa, and holds a University of Ottawa Research Chair. In May 2014 he became Director of the Canadian EQUATOR Centre.\nDavid has published more than 150 papers, including approximately 40 systematic reviews and more than 50 articles on the methodology of conducting and reporting clinical trials and systematic reviews. He is Director of the University of Ottawa’s Evidence-based Practice Center, convenor of the Cochrane Collaboration’s Bias Methods Group, and an editorial board member of several journals. He helped develop many reporting guidelines, including the CONSORT, QUOROM / PRISMA, MOOSE, and STARD Statements."
-  },
-  {
-    "objectID": "about/people/jioannidis.html",
-    "href": "about/people/jioannidis.html",
-    "title": "John P.A. Ioannidis",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\nJohn P.A. Ioannidis, MD, DSc, is Professor of Medicine, of Epidemiology and Population Health, and (by courtesy) of Biomedical Data Science and Co-Director, Meta-Research Innovation Center at Stanford (METRICS) at Stanford University. He has served as President of the Association of American Physicians and has won many awards, including the European Award for Excellence in Clinical Science, Medal for Distinguished Service, Teachers College, Columbia U, Chanchlani Global Health Award, Epiphany Science Courage Award, Einstein fellow, Gordon award, Albert Stuyvenberg Medal, Harwood Prize, Blake Award, Founders’ Medal for MAER-Net). He has been inducted in Association of American Physicians, European Academy of Cancer Sciences, American Epidemiological Society, European Academy of Sciences and Arts, US National Academy of Medicine and Accademia delle Scienze (Bologna) and has received honorary doctorates from Erasmus University Rotterdam, University of Athens, University of Tilburg, University of Edinburgh, Aristotle University of Thessaloniki and McMaster University.\nJohn has been involved in the conception, development and publication of many reporting guidelines and has led research on diverse meta-research areas, providing evidence for research practices, biases, and solutions for improving research efficiency in biomedicine and beyond. He has also been a co-director of the International Congress on Peer Review and Scientific Publication that is co-organized by METRICS, BMJ, and JAMA."
-  },
-  {
-    "objectID": "about/people/jioannidis.html#metrics-affiliates",
-    "href": "about/people/jioannidis.html#metrics-affiliates",
-    "title": "John P.A. Ioannidis",
-    "section": "METRICS affiliates",
-    "text": "METRICS affiliates\nAs an interdisciplinary, solutions focused center, METRICS has recruited a large number of Stanford faculty from multiple disciplines within and outside biomedicine. Our researchers, postdoctoral fellows, visiting scholars, and students add additional depth and breadth to METRICS research activities and initiatives.\nMETRICS Affiliates are recognized leaders in the field of meta-research who are studying research practices in the areas of methods, evaluation, reporting, reproducibility and incentives with the goal of generating evidence to strengthen the research enterprise. We are grateful to have a large number of affiliates from leading research institutions from around the world.\nMETRICS partners with a broad range of organizations working to improve best research practices through engagement on specific initiatives, targeted research, the sharing of best practices, and participation in working groups.\nA list of METRICS affiliates, postdoctoral fellows, and other researchers involved in METRICS can be found in the METRICS website: https://metrics.stanford.edu/ along with additional information about our work, collaborations, and events."
-  },
-  {
-    "objectID": "about/people/jioannidis.html#funding",
-    "href": "about/people/jioannidis.html#funding",
-    "title": "John P.A. Ioannidis",
-    "section": "Funding",
-    "text": "Funding\nWork at METRICS has been funded by federal grants in the USA, unrestricted gifts to Stanford University, grants from non-profit foundations, as well as the Stanford University School of Medicine and Stanford Department of Medicine. We do not accept any funding from for-profit entities."
-  },
-  {
-    "objectID": "about/people/thoffman.html",
-    "href": "about/people/thoffman.html",
-    "title": "Tammy Hoffmann",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Tammy Hoffmann is a Professor of Clinical Epidemiology at the Institute for Evidence-Based Healthcare, Bond University. Her research spans many aspects of evidence-based practice, shared decision making, knowledge translation, and minimising waste in research. Tammy has been involved in the development of a number of reporting guidelines. As part of her interest in improving the reporting, useability, and uptake of effective non-pharmacological interventions, she led the development of the TIDieR (Template for Intervention Description and Replication) checklist and guide. She has over 300 publications, including many in the world’s leading medical journals. She is also the lead author of a widely used interdisciplinary evidence-based practice book (Evidence-Based Practice across the Health Professions, 4th ed 2023)."
-  },
-  {
-    "objectID": "about/reporting-guidelines.html#reporting-guidelines",
-    "href": "about/reporting-guidelines.html#reporting-guidelines",
-    "title": "Reporting guidelines, writing guides, and checklists",
-    "section": "What are reporting guidelines?",
-    "text": "What are reporting guidelines?\nReporting guidelines are recommendations of information to include when writing up research. They ensure research can be understood and used by a wide audience including other researchers, editors, reviewers, clinicians, evidence synthesisers, and readers from different fields, countries, or background, even decades in the future.\nReporting guidelines help researchers write academic articles, protocols, and funding applications. They make writing less daunting by breaking the process up into bite-size chunks, without dictating the final structure. They help authors lay out the key information – the building blocks – of their work. Authors then decide how best to arrange this information to build a compelling and clear account.\nHowever, reporting guidelines are not design standards or tools for quality appraisal. They do not dictate how research must be conducted, but they do ensure research is described clearly enough for readers to understand its strengths and limitations.\nWhy do we need them? Because for decades, researchers have missed out important details because of oversight, or because they have not considered their audience’s needs. These gaps make it harder for others to replicate, understand, or apply the findings — and may exclude research from reviews or clinical use. This is a massive source of waste that pervades all research areas. Well-reported research has greater impact.\n\nReporting guidelines are made by expert groups. Most groups follow a systematic, consensus development method to create and publish a checklist, sometimes accompanied by a longer explanation paper that provides context and examples for each checklist item.\nTo make these resources easier to use, we at the EQUATOR Network built this website in collaboration with authors, editors, and the developers of the most-used open access reporting guidelines."
-  },
-  {
-    "objectID": "about/reporting-guidelines.html#writing",
-    "href": "about/reporting-guidelines.html#writing",
-    "title": "Reporting guidelines, writing guides, and checklists",
-    "section": "Writing using reporting guidelines",
-    "text": "Writing using reporting guidelines\nReporting guidelines help authors develop their writing practice to create articles and applications that are clear, compelling, and complete. They can be used alongside any writing process – whether you jump straight in with full paragraphs, or prefer to plan, outline, draft, and revise your text. Whether you write from introduction to discussion, or prefer to start by writing your methods or results.\nThey are especially useful to researchers with less writing experience, who haven’t found an approach to writing that works for them.\nThey break the writing process into manageable pieces. Read the guidance before you begin writing. If you like to plan your writing, consider working though items and collating notes into a document, then organise your notes into coherent structure with logical narrative structure.\nYou decide how best to arrange information, and whether to present it in the article body, in a figure or table, or in a supplement.\nTo learn more about writing skills, develop good writing habits, and how to use reporting guidelines, see our training."
-  },
-  {
-    "objectID": "about/reporting-guidelines.html#reporting-checklists",
-    "href": "about/reporting-guidelines.html#reporting-checklists",
-    "title": "Reporting guidelines, writing guides, and checklists",
-    "section": "Reporting checklists",
-    "text": "Reporting checklists\nReporting guideline checklists allow authors to demonstrate how their work complies with a reporting guideline. By including a completed checklist as supplementary material, authors can reassure editors and peer reviewers their article is complete. Publishing checklists as supplements also helps readers and evidence synthesisers to find and extract information.\nReporting checklists are best used at the end of writing, before journal submission. Specify where readers can find each reporting item by directing them to parts of the manuscript e.g.,\n\nMethods, para. 2\nTable 2\nSupplement A, para. 4 and Figure S1.\n\nSome older reporting checklists asked authors to state page numbers for each item. We recommend against this because:\n\nPage numbers easily change when editing a document.\nWhen you submit, most journals generate a PDF of your manuscript combined with other submission data. The page numbers in your checklist will not correspond to this PDF, and so won’t be useful to editors nor reviewers.\nWhen published, online articles don’t have pages and PDF pages won’t correspond to your original file, so page numbers won’t help readers.\n\nConversely, if you specify which section, paragraph, table, figure, or supplement contains a reporting guideline item, editors, peer reviewers, and future readers will easily be able to find it.\nIf you have chosen not to report an item, explain why. You can do this in the checklist, or as a note below it. Otherwise editors or peer reviewers may chase you for this information, thereby delaying publication. These explanations will also help future evidence reviewers – who commonly use reporting guidelines when assessing the the quality of reporting and risk of bias – meaning your article may be more likely to be included in their reviews.\nAs with reporting guidelines, checklists do not dictate how research should be conducted nor how manuscripts should be structured."
-  },
-  {
-    "objectID": "about/reporting-guidelines.html#writing-applications",
-    "href": "about/reporting-guidelines.html#writing-applications",
-    "title": "Reporting guidelines, writing guides, and checklists",
-    "section": "Writing applications and protocols using reporting guidelines",
-    "text": "Writing applications and protocols using reporting guidelines\nA few reporting guidelines specifically cater to protocols, but most are for writing academic articles. Nevertheless, all reporting guidelines can be used to write protocols or grant applications – just use the methods items. Although reporting guidelines don’t dictate how research should be designed or conducted, using them to write a protocol or application helps authors consider decisions they will encounter and to document their thoughts."
-  },
-  {
-    "objectID": "about/equator-network.html#equators-mission-and-goals",
-    "href": "about/equator-network.html#equators-mission-and-goals",
-    "title": "EQUATOR Network: what we do and how we are organised",
-    "section": "EQUATOR’s mission and goals",
-    "text": "EQUATOR’s mission and goals\nThe EQUATOR mission is to achieve accurate, complete, and transparent reporting of all health research studies to support research reproducibility and usefulness. Our work increases the value of health research and helps to minimise avoidable waste of financial and human investments in health research projects.\nTo achieve its mission the EQUATOR Network has the following major goals:\n\nMaintain and further develop a comprehensive collection of online resources providing up-to-date information, tools and other materials related to health research reporting (Library for health research reporting)\nActively promote the use of reporting guidelines and good research reporting practices through an education and training programme\nAssist in the development, dissemination and implementation of robust reporting guidelines\nSupport journals, universities and other organisations in implementing reporting guidelines through development of tools, strategies, education and other activities\nUndertake research projects enhancing the value of health-related research\nSet up a global network of local EQUATOR centres to facilitate the improvement of health research reporting on a worldwide scale\n\nAside from its core activities of providing focused resources and training, EQUATOR is committed to research on current research and its publication to enhance the value of health-related research. Research topics include reviews of time trends in the nature and quality of publications; the development of tools and strategies to improve the planning, design, conduct/management and reporting of biomedical research; and investigating strategies to help journals to improve the quality of manuscripts.\nThe EQUATOR Network is directed by an international Executive Group that brings together leading experts in health research methodology, statistics, reporting and editorial work."
-  },
-  {
-    "objectID": "about/equator-network.html#executive-group-members",
-    "href": "about/equator-network.html#executive-group-members",
-    "title": "EQUATOR Network: what we do and how we are organised",
-    "section": "Executive Group members",
-    "text": "Executive Group members\n\n\n\n\n\n\n\n\n\n\nGary Collins\n\n\nDirector, Professor of Medical Statistics, University of Birmingham\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Moher\n\n\nSenior Scientist, Ottawa Health Research Institute, Ottawa, Canada; Director, Canadian EQUATOR Centre, and former chair of the EQUATOR Network.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhilippe Ravaud\n\n\nDirector, Centre of Epidemiology at the Hotel-Dieu (Paris); Director, French EQUATOR Centre\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTammy Hoffmann\n\n\nProfessor of Clinical Epidemiology, Institute for Evidence-Based Healthcare, Bond University, Australia; Director of the Australian EQUATOR Centre\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZhaoxiang Bian\n\n\nChair Professor in the School of Chinese Medicine and Tsang Shiu Tim Endowed Professor of Chinese Medicine Clinical Studies, Hong Kong Baptist University; Director of the Chinese EQUATOR Centre\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/equator-network.html#advisory-group-members",
-    "href": "about/equator-network.html#advisory-group-members",
-    "title": "EQUATOR Network: what we do and how we are organised",
-    "section": "Advisory Group members",
-    "text": "Advisory Group members\n\nAna Marušić, Professor and Chair, Department of Research in Biomedicine and Health, University of Split, Croatia"
-  },
-  {
-    "objectID": "about/equator-network.html#former-executive-group-members",
-    "href": "about/equator-network.html#former-executive-group-members",
-    "title": "EQUATOR Network: what we do and how we are organised",
-    "section": "Former Executive Group members",
-    "text": "Former Executive Group members\n\nDoug Altman, former Professor of Statistics in Medicine, Centre for Statistics in Medicine, University of Oxford, UK; Director, UK EQUATOR Centre\nIveta Simera, formerly Senior Operations & Development Manager at The Global Health Network (TGHN), Centre for Tropical Medicine & Global Health, University of Oxford, UK"
-  },
-  {
-    "objectID": "about/equator-network.html#former-advisory-group-members",
-    "href": "about/equator-network.html#former-advisory-group-members",
-    "title": "EQUATOR Network: what we do and how we are organised",
-    "section": "Former Advisory Group members",
-    "text": "Former Advisory Group members\n\nJohn Hoey, Associate Professor (adjunct), University of Toronto, Toronto, Canada\nKenneth F. Schulz, Distinguished Scientist and Vice President, Quantitative Sciences, Family Health International, Chapel Hill, USA\nTrish Groves, formerly Head of Research, BMJ & Editor-in-chief, BMJ Open"
-  },
-  {
-    "objectID": "about/equator-network.html#equator-milestones",
-    "href": "about/equator-network.html#equator-milestones",
-    "title": "EQUATOR Network: what we do and how we are organised",
-    "section": "EQUATOR Milestones",
-    "text": "EQUATOR Milestones\nSince its launch in 2008, the programme has already achieved important milestones:\n\nDeveloped a free online Library for health research reporting\nIn collaboration with the Pan American Health Organization (PAHO/WHO) launched a Spanish section in the EQUATOR website and signed a three year memorandum on mutual collaboration in promoting responsible research reporting in the Americas, especially in Latin America and the Caribbean regions\nBuilt international recognition and reputation as the leading authority and resource portal in the area of health research reporting. Reference to EQUATOR is included in the “Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals” (formerly Uniform Requirements for Biomedical Manuscripts), the most fundamental guidelines developed by the International Committee of Medical Journal Editors that are followed by most biomedical journals\nOrganised workshops, seminars, talks and Annual Lectures on issues relevant to research reporting (see our past events)\nTogether with the German Cochrane Centre organised the 1st EQUATOR Scientific Symposium: ACT now: Accuracy, Completeness and Transparency in health research reporting, Freiburg, October 2012\nCompleted several research projects and published a number of research papers and articles promoting good research reporting\nPublished a regular online newsletter and set up a LinkedIn group disseminating information about new reporting guidelines and the latest developments"
-  },
-  {
-    "objectID": "about/equator-network.html#principles",
-    "href": "about/equator-network.html#principles",
-    "title": "EQUATOR Network: what we do and how we are organised",
-    "section": "Principles",
-    "text": "Principles\nThe work of EQUATOR increases the usability of available research evidence. Our work supports the work of organisations such as the Cochrane Collaboration in the development of systematic reviews and NICE in the development of clinical practice guidelines. EQUATOR also helps research funders maximise the utility of new information arising from the research they fund.\nComplete, accurate and transparent reporting is an integral part of responsible research conduct. Reporting guidelines are important tools for achieving high standards in reporting health studies. In order to reach their potential, reporting guidelines need to be used widely and routinely by researchers/authors, editors and peer reviewers. This effort needs to be strongly supported by research funders and regulatory bodies.\nEQUATOR is a long-term programme of research support and improvement and not a closed fixed term project. Ongoing EQUATOR activities are expected to increase the usability and value of published research both in clinical practice and to aid further research, thus ensuring that maximum value is gained from financial investment in health research."
-  },
-  {
-    "objectID": "about/uk-equator-centre.html",
-    "href": "about/uk-equator-centre.html",
-    "title": "The UK EQUATOR Centre",
-    "section": "",
-    "text": "The UK EQUATOR Centre is run by Professor Gary Collins at the University of Birmingham. The UK Centre is the head office of the EQUATOR Network. The Centre works with partner organisations and initiatives and contributes to the work of the EQUATOR Network as a whole.\nThe UK EQUATOR Centre’s work includes:"
-  },
-  {
-    "objectID": "about/uk-equator-centre.html#team",
-    "href": "about/uk-equator-centre.html#team",
-    "title": "The UK EQUATOR Centre",
-    "section": "Team",
-    "text": "Team\n\n\n\n\n\n\n\n\n\n\nGary Collins\n\n\nDirector, Professor of Medical Statistics, University of Birmingham\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJames Harwood\n\n\nPostdoctoral Research Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJennifer de Beyer\n\n\nPublication & Dissemination Specialist\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaula Dhiman\n\n\nMedical Statistician\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDoug Altman (1948-2018)\n\n\nFounding Director of the UK EQUATOR Centre\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/international-equator-centres.html#canadian-equator-centre",
-    "href": "about/international-equator-centres.html#canadian-equator-centre",
-    "title": "International EQUATOR Centres",
-    "section": "Canadian EQUATOR Centre",
-    "text": "Canadian EQUATOR Centre\nIn addition to helping to carry out the strategic vision of the EQUATOR Network in Canada, the focus of the Canadian EQUATOR Centre is on initiatives that have relevant down stream consequences for the conduct and reporting of biomedical research. Our current programs include:\n\nA broad research program on deceptive journals and publishers\nA program on peer review, including how it is measured; and developing core competencies for peer reviewers\nInvestigating how to reduce waste and increase value in biomedical research\nA comprehensive training and education program on journalology\n\n\n\n\n\n\n\n\n\n\n\nDavid Moher\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/international-equator-centres.html#australasian-equator-centre",
-    "href": "about/international-equator-centres.html#australasian-equator-centre",
-    "title": "International EQUATOR Centres",
-    "section": "Australasian EQUATOR Centre",
-    "text": "Australasian EQUATOR Centre\nIn addition to helping carry out the strategic vision of the EQUATOR Network in Australia and the Asia-Pacific region, the Australasian EQUATOR Centre’s focus is on reducing waste and enhancing the value of biomedical research.\nExamples of our current activities include:\n\nImproving the descriptions of interventions in research (such as trials and systematic reviews) and developing online tools to enable authors to more easily create complete descriptions of interventions\nDeveloping tools, including automation tools, that enable many steps in the systematic review process to be done faster and more efficiently\nUndertaking research in research waste and creating resources to increase the value of research (in conjunction with the Reward Alliance)\nContributing to the creation and/or updating of key reporting guidelines (e.g. TIDieR, PRISMA, STARD, PRISMA for Abstracts)\nProviding training activities within the Australasian region in research reporting, publication skills, and research protocols.\n\n\n\n\n\n\n\n\n\n\n\nTammy Hoffmann\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/international-equator-centres.html#french-equator-centre",
-    "href": "about/international-equator-centres.html#french-equator-centre",
-    "title": "International EQUATOR Centres",
-    "section": "French EQUATOR Centre",
-    "text": "French EQUATOR Centre\nIn addition to help carrying out the strategic vision of the EQUATOR network in France and in French speaking countries, the focus of the French EQUATOR centre is on increasing/improving/enhancing the value of biomedical research. This will be done through the improvement of the planning, design, conduct/management and reporting of biomedical research.\nOur current programs include the following activities:\n\nMapping the planning, posting, reporting (through journals) and data sharing of biomedical research worldwide.\nDeveloping interventional research on research in order to improve the planning, design, conduct/management and reporting of biomedical research. We are developing various interventions such as freely available online tools and we assess them using high level of evidence study designs (randomized controlled trials, time-series analysis, split-manuscript design etc).\nRethinking the peer-review process:\n\nImproving the traditional peer-review process, developing and evaluating interventions to improve the peer-review process in randomized controlled trials.\nAssessing new models of peer-review through simulation modelling using empirical data.\n\nCreating a platform where biomedical journals, publishers and editors would commit to share some of their data on peer-review (figures related to the peer-review process and peer-reviewers’ reports) and could volunteer to participate in trials.\n\n\n\n\n\n\n\n\n\n\n\nPhilippe Ravaud\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/international-equator-centres.html#chinese-equator-centre",
-    "href": "about/international-equator-centres.html#chinese-equator-centre",
-    "title": "International EQUATOR Centres",
-    "section": "Chinese EQUATOR Centre",
-    "text": "Chinese EQUATOR Centre\n\nThe Chinese EQUATOR Centre will adopt the principles of the EQUATOR Network mission and vision, and enhance its impact throughout China.\nBased on the principle of the EQUATOR Network, to enhance the medical research quality through education and training in different conferences, workshops, seminars, and other related activities.\nTo improve the quality of Chinese medicine clinical research.\n\nVisit the Chinese EQUATOR Centre website.\n\n\n\n\n\n\n\n\n\n\nZhaoxiang Bian\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/international-equator-centres.html#usa-equator-centre",
-    "href": "about/international-equator-centres.html#usa-equator-centre",
-    "title": "International EQUATOR Centres",
-    "section": "USA EQUATOR Centre",
-    "text": "USA EQUATOR Centre\nThe USA EQUATOR Centre is based at the Meta-Research Innovation Center at Stanford (METRICS) at Stanford University.\nLaunched in April 2014 with a founding grant from the Laura and John Arnold Foundation, the Meta-Research Innovation Center at Stanford (METRICS) is a research to action center focused on transforming research practices to improve the quality of scientific studies in biomedicine and beyond. METRICS fosters multi-disciplinary research collaborations to help produce solutions that increase the effectiveness and value of scientific investigation. By serving as a lens that both focuses and helps magnify the impact of scholars, policymakers and others working on meta-research issues, we hope to enhance the public discourse and advance the development of policies and practices that maximize the use of best research practices.\nThe key focus of the USA EQUATOR Centre:\n\nBuild the meta-research field and catalyze solutions-focused research to develop best scientific practices\nProvide leaders with the skills and knowledge needed to support the development and implementation of high-quality research\nTransform research practices to strengthen the evidence base for informed decision-making\n\n\n\n\n\n\n\n\n\n\n\nJohn P.A. Ioannidis\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about/contact.html#please-send-all-general-enquiries-to",
-    "href": "about/contact.html#please-send-all-general-enquiries-to",
-    "title": "Contact",
-    "section": "Please send all general enquiries to",
-    "text": "Please send all general enquiries to\nProfessor Gary S. Collins, PhD\nDirector of the UK EQUATOR Centre\nDepartment of Applied Health Sciences\nUniversity of Birmingham\nUnited Kingdom\nEmail: g.s.collins@bham.ac.uk"
-  },
-  {
-    "objectID": "about/people/jharwood.html",
-    "href": "about/people/jharwood.html",
-    "title": "James Harwood",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nDr James Harwood is an implementation scientist at the University of Oxford working to improve the uptake of meta–science interventions that promote quality and transparency in healthcare research. As a member of UK EQUATOR he is developing this website as a platform for disseminating reporting guidelines. This work builds upon his previous research which used behaviour change theory to understand why researchers do not adhere to reporting guidelines, and to identify ways to increase adherence. He often uses mixed-methods and draws upon his pre-DPhil experience as a software developer."
-  },
-  {
-    "objectID": "about/people/pdhiman.html",
-    "href": "about/people/pdhiman.html",
-    "title": "Paula Dhiman",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nDr Paula Dhiman investigates how medical research is done, focusing on the methodological conduct and reporting of non-randomised research, with a view to helping improve the quality and integrity of future research. This is known as meta-research or “research on research”. Paula is passionate about statistical methodology and observational research and is particularly interested in prediction modelling."
-  },
-  {
-    "objectID": "about/people/daltman.html",
-    "href": "about/people/daltman.html",
-    "title": "Doug Altman (1948-2018)",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Doug Altman was Professor of Statistics in Medicine at the University of Oxford, UK and founder of the Centre for Statistics in Medicine. He was a co-founder of the EQUATOR Network, chair of the EQUATOR Steering Group, and Founding Director of the UK EQUATOR Centre.\nDoug published over 800 articles in peer-reviewed journals, including many aimed at clarifying statistical methods and ideas for medical researchers. He was the author of Practical Statistics for Medical Research (1991) and co-editor of Statistics with Confidence (1989 and 2000) and Systematic Reviews in Health Care (1995 and 2001). He was a statistical advisor to the Cochrane Collaboration and the BMJ. Doug had a long-standing interest in the reporting of medical research and was an executive member of several groups working on reporting guidelines, including CONSORT for randomised trials, QUOROM / PRISMA for systematic reviews, STROBE for epidemiological studies, and REMARK for tumour marker prognostic studies."
-  },
-  {
-    "objectID": "about/people/gcollins.html",
-    "href": "about/people/gcollins.html",
-    "title": "Gary Collins",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Gary Collins is a 125th Anniversary Chair and Professor of Medical Statistics at the University of Birmingham, and a NIHR Senior Investigator. His primary research interests are primarily focussed on aspects surrounding the development and validation multivariable prediction models (design, analysis and reporting).\nIn 2010, he established an international initiative to develop the TRIPOD reporting recommendations published in 2015 for studies developing and validating clinical prediction models. He led an update to these recommendations in 2024 to cover models developed using artificial intelligence and machine learning methods (TRIPOD+AI) and large language models (TRIPOD-LLM).\nGary has also been involved in other guidance for artificial intelligence and machine learning studies in healthcare, including\n\nSTARD-AI - for AI based diagnostic test accuracy studies\nDECIDE-AI - for early-stage live clinical evaluation of AI systems\nCONSORT-AI / SPIRIT-AI - for AI intervention studies\nCHART - for evaluating chatbots providing medical advice\n\nGary has also developed numerous other reporting guidelines for other study designs, including\n\nGATHER statement for studies providing global health estimates\nAGReMA statement for mediation analyses\n2025 update of SPIRIT and CONSORT guidelines for clinical trials\nSPIRIT-Surrogate and CONSORT-Surrogate for trials with surrogate endpoints\n\nHe has more than 500 peer-reviewed articles, editorials and commentaries, including 90 in the ‘big 6′ medical journals."
-  },
-  {
-    "objectID": "about/people/pravaud.html",
-    "href": "about/people/pravaud.html",
-    "title": "Philippe Ravaud",
-    "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Philippe Ravaud is Director of the Centre of Epidemiology at the Hotel-Dieu (Paris), Director of the French Cochrane Centre, Director of the INSERM Research Team “Methods of therapeutic evaluation of chronic diseases”, and a senior lecturer at Paris Descartes University and Columbia University (Mailman School of Public Health). In May 2014 he became Director of the French EQUATOR Centre.\nPhilippe received his MD from Pierre and Marie Curie University, Paris and completed a residence in rheumatology in the Assistance Publique-Hopitaux de Paris network. In parallel, he received an MSc in Epidemiology and a PhD in Clinical Epidemiology at the University of Nancy (France). For over 15 years his primary research has been evaluating and developing methodological solutions to assess treatments in patients with chronic diseases. The methods used are multiple (e.g., methodological systematic reviews, simulations, analytical methods, development of sham trials). His recent research has addressed evaluating non-pharmacological treatments; developing and validating endpoints; meta-analyses and network meta-analyses; and interpreting and communicating research results. His publication record includes more than 280 peer-reviewed papers, including 28 in the “big 6″ medical journals; he is the first or last author for more than 110 articles."
+    "text": "TO DO",
+    "crumbs": [
+      "Informing EQUATOR"
+    ]
   },
   {
     "objectID": "privacy-policy.html#about-the-equator-network",
@@ -3861,11 +3556,326 @@
     "text": "Contact\nIf you wish to raise any queries or concerns about this privacy policy, please contact us."
   },
   {
+    "objectID": "about/people/pravaud.html",
+    "href": "about/people/pravaud.html",
+    "title": "Philippe Ravaud",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Philippe Ravaud is Director of the Centre of Epidemiology at the Hotel-Dieu (Paris), Director of the French Cochrane Centre, Director of the INSERM Research Team “Methods of therapeutic evaluation of chronic diseases”, and a senior lecturer at Paris Descartes University and Columbia University (Mailman School of Public Health). In May 2014 he became Director of the French EQUATOR Centre.\nPhilippe received his MD from Pierre and Marie Curie University, Paris and completed a residence in rheumatology in the Assistance Publique-Hopitaux de Paris network. In parallel, he received an MSc in Epidemiology and a PhD in Clinical Epidemiology at the University of Nancy (France). For over 15 years his primary research has been evaluating and developing methodological solutions to assess treatments in patients with chronic diseases. The methods used are multiple (e.g., methodological systematic reviews, simulations, analytical methods, development of sham trials). His recent research has addressed evaluating non-pharmacological treatments; developing and validating endpoints; meta-analyses and network meta-analyses; and interpreting and communicating research results. His publication record includes more than 280 peer-reviewed papers, including 28 in the “big 6″ medical journals; he is the first or last author for more than 110 articles."
+  },
+  {
+    "objectID": "about/people/gcollins.html",
+    "href": "about/people/gcollins.html",
+    "title": "Gary Collins",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Gary Collins is a 125th Anniversary Chair and Professor of Medical Statistics at the University of Birmingham, and a NIHR Senior Investigator. His primary research interests are primarily focussed on aspects surrounding the development and validation multivariable prediction models (design, analysis and reporting).\nIn 2010, he established an international initiative to develop the TRIPOD reporting recommendations published in 2015 for studies developing and validating clinical prediction models. He led an update to these recommendations in 2024 to cover models developed using artificial intelligence and machine learning methods (TRIPOD+AI) and large language models (TRIPOD-LLM).\nGary has also been involved in other guidance for artificial intelligence and machine learning studies in healthcare, including\n\nSTARD-AI - for AI based diagnostic test accuracy studies\nDECIDE-AI - for early-stage live clinical evaluation of AI systems\nCONSORT-AI / SPIRIT-AI - for AI intervention studies\nCHART - for evaluating chatbots providing medical advice\n\nGary has also developed numerous other reporting guidelines for other study designs, including\n\nGATHER statement for studies providing global health estimates\nAGReMA statement for mediation analyses\n2025 update of SPIRIT and CONSORT guidelines for clinical trials\nSPIRIT-Surrogate and CONSORT-Surrogate for trials with surrogate endpoints\n\nHe has more than 500 peer-reviewed articles, editorials and commentaries, including 90 in the ‘big 6′ medical journals."
+  },
+  {
+    "objectID": "about/people/daltman.html",
+    "href": "about/people/daltman.html",
+    "title": "Doug Altman (1948-2018)",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Doug Altman was Professor of Statistics in Medicine at the University of Oxford, UK and founder of the Centre for Statistics in Medicine. He was a co-founder of the EQUATOR Network, chair of the EQUATOR Steering Group, and Founding Director of the UK EQUATOR Centre.\nDoug published over 800 articles in peer-reviewed journals, including many aimed at clarifying statistical methods and ideas for medical researchers. He was the author of Practical Statistics for Medical Research (1991) and co-editor of Statistics with Confidence (1989 and 2000) and Systematic Reviews in Health Care (1995 and 2001). He was a statistical advisor to the Cochrane Collaboration and the BMJ. Doug had a long-standing interest in the reporting of medical research and was an executive member of several groups working on reporting guidelines, including CONSORT for randomised trials, QUOROM / PRISMA for systematic reviews, STROBE for epidemiological studies, and REMARK for tumour marker prognostic studies."
+  },
+  {
+    "objectID": "about/people/pdhiman.html",
+    "href": "about/people/pdhiman.html",
+    "title": "Paula Dhiman",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nDr Paula Dhiman investigates how medical research is done, focusing on the methodological conduct and reporting of non-randomised research, with a view to helping improve the quality and integrity of future research. This is known as meta-research or “research on research”. Paula is passionate about statistical methodology and observational research and is particularly interested in prediction modelling."
+  },
+  {
+    "objectID": "about/people/jharwood.html",
+    "href": "about/people/jharwood.html",
+    "title": "James Harwood",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nDr James Harwood is an implementation scientist at the University of Oxford working to improve the uptake of meta–science interventions that promote quality and transparency in healthcare research. As a member of UK EQUATOR he is developing this website as a platform for disseminating reporting guidelines. This work builds upon his previous research which used behaviour change theory to understand why researchers do not adhere to reporting guidelines, and to identify ways to increase adherence. He often uses mixed-methods and draws upon his pre-DPhil experience as a software developer."
+  },
+  {
+    "objectID": "about/contact.html#please-send-all-general-enquiries-to",
+    "href": "about/contact.html#please-send-all-general-enquiries-to",
+    "title": "Contact",
+    "section": "Please send all general enquiries to",
+    "text": "Please send all general enquiries to\nProfessor Gary S. Collins, PhD\nDirector of the UK EQUATOR Centre\nDepartment of Applied Health Sciences\nUniversity of Birmingham\nUnited Kingdom\nEmail: g.s.collins@bham.ac.uk"
+  },
+  {
+    "objectID": "about/international-equator-centres.html#canadian-equator-centre",
+    "href": "about/international-equator-centres.html#canadian-equator-centre",
+    "title": "International EQUATOR Centres",
+    "section": "Canadian EQUATOR Centre",
+    "text": "Canadian EQUATOR Centre\nIn addition to helping to carry out the strategic vision of the EQUATOR Network in Canada, the focus of the Canadian EQUATOR Centre is on initiatives that have relevant down stream consequences for the conduct and reporting of biomedical research. Our current programs include:\n\nA broad research program on deceptive journals and publishers\nA program on peer review, including how it is measured; and developing core competencies for peer reviewers\nInvestigating how to reduce waste and increase value in biomedical research\nA comprehensive training and education program on journalology\n\n\n\n\n\n\n\n\n\n\n\nDavid Moher\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/international-equator-centres.html#australasian-equator-centre",
+    "href": "about/international-equator-centres.html#australasian-equator-centre",
+    "title": "International EQUATOR Centres",
+    "section": "Australasian EQUATOR Centre",
+    "text": "Australasian EQUATOR Centre\nIn addition to helping carry out the strategic vision of the EQUATOR Network in Australia and the Asia-Pacific region, the Australasian EQUATOR Centre’s focus is on reducing waste and enhancing the value of biomedical research.\nExamples of our current activities include:\n\nImproving the descriptions of interventions in research (such as trials and systematic reviews) and developing online tools to enable authors to more easily create complete descriptions of interventions\nDeveloping tools, including automation tools, that enable many steps in the systematic review process to be done faster and more efficiently\nUndertaking research in research waste and creating resources to increase the value of research (in conjunction with the Reward Alliance)\nContributing to the creation and/or updating of key reporting guidelines (e.g. TIDieR, PRISMA, STARD, PRISMA for Abstracts)\nProviding training activities within the Australasian region in research reporting, publication skills, and research protocols.\n\n\n\n\n\n\n\n\n\n\n\nTammy Hoffmann\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/international-equator-centres.html#french-equator-centre",
+    "href": "about/international-equator-centres.html#french-equator-centre",
+    "title": "International EQUATOR Centres",
+    "section": "French EQUATOR Centre",
+    "text": "French EQUATOR Centre\nIn addition to help carrying out the strategic vision of the EQUATOR network in France and in French speaking countries, the focus of the French EQUATOR centre is on increasing/improving/enhancing the value of biomedical research. This will be done through the improvement of the planning, design, conduct/management and reporting of biomedical research.\nOur current programs include the following activities:\n\nMapping the planning, posting, reporting (through journals) and data sharing of biomedical research worldwide.\nDeveloping interventional research on research in order to improve the planning, design, conduct/management and reporting of biomedical research. We are developing various interventions such as freely available online tools and we assess them using high level of evidence study designs (randomized controlled trials, time-series analysis, split-manuscript design etc).\nRethinking the peer-review process:\n\nImproving the traditional peer-review process, developing and evaluating interventions to improve the peer-review process in randomized controlled trials.\nAssessing new models of peer-review through simulation modelling using empirical data.\n\nCreating a platform where biomedical journals, publishers and editors would commit to share some of their data on peer-review (figures related to the peer-review process and peer-reviewers’ reports) and could volunteer to participate in trials.\n\n\n\n\n\n\n\n\n\n\n\nPhilippe Ravaud\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/international-equator-centres.html#chinese-equator-centre",
+    "href": "about/international-equator-centres.html#chinese-equator-centre",
+    "title": "International EQUATOR Centres",
+    "section": "Chinese EQUATOR Centre",
+    "text": "Chinese EQUATOR Centre\n\nThe Chinese EQUATOR Centre will adopt the principles of the EQUATOR Network mission and vision, and enhance its impact throughout China.\nBased on the principle of the EQUATOR Network, to enhance the medical research quality through education and training in different conferences, workshops, seminars, and other related activities.\nTo improve the quality of Chinese medicine clinical research.\n\nVisit the Chinese EQUATOR Centre website.\n\n\n\n\n\n\n\n\n\n\nZhaoxiang Bian\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/international-equator-centres.html#usa-equator-centre",
+    "href": "about/international-equator-centres.html#usa-equator-centre",
+    "title": "International EQUATOR Centres",
+    "section": "USA EQUATOR Centre",
+    "text": "USA EQUATOR Centre\nThe USA EQUATOR Centre is based at the Meta-Research Innovation Center at Stanford (METRICS) at Stanford University.\nLaunched in April 2014 with a founding grant from the Laura and John Arnold Foundation, the Meta-Research Innovation Center at Stanford (METRICS) is a research to action center focused on transforming research practices to improve the quality of scientific studies in biomedicine and beyond. METRICS fosters multi-disciplinary research collaborations to help produce solutions that increase the effectiveness and value of scientific investigation. By serving as a lens that both focuses and helps magnify the impact of scholars, policymakers and others working on meta-research issues, we hope to enhance the public discourse and advance the development of policies and practices that maximize the use of best research practices.\nThe key focus of the USA EQUATOR Centre:\n\nBuild the meta-research field and catalyze solutions-focused research to develop best scientific practices\nProvide leaders with the skills and knowledge needed to support the development and implementation of high-quality research\nTransform research practices to strengthen the evidence base for informed decision-making\n\n\n\n\n\n\n\n\n\n\n\nJohn P.A. Ioannidis\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/uk-equator-centre.html",
+    "href": "about/uk-equator-centre.html",
+    "title": "The UK EQUATOR Centre",
+    "section": "",
+    "text": "The UK EQUATOR Centre is run by Professor Gary Collins at the University of Birmingham. The UK Centre is the head office of the EQUATOR Network. The Centre works with partner organisations and initiatives and contributes to the work of the EQUATOR Network as a whole.\nThe UK EQUATOR Centre’s work includes:"
+  },
+  {
+    "objectID": "about/uk-equator-centre.html#team",
+    "href": "about/uk-equator-centre.html#team",
+    "title": "The UK EQUATOR Centre",
+    "section": "Team",
+    "text": "Team\n\n\n\n\n\n\n\n\n\n\nGary Collins\n\n\nDirector, Professor of Medical Statistics, University of Birmingham\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJames Harwood\n\n\nPostdoctoral Research Fellow\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJennifer de Beyer\n\n\nPublication & Dissemination Specialist\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaula Dhiman\n\n\nMedical Statistician\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDoug Altman (1948-2018)\n\n\nFounding Director of the UK EQUATOR Centre\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/equator-network.html#equators-mission-and-goals",
+    "href": "about/equator-network.html#equators-mission-and-goals",
+    "title": "EQUATOR Network: what we do and how we are organised",
+    "section": "EQUATOR’s mission and goals",
+    "text": "EQUATOR’s mission and goals\nThe EQUATOR mission is to achieve accurate, complete, and transparent reporting of all health research studies to support research reproducibility and usefulness. Our work increases the value of health research and helps to minimise avoidable waste of financial and human investments in health research projects.\nTo achieve its mission the EQUATOR Network has the following major goals:\n\nMaintain and further develop a comprehensive collection of online resources providing up-to-date information, tools and other materials related to health research reporting (Library for health research reporting)\nActively promote the use of reporting guidelines and good research reporting practices through an education and training programme\nAssist in the development, dissemination and implementation of robust reporting guidelines\nSupport journals, universities and other organisations in implementing reporting guidelines through development of tools, strategies, education and other activities\nUndertake research projects enhancing the value of health-related research\nSet up a global network of local EQUATOR centres to facilitate the improvement of health research reporting on a worldwide scale\n\nAside from its core activities of providing focused resources and training, EQUATOR is committed to research on current research and its publication to enhance the value of health-related research. Research topics include reviews of time trends in the nature and quality of publications; the development of tools and strategies to improve the planning, design, conduct/management and reporting of biomedical research; and investigating strategies to help journals to improve the quality of manuscripts.\nThe EQUATOR Network is directed by an international Executive Group that brings together leading experts in health research methodology, statistics, reporting and editorial work."
+  },
+  {
+    "objectID": "about/equator-network.html#executive-group-members",
+    "href": "about/equator-network.html#executive-group-members",
+    "title": "EQUATOR Network: what we do and how we are organised",
+    "section": "Executive Group members",
+    "text": "Executive Group members\n\n\n\n\n\n\n\n\n\n\nGary Collins\n\n\nDirector, Professor of Medical Statistics, University of Birmingham\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDavid Moher\n\n\nSenior Scientist, Ottawa Health Research Institute, Ottawa, Canada; Director, Canadian EQUATOR Centre, and former chair of the EQUATOR Network.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhilippe Ravaud\n\n\nDirector, Centre of Epidemiology at the Hotel-Dieu (Paris); Director, French EQUATOR Centre\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTammy Hoffmann\n\n\nProfessor of Clinical Epidemiology, Institute for Evidence-Based Healthcare, Bond University, Australia; Director of the Australian EQUATOR Centre\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZhaoxiang Bian\n\n\nChair Professor in the School of Chinese Medicine and Tsang Shiu Tim Endowed Professor of Chinese Medicine Clinical Studies, Hong Kong Baptist University; Director of the Chinese EQUATOR Centre\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about/equator-network.html#advisory-group-members",
+    "href": "about/equator-network.html#advisory-group-members",
+    "title": "EQUATOR Network: what we do and how we are organised",
+    "section": "Advisory Group members",
+    "text": "Advisory Group members\n\nAna Marušić, Professor and Chair, Department of Research in Biomedicine and Health, University of Split, Croatia"
+  },
+  {
+    "objectID": "about/equator-network.html#former-executive-group-members",
+    "href": "about/equator-network.html#former-executive-group-members",
+    "title": "EQUATOR Network: what we do and how we are organised",
+    "section": "Former Executive Group members",
+    "text": "Former Executive Group members\n\nDoug Altman, former Professor of Statistics in Medicine, Centre for Statistics in Medicine, University of Oxford, UK; Director, UK EQUATOR Centre\nIveta Simera, formerly Senior Operations & Development Manager at The Global Health Network (TGHN), Centre for Tropical Medicine & Global Health, University of Oxford, UK"
+  },
+  {
+    "objectID": "about/equator-network.html#former-advisory-group-members",
+    "href": "about/equator-network.html#former-advisory-group-members",
+    "title": "EQUATOR Network: what we do and how we are organised",
+    "section": "Former Advisory Group members",
+    "text": "Former Advisory Group members\n\nJohn Hoey, Associate Professor (adjunct), University of Toronto, Toronto, Canada\nKenneth F. Schulz, Distinguished Scientist and Vice President, Quantitative Sciences, Family Health International, Chapel Hill, USA\nTrish Groves, formerly Head of Research, BMJ & Editor-in-chief, BMJ Open"
+  },
+  {
+    "objectID": "about/equator-network.html#equator-milestones",
+    "href": "about/equator-network.html#equator-milestones",
+    "title": "EQUATOR Network: what we do and how we are organised",
+    "section": "EQUATOR Milestones",
+    "text": "EQUATOR Milestones\nSince its launch in 2008, the programme has already achieved important milestones:\n\nDeveloped a free online Library for health research reporting\nIn collaboration with the Pan American Health Organization (PAHO/WHO) launched a Spanish section in the EQUATOR website and signed a three year memorandum on mutual collaboration in promoting responsible research reporting in the Americas, especially in Latin America and the Caribbean regions\nBuilt international recognition and reputation as the leading authority and resource portal in the area of health research reporting. Reference to EQUATOR is included in the “Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals” (formerly Uniform Requirements for Biomedical Manuscripts), the most fundamental guidelines developed by the International Committee of Medical Journal Editors that are followed by most biomedical journals\nOrganised workshops, seminars, talks and Annual Lectures on issues relevant to research reporting (see our past events)\nTogether with the German Cochrane Centre organised the 1st EQUATOR Scientific Symposium: ACT now: Accuracy, Completeness and Transparency in health research reporting, Freiburg, October 2012\nCompleted several research projects and published a number of research papers and articles promoting good research reporting\nPublished a regular online newsletter and set up a LinkedIn group disseminating information about new reporting guidelines and the latest developments"
+  },
+  {
+    "objectID": "about/equator-network.html#principles",
+    "href": "about/equator-network.html#principles",
+    "title": "EQUATOR Network: what we do and how we are organised",
+    "section": "Principles",
+    "text": "Principles\nThe work of EQUATOR increases the usability of available research evidence. Our work supports the work of organisations such as the Cochrane Collaboration in the development of systematic reviews and NICE in the development of clinical practice guidelines. EQUATOR also helps research funders maximise the utility of new information arising from the research they fund.\nComplete, accurate and transparent reporting is an integral part of responsible research conduct. Reporting guidelines are important tools for achieving high standards in reporting health studies. In order to reach their potential, reporting guidelines need to be used widely and routinely by researchers/authors, editors and peer reviewers. This effort needs to be strongly supported by research funders and regulatory bodies.\nEQUATOR is a long-term programme of research support and improvement and not a closed fixed term project. Ongoing EQUATOR activities are expected to increase the usability and value of published research both in clinical practice and to aid further research, thus ensuring that maximum value is gained from financial investment in health research."
+  },
+  {
+    "objectID": "about/reporting-guidelines.html#reporting-guidelines",
+    "href": "about/reporting-guidelines.html#reporting-guidelines",
+    "title": "Reporting guidelines, writing guides, and checklists",
+    "section": "What are reporting guidelines?",
+    "text": "What are reporting guidelines?\nReporting guidelines are recommendations of information to include when writing up research. They ensure research can be understood and used by a wide audience including other researchers, editors, reviewers, clinicians, evidence synthesisers, and readers from different fields, countries, or background, even decades in the future.\nReporting guidelines help researchers write academic articles, protocols, and funding applications. They make writing less daunting by breaking the process up into bite-size chunks, without dictating the final structure. They help authors lay out the key information – the building blocks – of their work. Authors then decide how best to arrange this information to build a compelling and clear account.\nHowever, reporting guidelines are not design standards or tools for quality appraisal. They do not dictate how research must be conducted, but they do ensure research is described clearly enough for readers to understand its strengths and limitations.\nWhy do we need them? Because for decades, researchers have missed out important details because of oversight, or because they have not considered their audience’s needs. These gaps make it harder for others to replicate, understand, or apply the findings — and may exclude research from reviews or clinical use. This is a massive source of waste that pervades all research areas. Well-reported research has greater impact.\n\nReporting guidelines are made by expert groups. Most groups follow a systematic, consensus development method to create and publish a checklist, sometimes accompanied by a longer explanation paper that provides context and examples for each checklist item.\nTo make these resources easier to use, we at the EQUATOR Network built this website in collaboration with authors, editors, and the developers of the most-used open access reporting guidelines."
+  },
+  {
+    "objectID": "about/reporting-guidelines.html#writing",
+    "href": "about/reporting-guidelines.html#writing",
+    "title": "Reporting guidelines, writing guides, and checklists",
+    "section": "Writing using reporting guidelines",
+    "text": "Writing using reporting guidelines\nReporting guidelines help authors develop their writing practice to create articles and applications that are clear, compelling, and complete. They can be used alongside any writing process – whether you jump straight in with full paragraphs, or prefer to plan, outline, draft, and revise your text. Whether you write from introduction to discussion, or prefer to start by writing your methods or results.\nThey are especially useful to researchers with less writing experience, who haven’t found an approach to writing that works for them.\nThey break the writing process into manageable pieces. Read the guidance before you begin writing. If you like to plan your writing, consider working though items and collating notes into a document, then organise your notes into coherent structure with logical narrative structure.\nYou decide how best to arrange information, and whether to present it in the article body, in a figure or table, or in a supplement.\nTo learn more about writing skills, develop good writing habits, and how to use reporting guidelines, see our training."
+  },
+  {
+    "objectID": "about/reporting-guidelines.html#reporting-checklists",
+    "href": "about/reporting-guidelines.html#reporting-checklists",
+    "title": "Reporting guidelines, writing guides, and checklists",
+    "section": "Reporting checklists",
+    "text": "Reporting checklists\nReporting guideline checklists allow authors to demonstrate how their work complies with a reporting guideline. By including a completed checklist as supplementary material, authors can reassure editors and peer reviewers their article is complete. Publishing checklists as supplements also helps readers and evidence synthesisers to find and extract information.\nReporting checklists are best used at the end of writing, before journal submission. Specify where readers can find each reporting item by directing them to parts of the manuscript e.g.,\n\nMethods, para. 2\nTable 2\nSupplement A, para. 4 and Figure S1.\n\nSome older reporting checklists asked authors to state page numbers for each item. We recommend against this because:\n\nPage numbers easily change when editing a document.\nWhen you submit, most journals generate a PDF of your manuscript combined with other submission data. The page numbers in your checklist will not correspond to this PDF, and so won’t be useful to editors nor reviewers.\nWhen published, online articles don’t have pages and PDF pages won’t correspond to your original file, so page numbers won’t help readers.\n\nConversely, if you specify which section, paragraph, table, figure, or supplement contains a reporting guideline item, editors, peer reviewers, and future readers will easily be able to find it.\nIf you have chosen not to report an item, explain why. You can do this in the checklist, or as a note below it. Otherwise editors or peer reviewers may chase you for this information, thereby delaying publication. These explanations will also help future evidence reviewers – who commonly use reporting guidelines when assessing the the quality of reporting and risk of bias – meaning your article may be more likely to be included in their reviews.\nAs with reporting guidelines, checklists do not dictate how research should be conducted nor how manuscripts should be structured."
+  },
+  {
+    "objectID": "about/reporting-guidelines.html#writing-applications",
+    "href": "about/reporting-guidelines.html#writing-applications",
+    "title": "Reporting guidelines, writing guides, and checklists",
+    "section": "Writing applications and protocols using reporting guidelines",
+    "text": "Writing applications and protocols using reporting guidelines\nA few reporting guidelines specifically cater to protocols, but most are for writing academic articles. Nevertheless, all reporting guidelines can be used to write protocols or grant applications – just use the methods items. Although reporting guidelines don’t dictate how research should be designed or conducted, using them to write a protocol or application helps authors consider decisions they will encounter and to document their thoughts."
+  },
+  {
+    "objectID": "about/people/thoffman.html",
+    "href": "about/people/thoffman.html",
+    "title": "Tammy Hoffmann",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Tammy Hoffmann is a Professor of Clinical Epidemiology at the Institute for Evidence-Based Healthcare, Bond University. Her research spans many aspects of evidence-based practice, shared decision making, knowledge translation, and minimising waste in research. Tammy has been involved in the development of a number of reporting guidelines. As part of her interest in improving the reporting, useability, and uptake of effective non-pharmacological interventions, she led the development of the TIDieR (Template for Intervention Description and Replication) checklist and guide. She has over 300 publications, including many in the world’s leading medical journals. She is also the lead author of a widely used interdisciplinary evidence-based practice book (Evidence-Based Practice across the Health Professions, 4th ed 2023)."
+  },
+  {
+    "objectID": "about/people/jioannidis.html",
+    "href": "about/people/jioannidis.html",
+    "title": "John P.A. Ioannidis",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\nJohn P.A. Ioannidis, MD, DSc, is Professor of Medicine, of Epidemiology and Population Health, and (by courtesy) of Biomedical Data Science and Co-Director, Meta-Research Innovation Center at Stanford (METRICS) at Stanford University. He has served as President of the Association of American Physicians and has won many awards, including the European Award for Excellence in Clinical Science, Medal for Distinguished Service, Teachers College, Columbia U, Chanchlani Global Health Award, Epiphany Science Courage Award, Einstein fellow, Gordon award, Albert Stuyvenberg Medal, Harwood Prize, Blake Award, Founders’ Medal for MAER-Net). He has been inducted in Association of American Physicians, European Academy of Cancer Sciences, American Epidemiological Society, European Academy of Sciences and Arts, US National Academy of Medicine and Accademia delle Scienze (Bologna) and has received honorary doctorates from Erasmus University Rotterdam, University of Athens, University of Tilburg, University of Edinburgh, Aristotle University of Thessaloniki and McMaster University.\nJohn has been involved in the conception, development and publication of many reporting guidelines and has led research on diverse meta-research areas, providing evidence for research practices, biases, and solutions for improving research efficiency in biomedicine and beyond. He has also been a co-director of the International Congress on Peer Review and Scientific Publication that is co-organized by METRICS, BMJ, and JAMA."
+  },
+  {
+    "objectID": "about/people/jioannidis.html#metrics-affiliates",
+    "href": "about/people/jioannidis.html#metrics-affiliates",
+    "title": "John P.A. Ioannidis",
+    "section": "METRICS affiliates",
+    "text": "METRICS affiliates\nAs an interdisciplinary, solutions focused center, METRICS has recruited a large number of Stanford faculty from multiple disciplines within and outside biomedicine. Our researchers, postdoctoral fellows, visiting scholars, and students add additional depth and breadth to METRICS research activities and initiatives.\nMETRICS Affiliates are recognized leaders in the field of meta-research who are studying research practices in the areas of methods, evaluation, reporting, reproducibility and incentives with the goal of generating evidence to strengthen the research enterprise. We are grateful to have a large number of affiliates from leading research institutions from around the world.\nMETRICS partners with a broad range of organizations working to improve best research practices through engagement on specific initiatives, targeted research, the sharing of best practices, and participation in working groups.\nA list of METRICS affiliates, postdoctoral fellows, and other researchers involved in METRICS can be found in the METRICS website: https://metrics.stanford.edu/ along with additional information about our work, collaborations, and events."
+  },
+  {
+    "objectID": "about/people/jioannidis.html#funding",
+    "href": "about/people/jioannidis.html#funding",
+    "title": "John P.A. Ioannidis",
+    "section": "Funding",
+    "text": "Funding\nWork at METRICS has been funded by federal grants in the USA, unrestricted gifts to Stanford University, grants from non-profit foundations, as well as the Stanford University School of Medicine and Stanford Department of Medicine. We do not accept any funding from for-profit entities."
+  },
+  {
+    "objectID": "about/people/dmoher.html",
+    "href": "about/people/dmoher.html",
+    "title": "David Moher",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nDr David Moher is a senior scientist with the Ottawa Health Research Institute. He is also Associate Professor, Department of Epidemiology & Community Medicine, Faculty of Medicine, University of Ottawa, and holds a University of Ottawa Research Chair. In May 2014 he became Director of the Canadian EQUATOR Centre.\nDavid has published more than 150 papers, including approximately 40 systematic reviews and more than 50 articles on the methodology of conducting and reporting clinical trials and systematic reviews. He is Director of the University of Ottawa’s Evidence-based Practice Center, convenor of the Cochrane Collaboration’s Bias Methods Group, and an editorial board member of several journals. He helped develop many reporting guidelines, including the CONSORT, QUOROM / PRISMA, MOOSE, and STARD Statements."
+  },
+  {
+    "objectID": "about/people/jdebeyer.html",
+    "href": "about/people/jdebeyer.html",
+    "title": "Jennifer de Beyer",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nDr Jen de Beyer teaches our academic writing, publication, and communication skills courses and develops resources on how to write fantastic health research articles, such as our toolkits. You’re also likely to find her promoting reporting guidelines and clear reporting through our social media channels (@EQUATORNetwork) and at conferences. Jen completed a doctorate in systems biology, focusing on biochemistry, and worked in academic editing before joining the UK EQUATOR Centre in 2015."
+  },
+  {
+    "objectID": "about/people/zbian.html",
+    "href": "about/people/zbian.html",
+    "title": "Zhaoxiang Bian",
+    "section": "",
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Bian obtained his Bachelor Degree of Chinese Medicine from the Nanjiang University of Chinese Medicine in 1988, Master Degree of Chinese Medicine from Beijing University of Chinese Medicine in 1991, and PhD degree in Integrative Chinese and Western Medicine from Guangzhou University of Chinese Medicine in 1994. Currently, he is Chair Professor in the School of Chinese Medicine and Tsang Shiu Tim Endowed Professor of Chinese Medicine Clinical Studies, Hong Kong Baptist University (HKBU), and also serves as associate Vice-President (Chinese Medicine Development) of HKBU, Director of Clinical Division, School of Chinese Medicine, Director of Hong Kong Chinese Medicine Clinical Study Centre and Director of Chinese EQUATOR Centre. Dr Bian’s major research interests are: (1) Clinical research methodology and reporting guidelines; (2) Clinical and translational study of gastrointestinal diseases; (3) Chinese medicine wisdom-driven new drug discovery and development. His academic achievements include 400+ academic publications, 80+ US & China patents, and one new drug clinical trial licence from China National Medical Product Administration."
+  },
+  {
+    "objectID": "terms-of-use.html",
+    "href": "terms-of-use.html",
+    "title": "Terms of Use",
+    "section": "",
+    "text": "This page sets out the terms of use of the EQUATOR Network website. Use of this website signifies agreement to these terms."
+  },
+  {
+    "objectID": "terms-of-use.html#copyright",
+    "href": "terms-of-use.html#copyright",
+    "title": "Terms of Use",
+    "section": "Copyright",
+    "text": "Copyright\nUnless otherwise noted, all materials contained in this site are copyrighted and may not be used except as provided in these terms and conditions or in the copyright notice or other proprietary notice provided with the relevant materials.\nThe materials contained in the site may be downloaded or copied provided that ALL copies retain the copyright and any other proprietary notices contained on the materials. No material may be modified, edited or taken out of context such that its use creates a false or misleading statement or impression as to the positions, statements or actions of the EQUATOR Network."
+  },
+  {
+    "objectID": "terms-of-use.html#accuracy",
+    "href": "terms-of-use.html#accuracy",
+    "title": "Terms of Use",
+    "section": "Accuracy",
+    "text": "Accuracy\nWhile we have taken every care to compile accurate information and to keep it up-to-date, we cannot guarantee its correctness and completeness. The information provided on this site does not constitute business, medical or other professional advice, and is subject to change. We do not accept responsibility for any loss, damage or expense resulting from the use of this information."
+  },
+  {
+    "objectID": "terms-of-use.html#availability",
+    "href": "terms-of-use.html#availability",
+    "title": "Terms of Use",
+    "section": "Availability",
+    "text": "Availability\nWe cannot guarantee uninterrupted access to this website, or the sites to which it links. We can accept no responsibility for any damages arising from the loss or use of this information."
+  },
+  {
+    "objectID": "terms-of-use.html#privacy-policy",
+    "href": "terms-of-use.html#privacy-policy",
+    "title": "Terms of Use",
+    "section": "Privacy policy",
+    "text": "Privacy policy\nWe respect the privacy of people who use our website. View our privacy policy."
+  },
+  {
+    "objectID": "terms-of-use.html#site-access-and-cookies",
+    "href": "terms-of-use.html#site-access-and-cookies",
+    "title": "Terms of Use",
+    "section": "Site access and cookies",
+    "text": "Site access and cookies\nThe website monitors access to the site for the purpose of system administration of the web server and statistical monitoring of website usage. This may include ‘cookies’.\nA cookie is a message given to a web browser by a web server. The message is then stored on your PC by the browser in a text file called cookie.txt. Every time the browser obtains a page from the server this cookie message is sent back. A cookie can be used to identify users and personalise their visit by customising web pages for them.\nYou may need to change the settings on your browser to be able to accept these cookies. This does not affect your ability to access the site in any way.\nPlease view our privacy policy for more detailed information about the cookies used on this website.\nIf you sign up to receive the EQUATOR Newsletter, we may also automatically collect technical information about how you interact with the EQUATOR newsletter to help us improve our newsletter.\nWe improve our website by using Microsoft Clarity to see how you use our website. By using our site, you agree that we and Microsoft can collect and use this data."
+  },
+  {
+    "objectID": "toolkits/writing-research/index.html#using-the-resources-you-find-here-will-set-you-on-the-right-road-to-writing-a-great-research-paper-using-reporting-guidelines",
+    "href": "toolkits/writing-research/index.html#using-the-resources-you-find-here-will-set-you-on-the-right-road-to-writing-a-great-research-paper-using-reporting-guidelines",
+    "title": "How to write a great research paper using reporting guidelines",
+    "section": "Using the resources you find here will set you on the right road to writing a great research paper using reporting guidelines",
+    "text": "Using the resources you find here will set you on the right road to writing a great research paper using reporting guidelines\nWhen published, your article will start a new independent life. It will be read and critically appraised, and it may contribute to systematic reviews, inform clinical guidelines, and influence clinical practice.\nBefore you submit your paper to a journal, you need to consider whether the article will achieve its purpose:\n\nWill a Cochrane reviewer be able to scrutinise your study’s methods to assess the risk of bias?\nWould another researcher be able to replicate your experiment?\nCan numerical results be extracted from your paper easily?\nHave you provided enough detail about your intervention to allow its use in clinical practice?\n\nThe resources in this toolkit will help you achieve a long and useful life for your article by reporting it in the best way possible.\n\nBrowse the EQUATOR library of reporting guidelines\nRead chapters from our textbook explaining why reporting guidelines are helpful\nLook at examples of good reporting\nRead a “How to…” article on reporting medical research\nUse an annotated journal article from Authoraid as inspiration\nFollow the ICJME recommendations\nProfessional medical writing support"
+  },
+  {
+    "objectID": "toolkits/writing-research/index.html#sec-RGlibrary",
+    "href": "toolkits/writing-research/index.html#sec-RGlibrary",
+    "title": "How to write a great research paper using reporting guidelines",
+    "section": "EQUATOR Library of Reporting Guidelines",
+    "text": "EQUATOR Library of Reporting Guidelines\nThe first step is to find a reporting guideline for your study. You might also want to supplement a common reporting guideline with any specific guidance for your clinical area or study type. After using the wizard, we suggest visiting the EQUATOR Database of Reporting Guidelines.\nThis is a searchable database of all reporting guidelines. Use the drop-down menus to see all of the reporting guidelines and extensions for a study type. You can also search for guidelines written specifically for certain clinical specialties. The free-text search lets you search guidelines’ titles, associated keywords, and the bibliographic details of any related papers."
+  },
+  {
+    "objectID": "toolkits/writing-research/index.html#sec-EQtextbook",
+    "href": "toolkits/writing-research/index.html#sec-EQtextbook",
+    "title": "How to write a great research paper using reporting guidelines",
+    "section": "Why are reporting guidelines so helpful?",
+    "text": "Why are reporting guidelines so helpful?\nThe EQUATOR team has edited a textbook called Guidelines for Reporting Health Research: A User’s Manual. It explains why we need standardised reporting of important details in health research publications and how to use reporting guidelines. It also has chapters on the guidelines most commonly required by journals. You can read some sample chapters here:\n\nChapter 1: Importance of transparent reporting of health research (PDF)\nChapter 4: Using reporting guidelines effectively to ensure good reporting of health research (PDF)\nChapter 5: Ambiguities and confusions between reporting and conduct (PDF)\nChapter 17: STROBE (STrengthening the Reporting of Observational studies in Epidemiology) (PDF)\n\nYou can read more about the textbook on this page."
+  },
+  {
+    "objectID": "toolkits/writing-research/index.html#sec-Goodexamples",
+    "href": "toolkits/writing-research/index.html#sec-Goodexamples",
+    "title": "How to write a great research paper using reporting guidelines",
+    "section": "Examples of good reporting",
+    "text": "Examples of good reporting\nOnce you have the right reporting guideline and know what items to report, it’s always a good idea to look at good examples for inspiration. Several guideline development groups have published articles with examples of good reporting for each item on their checklist.\nFind examples of good reporting in:\n\nRandomised trials, including trials of non-pharmacological interventions\nObservational studies\nTrial abstracts of using CONSORT for abstracts)\nSystematic reviews and protocols for systematic reviews\nDiagnostic accuracy studies\nPrediction modelling studies\nQuality improvement studies\nTrial protocols"
+  },
+  {
+    "objectID": "toolkits/writing-research/index.html#sec-Howto",
+    "href": "toolkits/writing-research/index.html#sec-Howto",
+    "title": "How to write a great research paper using reporting guidelines",
+    "section": "Reporting medical research",
+    "text": "Reporting medical research\nAn essential “How to…” article published in The International Journal of Clinical Practice by former EQUATOR members Iveta Simera and Doug Altman on scientific writing and the key principles of responsible research reporting.\nA guide (PDF) to reporting guidelines relevant to implementation studies has been developed by researchers in the Centre for Implementation Science at King’s College London and King’s Improvement Science."
+  },
+  {
+    "objectID": "toolkits/writing-research/index.html#sec-AuthoraidAnotated",
+    "href": "toolkits/writing-research/index.html#sec-AuthoraidAnotated",
+    "title": "How to write a great research paper using reporting guidelines",
+    "section": "Authoraid annotated journal article",
+    "text": "Authoraid annotated journal article\nThis resource on the Authoraid website presents a journal article from PLoS ONE with annotated comments on aspects of the scientific writing."
+  },
+  {
+    "objectID": "toolkits/writing-research/index.html#sec-ICJMERecs",
+    "href": "toolkits/writing-research/index.html#sec-ICJMERecs",
+    "title": "How to write a great research paper using reporting guidelines",
+    "section": "ICMJE Recommendations",
+    "text": "ICMJE Recommendations\nRecommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals (ICMJE Recommendations) are produced by the International Committee of Medical Journal Editors. They are intended primarily for use by authors who submit their work for publication to ICMJE member journals, although many non-ICMJE journals recommend their use."
+  },
+  {
+    "objectID": "toolkits/writing-research/index.html#sec-professionalsupport",
+    "href": "toolkits/writing-research/index.html#sec-professionalsupport",
+    "title": "How to write a great research paper using reporting guidelines",
+    "section": "Professional medical writing support",
+    "text": "Professional medical writing support\nThe EQUATOR Library has an additional page of useful resources for both medical writers and those seeking professional support, including the writing and publication of industry-sponsored research. The resources include the latest Good Publication Practice for Communicating Company-Sponsored Medical Research: GPP3 Guidelines and the Joint Statement (PDF) from AMWA, EMWA and ISMPP on the important role of professional medical writers."
+  },
+  {
     "objectID": "toolkits/developing-a-reporting-guideline/index.html#in-this-toolkit",
     "href": "toolkits/developing-a-reporting-guideline/index.html#in-this-toolkit",
     "title": "How to develop a reporting guideline",
     "section": "In this toolkit",
-    "text": "In this toolkit\nThis toolkit will guide you through every step of developing a reporting guideline and support you in getting your reporting guideline into the hands of the researchers who need it. We will cover:\n\nIdentifying the need for a reporting guideline\nRegistering your reporting guideline undere development with the EQUATOR Network\nGetting ready: Literature reviews, registration, and funding\nDeveloping your reporting guideline\nWriting up and publishing your reporting guideline\nDisseminating your reporting guideline\nUpdating your reporting guideline\n\nThe guidance in this toolkit is based on the EQUATOR publication “Guidance for developers of health research reporting guidelines“. You can find more resources on developing a reporting guideline on this page.",
+    "text": "In this toolkit\nThis toolkit will guide you through every step of developing a reporting guideline and support you in getting your reporting guideline into the hands of the researchers who need it. We will cover:\n\nIdentifying the need for a reporting guideline\nRegistering your reporting guideline undere development with the EQUATOR Network\nGetting ready: Literature reviews, registration, and funding\nDeveloping your reporting guideline\nWriting up and publishing your reporting guideline\nDisseminating your reporting guideline\nRequesting inclusion in the EQUATOR list of reporting guidelines\nUpdating your reporting guideline\n\nThe guidance in this toolkit is based on the EQUATOR publication “Guidance for developers of health research reporting guidelines“. You can find more resources on developing a reporting guideline on this page.",
     "crumbs": [
       "Introduction"
     ]
@@ -4015,7 +4025,7 @@
     "href": "toolkits/developing-a-reporting-guideline/disseminating-your-reporting-guideline.html",
     "title": "Disseminating your reporting guideline",
     "section": "",
-    "text": "Disseminating your reporting guideline\nSimply publishing a reporting guideline is unlikely to make a difference to the quality of future reporting. An implementation plan will help ensure that your reporting guideline reaches the researchers who need it. Some common strategies are:\n\nMaking the checklist freely available in an editable format\nCreating a dedicated website containing additional resources\nAn updated entry in the EQUATOR Network database\nPublishing journal editorials, written by your team or by the journal staff. It is particularly effective to have a number of journals in a field simultaneously publish an editorial in support of your guideline\nObtaining journal and other organisational endorsement\nPresenting your guideline at relevant conferences and meetings\nWriting blog posts and other social media posts about your guideline\nDelivering a webinar explaining your guideline\nDeveloping and delivering training in using your guideline, whether face-to-face or online\nPartnering with the EQUATOR Network or similar organisations in their promotional activities",
+    "text": "Disseminating your reporting guideline\nSimply publishing a reporting guideline is unlikely to make a difference to the quality of future reporting. An implementation plan will help ensure that your reporting guideline reaches the researchers who need it. Some common strategies are:\n\nMaking the checklist freely available in an editable format\nCreating a dedicated website containing additional resources\nProvide us with details so we can create an entry in the EQUATOR Network database\nPublishing journal editorials, written by your team or by the journal staff. It is particularly effective to have a number of journals in a field simultaneously publish an editorial in support of your guideline\nObtaining journal and other organisational endorsement\nPresenting your guideline at relevant conferences and meetings\nWriting blog posts and other social media posts about your guideline\nDelivering a webinar explaining your guideline\nDeveloping and delivering training in using your guideline, whether face-to-face or online\nPartnering with the EQUATOR Network or similar organisations in their promotional activities",
     "crumbs": [
       "Disseminating"
     ]
