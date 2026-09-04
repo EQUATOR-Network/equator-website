@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>equator-network</title>
+<title>rgud</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <link href="../assets/favicons/equator-network-16x16.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -60,35 +58,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>
 
       .quarto-title-block .quarto-title-banner h1,
@@ -114,35 +83,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-M6ZTFP7');</script>
 <!-- End Google Tag Manager -->
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../assets/css/main.css">
 </head>
@@ -254,15 +194,14 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#equator-network-what-we-do-and-how-we-are-organised" id="toc-equator-network-what-we-do-and-how-we-are-organised" class="nav-link active" data-scroll-target="#equator-network-what-we-do-and-how-we-are-organised">EQUATOR Network: what we do and how we are organised</a>
+  <li><a href="#reporting-guidelines-under-development" id="toc-reporting-guidelines-under-development" class="nav-link active" data-scroll-target="#reporting-guidelines-under-development">Reporting guidelines under development</a>
   <ul class="collapse">
-  <li><a href="#equators-mission-and-goals" id="toc-equators-mission-and-goals" class="nav-link" data-scroll-target="#equators-mission-and-goals">EQUATOR’s mission and goals</a></li>
-  <li><a href="#executive-group-members" id="toc-executive-group-members" class="nav-link" data-scroll-target="#executive-group-members">Executive Group members</a></li>
-  <li><a href="#advisory-group-members" id="toc-advisory-group-members" class="nav-link" data-scroll-target="#advisory-group-members">Advisory Group members</a></li>
-  <li><a href="#former-executive-group-members" id="toc-former-executive-group-members" class="nav-link" data-scroll-target="#former-executive-group-members">Former Executive Group members</a></li>
-  <li><a href="#former-advisory-group-members" id="toc-former-advisory-group-members" class="nav-link" data-scroll-target="#former-advisory-group-members">Former Advisory Group members</a></li>
-  <li><a href="#equator-milestones" id="toc-equator-milestones" class="nav-link" data-scroll-target="#equator-milestones">EQUATOR Milestones</a></li>
-  <li><a href="#principles" id="toc-principles" class="nav-link" data-scroll-target="#principles">Principles</a></li>
+  <li><a href="#the-equator-network-register-of-reporting-guidelines-under-development" id="toc-the-equator-network-register-of-reporting-guidelines-under-development" class="nav-link" data-scroll-target="#the-equator-network-register-of-reporting-guidelines-under-development">The EQUATOR Network register of reporting guidelines under development</a></li>
+  <li><a href="#why-register" id="toc-why-register" class="nav-link" data-scroll-target="#why-register">Why register?</a></li>
+  <li><a href="#what-you-can-and-cannot-register-here" id="toc-what-you-can-and-cannot-register-here" class="nav-link" data-scroll-target="#what-you-can-and-cannot-register-here">What you can — and cannot — register here?</a></li>
+  <li><a href="#disclaimers" id="toc-disclaimers" class="nav-link" data-scroll-target="#disclaimers">Disclaimers</a></li>
+  <li><a href="#how-to-register" id="toc-how-to-register" class="nav-link" data-scroll-target="#how-to-register">How to register</a></li>
+  <li><a href="#guidance-for-developing-reporting-guidelines" id="toc-guidance-for-developing-reporting-guidelines" class="nav-link" data-scroll-target="#guidance-for-developing-reporting-guidelines">Guidance for developing reporting guidelines</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -276,183 +215,66 @@ window.Quarto = {
 
 
 
-<section id="equator-network-what-we-do-and-how-we-are-organised" class="level1">
-<h1>EQUATOR Network: what we do and how we are organised</h1>
-<p>The EQUATOR Network is an “umbrella” organisation that brings together researchers, medical journal editors, peer reviewers, developers of reporting guidelines, research funding bodies and other collaborators with mutual interest in improving the quality of research publications and of research itself.</p>
-<p>We are developing into a global initiative covering all areas of health research and all nations, and actively involving all key stakeholders. We have launched the first five national centres that will substantially contribute to expanding EQUATOR activities: the <a href="../about/uk-equator-centre.html">UK EQUATOR Centre</a> (also the EQUATOR Network’s head office), <a href="../about/international-equator-centres.html#french-equator-centre">French EQUATOR Centre</a>, <a href="../about/international-equator-centres.html#canadian-equator-centre">Canadian EQUATOR Centre</a>, <a href="../about/international-equator-centres.html#australasian-equator-centre">Australasian EQUATOR Centre</a>, &nbsp;<a href="../about/international-equator-centres.html#chinese-equator-centre">Chinese EQUATOR Centre</a> and <a href="../about/international-equator-centres.html#usa-equator-centre">US EQUATOR Centre</a>. The new centres will focus on national activities aimed at raising awareness and supporting adoption of good research reporting practices. They will work with partner organisations and initiatives and will also contribute to the work of the EQUATOR Network as a whole.</p>
-<section id="equators-mission-and-goals" class="level2">
-<h2 class="anchored" data-anchor-id="equators-mission-and-goals">EQUATOR’s mission and goals</h2>
-<p>The EQUATOR mission is to achieve accurate, complete, and transparent reporting of all health research studies to support research reproducibility and usefulness. Our work increases the value of health research and helps to minimise avoidable waste of financial and human investments in health research projects.</p>
-<p>To achieve its mission the EQUATOR Network has the following major goals:</p>
-<ul>
-<li>Maintain and further develop a comprehensive collection of online resources providing up-to-date information, tools and other materials related to health research reporting (<a href="../toolkits/writing-research/index.html">Library for health research reporting</a>)</li>
-<li>Actively promote the use of reporting guidelines and good research reporting practices through an education and <a href="https://www.equator-network.org/category/events/">training</a> programme</li>
-<li>Assist in the <a href="http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000217">development</a>, dissemination and implementation of robust reporting guidelines</li>
-<li>Support journals, universities and other organisations in <a href="../toolkits/using-guidelines-in-journals/index.html">implementing reporting guidelines</a> through development of tools, strategies, education and other activities</li>
-<li>Undertake research projects enhancing the value of health-related research</li>
-<li>Set up a global network of local EQUATOR centres to facilitate the improvement of health research reporting on a worldwide scale</li>
-</ul>
-<p>Aside from its core activities of providing focused resources and training, EQUATOR is committed to research on current research and its publication to enhance the value of health-related research. Research topics include reviews of time trends in the nature and quality of publications; the development of tools and strategies to improve the planning, design, conduct/management and reporting of biomedical research; and investigating strategies to help journals to improve the quality of manuscripts.</p>
-<p>The EQUATOR Network is directed by an international Executive Group that brings together leading experts in health research methodology, statistics, reporting and editorial work.</p>
+<!-- need to create an index file, that talks broadly about registration -->
+<!-- both RGUD but also new guidelines (something we don't currently mention) -->
+<section id="reporting-guidelines-under-development" class="level1">
+<h1>Reporting guidelines under development</h1>
+<section id="the-equator-network-register-of-reporting-guidelines-under-development" class="level2">
+<h2 class="anchored" data-anchor-id="the-equator-network-register-of-reporting-guidelines-under-development">The EQUATOR Network register of reporting guidelines under development</h2>
+<p>The EQUATOR Network provides a space for registering reporting guidelines that are <strong>currently under development</strong> around the world.</p>
+<p>We encourage researchers to register the development of reporting guidelines and extensions here for free and also to keep the register entry up to date by contacting us to update it with the latest progress.</p>
+<p>The EQUATOR Network recommends that authors seek permission from the original development group if they plan to develop an extension or translation of an existing reporting guideline.</p>
+<p><strong>Any extensions or translation requests will be sent to the original development group, for their approval, before posting on the EQUATOR website.</strong></p>
 </section>
-<section id="executive-group-members" class="level2">
-<h2 class="anchored" data-anchor-id="executive-group-members">Executive Group members</h2>
-<div id="listing-listing" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1788524553387" data-listing-reading-time-sort="2" data-listing-word-count-sort="221">
-<div class="thumbnail"><a href="../about/people/gcollins.html" class="no-external">
-
-<img loading="lazy" src="../about/people/gcollins.webp" class="thumbnail-image" alt="Gary Collins, Director">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../about/people/gcollins.html" class="no-external">Gary Collins</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../about/people/gcollins.html" class="no-external">Director, Professor of Medical Statistics, University of Birmingham</a>
-</div>
-<div class="delink listing-description"><a href="../about/people/gcollins.html" class="no-external">
-Professor Gary Collins is a 125th Anniversary Chair and Professor of Medical Statistics at the University of Birmingham, and a NIHR Senior Investigator. His primary research…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../about/people/gcollins.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1788524553387" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<div class="thumbnail"><a href="../about/people/dmoher.html" class="no-external">
-
-<img loading="lazy" src="../about/people/dmoher.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../about/people/dmoher.html" class="no-external">David Moher</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../about/people/dmoher.html" class="no-external">Senior Scientist, Ottawa Health Research Institute, Ottawa, Canada; Director, Canadian EQUATOR Centre, and former chair of the EQUATOR Network.</a>
-</div>
-<div class="delink listing-description"><a href="../about/people/dmoher.html" class="no-external">
-Dr David Moher is a senior scientist with the Ottawa Health Research Institute. He is also Associate Professor, Department of Epidemiology &amp; Community Medicine, Faculty of…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../about/people/dmoher.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1788524553388" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
-<div class="thumbnail"><a href="../about/people/pravaud.html" class="no-external">
-
-<img loading="lazy" src="../about/people/pravaud.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../about/people/pravaud.html" class="no-external">Philippe Ravaud</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../about/people/pravaud.html" class="no-external">Director, Centre of Epidemiology at the Hotel-Dieu (Paris); Director, French EQUATOR Centre</a>
-</div>
-<div class="delink listing-description"><a href="../about/people/pravaud.html" class="no-external">
-Professor Philippe Ravaud is Director of the Centre of Epidemiology at the Hotel-Dieu (Paris), Director of the French Cochrane Centre, Director of the INSERM Research Team…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../about/people/pravaud.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1788524553388" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
-<div class="thumbnail"><a href="../about/people/thoffman.html" class="no-external">
-
-<img loading="lazy" src="../about/people/thoffmann.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../about/people/thoffman.html" class="no-external">Tammy Hoffmann</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../about/people/thoffman.html" class="no-external">Professor of Clinical Epidemiology, Institute for Evidence-Based Healthcare, Bond University, Australia; Director of the Australian EQUATOR Centre</a>
-</div>
-<div class="delink listing-description"><a href="../about/people/thoffman.html" class="no-external">
-Professor Tammy Hoffmann is a Professor of Clinical Epidemiology at the Institute for Evidence-Based Healthcare, Bond University. Her research spans many aspects of…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../about/people/thoffman.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1788524553390" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
-<div class="thumbnail"><a href="../about/people/zbian.html" class="no-external">
-
-<img loading="lazy" src="../about/people/zbian.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../about/people/zbian.html" class="no-external">Zhaoxiang Bian</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../about/people/zbian.html" class="no-external">Chair Professor in the School of Chinese Medicine and Tsang Shiu Tim Endowed Professor of Chinese Medicine Clinical Studies, Hong Kong Baptist University; Director of the Chinese EQUATOR Centre</a>
-</div>
-<div class="delink listing-description"><a href="../about/people/zbian.html" class="no-external">
-Professor Bian obtained his Bachelor Degree of Chinese Medicine from the Nanjiang University of Chinese Medicine in 1988, Master Degree of Chinese Medicine from Beijing…
-</a></div>
-</div>
-<div class="metadata">
-<a href="../about/people/zbian.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="advisory-group-members" class="level2">
-<h2 class="anchored" data-anchor-id="advisory-group-members">Advisory Group members</h2>
+<section id="why-register" class="level2">
+<h2 class="anchored" data-anchor-id="why-register">Why register?</h2>
 <ul>
-<li><strong>Ana Marušić</strong>, Professor and Chair, Department of Research in Biomedicine and Health, University of Split, Croatia</li>
+<li>To <strong>raise awareness</strong>: by telling others that you are developing a reporting guideline, you can attract collaboration from others;</li>
+<li>To <strong>prevent duplication</strong> of effort: before starting to develop a new reporting guideline, developers should first check this register to see if someone has already started developing the same or a similar guideline. They can then offer to join existing development groups &nbsp;instead of wasting time and resources by creating duplicate guidelines;</li>
+<li>To <strong>be transparent</strong>: protocols, no matter how simple and short, can be published and disseminated through this channel so that the development methods are clear for all.</li>
 </ul>
 </section>
-<section id="former-executive-group-members" class="level2">
-<h2 class="anchored" data-anchor-id="former-executive-group-members">Former Executive Group members</h2>
+<section id="what-you-can-and-cannot-register-here" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-can-and-cannot-register-here">What you can — and cannot — register here?</h2>
+<p>You <strong>can</strong> register here:</p>
 <ul>
-<li><strong>Doug Altman</strong>, former Professor of Statistics in Medicine, Centre for Statistics in Medicine, University of Oxford, UK; Director, UK EQUATOR Centre</li>
-<li><strong>Iveta Simera</strong>, formerly Senior Operations &amp; Development Manager at The Global Health Network (TGHN), Centre for Tropical Medicine &amp; Global Health, University of Oxford, UK</li>
+<li>the development of a reporting guideline for a <strong>research article published in a scientific journal</strong>:</li>
+</ul>
+<p><em>“A reporting guideline is a checklist, flow diagram, or structured text to guide authors in reporting a specific type of research, developed using explicit methodology”.</em></p>
+<ul>
+<li>the development of a checklist or statement, the explanation and elaboration (E&amp;E) document under development, the protocol of your project, the website dedicated to this development and other associated materials</li>
+<li>the progress of your work, by sending us news about steps finished, such as the publication of protocols or systematic reviews, the start of Delphi surveys and consensus meetings scheduled</li>
+</ul>
+<p>You <strong>cannot</strong> register here:</p>
+<ul>
+<li>clinical guidelines: guidance you are developing for <strong>clinical practice</strong> in any field</li>
+<li>guidance for the <strong>conduct</strong> of research or <strong>methodological</strong> guidelines (unless they are part of a reporting guideline)</li>
+<li>the <strong>translation</strong> of existing reporting guidelines (but you can request for the translation, once complete, to be added to the relevant reporting guideline record in our main database)</li>
+<li>guidance or checklists developed specifically for the <strong>critical appraisal</strong> or evaluation of the reporting of health research studies</li>
+<li>guidance whose development has already <strong>finished</strong>, even if not yet published</li>
+<li>guidance on the quality of communication between healthcare providers, such as pathology or laboratory reports or medical records, or any report <strong>not intended for publication</strong> as a scientific paper.</li>
 </ul>
 </section>
-<section id="former-advisory-group-members" class="level2">
-<h2 class="anchored" data-anchor-id="former-advisory-group-members">Former Advisory Group members</h2>
-<ul>
-<li><strong>John Hoey</strong>, Associate Professor (adjunct), University of Toronto, Toronto, Canada</li>
-<li><strong>Kenneth F. Schulz</strong>, Distinguished Scientist and Vice President, Quantitative Sciences, Family Health International, Chapel Hill, USA</li>
-<li><strong>Trish Groves</strong>, formerly Head of Research, BMJ &amp; Editor-in-chief, BMJ Open</li>
-</ul>
+<section id="disclaimers" class="level2">
+<h2 class="anchored" data-anchor-id="disclaimers">Disclaimers</h2>
+<p><strong><em>Not an endorsement</em></strong></p>
+<p>Registration of a reporting guideline under development and inclusion on this web page does not imply endorsement by the EQUATOR Network.</p>
+<p><strong><em>Responsibilities</em></strong></p>
+<p>The contents of the reporting guidelines under development listed here are their authors’ responsibility, and no liability is accepted for any use of reporting guidelines under development information included in these pages.</p>
+<p>Authors should ensure that they have the appropriate authority to develop the reporting guideline being registered and that all of the information submitted to us is accurate to the best of their knowledge.</p>
+<p><strong><em>Content of this register</em></strong> <!-- link to the new RGUD search --> You can search HERE for any reporting guidelines currently under development.</p>
+<p>This list is not an exhaustive collection of reporting guidelines under development, and we encourage the community to provide us with links to others that are known to be under development.</p>
+<p><strong>The EQUATOR Network may remove any reporting guideline under development, particularly those registered more than 5 years ago, from these pages at any time at its sole discretion.</strong>&nbsp;</p>
 </section>
-<section id="equator-milestones" class="level2">
-<h2 class="anchored" data-anchor-id="equator-milestones">EQUATOR Milestones</h2>
-<p>Since its launch in 2008, the programme has already achieved important milestones:</p>
-<ul>
-<li>Developed a free online <a href="https://www.equator-network.org/library/">Library for health research reporting</a></li>
-<li>In collaboration with the Pan American Health Organization (PAHO/WHO) launched a Spanish section in the EQUATOR website and signed a three year memorandum on mutual collaboration in promoting responsible research reporting in the Americas, especially in Latin America and the Caribbean regions</li>
-<li>Built international recognition and reputation as the leading authority and resource portal in the area of health research reporting. Reference to EQUATOR is included in the “<a href="http://www.icmje.org/">Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals</a>” (formerly Uniform Requirements for Biomedical Manuscripts), the most fundamental guidelines developed by the International Committee of Medical Journal Editors that are followed by most biomedical journals</li>
-<li>Organised workshops, seminars, talks and Annual Lectures on issues relevant to research reporting (see our <a href="https://www.equator-network.org/category/events/all-past-events/">past events</a>)</li>
-<li>Together with the German Cochrane Centre organised the 1st EQUATOR Scientific Symposium: <a href="https://www.equator-network.org/2012/10/10/act-now-accuracy-completeness-and-transparency-in-health-research-reporting/">ACT now: Accuracy, Completeness and Transparency in health research reporting</a>, Freiburg, October 2012</li>
-<li>Completed several research projects and published a number of <a href="https://www.equator-network.org/about-us/uk-equator-centre/equator-publications/">research papers and articles promoting good research reporting</a></li>
-<li>Published a regular <a href="https://www.equator-network.org/category/news/newsletter-only/">online newsletter</a> and set up a <a href="http://www.linkedin.com/groups/EQUATOR-Network-Improving-reporting-health-5032663">LinkedIn group</a> disseminating information about new reporting guidelines and the latest developments</li>
-</ul>
+<section id="how-to-register" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-register">How to register</h2>
+<p>Please register your planned guideline using this form: <a href="Registration-form-for-reporting-guidelines-under-development-May-2026.docx">Registration-form</a>.</p>
+<p>Please take care to fill in all fields, as incomplete forms may be returned to authors. Feel free to add additional information where applicable.</p>
+<p>The EQUATOR Network will summarise the information provided in the registration form for publication on the website. The information on the forms helps us verify if the project is about the development of a reporting guideline (and not a methodological or clinical guideline) and any duplication or overlap with other reporting guidelines under development or already published.</p>
 </section>
-<section id="principles" class="level2">
-<h2 class="anchored" data-anchor-id="principles">Principles</h2>
-<p>The work of EQUATOR increases the <strong>usability of available research evidence</strong>. Our work supports the work of organisations such as the Cochrane Collaboration in the development of systematic reviews and NICE in the development of clinical practice guidelines. EQUATOR also helps research funders maximise the utility of new information arising from the research they fund.</p>
-<p>Complete, accurate and transparent reporting is an <strong>integral part of responsible research conduct</strong>. Reporting guidelines are important tools for achieving high standards in reporting health studies. In order to reach their potential, reporting guidelines need to be used widely and routinely by researchers/authors, editors and peer reviewers. This effort needs to be strongly supported by research funders and regulatory bodies.</p>
-<p>EQUATOR is a <strong>long-term programme of research support</strong> and <strong>improvement</strong> and not a closed fixed term project. Ongoing EQUATOR activities are expected to increase the usability and value of published research both in clinical practice and to aid further research, thus ensuring that maximum value is gained from financial investment in health research.</p>
-
+<section id="guidance-for-developing-reporting-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="guidance-for-developing-reporting-guidelines">Guidance for developing reporting guidelines</h2>
+<p>Visit the EQUATOR Network <a href="../toolkits/developing-a-reporting-guideline/">toolkit on how to develop a reporting guideline</a> for essential information and advice.</p>
 
 
 </section>
