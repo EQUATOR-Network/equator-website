@@ -1,8 +1,6 @@
-# Reporting guidelines under development
+# The EQUATOR Network register of reporting guidelines under development
 
-## The EQUATOR Network register of reporting guidelines under development
-
-The EQUATOR Network provides this space for registering [reporting
+The EQUATOR Network provides a space for registering [reporting
 guidelines that are currently under
 development](/reporting-guidelines/under-development/index.qmd) around the
 world.
