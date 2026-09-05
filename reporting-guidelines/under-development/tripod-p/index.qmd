@@ -1,0 +1,23 @@
+---
+title: "TRIPOD-P: a reporting guideline for protocols of clinical prediction models/predictive AI tools"
+contact-name: "Gary Collins"
+contact-email: "g.s.collins@bham.ac.uk"
+date-registered: "5 September 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+
+TRIPOD-P will be the reporting guideline extension of TRIPOD+AI for protocols of prediction model studies. It will be applicable to diagnostic and prognostic prediction model studies that develop and validate prediction models. To avoid duplication of efforts, TRIPOD-P will cover reporting of protocols for studies that develop and validate a prediction model using statistical or machine learning methods.
+
+TRIPOD-P will comprise the minimal set of essential reporting items for protocols of prediction model studies and will be applicable to all clinical specialties. The guideline is aimed at researchers looking to develop and validate a prediction model, peer-reviewers reviewing final study manuscripts for publication and other researchers wanting to reproduce results. 
+
+
+{{< include ../_template.qmd >}}

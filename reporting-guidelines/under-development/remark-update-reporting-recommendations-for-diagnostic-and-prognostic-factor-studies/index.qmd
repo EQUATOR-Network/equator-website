@@ -1,5 +1,5 @@
 ---
-title: REMARK update - Reporting recommendations for diagnostic and prognostic factor studies
+title: TRIPOD-PF - Reporting recommendations for diagnostic and prognostic factor studies
 date-registered: '2021'
 year-registered: 2021
 date-updated: 5 February 2026
@@ -9,8 +9,9 @@ categories:
 - Other
 ---
 
-The Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK) guideline was published in 2005 to encourage complete and transparent reporting of studies that investigate the prognostic value of a tumor marker. The recommendations in REMARK can be applied more broadly to include diagnostic and predictive markers as well as markers outside the field of oncology. To increase uptake and improve reporting of any marker study, we will develop an-updated and broader in scope, version of the guideline.
+Introduction: The Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK) guideline, published in 2005, was designed to promote complete and transparent reporting of studies evaluating the prognostic value of tumour markers. Although originally developed for oncology, its principles apply widely to prognostic factor research across medicine. To support broader use and improve reporting quality, we are updating the guidance and expanding its scope. To align more closely with other prognosis-related reporting guidelines and make it easier for researchers to identify and adopt, the updated guideline will join the Transparent Reporting Items of Studies for Prognosis and Diagnosis (TRIPOD) family and will be known as TRIPOD-PF. This protocol outlines the processes and methods that will guide its development.
 
-The-updated guidance will be developed following published guidance from the EQUATOR Network, and will comprise five stages. In stage one, a list of potential items will be drafted by a steering group involving researchers with expertise in diagnostic and prognostic prediction. In stage two we will consult a diverse group of key stakeholders using a Delphi process to identify which potential items should be considered. Stage three will be a consensus meeting involving the steering group and other individuals with relevant expertise to consolidate and prioritise key items to be included in update guidance. Stage four will involve finalising the checklist, and writing the accompanying explanation and elaboration. In the fifth and final stage, we will disseminate the guidance via journals, conferences, blogs, websites, and social media. The-updated recommendation will enhance reporting standards for diagnostic and prognostic marker studies across clinical fields.
+Methods and Analysis: TRIPOD-PF will be developed in line with EQUATOR Network guidance and will follow five stages. First, a steering group with expertise in prognostic research will draft a list of potential reporting items, informed by systematic reviews of prognostic factor studies and existing reporting guidelines. Second, we will conduct an international Delphi survey with a diverse group of stakeholders to gather views on which items should be considered. Third, we will hold a consensus meeting with the steering group and other experts to refine, consolidate, and agree the key items for inclusion. Fourth, we will finalise the TRIPOD-PF checklist, pilot test it, and prepare the accompanying explanation and elaboration document. Finally, we will disseminate TRIPOD-PF through journals, conferences, websites, blogs, and social media. The guideline aims to strengthen reporting standards for diagnostic and prognostic factor studies across clinical fields. 
+
 
 {{< include ../_template.qmd >}}
