@@ -86,7 +86,7 @@ reporting guideline (and not a methodological or clinical guideline) and
 any duplication or overlap with other reporting guidelines under
 development or already published.
 
-## Disclaimers
+## [/reporting-guidelines/index.qmd](/reporting-guidelines/index.qmd)Disclaimers
 
 ***Not an endorsement***
 
@@ -117,6 +117,5 @@ any time at its sole discretion.** 
 **Once your reporting guideline has been developed and published, see our
 [instructions](/toolkits/developing-a-reporting-guideline/new_rg.qmd) on
 next steps. We will remove the entry from the list of reporting guidelines
-under development, and move it to the main EQUATOR library of reporting
-guidelines.**
-
+under development, and move the reporting guideline to the main EQUATOR
+library.**
