@@ -1,7 +1,7 @@
 # The EQUATOR Network register of reporting guidelines under development
 
-The EQUATOR Network provides a space for registering [reporting
-guidelines that are currently under
+The EQUATOR Network provides a space for registering [reporting guidelines
+that are currently under
 development](/reporting-guidelines/under-development/index.qmd) around the
 world.
 
@@ -65,6 +65,27 @@ You **cannot** register here:
   such as pathology or laboratory reports or medical records, or any report
   **not intended for publication** as a scientific paper.
 
+## How to register
+
+Before registering your guideline, [search the
+list](/reporting-guidelines/under-development/index.qmd) of current
+reporting guidelines under development to see if any similar initiatives
+are underway.
+
+Please register your planned guideline using this form:
+[Registration-form](Registration-form-for-reporting-guidelines-under-development-May-2026.docx)
+and [send it back us.](/about/contact.qmd)
+
+Please take care to fill in all fields, as incomplete forms may be returned
+to authors. Feel free to add additional information where applicable.
+
+The EQUATOR Network will summarise the information provided in the
+registration form for publication on the website. The information on the
+forms helps us verify if the project is about the development of a
+reporting guideline (and not a methodological or clinical guideline) and
+any duplication or overlap with other reporting guidelines under
+development or already published.
+
 ## Disclaimers
 
 ***Not an endorsement***
@@ -93,23 +114,9 @@ others that are known to be under development.
 particularly those registered more than 5 years ago, from these pages at
 any time at its sole discretion.** 
 
-## How to register
+**Once your reporting guideline has been developed and published, see our
+[instructions](/toolkits/developing-a-reporting-guideline/new_rg.qmd) on
+next steps. We will remove the entry from the list of reporting guidelines
+under development, and move it to the main EQUATOR library of reporting
+guidelines.**
 
-Before registering your guideline, [search the
-list](/reporting-guidelines/under-development/index.qmd) of current
-reporting guidelines under development to see if any similar initiatives
-are underway.
-
-Please register your planned guideline using this form:
-[Registration-form](Registration-form-for-reporting-guidelines-under-development-May-2026.docx)
-and [send it back us.](/about/contact.qmd)
-
-Please take care to fill in all fields, as incomplete forms may be returned
-to authors. Feel free to add additional information where applicable.
-
-The EQUATOR Network will summarise the information provided in the
-registration form for publication on the website. The information on the
-forms helps us verify if the project is about the development of a
-reporting guideline (and not a methodological or clinical guideline) and
-any duplication or overlap with other reporting guidelines under
-development or already published.
