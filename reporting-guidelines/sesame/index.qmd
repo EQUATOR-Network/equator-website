@@ -1,0 +1,127 @@
+---
+# REQUIRED FIELDS
+title: 'Standard Elements in Studies of Adverse Events and Medical Error: the SESAME statement'
+acronym: SESAME
+provided-for: Reporting adverse events and medical error
+rg-doi: ''
+pmid-id: '42725443'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/42725443/
+relevant-urls: '[Read the full-text](https://doi.org/10.1097/PTS.0000000000001583)
+
+The SESAME Explanation and Elaboration document is available [here](https://doi.org/10.1097/PTS.0000000000001584)'
+full-bibliographic-reference: 'Griffey RT, Stockwell DC, Adler LM, Ancona R, Classen D, Schneider RM, Rutjes AW, Carpenter CR, Unbeck M; SESAME Development Team. Standard Elements in Studies of Adverse Events and Medical Error: the SESAME statement. J Patient Saf. 2026 Sep 11. doi: 10.1097/PTS.0000000000001583.'
+  
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: 'Griffey RT, Adler LM, Stockwell DC, Hibbert PD, Klein DO, Schwendimann R, Auerbach AD, Ancona R, Schneider RM, Classen D, Carpenter CR, Rutjes AWS, Unbeck M; SESAME Development Team. Standard Elements in Studies of Adverse Events and Medical Error (SESAME): explanation and elaboration. BMJ Qual Saf. 2026 Sep 11:bmjqs-2025-019469.'
+guideline-history: ''
+relevant-more: ''
+website-url: '[https://www.sesamestatement.org/checklist/](https://www.sesamestatement.org/checklist/)'
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads: ''
+
+# LIST FIELDS
+study-design:
+- Clinical trials
+- Observational studies
+# - No study design specified
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+#- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+
+clinical-specialty:
+- No clinical specialty specified
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+
+report-section:
+- Whole report
+- Harms/adverse effects/safety data
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+#- No report section specified
+
+keyword:
+# - No keywords specified
+---
+
+{{< include ../_template.qmd >}}
