@@ -67,47 +67,14 @@ local function meta_list_items(value)
     return {}
   end
 
-  local t = pandoc.utils.type(value)
-
-  if t == "MetaList" then
-    local out = {}
-    for _, item in ipairs(value) do
-      local s = stringify(item)
-      if s ~= "" then
-        table.insert(out, s)
-      end
-    end
-    return out
-  end
-
-  if t == "MetaInlines" or t == "MetaString" then
-    local s = stringify(value)
-    if s == "" then
-      return {}
-    end
-    return { s }
-  end
-
-  if t == "MetaMap" then
-    -- Common case for list entries like: - name: Value
-    if value.name ~= nil then
-      local s = stringify(value.name)
-      if s ~= "" then
-        return { s }
-      end
-    end
-    local s = stringify(value)
+  local out = {}
+  for _, item in ipairs(value) do
+    local s = stringify(item)
     if s ~= "" then
-      return { s }
+      table.insert(out, s)
     end
-    return {}
   end
-
-  local s = stringify(value)
-  if s == "" then
-    return {}
-  end
-  return { s }
+  return out
 end
 
 local function render_html_list(items, css_class)
