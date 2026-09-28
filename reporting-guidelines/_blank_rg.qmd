@@ -2,9 +2,9 @@
 # REQUIRED FIELDS
 title: ''
 acronym: ''
-description: |-
+provided-for: |-
   
-doi: ''
+rg-doi: ''
 pmid-id: ''
 pmid-url: 
 relevant-urls: |-
@@ -12,6 +12,7 @@ relevant-urls: |-
 full-bibliographic-reference: |-
   
 # OPTIONAL FIELDS
+downloads: ''
 rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
