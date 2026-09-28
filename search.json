@@ -7120,21 +7120,21 @@
     ]
   },
   {
-    "objectID": "toolkits/developing-a-reporting-guideline/rgud_equator.html#disclaimers",
-    "href": "toolkits/developing-a-reporting-guideline/rgud_equator.html#disclaimers",
-    "title": "The EQUATOR Network register of reporting guidelines under development",
-    "section": "Disclaimers",
-    "text": "Disclaimers\nNot an endorsement\nRegistration of a reporting guideline under development and its inclusion on this web page does not imply endorsement by the EQUATOR Network.\nResponsibilities\nThe contents of the reporting guidelines under development listed here are the authors’ responsibility, and no liability is accepted for any use of reporting guidelines under development information included in these pages.\nAuthors should ensure that they have the appropriate authority to develop the reporting guideline being registered and that all of the information submitted to us is accurate to the best of their knowledge.\nContent of this register\nThis list is not an exhaustive collection of reporting guidelines under development, but we encourage the community to provide us with links to others that are known to be under development.\nThe EQUATOR Network may remove any reporting guideline under development, particularly those registered more than 5 years ago, from these pages at any time at its sole discretion.",
-    "crumbs": [
-      "Registration"
-    ]
-  },
-  {
     "objectID": "toolkits/developing-a-reporting-guideline/rgud_equator.html#how-to-register",
     "href": "toolkits/developing-a-reporting-guideline/rgud_equator.html#how-to-register",
     "title": "The EQUATOR Network register of reporting guidelines under development",
     "section": "How to register",
     "text": "How to register\nBefore registering your guideline, search the list of current reporting guidelines under development to see if any similar initiatives are underway.\nPlease register your planned guideline using this form: Registration-form and send it back us.\nPlease take care to fill in all fields, as incomplete forms may be returned to authors. Feel free to add additional information where applicable.\nThe EQUATOR Network will summarise the information provided in the registration form for publication on the website. The information on the forms helps us verify if the project is about the development of a reporting guideline (and not a methodological or clinical guideline) and any duplication or overlap with other reporting guidelines under development or already published.",
+    "crumbs": [
+      "Registration"
+    ]
+  },
+  {
+    "objectID": "toolkits/developing-a-reporting-guideline/rgud_equator.html#disclaimers",
+    "href": "toolkits/developing-a-reporting-guideline/rgud_equator.html#disclaimers",
+    "title": "The EQUATOR Network register of reporting guidelines under development",
+    "section": "Disclaimers",
+    "text": "Disclaimers\nNot an endorsement\nRegistration of a reporting guideline under development and its inclusion on this web page does not imply endorsement by the EQUATOR Network.\nResponsibilities\nThe contents of the reporting guidelines under development listed here are the authors’ responsibility, and no liability is accepted for any use of reporting guidelines under development information included in these pages.\nAuthors should ensure that they have the appropriate authority to develop the reporting guideline being registered and that all of the information submitted to us is accurate to the best of their knowledge.\nContent of this register\nThis list is not an exhaustive collection of reporting guidelines under development, but we encourage the community to provide us with links to others that are known to be under development.\nThe EQUATOR Network may remove any reporting guideline under development, particularly those registered more than 5 years ago, from these pages at any time at its sole discretion. \nOnce your reporting guideline has been developed and published, see our instructions on next steps. We will remove the entry from the list of reporting guidelines under development, and move it to the main EQUATOR library of reporting guidelines.",
     "crumbs": [
       "Registration"
     ]
@@ -7346,7 +7346,7 @@
     "href": "about/people/gcollins.html",
     "title": "Gary Collins",
     "section": "",
-    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Gary Collins is a 125th Anniversary Chair and Professor of Medical Statistics at the University of Birmingham, and a NIHR Senior Investigator. His primary research interests are primarily focussed on aspects surrounding the development and validation multivariable prediction models (design, analysis and reporting).\nIn 2010, he established an international initiative to develop the TRIPOD reporting recommendations published in 2015 for studies developing and validating clinical prediction models. He led an update to these recommendations in 2024 to cover models developed using artificial intelligence and machine learning methods (TRIPOD+AI) and large language models (TRIPOD-LLM).\nGary has also been involved in other guidance for artificial intelligence and machine learning studies in healthcare, including\n\nSTARD-AI - for AI based diagnostic test accuracy studies\nDECIDE-AI - for early-stage live clinical evaluation of AI systems\nCONSORT-AI / SPIRIT-AI - for AI intervention studies\nCHART - for evaluating chatbots providing medical advice\n\nGary has also developed numerous other reporting guidelines for other study designs, including\n\nGATHER statement for studies providing global health estimates\nAGReMA statement for mediation analyses\n2025 update of SPIRIT and CONSORT guidelines for clinical trials\nSPIRIT-Surrogate and CONSORT-Surrogate for trials with surrogate endpoints\n\nHe has more than 500 peer-reviewed articles, editorials and commentaries, including 90 in the ‘big 6′ medical journals."
+    "text": "&lt;iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"&gt;&lt;/iframe&gt;\n\nProfessor Gary Collins is a 125th Anniversary Chair and Professor of Medical Statistics in the Department of Applied Health Sciences, at the University of Birmingham, and a NIHR Senior Investigator. His primary research interests are primarily focussed on aspects surrounding the development and validation multivariable prediction models (design, analysis and reporting).\nIn 2010, he established an international initiative to develop the TRIPOD reporting recommendations published in 2015 for studies developing and validating clinical prediction models. He led an update to these recommendations in 2024 to cover models developed using artificial intelligence and machine learning methods (TRIPOD+AI) and large language models (TRIPOD-LLM).\nGary has also been involved in other guidance for artificial intelligence and machine learning studies in healthcare, including\n\nSTARD-AI - for AI based diagnostic test accuracy studies\nDECIDE-AI - for early-stage live clinical evaluation of AI systems\nCONSORT-AI / SPIRIT-AI - for AI intervention studies\nCHART - for evaluating chatbots providing medical advice\n\nGary has also developed numerous other reporting guidelines for other study designs, including\n\nGATHER statement for studies providing global health estimates\nAGReMA statement for mediation analyses\n2025 update of SPIRIT and CONSORT guidelines for clinical trials\nSPIRIT-Surrogate and CONSORT-Surrogate for trials with surrogate endpoints\n\nHe has more than 500 peer-reviewed articles, editorials and commentaries, including 90 in the ‘big 6′ medical journals."
   },
   {
     "objectID": "about/equator-network.html#equators-mission-and-goals",
