@@ -86,7 +86,7 @@ reporting guideline (and not a methodological or clinical guideline) and
 any duplication or overlap with other reporting guidelines under
 development or already published.
 
-## [/reporting-guidelines/index.qmd](/reporting-guidelines/index.qmd)Disclaimers
+## Disclaimers
 
 ***Not an endorsement***
 
