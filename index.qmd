@@ -55,7 +55,7 @@ guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action
 
 [[›]{.chevron} About The EQUATOR Network](#about-equator){.modern-link}
 
-[[›]{.chevron} Tell us about a new reporting guideline](#sec-what-are-rgs){.modern-link}
+[[›]{.chevron} Tell us about a new reporting guideline](#sec-tell-us-about-a-new-reporting-guideline){.modern-link}
 :::
 
 <!-- hero buttons -->
