@@ -111,9 +111,6 @@ website:
         - text: Implementation routes
           href: toolkits/using-guidelines-in-journals/four-possible-implementation-routes.qmd
 
-filters:
-  - unless-meta-empty
-
 format:
   html:
     theme: cosmo
@@ -121,6 +118,7 @@ format:
     toc: true
     title-block-banner: true
     title-block-banner-color: white
+    smooth-scroll: true
     grid:
       sidebar-width: 250px
       body-width: 800px
@@ -132,7 +130,4 @@ format:
       - _scripts/gtm-head.html
     include-before-body: 
       - _scripts/gtm-body.html
-
-
-
 
