@@ -127,6 +127,17 @@ report_matches \
   "Replacement character found (possible encoding issue)" \
   "Check source file encoding (UTF-8), input transformations, and slug/transliteration steps that may be dropping characters."
 
+for file in "${html_files[@]}"; do
+  relative_path="${file#"${SITE_DIR}"/}"
+  if [[ "${relative_path}" == *_* ]]; then
+    fail_count=$((fail_count + 1))
+    printf 'FAIL %s\n' "${file}"
+    printf '  Issue: Underscore in generated HTML path (URL slugs must not contain underscores)\n'
+    printf '  Value: %s\n' "${relative_path}"
+    printf '  Fix: Rename the source file/directory or set a slug without underscores (use hyphens).\n\n'
+  fi
+done
+
 if (( fail_count > 0 )); then
   exit 1
 fi
