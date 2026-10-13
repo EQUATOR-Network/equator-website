@@ -9,6 +9,8 @@ website:
   favicon: "assets/favicons/equator-network-16x16.png"
   search: false 
   bread-crumbs: false
+  repo-url: https://github.com/EQUATOR-Network/equator-website
+  repo-actions: [issue, source]
   navbar:
     background: light
     logo: "assets/logos/equator_logo.png"
@@ -108,6 +110,9 @@ website:
           href: toolkits/using-guidelines-in-journals/creating-your-journals-reporting-guideline-policy.qmd
         - text: Implementation routes
           href: toolkits/using-guidelines-in-journals/four-possible-implementation-routes.qmd
+
+filters:
+  - unless-meta-empty
 
 format:
   html:
