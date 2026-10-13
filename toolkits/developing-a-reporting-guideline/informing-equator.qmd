@@ -1,1 +1,60 @@
-TO DO
+# Let us know when your reporting guideline is published
+
+Once your reporting guideline is published, please tell us. The EQUATOR
+Network regularly searches the literature for new guidelines, but we can't
+catch everything, particularly guidelines published in smaller journals, in
+languages other than English, or without "reporting guideline" in the title
+or abstract. Hearing directly from you means your guideline can be added to
+our database quickly and accurately.
+
+## Why it's worth telling us
+
+- Your guideline will be listed in the [EQUATOR Network's
+  database](/reporting-guidelines) of reporting guidelines, where
+  researchers, editors, peer reviewers and funders look for guidance.
+- It will be easier for authors and journals to find, which supports uptake
+  and use.
+- We can check that the details we hold are correct and that the checklist
+  links to a freely accessible version.
+- We can keep your entry up to date if you later publish a translation,
+  extension, or updated version.
+
+## What to send us
+
+Please [contact us](/about/contact.qmd) with the subject line "New
+reporting guideline" and include:
+
+1.  The full citation of the guideline publication, including a DOI or link
+    to the article
+2.  A link to the checklist, ideally one that is freely accessible and
+    downloadable
+3.  A link to the Explanation and Elaboration document, if you have
+    published one
+4.  Details of any other publications of the guideline (for example,
+    simultaneous publication in other journals) and any translations
+5.  The study type, topic, or clinical area the guideline applies to
+6.  A contact person for queries about the guideline (name and email
+    address)
+7.  A link to a guideline website or any supporting resources, if
+    applicable
+
+## When to contact us
+
+Ideally, as soon as your guideline is published or accepted for
+publication.
+
+## Updates, translations and extensions
+
+Please also contact us if:
+
+- you publish a revised or updated version of your guideline
+- your guideline is translated into another language
+- an extension or adaptation of your guideline is published
+- your website changes
+
+## Questions?
+
+If you're unsure whether your guideline is ready to share, or you'd like
+advice on dissemination, please [get in touch](/about/contact.qmd).
+
+---------------------------------------------------------------------------
