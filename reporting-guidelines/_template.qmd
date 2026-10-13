@@ -1,8 +1,10 @@
-{{< include /_partials/_index_table_margin.qmd >}}
-
 {{< include /_partials/_how_to_use_accordian.qmd >}}
 
+
+## Key information 
+
 ::: {.section}
+
 ::: {.reporting-guideline-key-info-box data-content='key information'}
 
 ::: {.grid}
@@ -53,16 +55,23 @@
 :::
 <!-- section -->
 
+## Bibliographic reference
+
+::: {.section}
+
+{{< include /_partials/_index_table_margin.qmd >}}
+
+{{< meta full-bibliographic-reference >}}
+
+<!-- row -->
+
+:::
+
+## Additional information
+
 ::: {.section}
 
 ::: {.grid}
-::: {.g-col-12 .g-col-md-4}
-**Full bibliographic reference**
-:::
-::: {.g-col-12 .g-col-md-8 .notranslate}
-{{< meta full-bibliographic-reference >}}
-:::
-<!-- row -->
 
 ::: {.g-col-12 .g-col-md-4 data-content='{{< meta rg-language >}}'}
 **Language**
@@ -80,24 +89,6 @@
 :::
 <!-- row -->
 
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta relevant-more >}}'}
-**Relevant more generic / specialised reporting guidelines**
-**(i.e. main generic guideline or extension to a generic guideline)**
-:::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta relevant-more >}}'} 
-{{< meta relevant-more >}}
-:::
-<!-- row -->
-
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta website-url >}}'}
-**Reporting guideline website URL**
-:::
-
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta website-url >}}'}
-{{< meta website-url >}}
-:::
-<!-- row -->
-
 ::: {.g-col-12 .g-col-md-4}
 **Study design**
 :::
@@ -106,8 +97,6 @@
 :::
 
 <!-- row -->
-
-
 ::: {.g-col-12 .g-col-md-4}
 **Clinical area**
 :::
@@ -121,6 +110,16 @@
 ::: {.g-col-12 .g-col-md-8 .notranslate}
 {{< meta-list report-section >}}
 :::
+
+::: {.g-col-12 .g-col-md-4 data-content='{{< meta website-url >}}'}
+**Reporting guideline website URL**
+:::
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta website-url >}}'}
+{{< meta website-url >}}
+:::
+<!-- row -->
+
 <!-- row -->
 
 ::: {.g-col-12 .g-col-md-4 data-content='{{< meta guideline-history >}}'}
@@ -148,7 +147,21 @@
 <!-- row -->
 :::
 <!-- grid -->
+
+:::
+<!-- /section -->
+
+::: {data-content='{{< meta relevant-more >}}'}
+
+## Related reporting guidelines
+
+::: {.section}
+{{< meta relevant-more >}}
+:::
+<!-- row -->
+
 :::
 <!-- section -->
+
 
 
