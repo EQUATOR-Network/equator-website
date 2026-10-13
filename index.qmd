@@ -54,6 +54,8 @@ guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action
 [[›]{.chevron} What are reporting guidelines?](#sec-what-are-rgs){.modern-link}
 
 [[›]{.chevron} About The EQUATOR Network](#about-equator){.modern-link}
+
+[[›]{.chevron} Tell us about a new reporting guideline](#sec-what-are-rgs){.modern-link}
 :::
 
 <!-- hero buttons -->
@@ -211,16 +213,15 @@ guidelines and check for adherence.
 Peer reviewers and evidence synthesisers use reporting guidelines to judge
 the transparency of research and identify missing information.
 :::
-
 <!-- {.g-col-md-4 .g-col-12 .card-highlight} -->
+
 ::::::
-
 <!--/grid -->
+
 :::::::
-
 <!-- /content-block -->
-::::::::
 
+::::::::
 <!-- /alt-background -->
 
 ::::: {#about-equator .about-equator}
@@ -250,6 +251,12 @@ office),
 [France](/about/international-equator-centres.html#french-equator-centre),
 [China](/about/international-equator-centres.html#chinese-equator-centre),
 and [US](/about/international-equator-centres.html#usa-equator-centre).
+
+### Tell us about a new reporting guideline
+
+[[›]{.chevron} Tell us about reporting guideline under development](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}
+
+[[›]{.chevron} Tell us about reporting guideline that has been published](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}
 
 ::: logos
 ![University of Birmingham logo](assets/logos/birmingham.png) ![University
