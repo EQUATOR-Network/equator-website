@@ -224,56 +224,21 @@ the transparency of research and identify missing information.
 ::::::::
 <!-- /alt-background -->
 
-::::: {#about-equator .about-equator}
+
+::::: {#tell-us-about-a-new-reporting-guideline}
 :::: content-block
-## The EQUATOR Network
 
-We are the leading global academic network dedicated to improving research
-reporting quality.
+## Tell us about a new reporting guideline
 
-EQUATOR stands for Enhancing the QUAlity and Transparency Of health
-Research. Our mission is to improve the reliability and value of published
-health research literature by promoting transparent and accurate reporting
-and wider use of robust reporting guidelines.
+Are you developing a new reporting guideline, or do you know of one that's recently been published? Help us keep the EQUATOR Network's resources up to date by sharing the details with us.
 
-We advance the work done by individual guideline development groups. We
-maintain a database of reporting guidelines, run [training
-courses](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school)
-on how to write research articles, have resources for
-[publishers](/toolkits/using-guidelines-in-journals/index.qmd), [peer
-reviewers](/toolkits/peer-reviewing-research.qmd), and reporting guideline
-[developers](/toolkits/developing-a-reporting-guideline/index.qmd).
+[[›]{.chevron} Register a reporting guideline in development](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}
 
-We have centers in the [UK](/about/uk-equator-centre.qmd) (our head
-office),
-[Canada](/about/international-equator-centres.html#canadian-equator-centre),
-[Australia](/about/international-equator-centres.html#australasian-equator-centre),
-[France](/about/international-equator-centres.html#french-equator-centre),
-[China](/about/international-equator-centres.html#chinese-equator-centre),
-and [US](/about/international-equator-centres.html#usa-equator-centre).
+[[›]{.chevron} Notify us about a published reporting guideline](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}
 
-### Tell us about a new reporting guideline
-
-[[›]{.chevron} Tell us about reporting guideline under development](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}
-
-[[›]{.chevron} Tell us about reporting guideline that has been published](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}
-
-::: logos
-![University of Birmingham logo](assets/logos/birmingham.png) ![University
-of Oxford logo](assets/logos/oxford.svg) ![Ottowa Hospital
-logo](assets/logos/ottawa.png){.logo-bigger} ![Bond University
-logo](assets/logos/bond.svg) ![Université Paris Cité
-logo](assets/logos/paris.jpeg) ![Hong Kong Baptist University
-logo](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger}
-:::
-
-<!-- logos -->
 ::::
-
-<!-- content-block -->
 :::::
 
-<!-- about-equator -->
 
 :::::::: {#training .radial-background .training}
 <img src="assets/images/radial1.svg" alt="Blurred background colours" class="radial1"/>
@@ -316,8 +281,47 @@ the writing process and get their work out into the world.
 
 <!-- {.content-block} -->
 
+::::: {#about-equator .about-equator}
+:::: content-block
+## The EQUATOR Network
+
+We are the leading global academic network dedicated to improving research
+reporting quality.
+
+EQUATOR stands for Enhancing the QUAlity and Transparency Of health
+Research. Our mission is to improve the reliability and value of published
+health research literature by promoting transparent and accurate reporting
+and wider use of robust reporting guidelines.
+
+We advance the work done by individual guideline development groups. We
+maintain a database of reporting guidelines, run [training
+courses](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school)
+on how to write research articles, have resources for
+[publishers](/toolkits/using-guidelines-in-journals/index.qmd), [peer
+reviewers](/toolkits/peer-reviewing-research.qmd), and reporting guideline
+[developers](/toolkits/developing-a-reporting-guideline/index.qmd).
+
+We have centers in the [UK](/about/uk-equator-centre.qmd) (our head
+office),
+[Canada](/about/international-equator-centres.html#canadian-equator-centre),
+[Australia](/about/international-equator-centres.html#australasian-equator-centre),
+[France](/about/international-equator-centres.html#french-equator-centre),
+[China](/about/international-equator-centres.html#chinese-equator-centre),
+and [US](/about/international-equator-centres.html#usa-equator-centre).
+
+::: logos
+![University of Birmingham logo](assets/logos/birmingham.png) ![University
+of Oxford logo](assets/logos/oxford.svg) ![Ottowa Hospital
+logo](assets/logos/ottawa.png){.logo-bigger} ![Bond University
+logo](assets/logos/bond.svg) ![Université Paris Cité
+logo](assets/logos/paris.jpeg) ![Hong Kong Baptist University
+logo](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger}
+:::
+<!-- logos -->
+
+<!-- about-equator -->
+
 :::::: {#about-equator-uk .about-equator-uk}
-::::: content-block
 ### The UK EQUATOR Centre
 
 ::: lead
