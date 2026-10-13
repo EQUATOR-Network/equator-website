@@ -1,10 +1,11 @@
 # Developing your reporting guideline
 
-Experienced guideline developers suggest holding a face-to-face consensus
-meeting. Before the meeting, they suggest running pre-meeting activities to
-generate a list of potential reporting-related items for discussing and
-prioritising at the meeting. The meeting is also used to plan the writing
-process and set the publication and dissemination strategy.
+Experienced guideline developers suggest holding a face-to-face or online
+consensus meeting. Before the meeting, they suggest running pre-meeting
+activities to generate a list of potential reporting-related items for
+discussing and prioritising at the meeting. The meeting is also used to
+plan the writing process and set the publication and dissemination
+strategy.
 
 ## Pre-meeting: Identify and invite participants
 
@@ -44,7 +45,7 @@ less important.
 ## Pre-meeting: Decide meeting details
 
 The executive group should consider the following when planning the
-face-to-face / online meeting:
+face-to-face or online meeting:
 
 - Size (max 30 people) and duration (1-3 days) of the meeting
 - Meeting logistics (venue, meals, transport, etc.) are best coordinated
