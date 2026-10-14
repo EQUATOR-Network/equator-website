@@ -225,7 +225,7 @@ the transparency of research and identify missing information.
 
 <!-- /alt-background -->
 
-:::: {#sec-tell-us-about-a-new-reporting-guideline}
+:::: {#sec-tell-us-about-a-new-reporting-guideline .sec-tell-us-about-a-new-reporting-guideline}
 ::: content-block
 ## Tell us about a new reporting guideline
 
