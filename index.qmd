@@ -213,32 +213,31 @@ guidelines and check for adherence.
 Peer reviewers and evidence synthesisers use reporting guidelines to judge
 the transparency of research and identify missing information.
 :::
+
 <!-- {.g-col-md-4 .g-col-12 .card-highlight} -->
-
 ::::::
+
 <!--/grid -->
-
 :::::::
-<!-- /content-block -->
 
+<!-- /content-block -->
 ::::::::
+
 <!-- /alt-background -->
 
-
-::::: {#tell-us-about-a-new-reporting-guideline}
-:::: content-block
-
+:::: {#sec-tell-us-about-a-new-reporting-guideline}
+::: content-block
 ## Tell us about a new reporting guideline
 
-Are you developing a new reporting guideline, or do you know of one that's recently been published? Help us keep the EQUATOR Network's resources up to date by sharing the details with us.
+Are you developing a new reporting guideline, or do you know of one that's
+recently been published? Help us keep the EQUATOR Network's resources up to
+date by sharing the details with us.
 
 [[›]{.chevron} Register a reporting guideline in development](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}
 
 [[›]{.chevron} Notify us about a published reporting guideline](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}
-
+:::
 ::::
-:::::
-
 
 :::::::: {#training .radial-background .training}
 <img src="assets/images/radial1.svg" alt="Blurred background colours" class="radial1"/>
@@ -281,8 +280,8 @@ the writing process and get their work out into the world.
 
 <!-- {.content-block} -->
 
-::::: {#about-equator .about-equator}
-:::: content-block
+::::::::::: {#about-equator .about-equator}
+::::::: content-block
 ## The EQUATOR Network
 
 We are the leading global academic network dedicated to improving research
@@ -317,25 +316,26 @@ logo](assets/logos/bond.svg) ![Université Paris Cité
 logo](assets/logos/paris.jpeg) ![Hong Kong Baptist University
 logo](assets/logos/hongkongbaptistuniversity.svg){.logo-bigger}
 :::
+
 <!-- logos -->
 
 <!-- about-equator -->
 
-:::::: {#about-equator-uk .about-equator-uk}
+::::: {#about-equator-uk .about-equator-uk}
 ### The UK EQUATOR Centre
 
 ::: lead
 The UK EQUATOR Centre is the headquarters of the EQUATOR Network.
 :::
 
-The UK Centre is run by Professor Gary Collins, Department of Applied Health Sciences, based at Birmingham
-University, with collaboration from colleagues at the Nuffield Department
-of Orthopaedics, Rheumatology and Musculoskeletal Sciences (NDORMS),
-University of Oxford. The UK EQUATOR Centre maintains this website, a
-database of reporting guidelines, and works with other organisations to
-promote transparent reporting and other good research practices. Alongside
-clinical and meta-research, we specialise in training researchers how to
-write.
+The UK Centre is run by Professor Gary Collins, Department of Applied
+Health Sciences, based at Birmingham University, with collaboration from
+colleagues at the Nuffield Department of Orthopaedics, Rheumatology and
+Musculoskeletal Sciences (NDORMS), University of Oxford. The UK EQUATOR
+Centre maintains this website, a database of reporting guidelines, and
+works with other organisations to promote transparent reporting and other
+good research practices. Alongside clinical and meta-research, we
+specialise in training researchers how to write.
 
 #### UK EQUATOR Centre Staff
 
@@ -346,7 +346,7 @@ write.
 :::::
 
 <!-- {.about-equator-uk id=about-equator-uk} -->
-::::::
+:::::::
 
 <!-- {.content-block} -->
 
@@ -361,3 +361,4 @@ role="button"}
 :::
 ::::
 :::::
+:::::::::::
