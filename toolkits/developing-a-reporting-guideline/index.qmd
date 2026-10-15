@@ -18,7 +18,8 @@ hands of the researchers who need it. We will cover:
 
 - [Identifying the need for a reporting
   guideline](identifying-the-need-for-a-new-reporting-guideline.qmd)
-- [Registering your reporting guideline undere development with the EQUATOR Network](rgud_equator.qmd)
+- [Registering your reporting guideline undere development with the EQUATOR
+  Network](registration.qmd)
 - [Getting ready: Literature reviews, registration, and
   funding](getting-ready-to-develop-your-guideline.qmd)
 - [Developing your reporting
@@ -27,7 +28,8 @@ hands of the researchers who need it. We will cover:
   guideline](writing-up-and-publishing-your-reporting-guideline.qmd)
 - [Disseminating your reporting
   guideline](disseminating-your-reporting-guideline.qmd)
-- [Requesting inclusion in the EQUATOR list of reporting guidelines](new_rg.qmd)
+- [Requesting inclusion in the EQUATOR list of reporting
+  guidelines](informing-equator.qmd)
 - [Updating your reporting
   guideline](updating-and-extending-your-reporting-guideline.qmd)
 

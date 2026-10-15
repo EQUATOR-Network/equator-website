@@ -10,7 +10,7 @@ common strategies are:
 - Creating a dedicated website containing additional resources
 
 - [Provide us with details so we can create an entry in the EQUATOR Network
-  database](new_rg.qmd)
+  database](informing-equator.qmd)
 
 - Publishing journal editorials, written by your team or by the journal
   staff. It is particularly effective to have a number of journals in a
