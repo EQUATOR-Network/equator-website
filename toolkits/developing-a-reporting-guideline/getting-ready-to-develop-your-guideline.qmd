@@ -8,6 +8,7 @@ Developing a robust reporting guideline needs input from a wide range of stakeho
 - Epidemiologists
 - Methodologists
 - Content experts
+- Reporting guideline experts
 - Journal editors
 - Professional medical writers
 - Patient and the public representatives
@@ -25,10 +26,10 @@ You can keep the entry updated by sending us more information about your develop
 Once you’ve identified that a new reporting guideline is needed, and considered whether a whole new guideline or an extension is most appropriate, you’ll need to do a thorough literature review. You should aim to
 
 - Identify any previous guidance in this area
-- Look for evidence of poor reporting in this area (expanding on what you did in step 1)
+- Look for evidence of poor reporting in this area
 - Identify information that could be a source of bias in this area, so should be considered for inclusion in the guideline
 - Write a protocol for developing your reporting guideline
 
 ## Obtain funding
 
-Experienced guideline developers suggest obtaining funding for early development work, the main development in-person meeting, and post-meeting writing up. In 2010, it was estimated that developers should seek around CAN$120,000 to cover total costs.
+Experienced guideline developers suggest obtaining funding for early development work, the main development in-person meeting, and post-meeting writing up. 

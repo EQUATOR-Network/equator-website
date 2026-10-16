@@ -9,8 +9,8 @@ strategy.
 
 ## Pre-meeting: Identify and invite participants
 
-Stakeholders with a wide range of expertise should be included in the wider
-development group, including, for example,:
+Stakeholders with a wide range of expertise (and geographically diverse)
+should be included in the wider development group, including, for example,:
 
 - Statisticians
 - Epidemiologists
@@ -68,8 +68,9 @@ The face-to-face meeting should generally cover the following activities:
   of participants
 - Discuss the [publication
   strategy](./writing-up-and-publishing-your-reporting-guideline.qmd) for
-  the guideline and assign responsibility for each step and authorship. In
-  particular, decide responsibility for the [Explanation and
+  the guideline and assign responsibility for each step and authorship
+  criteria.
+- Decide responsibility for the [Explanation and
   Elaboration](./writing-up-and-publishing-your-reporting-guideline.qmd#EandE)
   document.
 - Discuss the [dissemination
