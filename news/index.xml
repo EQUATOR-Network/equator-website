@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>EQUATOR Network</title>
+<link>https://equator-network.github.io/equator-website/news/</link>
+<atom:link href="https://equator-network.github.io/equator-website/news/index.xml" rel="self" type="application/rss+xml"/>
+<description>Latest news from the EQUATOR Network, including announcements of new reporting guidelines.</description>
+<image>
+<url>https://equator-network.github.io/equator-website/assets/logos/equator_logo.png</url>
+<title>EQUATOR Network</title>
+<link>https://equator-network.github.io/equator-website/news/</link>
+<height>42</height>
+<width>144</width>
+</image>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Thu, 22 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome to the new EQUATOR Network website</title>
+  <dc:creator>UK EQUATOR Centre</dc:creator>
+  <link>https://equator-network.github.io/equator-website/news/posts/2026-10-22-website-redesign/</link>
+  <description><![CDATA[ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DHV6RXP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+<p>We are pleased to announce the launch of the redesigned EQUATOR Network website. The new site is designed to help researchers, authors, editors, peer reviewers and educators find the resources they need to improve the quality and transparency of health research reporting, faster than ever.</p>
+<p>Since its founding, the EQUATOR Network has been a trusted source for reporting guidelines such as CONSORT, PRISMA and STROBE. As the library has grown, so has the need for a site that makes it simple to navigate. The new design puts users first, with clearer structure, improved search and a more modern look.</p>
+<p><strong>What’s new:</strong></p>
+<p>- <strong>Easier navigation:</strong> A faster way to <a href="../../../reporting-guidelines/index.html">search reporting guidelines</a> and <a href="../../../reporting-guidelines/under-development/index.html">research reporting guidelines under development</a></p>
+<p>- <strong>Refreshed toolkits</strong> <a href="../../../toolkits/writing-research/index.html">authors</a>, <a href="../../../toolkits/using-guidelines-in-journals/index.html">journals</a> and <a href="../../../toolkits/peer-reviewing-research.html">peer reviewers</a></p>
+<p>- <strong>Improved look:</strong> a clean and modern feel to the website</p>
+<section id="feedback" class="level2">
+<h2 class="anchored" data-anchor-id="feedback">Feedback</h2>
+<p>Tell us what you think via our <a href="../../../about/contact.html">contact page</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Website</category>
+  <category>Announcement</category>
+  <guid>https://equator-network.github.io/equator-website/news/posts/2026-10-22-website-redesign/</guid>
+  <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

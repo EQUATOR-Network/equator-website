@@ -1,22 +1,11 @@
 [
   {
-    "listing": "/about/uk-equator-centre.html",
+    "listing": "/index.html",
     "items": [
       "/about/people/gcollins.html",
       "/about/people/jharwood.html",
       "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
-    ]
-  },
-  {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
+      "/about/people/pdhiman.html"
     ]
   },
   {
@@ -218,6 +207,42 @@
       "/reporting-guidelines/under-development/value-vaccine-clinical-research-reporting-guideline/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
+    ]
+  },
+  {
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
     ]
   },
   {
@@ -923,25 +948,6 @@
       "/reporting-guidelines/writing-for-publication-in-veterinary-medicine-a-practical-guide-for-researchers-and-clinicians/index.html",
       "/reporting-guidelines/icheck-dh-guidelines-and-checklist-for-the-reporting-on-digital-health-implementations/index.html",
       "/reporting-guidelines/brimful-of-starlite-toward-standards-for-reporting-literature-searches/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
-    ]
-  },
-  {
-    "listing": "/about/equator-network.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
     ]
   }
 ]
