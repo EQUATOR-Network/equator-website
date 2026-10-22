@@ -1,0 +1,6 @@
+# Applies to every post in news/posts/. Any post can override these in its own front matter.
+toc: false
+date-format: "D MMMM YYYY"
+author: "UK EQUATOR Centre"
+title-block-banner: false
+page-layout: article

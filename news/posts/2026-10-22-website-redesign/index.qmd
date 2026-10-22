@@ -1,0 +1,35 @@
+---
+title: "Welcome to the new EQUATOR Network website"
+description: "We've redesigned the website to make it easier to find reporting guidelines and toolkits."
+date: 2026-10-22
+categories: [Website, Announcement]
+# Optional thumbnail: put an image (about 800x450px) in this folder and uncomment:
+# image: thumbnail.png
+# image-alt: "Screenshot of the new EQUATOR Network homepage"
+---
+
+We are pleased to announce the launch of the redesigned EQUATOR Network
+website. The new site is designed to help researchers, authors, editors,
+peer reviewers and educators find the resources they need to improve the
+quality and transparency of health research reporting, faster than ever.
+
+Since its founding, the EQUATOR Network has been a trusted source for
+reporting guidelines such as CONSORT, PRISMA and STROBE. As the library has
+grown, so has the need for a site that makes it simple to navigate. The new
+design puts users first, with clearer structure, improved search and a more
+modern look.
+
+**What's new:**
+
+\- **Easier navigation:** A faster way to [search reporting
+guidelines](/reporting-guidelines/index.qmd) and [research reporting guidelines under development](/reporting-guidelines/under-development/index.qmd)
+
+\- **Refreshed toolkits** [authors](/toolkits/writing-research/index.qmd),
+[journals](/toolkits/using-guidelines-in-journals/index.qmd) and [peer
+reviewers](/toolkits/peer-reviewing-research.qmd)
+
+\- **Improved look:** a clean and modern feel to the website
+
+## Feedback
+
+Tell us what you think via our [contact page](/about/contact.qmd).

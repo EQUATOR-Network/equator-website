@@ -1,0 +1,21 @@
+---
+# TEMPLATE: copy this whole folder into news/posts/ and rename it, e.g.
+#   news/posts/2027-02-10-new-guideline-xyz/
+# (This _post-template folder is ignored by Quarto because it starts with an underscore.)
+title: "Title of the news item"
+description: "One or two sentences. This is the teaser shown on the News page."
+date: 2027-01-01
+# Suggested categories: New reporting guideline, Website, Events
+categories: [New reporting guideline]
+# image: thumbnail.png
+# image-alt: "Describe the image"
+# draft: true   # uncomment to hide the post until it's ready
+---
+
+Write the news item here.
+
+For a new reporting guideline, consider including:
+
+- The guideline name and what type of research it covers
+- A link to the publication (DOI)
+- A link to the guideline's page in the [reporting guideline database](/reporting-guidelines/index.qmd)

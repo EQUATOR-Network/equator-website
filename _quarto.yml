@@ -4,6 +4,7 @@ project:
     watch-inputs: true
 
 website:
+  title: "EQUATOR Network"
   site-url: 'https://equator-network.github.io/equator-website/'
   image: "assets/logos/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
@@ -12,6 +13,7 @@ website:
   repo-url: https://github.com/EQUATOR-Network/equator-website
   repo-actions: [issue, source]
   navbar:
+    title: false
     background: light
     logo: "assets/logos/equator_logo.png"
     logo-alt: EQUATOR Network Home Page
@@ -46,6 +48,8 @@ website:
             href: toolkits/developing-a-reporting-guideline/index.qmd
       - href: https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school
         text: Training
+      - href: news/index.qmd
+        text: News
       - href: reporting-guidelines/index.qmd
         icon: search
   page-footer:
