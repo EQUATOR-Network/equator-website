@@ -43,7 +43,7 @@ website:
           - text: For journals
             href: toolkits/using-guidelines-in-journals/index.qmd
           - text: For peer reviewers
-            href: toolkits/peer-reviewing-research.qmd
+            href: toolkits/peer-reviewing-research/index.qmd
           - text: For reporting guideline developers
             href: toolkits/developing-a-reporting-guideline/index.qmd
       - href: https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school

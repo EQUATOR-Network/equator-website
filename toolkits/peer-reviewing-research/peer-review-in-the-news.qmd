@@ -1,0 +1,36 @@
+# Peer review in the news and literature
+
+## EQUATOR Network research on peer review
+
+In 2012, Allison Hurst and Doug Altman of the UK EQUATOR Centre investigated how journals talked about reporting guidelines to their peer reviewers. [They found](https://www.ncbi.nlm.nih.gov/pubmed/22558178) that around 35% of journals offered freely accessible online instructions about their peer review process and, of those, about half mentioned reporting guidelines.
+
+## International Congress on Peer Review and Biomedical Publication
+
+[The International Congress on Peer Review and Biomedical Publication](http://www.peerreviewcongress.org/index.html) aims to encourage research into the quality and credibility of peer review and scientific publication, to establish the evidence base on which scientists can improve the conduct, reporting, and dissemination of scientific research. Abstracts from all talks and any resultant papers are included through the link “Past Congresses” on the [home page](https://peerreviewcongress.org).
+
+## Peer Review Week
+
+The annual international [Peer Review Week](https://peerreviewweek.wordpress.com/) celebrates peer review’s role in maintaining scientific quality. The event brings together individuals, institutions, and organisations committed to sharing the message that all good peer review is critical to scholarly communications.
+
+## Peer Review Debate
+
+In 2006, _Nature_ hosted a Peer Review Debate to answer questions such as what is the best method of peer review and are the ethical concerns of peer review. The 22 articles of analyses and perspectives from leading scientists, publishers and other stakeholders are no longer available. However, from 2006 to 2010, the conversation about peer review continued at Nature.com-hosted blog [Peer-to-peer](http://blogs.nature.com/peer-to-peer/), which has now been archived but remains available for reading.
+
+## Peer Review in _The Guardian_
+
+_The Guardian_ regularly publishes popular press pieces on [peer review and scientific publishing](https://www.theguardian.com/science/peer-review-scientific-publishing).
+
+## Peer Review with Sense about Science
+
+[Sense about Science](http://senseaboutscience.org/) regularly publishes [information about peer review](http://senseaboutscience.org/activities/?activityType=peer-review) aimed at lay and scientific audiences. In 2012, they published a [‘Nuts and Bolts’ guide to peer review](http://senseaboutscience.org/activities/peer-review-the-nuts-and-bolts/) for early career researchers, produced in collaboration with early-career researchers.
+
+## Peer Review in the blogosphere
+
+How to peer review is a perennial topic in academic blogs. Here’s a sample of blog posts we’ve come across. These posts generally include tips and advice based on the personal experience of one academic:
+
+- _[How to peer review](http://matt.might.net/articles/how-to-peer-review/)_. Matt Might, no post date.
+- [_Peer review: how to get it right – 10 tips_](https://www.theguardian.com/higher-education-network/blog/2013/sep/27/peer-review-10-tips-research-paper). Brian Lucey on _The Guardian_‘s Higher Education Network blog, 27 September 2013.
+- _[How to become good at peer review: A guide for young scientists](https://violentmetaphors.com/2013/12/13/how-to-become-good-at-peer-review-a-guide-for-young-scientists/)._ Jennifer Raff at Violent Metaphors, 13 December 2013.
+- _[Tips from a journal editor: being a good reviewer](http://blog.oup.com/2015/08/good-peer-reviewer-tips-journal-editor/)_. R. Michael Alvarez on OUPblog, 9 August 2015.
+
+**[Return to the peer review toolkit homepage](/toolkits/peer-reviewing-research/) 

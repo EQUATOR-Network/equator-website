@@ -1,0 +1,36 @@
+# Peer review training and resources
+
+In 2015, BioMed Central launched [a blog series](http://blogs.biomedcentral.com/bmcblog/tag/how-to-peer-review/) on peer review for beginners, covering issues such as how to evaluate whether you should take on a particular review, how to approach the review, and how to re-review.
+
+*BMC Medicine* commissioned a series of training articles from research methodology experts to provide [tips for reviewers](https://www.biomedcentral.com/collections/peerreviewtips).
+
+The *BMJ* has produced [a training package](http://www.bmj.com/about-bmj/resources-reviewers/training-materials)of Powerpoint presentations and practice reviews.
+
+The Canadian Institute of Health and Gender has designed [this online course](http://www.cihr-irsc-igh-isfh.ca/) to help researchers and peer reviewers account for sex and gender in biomedical research in humans, animals, tissues, and cells.
+
+The Cochrane Eyes and Vision Group CEVG\@US Project and the Johns Hopkins Bloomberg School of Public Health collaborated on this [free online course for peer reviewers](http://eyes.cochrane.org/free-online-course-journal-peer-review). This 12-lecture series explains the basics of critical appraisal and how to translate your appraisal into a useful review.
+
+The Committee on Publication Ethics published an updated version of their
+[ethical guidelines for peer reviewers (PDF)](https://publicationethics.org/files/cope-ethical-guidelines-peer-reviewers-v2_0.pdf) in 2017, detailing peer reviewers’ responsibilities at all stages of the review process.
+
+The [Critical Appraisal Skills Programme](http://www.casp-uk.net/) offers checklists to guide your peer review of different study types.
+
+The Elsevier Publishing Campus includes a collection of [free online lectures and interactive courses](https://researcheracademy.elsevier.com/navigating-peer-review/fundamentals-peer-review) on navigating the peer review system as both author and reviewer.
+
+[*How to Survive Peer Review (PDF)*](http://www.bmj.com/sites/default/files/attachments/resources/2011/07/wager.pdf) by Liz Wager, Fiona Godlee, and Tom Jefferson is a freely available book published in 2012 by BMJ Books.
+
+> This book aims to explain just enough about peer review to enable you to
+> survive and benefit from it, and to be a competent reviewer. It is
+> designed to be a practical handbook, based on evidence and experience but
+> not weighed down with footnotes and references. –*How to Survive Peer
+> Review*, p. 1
+
+Originally the Publons Academy, the [Web of Science Academy by Clarivate](https://clarivate.com/webofsciencegroup/solutions/web-of-science-academy/) offers practical peer review courses for early-career researchers to teach you the core competencies and skills needed for peer review.
+
+Springer Nature offers [a collection of peer review advice and training](https://www.springernature.com/in/reviewers) for peer reviewers from Nature, BioMed Central, and Springer.
+
+Taylor & Francis offers [a short guide](https://editorresources.taylorandfrancis.com/reviewer-guidelines/) to best practices in peer review.
+
+VisionLearning offers [a free online module](http://www.visionlearning.com/en/library/Process-of-Science/49/Peer-Review-in-Scientific-Publishing/159/reading) on the history of peer review and how peer review works in practice, with a detailed worked example.
+
+The [CHAMP Statement and checklist](https://pubmed.ncbi.nlm.nih.gov/33514559/) and the accompanying [explanation and elaboration](https://pubmed.ncbi.nlm.nih.gov/33514558/) paper have been developed for statistical peer review of medical papers.
