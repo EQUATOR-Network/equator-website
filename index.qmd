@@ -297,7 +297,7 @@ maintain a database of reporting guidelines, run [training
 courses](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school)
 on how to write research articles, have resources for
 [publishers](/toolkits/using-guidelines-in-journals/index.qmd), [peer
-reviewers](/toolkits/peer-reviewing-research.qmd), and reporting guideline
+reviewers](/toolkits/peer-reviewing-research/index.qmd), and reporting guideline
 [developers](/toolkits/developing-a-reporting-guideline/index.qmd).
 
 We have centers in the [UK](/about/uk-equator-centre.qmd) (our head
