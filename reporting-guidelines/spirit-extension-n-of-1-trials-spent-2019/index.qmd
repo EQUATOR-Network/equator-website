@@ -19,7 +19,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  **[SPIRIT 2025 Statement](/reporting-guidelines/spirit-2013-statement-defining-standard-protocol-items-for-clinical-trials/):** Chan AW, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Hróbjartsson A.  SPIRIT 20205 statement: updated guideline for protocols of randomized trials.
+  **[SPIRIT 2025 Statement](/reporting-guidelines/spirit/):** Chan AW, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Hróbjartsson A.  SPIRIT 20205 statement: updated guideline for protocols of randomized trials.
 
   BMJ. 2025; 388:e081660. [PMID:40294956](https://pubmed.ncbi.nlm.nih.gov/40294956/)
 
