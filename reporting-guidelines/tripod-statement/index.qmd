@@ -3,8 +3,7 @@
 title: 'TRIPOD + AI statement: updated guidance for reporting clinical prediction
   models that use regression or machine learning methods'
 acronym: TRIPOD+AI
-provided-for: Reporting of studies that develop a prediction model or evaluate its
-  performance.
+provided-for: Reporting of studies that develop or evaluate the performance of a prediction model
 rg-doi: ''
 pmid-id: '[38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38626948/
@@ -16,13 +15,7 @@ relevant-urls: |-
   The [TRIPOD+AI Expanded Checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/04/18/bmj-2023-078378.DC6/colg078378.wt1.pdf) (Explanation & Elaboration Light) is available in Supplementary Table 1. \
 
   The [TRIPOD+AI for Abstracts checklist](https://www.bmj.com/content/385/bmj-2023-078378) is available in Table 3 of the statement paper.
-full-bibliographic-reference: 'Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL,
-  Van Calster B, Ghassemi M, Liu X, Reitsma JB, van Smeden M, Boulesteix AL, Camaradou
-  JC, Celi LA, Denaxas S, Denniston AK, Glocker B, Golub RM, Harvey H, Heinze G, Hoffman
-  MM, Kengne AP, Lam E, Lee N, Loder EW, Maier-Hein L, Mateen BA, McCradden MD, Oakden-Rayner
-  L, Ordish J, Parnell R, Rose S, Singh K, Wynants L, Logullo P. TRIPOD+AI statement:
-  updated guidance for reporting clinical prediction models that use regression or
-  machine learning methods. BMJ. 2024;385:e078378.'
+full-bibliographic-reference: 'Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, Ghassemi M, Liu X, Reitsma JB, van Smeden M, Boulesteix AL, Camaradou JC, Celi LA, Denaxas S, Denniston AK, Glocker B, Golub RM, Harvey H, Heinze G, Hoffman MM, Kengne AP, Lam E, Lee N, Loder EW, Maier-Hein L, Mateen BA, McCradden MD, Oakden-Rayner L, Ordish J, Parnell R, Rose S, Singh K, Wynants L, Logullo P. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ. 2024;385:e078378.'
 
 
 # OPTIONAL FIELDS
