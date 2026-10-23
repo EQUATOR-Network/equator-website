@@ -10,7 +10,7 @@ relevant-urls: 'Full text PDF documents of the ARRIVE (Animal Research: Reportin
   of In Vivo Experiments) guidelines 2.0, ARRIVE 2.0 explanation and elaboration,
   and ARRIVE 2.0 checklists are available at <https://www.arriveguidelines.org/resources>'
 full-bibliographic-reference: |-
-  Percie du Sert N, Hurst V, Ahluwalia A, Alam S, Avey MT, Baker M, Browne WJ, Clark A, Cuthill IC, Dirnagl U, Emerson M, Garner P, Holgate ST, Howells DW, Karp NA, Lazic SE, Lidster K, MacCallum CJ, Macleod M, Pearl EJ, Petersen O, Rawle F, Peynolds P, Rooney K, Sena ES, Silberberg SD, Steckler T and Wurbel H. The ARRIVE Guidelines 2.0: updated guidelines for reporting animal research.
+  Percie du Sert N, Hurst V, Ahluwalia A, Alam S, Avey MT, Baker M, Browne WJ, Clark A, Cuthill IC, Dirnagl U, Emerson M, Garner P, Holgate ST, Howells DW, Karp NA, Lazic SE, Lidster K, MacCallum CJ, Macleod M, Pearl EJ, Petersen O, Rawle F, Peynolds P, Rooney K, Sena ES, Silberberg SD, Steckler T and Wurbel H. The ARRIVE Guidelines 2.0: updated guidelines for reporting animal research. \
 
   This guideline was published simultaneously in 7 journals. You can read the guideline in any of these journals using the links below.
 
@@ -38,9 +38,9 @@ explanation-and-elaboration-papers: 'Percie du Sert N, Ahluwalia A, Alam S, Avey
   T and Wurbel H. Reporting animal research: Explanation and Elaboration for the ARRIVE
   guidelines 2.0. PLoS Biol. 2020;18(7):e3000411. PMID: [32663221](http://www.ncbi.nlm.nih.gov/pubmed/32663221)'
 guideline-history: |-
-  The ARRIVE reporting guideline was originally published in 2010.
+  The ARRIVE reporting guideline was originally published in 2010. \
 
-  The guideline was published simultaneously in 4 journals. You can read the 2010 guideline in any of these journals using the links below.
+  The guideline was published simultaneously in 4 journals. You can read the 2010 guideline in any of these journals using the links below. \
 
   Kilkenny C, Browne WJ, Cuthill IC, Emerson M, Altman DG. Improving bioscience research reporting: the ARRIVE guidelines for reporting animal research.
 
@@ -54,14 +54,13 @@ guideline-history: |-
 relevant-more: ''
 website-url: <https://www.arriveguidelines.org>
 additional-languages: |-
-  The ARRIVE guidelines 2.0 have been translated into the following languages: French; German; Chinese. These are available at <https://www.arriveguidelines.org/resources>
+  The ARRIVE guidelines 2.0 have been translated into the following languages: French; German; Chinese. These are available at <https://www.arriveguidelines.org/resources> \
 
   Translations of the original ARRIVE guidelines (published in 2010) are also available in: Italian; Japanese; Korean; Portuguese; Brazilian Portuguese; Spanish. These are also available at <https://www.arriveguidelines.org/resources>
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
-other: An online fillable ARRIVE 2.0 checklist is also available via the GoodReports
-  website at <https://www.goodreports.org/reporting-checklists/arrive2/>.
+other: ''
 other-relevant-research: ''
 sticky: true
 search-priority: 1

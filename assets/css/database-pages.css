@@ -33,6 +33,10 @@
     border: none;
 }
 
+.column-margin .rg-table table tbody tr td:first-child {
+    white-space: nowrap;
+}
+
 .column-margin .rg-table table {
     border-style: none;
 }

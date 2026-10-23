@@ -10,7 +10,7 @@ pmid-url: ''
 relevant-urls: 'Further information about the CHEERS Statement is available from:
   [the International Society for Pharmacoeconomics and Outcomes (ISPOR) website](https://www.ispor.org/heor-resources/good-practices/article/consolidated-health-economic-evaluation-reporting-standards-2022-(cheers-2022)-statement-updated-reporting-guidance-for-health-economic-evaluations)'
 full-bibliographic-reference: |-
-  Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf J, Mullins CD, Petrou S, Pwu RF, Staniszewska S; CHEERS 2022 ISPOR Good Research Practices Task Force. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Statement: Updated Reporting Guidance for Health Economic Evaluations.
+  Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf J, Mullins CD, Petrou S, Pwu RF, Staniszewska S; CHEERS 2022 ISPOR Good Research Practices Task Force. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Statement: Updated Reporting Guidance for Health Economic Evaluations. \
 
   This guideline was published simultaneously in the following journals. You can read the guideline in any of these journals using the links below.
 
@@ -55,7 +55,7 @@ explanation-and-elaboration-papers: 'Husereau D, Drummond M, Augustovski F, de B
 guideline-history: |-
   CHEERS 2013
 
-  Husereau D, Drummond M, Petrou S, Carswell C, Moher D, Greenberg D, Augustovski F, Briggs AH, Mauskopf J, Loder E. Consolidated Health Economic Evaluation Reporting Standards (CHEERS) statement.
+  Husereau D, Drummond M, Petrou S, Carswell C, Moher D, Greenberg D, Augustovski F, Briggs AH, Mauskopf J, Loder E. Consolidated Health Economic Evaluation Reporting Standards (CHEERS) statement. \
 
   This guideline was published simultaneously in 10 journals.
 
@@ -83,30 +83,30 @@ guideline-history: |-
 relevant-more: |-
   **Specialised**
 
-  [**CHEERS-VOI**](/reporting-guidelines/cheers-voi/): Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: [37414276](https://pubmed.ncbi.nlm.nih.gov/37414276/)
+  [**CHEERS-VOI**](/reporting-guidelines/cheers-voi/): Kunst N, Siu A, Drummond M, Grimm S, Grutters J, Husereau D, Koffijberg H, Rothery C, Wilson EC, Heath A. CHEERS Value of Information (CHEERS-VOI) Reporting Standards - Explanation and Elaboration. Value Health. 2023. PMID: [37414276](https://pubmed.ncbi.nlm.nih.gov/37414276/) \
 
   [**CHEERS-AI**](/reporting-guidelines/consolidated-health-economic-evaluation-reporting-standards-for-interventions-that-use-artificial-intelligence-cheers-ai/): Elvidge J, Hawksworth C, Avşar TS, Zemplenyi A, Chalkidou A, Petrou S, Petykó Z, Srivastava D, Chandra G, Delaye J, Denniston A, Gomes M, Knies S, Nousios P, Siirtola P, Wang J, Dawoud D. Consolidated Health Economic Evaluation Reporting Standards for Interventions that use Artificial Intelligence (CHEERS-AI). Value Health. 2024:S1098-3015(24)02366-0. PMID: [38795956](https://pubmed.ncbi.nlm.nih.gov/38795956/)
 website-url: ''
 additional-languages: |-
-  CHEERS 2022
+  **CHEERS 2022**
 
-  Augustovski F, García Martí S, Espinoza MA, Palacios A, Husereau D, Pichon-Riviere A. Estándares Consolidados de Reporte de Evaluaciones Económicas Sanitarias: adaptación al español de la lista de comprobación CHEERS 2022. Value Health Reg Issues. 2022;27:110-114. [Spanish translation](https://pubmed.ncbi.nlm.nih.gov/35031081)
+  Augustovski F, García Martí S, Espinoza MA, Palacios A, Husereau D, Pichon-Riviere A. Estándares Consolidados de Reporte de Evaluaciones Económicas Sanitarias: adaptación al español de la lista de comprobación CHEERS 2022. Value Health Reg Issues. 2022;27:110-114. [Spanish translation](https://pubmed.ncbi.nlm.nih.gov/35031081) \
 
-  Saygin Avşar T, Yiğit V, Yiğit A, Oğuz Arı H, Tecirli G, Dilmaç E, Husereau D. Konsolide Sağlık Ekonomisi Değerlendirme Raporlama Standartları Türkçe: Sağlık Hizmetlerinin Ekonomik Değerlendirmesinde Raporlama Standartlarının Türkiye Uyarlaması. Turkiye Klinikleri J Health Sci. 2023. [Turkish translation](https://www.turkiyeklinikleri.com/inpress_article/tr-konsolide-saglik-ekonomisi-degerlendirme-raporlama-standartlari-turkce-saglik-hizmetlerinin-ekonomikdegerlendirmesinde-raporlama-standartlarinin-turkiye-uyarlamasi-104015.html)
+  Saygin Avşar T, Yiğit V, Yiğit A, Oğuz Arı H, Tecirli G, Dilmaç E, Husereau D. Konsolide Sağlık Ekonomisi Değerlendirme Raporlama Standartları Türkçe: Sağlık Hizmetlerinin Ekonomik Değerlendirmesinde Raporlama Standartlarının Türkiye Uyarlaması. Turkiye Klinikleri J Health Sci. 2023. [Turkish translation](https://www.turkiyeklinikleri.com/inpress_article/tr-konsolide-saglik-ekonomisi-degerlendirme-raporlama-standartlari-turkce-saglik-hizmetlerinin-ekonomikdegerlendirmesinde-raporlama-standartlarinin-turkiye-uyarlamasi-104015.html) \
 
-  Guertin JR, Bénard E, Aubin M-C, Diaby V, Dragomir A, Latimer E, Tarride J-E, Husereau D. French Translation of the 2022 Version of the Consolidated Health Economic Evaluation Reporting Standards (CHEERS) Statement. Canadian Journal of Health Technologies. 2023;3(10). [French translation](https://canjhealthtechnol.ca/index.php/cjht/article/view/754)
+  Guertin JR, Bénard E, Aubin M-C, Diaby V, Dragomir A, Latimer E, Tarride J-E, Husereau D. French Translation of the 2022 Version of the Consolidated Health Economic Evaluation Reporting Standards (CHEERS) Statement. Canadian Journal of Health Technologies. 2023;3(10). [French translation](https://canjhealthtechnol.ca/index.php/cjht/article/view/754) \
 
-  Don Husereau, Michael Drummond, Federico Augustovski, Esther de Bekker-Grob, Andrew H Briggs, Chris Carswell, Lisa Caulley, Nathorn Chaiyakunapruk, Dan Greenberg, Elizabeth Loder, Josephine Mauskopf, C Daniel Mullins, Stavros Petrou, Raoh-Fang Pwu, Sophie Staniszewska, 肖月(译者), 邱英鹏(译者), 史黎炜(译者), 张治国(译者), 张歆(译者), 王海银(译者), 翟铁民(译者) on behalf of CHEERS 2022 ISPOR Good Research Practices Task Force. 卫生经济学评价报告标准共识2022（CHEERS 2022)：卫生经济学评价报告指导意见更新版. 英国医学杂志中文版. 2022:25(8):460-465. [Chinese translation](https://rs.yiigle.com/CN113904202208/1414478.htm)
+  Don Husereau, Michael Drummond, Federico Augustovski, Esther de Bekker-Grob, Andrew H Briggs, Chris Carswell, Lisa Caulley, Nathorn Chaiyakunapruk, Dan Greenberg, Elizabeth Loder, Josephine Mauskopf, C Daniel Mullins, Stavros Petrou, Raoh-Fang Pwu, Sophie Staniszewska, 肖月(译者), 邱英鹏(译者), 史黎炜(译者), 张治国(译者), 张歆(译者), 王海银(译者), 翟铁民(译者) on behalf of CHEERS 2022 ISPOR Good Research Practices Task Force. 卫生经济学评价报告标准共识2022（CHEERS 2022)：卫生经济学评价报告指导意见更新版. 英国医学杂志中文版. 2022:25(8):460-465. [Chinese translation](https://rs.yiigle.com/CN113904202208/1414478.htm) \
 
-  Shiroiwa T, Noto S, Kobayashi M, Fukuda T. Consolidated Health Economic Evaluation Reporting Standards (CHEERS) 2022 explanation and elaboration. Journal of the National Institute of Public Health. 2023;72(4):344-369. [Japanese translation](https://www.jstage.jst.go.jp/article/jniph/72/4/72_344/_article/-char/en)
+  Shiroiwa T, Noto S, Kobayashi M, Fukuda T. Consolidated Health Economic Evaluation Reporting Standards (CHEERS) 2022 explanation and elaboration. Journal of the National Institute of Public Health. 2023;72(4):344-369. [Japanese translation](https://www.jstage.jst.go.jp/article/jniph/72/4/72_344/_article/-char/en) \
 
-  Werbrouck A, de Bekker-Grob E, Al M, Putman K, Willems R. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS II) statement: a validated Dutch translation. Expert Rev Pharmacoecon Outcomes Res. 2024;24(4):551-557. [Dutch translation](https://pubmed.ncbi.nlm.nih.gov/38400836/)
+  Werbrouck A, de Bekker-Grob E, Al M, Putman K, Willems R. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS II) statement: a validated Dutch translation. Expert Rev Pharmacoecon Outcomes Res. 2024;24(4):551-557. [Dutch translation](https://pubmed.ncbi.nlm.nih.gov/38400836/) \
 
-  CHEERS 2013
+  **CHEERS 2013**
 
-  The CHEERS Statement (2013) has been translated into [Spanish,](https://www.ncbi.nlm.nih.gov/pubmed/29702767)  [Chinese](http://rs.yiigle.com/resource_static.jspx?contentId=657115),
+  The CHEERS Statement (2013) has been translated into [Spanish,](https://www.ncbi.nlm.nih.gov/pubmed/29702767)  [Chinese](http://rs.yiigle.com/resource_static.jspx?contentId=657115), \
 
-  [Japanese (PDF)](https://www.niph.go.jp/journal/data/62-6/201362060009.pdf) and [Portuguese](https://pubmed.ncbi.nlm.nih.gov/29211152/).
+  [Japanese (PDF)](https://www.niph.go.jp/journal/data/62-6/201362060009.pdf) and [Portuguese](https://pubmed.ncbi.nlm.nih.gov/29211152/). \
 additional-information: '[Read a commentary](https://researchinvolvement.biomedcentral.com/articles/10.1186/s40900-023-00444-3)
   advocating for greater public involvement in health economic evaluation, including
   a guide for patient representatives and organisations (available in additional file

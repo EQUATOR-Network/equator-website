@@ -9,11 +9,11 @@ rg-doi: ''
 pmid-id: '[38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38626948/
 relevant-urls: |-
-  [Read the full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI.
+  [Read the full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI. \
 
-  The [TRIPOD+AI checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/04/17/bmj-2023-078378.DC5/colg078378.wt2.pdf) is available in Supplementary Table 2.
+  The [TRIPOD+AI checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/04/17/bmj-2023-078378.DC5/colg078378.wt2.pdf) is available in Supplementary Table 2. \
 
-  The [TRIPOD+AI Expanded Checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/04/18/bmj-2023-078378.DC6/colg078378.wt1.pdf) (Explanation & Elaboration Light) is available in Supplementary Table 1.
+  The [TRIPOD+AI Expanded Checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/04/18/bmj-2023-078378.DC6/colg078378.wt1.pdf) (Explanation & Elaboration Light) is available in Supplementary Table 1. \
 
   The [TRIPOD+AI for Abstracts checklist](https://www.bmj.com/content/385/bmj-2023-078378) is available in Table 3 of the statement paper.
 full-bibliographic-reference: 'Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL,
@@ -34,7 +34,7 @@ explanation-and-elaboration-papers: |-
 guideline-history: |-
   **TRIPOD 2015**
 
-  Collins GS, Reitsma JB, Altman DG, Moons KG. Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement.
+  Collins GS, Reitsma JB, Altman DG, Moons KG. Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement. \
 
   Ann Intern Med. 2015;162(1):55-63. PMID: [25560714](http://www.ncbi.nlm.nih.gov/pubmed/25560714)
 
@@ -56,7 +56,7 @@ guideline-history: |-
 
   BJOG. 2015;122(3):434-443. PMID: [25623578](http://www.ncbi.nlm.nih.gov/pubmed/25623578)
 
-  Diabet Med. 2015;32(2):146-154. PMID: [25600898](http://www.ncbi.nlm.nih.gov/pubmed/25600898)
+  Diabet Med. 2015;32(2):146-154. PMID: [25600898](http://www.ncbi.nlm.nih.gov/pubmed/25600898) \
 
   **TRIPOD for Abstracts**
 
@@ -64,13 +64,25 @@ guideline-history: |-
 relevant-more: |-
   **Specialised**
 
-  [**TRIPOD-SRMA**](/reporting-guidelines/tripod-srma/): Snell KIE, Levis B, Damen JAA, Dhiman P, Debray TPA, Hooft L, Reitsma JB, Moons KGM, Collins GS, Riley RD. Transparent reporting of multivariable prediction models for individual prognosis or diagnosis: checklist for systematic reviews and meta-analyses (TRIPOD-SRMA). BMJ. 2023;381:e073538. PMID: [37137496](https://pubmed.ncbi.nlm.nih.gov/37137496/)
+  [**TRIPOD-SRMA**](/reporting-guidelines/tripod-srma/): Snell KIE, Levis B, Damen JAA, Dhiman P, Debray TPA, Hooft L, Reitsma JB, Moons KGM, Collins GS, Riley RD. Transparent reporting of multivariable prediction models for individual prognosis or diagnosis: checklist for systematic reviews and meta-analyses (TRIPOD-SRMA). BMJ. 2023;381:e073538. PMID: [37137496](https://pubmed.ncbi.nlm.nih.gov/37137496/) \
 
-  [**TRIPOD-Cluster**](/reporting-guidelines/tripod-cluster/): Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM. Transparent reporting of multivariable prediction models developed or validated using clustered data: TRIPOD-Cluster checklist. BMJ. 2023;380:e071018. PMID: [36750242](https://pubmed.ncbi.nlm.nih.gov/36750242/)
+  [**TRIPOD-Cluster**](/reporting-guidelines/tripod-cluster/): Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM. Transparent reporting of multivariable prediction models developed or validated using clustered data: TRIPOD-Cluster checklist. BMJ. 2023;380:e071018. PMID: [36750242](https://pubmed.ncbi.nlm.nih.gov/36750242/) \
 
-  **[TRIPOD-LLM](/reporting-guidelines/the-tripod-llm-reporting-guideline-for-studies-using-large-language-models/)**: Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025. PMID: [39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/)
+  [**TRIPOD-LLM**](/reporting-guidelines/the-tripod-llm-reporting-guideline-for-studies-using-large-language-models/)**: Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025. PMID: [39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/)
 website-url: <http://www.tripod-statement.org/>
 additional-languages: |-
+  **TRIPOD+AI**
+  
+  The TRIPOD+AI statement and reporting checklist are also available in the following languagues
+  
+  TRIPOD+AI Checklist (Chinese) [word](TRIPOD-AI-Checklist-Chinese.docx)
+  
+  TRIPOD+AI Abstracts (Chinese) [word](TRIPOD-AI-Abstract-Chinese.docx)
+  
+  TRIPOD+AI Checklist (Croatian) [pdf](TRIPOD-AI-Croatian.pdf)
+  
+  TRIPOD+AI Checklist (Japanese) [pdf](TRIPOD-AI-Japanese.pdf) \
+  
   **TRIPOD 2015**
 
   The TRIPOD 2015 statement and reporting checklist are also available in the following languages:
@@ -83,9 +95,11 @@ additional-languages: |-
 
   TRIPOD 2015 E&E (Russian) [PDF](Russian-TRIPOD-EE.pdf)
 additional-information: |-
-  An adherence assessment form for measuring adherence to the Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) statement has been developed.
+  An adherence assessment form for measuring adherence to the Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) statement has been developed. \
+  
 
-  Heus P, Damen JAAG, Pajouheshnia R, Scholten RJPM, Reitsma JB, Collins GS, Altman DG, Moons KGM, Hooft L.Uniformity in measuring adherence to reporting guidelines: the example of TRIPOD for assessing completeness of reporting of prediction model studies. BMJ Open. 2019;9(4):e025611. PMID: [31023756](https://www.ncbi.nlm.nih.gov/pubmed/31023756)
+  Heus P, Damen JAAG, Pajouheshnia R, Scholten RJPM, Reitsma JB, Collins GS, Altman DG, Moons KGM, Hooft L.Uniformity in measuring adherence to reporting guidelines: the example of TRIPOD for assessing completeness of reporting of prediction model studies. BMJ Open. 2019;9(4):e025611. PMID: [31023756](https://www.ncbi.nlm.nih.gov/pubmed/31023756) \
+
 
   The adherence assessment forms are available from: <https://www.tripod-statement.org/adherence/>
 relevant-editorials: ''
@@ -231,7 +245,6 @@ keyword:
 - TRIPOD+AI checklists
 - TRIPOD+AI for Abstracts
 - TRIPOD+AI for Abstracts checklist
-
 ---
 
 {{< include ../_template.qmd >}}
