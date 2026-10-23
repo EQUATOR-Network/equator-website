@@ -65,7 +65,7 @@ website:
     right:
       - icon: twitter
         href: https://twitter.com/equatornetwork
-        aria-label: Quarto Twitter
+        aria-label: EQUATOR Twitter
       - icon: github
         aria-label: EQUATOR GitHub
         href: https://github.com/EQUATOR-Network/equator-website
