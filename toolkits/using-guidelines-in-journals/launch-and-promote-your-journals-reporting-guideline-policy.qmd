@@ -55,7 +55,7 @@ guideline policy:
 ## Instructions for Authors {#sec-instructions-for-authors}
 
 [**Download template paragraphs
-(Word)**](https://www.equator-network.org/wp-content/uploads/2016/11/EQUATOR-Network-Toolkits-Instructions-to-authors-template.docx)
+(Word)**](EQUATOR-Network-Toolkits-Instructions-to-authors-template.docx)
 to add to your Instructions for Authors. There are paragraphs for each
 implementation route. Editors may like to use just the first short
 paragraph or two to explain their policy. Publishers may like to also use
@@ -73,12 +73,12 @@ In 2012, [we found](https://www.ncbi.nlm.nih.gov/pubmed/22558178) that
 around 35% of journals offered freely accessible online instructions about
 their peer review process and, of those, about half mention reporting
 guidelines. [We’ve written a
-toolkit](https://www.equator-network.org/toolkits/peer-reviewing-research/)
+toolkit](/toolkits/peer-reviewing-research/)
 to help peer reviewers to use reporting guidelines as a first step in
 judging a manuscript.
 
 [**Download template paragraphs
-(Word)**](https://www.equator-network.org/wp-content/uploads/2016/11/EQUATOR-Network-Toolkits-Instructions-to-reviewers-template.docx)
+(Word)**](EQUATOR-Network-Toolkits-Instructions-to-reviewers-template.docx)
 to add to your Instructions for Reviewers. There are paragraphs for each
 implementation route. Editors may like to use just the first short
 paragraph or two to explain their policy. Publishers may like to also use

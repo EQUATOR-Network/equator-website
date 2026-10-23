@@ -27,7 +27,6 @@ for your article by reporting it in the best way possible.
 - [Use an annotated journal article from Authoraid as
   inspiration](#sec-AuthoraidAnotated)
 - [Follow the ICJME recommendations](#sec-ICJMERecs)
-- [Professional medical writing support](#sec-professionalsupport)
 
 ## EQUATOR Library of Reporting Guidelines {#sec-RGlibrary}
 
@@ -53,18 +52,15 @@ use reporting guidelines. It also has chapters on the guidelines most
 commonly required by journals. You can read some sample chapters here:
 
 - [Chapter 1: Importance of transparent reporting of health research
-  (PDF)](https://www.equator-network.org/wp-content/uploads/2016/10/AltmanMoher-Chapter-1-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
+  (PDF)](AltmanMoher-Chapter-1-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
 - [Chapter 4: Using reporting guidelines effectively to ensure good
   reporting of health research
-  (PDF)](https://www.equator-network.org/wp-content/uploads/2016/12/AltmanSimera-Chapter-4-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
+  (PDF)](AltmanSimera-Chapter-4-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
 - [Chapter 5: Ambiguities and confusions between reporting and conduct
-  (PDF)](https://www.equator-network.org/wp-content/uploads/2016/12/SchultzMoherAltman-Chapter-5-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
+  (PDF)](SchultzMoherAltman-Chapter-5-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
 - [Chapter 17: STROBE (STrengthening the Reporting of Observational studies
   in Epidemiology)
-  (PDF)](https://www.equator-network.org/wp-content/uploads/2016/12/CevallosEgger-Chapter-17-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
-
-You can read more about the textbook on this
-[page](https://www.equator-network.org/library/equator-network-reporting-guideline-manual/).
+  (PDF)](CevallosEgger-Chapter-17-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf)
 
 ## Examples of good reporting {#sec-Goodexamples}
 
@@ -122,16 +118,3 @@ Medical Journal Editors. They are intended primarily for use by authors who
 submit their work for publication to ICMJE member journals, although many
 non-ICMJE journals recommend their use.
 
-## Professional medical writing support {#sec-professionalsupport}
-
-The EQUATOR Library has an [additional
-page](https://www.equator-network.org/library/professional-support/) of
-useful resources for both medical writers and those seeking professional
-support, including the writing and publication of industry-sponsored
-research. The resources include the latest [Good Publication Practice for
-Communicating Company-Sponsored Medical Research: GPP3
-Guidelines](https://www.ncbi.nlm.nih.gov/pubmed/26259067) and the [Joint
-Statement
-(PDF)](https://www.ismpp.org/assets/docs/Inititives/amwa-emwa-ismpp%20joint%20position%20statement%20on%20the%20role%20of%20professional%20medical%20writers_january%202017.pdf)
-from AMWA, EMWA and ISMPP on the important role of professional medical
-writers.

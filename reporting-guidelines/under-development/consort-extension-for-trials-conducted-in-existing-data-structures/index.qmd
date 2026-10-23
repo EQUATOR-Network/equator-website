@@ -11,6 +11,6 @@ categories:
 
 The objective of the proposed project is to develop a consensus-driven guideline to improve the reporting of trials conducted in existing data structures, including researcher-generated cohorts, registries, electronic health records, and administrative databases. This will be done as an extension of the Consolidated Standards of Reporting Trials (CONSORT) for trials conducted in existing data structures.
 
-Read the project [summary (PDF)](https://www.equator-network.org/wp-content/uploads/2009/02/CONSORT-for-Trials-in-Existing-Data-Structures.pdf)
+Read the project [summary (PDF)](CONSORT-for-Trials-in-Existing-Data-Structures.pdf)
 
 {{< include ../_template.qmd >}}

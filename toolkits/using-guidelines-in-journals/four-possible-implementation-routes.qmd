@@ -50,7 +50,7 @@ guideline has been used and check that it has been properly adhered to. If
 checklist items have not been addressed in the paper, the editorial staff
 can immediately return the paper for revision. You’ll find a suitable
 [template letter
-here](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines#letters).
+here](tools-and-templates-for-implementing-reporting-guidelines.qmd).
 
 ## 2. Peer reviewers confirm checklist use
 
@@ -60,7 +60,7 @@ the correct reporting guideline has been used and check that it has been
 adhered to. If checklist items have not been addressed in the paper, peer
 review would stop and editorial staff can immediately return the paper for
 revision. You’ll find a suitable [template letter
-here](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines#letters).
+here](tools-and-templates-for-implementing-reporting-guidelines.qmd).
 Only once the reporting is complete do you send the paper for full peer
 review.
 
@@ -68,7 +68,7 @@ Alternatively, you could send the paper for full peer review on receipt and
 have all peer reviewers comment on reporting, using the reporting
 guideline. Improperly addressed checklist items would then be included with
 other requested revisions. You’ll find a suitable [template letter
-here](https://www.equator-network.org/toolkits/using-guidelines-in-journals/tools-and-templates-for-implementing-reporting-guidelines#letters).
+here](tools-and-templates-for-implementing-reporting-guidelines.qmd).
 
 - [Develop your own](creating-your-journals-reporting-guideline-policy.qmd)
   reporting guideline policy

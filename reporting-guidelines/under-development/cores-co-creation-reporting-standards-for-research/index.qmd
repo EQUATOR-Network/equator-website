@@ -13,6 +13,6 @@ Co-creation is an overarching and encompassing approach, which is inclusive of t
 
 This project, funded by Erasmus programme, will start with a review of reviews about co-creation, then a 3-4 round Delphi survey will be conducted with an international expert panel, consensus meetings and gathering of feedback from the panel. The final checklist will be translated, using robust methodology (including back translation) to five languages. The final document will be published until the end of 2024, as open-access papers. A website will be launched soon.
 
-- Read the [CORES Protocol](https://www.equator-network.org/wp-content/uploads/2023/04/Protocol-for-the-development-of-CORES.pdf)
+- Read the [CORES Protocol](Protocol-for-the-development-of-CORES.pdf)
 
 {{< include ../_template.qmd >}}
