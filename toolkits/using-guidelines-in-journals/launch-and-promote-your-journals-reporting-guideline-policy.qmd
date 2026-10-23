@@ -69,13 +69,7 @@ alert your peer reviewers to reporting guidelines. They are an excellent
 tool for identifying whether an article includes all of the information the
 reviewer needs to properly judge an article.
 
-In 2012, [we found](https://www.ncbi.nlm.nih.gov/pubmed/22558178) that
-around 35% of journals offered freely accessible online instructions about
-their peer review process and, of those, about half mention reporting
-guidelines. [We’ve written a
-toolkit](/toolkits/peer-reviewing-research/)
-to help peer reviewers to use reporting guidelines as a first step in
-judging a manuscript.
+In 2012, [we found](https://www.ncbi.nlm.nih.gov/pubmed/22558178) that around 35% of journals offered freely accessible online instructions about their peer review process and, of those, about half mention reporting guidelines. [We’ve written a toolkit](/toolkits/peer-reviewing-research/) to help peer reviewers to use reporting guidelines as a first step in judging a manuscript.
 
 [**Download template paragraphs
 (Word)**](EQUATOR-Network-Toolkits-Instructions-to-reviewers-template.docx)

@@ -53,59 +53,27 @@ steps to ensure selecting robust reporting guidelines:
 ## 4. Policy detail: will you ‘endorse’ or ‘require’ reporting guidelines?
 
 Use [this worksheet
-(Word)](EQUATOR-Network-Toolkits-Your-reporting-guideline-policy-endorse-or-require.docx)
-to guide a discussion about what your journal’s reporting guideline policy
-will look like, and whether you want to endorse or require reporting
-guidelines. We suggest involving authors, reviewers, and editorial board
-members in this discussion.
+(Word)](EQUATOR-Network-Toolkits-Your-reporting-guideline-policy-endorse-or-require.docx) to guide a discussion about what your journal’s reporting guideline policy will look like, and whether you want to endorse or require reporting guidelines. We suggest involving authors, reviewers, and editorial board members in this discussion.
 
-We offer tools and support for [four major routes for
-implementation](four-possible-implementation-routes.qmd),
-two that endorse guidelines and two that require them.
+We offer tools and support for [four major routes for implementation](four-possible-implementation-routes.qmd), two that endorse guidelines and two that require them.
 
-You should now have enough information to draft your journal’s reporting
-guideline policy and sketch out how reporting guidelines will fit into your
-journal’s workflow.
+You should now have enough information to draft your journal’s reporting guideline policy and sketch out how reporting guidelines will fit into your journal’s workflow.
 
 ## 5. Do you need to get policy approval from your publisher or society?
 
-You could request formal support of your new policy from either your
-publisher or your sponsoring society before launch. This level of support
-helps affirm the importance of good reporting for authors. It can also be
-helpful for editorial teams to have worked through any concerns about
-[submission rates and other
-issues](reporting-guidelines-and-journals-fact-fiction/)
-with publishers/sponsors before launch.
+You could request formal support of your new policy from either your publisher or your sponsoring society before launch. This level of support helps affirm the importance of good reporting for authors. It can also be helpful for editorial teams to have worked through any concerns about [submission rates and other issues](reporting-guidelines-and-journals-fact-fiction.qmd) with publishers/sponsors before launch.
 
 ## 6. Deciding how to launch your policy
 
-If you have chosen an ‘endorse’ policy, you can simply launch your policy
-and continue to educate authors as you go along. If you have chosen a
-‘require’ policy, you may like to first implement a phased launch. You
-could first require just one reporting guideline, say for randomised
-controlled trials, and get authors comfortable with this requirement before
-launching the comprehensive policy. Alternatively, you could first endorse
-your full set of reporting guidelines and give authors a fixed period, say
-1 year, before the guidelines are required.
+If you have chosen an ‘endorse’ policy, you can simply launch your policy and continue to educate authors as you go along. If you have chosen a ‘require’ policy, you may like to first implement a phased launch. You could first require just one reporting guideline, say for randomised controlled trials, and get authors comfortable with this requirement before launching the comprehensive policy. Alternatively, you could first endorse your full set of reporting guidelines and give authors a fixed period, say 1 year, before the guidelines are required.
 
 ## 7. Launch preparations
 
-Once you have agreed on your reporting guideline policy and launch plan,
-you’ll need to get ready for launch by preparing promotional materials and
-updating your workflow. We have a collection of [tools and
-templates](tools-and-templates-for-implementing-reporting-guidelines/)
-to help you integrate reporting guidelines into your workflow. We also have
-suggestions for how you can [promote your new
-policy](launch-and-promote-your-journals-reporting-guideline-policy/)
-amongst your readers and authors, using editorials and other tools.
+Once you have agreed on your reporting guideline policy and launch plan, you’ll need to get ready for launch by preparing promotional materials and updating your workflow. We have a collection of [tools and templates](tools-and-templates-for-implementing-reporting-guidelines.qmd) to help you integrate reporting guidelines into your workflow. We also have suggestions for how you can [promote your new policy](launch-and-promote-your-journals-reporting-guideline-policy.qmd) amongst your readers and authors, using editorials and other tools.
 
-If you have chosen a ‘require’ route, you may also need to develop training
-for whichever team members will check for guideline compliance.
+If you have chosen a ‘require’ route, you may also need to develop training for whichever team members will check for guideline compliance.
 
-*Adapted from Chapter 29 of* Guidelines for Reporting Health Research: A
-User’s Manual, *First Edition. Edited by D Moher, DG Altman, KF Schultz, I
-Simera, and E Wager. 2014 John Wiley & Sons.* [Read the full chapter
-(PDF)](Roberts-etal-Chapter-29-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf).
+*Adapted from Chapter 29 of* Guidelines for Reporting Health Research: A User’s Manual, *First Edition. Edited by D Moher, DG Altman, KF Schultz, I Simera, and E Wager. 2014 John Wiley & Sons.* [Read the full chapter (PDF)](Roberts-etal-Chapter-29-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf).
 
 - [Read about](four-possible-implementation-routes.qmd) the four general
   reporting guideline policies that journals use
