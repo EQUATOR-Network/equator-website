@@ -25,8 +25,8 @@ modern look.
 guidelines](/reporting-guidelines/index.qmd) and [research reporting guidelines under development](/reporting-guidelines/under-development/index.qmd)
 
 \- **Refreshed toolkits** [authors](/toolkits/writing-research/index.qmd),
-[journals](/toolkits/using-guidelines-in-journals/index.qmd) and [peer
-reviewers](/toolkits/peer-reviewing-research.qmd)
+[journals](/toolkits/using-guidelines-in-journals/index.qmd), [peer
+reviewers](/toolkits/peer-reviewing-research/index.qmd) and [reporting guideline developers](/toolkits/developing-a-reporting-guideline/index.qmd)
 
 \- **Improved look:** a clean and modern feel to the website
 
