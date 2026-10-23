@@ -26,6 +26,10 @@ website:
             href: about/equator-network.qmd
           - text: International EQUATOR Centres
             href: about/international-equator-centres.qmd
+          - text: Support us
+            href: about/support-us.qmd
+          - text: History
+            href: about/history.qmd
           - text: Contact
             href: about/contact.qmd
       - text: Reporting Guidelines

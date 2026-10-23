@@ -1,0 +1,98 @@
+## How to support EQUATOR
+
+> *By supporting the EQUATOR Network’s effort and by promoting the use of
+> its resources you can significantly contribute to the wider
+> implementation of reporting guidelines.*
+
+The EQUATOR Network aims to improve the reliability and value of health
+research literature by promoting responsible research reporting and the use
+of reporting guidelines for health research studies.
+
+By supporting the EQUATOR Network’s effort and by promoting the use of its
+resources you can significantly contribute to the wider implementation of
+robust reporting guidelines and to the increased reliability of health
+research literature.
+
+Reporting guidelines are a relatively new phenomenon but evidence of their
+positive influence on the quality of published research reports is already
+emerging.
+
+Only large-scale support can generate meaningful change in people’s
+behaviour as seen recently with the quick adoption of clinical trials
+registration requirements.
+
+## How can I actively support the EQUATOR Network’s effort?
+
+- [Journals](#sec-journal)
+- [Editorial organisations](#sec-editorial)
+- [Research funding organisations](#sec-funder)
+- [Other organisations](#sec-other)
+- [Reporting guidelines developers](#sec-rgdev)
+- [Authors of research articles](#sec-authors)
+- [Librarians/Information Specialists](#sec-libs)
+
+## Journals {#sec-journal}
+
+- Link to the EQUATOR Network website in your ‘Instructions to Authors’
+
+- Alert authors to the available reporting guidelines and motivate their
+  use:
+
+  - Clearly describe the purpose of reporting guidelines – they are to help
+    authors to include all important information about their research,
+    which can increase the probability of their manuscript being published
+    and enhance the value of their research to clinicians and other
+    researchers
+
+  - Provide clear instructions on how you expect authors to use appropriate
+    guidelines, including a clear statement of the degree of compliance
+    with relevant guidelines that is expected; ambiguous instructions will
+    not encourage adherence
+
+  - Link to the appropriate guidelines, through either the EQUATOR or
+    individual guideline website, as these provide the current version, and
+    make checklists available to download
+
+- Alert your peer reviewers to the available reporting guidelines, the
+  EQUATOR [Peer Review toolkit](/toolkits/peer-reviewing-research/index.qmd)
+  and ask them to use relevant guidelines / checklists during their
+  manuscript assessment
+
+- Share your knowledge about reporting guidelines, the EQUATOR Network, the
+  EQUATOR [Journals toolkit](/toolkits/using-guidelines-in-journals/index.qmd)
+  with your editor colleagues, and consider subscribing to the EQUATOR
+  Newsletter alerting you to new developments in health research reporting
+  and available education and training courses
+
+## Editorial organisations {#sec-editorial}
+
+- Provide reference to the EQUATOR Network on your website
+- Inform your members about the existence of the EQUATOR website and its
+  resources
+
+## Research funding organisations {#sec-funder}
+
+- Request accurate and transparent reporting of the project you fund by
+  stating this requirement within the conditions of providing funds
+- Refer to the EQUATOR Network’s resources, including relevant reporting
+  guidelines, on your website
+
+## Other organisations {#sec-other}
+
+- Promote and support accurate and transparent reporting of health research
+  studies
+- Refer to the EQUATOR Network’s resources, including relevant reporting
+  guidelines, on your website
+
+## Reporting guideline developers {#sec-rgdev}
+
+- Let us know about your guideline, guideline development plans or update
+- Consult and promote the EQUATOR [toolkit on how to develop a reporting guideline](/toolkits/developing-a-reporting-guideline/index.qmd)
+
+## Authors of research articles (e.g., researchers, clinicians, medical writers) {#sec-authors}
+
+- Find out about reporting requirements when planning your research study
+  (e.g. some journals recommend authors to read the CONSORT Statement when
+  planning a randomised trial even before starting participants’
+  recruitment)
+- When writing up your
