@@ -4,13 +4,22 @@
 > its resources you can significantly contribute to the wider
 > implementation of reporting guidelines.*
 
-The EQUATOR Network aims to improve the reliability and value of health research literature by promoting responsible research reporting and the use of reporting guidelines for health research studies.
+The EQUATOR Network aims to improve the reliability and value of health
+research literature by promoting responsible research reporting and the use
+of reporting guidelines for health research studies.
 
-By supporting the EQUATOR Network’s effort and by promoting the use of its resources you can significantly contribute to the wider implementation of robust reporting guidelines and to the increased reliability of health research literature.
+By supporting the EQUATOR Network’s effort and by promoting the use of its
+resources you can significantly contribute to the wider implementation of
+robust reporting guidelines and to the increased reliability of health
+research literature.
 
-Reporting guidelines are a relatively new phenomenon but evidence of their positive influence on the quality of published research reports is already emerging.
+Reporting guidelines are a relatively new phenomenon but evidence of their
+positive influence on the quality of published research reports is already
+emerging.
 
-Only large-scale support can generate meaningful change in people’s behaviour as seen recently with the quick adoption of clinical trials registration requirements.
+Only large-scale support can generate meaningful change in people’s
+behaviour as seen recently with the quick adoption of clinical trials
+registration requirements.
 
 ## How can I actively support the EQUATOR Network’s effort?
 
@@ -20,7 +29,6 @@ Only large-scale support can generate meaningful change in people’s behaviour 
 - [Other organisations](#sec-other)
 - [Reporting guidelines developers](#sec-rgdev)
 - [Authors of research articles](#sec-authors)
-- [Librarians/Information Specialists](#sec-libs)
 
 ## Journals {#sec-journal}
 
@@ -45,15 +53,16 @@ Only large-scale support can generate meaningful change in people’s behaviour 
     make checklists available to download
 
 - Alert your peer reviewers to the available reporting guidelines, the
-  EQUATOR [Peer Review toolkit](/toolkits/peer-reviewing-research/index.qmd)
-  and ask them to use relevant guidelines / checklists during their
-  manuscript assessment
+  EQUATOR [Peer Review
+  toolkit](/toolkits/peer-reviewing-research/index.qmd) and ask them to use
+  relevant guidelines / checklists during their manuscript assessment
 
 - Share your knowledge about reporting guidelines, the EQUATOR Network, the
-  EQUATOR [Journals toolkit](/toolkits/using-guidelines-in-journals/index.qmd)
-  with your editor colleagues, and consider subscribing to the EQUATOR
-  Newsletter alerting you to new developments in health research reporting
-  and available education and training courses
+  EQUATOR [Journals
+  toolkit](/toolkits/using-guidelines-in-journals/index.qmd) with your
+  editor colleagues, and consider subscribing to the EQUATOR Newsletter
+  alerting you to new developments in health research reporting and
+  available education and training courses
 
 ## Editorial organisations {#sec-editorial}
 
@@ -78,7 +87,8 @@ Only large-scale support can generate meaningful change in people’s behaviour 
 ## Reporting guideline developers {#sec-rgdev}
 
 - Let us know about your guideline, guideline development plans or update
-- Consult and promote the EQUATOR [toolkit on how to develop a reporting guideline](/toolkits/developing-a-reporting-guideline/index.qmd)
+- Consult and promote the EQUATOR [toolkit on how to develop a reporting
+  guideline](/toolkits/developing-a-reporting-guideline/index.qmd)
 
 ## Authors of research articles (e.g., researchers, clinicians, medical writers) {#sec-authors}
 
