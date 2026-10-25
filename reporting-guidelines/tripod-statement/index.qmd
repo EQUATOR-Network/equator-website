@@ -8,13 +8,8 @@ rg-doi: ''
 pmid-id: '[38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38626948/
 relevant-urls: |-
-  [Read the full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI. \
-
-  The [TRIPOD+AI checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/04/17/bmj-2023-078378.DC5/colg078378.wt2.pdf) is available in Supplementary Table 2. \
-
-  The [TRIPOD+AI Expanded Checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/04/18/bmj-2023-078378.DC6/colg078378.wt1.pdf) (Explanation & Elaboration Light) is available in Supplementary Table 1. \
-
-  The [TRIPOD+AI for Abstracts checklist](https://www.bmj.com/content/385/bmj-2023-078378) is available in Table 3 of the statement paper.
+  [Read the full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI. 
+  
 full-bibliographic-reference: 'Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, Ghassemi M, Liu X, Reitsma JB, van Smeden M, Boulesteix AL, Camaradou JC, Celi LA, Denaxas S, Denniston AK, Glocker B, Golub RM, Harvey H, Heinze G, Hoffman MM, Kengne AP, Lam E, Lee N, Loder EW, Maier-Hein L, Mateen BA, McCradden MD, Oakden-Rayner L, Ordish J, Parnell R, Rose S, Singh K, Wynants L, Logullo P. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ. 2024;385:e078378.'
 
 
@@ -61,7 +56,7 @@ relevant-more: |-
 
   [**TRIPOD-Cluster**](/reporting-guidelines/tripod-cluster/): Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM. Transparent reporting of multivariable prediction models developed or validated using clustered data: TRIPOD-Cluster checklist. BMJ. 2023;380:e071018. PMID: [36750242](https://pubmed.ncbi.nlm.nih.gov/36750242/) \
 
-  [**TRIPOD-LLM**](/reporting-guidelines/the-tripod-llm-reporting-guideline-for-studies-using-large-language-models/)**: Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025. PMID: [39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/)
+  [**TRIPOD-LLM**](/reporting-guidelines/the-tripod-llm-reporting-guideline-for-studies-using-large-language-models/): Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025. PMID: [39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/)
 website-url: <http://www.tripod-statement.org/>
 additional-languages: |-
   **TRIPOD+AI**
@@ -101,7 +96,12 @@ other: '[Read the protocol](https://pubmed.ncbi.nlm.nih.gov/34244270/) for the d
   of TRIPOD+AI.'
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the [TRIPOD+AI checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/04/17/bmj-2023-078378.DC5/colg078378.wt2.pdf). \
+
+  Download the [TRIPOD+AI Expanded Checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/04/18/bmj-2023-078378.DC6/colg078378.wt1.pdf) (Explanation & Elaboration Light) \
+
+  Download the [TRIPOD+AI for Abstracts checklist](https://www.bmj.com/content/385/bmj-2023-078378).
 
 
 # LIST FIELDS
