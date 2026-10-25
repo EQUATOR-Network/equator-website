@@ -12,28 +12,11 @@ editor:
     wrap: 72
 ---
 
-[Professor Gary
-Collins](https://www.birmingham.ac.uk/staff/profiles/applied-health/collins-gary "Professor Gary Collins")
-is a 125th Anniversary Chair and Professor of Medical Statistics in the
-Department of Applied Health Sciences, at the University of Birmingham,
-and a [NIHR Senior
-Investigator](https://www.nihr.ac.uk/people/professor-gary-collins "NIHR Senior Investigator").
-His primary research interests are primarily focussed on aspects
-surrounding the development and validation multivariable prediction
-models (design, analysis and reporting).
+[Professor Gary Collins](https://www.birmingham.ac.uk/staff/profiles/applied-health/collins-gary "Professor Gary Collins") is a 125th Anniversary Chair and Professor of Medical Statistics in the Department of Applied Health Sciences, at the University of Birmingham, and a [NIHR Senior Investigator](https://www.nihr.ac.uk/people/professor-gary-collins "NIHR Senior Investigator"). He became Director of the UK EQUATOR Centre in 2019. His primary research interests are primarily focussed on aspects surrounding the development and validation multivariable prediction models (design, analysis and reporting).
 
-In 2010, he established an international initiative to develop the
-[TRIPOD](https://doi.org/10.7326/M14-0697 "TRIPOD") reporting
-recommendations published in 2015 for studies developing and validating
-clinical prediction models. He led an update to these recommendations in
-2024 to cover models developed using artificial intelligence and machine
-learning methods
-([TRIPOD+AI](https://doi.org/10.1136/bmj-2023-078378 "TRIPOD+AI")) and
-large language models
-([TRIPOD-LLM](https://www.nature.com/articles/s41591-024-03425-5 "TRIPOD-LLM")).
+In 2010, he established an international initiative to develop the [TRIPOD](https://doi.org/10.7326/M14-0697 "TRIPOD") reporting recommendations published in 2015 for studies developing and validating clinical prediction models. He led an update to these recommendations in 2024 to cover models developed using artificial intelligence and machine learning methods ([TRIPOD+AI](https://doi.org/10.1136/bmj-2023-078378 "TRIPOD+AI")) and large language models ([TRIPOD-LLM](https://www.nature.com/articles/s41591-024-03425-5 "TRIPOD-LLM")).
 
-Gary has also been involved in other guidance for artificial
-intelligence and machine learning studies in healthcare, including
+Gary has also been involved in other guidance for artificial intelligence and machine learning studies in healthcare, including
 
 - [STARD-AI](https://doi.org/10.1038/s41591-025-03953-8 "STARD-AI") -
   for AI based diagnostic test accuracy studies
