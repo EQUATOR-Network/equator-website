@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: 'The ARRIVE Guidelines 2.0: updated guidelines for reporting animal research'
+aliases: 
+  - improving-bioscience-research-reporting-the-arrive-guidelines-for-reporting-animal-research
 acronym: ARRIVE
 provided-for: Reporting any area of bioscience research using laboratory animals
 rg-doi: ''
