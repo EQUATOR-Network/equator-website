@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: 'SPIRIT 2025 Statement: Defining standard protocol items for clinical trials'
+aliases: 
+  - /reporting-guidelines/spirit-2013-statement-defining-standard-protocol-items-for-clinical-trials
 acronym: SPIRIT
 provided-for: Defining standard protocol items for clinical trials
 rg-doi: ''
