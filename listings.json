@@ -725,9 +725,16 @@
     ]
   },
   {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
     "listing": "/reporting-guidelines/under-development/index.html",
     "items": [
       "/reporting-guidelines/under-development/a-framework-for-the-identification-and-reporting-of-modifications-to-surgical-procedures-the-surgical-modification-and-reporting-tool-smart-checklist/index.html",
+      "/reporting-guidelines/under-development/a-reporting-guideline-for-research-into-outcomes-following-release-from-correctional-and-forensic-settings/index.html",
       "/reporting-guidelines/under-development/a-reporting-tool-for-evidence-based-guidelines-on-chinese-medicine-for-public-health-emergencies-an-extension-of-the-right-statement/index.html",
       "/reporting-guidelines/under-development/ad-astra-spirit-and-consort-extensions-for-dog-assisted-interventions/index.html",
       "/reporting-guidelines/under-development/ad-delta2-guideline-on-the-reporting-of-sample-size-in-trial-grant-applications-and-protocols-for-adaptive-design-an-extension-of-the-delta2-guideline/index.html",
@@ -794,7 +801,9 @@
       "/reporting-guidelines/under-development/guidelines-on-assessments-in-lmic-settings-goals/index.html",
       "/reporting-guidelines/under-development/guidelines-for-reporting-clinical-trials-on-integrated-chinese-and-western-medicine/index.html",
       "/reporting-guidelines/under-development/guidelines-for-reporting-single-group-trial-for-traditional-chinese-medicine-with-objective-performance-criteria-or-performance-goal/index.html",
+      "/reporting-guidelines/under-development/guidelines-for-cellular-and-molecular-pathology-content-in-clinical-trial-protocols-the-spirit-path-extension-update-and-remapping-2026/index.html",
       "/reporting-guidelines/under-development/guidelines-for-ethical-review-of-acupuncture-and-moxibustion-clinical-research/index.html",
+      "/reporting-guidelines/under-development/hotter-heat-therapy-optimising-transparency-through-essential-reporting/index.html",
       "/reporting-guidelines/under-development/impact-framework-reporting-the-impact-of-patient-and-caregiver-involvement-in-health-research/index.html",
       "/reporting-guidelines/under-development/increase-increasing-transparency-and-reproducibility-of-data-extraction-for-evidence-synthesis-research/index.html",
       "/reporting-guidelines/under-development/invirtue-reporting-guidelines-for-virtual-reality-intervention-studies/index.html",
@@ -904,6 +913,7 @@
       "/reporting-guidelines/under-development/standards-of-reporting-for-studies-on-medical-grade-footwear-for-adults/index.html",
       "/reporting-guidelines/under-development/survey-aware-machine-learning-saml-statement-reporting-items-for-machine-learning-studies-using-complex-sample-survey-data/index.html",
       "/reporting-guidelines/under-development/tae-acu-the-terminology-criteria-of-adverse-events-for-acupuncture/index.html",
+      "/reporting-guidelines/under-development/target-tcm-a-reporting-guideline-extension-of-the-target-statement-for-traditional-chinese-medicine/index.html",
       "/reporting-guidelines/under-development/theses-m-transparent-and-holistic-evaluation-standards-for-educational-studies-in-medicine-a-reporting-guideline-for-medical-theses/index.html",
       "/reporting-guidelines/under-development/tidier-a-2026-tidier-extension-for-acupuncture-template-for-acupuncture-intervention-description-and-replication/index.html",
       "/reporting-guidelines/under-development/tidier-aqua-template-for-the-intervention-description-and-replication-tidier-for-reporting-of-aquatic-interventions/index.html",
@@ -914,6 +924,7 @@
       "/reporting-guidelines/under-development/troca-transparent-reporting-of-cluster-analyses/index.html",
       "/reporting-guidelines/under-development/the-claire-statement-a-comprehensive-reporting-and-assessing-guideline-for-artificial-intelligence-in-diagnostic-imaging/index.html",
       "/reporting-guidelines/under-development/the-css-eic-statement-consensus-on-research-ethics-and-integrity-in-sports-science-chinese-expert-consensus/index.html",
+      "/reporting-guidelines/under-development/the-rapport-statement-reporting-guideline-for-rigor-and-reproducibility-in-community-engaged-research/index.html",
       "/reporting-guidelines/under-development/the-readability-checklist-a-reporting-guideline-for-studies-assessing-the-readability-of-written-health-information/index.html",
       "/reporting-guidelines/under-development/the-systematic-engine-a-diagnostic-reporting-guideline-for-critical-appraisal-processes-in-evidence-synthesis/index.html",
       "/reporting-guidelines/under-development/the-reporting-for-chinese-herbal-medicine-placebo-guidelines-in-randomized-controlled-trials/index.html",
@@ -924,12 +935,6 @@
       "/reporting-guidelines/under-development/value-vaccine-clinical-research-reporting-guideline/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
     ]
   },
   {
