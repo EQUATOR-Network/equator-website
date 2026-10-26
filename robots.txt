@@ -1,1 +1,1 @@
-Sitemap: https://equator-network.github.io/equator-website/sitemap.xml
+Sitemap: https://equator-network.org/sitemap.xml

@@ -6,13 +6,13 @@
       version="2.0">
 <channel>
 <title>EQUATOR Network</title>
-<link>https://equator-network.github.io/equator-website/news/</link>
-<atom:link href="https://equator-network.github.io/equator-website/news/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://equator-network.org/news/</link>
+<atom:link href="https://equator-network.org/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Latest news from the EQUATOR Network, including announcements of new reporting guidelines.</description>
 <image>
-<url>https://equator-network.github.io/equator-website/assets/logos/equator_logo.png</url>
+<url>https://equator-network.org/assets/logos/equator_logo.png</url>
 <title>EQUATOR Network</title>
-<link>https://equator-network.github.io/equator-website/news/</link>
+<link>https://equator-network.org/news/</link>
 <height>42</height>
 <width>144</width>
 </image>
@@ -21,7 +21,7 @@
 <item>
   <title>Welcome to the new EQUATOR Network website</title>
   <dc:creator>UK EQUATOR Centre</dc:creator>
-  <link>https://equator-network.github.io/equator-website/news/posts/2026-10-22-website-redesign/</link>
+  <link>https://equator-network.org/news/posts/2026-10-22-website-redesign/</link>
   <description><![CDATA[ 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -46,7 +46,7 @@
  ]]></description>
   <category>Website</category>
   <category>Announcement</category>
-  <guid>https://equator-network.github.io/equator-website/news/posts/2026-10-22-website-redesign/</guid>
+  <guid>https://equator-network.org/news/posts/2026-10-22-website-redesign/</guid>
   <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
