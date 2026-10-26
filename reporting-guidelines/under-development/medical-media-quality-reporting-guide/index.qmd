@@ -1,0 +1,19 @@
+---
+title: "Medical Media Quality Reporting Guide"
+contact-name: Bradley C. Johnston, Steve Woloshin, David Moher
+contact-email: bradley.johnston@tamu.edu, steve.woloshin@dartmouth.edu, dmoher@ohri.ca
+date-registered: "26 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+- Other
+---
+
+<!-- Add Description Below -->
+Effective public communication of new human health research is essential for informed decision-making and fostering public trust. Science communicators such as journalists, public relations (e.g. press) officers with journals, governments, universities and industry as well as social media influencers on, for example, substacks, youtube, podcasts serve as intermediaries between human health research findings from scientific studies and the publics’ understanding of them. Evidence, however, shows that media reporting of health research is often incomplete or imbalanced. The Medical Media Quality Reporting Guide aims to address this gap by developing an evidence-informed, consensus-based reporting guide tailored for news professionals and social media influencers.
+
+{{< include ../_template.qmd >}}
