@@ -1,0 +1,82 @@
+---
+title: "CHEERS extension for the reporting of economic evaluations of infectious disease interventions utilising epidemiological and dynamic transmission modelling (CHEERS-ID)"
+contact-name: "Phuong Bich Tran"
+contact-email: "phuong.tran@phc.ox.ac.uk"
+date-registered: "26 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+- Other
+---
+
+<!-- Add Description Below -->
+
+**Background**
+
+The CHEERS 2022 statement provides a standardised framework to ensure
+transparency and completeness in reporting health economic evaluations
+(Husereau et al., 2022). However, as health technology assessment (HTA)
+bodies increasingly evaluate complex interventions, the core checklist
+requires targeted expansions. The recent validation of the CHEERS-AI
+extension (Elvidge et al., 2024) demonstrated that specific methodological
+fields require explicit, dedicated reporting standards to capture nuances
+that generic frameworks miss. A similarly important requirement exists for
+infectious disease economic evaluations.
+
+**Rationale**
+
+Infectious disease interventions (e.g., vaccination programmes,
+antimicrobial stewardship, quarantine protocols) differ fundamentally from
+interventions for other diseases due to the transmissible nature of
+pathogens (Pitman et al., 2012). Standard health economic models (e.g.,
+Markov models, decision trees) assume static transition probabilities. In
+contrast, infectious disease evaluations rely heavily on dynamic
+transmission models where the risk of infection changes over time based on
+human interactions and the changing pool of infectious individuals.
+
+A dedicated CHEERS-ID extension is crucial because:
+
+1.  Dynamic transmission models generate non-linear effects, such as herd
+    immunity, which directly impact health economic outcomes by preventing
+    downstream infections in unvaccinated populations (Pitman et al.,
+    2012). Current reporting standards do not mandate clear descriptions of
+    how these population-level externalities are captured or valued
+    economically.
+
+2.  Infectious disease evaluations must report specific epidemiological
+    complexities, including strain replacement, structural mixing matrices,
+    and the emergence of antimicrobial resistance (Pitman et al., 2012).
+    Incomplete reporting of these variables undermines the credibility of
+    cost-effectiveness thresholds.
+
+3.  Unlike chronic diseases with predictable progression, infectious
+    disease outbreaks involve volatile, time-dependent horizons. The
+    rationale behind chosen model timelines, particularly regarding the
+    capturing of post-epidemic steady states, remains poorly reported
+    (Pitman et al., 2012).
+
+**Proposed methods** The development of CHEERS-ID will mirror the rigorous,
+consensus-based approach utilised by previous extensions:
+
+- Scoping review: A systematic literature search to evaluate the reporting
+  quality of current infectious disease economic evaluations and identify
+  gaps in the application of CHEERS 2022.
+
+- Delphi process: A multi-round anonymous survey administered to an
+  international, multidisciplinary panel of health economists,
+  epidemiological modellers, HTA decision-makers, clinicians, and members
+  of the public to score potential reporting items.
+
+- Consensus meeting: An online consensus meeting with key stakeholders to
+  finalise outstanding or ambiguous checklist items.
+
+- Piloting and finalisation: A pilot phase where the drafted checklist is
+  applied to a random sample of published infectious disease economic
+  evaluations to ensure usability, followed by formalisation and
+  publication.
+
+{{< include ../_template.qmd >}}

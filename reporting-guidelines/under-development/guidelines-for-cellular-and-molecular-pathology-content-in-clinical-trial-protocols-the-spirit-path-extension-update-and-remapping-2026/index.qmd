@@ -14,5 +14,14 @@ categories:
 ---
 
 <!-- Add Description Below -->
-The SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials) Statement provides evidence-based guidance for transparent and comprehensive reporting of clinical trial protocols. The SPIRIT-Path extension, published in 2021, addresses cellular and  molecular pathology-related content within trial protocols. Following the publication of the updated SPIRIT Statement in 2025, revision and remapping of SPIRIT-Path is required to ensure alignment with SPIRIT 2025 and to incorporate contemporary clinical trial methodology, including emerging areas such as digital pathology and artificial intelligence.
+
+The SPIRIT (Standard Protocol Items: Recommendations for Interventional
+Trials) Statement provides evidence-based guidance for transparent and
+comprehensive reporting of clinical trial protocols. The SPIRIT-Path
+extension, published in 2021, addresses cellular and molecular
+pathology-related content within trial protocols. Following the publication
+of the updated SPIRIT Statement in 2025, revision and remapping of
+SPIRIT-Path is required to ensure alignment with SPIRIT 2025 and to
+incorporate contemporary clinical trial methodology, including emerging
+areas such as digital pathology and artificial intelligence.
 {{< include ../_template.qmd >}}
