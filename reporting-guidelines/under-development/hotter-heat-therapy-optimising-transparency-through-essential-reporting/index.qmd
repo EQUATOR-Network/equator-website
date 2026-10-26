@@ -1,0 +1,23 @@
+---
+title: "HOTTER: Heat therapy: Optimising Transparency Through Essential Reporting"
+contact-name: "Earric Lee"
+contact-email: "earric@gmail.com"
+date-registered: "26 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+- Other
+---
+
+<!-- Add Description Below -->
+The HOTTER (Heat therapy: Optimising Transparency Through Essential Reporting) statement will establish minimum reporting requirements for human research investigating the physiological and health effects of heat therapy. It will cover whole-body and local heating modalities (e.g. footbaths, water perfused pants), including sauna bathing, hot-water immersion, infrared heating, and other externally applied heating interventions, used independently or alongside treatments such as exercise.\
+
+The guideline will address reporting across experimental and observational study designs, encompassing acute exposures and repeated interventions in healthy and clinical populations. Proposed reporting domains include participant characteristics and prior heat exposure; heating modality and equipment; environmental conditions; exposure frequency, intensity, duration, and progression; physiological responses and thermal dose assessment; co-interventions; adherence; and adverse events. Requirements will distinguish prescribed exposure from exposure actually received and identify how relevant parameters were measured.\
+
+Developed through international multidisciplinary consensus, HOTTER will complement established reporting guidelines, including CONSORT, STROBE, and TIDieR. Its purpose is to improve transparency, reproducibility, interpretation, and evidence synthesis, rather than prescribe optimal treatment protocols or establish clinical efficacy. Oncological hyperthermia, thermal ablation, and research focused exclusively on occupational or environmental heat stress will fall outside its scope.
+
+{{< include ../_template.qmd >}}

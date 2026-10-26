@@ -1,0 +1,23 @@
+---
+title: "TARGET-TCM: a reporting guideline extension of the TARGET Statement for traditional Chinese medicine"
+contact-name: "Liyuan Tao"
+contact-email: "liyuantao@bjmu.edu.cn"
+date-registered: "26 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+- Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+TARGET-TCM is a proposed extension of the TARGET (Transparent reporting of observational studies emulating a target trial) Statement for traditional Chinese medicine (TCM) interventions. It will apply to studies of Chinese herbal medicines, Chinese patent medicines, acupuncture and other TCM non-pharmacological interventions, integrated Chinese and Western medicine, and syndrome-based or dynamically individualized treatment strategies.
+
+The original TARGET Statement provides a general framework for transparent reporting of causal questions, target trial specifications, emulation using observational data, identification assumptions, statistical analyses, results, and limitations. However, TCM studies involve reporting challenges that may not be fully captured by the original checklist. These include defining and operationalizing TCM syndromes and constitutions; representing individualized and dynamically modified treatments; standardizing herbal formulas, modified prescriptions, and treatment-strategy families; specifying timing, duration, interruption, and sequencing of combined Chinese and Western medicine; aligning syndrome differentiation, prescribing, dispensing, treatment initiation, and time zero; addressing time-varying treatment and confounding; and reporting TCM-specific outcomes and data quality.
+
+TARGET-TCM will retain the structure and principles of TARGET while clarifying, extending, or adding items only where TCM-specific information is needed for reproducibility, risk-of-bias appraisal, causal interpretation, and appropriate delineation of the evidence boundary. It is intended as a reporting guideline, not as a methodological guideline prescribing how target trial emulation studies must be conducted.
+
+{{< include ../_template.qmd >}}

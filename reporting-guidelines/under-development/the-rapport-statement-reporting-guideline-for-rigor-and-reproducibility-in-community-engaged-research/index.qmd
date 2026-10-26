@@ -1,0 +1,54 @@
+---
+title: "The RAPPORT Statement: Reporting Guideline for Rigor and Reproducibility in  Community-engaged research"
+contact-name: "Elizabeth Cohn"
+contact-email: "ecohn@med.cuny.edu"
+date-registered: "26 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+- Other
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+<!-- Add Description Below -->
+
+The National Institutes of Health in the United States recently issued guidance that all funded science and studies must be rigorus and reproducable.
+However, there is a natural tension between community-engaged work and the current way scientific standards define rigor and reproducibility.
+For example, repeated measures make a study more rigorous, but may increase community burden and a study done in one community will likely need to be tailored before being repeated, which may be viewed as being less reproducable.
+
+While interest in Community-Engaged Research continues to grow those designing and publishing studies often fail to describe how partnerships were formed, how decisions were shared, or how methods were carried out.
+Without that information, readers and reviewers cannot judge a study’s rigor, replicate its approach, or compare findings across studies.
+
+Purpose: RAPPORT gives authors, reviewers, and editors a common standard for reporting CEnR.
+Its goal is to make both the engagement process and the research methods transparent, auditable, and reproducible, while respecting community ownership and context.
+
+The RAPPORT Domains:
+
+-  Rigor: Describe the study design, the rationale for engagement methods, and the strategies used to ensure the study is credible and valid.
+
+- Accountability: Report how researchers and community partners were accountable to each other, including agreements, conflict resolution, and responsiveness to community feedback.
+
+- Partnership: Identify community partners, how they were recruited, the history of the relationship, and the resources and compensation given to them.
+
+- Participation: Specify the level and timing of community involvement at each research stage, from question development to dissemination.
+
+- Openness: Disclose governance, power sharing, data ownership, and any limits on data or material sharing agreed with communities.
+  - Reproducibility: Give enough detail on engagement and research procedures for others to adapt or replicate them, including protocols, tools, and analytic decisions.
+
+- Transparency: Report deviations from plans, limitations, conflicts of interest, and how results were returned to communities.
+
+Scope: RAPPORT applies to quantitative, qualitative, and mixed-methods Community-Engaged Research (CEnR), including community-based participatory research (CBPR) done in collaboration with community and Community Partnered Participatory Research (CPPR).
+We do not believe this guideline currently exists in EQUATOR, and this is meant to complement existing EQUATOR guidelines such GRIPP2, not replace them.
+However, we note that GRIPP2 has related concepts, are open to considering an extension.
+
+We note that RAPPORT is not for patients (which is a different dynamic) nor is it for “the public”, it is specific to community engaged and co-lead research techniques which may include may types of study design.\
+Use: Authors can use RAPPORT when planning, writing, and submitting manuscripts.
+Reviewers and editors can use it to appraise how completely CEnR is reported, and researchers can use it to assess rigor and reproducibility across the published CEnR literature.
+
+{{< include ../_template.qmd >}}
