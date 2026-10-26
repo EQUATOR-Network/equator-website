@@ -75,6 +75,12 @@ website:
         href: https://github.com/EQUATOR-Network/equator-website
   page-navigation: true
   open-graph: true
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "We welcome any feedback on the new EQUATOR website. Please use [this form](https://forms.cloud.microsoft/e/fcBpKZJ6Xm)."
+    type: info
+    position: below-navbar
   sidebar:
     - id: developers
       title: "For reporting guideline developers"
