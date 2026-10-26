@@ -21,7 +21,8 @@ listing:
   include: 
     centre: uk
   exclude:
-    title: "Doug Altman*"
+    title: 
+      - "Doug Altman*"
   sort: order
 ---
 
