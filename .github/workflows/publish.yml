@@ -22,7 +22,9 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
       
       - name: Run tests
-        run: ./_tests/check-link-integrity.sh
+        run: |
+          ./_tests/check-link-integrity.sh
+          ./_tests/check-render-artifacts.sh
         
       - name: Publish
         uses: quarto-dev/quarto-actions/publish@v2
