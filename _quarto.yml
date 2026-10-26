@@ -5,7 +5,7 @@ project:
 
 website:
   title: "EQUATOR Network"
-  site-url: 'https://equator-network.github.io/equator-website/'
+  site-url: 'https://equator-network.org/'
   image: "assets/logos/equator_logo.png"
   favicon: "assets/favicons/equator-network-16x16.png"
   search: false 
