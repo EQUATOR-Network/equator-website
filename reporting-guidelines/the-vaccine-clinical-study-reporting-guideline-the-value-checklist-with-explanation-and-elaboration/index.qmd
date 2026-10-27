@@ -1,0 +1,135 @@
+---
+# REQUIRED FIELDS
+title: 'The VAccine cLinical study reporting gUidEline: the VALUE checklist with explanation and elaboration'
+acronym: 'VALUE'
+provided-for: 'Reporting guideline specifically for vaccine clinical research'
+  
+rg-doi: 10.1016/j.ebiom.2026.106439
+pmid-id: '[42623954](https://pubmed.ncbi.nlm.nih.gov/42623954)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/42623954
+relevant-urls: Read the [full-text of this reporting guideline](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(26)00323-3/fulltext)
+  
+full-bibliographic-reference: |-
+  Duan Y, Ma Y, Shi L, Xu Z, Luo J, Moher D, Rodewald L, Shao R, Yu L, Li Y, Bian Z. The vaccine clinical study reporting guideline: the VALUE checklist with explanation and elaboration. eBioMedicine 2026; 131: 106439.
+
+# OPTIONAL FIELDS
+downloads: ''
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+sticky: false # or true
+search-priority: 100 # lower number = higher priority
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+# - Economic evaluations
+- Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+- Observational studies
+- Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+#- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- Vaccinology
+# - No clinical specialty specified
+
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+
+keyword:
+- vaccine studies
+- vaccinology
+
+
+---
+
+{{< include ../_template.qmd >}}
