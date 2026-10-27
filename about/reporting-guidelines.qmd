@@ -4,12 +4,13 @@ title: Reporting guidelines, writing guides, and checklists
 
 ## What are reporting guidelines? {#reporting-guidelines}
 
-Reporting guidelines are recommendations of information to include when writing up research. They ensure research can be understood and used by a wide audience including other researchers, editors, reviewers, 
-clinicians, evidence synthesisers, and readers from different fields, countries, or background, even decades in the future. 
+Reporting guidelines are recommendations of information to include when writing up research. They ensure research can be understood and used by a wide audience including other researchers, editors, reviewers,  clinicians, evidence synthesisers, and readers from different fields, countries, or background, even decades in the future. We define a reporting guideline as:
 
-Reporting guidelines help researchers write academic articles, protocols, and funding applications. 
-They make writing less daunting by breaking the process up into bite-size chunks, without dictating the final structure. 
-They help authors lay out the key information – the building blocks – of their work. Authors then decide how best to arrange this information 
+> “A checklist, flow diagram, or structured text to guide authors in
+> reporting a specific type of research, developed using explicit
+> methodology.”
+
+Reporting guidelines help researchers write academic articles, protocols, and funding applications. They make writing less daunting by breaking the process up into bite-size chunks, without dictating the final structure. They help authors lay out the key information – the building blocks – of their work. Authors then decide how best to arrange this information 
 to build a compelling and clear account. 
 
 However, reporting guidelines are _not_ design standards or tools for quality appraisal. They do not dictate how research must be conducted, but they do ensure research is described clearly enough for readers to understand its strengths and limitations.
