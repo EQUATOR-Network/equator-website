@@ -17,6 +17,12 @@
     margin-bottom: 25px;
 }
 
+@media only screen and (max-width: 992px) {
+    .column-margin .rg-table {
+        display: none !important;
+    }
+}
+
 .column-margin .rg-table {
     margin-bottom: 1.25rem;
     padding: .4em .7em;
