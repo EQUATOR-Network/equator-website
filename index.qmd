@@ -92,7 +92,7 @@ research. Search our full database for more specific reporting guidelines
 that may better fit your research.]{.lead}
 
 :::::: table-block
-::: {style="text-align: left; margin: 3rem 0 2rem 0;"}
+::: {#common-rgs style="text-align: left; margin: 3rem 0 2rem 0;"}
 {{< include _partials/_index_table.qmd >}}
 :::
 
