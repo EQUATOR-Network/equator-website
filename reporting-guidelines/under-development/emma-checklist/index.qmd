@@ -1,0 +1,23 @@
+---
+title: "Reporting Guidelines for drug utilization and pharmacoepidemiological studies using the WHO ATC/DDD methodoloogy: the EMMA checklist"
+contact-name: "Giuseppe Roberto"
+contact-email: "giuseppe.roberto@ars.toscana.it"
+date-registered: "27 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+- clinical trial protocols
+# - literature reviews
+- Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+The ATC/DDD classification system is a global standard endorsed by the World Health Organization (WHO) and is widely used for drug utilization and pharmacoepidemiological research. The Anatomical Therapeutic Chemical (ATC) classification allows the classification and retrieval of medicinal substances according to a five-level hierarchy. The Defined Daily Dose (DDD) represents a standard unit of measure of drug consumption. The amount of active substance, pharmaceutical product, or the number of dosage units corresponding to 1 DDD is specific for each ATC 5th-level code (for some ATC 5th-level code a different DDD is assigned to each route of administration), and is established by the WHO Collaborating Centre for Drug Statistics Methodology (WHO-CC), which also updates the ATC/DDD index annually. Currently, DDDs have been established for most, but not all, of the ATC 5th-level codes. Sometimes, a provisional DDD might be assigned locally for drug consumption monitoring to obtain full coverage of national ATC-based data collection systems. The practical implementation of the ATC/DDD system relies on the correct linkage between ATC codes and the corresponding active substances contained in medicinal product packages. The linkage between an ATC code and a medicinal product package also allows calculation of the ‘number’ of DDDs per package (DPP), a widely used measure of drug consumption often used as a proxy for the number of days' supply. The implementation and maintenance of the ATC/DDD system may be prone to human error and/or local variations in the application of the WHO guidelines. To reduce possible misalignment in the implementation and maintenance of the ATC/DDD standard, the WHO recommends that one trained centre in each country should be responsible for linking the national medicinal product package dictionary to the most updated release of the ATC/DDD index, as well as for calculating the DPP. Indeed, divergent ATC/DDD versions, differences in the assignment of ATC codes and/or DDDs for combination products, and the use of unofficial or national DDDs were documented as methodological problems that can hamper comparability and reproducibility of studies across countries. 
+
+In this context, the quality of reporting practices in pharmacoepidemiological research using the ATC/DDD methodology is fundamental to ensuring transparency, reproducibility, and comparability of studies. However, no explicit recommendations for reporting the use of the ATC/DDD methodology to construct study variables are available in current reporting guidelines for the execution of drug utilisation and pharmacoepidemiological studies, neither in RECORD-PE nor STaRT-RWE.  
+
+The aim of this study is to develop recommendations on reporting practices and a checklist for studies using the ATC/DDD methodology for drug utilization and pharmacoepidemiological research intended to be used as an extension of existing reporting guidelines for observationa studies.
+
+{{< include ../_template.qmd >}}

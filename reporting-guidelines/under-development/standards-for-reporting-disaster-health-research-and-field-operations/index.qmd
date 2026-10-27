@@ -1,0 +1,23 @@
+---
+title: "Standards for reporting disaster health research and field operations"
+contact-name: "Duygu Ege Zilan"
+contact-email: "duygu.ege.deu@hotmail.com"
+date-registered: "27 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+Disaster health and disaster medicine research is conducted across highly heterogeneous settings and includes epidemiological studies, interventional and response evaluations, qualitative and mixed-methods research, case-based studies, narrative field reports, after-action reports, and evidence syntheses. Although established reporting guidelines such as CONSORT, STROBE, and PRISMA provide essential standards for specific study designs, disaster-related research also requires reporting of context-specific information that is not consistently addressed by design-specific guidelines. These include the type and phase of the disaster, temporal and geographical context, affected populations, baseline conditions, health-system capacity, field constraints, data sources, response characteristics, coordination, and disaster-specific outcomes. 
+
+Several disaster-specific reporting initiatives have addressed particular areas. CONFIDE provides guidance for reporting field interventions and disaster-related case reports, Utstein-based frameworks address selected disaster and prehospital reporting domains, and the recently developed CAST-D guideline focuses specifically on disaster-related case studies in medicine and public health. However, these initiatives are primarily designed for particular report types, settings, or methodological contexts. A broader reporting framework that identifies the minimum disaster-specific information that should accompany different types of disaster health research remains needed. 
+
+STARDIS is therefore being developed as an integrative reporting guideline for disaster health and disaster medicine research. Given the multidisciplinary nature of disaster research, previous reporting frameworks have often been limited to specific professional groups and operational contexts. A broader reporting structure that accommodates diverse clinical, public health, operational, research, and policy perspectives is needed to improve consistency across the field. Rather than replacing existing design-specific reporting guidelines, STARDIS is designed to define the minimum disaster-specific information that should be reported alongside them. Ultimately, the guideline aims to improve the completeness, transparency, consistency, and comparability of disaster-related scientific publications, facilitating interpretation and evidence synthesis across disaster types, phases, settings, and study designs.
+
+{{< include ../_template.qmd >}}
