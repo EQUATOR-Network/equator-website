@@ -8,18 +8,18 @@
 ::: {.reporting-guideline-key-info-box data-content='key information'}
 
 ::: {.grid}
-::: {.g-col-md-4 data-content='{{< meta acronym >}}'}
+::: {.g-col-12 .g-col-md-4 data-content='{{< meta acronym >}}'}
 **Reporting guideline acronym**
 :::
-::: {.g-col-md-8 .notranslate data-content='{{< meta acronym >}}'}
+::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta acronym >}}'}
 {{< meta acronym >}}
 :::
 <!-- row -->
 
-::: {.g-col-md-4 data-content='{{< meta provided-for >}}'}
+::: {.g-col-12 .g-col-md-4 data-content='{{< meta provided-for >}}'}
 **Provided for**
 :::
-::: {.g-col-md-8 .notranslate data-content='{{< meta provided-for >}}'}
+::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta provided-for >}}'}
 {{< meta provided-for >}}
 :::
 <!-- row -->

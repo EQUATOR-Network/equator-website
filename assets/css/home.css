@@ -70,6 +70,11 @@ h1 {
 td p {
     margin-bottom: 4px;
 }
+
+#common-rgs td:first-child {
+    min-width: 100px;
+}
+
 .logos {
     text-align: center;
     width: 100%;
