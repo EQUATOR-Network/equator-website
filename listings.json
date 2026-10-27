@@ -37,7 +37,7 @@
       "/reporting-guidelines/care/index.html",
       "/reporting-guidelines/prisma/index.html",
       "/reporting-guidelines/strobe/index.html",
-      "/reporting-guidelines/prisma-children-and-adolescents-prisma-c-2026-extension-statement-and-explanation-enhancing-the-reporting-and-utility-of-systematic-reviews-of-interventions-in-paediatrics/index.html",
+      "/reporting-guidelines/prisma-children-and-adolescents/index.html",
       "/reporting-guidelines/the-vaccine-clinical-study-reporting-guideline-the-value-checklist-with-explanation-and-elaboration/index.html",
       "/reporting-guidelines/a-reporting-tool-for-adapted-guidelines-in-health-care-the-right-adapt-checklist/index.html",
       "/reporting-guidelines/prisma-ci-extension-statement-checklist/index.html",
@@ -727,6 +727,12 @@
     ]
   },
   {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
     "listing": "/reporting-guidelines/under-development/index.html",
     "items": [
       "/reporting-guidelines/under-development/a-framework-for-the-identification-and-reporting-of-modifications-to-surgical-procedures-the-surgical-modification-and-reporting-tool-smart-checklist/index.html",
@@ -932,12 +938,6 @@
       "/reporting-guidelines/under-development/value-vaccine-clinical-research-reporting-guideline/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
     ]
   },
   {
