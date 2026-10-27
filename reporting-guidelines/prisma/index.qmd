@@ -91,7 +91,7 @@ relevant-more: |-
 
   [**PRISMA-LSR**](/reporting-guidelines/prisma-lsr/): Akl EA, Khabsa J, Iannizzi C, Piechotta V, Kahale LA, Barker JM, McKenzie JE, Page MJ, Skoetz N; PRISMA-LSR Group. Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR): checklist and explanation. BMJ. 2024;387:e079183. PMID: [39562017](https://pubmed.ncbi.nlm.nih.gov/39562017/) \
   
-    [**PRISMA-Children and Adolescents](/reporting-guidelines/prisma-children-and-adolescents-prisma-c-2026-extension-statement-and-explanation-enhancing-the-reporting-and-utility-of-systematic-reviews-of-interventions-in-paediatrics/): Baba A, Farid-Kapadia M, Smith M, Hartling L, Moher D, Hooft L, Offringa M. PRISMA-Children and Adolescents (PRISMA-C) 2026 extension statement and explanation: enhancing the reporting and utility of systematic reviews of interventions in paediatrics. BMJ 2026; 39: e088561. PMID: [42055583](https://pubmed.ncbi.nlm.nih.gov/42055583/)
+    [**PRISMA-Children and Adolescents](/reporting-guidelines/prisma-children-and-adolescents/): Baba A, Farid-Kapadia M, Smith M, Hartling L, Moher D, Hooft L, Offringa M. PRISMA-Children and Adolescents (PRISMA-C) 2026 extension statement and explanation: enhancing the reporting and utility of systematic reviews of interventions in paediatrics. BMJ 2026; 39: e088561. PMID: [42055583](https://pubmed.ncbi.nlm.nih.gov/42055583/)
 website-url: <http://www.prisma-statement.org/>
 additional-languages: |-
   **PRISMA 2020 translations**
