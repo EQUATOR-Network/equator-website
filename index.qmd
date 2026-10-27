@@ -1,5 +1,5 @@
 ---
-pagetitle: "Reporting Guidelines by the UK EQUATOR Centre"
+pagetitle: "Reporting Guidelines | Home Page"
 page-layout: custom
 section-divs: false
 toc: false
