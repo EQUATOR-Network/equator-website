@@ -727,12 +727,6 @@
     ]
   },
   {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
     "listing": "/reporting-guidelines/under-development/index.html",
     "items": [
       "/reporting-guidelines/under-development/a-framework-for-the-identification-and-reporting-of-modifications-to-surgical-procedures-the-surgical-modification-and-reporting-tool-smart-checklist/index.html",
@@ -873,6 +867,7 @@
       "/reporting-guidelines/under-development/reporting-guidelines-for-case-series-studies/index.html",
       "/reporting-guidelines/under-development/reporting-guidelines-for-organoid-based-clinical-trials-an-extension-of-the-consort-statement/index.html",
       "/reporting-guidelines/under-development/reporting-guidelines-for-pathology-in-randomised-controlled-trials-consort-path/index.html",
+      "/reporting-guidelines/under-development/emma-checklist/index.html",
       "/reporting-guidelines/under-development/reporting-items-for-evidence-summary/index.html",
       "/reporting-guidelines/under-development/reporting-checklist-for-systematic-review-of-clinical-practice-guidelines-a-right-extension-statement/index.html",
       "/reporting-guidelines/under-development/reporting-of-home-visiting-effectivenessefficacy-research-rohver/index.html",
@@ -912,6 +907,7 @@
       "/reporting-guidelines/under-development/standardized-protocol-items-recommendations-for-observational-studies-spiros/index.html",
       "/reporting-guidelines/under-development/standardizing-surgical-interventions-co-interventions-establishing-quality-assurance-for-surgical-interventions-in-randomised-controlled-trials-stitch-it/index.html",
       "/reporting-guidelines/under-development/standards-for-reporting-of-digital-health-education-intervention-trials-stedi/index.html",
+      "/reporting-guidelines/under-development/standards-for-reporting-disaster-health-research-and-field-operations/index.html",
       "/reporting-guidelines/under-development/standards-of-reporting-the-network-pharmacology-of-chinese-medicine/index.html",
       "/reporting-guidelines/under-development/standards-of-reporting-for-studies-on-medical-grade-footwear-for-adults/index.html",
       "/reporting-guidelines/under-development/survey-aware-machine-learning-saml-statement-reporting-items-for-machine-learning-studies-using-complex-sample-survey-data/index.html",
@@ -938,6 +934,12 @@
       "/reporting-guidelines/under-development/value-vaccine-clinical-research-reporting-guideline/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
     ]
   },
   {
