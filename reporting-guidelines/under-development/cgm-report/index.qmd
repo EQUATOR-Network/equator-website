@@ -1,0 +1,22 @@
+---
+title: "CGM-REPORT: A Reporting Guideline for Studies Using Continuous Glucose Monitoring in Individuals Without Diabetes"
+contact-name: "Gabriella Rákóczi"
+contact-email: "gabriella.rakoczi.phd@gmail.com"
+date-registered: "28 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+- clinical trials
+# - clinical trial protocols
+# - literature reviews
+- Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+Continuous glucose monitoring (CGM) is increasingly used in research involving individuals without diagnosed diabetes, including populations with normoglycemia, prediabetes, metabolic risk, and other non-diabetic conditions. However, substantial variability exists in the reporting of CGM methodology and outcomes, including participant and glycemic-status definitions, CGM device characteristics, monitoring duration and data completeness, sensor wear and visibility, data processing, metric definitions, glucose thresholds, and calculation methods. Incomplete or inconsistent reporting can limit reproducibility, comparability across studies, interpretation of findings, and quantitative evidence synthesis. 
+
+CGM-REPORT aims to develop an evidence- and consensus-based reporting guideline defining the minimum information that should be reported in studies using CGM in individuals without diagnosed diabetes. The guideline is intended to be applicable across relevant research designs in which CGM data are collected or analysed, rather than being restricted to a single clinical condition, CGM metric, or study design. It will complement existing study-design-specific reporting guidelines by providing CGM-specific reporting items that are not sufficiently addressed by general reporting frameworks. 
+
+The initial candidate reporting items will be informed by an empirical assessment of reporting practices and deficiencies identified through our ongoing systematic review and meta-analysis of CGM reference values in individuals without diabetes, together with existing reporting guidelines and relevant CGM guidance. Candidate items will subsequently be refined through a structured international multidisciplinary consensus process. The resulting guideline is intended to improve the transparency, completeness, reproducibility, and comparability of CGM research in individuals without diabetes and to facilitate interpretation, replication, evidence synthesis, and future clinical translation.
+{{< include ../_template.qmd >}}
