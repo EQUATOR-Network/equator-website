@@ -20,7 +20,7 @@ our database quickly and accurately.
   extension, or updated version.
 
 ## What to send us
-
+**From 2026, we will generally only list guidelines that are indexed on PubMed**
 Please [contact us](/about/contact.qmd) with the subject line "New
 reporting guideline" and include:
 
