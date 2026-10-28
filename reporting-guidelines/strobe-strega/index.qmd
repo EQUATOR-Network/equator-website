@@ -91,8 +91,7 @@ additional-languages: ''
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
-other: An online fillable STREGA checklist is also available via the GoodReports website
-  at <https://www.goodreports.org/reporting-checklists/strega/>.
+other: 
 other-relevant-research: ''
 sticky: true
 downloads: ''

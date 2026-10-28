@@ -124,8 +124,7 @@ additional-information: |-
   Guidance for developing protocols for systematic reviews and meta-analyses is provided in the PRISMA-P Statement. For further details please visit: [PRISMA-P Statement](/reporting-guidelines/prisma-protocols/)
 relevant-editorials: ''
 primary-guideline: ''
-other: An online fillable PRISMA 2020 checklist is also available via the GoodReports
-  website at <https://www.goodreports.org/reporting-checklists/prisma/>.
+other: 
 other-relevant-research: ''
 sticky: true
 search-priority: 1
