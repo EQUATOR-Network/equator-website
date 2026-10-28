@@ -1,0 +1,23 @@
+---
+title: "PHENOMOVE: Phenotyping standards for reporting signs and symptoms in movement disorders"
+contact-name: "Malco Rossi"
+contact-email: "mrossi@fleni.org.ar"
+date-registered: "28 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+- Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+PHENOMOVE is a reporting guideline under development intended to improve the completeness, consistency, and transparency of clinical phenotype reporting in scientific articles describing people with movement disorders. It will apply to case reports, case series, family studies, genetic or mutational reports, research letters, and observational studies in which movement-disorder signs and symptoms constitute a component. It focuses on the clinical phenotype portion of a manuscript rather than prescribing how a study should be designed or reported in its entirety.
+
+The guideline will include a common set of demographic and clinical items and phenotype-specific modules for parkinsonism, dystonia, hereditary spastic paraplegia, ataxia, chorea, myoclonus, and paroxysmal movement disorders. The modules address onset, anatomical distribution, disease course, relevant motor and non-motor manifestations, associated neurological and systemic features, treatment response, functional milestones, and appropriate rating instruments. They will prompt authors to indicate whether relevant features were reported for all, some, or none of the described participants.
+
+PHENOMOVE is needed because systematic evidence synthesis and experience extracting data for movement-disorder genetic databases, such as MDSGene, have demonstrated frequent omission of clinically important phenotypic information. When a feature is not mentioned, readers cannot distinguish whether it was absent, not assessed, or simply not reported. This limits genotype–phenotype analyses, comparison across studies, systematic reviews, meta-analyses, and clinical interpretation. Existing general guidelines such as CARE and STROBE, and broader phenotype guidance such as PHELIX for ultra-rare genetic conditions, do not provide detailed movement-disorder-specific modules. PHENOMOVE is intended to complement, not replace, those guidelines. It is not a clinical practice guideline, diagnostic tool, research-conduct guideline, or methodological quality-appraisal instrument.
+
+{{< include ../_template.qmd >}}

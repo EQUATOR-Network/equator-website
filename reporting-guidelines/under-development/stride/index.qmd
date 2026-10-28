@@ -1,0 +1,25 @@
+---
+title: "Standards for transparent reporting of dental implant studies (STRIDE):"
+contact-name: "Shivashankar Kengadaran"
+contact-email: "drshivashankark@gmail.com"
+date-registered: "28 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+- clinical trials
+# - clinical trial protocols
+# - literature reviews
+- Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+STRIDE (STandards for tRansparent reportIng of Dental Implant studiEs) is a reporting guideline for primary studies evaluating dental implant therapy — surgical placement, prosthodontic loading and restoration, and peri-implant health or disease — whether implant survival/success or peri-implant status is a primary outcome, secondary outcome, or exposure of interest. It is intended for authors, peer reviewers, journal editors, and evidence synthesists across implant dentistry, periodontology, prosthodontics, and oral and maxillofacial surgery. Because implant studies span randomized trials, non-randomized comparative studies, cohort and cross-sectional studies, and case series, STRIDE is deliberately design-transversal rather than tied to a single design.
+
+No existing guideline fills this role. The design-based guidelines CONSORT and STROBE are silent on implant-specific reporting content (implant system and surface, surgical and loading protocol, and which success/survival or peri-implant disease definition was applied), and no CONSORT or STROBE extension for implant dentistry exists or is under development on the EQUATOR register. Two adjacent initiatives sit beside this gap rather than filling it: clinical practice guidelines from ITI, EAO, and AO/AAP consensus workshops recommend what clinicians should do, not what authors should report; and the Implant Dentistry Core Outcome Set and Measurement (ID-COSM; Tonetti et al., 2023) specifies which outcomes implant trials should measure, not how study conduct and those outcomes should be disclosed in a manuscript.
+
+There is empirical evidence that this gap matters. Successive methodological reviews spanning 2011–2025 have found persistent reporting deficiencies specific to implant-dentistry research: incomplete adherence to CONSORT items in implant RCTs (Vere et al., 2011; Cairo et al., 2012), poor reporting quality in implant-RCT abstracts (Menne et al., 2022), inconsistent reporting and methodological quality in split-mouth trials — a design very common in this literature (Qin et al., 2022), inconsistent handling and disclosure of incomplete outcome data such as dropouts and implant failures (Lieber et al., 2020), and gaps in protocol registration and network-geometry reporting in network meta-analyses (Ashi & Khurshid, 2025). Compounding this, implant “success” and “survival” have several competing operational definitions in circulating use since Albrektsson et al. (1986), and peri-implant disease case definitions were only consensus-standardized in 2018 (Berglundh et al.); neither CONSORT nor STROBE requires an author to state which definition was applied, so nominally comparable outcomes across studies may not be measuring the same thing.
+
+STRIDE is therefore conceived as a single, cross-design, evidence-grounded guideline. Its items will be drawn from a scoping review of the implant-dentistry reporting-quality literature and a structured audit of definition use in a corpus of published studies, so that each recommendation addresses a documented, not presumed, reporting deficiency.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,25 @@
+---
+title: "REporting of studies Conducted using Observational Routinely collected health Data (RECORD): updated reporting guideline for observational studies using routinely collected health data"
+contact-name: "Eric Benchimol, Sinéad Langan"
+contact-email: "eric.benchimol@sickkids.ca, Sinead.Langan@lshtm.ac.uk"
+date-registered: "28 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+- Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+We will update RECORD, published in 2015 as a STROBE extension, to improve transparent reporting of observational studies using routinely collected health data. The guideline will apply to cohort, case-control and cross-sectional studies across clinical, health services, population health and pharmacoepidemiological research.
+
+The scope includes administrative health data, electronic health/medical records, registries, and newer routinely collected data sources such as smartphones, wearable devices and disease-management systems. The update will consider reporting challenges arising from linked and international multi-database cohorts, distributed analyses, increasingly accessible research platforms, and artificial intelligence/machine learning-assisted analyses and workflows. Candidate topics include data and variable validation, missing data, population and subgroup descriptions, protocol versioning, and transparency and reproducibility of AI/ML use. Their inclusion and final wording will be determined through the consensus process.
+
+An update is needed because data sources and research practices have changed substantially since 2015, while preliminary work has identified persistent reporting deficiencies. An evaluation in eight high-impact journals found that journal endorsement did not ensure better RECORD adherence. Evidence on barriers and facilitators to guideline use will therefore inform the update, including clarity, usability and prioritization of reporting items.
+
+Outputs will include an updated checklist and explanatory material for authors, peer reviewers, editors and research users, used alongside STROBE. Implementation research and LLM-based reporting supports are separate components of the wider project.
+
+{{< include ../_template.qmd >}}

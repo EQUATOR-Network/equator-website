@@ -1,0 +1,23 @@
+---
+title: "M-TRAIN REPORT: Reporting Guideline for Simulation-Based Training, Education and Research in Medical and Health Care"
+contact-name: "Yaser Mohammed Al-Worafi"
+contact-email: "yworafi@fcms.edu.sa"
+date-registered: "28 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+- Other
+---
+
+<!-- Add Description Below -->
+The SIM-TRAIN REPORT guideline aims to standardize the reporting of simulation-based training, education, and research across the medical and health professions, including medicine, pharmacy, nursing, dentistry, and allied health disciplines. It will be applicable to a broad range of simulation modalities, including high- and low-fidelity simulation, standardized/simulated patients, task trainers, virtual simulation, augmented and virtual reality (AR/VR), serious games, and artificial intelligence-assisted simulation.
+Simulation is increasingly used not only for knowledge and skills development, clinical reasoning, communication, teamwork, patient safety, competency assessment, and continuing professional development, but also as a research methodology and controlled environment for investigating clinical, educational, behavioral, human-factor, and healthcare-system questions. Despite its expanding role, reporting remains inconsistent. Published studies may omit essential information about the research or educational context, objectives, study and scenario design, simulation modality and fidelity, participant characteristics and preparation, facilitator or researcher roles, prebriefing, debriefing, technology and equipment, data collection procedures, assessment methods, outcome measures, implementation procedures, and resources required for replication.
+
+Incomplete reporting limits critical appraisal, reproducibility, comparison across studies and settings, evidence synthesis, and translation of simulation findings into education and practice. General reporting guidelines such as CONSORT, STROBE, and TIDieR address important methodological elements but are not specifically designed to capture the educational, research, operational, and technological characteristics of simulation-based activities.
+SIM-TRAIN REPORT will therefore provide a structured, multidisciplinary reporting framework covering the research and educational context, study objectives and design, simulation intervention and scenario, participants, learners, facilitators and researchers, prebriefing and debriefing, data collection, assessment and outcomes, technology and equipment, ethics and safety, implementation, and reproducibility. The guideline is intended for researchers, educators, clinicians, simulation professionals, journal editors, reviewers, and institutions reporting simulation-based training, education, and research in the medical, health care and patient care fields. 
+
+{{< include ../_template.qmd >}}

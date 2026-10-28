@@ -1,0 +1,23 @@
+---
+title: "Checklist for Reporting Valuation Studies of Multi-Attribute Utility-Based Instruments – Collaborative Involvement"
+contact-name: "Victoria Gale"
+contact-email: "v.a.gale@sheffield.ac.uk"
+date-registered: "28 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+- Other
+---
+
+<!-- Add Description Below -->
+Collaboration with parties beyond the core research team is increasingly recognised as important. Potential ‘collaborators’ can include individuals, organisations or communities beyond the core research team that have a direct interest in the process and outcomes of a project, research or policy endeavour. By extension, we define ‘collaborative involvement’ (CI) in research as an activity/activities between the core research team and collaborators that are conducted on a peer-to-peer level that is designed to help inform, interpret, implement, disseminate, and/or evaluate research. Collaborators have a right to be involved in research that affects them. CI activities help ensure that the needs of collaborators are at the core of research activities and in turn can help improve the value of research, such as by increasing its relevance to patients, supporting recruitment, and enhancing dissemination. Many health research funding bodies now require and promote the engagement of collaborators. 
+
+While CI now forms a core part of many aspects of health and care research, it appears to be less consistent within health state valuation research specifically (i.e., research that aims to derive people’s quantitative preferences for living in different health states). Largely, CI in health state valuation appears to have been limited to helping to inform health state descriptions for use in valuation studies, yet there are multiple instances where CI could be incorporated, such as supporting diverse recruitment and helping explain valuation methods to participants. CI in health state valuation contrasts that within related disciplines, such as patient-reported outcome measure development where recommendations for incorporating CI already exist.
+
+Facilitating consistent, high-quality CI in health state valuation is thus a necessary step to ‘future-proof’ the discipline. Integral to this will be the development of a set of best practice guidelines and reporting checklist to help promote quality and transparency as CI within health state valuation research develops. In previous work, a scoping review was conducted to identify emerging recommendations for best practice in CI in health state valuation and a 15-item framework was synthesised. The current project aims to build on this initial research and develop a set of robust, agreed-upon best practice guidelines for CI in health state valuation, and an extension to the Checklist for Reporting Valuation Studies of Multi-Attribute Utility-Based Instruments (CREATE) (CREATE-CI).
+
+{{< include ../_template.qmd >}}

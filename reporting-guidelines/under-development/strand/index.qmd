@@ -1,0 +1,25 @@
+---
+title: "Standards for transparent reporting of aligner treatment studies (STRAND)"
+contact-name: "Shivashankar Kengadaran"
+contact-email: "drshivashankark@gmail.com"
+date-registered: "28 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+- clinical trials
+# - clinical trial protocols
+# - literature reviews
+- Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+STRAND (STandards for tRansparent reporting of Aligner treatmeNt stuDies) is a reporting guideline for primary studies evaluating clear aligner therapy — tooth movement accuracy and predictability, treatment duration and efficiency, compliance, retention, and comparative effectiveness against fixed appliances — across randomized trials, retrospective and prospective cohort studies, cross-sectional studies, and case series. It is intended for authors, peer reviewers, journal editors, and evidence synthesists in orthodontics and dentofacial orthopedics. Because clear aligner studies span multiple designs rather than concentrating in one, STRAND is deliberately design-transversal.
+
+No existing guideline fills this role. CONSORT's orthodontic-trial adaptation (Pandis et al., 2015) is appliance-neutral and RCT-only, and most aligner studies are not RCTs. STROBE is silent on appliance-specific content. OHStat (Best et al., 2024), a recent discipline-agnostic guideline for oral health observational studies and trials, incorporates STROBE and CONSORT generically but by design cannot name aligner-specific items — brand, attachment protocol, staging, compliance-monitoring method — any more than it names implant- or endodontic-specific items. A 2025 international Delphi consensus on clear aligner treatment (Arveda et al., AJODO) is a clinical-practice document — what aligners can and cannot clinically achieve — not a reporting guideline, and does not address manuscript disclosure.
+
+There is empirical evidence that this gap matters. Robertson et al. (2020) found that of 7 eligible primary studies on aligner effectiveness, only 1 was an RCT and 6 were retrospective cohorts, with 6 of 7 judged moderate risk of bias and 1 high. Bichu et al. (2024) found that current aligner research literature “fails to standardize or report” malocclusion severity, aligner brand, material properties, patient compliance, and total aligner count, and that protocol variation in aligner-change timing goes undisclosed — naming, in effect, a ready-made list of candidate reporting items. Reflecting these weaknesses, a synthesis of 18 systematic reviews of aligner predictability found none achieved high AMSTAR-2 quality and only 3 reached moderate, a limitation traceable to the primary literature underneath. Independently, critical commentary on the 2025 Delphi consensus flagged continued reliance on low-quality retrospective evidence in the field.
+
+STRAND is therefore conceived as a single, cross-design, evidence-grounded guideline sitting on top of the generic scaffolds already in use (OHStat, STROBE, CONSORT), adding the disclosure items specific to clear aligner therapy. Its items will be drawn from a scoping review of the aligner reporting-quality literature, so that each recommendation addresses a documented, not presumed, deficiency.
+
+{{< include ../_template.qmd >}}
