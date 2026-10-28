@@ -1,0 +1,26 @@
+---
+title: "A reporting guideline for the use of artificial intelligence in legal research: reporting standards for legal research in which generative artificial intelligence or large language models are used"
+contact-name: "Jason Chin"
+contact-email: "jason.chin@anu.edu.au"
+date-registered: "28 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+This guideline will specify the minimum information that authors should report when artificial intelligence, and in particular generative artificial intelligence and large language models, has been used in the conduct of legal research. It is intended to apply to legal scholarship generally, including doctrinal analysis and empirical legal studies, and to the use of both general-purpose models and AI-enabled commercial legal research platforms. It addresses AI used as an instrument of the research rather than AI as the object of study.
+
+Reporting guidelines addressing artificial intelligence now exist across the health and behavioural sciences, including GUIDE-LLM for large language models in the behavioural and social sciences, and PRISMA-trAIce for AI used as a tool within evidence synthesis. No equivalent guidance exists for legal research, and the guidelines developed in other disciplines do not address the reporting problems that are distinctive to law.
+
+Legal scholarship depends on the accurate identification, citation and characterisation of primary authority. Generative AI systems are known to fabricate case citations, to misdescribe the holdings of decisions that do exist, and to blend jurisdictions. Authority may be genuine and accurately described and nonetheless be from the wrong jurisdiction, no longer good law, or not binding on the question addressed. None of the existing AI reporting guidelines contains items directed to any of these problems, because they do not arise in the same form outside law. Similarly, no existing guideline addresses whether a model or platform has been adapted for the jurisdiction whose law is being researched, what corpus of authority it was able to search, or whether it was used for interpretive tasks such as identifying the ratio of a decision, determining whether authority is binding or persuasive, or applying principles of statutory interpretation.
+
+Guidance that does exist for law is fragmented and was not designed for scholarship. Courts in several jurisdictions have issued practice directions requiring the verification of cited authority and restricting the entry of privileged or suppressed material into AI tools, but these govern the conduct of litigation, and the leading Australian practice note expressly excludes dedicated AI legal research software from its operation. Law journals and law reviews have adopted policies that differ as to what triggers disclosure, what must be disclosed, and where the disclosure should appear, and a recent survey of United States law journals found that most have no formal policy at all.
+The consequence is that legal researchers have no settled standard to report against, readers and editors have no consistent basis on which to appraise AI-assisted legal scholarship, and journals have no developed instrument to adopt. Because legal scholarship is used by courts, law reform bodies and policy makers, the consequences of unreliable or unappraisable work extend beyond the academy. This guideline will fill that gap through a formal consensus process conducted in accordance with EQUATOR Network guidance.
+
+{{< include ../_template.qmd >}}

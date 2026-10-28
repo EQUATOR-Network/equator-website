@@ -1,0 +1,18 @@
+---
+title: "RepOrting standards for Systematic Evidence Syntheses (ROSES): an update to reporting standards for systematic reviews, meta-analyses, and systematic maps in environmental sciences"
+contact-name: "Kyle Morrison, Biljana Macura, Matthew Grainger, Shinichi Nakagawa"
+contact-email: "khmorri1@ualberta.ca, biljana.macura@sei.org, matthew.grainger@nina.no, snakagaw@ualberta.ca"
+date-registered: "28 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+- literature reviews
+# - Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+The ROSES Update revises the RepOrting standards for Systematic Evidence Syntheses (ROSES), originally developed to support transparent reporting of systematic reviews and systematic maps in environmental management. The updated guideline is intended for authors, peer reviewers, editors, and other users of environmental evidence syntheses, with development focused first on systematic reviews (including meta-analyses) and subsequently extended to systematic maps. Since ROSES was first published in 2017, reporting expectations and evidence-synthesis practice have shifted considerably as automation tools are increasingly applied across key stages of the review process. The development team has also identified persistent gaps in reporting completeness within environmental evidence syntheses, gaps that reduce transparency, hinder replication and reuse, and make it difficult to determine precisely what was done in a given review. The updated guideline will draw on existing ROSES materials, a new item bank compiled from evidence-synthesis reporting guidelines and standards across multiple disciplines and review types, structured consensus processes involving methodological experts, broader stakeholder survey feedback, and validation exercises assessing usability and repeatability. Planned outputs include updated ROSES forms and flow diagrams, supporting development documentation, and an explanation-and-elaboration document, together aimed at promoting more complete, transparent, and consistent reporting of environmental evidence syntheses.
+{{< include ../_template.qmd >}}
