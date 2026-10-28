@@ -7,7 +7,8 @@ provided-for: Reporting nutritional epidemiology and dietary assessment research
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
-relevant-urls: ''
+relevant-urls: |-  
+  [Read the full-text](https://pmc.ncbi.nlm.nih.gov/articles/PMC4896435/) of STROBE-NUT. 
 full-bibliographic-reference: |-
   Lachat C, Hawwash D, Ocké MC, Berg C, Forsum E, Hörnell A, Larsson C, Sonestedt E, Wirfält E, Åkesson A, Kolsteren P, Byrnes G, De Keyzer W, Van Camp J, Cade JE, Slimani N, Cevallos M, Egger M, Huybrechts I. Strengthening the Reporting of Observational Studies in Epidemiology-Nutritional Epidemiology (STROBE-nut): An Extension of the STROBE Statement.
 
@@ -105,8 +106,7 @@ additional-information: 'The protocol for the development of this guideline is a
 relevant-editorials: ''
 primary-guideline: ''
 other: |-
-  An online fillable STROBE-Nut checklist is also available via the GoodReports website at <https://www.goodreports.org/reporting-checklists/strobe-nut/>.
-
+  A fillable checklist can be found in the supplementary material of the [Explanation and Elaboration paper](https://www.ncbi.nlm.nih.gov/pubmed/28916567)
   Dietary assessment guidelines and interactive tools for the design and conduct of dietary assessment studies are available from: <https://www.nutritools.org/>
 other-relevant-research: ''
 sticky: true
