@@ -1,5 +1,5 @@
 ---
-title: "Checklist for Reporting of Sample Size Determination in Randomized Controlled Trials"
+title: "Checklist for Reporting of Sample Size Determination in Randomized Controlled Trials (CROSS-RCT)"
 contact-name: "Yinghui Jin"
 contact-email: "zn003369@whu.edu.cn"
 date-registered: "28 October 2026"
