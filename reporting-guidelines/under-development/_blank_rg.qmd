@@ -2,9 +2,9 @@
 #YAML
 date-updated: null
 categories:
-# - clinical trials
-# - clinical trial protocols
-# - literature reviews
+# - Clinical trials
+# - Clinical trial protocols
+# - Literature reviews
 # - Observational studies & Case reports
 # - Other
 ---

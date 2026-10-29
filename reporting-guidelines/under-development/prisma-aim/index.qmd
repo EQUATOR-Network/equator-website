@@ -1,0 +1,24 @@
+---
+title: "Preferred Reporting Items for Systematic Reviews and Meta-Analyses - Artificial Intelligence as Method (PRISMA-AIM): a reporting guideline for AI use in systematic reviews"
+contact-name: "Honghao Lai"
+contact-email: "laihh17@hotmail.com"
+date-registered: "29 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+- artificial intelligence
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+PRISMA-AIM will provide a consensus-based reporting guideline for AI used as a methodological tool in systematic reviews across disciplines. It applies when machine-learning or generative AI outputs substantively inform methodological decisions, analyses, evidence synthesis, interpretation or other substantive review content, including AI used directly, embedded in review platforms or incorporated into agent-based workflows.
+
+AI tools can contribute to searching, study selection, data extraction, risk-of-bias assessment and other review tasks. Current reporting is often incomplete or heterogeneous. Readers need clear information about tools and models, inputs, configuration, their role within the workflow, human oversight, output checking and supporting materials to understand, appraise and reproduce AI contributions.
+
+PRISMA-AIM will complement PRISMA 2020 with AI-specific reporting items, labelled where conditionally applicable, and an accompanying explanation and elaboration document. Existing recommendations and empirical reporting practices will inform candidate items, followed by international consultation, consensus development and usability testing. The resulting guideline will support review authors, peer reviewers, editors and readers in reporting and assessing AI components throughout systematic review manuscripts.
+
+{{< include ../_template.qmd >}}

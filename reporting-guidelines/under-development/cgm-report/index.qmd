@@ -6,9 +6,9 @@ date-registered: "28 October 2026"
 year-registered: 2026
 date-updated: null
 categories:
-- clinical trials
-# - clinical trial protocols
-# - literature reviews
+- Clinical trials
+# - Clinical trial protocols
+# - Literature reviews
 - Observational studies & Case reports
 # - Other
 ---
