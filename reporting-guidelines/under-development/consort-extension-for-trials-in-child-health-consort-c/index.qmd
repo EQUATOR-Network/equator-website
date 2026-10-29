@@ -6,7 +6,7 @@ date-updated: 31 January 2024
 contact-name: Dr Martin Offringa
 contact-email: martin.offringa@sickkids.ca
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 An official extension of the CONSORT 2010 Statement for reporting randomised controlled trials in children is currently under development. A Delphi process to generate possible reporting standards for the guideline has taken place in 2009-2010. A systematic review of the literature was conducted in Q2-3 2014. A Consensus meeting was held on 16 September 2014. The evidence synthesis, Delphi survey and international consensus have been completed. The checklists have been finalised (available on request).

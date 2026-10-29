@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Hongcai Shang; Rui Zheng
 contact-email: shanghongcai@126.com; zhengrui0904@163.com
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 The chemical composition of herbal medicinal products varies depending on the geographic source of the plant material, the climate in which it was grown, the time of harvest, and others. Even when herbal products are standardised for the content of known active or marker compounds to achieve more consistent pharmaceutical quality, there is variation in the concentrations of other constituents. Herbal medicines are often used as complementary therapies to conventional Western medicine, making it difficult to determine potential interactions between the two treatments, which may lead to unknown adverse events. These variations can result in differences in pharmacologic activity in vitro and in bioavailability in humans. In some traditional medical systems, such as Traditional Chinese Medicine, toxic herbs are also used. This is risk information that requires additional attention.

@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Anastasia A Theodosiou; Diane F Gbesemete
 contact-email: theodosiou@glasgow.ac.uk; d.gbesemete@soton.ac.uk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 Controlled human infection (CHI) studies --- also known as human challenge studies or controlled human infection models (CHIMs) --- involve the deliberate exposure of healthy volunteers to microorganisms under controlled conditions. These studies are increasingly used to explore microbial pathogenesis, investigate host-pathogen interactions, and accelerate vaccine and drug development, all within a rigorously monitored research environment.

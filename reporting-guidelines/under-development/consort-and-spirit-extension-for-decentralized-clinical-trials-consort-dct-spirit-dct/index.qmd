@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Xuan Zhang
 contact-email: zhangxuan@hkbu.edu.hk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 The rapid advancement of digital technologies and artificial intelligence has catalyzed a paradigm shift in clinical research, leading to the widespread adoption of decentralized clinical trials (DCTs). DCTs, which leverage remote methodologies for participant recruitment, consent, intervention delivery, and data collection, offer significant advantages, including improved patient access, diversity, and trial efficiency. These trials can be fully decentralized or adopt a "hybrid" model, blending remote components with traditional site-based visits.

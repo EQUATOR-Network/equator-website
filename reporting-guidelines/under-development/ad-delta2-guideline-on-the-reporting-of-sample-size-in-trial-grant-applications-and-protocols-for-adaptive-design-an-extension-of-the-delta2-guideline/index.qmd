@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Qiang Zhang
 contact-email: qzhang104@sheffield.ac.uk
 categories:
-- Clinical trial protocols
+- Study protocols
 ---
 
 Adaptive designs (ADs) are increasingly adopted in clinical trials to improve flexibility, efficiency, and ethical decision-making. However, the reporting of sample size calculations for ADs—particularly within trial protocols and grant applications—remains inconsistent. Essential elements such as prespecified decision rules, interim analysis plans, and measures of uncertainty (e.g. minimum, expected, and maximum sample sizes) are often missing or inadequately described.

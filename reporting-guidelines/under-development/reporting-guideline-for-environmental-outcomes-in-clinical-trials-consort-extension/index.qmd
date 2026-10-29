@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Johanne Juul Petersen
 contact-email: Johanne.juul.petersen@ctu.dk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 This CONSORT extension will help authors report the environmental impacts of the clinical interventions being tested in randomised controlled trials, considering the progression of climate change. According to developers, If clinical outcomes show no significant differences, the results of environmental outcomes could be crucial in determining which intervention to choose.

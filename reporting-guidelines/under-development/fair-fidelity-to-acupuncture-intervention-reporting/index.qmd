@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Arya Nielsen
 contact-email: Arya.nielsen@mountsinai.org
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 Treatment "fidelity" refers to the degree to which an intervention is implemented as intended. Acupuncture trials are guided by the Standards for Reporting Interventions in Controlled Trials of Acupuncture (STRICTA) checklist. This project aims to extend STRICTA for trial reporting, so that users of STRICTA can report fidelity of acupuncture interventions. The developers are in contact with STRICTA authors to collaborate and get their input.

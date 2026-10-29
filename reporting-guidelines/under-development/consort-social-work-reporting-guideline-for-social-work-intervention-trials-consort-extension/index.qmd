@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Bei Pan
 contact-email: panb16@163.com
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 This project aims to develop a reporting checklist for randomised controlled trials (RCTs) in the field of social work. Social work interventions often involve complex, multi-component programs that target various psychosocial, behavioural, and environmental factors. The contexts and mechanisms of these interventions can be quite different from clinical interventions in healthcare. A tailored reporting guideline would ensure that crucial details about the nature, content, delivery modes, and contextual factors of social work interventions are clearly reported. Reporting guidelines need to capture important details about these study settings, partnerships with providers/agencies, implementation processes and fidelity aspects. This ensures better contextualisation and transferability of findings.

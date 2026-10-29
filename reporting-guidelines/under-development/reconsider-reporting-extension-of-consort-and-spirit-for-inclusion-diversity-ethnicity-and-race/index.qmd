@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Peter Feldman
 contact-email: p.feldman@nari.edu.au
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 This project to develop an extension of CONSORT and SPIRIT reporting guidelines will focus on the reporting of variables relevant to ethnically, culturally and linguistically diverse participants in randomised controlled trials (RCTs). The resulting guideline will cover both methodological (for example, techniques of recuitment) and reporting aspects (relevant data for ethnically diverse people) of RCTs and will apply to both the main manuscript and supplementary materials.

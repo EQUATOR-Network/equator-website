@@ -6,7 +6,7 @@ date-updated: 9 January 2024
 contact-name: Prof. Zhao-Xiang Bian; Dr Xuan Zhang
 contact-email: bianzxiang@gmail.com; zhangxuan@hkbu.edu.hk
 categories:
-- Clinical trial protocols
+- Study protocols
 ---
 
 Multicentre trials are increasingly common, but writing protocols for such studies can be challenging. This project aims to find solutions to help reduce heterogeneity between study centres and avoid excessive centre effects on treatments. This will be an extension of the SPIRIT reporting guideline for multicentre trials.

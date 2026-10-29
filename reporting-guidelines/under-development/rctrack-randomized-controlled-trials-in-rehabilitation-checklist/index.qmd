@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Stefano Negrini
 contact-email: stefano.negrini@unimi.it
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 The aim of the RCTRaCk is to expand the existing CONSORT (Consolidated Standards of Reporting Trials) for Non-Pharmacological Treatment Studies checklist with a set of items that directly address the reproducibility of rehabilitation research, and involving clinical and observational trials.

@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Munya Dimairo
 contact-email: m.dimairo@sheffield.ac.uk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 The increasing need for efficient and innovative trial designs to rapidly evaluate investigative treatments and expedite clinical decision-making for the quick benefit of patients has led to the growing use of Adaptive and Platform Trials (APTs) in a randomised setting. Adaptive designs allow for pre-specified changes to trial design aspects (trial adaptations) based on accrued interim outcome data while maintaining valid conclusions. Examples of trial adaptations include early stopping of ineffective treatment arms, early trial stopping upon gathering sufficient evidence to reach conclusions, or allocating more participants to promising treatment arms. Platform trials further enhance this flexibility by enabling the addition of new treatment arms (or study populations/subpopulations) to an ongoing study, with or without interim analyses.

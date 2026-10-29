@@ -6,7 +6,7 @@ date-updated: 9 January 2024
 contact-name: Prof. Zhao-Xiang Bian
 contact-email: bianzxiang@gmail.com
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 With the encouragement of the policy on drug and medical device innovation, multicenter clinical trials and multiregional clinical trials are facing an unprecedented opportunity. Trials with a multicenter design are far more common now than before. However, we need to recognize that there are still some shortcomings in current multicenter trials, especially in terms of heterogeneity between study centres. Thus, it is urgent to develop an extension of the CONSORT statement aiming to improve the overall quality of multicentre clinical trials.

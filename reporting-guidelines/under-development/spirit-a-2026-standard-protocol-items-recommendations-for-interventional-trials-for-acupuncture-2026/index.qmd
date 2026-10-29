@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Yuting Duan; Zhaoxian Bian; Yaolong Chen
 contact-email: 18702009530@163.com; bianzxiang@gmail.com; chenyaolong@lzu.edu.cn
 categories:
-- Clinical trial protocols
+- Study protocols
 ---
 
 SPIRIT-A 2026 will be essential extension of SPIRIT 2025. Since 2016, more and more acupuncture RCTs published on TOP journals, and simutanously the reporting standard for acupuncture RCT protocols are also crucial to acupuncture researchers, practitioners, peer-reviewers, journal editors, policy-makers and other stakeholders. The reporting guideline will be developed to ensure the quality, transparency, and usability of acupuncture clinical trials protocols.

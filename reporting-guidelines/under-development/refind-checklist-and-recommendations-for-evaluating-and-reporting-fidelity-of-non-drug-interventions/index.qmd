@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Fernando Sousa
 contact-email: Fernando.sousa@monash.edu
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 Intervention fidelity refers to how an intervention is delivered and engaged as intended in a clinical trial. If an intervention has poor fidelity but shows effective outcomes, the observed effects may be derived from other factors rather than from intervention itself. These interpretations are only possible when intervention fidelity is clearly reported in clinical trials.

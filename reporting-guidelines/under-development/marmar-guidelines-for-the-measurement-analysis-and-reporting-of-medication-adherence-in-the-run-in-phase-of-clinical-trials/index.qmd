@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Non Wyn Davies
 contact-email: nnd22ppy@bangor.ac.uk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 Guideline rationale: Trial run-in phases are used as an enrichment strategy in later phase clinical studies to select participants based on certain factors or characteristics to reduce variability and increase effect size. Participants may typically be ineligible for randomisation in the main trial based on a lack of adherence, placebo response, or intolerance to the active medicine.

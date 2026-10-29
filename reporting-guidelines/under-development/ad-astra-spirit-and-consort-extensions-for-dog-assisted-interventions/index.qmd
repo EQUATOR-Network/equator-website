@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Sophie Hall
 contact-email: Sophie.hall@nottingham.ac.uk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 Dog-assisted interventions (DAIs) are therapeutic activities that involve a dog and aim to improve people's health and wellbeing, usually with a focus on improving mental health. DAIs can vary widely between providers and settings. Most existing DAI evidence is based on small studies with scientific flaws, which lack important details when published, including the risks to both human and dog partners.

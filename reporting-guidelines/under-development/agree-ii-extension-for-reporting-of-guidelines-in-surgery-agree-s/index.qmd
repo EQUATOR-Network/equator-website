@@ -6,7 +6,7 @@ date-updated: November 2019
 contact-name: Stavros A. Antoniou, MD
 contact-email: stavros.antoniou@hotmail.com
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 AGREE II (Appraisal of Guidelines for Research and Evaluation) is a framework for developing, appraising and reporting clinical practice guidelines. The group involved in the development of this reporting guideline extension has hypothesised that the original AGREE II document may not be fully relevant to clinical practice guidelines for surgical interventions and embarked therefore on the Guideline Assessment Project (GAP), divided into three phases (GAP I, II and III). The executive group consists of surgeons, members of surgical quality and research boards, guideline developers, evidence synthesis experts, GRADE methodologists, biostatisticians, and 2 leaders of the AGREE Group.

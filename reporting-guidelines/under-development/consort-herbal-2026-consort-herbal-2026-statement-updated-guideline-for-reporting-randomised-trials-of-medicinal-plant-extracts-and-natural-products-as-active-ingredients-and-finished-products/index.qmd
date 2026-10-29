@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Dr Banaz Jalil
 contact-email: b.jalil@ucl.ac.uk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 Clinical research on medicinal plant extracts and natural products (including herbal medicines) and bioactive natural products differs from work with single compounds. Extracts from plants, fungi, or animals are complex mixtures containing active, partially active, and inactive components, often affecting multiple targets. Their composition can change based on preparation methods and source materials, making it challenging to report and interpret the pharmacological, toxicological and clinical findings in a reproducible and transparent way. The quality, safety, and efficacy of such products are highly product-specific. Therefore, the medicinal plant extracts and natural products used in a clinical intervention must be clearly defined to ensure that clinical outcomes can be accurately linked to the specific product tested.

@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Xuan Zhang
 contact-email: zhangxuan@hkbu.edu.hk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 The developers of this reporting guideline have found evidence that clinical trials of Chinese herbal medicine formulae frequently fail to report on adverse events. They propose to create a checklist to help researchers report more explicitly methods and procedures for observing adverse reactions as well as provide more thorough and in-depth information on the population, severity, and medication conditions of adverse reactions in such trials, toxicological tests and safety evaluations.

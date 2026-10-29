@@ -6,7 +6,7 @@ date-registered: "29 October 2026"
 year-registered: 2026
 date-updated: null
 categories:
-- artificial intelligence
+- Artificial intelligence
 # - clinical trials
 # - clinical trial protocols
 # - literature reviews

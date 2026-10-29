@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Emily Alger; Christina Yap
 contact-email: emily.alger@icr.ac.uk; christina.yap@icr.ac.uk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 In line with the FDA's Project Optimus initiative, there is increasing recognition of the value of Patient-reported Outcome (PRO) data to inform the tolerability assessment for investigational therapies in early phase dose-finding oncology trials (DFOTs). PROs, where patients directly report their symptomatic adverse events or quality of life, offer a complementary perspective to clinician-assessed toxicities and can enhance dose optimisation. Whilst tools such as PRO-CTCAE enable patients to self-assess their treatment- related toxicities, investigating and reporting the right PRO research objectives is crucial to ensure these early phase trials provide meaningful, patient-centred insights.

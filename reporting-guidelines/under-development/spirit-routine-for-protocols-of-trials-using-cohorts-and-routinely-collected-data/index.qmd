@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Megan McCarthy
 contact-email: meganmccarthy@ucc.ie
 categories:
-- Clinical trial protocols
+- Study protocols
 ---
 
 The reporting guideline SPIRIT guides the reporting of protocols of clinical trials. This project aims to systematically develop, test and effectively disseminate an extension of SPIRIT specifically for studies conducted using cohorts and routinely collected data (RCD): the SPIRIT-ROUTINE.

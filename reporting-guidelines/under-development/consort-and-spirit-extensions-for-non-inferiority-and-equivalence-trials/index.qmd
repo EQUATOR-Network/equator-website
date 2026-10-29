@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Brennan Kahan
 contact-email: b.kahan@ucl.ac.uk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 The 2012 This project aims to update the 2012 CONSORT extension for non-inferiority and equivalence trials, and to develop a SPIRIT extension for non-inferiority and equivalence trials.

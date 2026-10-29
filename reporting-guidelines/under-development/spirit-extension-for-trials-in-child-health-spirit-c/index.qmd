@@ -6,7 +6,7 @@ date-updated: 31 January 2024
 contact-name: Dr Martin Offringa
 contact-email: martin.offringa@sickkids.ca
 categories:
-- Clinical trial protocols
+- Study protocols
 ---
 
 An official extension of the SPIRIT 2013 Statement defining standard protocol items for clinical trials in children is currently under development. A Delphi process to generate possible reporting standards for the guideline has taken place in Q2-3 2014. A Consensus meeting was held on 15 September 2014. The group informs that the evidence synthesis, Delphi survey and international consensus have been completed. The checklists have been finalised (available on request).
