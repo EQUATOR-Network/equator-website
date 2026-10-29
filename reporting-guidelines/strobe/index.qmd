@@ -28,13 +28,11 @@ full-bibliographic-reference: |-
 
   J Clin Epidemiol. 2008;61(4):344-349. PMID: [18313558](http://www.ncbi.nlm.nih.gov/pubmed/18313558) 
 
-  Bull World Health Organ. 2007;85(11):867-872. PMID: [18038077](http://www.ncbi.nlm.nih.gov/pubmed/18038077)
-
-
-# OPTIONAL FIELDS
-rg-language: English
-explanation-and-elaboration-papers: |-
-  Vandenbroucke JP, von Elm E, Altman DG, Gotzsche PC, Mulrow CD, Pocock SJ, Poole C, Schlesselman JJ, Egger M. Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): Explanation and Elaboration. \
+  Bull World Health Organ. 2007;85(11):867-872. PMID: [18038077](http://www.ncbi.nlm.nih.gov/pubmed/18038077) \
+  
+  ** Explanation and Elaboration**
+  
+    Vandenbroucke JP, von Elm E, Altman DG, Gotzsche PC, Mulrow CD, Pocock SJ, Poole C, Schlesselman JJ, Egger M. Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): Explanation and Elaboration. \
 
   The explanation and elaboration paper for this guideline was published simultaneously in 3 journals. You can read the explanation and elaboration paper in any of these journals using the links below. \
 
@@ -42,7 +40,12 @@ explanation-and-elaboration-papers: |-
 
   Epidemiology. 2007;18(6):805-35. PMID: [18049195](http://www.ncbi.nlm.nih.gov/pubmed/18049195)
 
-  Ann Intern Med. 2007;147(8):W163-94. PMID: [17938389](http://www.ncbi.nlm.nih.gov/pubmed/17938389) \
+  Ann Intern Med. 2007;147(8):W163-94. PMID: [17938389](http://www.ncbi.nlm.nih.gov/pubmed/17938389)
+
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: |-
 
   The EQUATOR team edited a textbook called *Guidelines for Reporting Health Research: A User’s Manual*. It includes chapters on the guidelines most commonly required by journals. [Read Chapter 17, on STROBE (PDF)](CevallosEgger-Chapter-17-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf).
 guideline-history: STROBE 2004/2005
