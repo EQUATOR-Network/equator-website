@@ -22,22 +22,8 @@ our database quickly and accurately.
 ## What to send us
 **From 2026, we will generally only list guidelines that are indexed on PubMed**
 
-Please [contact us](/about/contact.qmd) with the subject line "New
-reporting guideline" and include:
-
-1.  The full citation of the guideline publication, including a DOI or link
-    to the article
-2.  A link to the checklist, ideally one that is freely accessible and
-    downloadable
-3.  A link to the Explanation and Elaboration document, if you have
-    published one
-4.  Details of any other publications of the guideline (for example,
-    simultaneous publication in other journals) and any translations
-5.  The study type, topic, or clinical area the guideline applies to
-6.  A contact person for queries about the guideline (name and email
-    address)
-7.  A link to a guideline website or any supporting resources, if
-    applicable
+Please completed the [new reporting guideline registration form](/toolkits/developing-a-reporting-guideline/New-reporting-guideline-registration.docx), and [send it back to us](/about/contact.qmd) with the subject line "New
+reporting guideline".
 
 ## When to contact us
 
