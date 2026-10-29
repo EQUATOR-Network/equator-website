@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Alex R. Kemper
 contact-email: Alex.kemper@nationwidechildrens.org
 categories:
-- Diagnostic or prognostic research
+- Diagnostic/prognostic research
 ---
 
 This extension to STARD will clarify reporting of studies of newborn screening. The rapid pace of advancement in newborn screening tests and diagnostic strategies has led to significant variation in how screening studies have been reported and makes both interpretation of individual studies and synthesis across studies difficult. This extension will clarify the elements reported, which will ultimately improve advancement of newborn screening.
