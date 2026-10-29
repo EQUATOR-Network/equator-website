@@ -12,15 +12,15 @@ full-bibliographic-reference: |-
 
   This guideline was published simultaneously in 5 journals. You can read the guideline in any of these journals using the links below.\
 
-  BMJ. 2025; 388:e081123. [PMID: 40228833](https://pubmed.ncbi.nlm.nih.gov/40228833/)
+  BMJ 2025; 388:e081123. PMID: [40228833](https://pubmed.ncbi.nlm.nih.gov/40228833/) [full text](https://www.bmj.com/content/389/bmj-2024-081123.long)
 
-  JAMA. 2025; 333:1998-2005 [PMID: 40228499](https://pubmed.ncbi.nlm.nih.gov/40228499/)
+  JAMA 2025; 333:1998-2005 PMID: [40228499](https://pubmed.ncbi.nlm.nih.gov/40228499/) [full text](https://jamanetwork.com/journals/jama/fullarticle/2832868)
 
-  Lancet. 2025. [PMID: 40245901](https://pubmed.ncbi.nlm.nih.gov/40245901/)
+  Lancet 2025; 405: 1633-1640. PMID: [40245901](https://pubmed.ncbi.nlm.nih.gov/40245901/) [full text](https://linkinghub.elsevier.com/retrieve/pii/S0140-6736(25)00672-5)
 
-  Nat Med. 2025; 31:1776-1783 [PMID: 40229553](https://pubmed.ncbi.nlm.nih.gov/40229553/)
+  Nat Med 2025; 31:1776-1783 PMID: [40229553](https://pubmed.ncbi.nlm.nih.gov/40229553/) [full text](https://www.nature.com/articles/s41591-025-03635-5)
 
-  PLoS Med. 2025; 22(4): e1004587. [PMID: 40228477](https://pubmed.ncbi.nlm.nih.gov/40228477/)\
+  PLoS Med 2025; 22(4): e1004587. PMID: [40228477](https://pubmed.ncbi.nlm.nih.gov/40228477/) [full text](https://dx.plos.org/10.1371/journal.pmed.1004587) \
   
   **Explanation and Elaboration paper**
 

@@ -10,19 +10,19 @@ pmid-id: ''
 pmid-url: ''
 relevant-urls: <https://www.consort-spirit.org/>
 full-bibliographic-reference: |-
-  Chan AW, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Hróbjartsson A.  SPIRIT 20205 statement: updated guideline for protocols of randomized trials. \
+  Chan AW, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Hróbjartsson A. SPIRIT 20205 statement: updated guideline for protocols of randomized trials. \
 
   This guideline was published simultaneously in 5 journals. You can read the guideline in any of these journals using the links below.
 
-  BMJ. 2025; 388:e081660. [PMID:40294956](https://pubmed.ncbi.nlm.nih.gov/40294956/)
+  BMJ 2025; 388:e081660. PMID: [40294956](https://pubmed.ncbi.nlm.nih.gov/40294956/) [full text](https://www.bmj.com/content/389/bmj-2024-081477)
 
-  JAMA. 2025.[PMID:](https://pubmed.ncbi.nlm.nih.gov/40294593/) [40294593](https://pubmed.ncbi.nlm.nih.gov/40294593/)
+  JAMA 2025; 334: 435-433.PMID: [40294593](https://pubmed.ncbi.nlm.nih.gov/40294593/). [full text](https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.2025.4486)
 
-  Lancet 2025.
+  Lancet 2025; 405: e19-e27. PMID: [42290521](https://pubmed.ncbi.nlm.nih.gov/42290521/) [full text](https://linkinghub.elsevier.com/retrieve/pii/S0140-6736(25)00770-6)
 
-  Nat Med. 2025.[PMID: 40295741](https://pubmed.ncbi.nlm.nih.gov/40295741)
+  Nat Med 2025; 31: 1784-1792. [PMID: 40295741](https://pubmed.ncbi.nlm.nih.gov/40295741) [full text](https://www.nature.com/articles/s41591-025-03668-w)
 
-  PLoS Med. 2025; 22(4): e1004587.[PMID: 40294521](https://pubmed.ncbi.nlm.nih.gov/40294521/) \
+  PLoS Med 2025; 22: e1004587.[PMID: 40294521](https://pubmed.ncbi.nlm.nih.gov/40294521/) [full text](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004589) \
   
   **Explanation and Elaboration paper**
   
