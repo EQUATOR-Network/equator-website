@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Oliver Lange
 contact-email: olange@uni-bremen.de
 categories:
-- Economic evaluations/health economics
+- Health Economic evaluations
 ---
 
 This project aims to develop an extension of the CHEERS (Consolidated Health Economic Evaluation Reporting Standards) reporting guideline for studies where health economic evaluation provides information for calculating greenhouse gases, or the climate impact (climate costs) of health technologies, as carbon emissions affect health economic evaluations.

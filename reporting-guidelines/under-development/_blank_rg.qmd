@@ -6,7 +6,7 @@ categories:
 # - Artificial intelligence/machine learning
 # - Clinical trials
 # - Diagnostic/prognostic research
-# - Economic evaluations/health economics
+# - Health Economic evaluations
 # - Systematic reviews
 # - Observational studies
 # - Other
