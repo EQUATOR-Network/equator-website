@@ -10,21 +10,21 @@ pmid-id: ''
 pmid-url: ''
 relevant-urls: ''
 full-bibliographic-reference: |-
-  Huo B, Collins G, Chartash D, Thirunavukarasu A, Flanagin A, Iorio A, Cacciamani G, Chen X, Liu N, Mathur P, Chan AW, Laine C, Pacella D, Berkwits M, Antoniou SA, Camaradou JC, Canfield C, Mittelman M, Feeney T, Loder E, Agha R, Saha A, Mayol J, Sunjaya A, Harvey H, Ng JY, McKechnie T, Lee Y, Verma N, Stiglic G, McCradden M, Ramji K, Boudreau V, Ortenzi M, Meerpohl J, Vandvik PO, Agoritsas T, Samuel D, Frankish H, Anderson M, Yao X, Loeb S, Lokker C, Liu X, Guallar E, Guyatt G. Reporting guideline for Chatbot Health Advice studies: the CHART statement.
+  Huo B, Collins G, Chartash D, Thirunavukarasu A, Flanagin A, Iorio A, Cacciamani G, Chen X, Liu N, Mathur P, Chan AW, Laine C, Pacella D, Berkwits M, Antoniou SA, Camaradou JC, Canfield C, Mittelman M, Feeney T, Loder E, Agha R, Saha A, Mayol J, Sunjaya A, Harvey H, Ng JY, McKechnie T, Lee Y, Verma N, Stiglic G, McCradden M, Ramji K, Boudreau V, Ortenzi M, Meerpohl J, Vandvik PO, Agoritsas T, Samuel D, Frankish H, Anderson M, Yao X, Loeb S, Lokker C, Liu X, Guallar E, Guyatt G. Reporting guideline for Chatbot Health Advice studies: the CHART statement.\
 
-  This guideline was published simultaneously in 6 journals. You can read the guideline in any of these journals using the links below.
+  This guideline was published simultaneously in 6 journals. You can read the guideline in any of these journals using the links below. \
 
-  [Annals of Family Medicine](https://www.annfammed.org/content/early/2025/07/29/afm.250386): [PMID 40750305](https://pubmed.ncbi.nlm.nih.gov/40750305/)
+  Annals of Family Medicine 2025; 23: online. PMID:  [40750305](https://pubmed.ncbi.nlm.nih.gov/40750305/) [full text](https://www.annfammed.org/content/early/2025/07/29/afm.250386)
 
-  [Artificial Intelligence in Medicine](https://www.sciencedirect.com/science/article/pii/S0933365725001575): [PMID 40753040](https://pubmed.ncbi.nlm.nih.gov/40753040/)
+  Artificial Intelligence in Medicine 2025; 168: 103222: PMID: [40753040](https://pubmed.ncbi.nlm.nih.gov/40753040/) [full text](https://www.sciencedirect.com/science/article/pii/S0933365725001575)
 
-  [BMC Medicine](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-025-04274-w): [PMID 40745595](https://pubmed.ncbi.nlm.nih.gov/40745595/)
+  BMC Medicine 2025; 23: 447. PMID: [40745595](https://pubmed.ncbi.nlm.nih.gov/40745595/) [full text](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-025-04274-w)
 
-  [BMJ Medicine](https://bmjmedicine.bmj.com/content/4/1/e001632): [PMID 40761518](https://pubmed.ncbi.nlm.nih.gov/40761518/)
+  BMJ Medicine 2025; 4: e001632. PMID: [40761518](https://pubmed.ncbi.nlm.nih.gov/40761518/) [full text](https://bmjmedicine.bmj.com/content/4/1/e001632)
 
-  [British Journal of Surgery](https://academic.oup.com/bjs/article/112/8/znaf142/8220472): [PMID 40747825](https://pubmed.ncbi.nlm.nih.gov/40747825/)
+  British Journal of Surgery 2025; 112: znaf142. PMID:  [40747825](https://pubmed.ncbi.nlm.nih.gov/40747825/) [full text]((https://academic.oup.com/bjs/article/112/8/znaf142/8220472))
 
-  [JAMA Network Open](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2837224): [PMID 40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/)
+  JAMA Network Open 2025; 8: e2530220. PMID: [40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/) [full text](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2837224)
 
 
 # OPTIONAL FIELDS
@@ -137,8 +137,9 @@ report-section:
 - Whole report
 # - No report section specified
 keyword:
-- No keywords provided
-
+- chatbots
+- artificial intelligence
+- health advice
 ---
 
 {{< include ../_template.qmd >}}

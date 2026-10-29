@@ -8,10 +8,12 @@ rg-doi: ''
 pmid-id: '[38040927](https://pubmed.ncbi.nlm.nih.gov/38040927/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38040927/
 relevant-urls: ''
-full-bibliographic-reference: 'Lin TY, Chueh TY, Hung TM. Preferred Reporting Items
-  for Resistance Exercise Studies (PRIRES): A Checklist Developed Using an Umbrella
-  Review of Systematic Reviews. Sports Med Open. 2023;9(1):114.'
+full-bibliographic-reference: |-
+  Lin TY, Chueh TY, Hung TM. Preferred Reporting Items for Resistance Exercise Studies (PRIRES): A Checklist Developed Using an Umbrella Review of Systematic Reviews. Sports Med Open. 2023; 9: 114. PMID: [38040927](https://pubmed.ncbi.nlm.nih.gov/38040927/) [full text](https://link.springer.com/article/10.1186/s40798-023-00640-1) \
 
+  **Explanation and Elaboration**
+  
+  Lin TY, Chueh TY, Hung TM. Preferred reporting items for resistance exercise studies (PRIRES) explanation and elaboration. J Sports Sci. 2026 Feb;44(3):298-321. PMID: [41249931](https://pubmed.ncbi.nlm.nih.gov/41249931/) [full text](https://www.tandfonline.com/doi/full/10.1080/02640414.2025.2578030)
 
 # OPTIONAL FIELDS
 rg-language: English
