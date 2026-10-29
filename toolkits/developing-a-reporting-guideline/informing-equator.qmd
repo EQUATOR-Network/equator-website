@@ -22,7 +22,7 @@ our database quickly and accurately.
 ## What to send us
 **From 2026, we will generally only list guidelines that are indexed on PubMed**
 
-Please completed the [new reporting guideline registration form](/toolkits/developing-a-reporting-guideline/New-reporting-guideline-registration.docx), and [send it back to us](/about/contact.qmd) with the subject line "New
+Please complete the [new reporting guideline registration form](/toolkits/developing-a-reporting-guideline/New-reporting-guideline-registration.docx), and [send it back to us](/about/contact.qmd) with the subject line "New
 reporting guideline".
 
 ## When to contact us
