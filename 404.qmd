@@ -1,0 +1,137 @@
+---
+title: "Page not found"
+pagetitle: "Page not found | Reporting Guidelines"
+page-layout: custom
+section-divs: false
+toc: false
+search: false
+css:
+  - "assets/css/home.css"
+description: |
+  Sorry, we couldn't find that page. Search our database of 700+ reporting guidelines or head back to the home page.
+---
+
+:::::::::::: quarto-title-block
+::::::::::: quarto-title-banner-normal-margin
+:::::::::: content-block
+::::::::: hero-title-block
+:::::::: grid
+:::: {.g-col-lg-4 .g-col-md-3 .d-none .d-md-block}
+::: top-banner-portrait
+![A selection of journal articles](/assets/images/ArticlesImage660x1046.webp){.img-fluid}
+:::
+::::
+
+::::: {.g-col-lg-8 .g-col-md-9 .hero-content-center}
+# Error 404: this page is **missing from the manuscript**
+
+::: subtitle
+The page you were looking for may have been moved, renamed, or never
+existed. Let's get you back to <br> the **reporting guidelines** you need.
+:::
+
+::: hero-buttons
+[Search 700+ reporting
+guidelines](/reporting-guidelines/index.qmd){.btn-action-primary .btn-action
+.btn-primary .btn .btn-lg role="button"}
+
+[[›]{.chevron} Back to the home page](/index.qmd){.modern-link}
+
+[[›]{.chevron} What are reporting guidelines?](/about/reporting-guidelines.qmd){.modern-link}
+
+[[›]{.chevron} About The EQUATOR Network](/index.qmd#about-equator){.modern-link}
+:::
+
+<!-- hero buttons -->
+:::::
+
+<!-- g-col-lg-8 -->
+::::::::
+
+<!-- grid -->
+:::::::::
+
+<!-- / hero-title-block -->
+::::::::::
+
+<!-- .content-block -->
+:::::::::::
+
+<!-- .quarto-title-banner-normal-margin -->
+::::::::::::
+
+<!-- Commonly used reporting guidelines -->
+
+::::::::: radial-background
+![](/assets/images/radial1.svg){.radial1 fig-alt="Blurred background colours"}
+![](/assets/images/radial2.svg){.radial2 fig-alt="Blurred background colours"}
+
+:::::::: {.content-block .center}
+::::::: {.card-highlight style="margin-top: 2rem;"}
+### Looking for a reporting guideline?
+
+[These general reporting guidelines are the ones people use most often.
+Search our full database for guidelines that fit your study more
+closely.]{.lead}
+
+:::::: table-block
+::: {#common-rgs style="text-align: left; margin: 3rem 0 2rem 0;"}
+{{< include _partials/_index_table.qmd >}}
+:::
+
+[Search 700+ reporting
+guidelines](/reporting-guidelines/index.qmd){.btn-action-primary .btn-action
+.btn-primary .btn .btn-lg .search-shortcut role="button"
+style="margin: 1rem 0 1rem 0;"}
+::::::
+
+<!-- table-block -->
+:::::::
+
+<!-- card-highlight -->
+::::::::
+:::::::::
+
+<!-- radial-background -->
+
+::::::::: radial-background
+![](/assets/images/radial1.svg){.radial1 fig-alt="Blurred background colours"}
+![](/assets/images/radial2.svg){.radial2 fig-alt="Blurred background colours"}
+
+:::::: {.content-block .center}
+## Or try one of our resources
+
+:::: grid
+::: {.g-col-md-4 .g-col-12 .card-highlight}
+### Authors
+
+Tools and advice for writing clear, complete, and transparent research.
+
+[Writing research »](/toolkits/writing-research/index.qmd)
+:::
+
+::: {.g-col-md-4 .g-col-12 .card-highlight}
+### Peer reviewers
+
+Resources for judging the transparency of research and spotting missing
+information.
+
+[Peer reviewing research »](/toolkits/peer-reviewing-research/index.qmd)
+:::
+
+::: {.g-col-md-4 .g-col-12 .card-highlight}
+### Publishers and editors
+
+Guidance on using reporting guidelines in your journal.
+
+[Using guidelines in journals »](/toolkits/using-guidelines-in-journals/index.qmd)
+:::
+::::
+
+<!-- grid -->
+::::::
+
+<!-- content-block -->
+:::::::::
+
+<!-- radial-background -->
