@@ -1,0 +1,130 @@
+---
+# REQUIRED FIELDS
+title: 'Content of Health Economics Analysis Plans (HEAPs) for Trial-Based Economic Evaluations: Expert Delphi Consensus Survey'
+acronym: 'HEAP'
+provided-for: |-
+  
+rg-doi: '10.1016/j.jval.2020.10.002'
+pmid-id: '[33840432](https://pubmed.ncbi.nlm.nih.gov/33840432/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/33840432/
+relevant-urls: |-
+  Read the full-text of the [HEAPs recommendations](https://doi.org/10.1016/j.jval.2020.10.002)
+full-bibliographic-reference: |-
+  Thorn JC, Davies CF, Brookes ST, Noble SM, Dritsaki M, Gray E, Hughes DA, Mihaylova B, Petrou S, Ridyard C, Sach T, Wilson ECF, Wordsworth S, Hollingworth W. Content of Health Economics Analysis Plans (HEAPs) for Trial-Based Economic Evaluations: Expert Delphi Consensus Survey. Value Health. 2021 Apr;24(4):539-547. 
+# OPTIONAL FIELDS
+downloads: 'Download the HEAPs [checklist](https://www.sciencedirect.com/science/article/pii/S1098301520344442#mmc1)'
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+
+sticky: false # or true
+search-priority: 100 # lower number = higher priority
+
+# LIST FIELDS
+study-design:
+# - Animal pre-clinical research
+# - Artificial intelligence/Machine learning studies
+# - Clinical practice guidelines
+- Clinical trials
+# - Diagnostic and prognostic studies
+- Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability and agreement studies
+# - Study protocols
+#- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - No study design specified
+
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+- Statistical analysis plan-whole report
+- Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+# - Whole report
+# - No report section specified
+
+keyword:
+- health economics
+---
+
+{{< include ../_template.qmd >}}
