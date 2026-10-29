@@ -12,7 +12,7 @@ relevant-urls: |-
 full-bibliographic-reference: |-
   'Weirauch V, Mainz A, Nitsche J, Busse TS, Meister S. Consensus-based reporting guideline for participatory development and evaluation of digital health interventions. NPJ Digit Med 2026;9:169. PMID: [41559194](https://pubmed.ncbi.nlm.nih.gov/41559194/)'
 # OPTIONAL FIELDS
-downloads: 'ParDe-DHI [checklist](/reporting-guidelines/parde-dhi/ParDe-DHI_checklist.pdf)'
+downloads: 'ParDe-DHI [checklist](/reporting-guidelines/parde-dhi/ParDE-DHI_checklist.pdf)'
 rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
