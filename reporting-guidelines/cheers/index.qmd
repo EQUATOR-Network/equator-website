@@ -42,16 +42,14 @@ full-bibliographic-reference: |-
 
   MDM Policy Pract. 2022;7(1):23814683211061097. PMID: [35036563](https://pubmed.ncbi.nlm.nih.gov/35036563/)
 
-  Clin Ther. 2022;S0149-2918(22)00016-9. PMID: [35168801](https://pubmed.ncbi.nlm.nih.gov/35168801/)
+  Clin Ther. 2022;S0149-2918(22)00016-9. PMID: [35168801](https://pubmed.ncbi.nlm.nih.gov/35168801/) \
 
-
+  **Explanation and Elaboration**
+  
+  Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf J, Mullins CD, Petrou S, Pwu RF, Staniszewska S. Consolidated Health Economic Evaluation Reporting Standards (CHEERS) 2022 Explanation and Elaboration: A Report of the ISPOR CHEERS II Good Practices Task Force. Value Health. 2022;25(1):10-31. PMID: [35031088](https://pubmed.ncbi.nlm.nih.gov/35031088)
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Husereau D, Drummond M, Augustovski F, de Bekker-Grob
-  E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf
-  J, Mullins CD, Petrou S, Pwu RF, Staniszewska S. Consolidated Health Economic Evaluation
-  Reporting Standards (CHEERS) 2022 Explanation and Elaboration: A Report of the ISPOR
-  CHEERS II Good Practices Task Force. Value Health. 2022;25(1):10-31.  PMID: [35031088](https://pubmed.ncbi.nlm.nih.gov/35031088)'
+explanation-and-elaboration-papers: 
 guideline-history: |-
   CHEERS 2013
 
