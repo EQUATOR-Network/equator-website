@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Catherine Hébert
 contact-email: catherine.hebert2@mail.mcgill.ca
 categories:
-- Other
+- Artificial intelligence
 ---
 
 The aim of this project is to develop and propose a new comprehensive reporting guideline tailored to reflect the particularities of artificial intelligence (AI) research in mental health clinical practice (e.g., diagnosis, prognosis and treatment outcomes and allocation).

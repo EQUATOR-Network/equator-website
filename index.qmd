@@ -50,13 +50,18 @@ community-created recommendations that ensure [everyone]{#typewriter-words
 guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action
 .btn-primary .btn .btn-lg role="button"}
 
-[[›]{.chevron} View popular reporting guidelines](#general-reporting-guidelines){.modern-link}
+[[›](#general-reporting-guidelines){.modern-link}]{.chevron}[ View popular
+reporting guidelines](#general-reporting-guidelines){.modern-link}
 
-[[›]{.chevron} What are reporting guidelines?](#sec-what-are-rgs){.modern-link}
+[[›](#sec-what-are-rgs){.modern-link}]{.chevron}[ What are reporting
+guidelines?](#sec-what-are-rgs){.modern-link}
 
-[[›]{.chevron} About The EQUATOR Network](#about-equator){.modern-link}
+[[›](#about-equator){.modern-link}]{.chevron}[ About The EQUATOR
+Network](#about-equator){.modern-link}
 
-[[›]{.chevron} Tell us about a new reporting guideline](#sec-tell-us-about-a-new-reporting-guideline){.modern-link}
+[[›](#sec-tell-us-about-a-new-reporting-guideline){.modern-link}]{.chevron}[
+Tell us about a new reporting
+guideline](#sec-tell-us-about-a-new-reporting-guideline){.modern-link}
 :::
 
 <!-- hero buttons -->
@@ -234,9 +239,13 @@ Are you developing a new reporting guideline, or do you know of one that's
 recently been published? Help us keep the EQUATOR Network's resources up to
 date by sharing the details with us.
 
-[[›]{.chevron} Register a reporting guideline in development](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}
+[[›](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}]{.chevron}[
+Register a reporting guideline in
+development](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}
 
-[[›]{.chevron} Notify us about a published reporting guideline](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}
+[[›](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}]{.chevron}[
+Notify us about a published reporting
+guideline](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}
 :::
 ::::
 
@@ -296,10 +305,12 @@ and wider use of robust reporting guidelines.
 We advance the work done by individual guideline development groups. We
 maintain a database of reporting guidelines, run [training
 courses](https://www.ndorms.ox.ac.uk/study/courses/equator-publication-school)
-on how to write research articles, have resources for [authors](/toolkits/writing-research/index.qmd), 
+on how to write research articles, have resources for
+[authors](/toolkits/writing-research/index.qmd),
 [publishers](/toolkits/using-guidelines-in-journals/index.qmd), [peer
-reviewers](/toolkits/peer-reviewing-research/index.qmd), and 
-[reporting guideline developers](/toolkits/developing-a-reporting-guideline/index.qmd).
+reviewers](/toolkits/peer-reviewing-research/index.qmd), and [reporting
+guideline
+developers](/toolkits/developing-a-reporting-guideline/index.qmd).
 
 We have centers in the [UK](/about/uk-equator-centre.qmd) (our head
 office),

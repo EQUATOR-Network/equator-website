@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Giovanni E. Cacciamani
 contact-email: giovanni.cacciamani@med.usc.edu
 categories:
-- Other
+- Artificial intelligence
 ---
 
 The CANGARU checklist aims to provide a comprehensive evaluation of the use of ChatGPT and large language models (LLMs) in healthcare and scientific research and its impact on scientific writing. ChatGPT has gained attention in the medical and scientific community since its launch in December 2022 as a potential tool for decreasing workload while maintaining the workflow. However, its use has raised concerns about its impact on the integrity of scientific literature. CANGARU will focus on standardising the reporting of methods and results for clinical and scientific studies using ChatGPT and other LLMs. The tool will list the most relevant technical details a data scientist needs to report for future reproducibility.
