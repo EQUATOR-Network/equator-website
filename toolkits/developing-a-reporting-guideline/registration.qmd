@@ -40,6 +40,7 @@ You **can** register here:
 
 You **cannot** register here:
 
+- quality appraisal or risk of bias (visit the [LATITUDES Network](https://www.latitudes-network.org/))
 - clinical guidelines: guidance you are developing for **clinical
   practice** in any field
 - guidance for the **conduct** of research or **methodological** guidelines
