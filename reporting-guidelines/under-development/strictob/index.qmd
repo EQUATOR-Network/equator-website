@@ -1,0 +1,27 @@
+---
+title: "Standards for Reporting Interventions in Clinical Trials of Bloodletting (STRICTOB): extending the CONSORT statement"
+contact-name: "Dong Shuai"
+contact-email: "1532944322@qq.com"
+date-registered: "29 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+- clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+# - Other
+---
+
+<!-- Add Description Below -->
+The purpose of clinical trial reporting guidelines is to improve the transparency and integrity of randomized controlled trial reporting, and to promote the rigorous evaluation and interpretation of trial results. Due to the great differences between drug therapy and non-drug therapy in terms of treatment process, method and operation details, the corresponding reporting guidelines of non-drug therapy research are also different from drug therapy in terms of item details.
+
+As one of the traditional non-drug therapies of Chinese medicine, bloodletting therapy has good clinical experience in the treatment of many diseases.Our team members conducted a systematic search and evaluation of the existing clinical evidence of bloodletting therapy, and found that more than 1600 randomized controlled trials have been published to evaluate the clinical efficacy of bloodletting therapy for a variety of diseases, involving a total of 15 kinds of diseases, including tumor, neurological diseases, and mental and behavioral disorders. From the analysis of the existing results, the bloodletting therapy represented by pricking, tapping and cupping bloodletting may have certain effects in the treatment of facial paralysis, arthritis and lumbar disc herniation. However, most of the reports of these studies did not follow the current international randomized controlled trial reporting guideline, so there were problems such as incomplete reports and selective reporting of outcomes, which seriously affected the interpretation and evaluation of the clinical evidence of bloodletting therapy, and also restricted the promotion and application of bloodletting therapy.
+
+The current reporting norms have formulated and published recommended reports for acupuncture, cupping and massage in non-drug therapy of traditional Chinese medicine, but there is still no corresponding reporting norms for bloodletting therapy, which also restricts the quality of clinical research reports on bloodletting therapy.
+
+High-quality clinical research and standardized research reports can promote the modern development and dissemination of traditional bloodletting therapy, so the formulation of reporting guideline can help improve the quality of clinical research reports of bloodletting therapy, and then help improve the quality of research methodology.
+
+As a unique non-drug therapy of traditional Chinese medicine, the modern research and application of bloodletting therapy is restricted by the limited quality of existing evidence, and it is urgent to establish a method system and standard to help it carry out high-quality research. The results of this study will enrich the standard content in the field of traditional Chinese medicine, especially the non-drug therapy of traditional Chinese medicine in the fields specified in the reporting norms, lay a methodological foundation for the modernization of this traditional therapy, and also provide a basis for the methodological research on the formulation of other traditional non-drug therapy guideline similar to bloodletting therapy
+
+{{< include ../_template.qmd >}}
