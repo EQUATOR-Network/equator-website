@@ -1,0 +1,28 @@
+---
+title: "LIGHTS–LAMPES: a two-level reporting guideline for clinical, laboratory and pre-clinical studies of therapeutic light-based and laser interventions in photomedicine"
+contact-name: "Daniel Oksman"
+contact-email: "drdanieloksman@gmail.com"
+date-registered: "29 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+- Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic or prognostic research
+# - Economic evaluations/health economics
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+- Study protocols
+---
+
+<!-- Add Description Below -->
+LIGHTS–LAMPES is a reporting guideline under development for studies delivering optical radiation as a therapeutic or interventional agent. Its scope covers photobiomodulation and low-level laser therapy, light-emitting diode phototherapy, intense pulsed light, therapeutic ultraviolet phototherapy, illumination for photodynamic therapy, and surgical or high-power laser interventions. It is intended for clinical trials, experimental laboratory and pre-clinical investigations, and study protocols where optical exposure must be reproducibly described.
+
+The guideline addresses gaps in the reproducibility of optical dosimetry. The eight minimum reporting parameters of Jenkins and Carroll (2011) were developed primarily for laser photomedicine, whereas the ENLIGHT checklist is directed at ocular non-visual responses to light. Taken together, these instruments do not provide a single cross-source framework for characterising tissue-directed therapeutic exposures across both laser and non-laser systems. Inconsistent description of irradiance, radiant exposure, illuminated area at the target, emission timing and calibration complicates comparison and replication.
+
+The proposed two-level structure comprises LIGHTS, with six core domains relevant to any therapeutic light source (source and wavelength; irradiance and power; geometry and beam area; temporal pattern; duration and treatment schedule; target site and safety), and LAMPES, with six supplementary domains for laser systems (lasing medium; delivery architecture; emission mode; peak-power profile; beam quality; and safety classification). The framework is designed to complement general intervention-reporting tools such as TIDieR rather than replace them, while focusing on metrological traceability and clearly specified quantities at the exposed target.
+
+{{< include ../_template.qmd >}}
