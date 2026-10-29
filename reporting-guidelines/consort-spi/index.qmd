@@ -30,18 +30,19 @@ relevant-urls: |-
   [CONSORT-SPI 2018 checklist for cluster trial abstracts (Word)](CONSORT-SPI-Abstract-for-Clusters-Checklist.docx)
 
   [CONSORT-SPI 2018 checklist for cluster trial abstracts (PDF)](CONSORT-SPI-Abstract-for-Clusters-Checklist.pdf)
-full-bibliographic-reference: 'Montgomery P, Grant S, Mayo-Wilson E, Macdonald G,
-  Michie S, Hopewell S, Moher D; on behalf of the CONSORT-SPI Group. Reporting randomised
-  trials of social and psychological interventions: the CONSORT-SPI 2018 Extension.
-  Trials. 2018;19:407.'
+full-bibliographic-reference: |-
+  Montgomery P, Grant S, Mayo-Wilson E, Macdonald G, Michie S, Hopewell S, Moher D; on behalf of the CONSORT-SPI Group. Reporting randomised trials of social and psychological interventions: the CONSORT-SPI 2018 Extension. Trials. 2018;19:407. \ 
+  
+  **Explanation and Elaboration**
+  
+    Grant S, Mayo-Wilson E, Montgomery P, Macdonald G, Michie S, Hopewell S, Moher D; on behalf of the CONSORT-SPI Group. CONSORT-SPI 2018 Explanation and Elaboration: guidance for reporting social and psychological intervention trials. Trials. 2018;19(1):406.PMID: [30060763](https://www.ncbi.nlm.nih.gov/pubmed/30060763) \
+
+  Full-text access at: <https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-018-2735-z>
 
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: |-
-  Grant S, Mayo-Wilson E, Montgomery P, Macdonald G, Michie S, Hopewell S, Moher D; on behalf of the CONSORT-SPI Group. CONSORT-SPI 2018 Explanation and Elaboration: guidance for reporting social and psychological intervention trials. Trials. 2018;19(1):406. PMID: [30060763](https://www.ncbi.nlm.nih.gov/pubmed/30060763)
-
-  Full-text access at: <https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-018-2735-z>
 guideline-history: ''
 relevant-more: |-
   **Generic**

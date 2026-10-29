@@ -18,7 +18,7 @@ full-bibliographic-reference: |-
 
   Radiology. 2015:151516. PMID: [26509226](http://www.ncbi.nlm.nih.gov/pubmed/26509226)
 
-  Clinical Chemistry. 2015. pii: clinchem.2015.246280. PMID: [26510957](http://www.ncbi.nlm.nih.gov/pubmed/26510957)
+  Clinical Chemistry. 2015. pii: clinchem.2015.246280. PMID: [26510957](http://www.ncbi.nlm.nih.gov/pubmed/26510957) \
 
   **Explanation and Elaboration**
   

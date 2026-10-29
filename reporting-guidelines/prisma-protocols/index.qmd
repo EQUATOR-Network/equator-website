@@ -8,17 +8,16 @@ rg-doi: ''
 pmid-id: '[25554246](http://www.ncbi.nlm.nih.gov/pubmed/25554246)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25554246
 relevant-urls: ''
-full-bibliographic-reference: Moher D, Shamseer L, Clarke M, Ghersi D, Liberati A,
-  Petticrew M, Shekelle P, Stewart LA. Preferred Reporting Items for Systematic Review
-  and Meta-Analysis Protocols (PRISMA-P) 2015 statement. Syst Rev. 2015;4(1):1.
+full-bibliographic-reference: |-
 
+  Moher D, Shamseer L, Clarke M, Ghersi D, Liberati A, Petticrew M, Shekelle P, Stewart LA. Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P) 2015 statement. Syst Rev. 2015;4(1):1. PMI: [25554246](http://www.ncbi.nlm.nih.gov/pubmed/25554246) \
 
+  **Explanation and Elaboration**
+  
+  'Shamseer L, Moher D, Clarke M, Ghersi D, Liberati A, Petticrew M, Shekelle P, Stewart LA, the PRISMA-P Group. Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P) 2015: elaboration and explanation. BMJ 2015.349:g7647. PMID: [25555855](http://www.ncbi.nlm.nih.gov/pubmed/25555855)'
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Shamseer L, Moher D, Clarke M, Ghersi D, Liberati
-  A, Petticrew M, Shekelle P, Stewart LA, the PRISMA-P Group. Preferred Reporting
-  Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P) 2015: elaboration
-  and explanation. BMJ 2015.349:g7647. PMID: [25555855](http://www.ncbi.nlm.nih.gov/pubmed/25555855)'
+explanation-and-elaboration-papers:
 guideline-history: ''
 relevant-more: |-
   **Generic**

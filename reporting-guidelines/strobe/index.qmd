@@ -30,7 +30,7 @@ full-bibliographic-reference: |-
 
   Bull World Health Organ. 2007;85(11):867-872. PMID: [18038077](http://www.ncbi.nlm.nih.gov/pubmed/18038077) \
   
-  ** Explanation and Elaboration**
+  **Explanation and Elaboration**
   
     Vandenbroucke JP, von Elm E, Altman DG, Gotzsche PC, Mulrow CD, Pocock SJ, Poole C, Schlesselman JJ, Egger M. Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): Explanation and Elaboration. \
 
@@ -46,8 +46,6 @@ full-bibliographic-reference: |-
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: |-
-
-  The EQUATOR team edited a textbook called *Guidelines for Reporting Health Research: A User’s Manual*. It includes chapters on the guidelines most commonly required by journals. [Read Chapter 17, on STROBE (PDF)](CevallosEgger-Chapter-17-Guidelines-for-Reporting-Health-Research-A-Users-Manual.pdf).
 guideline-history: STROBE 2004/2005
 relevant-more: |-
   **Specialised**

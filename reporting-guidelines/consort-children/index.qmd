@@ -20,20 +20,16 @@ full-bibliographic-reference: |-
 
   JAMA Pediatrics 2026; 180: 413-425. PMID: [41734893](https://pubmed.ncbi.nlm.nih.gov/41734893/)
 
-  Lancet Child and Adolescent Health 2026; 10: [297-307](https://doi.org/10.1016/S2352-4642(26)00004-0).
+  Lancet Child and Adolescent Health 2026; 10: [297-307](https://doi.org/10.1016/S2352-4642(26)00004-0) \
+  
+  **Explanation and Elaboration**
+  
+  Baba A, Smith M, Potter BK, Chan AW, Moher D, Toulany A, Doherty-Kirby A, Nafria Escalera B, Stratton C, Gale C, Macarthur C, Purper-Ouakil D, Juszczak E, Cohen E, Reggiardo G, Preston J, Cohen JF, Upton J, Allegaert K, Boerner K, Mehta K, Nguyen KA, Courtney K, Hartling L, Konstantinidis M, Odermarsky M, Butcher NJ, Kolehmainen N, Longmuir PE, Gill PJ, Leroy P, Feneberg R, Poluru R, Morris SK, Friedrichsdorf SJ, Chute Nagy T, Klassen TP, Lacaze-Masmonteil T, Onland W, Offringa M.CONSORT-C 2026 explanation and elaboration: recommendations for enhancing the reporting and impact of paediatric randomised trials. BMJ 2026; 392: e085063. PMID: [41734942](https://pubmed.ncbi.nlm.nih.gov/41734942/)
 
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Baba A, Smith M, Potter BK, Chan AW, Moher D,
-  Toulany A, Doherty-Kirby A, Nafria Escalera B, Stratton C, Gale C, Macarthur C,
-  Purper-Ouakil D, Juszczak E, Cohen E, Reggiardo G, Preston J, Cohen JF, Upton J,
-  Allegaert K, Boerner K, Mehta K, Nguyen KA, Courtney K, Hartling L, Konstantinidis
-  M, Odermarsky M, Butcher NJ, Kolehmainen N, Longmuir PE, Gill PJ, Leroy P, Feneberg
-  R, Poluru R, Morris SK, Friedrichsdorf SJ, Chute Nagy T, Klassen TP, Lacaze-Masmonteil
-  T, Onland W, Offringa M.CONSORT-C 2026 explanation and elaboration: recommendations
-  for enhancing the reporting and impact of paediatric randomised trials. BMJ 2026;
-  392: e085063. PMID: [41734942](https://pubmed.ncbi.nlm.nih.gov/41734942/)'
+explanation-and-elaboration-papers:
 guideline-history: ''
 relevant-more: |-
   **Specialised
