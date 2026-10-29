@@ -20,13 +20,14 @@ full-bibliographic-reference: |-
 
   BMC Medicine 2025; 23: 447. PMID: [40745595](https://pubmed.ncbi.nlm.nih.gov/40745595/) [full text](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-025-04274-w)
 
-  BMJ Medicine 2025; 4: e001632. PMID: [40761518](https://pubmed.ncbi.nlm.nih.gov/40761518/) [full text](https://bmjmedicine.bmj.com/content/4/1/e001632)
-
   British Journal of Surgery 2025; 112: znaf142. PMID:  [40747825](https://pubmed.ncbi.nlm.nih.gov/40747825/) [full text](https://academic.oup.com/bjs/article/112/8/znaf142/8220472)
 
-  JAMA Network Open 2025; 8: e2530220. PMID: [40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/) [full text](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2837224)
-
-
+  JAMA Network Open 2025; 8: e2530220. PMID: [40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/) [full text](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2837224) \
+  
+  **Explanation and Elaboration**
+  
+  CHART Collaborative. Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement. BMJ Med; 2025; e001632. PMID: [40761518](https://pubmed.ncbi.nlm.nih.gov/40761518/) [full text](https://bmjmedicine.bmj.com/content/4/1/e001632)
+  
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: 'CHART Collaborative. Reporting guidelines for

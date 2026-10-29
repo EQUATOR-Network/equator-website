@@ -9,11 +9,9 @@ pmid-id: '[39761979](https://pubmed.ncbi.nlm.nih.gov/39761979/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39761979/
 relevant-urls: '[Read the full-text](https://www.bmj.com/content/388/bmj-2024-080472)
   of the CONSORT CRXO reporting guideline.'
-full-bibliographic-reference: 'McKenzie JE, Taljaard M, Hemming K, Arnup SJ, Giraudeau
-  B, Eldridge S, Hooper R, Kahan BC, Li T, Moher D, Turner EL, Grimshaw JM, Forbes
-  AB. Reporting of cluster randomised crossover trials: extension of the CONSORT 2010
-  statement with explanation and elaboration. BMJ. 2025;388:e080472.'
-
+full-bibliographic-reference: |-
+  McKenzie JE, Taljaard M, Hemming K, Arnup SJ, Giraudeau
+  B, Eldridge S, Hooper R, Kahan BC, Li T, Moher D, Turner EL, Grimshaw JM, Forbes AB. Reporting of cluster randomised crossover trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2025;388:e080472. PMID: [39761979](https://pubmed.ncbi.nlm.nih.gov/39761979/) [full-text](https://www.bmj.com/content/388/bmj-2024-080472)]
 
 # OPTIONAL FIELDS
 rg-language: English
