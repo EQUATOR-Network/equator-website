@@ -117,7 +117,7 @@ relevant-more: |-
   [**CONSORT CRXO**](/reporting-guidelines/reporting-of-cluster-randomised-crossover-trials-extension-of-the-consort-2010-statement-with-explanation-and-elaboration/): McKenzie JE, Taljaard M, Hemming K, Arnup SJ, Giraudeau B, Eldridge S, Hooper R, Kahan BC, Li T, Moher D, Turner EL, Grimshaw JM, Forbes AB. Reporting of cluster randomised crossover trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2025;388:e080472. PMID: [39761979](https://pubmed.ncbi.nlm.nih.gov/39761979/)
 website-url: <https://www.consort-spirit.org/>
 additional-languages: |-
-  CONSORT 2010 has been translated into the following languages: Chinese; French; German; Greek; Italian; Japanese; Persian; Polish; Portuguese; Russian; Spanish; Turkish. \
+  CONSORT 2010 has been translated into the following languages: Chinese; French; German; Greek; Italian; Japanese; Persian; Polish; Portuguese; Russian; Spanish; Turkish. 
 
 additional-information: 'Guidance for developing protocols for clinical trials is
   provided in the SPIRIT 2013 Statement. For further details please visit: [SPIRIT
