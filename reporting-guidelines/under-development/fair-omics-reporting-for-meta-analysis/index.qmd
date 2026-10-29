@@ -1,0 +1,29 @@
+---
+title: "FAIR Omics Reporting for Meta-Analysis"
+contact-name: "Rocio Gonzalez-Soltero"
+contact-email: "mariadelrocio.gonzalez@universidadeuropea.es"
+date-registered: "16 June 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic or prognostic research
+# - Economic evaluations/health economics
+- Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Selecting FAIR-compliant omics studies for meta-analysis is essential to ensure the integrity, reproducibility, and utility of integrated biomedical research. The FAIR principles—Findable, Accessible, Interoperable, and Reusable—provide a framework for identifying high-quality datasets that can be reliably reused across studies. In the context of omics research, which includes genomics, transcriptomics, proteomics, and microbiome data, adherence to these principles is critical due to the complexity and volume of data involved. 
+
+A standardized reporting framework ensures that only datasets with well-documented clinical metadata, ethical approvals, and appropriate data formats are selected. This enhances data transparency and allows for meaningful cross-study comparisons. Clear eligibility criteria help filter out incomplete or non-human studies, ensuring the data's relevance to clinical questions. Defined search strategies and data sources make the selection process replicable and reduce bias. 
+
+Furthermore, robust data extraction and quality checks support valid statistical integration of heterogeneous omics platforms. Ensuring FAIR compliance also facilitates long-term reuse, contributing to open science and accelerating discoveries. Ultimately, using a structured, FAIR-aligned approach enables meta-analyses that yield clinically actionable insights, minimizes research waste, and strengthens the credibility of systematic reviews in precision medicine. 
+
+ 
+{{< include ../_template.qmd >}}
