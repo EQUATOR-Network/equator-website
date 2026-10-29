@@ -29,6 +29,7 @@ full-bibliographic-reference: |-
   Headache. 2013;53(10):1541-1547. PMID: [24266334](http://www.ncbi.nlm.nih.gov/pubmed/24266334)\ 
 
   **Explanation and Elaboration**
+  
   Riley DS, Barber MS, Kienle GS, Aronson JK, von Schoen-Angerer T, Tugwell P, Kiene H, Helfand M, Altman DG, Sox H, Werthmann PG, Moher D, Rison RA, Shamseer L, Koch CA, Sun GH, Hanaway P, Sudak NL, Kaszkin-Bettag M, Carpenter JE, Gagnier JJ. CARE guidelines for case reports: explanation and elaboration document. J Clin Epidemiol. 2017. pii: S0895-4356(17)30037-9. PMID: [28529185](https://www.ncbi.nlm.nih.gov/pubmed/28529185)
 guideline-history: ''
 # OPTIONAL FIELDS
