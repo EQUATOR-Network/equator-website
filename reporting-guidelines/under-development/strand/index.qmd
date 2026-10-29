@@ -9,7 +9,7 @@ categories:
 - Clinical trials
 # - Clinical trial protocols
 # - Literature reviews
-- Observational studies & Case reports
+- Observational studies
 # - Other
 ---
 

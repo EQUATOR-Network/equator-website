@@ -2,10 +2,11 @@
 #YAML
 date-updated: null
 categories:
+# - Artificial intelligence/machine learning
 # - Clinical trials
 # - Clinical trial protocols
 # - Literature reviews
-# - Observational studies & Case reports
+# - Observational studies
 # - Other
 ---
 
