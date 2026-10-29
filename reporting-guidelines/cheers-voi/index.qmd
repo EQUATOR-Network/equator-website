@@ -51,7 +51,7 @@ relevant-more: |-
 
   MDM Policy Pract. 2022;7(1):23814683211061097. PMID: [35036563](https://pubmed.ncbi.nlm.nih.gov/35036563/)
 
-  Clin Ther. 2022;S0149-2918(22)00016-9. PMID: [35168801](https://pubmed.ncbi.nlm.nih.gov/35168801/)
+  Clin Ther. 2022;S0149-2918(22)00016-9. PMID: [35168801](https://pubmed.ncbi.nlm.nih.gov/35168801/) \
 
   **Specialised**
 
