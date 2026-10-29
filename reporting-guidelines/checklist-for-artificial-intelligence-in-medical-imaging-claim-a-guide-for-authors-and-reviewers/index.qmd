@@ -8,10 +8,10 @@ pmid-id: '[38809149](https://pubmed.ncbi.nlm.nih.gov/38809149/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38809149/
 relevant-urls: '[Read the full-text](https://pubs.rsna.org/doi/10.1148/ryai.240300)
   of the CLAIM reporting guideline.'
-full-bibliographic-reference: 'Tejani AS, Klontzas ME, Gatti AA, Mongan JT, Moy L,
-  Park SH, Kahn CE Jr; CLAIM 2024 Update Panel. Checklist for Artificial Intelligence
-  in Medical Imaging (CLAIM): 2024 Update. Radiol Artif Intell. 2024;6(4):e240300.'
+full-bibliographic-reference: |-
+  Tejani AS, Klontzas ME, Gatti AA, Mongan JT, Moy L, Park SH, Kahn CE Jr; CLAIM 2024 Update Panel. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024 Update. Radiol Artif Intell. 2024;6(4):e240300. \
 
+  Explanation and Elaboration: Akinci D'Antonoli T, Adams LC, Amyar A, Chang K, Chaudhari G, Fanni SC, Gatti AA, Gonzales RA, Huisman M, Klontzas ME, Mayeli M, Moassefi M, Polat DS, Tejani A, Kahn CE, Mongan J. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): Explanation, Elaboration, and Examples. Radiol Artif Intell. 2026 Sep 30:e260835. PMID: [42813998](https://pubmed.ncbi.nlm.nih.gov/42813998/)
 
 # OPTIONAL FIELDS
 rg-language: English
