@@ -10,7 +10,7 @@ pmid-url:
 relevant-urls: |-
   
 full-bibliographic-reference: |-
-  'Slutzman JE, Barratt A, Eckelman MJ, McAlister S, MacNeill AJ, Buchbinder R, Cimprich A, Drew J, Duane B, Ishii M, McGain F, Overcash M, Piggott T, Pohl H, Rasmussen AR, Rizan C, Snijder L, van Bree EM, Watts N, Sherman JD. ECoHealth: Consensus Guidelines on the Conduct and Reporting of Studies on the Environmental Consequences of Healthcare. Lancet Planet Health. In Press.'
+  Slutzman JE, Barratt A, Eckelman MJ, McAlister S, MacNeill AJ, Buchbinder R, Cimprich A, Drew J, Duane B, Ishii M, McGain F, Overcash M, Piggott T, Pohl H, Rasmussen AR, Rizan C, Snijder L, van Bree EM, Watts N, Sherman JD. ECoHealth: Consensus Guidelines on the Conduct and Reporting of Studies on the Environmental Consequences of Healthcare. Lancet Planet Health. In Press.
 # OPTIONAL FIELDS
 downloads: ''
 rg-language: English
