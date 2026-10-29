@@ -25,13 +25,15 @@ full-bibliographic-reference: |-
 
   J Clin Epidemiol. 2021:S0895-4356(21)00073-1. PMID: [33789819](https://pubmed.ncbi.nlm.nih.gov/33789819/)
 
-  Syst Rev. 2021;10(1):89. PMID: [33781348](https://pubmed.ncbi.nlm.nih.gov/33781348/)
+  Syst Rev. 2021;10(1):89. PMID: [33781348](https://pubmed.ncbi.nlm.nih.gov/33781348/) \
 
+  **Explanation and Elaboration paper**
+  
+  Page MJ, Moher D, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, McKenzie JE. PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. BMJ 2021;372:n160. PMID: [33782057](https://pubmed.ncbi.nlm.nih.gov/33782057/)
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: |-
-  Page MJ, Moher D, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, McKenzie JE. PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews. BMJ 2021;372:n160.
 
   <https://www.bmj.com/content/372/bmj.n160>
 guideline-history: |-
