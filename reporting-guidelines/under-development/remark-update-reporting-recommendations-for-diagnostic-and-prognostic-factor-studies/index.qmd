@@ -6,7 +6,8 @@ date-updated: 5 February 2026
 contact-name: Gary Collins; Richard Riley; Ben Van Calster
 contact-email: g.s.collins@bham.ac.uk; r.d.riley@bham.ac.uk; ben.vancalster@kuleuven.be
 categories:
-- Other
+- Artificial intelligence/machine learning
+- Diagnostic or prognostic research
 ---
 
 Introduction: The Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK) guideline, published in 2005, was designed to promote complete and transparent reporting of studies evaluating the prognostic value of tumour markers. Although originally developed for oncology, its principles apply widely to prognostic factor research across medicine. To support broader use and improve reporting quality, we are updating the guidance and expanding its scope. To align more closely with other prognosis-related reporting guidelines and make it easier for researchers to identify and adopt, the updated guideline will join the Transparent Reporting Items of Studies for Prognosis and Diagnosis (TRIPOD) family and will be known as TRIPOD-PF. This protocol outlines the processes and methods that will guide its development.
