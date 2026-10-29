@@ -23,7 +23,7 @@ explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
 website-url: ''
-additional-languages: ''
+additional-languages: 'STROBE-EQUITY has been translated in [Spanish](https://iris.paho.org/items/c08ed115-9228-4e84-ab25-6dca38ba4fef) and [Portugese](https://iris.paho.org/items/0f65030a-03e2-48f2-bee6-5707aa7afeb4)'
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: Read the guidance [here](https://www.bmj.com/content/390/bmj-2024-083882)
