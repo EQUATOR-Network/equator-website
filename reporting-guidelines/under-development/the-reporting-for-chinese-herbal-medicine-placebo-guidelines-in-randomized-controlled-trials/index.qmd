@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Xuanlin Li
 contact-email: lixuanlinhnzy@163.com
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 As a crucial component in verifying the efficacy of medications, placebos play an important role in randomized controlled trials of Chinese herbal medicine (CHM). The CONSORT Extension for Chinese Herbal Medicine Formulas 2017: Recommendations, Explanation, and Elaboration, includes five items specifically addressing the reporting of CHM-placebo. However, an epidemiological evaluation conducted by our team on randomized controlled trials of CHM containing CHM-placebo published between January 2018 and September 2025 revealed that compliance with these items was generally low. In particular, there were serious omissions regarding "Name and amount of each ingredient", "Description of the similarity of placebo with the intervention", "Quality control and safety assessment, if any", "Production information: where, when, how, and by whom the placebo was produced". Some studies merely mentioned the CHM-placebo had a similar appearance to CHM without specifying their exact composition, preparation process, or degree of similarity to the test drug in terms of physical properties. Most studies did not report the results of placebo quality control tests, nor did they clarify whether the CHM-placebo's safety had been verified prior to the trial. These missing details directly impacted the trial's safety assessment, transparency, and success rate of blinding.

@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Dr Tim Kendall; Dr Max Robinson
 contact-email: Tim.Kendall@ed.ac.uk; max.robinson@newcastle.ac.uk
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 The CONSORT-Path Core Delivery and Advisory groups propose to create an extension to the CONSORT statement to define the minimum reporting of pathology items within a study.

@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Josip Car
 contact-email: josip.car@ntu.edu.sg
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 Digital health education is an umbrella term encompassing a broad spectrum of educational interventions characterised by their technological contents, learning objectives/outcomes, measurement tools, learning approaches and delivery settings used for health. These interventions, although varying greatly in content and quality, are widely evaluated in randomised controlled trials (RCTs).

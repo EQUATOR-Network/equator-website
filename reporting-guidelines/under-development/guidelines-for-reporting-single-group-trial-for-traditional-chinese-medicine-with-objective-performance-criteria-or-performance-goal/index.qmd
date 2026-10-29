@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Mei Han
 contact-email: hanmeizoujin@163.com
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 Single-group trials are interventional studies without a control group. Objective performance criteria (OPC) or performance goal (PG) can be used to evaluate the intervention effect in situations where it is difficult to perform randomised controlled trials. As it is difficult to implement randomisation and use placebos in traditional Chinese medicine (TCM), single-group trials with OPC and PG have become common to evaluate non-drug therapy and syndrome differentiation in TCM. The existing reporting guidelines for trials (such as CONSORT) are not applicable for single-group trials, so a group of 15 researchers from the Evidence-Based Centre of Beijing University of Traditional Chinese Medicine decided to develop one.

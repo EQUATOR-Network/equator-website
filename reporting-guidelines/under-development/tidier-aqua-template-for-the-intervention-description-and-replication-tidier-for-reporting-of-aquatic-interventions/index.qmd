@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Anna Ogonowska-Slodownik
 contact-email: Anna.ogonowskaslodownik@awf.edu.pl
 categories:
-- Clinical Trials
+- Clinical trials
 ---
 
 Aquatic therapy/exercise is widely used intervention for diverse populations. It offers unique therapeutic benefits due to the physical properties of water, such as buoyancy, viscosity, hydrostatic pressure, and thermal effects. However, despite a growing body of research on aquatic interventions, studies often lack sufficient detail to allow replication, clinical implementation, or meaningful comparison between trials. This hinders the translation of evidence into practice and limits the inclusion of aquatic therapy studies in systematic reviews and meta-analyses.
