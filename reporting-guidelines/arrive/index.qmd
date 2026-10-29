@@ -28,17 +28,15 @@ full-bibliographic-reference: |-
 
   J Cereb Blood Flow Metab. 2020. PMID: [32663096](https://pubmed.ncbi.nlm.nih.gov/32663096/)
 
-  J Physiol. 2020. PMID: [32666574](https://pubmed.ncbi.nlm.nih.gov/32666574/)
+  J Physiol. 2020. PMID: [32666574](https://pubmed.ncbi.nlm.nih.gov/32666574/) \
 
+  **Explanation and Elaboration**
+  
+  Percie du Sert N, Ahluwalia A, Alam S, Avey MT, Baker M, Browne WJ, Clark A, Cuthill IC, Dirnagl U, Emerson M, Garner P, Holgate ST, Howells DW, Hurst V, Karp NA, Lazic SE, Lidster K, MacCallum CJ, Macleod M, Pearl EJ, Petersen O, Rawle F, Peynolds P, Rooney K, Sena ES, Silberberg SD, Steckler T and Wurbel H. Reporting animal research: Explanation and Elaboration for the ARRIVE guidelines 2.0. PLoS Biol. 2020;18(7):e3000411. PMID: [32663221](http://www.ncbi.nlm.nih.gov/pubmed/32663221)
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Percie du Sert N, Ahluwalia A, Alam S, Avey MT,
-  Baker M, Browne WJ, Clark A, Cuthill IC, Dirnagl U, Emerson M, Garner P, Holgate
-  ST, Howells DW, Hurst V, Karp NA, Lazic SE, Lidster K, MacCallum CJ, Macleod M,
-  Pearl EJ, Petersen O, Rawle F, Peynolds P, Rooney K, Sena ES, Silberberg SD, Steckler
-  T and Wurbel H. Reporting animal research: Explanation and Elaboration for the ARRIVE
-  guidelines 2.0. PLoS Biol. 2020;18(7):e3000411. PMID: [32663221](http://www.ncbi.nlm.nih.gov/pubmed/32663221)'
+explanation-and-elaboration-papers: 
 guideline-history: |-
   The ARRIVE reporting guideline was originally published in 2010. \
 
