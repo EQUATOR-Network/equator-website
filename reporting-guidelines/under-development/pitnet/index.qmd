@@ -1,0 +1,24 @@
+---
+title: "Endoscopic Endonasal Pituitary Neuroendocrine Tumor (PitNET) Reporting Guideline: a reporting guideline for clinical and surgical outcomes of endoscopic endonasal surgery for PitNET"
+contact-name: "Matteo de Notaris"
+contact-email: "mdenotaris@unisa.it"
+date-registered: "29 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Clinical trial protocols
+# - Literature reviews
+- Observational studies
+# - Other
+---
+
+<!-- Add Description Below -->
+Endoscopic endonasal surgery (EES) has become the principal surgical approach for pituitary neuroendocrine tumours (PitNET, formerly pituitary adenomas), and the number of clinical series reporting its outcomes has grown rapidly. However, a systematic appraisal of the largest published cohorts shows that the clinical, surgical, endocrinological, radiological and perioperative outcomes of EES for PitNET are defined and reported inconsistently, which limits reproducibility, comparability and the valid pooling of data.
+
+This reporting guideline is intended for authors, reviewers and editors of original clinical studies (observational studies and clinical trials) reporting the clinical and surgical outcomes of endoscopic endonasal, transsphenoidal or transnasal surgery for PitNET. It specifies the minimum information that should be reported across nine domains: (1) baseline characteristics of the patient sample; (2) imaging methods and tumour characteristics; (3) definitions of pivotal concepts; (4) neurosurgical and interventional team characteristics; (5) anaesthetic protocol; (6) surgical procedure details; (7) clinical and procedural outcomes and adverse events; (8) retreatment details; and (9) funding and conflicts of interest. The guideline is structured in two tiers: a concise Core Dataset for routine clinical reports and single-centre series, and a full checklist for prospective registries, multicentre studies and comprehensive reports.
+
+A new guideline is needed because no existing or in-progress reporting guideline addressing the reporting of clinical and surgical outcomes of EES for PitNET was identified on the EQUATOR Network platform. General frameworks such as STROBE and CONSORT govern study design and generic transparency, but none addresses the endocrine, ophthalmological, anatomical, anaesthetic and reconstructive elements that determine the interpretability of pituitary surgery outcomes, such as endocrine remission criteria per hormonal axis, Knosp and Hardy-Wilson grading, extent of resection, cerebrospinal fluid leak definition and classification, and procedure-related mortality criteria. Our systematic appraisal documented deficiencies in every domain, including complete comorbidity reporting in 10% of studies, a comprehensive anaesthetic protocol in 3%, all-cause and procedure-related mortality criteria in none, and retreatment frequency in 17%. The guideline is therefore designed as a domain-specific complement to, and not a substitute for, existing general reporting frameworks.
+
+{{< include ../_template.qmd >}}

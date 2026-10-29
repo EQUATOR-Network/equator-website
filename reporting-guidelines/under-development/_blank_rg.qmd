@@ -2,12 +2,16 @@
 #YAML
 date-updated: null
 categories:
+# - Animal pre-clinical research
 # - Artificial intelligence/machine learning
 # - Clinical trials
-# - Clinical trial protocols
-# - Literature reviews
+# - Diagnostic or prognostic research
+# - Economic evaluations/health economics
+# - Systematic reviews
 # - Observational studies
 # - Other
+# - Qualitative research
+# - Study protocols
 ---
 
 <!-- Add Description Below -->
