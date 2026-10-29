@@ -10,7 +10,7 @@ categories:
 # - clinical trial protocols
 # - literature reviews
 # - Observational studies & Case reports
-- Artificial intelligence
+- Artificial intelligence/machine learning
 ---
 
 <!-- Add Description Below -->

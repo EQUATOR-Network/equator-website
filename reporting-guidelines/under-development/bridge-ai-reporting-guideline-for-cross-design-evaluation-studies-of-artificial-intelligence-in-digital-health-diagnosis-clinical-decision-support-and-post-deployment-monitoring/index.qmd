@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Hamid Reza Marateb
 contact-email: Hamid.reza.marateb@upc.edu
 categories:
-- Artificial intelligence
+- Artificial intelligence/machine learning
 ---
 
 BRIDGE stands for Bias Reduction for Implementation, Deployment, Governance, and Equity. BRIDGE-AI is a new, cross-design reporting guideline for evaluation studies of artificial intelligence (AI) in digital health, particularly diagnosis, prognosis, clinical decision support, workflow integration, and post-deployment monitoring. It is not conceived as an extension of a single existing guideline. Instead, it addresses reporting items that cut across study designs and evaluation phases and are currently dispersed across the AI literature.
