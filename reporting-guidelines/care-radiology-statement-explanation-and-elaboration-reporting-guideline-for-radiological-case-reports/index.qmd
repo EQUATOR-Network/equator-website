@@ -37,11 +37,11 @@ relevant-more: |-
 
   J Diet Suppl. 2013;10(4):381-390. PMID: [24237192](http://www.ncbi.nlm.nih.gov/pubmed/24237192)
 
-  Headache. 2013;53(10):1541-1547. PMID: [24266334](http://www.ncbi.nlm.nih.gov/pubmed/24266334)
+  Headache. 2013;53(10):1541-1547. PMID: [24266334](http://www.ncbi.nlm.nih.gov/pubmed/24266334) \
 
   **Specialised**
 
-  **[Therapeutic Massage and Bodywork](/reporting-guidelines/adaptation-of-the-care-guidelines-for-therapeutic-massage-and-bodywork-publications-efforts-to-improve-the-impact-of-case-reports/)**: Munk N, Boulanger K. Adaptation of the CARE Guidelines for Therapeutic Massage and Bodywork Publications: Efforts To Improve the Impact of Case Reports. Int J Ther Massage Bodywork. 2014;7(3):32-40. PMID: [25184013](https://www.ncbi.nlm.nih.gov/pubmed/25184013)
+  [**Therapeutic Massage and Bodywork**](/reporting-guidelines/adaptation-of-the-care-guidelines-for-therapeutic-massage-and-bodywork-publications-efforts-to-improve-the-impact-of-case-reports/): Munk N, Boulanger K. Adaptation of the CARE Guidelines for Therapeutic Massage and Bodywork Publications: Efforts To Improve the Impact of Case Reports. Int J Ther Massage Bodywork. 2014;7(3):32-40. PMID: [25184013](https://www.ncbi.nlm.nih.gov/pubmed/25184013)
 website-url: ''
 additional-languages: ''
 additional-information: '[Read the study protocol](https://atm.amegroups.org/article/view/88322/html)
