@@ -20,13 +20,14 @@ full-bibliographic-reference: |-
 
   Clinical Chemistry. 2015. pii: clinchem.2015.246280. PMID: [26510957](http://www.ncbi.nlm.nih.gov/pubmed/26510957)
 
+  **Explanation and Elaboration**
+  
+    Cohen JF, Korevaar DA, Altman DG, Bruns DE, Gatsonis CA, Hooft L, Irwig L, Levine D, Reitsma JB, de Vet HCW, Bossuyt PMM. STARD 2015 guidelines for reporting diagnostic accuracy studies: explanation and elaboration. BMJ Open 2016;6:e012799 <http://bmjopen.bmj.com/content/6/11/e012799.abstract>
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: |-
-  Cohen JF, Korevaar DA, Altman DG, Bruns DE, Gatsonis CA, Hooft L, Irwig L, Levine D, Reitsma JB, de Vet HCW, Bossuyt PMM. STARD 2015 guidelines for reporting diagnostic accuracy studies: explanation and elaboration. BMJ Open 2016;6:e012799
 
-  <http://bmjopen.bmj.com/content/6/11/e012799.abstract>
 guideline-history: |-
   The STARD reporting guideline was originally published in 2003. \
 
