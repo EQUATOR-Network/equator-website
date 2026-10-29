@@ -9,11 +9,25 @@ pmid-url: https://pubmed.ncbi.nlm.nih.gov/42725443/
 relevant-urls: '[Read the full-text](https://doi.org/10.1097/PTS.0000000000001583)
 
 The SESAME Explanation and Elaboration document is available [here](https://doi.org/10.1097/PTS.0000000000001584)'
-full-bibliographic-reference: 'Griffey RT, Stockwell DC, Adler LM, Ancona R, Classen D, Schneider RM, Rutjes AW, Carpenter CR, Unbeck M; SESAME Development Team. Standard Elements in Studies of Adverse Events and Medical Error: the SESAME statement. J Patient Saf. 2026 Sep 11. doi: 10.1097/PTS.0000000000001583.'
+full-bibliographic-reference: |-
+
+  Griffey RT, Stockwell DC, Adler LM, Ancona R, Classen D, Schneider RM, Rutjes AW, Carpenter CR, Unbeck M; SESAME Development Team. Standard Elements in Studies of Adverse Events and Medical Error: the SESAME statement. J Patient Saf. 2026 Sep 11. doi: 10.1097/PTS.0000000000001583.\ 
+  
+  **Explanation and Elaboration**
+  
+  Griffey RT, Adler LM, Stockwell DC, Hibbert PD, Klein DO, Schwendimann R, Auerbach AD, Ancona R, Schneider RM, Classen D, Carpenter CR, Rutjes AWS, Unbeck M; SESAME Development Team. Standard Elements in Studies of Adverse Events and Medical Error (SESAME): explanation and elaboration. \
+  
+  The Explanation and Elaboration was published simultaneously in 3 journals. You can read this in any of these journals using the links below. \
+  
+  BMJ Qual Saf. 2026 Sep 11:bmjqs-2025-019469. doi: 10.1136/bmjqs-2025-019469. PMID: [42775027](https://pubmed.ncbi.nlm.nih.gov/42775027/)
+  
+  Pediatr Qual Saf. 2026 Sep 11;11(5):e930. doi: 10.1097/pq9.0000000000000930. PMID: [42775027](https://pubmed.ncbi.nlm.nih.gov/42775027/)
+  
+  J Patient Saf. 2026 Sep 11. doi: 10.1097/PTS.0000000000001584 PMID: [42725452](https://pubmed.ncbi.nlm.nih.gov/42725452/)
   
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Griffey RT, Adler LM, Stockwell DC, Hibbert PD, Klein DO, Schwendimann R, Auerbach AD, Ancona R, Schneider RM, Classen D, Carpenter CR, Rutjes AWS, Unbeck M; SESAME Development Team. Standard Elements in Studies of Adverse Events and Medical Error (SESAME): explanation and elaboration. BMJ Qual Saf. 2026 Sep 11:bmjqs-2025-019469.'
+explanation-and-elaboration-papers: 
 guideline-history: ''
 relevant-more: ''
 website-url: '[https://www.sesamestatement.org/checklist/](https://www.sesamestatement.org/checklist/)'
