@@ -29,6 +29,7 @@ full-bibliographic-reference: |-
   J Am Coll Surg. 2016;222(3):317-323. PMID: [26385723](http://www.ncbi.nlm.nih.gov/pubmed/26385723) \ 
 
   **Explanation and Elaboration**
+  
   Goodman D, Ogrinc G, Davies L, Baker GR, Barnsteiner J, Foster TC, Gali K, Hilden J, Horwitz L, Kaplan HC, Leis J, Matulis JC, Michie S, Miltner R, Neily J, Nelson WA, Niedner M, Oliver B, Rutman L, Thomson R, Thor J. Explanation and elaboration of the SQUIRE (Standards for Quality Improvement Reporting Excellence) Guidelines, V.2.0: examples of SQUIRE elements in the healthcare improvement literature. BMJ Qual Saf. 2016;25(12):e7. PMID: [27076505](https://pubmed.ncbi.nlm.nih.gov/27076505/)
 
 # OPTIONAL FIELDS
