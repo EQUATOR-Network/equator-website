@@ -22,19 +22,16 @@ full-bibliographic-reference: |-
 
   Nat Med. 2025.[PMID: 40295741](https://pubmed.ncbi.nlm.nih.gov/40295741)
 
-  PLoS Med. 2025; 22(4): e1004587.[PMID: 40294521](https://pubmed.ncbi.nlm.nih.gov/40294521/)
+  PLoS Med. 2025; 22(4): e1004587.[PMID: 40294521](https://pubmed.ncbi.nlm.nih.gov/40294521/) \
+  
+  **Explanation and Elaboration**
+  
+   Hróbjartsson A, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Chan AW. SPIRIT 2025 explanation and elaboration: updated guideline for protocols of randomised trials. BMJ. 2025;389:e081660. PMID: [40294956](https://pubmed.ncbi.nlm.nih.gov/40294956/)
 
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Hróbjartsson A, Boutron I, Hopewell S, Moher
-  D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N,
-  Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub
-  RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis
-  S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried
-  NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Chan
-  AW. SPIRIT 2025 explanation and elaboration: updated guideline for protocols of
-  randomised trials. BMJ. 2025;389:e081660. PMID: [40294956](https://pubmed.ncbi.nlm.nih.gov/40294956/)'
+explanation-and-elaboration-papers:
 guideline-history: SPIRIT 2013
 relevant-more: |-
   **Specialised**
