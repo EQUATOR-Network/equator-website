@@ -22,7 +22,7 @@ full-bibliographic-reference: |-
 
   BMJ Medicine 2025; 4: e001632. PMID: [40761518](https://pubmed.ncbi.nlm.nih.gov/40761518/) [full text](https://bmjmedicine.bmj.com/content/4/1/e001632)
 
-  British Journal of Surgery 2025; 112: znaf142. PMID:  [40747825](https://pubmed.ncbi.nlm.nih.gov/40747825/) [full text]((https://academic.oup.com/bjs/article/112/8/znaf142/8220472))
+  British Journal of Surgery 2025; 112: znaf142. PMID:  [40747825](https://pubmed.ncbi.nlm.nih.gov/40747825/) [full text](https://academic.oup.com/bjs/article/112/8/znaf142/8220472)
 
   JAMA Network Open 2025; 8: e2530220. PMID: [40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/) [full text](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2837224)
 
