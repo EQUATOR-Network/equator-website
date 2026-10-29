@@ -1,0 +1,32 @@
+---
+title: "Transparent Reporting of Educational Interventions and Curriculum Research in Health Professions Education (TEACH)"
+contact-name: "Waqar M. Naqvi"
+contact-email: "waqarmn@gmail.com"
+date-registered: "21 June 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic or prognostic research
+# - Economic evaluations/health economics
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+TEACH (Transparent Reporting of Educational Interventions and Curriculum Research in Health Professions Education) is a proposed reporting guideline designed to improve the completeness, clarity, transparency and reproducibility of reports of educational intervention studies in health professions education. Its primary focus is on randomised controlled trials and other controlled evaluative study designs, including cluster-randomised trials, quasi-experimental studies and controlled before-and-after designs. The guideline is intended for studies evaluating teaching strategies, simulation-based education, digital and artificial intelligence–enabled learning, curriculum innovations, skills training, feedback interventions and faculty-led instructional approaches.
+
+Health professions education has a substantial body of educational intervention research; however, there is currently no single dedicated reporting guideline that integrates rigorous reporting of evaluative study methodology with the pedagogical, instructional and contextual information necessary to interpret, critically appraise and replicate such studies. Persistent deficiencies in the reporting of educational intervention studies, particularly where essential details relating to pedagogical rationale, instructional design, educator expertise, learner characteristics, curriculum integration, contextual influences and the educational environment are omitted or insufficiently described.
+
+Educational interventions are complex, context-dependent activities that involve interactions between learners, educators, curriculum structures and institutional environments, making transparent 2
+reporting essential for interpretation, appraisal and replication.
+
+Existing reporting guidelines address related but distinct aspects of research reporting. General trial reporting guidance provides important methodological standards but does not explicitly address key educational features that influence the design, delivery and interpretation of educational interventions. Other available guidance may support the description of interventions or reporting of educational activities, yet none provide a comprehensive framework tailored specifically to evaluative educational intervention research in health professions education.
+
+TEACH is therefore proposed as a standalone reporting guideline. The reporting challenges in this field extend beyond the addition of a small number of items to an existing checklist and instead require a broader reporting structure that integrates methodological rigour with pedagogical, instructional and contextual domains central to educational research in health professions education.
+{{< include ../_template.qmd >}}
