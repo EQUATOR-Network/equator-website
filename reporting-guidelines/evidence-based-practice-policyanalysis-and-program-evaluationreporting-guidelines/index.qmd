@@ -8,7 +8,7 @@ rg-doi: '10.1097/NCQ.0000000000000925'
 pmid-id: '[41264777](https://pubmed.ncbi.nlm.nih.gov/41264777/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/41264777/
 relevant-urls: |-
-  'Read the full text of the [guidance](http://www.doi.org/10.1097/NCQ.0000000000000925)'
+  Read the full text of the [guidance](http://www.doi.org/10.1097/NCQ.0000000000000925)
 full-bibliographic-reference: |-
   'Waldrop JB, Dunlap JJ, Reynolds SS. Evidence-Based Practice Policy Analysis and Program Evaluation Reporting Guidelines. J Nurs Care Qual. 2026; 41:103-106'
 # OPTIONAL FIELDS
