@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Alexander Pachanov, 1. Faculty of Health Sciences Brandenburg, Brandenburg Medical School
 contact-email: alexander.pachanov@mhb-fontane.de
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 The way a search strategy is constructed for evidence syntheses (ESs) determines how many records will need to be screened and whether relevant studies might be missed, potentially altering the review’s conclusions. Therefore, a well-designed strategy aims to maximize retrieval of evidence relevant to the review question while avoiding retrieval of irrelevant records. When available, search filters for bibliographic databases can be incorporated into search strategies to help achieve this goal. Search filters are structured combinations of search terms, field tags, and database-specific syntax, developed to identify studies with a specific design (methodological filters) or focused on a particular subject, such as a disease, geographic location or population (topic filters).

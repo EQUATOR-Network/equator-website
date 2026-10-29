@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Xuanlin Li, Zhejiang Chinese Medical University
 contact-email: lixuanlinhnzy@163.com
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 Scientific reporting of clinical practice guidelines helps promote the completeness, transparency, and reliability of guidelines. The current existence of multiple clinical practice guidelines in a particular field or for a particular disease at the same time calls for a systematic review of these guidelines to analyse their methodological quality, quality of reporting, quality of the evidence and the direction, strength and content of the recommendations, investigative analysis of a particular part of the guideline. Currently, systematic reviews of clinical practice guidelines are widely published, but a reporting checklist of such systematic reviews is lacking. Therefore, we drew on the RIGHT, PRISMA, and MOOSE checklist development process and on the standardized production steps provided by the EQUAOR Collaborative Network to develop the SCREEN (reporting checklist for SystematiC Review of clinical practicE guidEliNes) checklist with a view to providing a useful tool for better reporting of systematic reviews of clinical practice guidelines.

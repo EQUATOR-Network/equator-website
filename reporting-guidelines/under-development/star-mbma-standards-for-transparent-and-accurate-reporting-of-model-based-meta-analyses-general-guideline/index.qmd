@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Sun Feng, Department of Epidemiology and Biostatistics, School of Public Health, Peking University
 contact-email: sunfeng@bjmu.edu.cn
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 Model-based meta-analysis (MBMA) is a novel quantitative method of meta-analysis that primarily relies on pharmacological knowledge, including pharmacokinetics and pharmacodynamics, to quantify the dose-response and time-course relationships. However, there is still a lack of standardisation in describing the systematic process of collecting the data and the core process of MBMA modeling.

@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Tomasz Kozakiewicz, Newcastle University
 contact-email: t.kozakiewicz2@newcastle.ac.uk
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 The promise of large language models to not only screen and extract data from studies (Gartlehner et al., 2024) but also summarise them (Ovelman et al., 2024) makes one-stop shop websites for answering decision-makers’ questions closer than ever before, yet no formal guidance exists for creators of such websites.

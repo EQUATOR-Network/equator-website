@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Xiuxia Li, Lanzhou University
 contact-email: lixiuxia@lzu.edu.cn
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 With funding from the National Natural Science Foundation in China, a group of researchers in evidence-based Chinese medicine at Lanzhou University is developing a reporting guideline for studies including network meta-analysis (NMA). According to the group, “A significant advantage of NMA is the ability to consider comparisons of all interventions in the study, including evidence for direct and indirect comparisons”. The new tool aims at helping authors to repor acupuncture-related NMA studies.

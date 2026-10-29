@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Dr Manoj M. Lalu, The Ottawa Hospital Research Institute
 contact-email: mlalu@toh.ca
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 This reporting guideline is an extension to the Preferred Reporting Items for Systematic reviews and Meta-Analysis (PRISMA), specifically for systematic reviews research performed in preclinical, in vivo animal models. The guideline development will occur in five phases: 1) Group establishment to help and provide expertise in the guideline development; 2) A cross-sectional study to describe the characteristics of and assess the reporting of contemporary preclinical systematic reviews; 3) Delphi Exercise; 4) Written Guidance, and 5) Dissemination. 

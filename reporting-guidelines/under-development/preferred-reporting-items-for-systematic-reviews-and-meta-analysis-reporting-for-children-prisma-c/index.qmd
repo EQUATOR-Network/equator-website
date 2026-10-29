@@ -6,7 +6,7 @@ date-updated: 14 June 2022; 20 November 2024
 contact-name: Dr Martin Offringa
 contact-email: martin.offringa@sickkids.ca
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 An official extension of the PRISMA 2009 Statement defining standard reporting items for systematic review in children is currently under development. A Delphi process to generate possible reporting standards for PRISMA-C and a consensus meeting have taken place in 2015. The evidence synthesis, Delphi survey and international consensus have been completed. The checklists have been finalized (available on request).

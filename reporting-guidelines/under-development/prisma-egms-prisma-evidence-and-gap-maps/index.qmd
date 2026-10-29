@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Fiona Campbell, University of Newcastle, Campbell Collaboration
 contact-email: Fiona.Campbell1@newcastle.ac.uk
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 According to the developers of this reporting guideline, evidence and gap maps (EGM) are  an approach used in evidence synthesis, and aim to describe the body of evidence in contrast to a synthesis of evidence addressing a specific topic. EGMs differ from mapping and scoping reviews, requiring an a priori development of a coding matrix, and resulting in visual and interactive maps. The developers state that the existing guidance (PRISMA-Scr) “does not cover the unique features of EGMs and it therefore warrants a separate guideline.” 

@@ -6,7 +6,7 @@ date-updated: June 2024
 contact-name: Andrea Tricco
 contact-email: Andrea.tricco@unityhealth.to
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 This reporting guideline will address reporting for rapid reviews. Rapid reviews can be described as systematic reviews where methods modifications are made to expedite the review completion time.

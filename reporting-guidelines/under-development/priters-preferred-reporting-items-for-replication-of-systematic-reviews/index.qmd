@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Kehu Yang, School of Basic Medical Sciences, Lanzhou University, China
 contact-email: yangkh@lzu.edu.cn
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 Systematic reviews are considered the gold standard for synthesizing evidence to inform research, practice, and policy. However, the reliability and validity of systematic review findings could depend heavily on their reproducibility and replicability. Replication of systematic reviews would play a critical role in verifying results, identifying potential biases, and updating evidence to reflect new data. Despite its importance, the reporting of systematic review replication studies is rare. As an emerging field the adoption of guidelines will support consistency, transparency, and rigor.

@@ -6,7 +6,7 @@ date-updated: null
 contact-name: ChangXu, Key Laboratory of Population Health Across Life Cycle, Ministry of Education, and College of Public Health, Anhui Medical University, China
 contact-email: xuchang2016@runbox.com
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 This project aims to develop an reporting checklist in order to improve the reproducibility of data extraction for evidence synthesis researches (like systematic reviews), where “raw material” from original studies is transferred to reviews that serve as the basis for evidence synthesis. The reporting guideline under development will allow authors to write up the manuscript section related to the data extraction procedures.

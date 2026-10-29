@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Maen Mahfouz, Private Orthodontic Clinic, Ministry of Health, Ramallah, Palestine
 contact-email: null
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 This guideline addresses the critical gap in transparent reporting of the process and implementation of critical appraisal within systematic reviews and meta-analyses. While tools like PRISMA guide the reporting of the review itself, and tools like Cochrane RoB 2 guide the assessment, there is no standardized framework for reporting how these assessments are performed, integrated, and used to transform the evidence. The Systematic Engine reframes critical appraisal from a procedural checkpoint to the central, diagnostic engine of synthesis. A new reporting guideline is needed because:

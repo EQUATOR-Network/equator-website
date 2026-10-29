@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Areti-Angeliki Veroniki, Institute for Health Policy, Management, and Evaluation, University of Toronto
 contact-email: Areti-Angeliki.Veroniki@unityhealth.to
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 The extension of PRISMA dedicated to network meta-analysis (NMA) has been published in 2015. In 2020, the PRISMA statement was-updated to reflect advances in the conduct and reporting of systematic reviews. These advances have yet to be incorporated into the PRISMA extension for NMA. Other  advancements in NMA methodology also necessitate a significant update to PRISMA-NMA.  

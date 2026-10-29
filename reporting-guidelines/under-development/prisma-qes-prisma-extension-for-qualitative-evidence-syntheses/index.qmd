@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Emma France, University of Stirling
 contact-email: Emma.france@stir.ac.uk
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 The leaders of this project plan to develop an extension for PRISMA

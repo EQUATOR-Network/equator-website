@@ -6,7 +6,7 @@ date-updated: 25 April 2024; 7 February 2025
 contact-name: Norina Gasteiger, University of Manchester
 contact-email: norina.gasteiger@manchester.ac.uk
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 Mobile health smartphone applications (mHealth apps) are increasingly being used in healthcare to support professionals in their clinical practice or help patients self-manage their conditions. They can, for example, help patients register the site and intensity of pain in different parts of the body, or collect data on mood or specific health-related events. However, not all apps are equal in quality and functionality. 

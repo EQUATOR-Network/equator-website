@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Joseph Kwon, Nuffield Department of Primary Care Health Sciences, University of Oxford
 contact-email: joseph.kwon@phc.ox.ac.uk
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 Systematic reviews of health economic evaluations consider health economic evaluations, which compare the effects of different healthcare interventions on economic outcomes (e.g. incremental cost-effectiveness ratios, incremental benefits, etc). However, these reviews, albeit common, have varied quality standards of reporting.

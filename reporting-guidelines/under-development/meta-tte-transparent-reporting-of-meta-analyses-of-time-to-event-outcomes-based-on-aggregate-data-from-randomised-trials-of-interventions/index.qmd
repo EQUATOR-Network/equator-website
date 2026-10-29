@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Nicole Skoetz and Marius Goldkuhle
 contact-email: nicole.skoetz@uk-koeln.de; marius.goldkuhle@uk-koeln.de
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 Poor reporting of time-to-event analyses in trial publications, including outcome definitions, general and time-to-event specific methods and study characteristics can hinder the development of time-to-event meta-analyses. 

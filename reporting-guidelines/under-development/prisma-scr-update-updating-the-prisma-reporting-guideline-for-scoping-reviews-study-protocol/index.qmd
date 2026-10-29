@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Andrea Tricco, University of Toronto
 contact-email: Andrea.Tricco@unityhealth.to
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 The PRISMA (Preferred Reporting Items for Systematic reviews and Meta-Analyses) reporting guideline was created to improve transparency and reproducibility in systematic reviews, and was later extended to guide reporting of other research synthesis methodologies including scoping reviews (ScRs) in 2018. However, important advances in ScR methods (like data extraction techniques, evidence synthesis and automation tools) along with the-updated PRISMA 2020 guideline for systematic reviews call for a considerable update to the PRISMA-ScR guideline to ensure continued rigour and fit for purpose. 

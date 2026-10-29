@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Giovanni Cacciamani, Institute of Urology, University of Southern California   -
 contact-email: giovanni.cacciamani@med.usc.edu
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 With the advances in artificial intelligence (AI) over the last two decades, enthusiasm and adoption of this technology in medicine have steadily increased. However, the way such methodologies and results are reported varies widely and the readability of clinical studies using AI can be challenging to the general clinician. The number of systematic reviews on the topic, with or without meta-analysis, is also increasing dramatically, yet the quality of reporting is still poor and heterogeneous. 

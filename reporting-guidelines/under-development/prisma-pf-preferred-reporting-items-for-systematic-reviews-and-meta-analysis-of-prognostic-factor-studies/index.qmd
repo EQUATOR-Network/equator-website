@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Anneke Damen. Julius Center of Health Sciences and Primary Care, UMC Utrecht
 contact-email: j.a.a.damen@umcutrecht.nl
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 PRISMA-PF will be a reporting guideline for systematic reviews and meta-analysis of prognostic factor studies. The guideline is planned to help researchers report reviews of aggregate data identifying or comparing prognostic factors for populations.

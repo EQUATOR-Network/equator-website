@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Camilla Hansen Nejstgaard, Centre for Evidence-Based Medicine Odense
 contact-email: cahansen@health.sdu.dk
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 [PRISMA-P](http://www.prisma-statement.org/Extensions/Protocols) (“PRISMA for protocols”) was initially published in 2015. Since then, the field of systematic reviews and meta-analyses has expanded, new methodological and reporting practices have evolved, and the role of protocols in clinical research has been increasingly debated. The original PRISMA guideline from 2009 for completed systematic reviews was-updated and published as PRISMA 2020. 

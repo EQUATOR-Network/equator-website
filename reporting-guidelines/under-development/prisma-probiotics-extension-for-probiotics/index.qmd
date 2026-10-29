@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Verónica Romero Ferreiro, Universidad Europea de Madrid
 contact-email: veronica.romero@universidadeuropea.es
 categories:
-- Literature reviews
+- Systematic reviews
 ---
 
 Systematic reviews are essential tools for synthesizing evidence and informing clinical decision-making. The PRISMA (Preferred Reporting Items for Systematic reviews and Meta-Analyses) statement provides a standardized framework to enhance the transparency and completeness of reporting in systematic reviews. However, specific domains—such as the use of probiotics in clinical and experimental research—present unique challenges that are not fully addressed by the core PRISMA checklist.
