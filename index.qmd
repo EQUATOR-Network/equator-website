@@ -50,18 +50,13 @@ community-created recommendations that ensure [everyone]{#typewriter-words
 guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action
 .btn-primary .btn .btn-lg role="button"}
 
-[[›](#general-reporting-guidelines){.modern-link}]{.chevron}[ View popular
-reporting guidelines](#general-reporting-guidelines){.modern-link}
+[[›]{.chevron} View popular reporting guidelines](#general-reporting-guidelines){.modern-link}
 
-[[›](#sec-what-are-rgs){.modern-link}]{.chevron}[ What are reporting
-guidelines?](#sec-what-are-rgs){.modern-link}
+[[›]{.chevron} What are reporting guidelines?](#sec-what-are-rgs){.modern-link}
 
-[[›](#about-equator){.modern-link}]{.chevron}[ About The EQUATOR
-Network](#about-equator){.modern-link}
+[[›]{.chevron} About The EQUATOR Network](#about-equator){.modern-link}
 
-[[›](#sec-tell-us-about-a-new-reporting-guideline){.modern-link}]{.chevron}[
-Tell us about a new reporting
-guideline](#sec-tell-us-about-a-new-reporting-guideline){.modern-link}
+[[›]{.chevron} Tell us about a new reporting guideline](#sec-tell-us-about-a-new-reporting-guideline){.modern-link}
 :::
 
 <!-- hero buttons -->
@@ -239,12 +234,12 @@ Are you developing a new reporting guideline, or do you know of one that's
 recently been published? Help us keep the EQUATOR Network's resources up to
 date by sharing the details with us.
 
-[[›](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}]{.chevron}[
-Register a reporting guideline in
+[[›](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}]{.chevron}[Register
+a reporting guideline in
 development](toolkits/developing-a-reporting-guideline/registration.qmd){.modern-link}
 
-[[›](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}]{.chevron}[
-Notify us about a published reporting
+[[›](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}]{.chevron}[Notify
+us about a published reporting
 guideline](toolkits/developing-a-reporting-guideline/informing-equator.qmd){.modern-link}
 :::
 ::::
