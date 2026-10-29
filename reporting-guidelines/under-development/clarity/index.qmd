@@ -1,0 +1,23 @@
+---
+title: "CLARITY: CheckList for Agentic Reasoning and InTelligence in Healthcare. A reporting guideline for studies that develop, evaluate or deploy agentic artificial intelligence (AI) systems in healthcare"
+contact-name: "Eduardo Farina"
+contact-email: "eduardomoreno.judicedemattosfarina@utsouthwestern.edu"
+date-registered: "29 October 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - clinical trials
+# - clinical trial protocols
+# - literature reviews
+# - Observational studies & Case reports
+- Other
+---
+
+<!-- Add Description Below -->
+Agentic AI systems are built on large language or vision-language models but, rather than producing a single prediction or text output, they plan multi-step actions toward a goal, call external tools (for example electronic health record queries, clinical calculators or retrieval systems), observe the results and revise their plans, in some cases with write access to clinical systems. They are entering healthcare research rapidly, for tasks such as order drafting, clinical trial screening, chart abstraction and radiology workflow automation. They also introduce failure modes that existing reporting guidelines were not designed to capture: hallucinated or malformed tool calls, unbounded reasoning loops, unsafe action trajectories, prompt injection delivered through retrieved documents or tool outputs, and reported performance that depends on undisclosed prompts, orchestration code and repeated configuration search.
+
+Existing guidelines address adjacent technologies. CLAIM and TRIPOD+AI focus on predictive models; TRIPOD-LLM, DEAL, MI-CLEAR-LLM, FLAIR and REFINE address large language models largely as text-generation engines; and CHART addresses chatbot health-advice studies. None explicitly requires reporting of the agent’s architecture and control loop, tool definitions and permissions, operating environment (sandboxed or live, reversible or irreversible actions), guardrails and human oversight, failure handling, adversarial robustness, run-to-run stochasticity, trajectory-level evaluation, or disclosure of the agent harness.
+
+CLARITY applies to studies that develop, evaluate or deploy agentic AI systems in any area of healthcare, in simulated, retrospective, prospective or deployed settings. It addresses completeness of reporting, not methodological quality, and is intended for use alongside CLAIM, TRIPOD+AI, TRIPOD-LLM or DEAL where those also apply; a crosswalk to these guidelines is provided to minimise duplication. The final checklist comprises 29 items across nine domains (administrative information, introduction, architecture, environment and tools, safety and oversight, evaluation, results, discussion, and availability), labelled essential, recommended or conditional, and is accompanied by a short-form planning version and an explanation and elaboration document.
+
+{{< include ../_template.qmd >}}
