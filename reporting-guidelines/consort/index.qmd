@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: 'CONSORT 2025 Statement: updated guideline for reporting randomised trials'
+aliases:
+  - /reporting-guidelines/consort-2010-statement-updated-guidelines-for-reporting-parallel-group-randomised-trials/
 acronym: CONSORT
 provided-for: Reporting of randomised trials.
 rg-doi: ''

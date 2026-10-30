@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: 'The PRISMA 2020 statement: An updated guideline for reporting systematic reviews'
+aliases:
+  - /reporting-guidelines/preferred-reporting-items-for-systematic-reviews-and-meta-analyses-the-prisma-statement/
 acronym: PRISMA 2020
 provided-for: Reporting systematic reviews and meta-analyses.
 rg-doi: ''
