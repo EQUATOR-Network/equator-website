@@ -13,7 +13,7 @@ full-bibliographic-reference: |-
 
   This guideline was published simultaneously in 7 journals. You can read the guideline in any of these journals using the links below. \
 
-  PLoS Med. 2009;6(2):e22. PMID: [19192942](http://www.ncbi.nlm.nih.gov/pubmed/19192942) [full text](dx.plos.org/10.1371/journal.pmed.1000022)
+  PLoS Med. 2009;6(2):e22. PMID: [19192942](http://www.ncbi.nlm.nih.gov/pubmed/19192942) [full text](https://doi.org/10.1371/journal.pmed.1000022)
 
   Hum Genet. 2009;125(2):131-151. PMID: [19184668](http://www.ncbi.nlm.nih.gov/pubmed/19184668) [full text](https://link.springer.com/article/10.1007/s00439-008-0592-7)
 
