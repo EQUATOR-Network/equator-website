@@ -1,10 +1,10 @@
 ---
 # REQUIRED FIELDS
-title: Reporting guidelines for implementation research on nurturing care interventions
-  designed to promote early childhood development
+title: Reporting guidelines for implementation research on nurturing care interventions designed to promote early childhood development
+aliases:
+  - /reporting-guidelines/reporting-guidelines-for-protocols-of-randomised-controlled-trials-of-implantable-neurostimulation-devices-the-spirit-ineurostim-extension
 acronym: C.A.R.E.
-provided-for: Reporting in implementation research of nurturing care interventions
-  designed to promote early childhood development (ECD).
+provided-for: Reporting in implementation research of nurturing care interventions designed to promote early childhood development (ECD).
 rg-doi: ''
 pmid-id: '[29791737](https://www.ncbi.nlm.nih.gov/pubmed/29791737)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/29791737

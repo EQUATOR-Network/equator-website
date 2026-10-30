@@ -55,7 +55,7 @@ relevant-more: |-
 
   [**PRISMA-CI**](/reporting-guidelines/prisma-ci-extension-statement-checklist/): Guise JM, Butler ME, Chang C, Viswanathan M, Pigott T, Tugwell P; Complex Interventions Workgroup. AHRQ Series on Complex Intervention Systematic Reviews - Paper 6: PRISMA-CI Extension Statement & Checklist. J Clin Epidemiol. 2017. PMID: [28720516](https://www.ncbi.nlm.nih.gov/pubmed/28720516) \
 
-  [**PRISMA-DTA**](/reporting-guidelines/prisma-dta/): McInnes MDF, Moher D, Thombs BD, McGrath TA, Bossuyt PM; and the PRISMA-DTA Group. Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies: The PRISMA-DTA Statement. JAMA. 2018;319(4):388-396. PMID: [29362800](https://www.ncbi.nlm.nih.gov/pubmed/29362800) \
+  [**PRISMA-DTA**](/reporting-guidelines/prisma-dta/): McInnes MDF, Moher D, Thombs BD, McGrath TA, Bossuyt PM; and the PRISMA-DTA Group. Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies: The PRISMA-DTA Statement. JAMA. 2018;319(4):388-396. PMID: [29362800](https://www.ncbi.nlm.nih.gov/pubmed/29362800) \
 
   [**PRISMA-ScR**](/reporting-guidelines/prisma-scr/): Tricco AC, Lillie E, Zarin W, O'Brien KK, Colquhoun H, Levac D, Moher D, Peters MDJ, Horsley T, Weeks L, Hempel S, Akl EA, Chang C, McGowan J, Stewart L, Hartling L, Aldcroft A, Wilson MG, Garritty C, Lewin S, Godfrey CM, Macdonald MT, Langlois EV, Soares-Weiser K, Moriarty J, Clifford T, Tunçalp Ö, Straus SE. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Ann Intern Med. 2018. PMID: [30178033](https://www.ncbi.nlm.nih.gov/pubmed/30178033) \
 

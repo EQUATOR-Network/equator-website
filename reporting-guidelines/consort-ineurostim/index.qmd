@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting guidelines for randomised controlled trial reports of implantable
-  neurostimulation devices: the CONSORT-iNeurostim extension'
+title: 'Reporting guidelines for randomised controlled trial reports of implantable neurostimulation devices: the CONSORT-iNeurostim extension'
+aliases:
+  - /reporting-guidelines/reporting-guidelines-for-randomised-controlled-trial-reports-of-implantable-neurostimulation-devices-the-consort-ineurostim-extension
 acronym: CONSORT-iNeurostim
 provided-for: Reporting trials of implantable neurostimulation devices.
 rg-doi: ''

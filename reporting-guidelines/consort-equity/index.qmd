@@ -22,19 +22,19 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  **[CONSORT 2025 Statement](/reporting-guidelines/consort/)**: Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne D, Farmer A, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson D, Vohra S, White IR, Boutron I. CONSORT 2025 statement: updated guideline for reporting randomised trials. \
+  [CONSORT 2025 Statement](/reporting-guidelines/consort/): Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne D, Farmer A, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson D, Vohra S, White IR, Boutron I. CONSORT 2025 statement: updated guideline for reporting randomised trials. \
 
-  BMJ. 2025; 388:e081123.[PMID:40228833](https://pubmed.ncbi.nlm.nih.gov/40228833/)
+  BMJ 2025; 388:e081123. PMID: [40228833](https://pubmed.ncbi.nlm.nih.gov/40228833/) [full text](https://www.bmj.com/content/389/bmj-2024-081123.long)
 
-  JAMA. 2025.[PMID: 40228499](https://pubmed.ncbi.nlm.nih.gov/40228499/)
+  JAMA 2025; 333:1998-2005 PMID: [40228499](https://pubmed.ncbi.nlm.nih.gov/40228499/) [full text](https://jamanetwork.com/journals/jama/fullarticle/2832868)
 
-  Lancet. 2025.[PMID: 40245901](https://pubmed.ncbi.nlm.nih.gov/40245901/)
+  Lancet 2025; 405: 1633-1640. PMID: [40245901](https://pubmed.ncbi.nlm.nih.gov/40245901/) [full text](https://linkinghub.elsevier.com/retrieve/pii/S0140-6736(25)00672-5)
 
-  Nat Med. 2025.[PMID: 40229553](https://pubmed.ncbi.nlm.nih.gov/40229553/)
+  Nat Med 2025; 31:1776-1783 PMID: [40229553](https://pubmed.ncbi.nlm.nih.gov/40229553/) [full text](https://www.nature.com/articles/s41591-025-03635-5)
 
-  PLoS Med. 2025; 22(4): e1004587.[PMID:40228477](https://pubmed.ncbi.nlm.nih.gov/40228477/) \
+  PLoS Med 2025; 22(4): e1004587. PMID: [40228477](https://pubmed.ncbi.nlm.nih.gov/40228477/) [full text](https://dx.plos.org/10.1371/journal.pmed.1004587) \
 
-  **Specialised**
+  **Specialised **
 
   [**CONSORT Harms**](/reporting-guidelines/consort-harms/): Junqueira DR, Zorzela L, Golder S, Loke Y, Gagnier JJ, Julious SA, Li T, Mayo-Wilson E, Pham B, Phillips R, Santaguida P, Scherer RW, Gøtzsche PC, Moher D, Ioannidis JPA, Vohra S; CONSORT Harms Group. CONSORT Harms 2022 statement, explanation, and elaboration: updated guideline for the reporting of harms in randomized trials.
 
@@ -70,7 +70,7 @@ relevant-more: |-
 
   [**CONSORT for pilot and feasibility trials**](/reporting-guidelines/consort-2010-statement-extension-to-randomised-pilot-and-feasibility-trials/): Eldridge SM, Chan CL, Campbell MJ, Bond CM, Hopewell S, Thabane L, Lancaster GA; on behalf of the PAFS consensus group. CONSORT 2010 statement: extension to randomised pilot and feasibility trials. Pilot and Feasibility Stud. 2016;2:64.  PMID: [27965879](https://www.ncbi.nlm.nih.gov/pubmed/27965879) \
 
-  [**CONSORT-CHM formulas**](/reporting-guidelines/consort-chinese-herbal-medicine-formulas/): Cheng C-W, Wu T-X, Shang H-C, Li Y-P, Altman DG, Moher D, Bian Z-X; for the CONSORT-CHM Formulas 2017 Group. CONSORT Extension for Chinese Herbal Medicine Formulas 2017: Recommendations, Explanation, and Elaboration. 2017. Ann Intern Med. [Link to full-text](http://annals.org/aim/article/2633843/consort-extension-chinese-herbal-medicine-formulas-2017-recommendations-explanation-elaboration). \
+  [**CONSORT-CHM formulas**](/reporting-guidelines/consort-chinese-herbal-medicine-formulas/): Cheng C-W, Wu T-X, Shang H-C, Li Y-P, Altman DG, Moher D, Bian Z-X; for the CONSORT-CHM Formulas 2017 Group. CONSORT Extension for Chinese Herbal Medicine Formulas 2017: Recommendations, Explanation, and Elaboration. 2017. Ann Intern Med. [Link to full-text](http://annals.org/aim/article/2633843/consort-extension-chinese-herbal-medicine-formulas-2017-recommendations-explanation-elaboration) \
 
   [**CONSORT for within person randomised trials**](/reporting-guidelines/consort-within-person-randomised-trials/): Pandis N, Chung B, Scherer RW, Elbourne D, Altman DG. CONSORT 2010 statement: extension checklist for reporting within person randomised trials. BMJ. 2017;357:j2835. PMID: [28667088](https://www.ncbi.nlm.nih.gov/pubmed/28667088) \
 
