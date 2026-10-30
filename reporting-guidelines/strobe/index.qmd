@@ -38,7 +38,7 @@ full-bibliographic-reference: |-
 
   The explanation and elaboration paper for this guideline was published simultaneously in 3 journals. You can read the explanation and elaboration paper in any of these journals using the links below. \
 
-  PLoS Med. 2007;4(10):e297. PMID: [17941715](http://www.ncbi.nlm.nih.gov/pubmed/17941715) [full text] (https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040297)
+  PLoS Med. 2007;4(10):e297. PMID: [17941715](http://www.ncbi.nlm.nih.gov/pubmed/17941715) [full text](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040297)
 
   Epidemiology. 2007;18(6):805-35. PMID: [18049195](http://www.ncbi.nlm.nih.gov/pubmed/18049195) [full text](http://www.doi.org/10.1097/EDE.0b013e3181577511)
 
