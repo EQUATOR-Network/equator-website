@@ -7,7 +7,7 @@ rg-doi: ''
 pmid-id: '[24979285](http://www.ncbi.nlm.nih.gov/pubmed/24979285)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/24979285
 relevant-urls: |-
-  The full-text of this reporting guideline is available at: [SRQR guideline](https://doi.org/10.1097/ACM.0000000000000388)
+  The full-text of this reporting guideline is available at: [SRQR guideline](https://doi.org/10.1097/ACM.0000000000000388) (behind paywall/subscription)
 
   Detailed descriptions of each reporting item and examples are available in the supplementary material at:<http://links.lww.com/ACADMED/A218>
 full-bibliographic-reference: 'O''Brien BC, Harris IB, Beckman TJ, Reed DA, Cook DA.
