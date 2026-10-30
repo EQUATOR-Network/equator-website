@@ -76,13 +76,13 @@ additional-languages: |-
   
   The TRIPOD+AI statement and reporting checklist are also available in the following languagues
   
-  TRIPOD+AI Checklist (Chinese) [word](TRIPOD-AI-Checklist-Chinese.docx)
+  TRIPOD+AI Checklist (Chinese) [Word](TRIPOD-AI-Checklist-Chinese.docx)
   
-  TRIPOD+AI Abstracts (Chinese) [word](TRIPOD-AI-Abstract-Chinese.docx)
+  TRIPOD+AI Abstracts (Chinese) [Word](TRIPOD-AI-Abstract-Chinese.docx)
   
-  TRIPOD+AI Checklist (Croatian) [pdf](TRIPOD-AI-Croatian.pdf)
+  TRIPOD+AI Checklist (Croatian) [PDF](TRIPOD-AI-Croatian.pdf)
   
-  TRIPOD+AI Checklist (Japanese) [pdf](TRIPOD-AI-Japanese.pdf) \
+  TRIPOD+AI Checklist (Japanese) [PDF](TRIPOD-AI-Japanese.pdf) \
   
   **TRIPOD 2015**
 
