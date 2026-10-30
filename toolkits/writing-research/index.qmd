@@ -32,9 +32,8 @@ for your article by reporting it in the best way possible.
 
 The first step is to find a reporting guideline for your study. You might
 also want to supplement a common reporting guideline with any specific
-guidance for your clinical area or study type. After using the wizard, we
-suggest visiting the [EQUATOR Database of Reporting
-Guidelines](/reporting-guidelines/).
+guidance for your clinical area or study type. We suggest visiting the
+[EQUATOR Database of Reporting Guidelines](/reporting-guidelines/).
 
 This is a searchable database of all reporting guidelines. Use the
 drop-down menus to see all of the reporting guidelines and extensions for a
@@ -42,6 +41,21 @@ study type. You can also search for guidelines written specifically for
 certain clinical specialties. The free-text search lets you search
 guidelines’ titles, associated keywords, and the bibliographic details of
 any related papers.
+
+Entries in the database contain
+
+- bibliographic details of the reporting guideline
+
+- links to their PubMed entry
+
+- links to full text (though this will be dependent on your institutions
+  agreement with the journal)
+
+- reporting guideline checklist (where available, subject to copyright)
+
+- links translations (where available)
+
+- any other resources (e.g., links to similar reporting guidelines)
 
 ## Why are reporting guidelines so helpful? {#sec-EQtextbook}
 
@@ -117,4 +131,3 @@ Scholarly Work in Medical Journals](http://www.icmje.org/recommendations/)
 Medical Journal Editors. They are intended primarily for use by authors who
 submit their work for publication to ICMJE member journals, although many
 non-ICMJE journals recommend their use.
-
