@@ -14,23 +14,23 @@ full-bibliographic-reference: |-
 
   This guideline was published simultaneously in 7 journals. You can read the guideline in any of these journals using the links below. \
 
-  BMJ Case Rep. 2013; doi: 10.1136/bcr-2013-201554 PMID: [24155002](http://www.ncbi.nlm.nih.gov/pubmed/24155002)
+  BMJ Case Rep. 2013; 2013:bcr2013201554. PMID: [24155002](http://www.ncbi.nlm.nih.gov/pubmed/24155002) [full text](https://casereports.bmj.com/content/2013/bcr-2013-201554)
 
-  Global Adv Health Med. 2013;[10.7453/gahmj.2013.008 ](http://www.gahmj.com/doi/abs/10.7453/gahmj.2013.008)
+  Global Adv Health Med. 2013; 2:38-43. PMID: [24416692](https://pubmed.ncbi.nlm.nih.gov/24416692/) [full text](http://www.gahmj.com/doi/abs/10.7453/gahmj.2013.008)
   
   Dtsch Arztebl Int. 2013;110(37):603-608. PMID: [24078847](http://www.ncbi.nlm.nih.gov/pubmed/24078847) [Full-text in English](http://www.aerzteblatt.de/int/archive/article/145667/The-CARE-Guidelines-Consensus-Based-Clinical-Case-Reporting-Guideline-Development) / [Full-text in German](http://www.aerzteblatt.de/archiv/145657/Die-Case-Reporting-%28CARE%29-Guideline-Entwicklung-einer-konsensbasierten-Leitlinie-fuer-die-Erstellung-klinischer-Fallberichte)
 
-  J Clin Epidemiol. 2014;67(1):46-51. PMID: [24035173](http://www.ncbi.nlm.nih.gov/pubmed/24035173)
+  J Clin Epidemiol. 2014;67(1):46-51. PMID: [24035173](http://www.ncbi.nlm.nih.gov/pubmed/24035173) [full text](https://linkinghub.elsevier.com/retrieve/pii/S0895-4356(13)00317-X)
 
   J Med Case Rep. 2013;7(1):223. PMID: [24228906](http://www.ncbi.nlm.nih.gov/pubmed/24228906) [Full-text](http://www.jmedicalcasereports.com/content/7/1/223).
 
-  J Diet Suppl. 2013;10(4):381-390. PMID: [24237192](http://www.ncbi.nlm.nih.gov/pubmed/24237192)
+  J Diet Suppl. 2013;10(4):381-390. PMID: [24237192](http://www.ncbi.nlm.nih.gov/pubmed/24237192) [full text](https://doi.org/10.3109/19390211.2013.830679)
 
-  Headache. 2013;53(10):1541-1547. PMID: [24266334](http://www.ncbi.nlm.nih.gov/pubmed/24266334)\ 
+  Headache. 2013;53(10):1541-1547. PMID: [24266334](http://www.ncbi.nlm.nih.gov/pubmed/24266334) [full text](https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.12246)\ 
 
   **Explanation and Elaboration**
   
-  Riley DS, Barber MS, Kienle GS, Aronson JK, von Schoen-Angerer T, Tugwell P, Kiene H, Helfand M, Altman DG, Sox H, Werthmann PG, Moher D, Rison RA, Shamseer L, Koch CA, Sun GH, Hanaway P, Sudak NL, Kaszkin-Bettag M, Carpenter JE, Gagnier JJ. CARE guidelines for case reports: explanation and elaboration document. J Clin Epidemiol. 2017. pii: S0895-4356(17)30037-9. PMID: [28529185](https://www.ncbi.nlm.nih.gov/pubmed/28529185)
+  Riley DS, Barber MS, Kienle GS, Aronson JK, von Schoen-Angerer T, Tugwell P, Kiene H, Helfand M, Altman DG, Sox H, Werthmann PG, Moher D, Rison RA, Shamseer L, Koch CA, Sun GH, Hanaway P, Sudak NL, Kaszkin-Bettag M, Carpenter JE, Gagnier JJ. CARE guidelines for case reports: explanation and elaboration document. J Clin Epidemiol. 2017. pii: S0895-4356(17)30037-9. PMID: [28529185](https://www.ncbi.nlm.nih.gov/pubmed/28529185) [full text](https://www.jclinepi.com/article/S0895-4356(17)30037-9/fulltext)
 guideline-history: ''
 # OPTIONAL FIELDS
 rg-language: English
