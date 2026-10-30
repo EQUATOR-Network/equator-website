@@ -8,16 +8,9 @@ categories: [Website, Announcement]
 # image-alt: "Screenshot of the new EQUATOR Network homepage"
 ---
 
-We are pleased to announce the launch of the redesigned EQUATOR Network
-website. The new site is designed to help researchers, authors, editors,
-peer reviewers and educators find the resources they need to improve the
-quality and transparency of health research reporting, faster than ever.
+We are pleased to announce the launch of the redesigned EQUATOR Network website. The new site is designed to help researchers, authors, editors, peer reviewers and educators find the resources they need to improve the quality and transparency of health research reporting, faster than ever.
 
-Since its founding, the EQUATOR Network has been a trusted source for
-reporting guidelines such as CONSORT, PRISMA and STROBE. As the library has
-grown, so has the need for a site that makes it simple to navigate. The new
-design puts users first, with clearer structure, improved search and a more
-modern look.
+Since its founding, the EQUATOR Network has been a trusted source for reporting guidelines such as CONSORT, PRISMA and STROBE. As the library has grown, so has the need for a site that makes it simple to navigate. The new design puts users first, with clearer structure, improved search and a more modern look.
 
 **What's new:**
 
@@ -33,3 +26,7 @@ reviewers](/toolkits/peer-reviewing-research/index.qmd) and [reporting guideline
 ## Feedback
 
 Tell us what you think via our [contact page](/about/contact.qmd).
+
+If you come across any deadlinks, also please [let us know](/about/contact.qmd) so we can fix them.
+
+
