@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Priv. Doz. Dr. Leonard Fehring
 contact-email: leonard.fehring@uni-wh.de
 categories:
-- Other
+- Artificial intelligence/machine learning
 ---
 
 The proposed guideline aims to expand COREQ’s established framework for reporting qualitative research by addressing the emerging use of large language models (LLMs) across multiple stages of qualitative research. Although COREQ, endorsed by the EQUATOR network and cited more than 30,000 times, provides essential criteria for transparent, standardized qualitative research, it does not yet reflect recent advances in artificial intelligence (AI), especially LLMs.The integration of LLMs is rapidly transforming qualitative research. LLMs generate coherent, including why a new reporting token prediction. This enables their use at multiple research stages: from formulating research questions and designing interview protocols to supporting data processing (e.g., transcription and translation), facilitating data analysis (e.g., coding and theme identification), drafting manuscript sections, and enabling interactive exploration of qualitative datasets.The increasing adoption of LLMs stems from their potential to enhance analytical efficiency by rapidly processing large datasets, allowing broader and faster research investigations. Additionally, LLMs offer novel analytical perspectives, revealing latent semantic patterns, proposing thematic frameworks, and distilling complex narratives. These capabilities may complement human interpretive efforts.

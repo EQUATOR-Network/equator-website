@@ -6,7 +6,7 @@ date-updated: null
 contact-name: Carrie Ye
 contact-email: cye@ualberta.ca
 categories:
-- Other
+- Artificial intelligence/machine learning
 ---
 
 There has been a surge in research exploring the performance of large language models (LLMs) in answering questions within the medical domain. However, the quality of these studies varies significantly, making it challenging to draw reliable conclusions from the existing body of literature. While several quality assessment tools, such as reporting checklists and risk-of-bias frameworks, are available, they are not well-suited for evaluating studies focused on the human evaluation of LLM-based question-and-answer systems. These tools often fail to address the specific challenges and nuances involved in assessing LLM performance in medical contexts.
