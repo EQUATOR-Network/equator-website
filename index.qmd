@@ -41,8 +41,8 @@ listing:
 # Write research with clarity and confidence using **reporting guidelines**:
 
 ::: subtitle
-community-created recommendations that ensure [everyone]{#typewriter-words
-.emphasise} <br> can understand and use your work.
+community-created recommendations that ensure <br> [everyone]{#typewriter-words
+.emphasise} can understand and use your work.
 :::
 
 ::: hero-buttons
