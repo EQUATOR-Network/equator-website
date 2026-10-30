@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: The STARD-AI reporting guideline for diagnostic accuracy studies using artificial
-  intelligence
+title: The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence
+aliases:
+  - /reporting-guidelines/stard-ai/
 acronym: STARD-AI
 provided-for: ''
 rg-doi: 10.1038/s41591-025-03953-8

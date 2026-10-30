@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022)
-  Statement: Updated Reporting Guidance for Health Economic Evaluations'
+title: 'Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Statement: Updated Reporting Guidance for Health Economic Evaluations'
+aliases:
+  - /reporting-guidelines/cheers-2022/
 acronym: CHEERS 2022
 provided-for: Economic evaluations of health interventions
 rg-doi: ''

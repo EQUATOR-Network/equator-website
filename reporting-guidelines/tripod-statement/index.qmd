@@ -1,7 +1,9 @@
 ---
 # REQUIRED FIELDS
-title: 'TRIPOD + AI statement: updated guidance for reporting clinical prediction
-  models that use regression or machine learning methods'
+title: 'TRIPOD + AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods'
+aliases:
+  - /reporting-guidelines/tripod/
+  - /reporting-guidelines/tripod-ai/
 acronym: TRIPOD+AI
 provided-for: Reporting of studies that develop or evaluate the performance of a prediction model
 rg-doi: ''

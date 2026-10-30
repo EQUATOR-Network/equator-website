@@ -2,6 +2,8 @@
 # REQUIRED FIELDS
 title: 'The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE)
   Statement: guidelines for reporting observational studies'
+aliases:
+  - /reporting-guidelines/the-strengthening-the-reporting-of-observational-studies-in-epidemiology-strobe-statement-guidelines-for-reporting-observational-studies/
 acronym: STROBE
 provided-for: Observational studies in epidemiology (cohort, case-control studies,
   cross-sectional studies)
