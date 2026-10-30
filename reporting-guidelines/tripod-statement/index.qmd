@@ -10,7 +10,9 @@ rg-doi: ''
 pmid-id: '[38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38626948/
 relevant-urls: |-
-  [Read the full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI. 
+  [Read the full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI. \
+  
+  Use this [fillable](/reporting-guidelines/tripod-statement/tripod-ai-checklist.qmd) TRIPOD+AI checklist, and save the checklist as a PDF or word document.
   
 full-bibliographic-reference: |-
 
