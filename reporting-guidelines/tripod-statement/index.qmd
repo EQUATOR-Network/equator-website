@@ -37,31 +37,31 @@ guideline-history: |-
 
   Collins GS, Reitsma JB, Altman DG, Moons KG. Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): The TRIPOD statement. \
 
-  Ann Intern Med. 2015;162(1):55-63. PMID: [25560714](http://www.ncbi.nlm.nih.gov/pubmed/25560714)
+  Ann Intern Med. 2015;162(1):55-63. PMID: [25560714](http://www.ncbi.nlm.nih.gov/pubmed/25560714) [full text](http://www.doi.org/10.7326/M14-0697)
 
-  Br J Cancer. 2015 Jan 6. PMID: [25562432](http://www.ncbi.nlm.nih.gov/pubmed/25562432)
+  Br J Cancer. 2015 Jan 6. PMID: [25562432](http://www.ncbi.nlm.nih.gov/pubmed/25562432) [full text](http://www.doi.org/10.1038/bjc.2014.639)
 
-  Circulation. 2015 Jan 13;131(2):211-9. PMID: [25561516](http://www.ncbi.nlm.nih.gov/pubmed/25561516)
+  Circulation. 2015 Jan 13;131(2):211-9. PMID: [25561516](http://www.ncbi.nlm.nih.gov/pubmed/25561516) [full text](http://www.doi.org/10.1161/CIRCULATIONAHA.114.014508)
 
-  BMJ 2015; 350:g7594. PMID: [25569120](http://www.ncbi.nlm.nih.gov/pubmed/25569120)
+  BMJ 2015; 350:g7594. PMID: [25569120](http://www.ncbi.nlm.nih.gov/pubmed/25569120) [full text](http://www.doi.org/10.1136/bmj.g7594)
 
-  J Clin Epidemiol. 2015 Feb;68(2):134-43. PMID: [25579640](http://www.ncbi.nlm.nih.gov/pubmed/25579640)
+  J Clin Epidemiol. 2015 Feb;68(2):134-43. PMID: [25579640](http://www.ncbi.nlm.nih.gov/pubmed/25579640) [full text](http://www.doi.org/10.1016/j.jclinepi.2014.11.010)
 
-  Eur Urol. 2014 Dec 9. PMID: [25572824](http://www.ncbi.nlm.nih.gov/pubmed/25572824)
+  Eur Urol. 2014 Dec 9. PMID: [25572824](http://www.ncbi.nlm.nih.gov/pubmed/25572824) [full text](http://www.doi.org/10.1016/10.1016/j.eururo.2014.11.025)
 
-  BMC Med. 2015 Jan 6;13(1):1. PMID: [25563062](http://www.ncbi.nlm.nih.gov/pubmed/25563062)
+  BMC Med. 2015 Jan 6;13(1):1. PMID: [25563062](http://www.ncbi.nlm.nih.gov/pubmed/25563062) [full text](http://www.doi.org/10.1186/s12916-014-0241-z)
 
-  Eur J Clin Invest. 2015;45(2):204-214. PMID: [25623047](http://www.ncbi.nlm.nih.gov/pubmed/25623047)
+  Eur J Clin Invest. 2015;45(2):204-214. PMID: [25623047](http://www.ncbi.nlm.nih.gov/pubmed/25623047) [full text](http://www.doi.org/10.1111/eci.12376)
 
-  Br J Surg. 2015;102(3):148-158. PMID: [25627261](http://www.ncbi.nlm.nih.gov/pubmed/25627261)
+  Br J Surg. 2015;102(3):148-158. PMID: [25627261](http://www.ncbi.nlm.nih.gov/pubmed/25627261) [full text](http://www.doi.org/10.1002/bjs.9736)
 
-  BJOG. 2015;122(3):434-443. PMID: [25623578](http://www.ncbi.nlm.nih.gov/pubmed/25623578)
-
-  Diabet Med. 2015;32(2):146-154. PMID: [25600898](http://www.ncbi.nlm.nih.gov/pubmed/25600898) \
+  BJOG. 2015;122(3):434-443. PMID: [25623578](http://www.ncbi.nlm.nih.gov/pubmed/25623578) [full text](http://www.doi.org/10.1111/1471-0528.13244)
+  
+  Diabet Med. 2015;32(2):146-154. PMID: [25600898](http://www.ncbi.nlm.nih.gov/pubmed/25600898) [full text](http://www.doi.org/10.1111/dme.12654) \
 
   **TRIPOD for Abstracts**
 
-  Heus P, Reitsma JB, Collins GS, Damen JAAG, Scholten RJPM, Altman DG, Moons KGM, Hooft L. Transparent Reporting of Multivariable Prediction Models in Journal and Conference Abstracts: TRIPOD for Abstracts. Ann Intern Med. 2020. PMID: [32479165](https://pubmed.ncbi.nlm.nih.gov/32479165/)
+  Heus P, Reitsma JB, Collins GS, Damen JAAG, Scholten RJPM, Altman DG, Moons KGM, Hooft L. Transparent Reporting of Multivariable Prediction Models in Journal and Conference Abstracts: TRIPOD for Abstracts. Ann Intern Med. 2020. PMID: [32479165](https://pubmed.ncbi.nlm.nih.gov/32479165/) [full text](http://www.doi.org/10.7326/M20-0193)
 relevant-more: |-
   **Specialised**
 
