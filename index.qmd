@@ -85,7 +85,7 @@ guidelines](reporting-guidelines/index.qmd){.btn-action-primary .btn-action
 
 :::::::: {.content-block .center}
 ::::::: {.card-highlight style="margin-top: 2rem;"}
-### General reporting guidelines {#general-reporting-guidelines}
+### Most commonly used reporting guidelines {#general-reporting-guidelines}
 
 [These reporting guidelines apply to general, common types of healthcare
 research. Search our full database for more specific reporting guidelines
