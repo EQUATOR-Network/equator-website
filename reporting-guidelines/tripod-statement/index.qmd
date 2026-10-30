@@ -10,11 +10,13 @@ rg-doi: ''
 pmid-id: '[38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38626948/
 relevant-urls: |-
-  [Read the full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI.\
+  [Read the full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI \
   
-  TRIPOD+AI Checklist [PDF](/reporting-guidelines/tripod-statement/TRIPOD+AI.pdf)\
+  TRIPOD+AI Checklist [PDF](/reporting-guidelines/tripod-statement/TRIPOD+AI.pdf) \
   
-  TRIPOD+AI Explanation and Elaboration light [PDF](/reporting-guidelines/tripod-statement/TRIPOD+AI_Explanation_Light.pdf)
+  TRIPOD+AI Explanation and Elaboration light [PDF](/reporting-guidelines/tripod-statement/TRIPOD+AI_Explanation_Light.pdf) \
+  
+  Try out this fillable TRIPOD+AI [checklist](/reporting-guidelines/tripod-statement/tripod-ai-checklist.qmd), and save the checklist as a word or PDF.
   
 full-bibliographic-reference: |-
 
