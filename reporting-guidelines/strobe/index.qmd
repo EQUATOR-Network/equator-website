@@ -16,21 +16,21 @@ full-bibliographic-reference: |-
 
   This guideline was published simultaneously in 8 journals. You can read the guideline in any of these journals using the links below. \
 
-  Ann Intern Med. 2007; 147(8):573-577. PMID: [17938396](http://www.ncbi.nlm.nih.gov/pubmed/17938396)
+  Ann Intern Med. 2007; 147(8):573-577. PMID: [17938396](http://www.ncbi.nlm.nih.gov/pubmed/17938396) [full text](https://www.acpjournals.org/doi/10.7326/0003-4819-147-8-200710160-00010?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 
-  PLoS Med. 2007;4(10):e296. PMID: [17941714](http://www.ncbi.nlm.nih.gov/pubmed/17941714)
+  PLoS Med. 2007;4(10):e296. PMID: [17941714](http://www.ncbi.nlm.nih.gov/pubmed/17941714) [full text](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040296)
 
-  BMJ. 2007;335(7624):806-808. PMID: [17947786](http://www.ncbi.nlm.nih.gov/pubmed/17947786)
+  BMJ. 2007;335(7624):806-808. PMID: [17947786](http://www.ncbi.nlm.nih.gov/pubmed/17947786) [full text](https://www.bmj.com/content/335/7624/806.long)
 
-  Prev Med. 2007;45(4):247-251. PMID: [17950122](http://www.ncbi.nlm.nih.gov/pubmed/17950122)
+  Prev Med. 2007;45(4):247-251. PMID: [17950122](http://www.ncbi.nlm.nih.gov/pubmed/17950122) [full text](https://www.sciencedirect.com/science/article/pii/S009174350700374X?via%3Dihub)
 
-  Epidemiology. 2007;18(6):800-804. PMID: [18049194](http://www.ncbi.nlm.nih.gov/pubmed/18049194)
+  Epidemiology. 2007;18(6):800-804. PMID: [18049194](http://www.ncbi.nlm.nih.gov/pubmed/18049194) [full text](http://www.doi.org/10.1097/EDE.0b013e3181577654)
 
-  Lancet. 2007;370(9596):1453-1457. PMID: [18064739](http://www.ncbi.nlm.nih.gov/pubmed/18064739)
+  Lancet. 2007;370(9596):1453-1457. PMID: [18064739](http://www.ncbi.nlm.nih.gov/pubmed/18064739) [full text](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(07)61602-X/fulltext)
 
-  J Clin Epidemiol. 2008;61(4):344-349. PMID: [18313558](http://www.ncbi.nlm.nih.gov/pubmed/18313558) 
+  J Clin Epidemiol. 2008;61(4):344-349. PMID: [18313558](http://www.ncbi.nlm.nih.gov/pubmed/18313558) [full text](https://www.jclinepi.com/article/S0895-4356(07)00436-2/fulltext)
 
-  Bull World Health Organ. 2007;85(11):867-872. PMID: [18038077](http://www.ncbi.nlm.nih.gov/pubmed/18038077) \
+  Bull World Health Organ. 2007;85(11):867-872. PMID: [18038077](http://www.ncbi.nlm.nih.gov/pubmed/18038077) [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC2636253/pdf/07-045120.pdf) \
   
   **Explanation and Elaboration**
   
@@ -38,11 +38,11 @@ full-bibliographic-reference: |-
 
   The explanation and elaboration paper for this guideline was published simultaneously in 3 journals. You can read the explanation and elaboration paper in any of these journals using the links below. \
 
-  PLoS Med. 2007;4(10):e297. PMID: [17941715](http://www.ncbi.nlm.nih.gov/pubmed/17941715)
+  PLoS Med. 2007;4(10):e297. PMID: [17941715](http://www.ncbi.nlm.nih.gov/pubmed/17941715) [full text] (https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040297)
 
-  Epidemiology. 2007;18(6):805-35. PMID: [18049195](http://www.ncbi.nlm.nih.gov/pubmed/18049195)
+  Epidemiology. 2007;18(6):805-35. PMID: [18049195](http://www.ncbi.nlm.nih.gov/pubmed/18049195) [full text](http://www.doi.org/10.1097/EDE.0b013e3181577511)
 
-  Ann Intern Med. 2007;147(8):W163-94. PMID: [17938389](http://www.ncbi.nlm.nih.gov/pubmed/17938389)
+  Ann Intern Med. 2007;147(8):W163-94. PMID: [17938389](http://www.ncbi.nlm.nih.gov/pubmed/17938389) [full text](https://www.acpjournals.org/doi/10.7326/0003-4819-147-8-200710160-00010-w1?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 
 
 # OPTIONAL FIELDS
