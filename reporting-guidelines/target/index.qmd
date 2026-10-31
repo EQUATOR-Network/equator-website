@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Transparent reporting of observational studies emulating a target trial: the
-  TARGET Statement'
+title: 'Transparent reporting of observational studies emulating a target trial: the TARGET Statement'
+aliases:
+  - /reporting-guidelines/22462/
 acronym: TARGET
 provided-for: The Transparent Reporting of Observational Studies Emulating a Target
   Trial (TARGET) guideline was developed for reporting analyses of observational data
@@ -11,13 +12,13 @@ pmid-id: ''
 pmid-url: ''
 relevant-urls: Download the checklist [here](https://target-guideline.org/files/TARGET_checklist_editable_2025.docx).
 full-bibliographic-reference: |-
-  Cashin AG, Hansford HJ, Hernán MA, Swanson SA, Lee H, Jones MD, Dahabreh IJ, Dickerman BA, Egger M, Garcia-Albeniz X, Golub RM, Islam N, Lodi S, Moreno-Betancur M, Pearson SA, Schneeweiss S, Sharp MK, Sterne JAC, Stuart EA, McAuley JH. Transparent reporting of observational studies emulating a target trial: the TARGET Statement.
+  Cashin AG, Hansford HJ, Hernán MA, Swanson SA, Lee H, Jones MD, Dahabreh IJ, Dickerman BA, Egger M, Garcia-Albeniz X, Golub RM, Islam N, Lodi S, Moreno-Betancur M, Pearson SA, Schneeweiss S, Sharp MK, Sterne JAC, Stuart EA, McAuley JH. Transparent reporting of observational studies emulating a target trial: the TARGET Statement.\
 
-  This guideline was published simultaneously in 2 journals. You can read the guideline in any of these journals using the links below.
+  This guideline was published simultaneously in 2 journals. You can read the guideline in any of these journals using the links below.\
 
-  [BMJ](https://www.bmj.com/content/390/bmj-2025-087179.long). 2025; 390:e087179. PMID: [40903028](https://pubmed.ncbi.nlm.nih.gov/40903028/)
+  BMJ 2025; 390: e087179. PMID: [40903028](https://pubmed.ncbi.nlm.nih.gov/40903028/) [full text](https://www.bmj.com/content/390/bmj-2025-087179.long)
 
-  [JAMA](https://jamanetwork.com/journals/jama/fullarticle/2837724). 2025. PMID: [40899949](https://pubmed.ncbi.nlm.nih.gov/40899949/)
+  JAMA 2025; 334: 1084-1093. PMID: [40899949](https://pubmed.ncbi.nlm.nih.gov/40899949/) [full text](https://jamanetwork.com/journals/jama/fullarticle/2837724)
 
 
 # OPTIONAL FIELDS
