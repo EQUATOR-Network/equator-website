@@ -116,14 +116,14 @@ additional-languages: |-
 
   The PRISMA 2009 flow diagram is available in [French (PDF)](http://www.prisma-statement.org/documents/PRISMA%20French%20Flow%20Diagram.pdf), [German (PDF)](http://www.prisma-statement.org/documents/PRISMA%20German%20flow%20diagram.pdf), [Italian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Italian%20flow%20diagram.pdf), [Korean (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Korean%20flow%20diagram.pdf), [Russian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Russian%20flow%20diagram.pdf), [Japanese (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Japanese%20flow%20diagram.pdf), [Turkish (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Turkish%20flow%20diagram.pdf) and [Portuguese (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Portugese%20flow%20diagram.pdf). \
 
-  The PRISMA 2009 Explanation and Elaboration document is available in [Italian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Italian%20EandE.pdf). \
+  The PRISMA 2009 Explanation and Elaboration document is available in [Italian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Italian%20EandE.pdf). 
 
 additional-information: |-
-  [Read the protocol](https://osf.io/xwcv5/) for the PRISMA Statement update.
+  [Read the protocol](https://osf.io/xwcv5/) for the PRISMA Statement update.\
 
-  Read about the the processes used to update the PRISMA 2009 statement:
+  Read about the the processes used to update the PRISMA 2009 statement:\
 
-  Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Moher D. Updating guidance for reporting systematic reviews: development of the PRISMA 2020 statement. J Clin Epidemiol. 2021;134:103-112. PMID: [33577987](https://pubmed.ncbi.nlm.nih.gov/33577987/)
+  Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Moher D. Updating guidance for reporting systematic reviews: development of the PRISMA 2020 statement. J Clin Epidemiol. 2021;134:103-112. PMID: [33577987](https://pubmed.ncbi.nlm.nih.gov/33577987/)\
 
   Guidance for developing protocols for systematic reviews and meta-analyses is provided in the PRISMA-P Statement. For further details please visit: [PRISMA-P Statement](/reporting-guidelines/prisma-protocols/)
 relevant-editorials: ''

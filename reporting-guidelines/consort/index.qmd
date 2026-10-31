@@ -121,12 +121,8 @@ website-url: <https://www.consort-spirit.org/>
 additional-languages: |-
   CONSORT 2010 has been translated into the following languages: Chinese; French; German; Greek; Italian; Japanese; Persian; Polish; Portuguese; Russian; Spanish; Turkish. 
 
-additional-information: 'Guidance for developing protocols for clinical trials is
-  provided in the SPIRIT 2013 Statement. For further details please visit: [SPIRIT
-  Statement](/reporting-guidelines/spirit/)'
-relevant-editorials: 'Betz CL. Adoption of CONSORT statements for randomized control
-  trials published in the Journal of Pediatric Nursing. J Pediatr Nurs. 2011;26(3):177-8.
-  PMID: [21601140](http://www.ncbi.nlm.nih.gov/pubmed/21601140)'
+additional-information: 'Guidance for developing protocols for clinical trials is provided in the SPIRIT Statement. For further details please visit: [SPIRIT Statement](/reporting-guidelines/spirit/)'
+relevant-editorials: 'Betz CL. Adoption of CONSORT statements for randomized control trials published in the Journal of Pediatric Nursing. J Pediatr Nurs. 2011;26(3):177-8. PMID: [21601140](http://www.ncbi.nlm.nih.gov/pubmed/21601140)'
 primary-guideline: ''
 other: |-
   Contextualisation guidance for using the CONSORT guideline to report deprescribing trials has been developed: \

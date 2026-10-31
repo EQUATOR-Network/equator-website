@@ -102,7 +102,7 @@ additional-information: |-
 
   **Aims and use of TRIPOD+AI**
 
-  TRIPOD+AI aims to help authors give a complete, accurate and transparent account of why a prediction model study was done, what was done, and what was found. This supports appraisal by peer reviewers and editors, independent evaluation and implementation of models, and, ultimately, trust from the clinicians, patients and policy makers who may rely on them.
+  TRIPOD+AI aims to help authors give a complete, accurate and transparent account of why a prediction model study was done, what was done, and what was found. This supports appraisal by peer reviewers and editors, independent evaluation and implementation of models, and, ultimately, trust from the clinicians, patients and policy makers who may rely on them. \
 
   **Adherence assessment**
   
