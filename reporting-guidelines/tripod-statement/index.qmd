@@ -10,7 +10,7 @@ rg-doi: ''
 pmid-id: '[38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38626948/
 relevant-urls: |-
-  [Read the full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI \
+  Read the [full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI 
   
 full-bibliographic-reference: |-
 
@@ -18,7 +18,7 @@ full-bibliographic-reference: |-
 
   **Explanation and Elaboration**
   
-  Please continue to use the TRIPOD 2015 E&E paper until the TRIPOD+AI E&E paper is available:
+  Please continue to use the TRIPOD 2015 E&E paper until the TRIPOD+AI E&E paper is available: \
 
   Moons KG, Altman DG, Reitsma JB, Ioannidis JP, Macaskill P, Steyerberg EW, Vickers AJ, Ransohoff DF, Collins GS. Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD): Explanation and Elaboration. Ann Intern Med. 2015;162(1):W1-W73. PMID: [25560730](http://www.ncbi.nlm.nih.gov/pubmed/25560730) [full text](https://www.acpjournals.org/doi/10.7326/M14-0698)
 
