@@ -288,10 +288,7 @@ the writing process and get their work out into the world.
 We are the leading global academic network dedicated to improving research
 reporting quality.
 
-EQUATOR stands for Enhancing the QUAlity and Transparency Of health
-Research. Our mission is to improve the reliability and value of published
-health research literature by promoting transparent and accurate reporting
-and wider use of robust reporting guidelines.
+EQUATOR stands for [**Enhancing the QUAlity and Transparency Of health Research**]{style="color: green;"}. Our mission is to improve the reliability and value of published health research literature by promoting transparent and accurate reporting and wider use of robust reporting guidelines.
 
 We advance the work done by individual guideline development groups. We
 maintain a database of reporting guidelines, run [training
