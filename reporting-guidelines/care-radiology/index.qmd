@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: 'CARE-radiology statement explanation and elaboration: reporting guideline for radiological case reports'
 aliases:
-  - /reporting-guidelines/care-radiology/
+  - /reporting-guidelines/care-radiology-statement-explanation-and-elaboration-reporting-guideline-for-radiological-case-reports/
 acronym: CARE-radiology
 provided-for: Reporting radiological case reports.
 rg-doi: ''

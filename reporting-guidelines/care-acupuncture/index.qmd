@@ -1,24 +1,21 @@
 ---
 # REQUIRED FIELDS
-title: An Extension of the CARE Guidelines for Dry Needling Case Reports (CARE-DN)
-acronym: CARE-DN
-provided-for: CARE-DN provides consensus-based reporting guideline extension specifically
-  for dry needling case reports.
-rg-doi: 10.7759/cureus.101789.
-pmid-id: '[41555957.](https://pubmed.ncbi.nlm.nih.gov/41555957/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/41555957/
-relevant-urls: |-
-  A fillable checklist can be found [here](https://care.healthandresilience.org/).
-
-  The CARE-DN Explanation and Elaboration can be found [here](CARE-DN_round_2-E-E.pdf).
-full-bibliographic-reference: 'Tzigkounakis G, Simati K, Georgiadis K, Kostaridou
-  V, Battersby P, Calvo S, Herrero P, Kuzdzal A, McEvoy J, Sánchez Milá Z, Velázquez
-  Saornil J, Voight M, Wang T, Stefanakis M. CARE-DN: An Extension of the CARE Guidelines
-  for Dry Needling Case Reports. Cureus. 2026 Jan 18;18(1):e101789. PMID: [41555957](https://pubmed.ncbi.nlm.nih.gov/41555957/).'
+title: CARE extension guideline for acupuncture case reports
+aliases:
+  - /reporting-guidelines/care-extension-guideline-for-acupuncture-case-reports/
+acronym: ''
+provided-for: Reporting acupuncture case reports.
+rg-doi: 10.1136/bmjebm-2025-113641
+pmid-id: '[40562435](https://pubmed.ncbi.nlm.nih.gov/40562435/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/40562435/
+relevant-urls: ''
+full-bibliographic-reference: Duan Y, Xu Z, Zhang Y, Liu S, Chen J, Chen Y, Xu N,
+  Tang C, Rong P, Lu L, Wang Y, Lee YS, Kim TH, Riley DS, Shi L, Lee MS, Yu L. CARE
+  extension guideline for acupuncture case reports. BMJ Evid Based Med. 2025 Jul 1:bmjebm-2025-113641.
 
 
 # OPTIONAL FIELDS
-rg-language: ''
+rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
@@ -26,7 +23,7 @@ website-url: ''
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''
-primary-guideline: ''
+primary-guideline: Read the full guidance [here](https://ebm.bmj.com/content/early/2025/07/01/bmjebm-2025-113641).
 other: ''
 other-relevant-research: ''
 sticky: false
@@ -59,7 +56,7 @@ clinical-specialty:
 # - Audiovestibular medicine
 # - Behavioural medicine
 # - Cardiovascular medicine
-- Complementary and alternative medicine
+# - Complementary and alternative medicine
 # - Dentistry
 # - Dermatology
 # - Emergency medicine
@@ -96,7 +93,7 @@ clinical-specialty:
 # - Toxicology
 # - Tropical medicine
 # - Urology
-# - No clinical specialty specified
+- No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements

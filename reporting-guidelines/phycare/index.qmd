@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting guidelines for physiotherapy case reports: a consensus-based development
-  (PhyCARE)'
+title: 'Reporting guidelines for physiotherapy case reports: a consensus-based development (PhyCARE)'
+aliases:
+  - /reporting-guidelines/phycare-reporting-guidelines-for-physiotherapy-case-reports-a-consensus-based-development/
 acronym: PhyCARE
 provided-for: Structured reporting of physiotherapy case reports, encompassing physiotherapy-specific
   assessments and interventions.

@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Adaptation of the CARE Guidelines for Therapeutic Massage and Bodywork Publications:
-  Efforts To Improve the Impact of Case Reports'
+title: 'Adaptation of the CARE Guidelines for Therapeutic Massage and Bodywork Publications: Efforts To Improve the Impact of Case Reports'
+aliases:
+  - /reporting-guidelines/adaptation-of-the-care-guidelines-for-therapeutic-massage-and-bodywork-publications-efforts-to-improve-the-impact-of-case-reports/
 acronym: ''
 provided-for: Reporting therapeutic massage and bodywork case reports.
 rg-doi: ''
