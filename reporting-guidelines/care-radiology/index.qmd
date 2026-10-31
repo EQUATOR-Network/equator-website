@@ -10,11 +10,7 @@ pmid-id: '[38458654](https://pubmed.ncbi.nlm.nih.gov/38458654/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38458654/
 relevant-urls: '[Read the full-text](https://ebm.bmj.com/content/early/2024/03/08/bmjebm-2023-112695.long)
   of the CARE-radiology reporting guideline.'
-full-bibliographic-reference: 'Wang M, Luo X, Xiao X, Zhang L, Wang Q, Wang S, Wang
-  X, Xue H, Zhang L, Chen Y, Lei J, Štupnik T, Scarci M, Fiorelli A, Laisaar T, Fruscio
-  R, Elkhayat H, Novoa NM, Davoli F, Waseda R, Estill J, Norris SL, Riley DS, Tian
-  J. CARE-radiology statement explanation and elaboration: reporting guideline for
-  radiological case reports. BMJ Evid Based Med. 2024:bmjebm-2023-112695.'
+full-bibliographic-reference: 'Wang M, Luo X, Xiao X, Zhang L, Wang Q, Wang S, Wang X, Xue H, Zhang L, Chen Y, Lei J, Štupnik T, Scarci M, Fiorelli A, Laisaar T, Fruscio R, Elkhayat H, Novoa NM, Davoli F, Waseda R, Estill J, Norris SL, Riley DS, Tian J. CARE-radiology statement explanation and elaboration: reporting guideline for radiological case reports. BMJ Evid Based Med. 2024:bmjebm-2023-112695. PMID: [38458654](https://pubmed.ncbi.nlm.nih.gov/38458654/) [full text](https://doi.org/10.1136/bmjebm-2023-112695'
 
 
 # OPTIONAL FIELDS

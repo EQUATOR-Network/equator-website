@@ -9,16 +9,41 @@ rg-doi: 10.1136/bmjebm-2025-113641
 pmid-id: '[40562435](https://pubmed.ncbi.nlm.nih.gov/40562435/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40562435/
 relevant-urls: ''
-full-bibliographic-reference: Duan Y, Xu Z, Zhang Y, Liu S, Chen J, Chen Y, Xu N,
-  Tang C, Rong P, Lu L, Wang Y, Lee YS, Kim TH, Riley DS, Shi L, Lee MS, Yu L. CARE
-  extension guideline for acupuncture case reports. BMJ Evid Based Med. 2025 Jul 1:bmjebm-2025-113641.
+full-bibliographic-reference: 'Duan Y, Xu Z, Zhang Y, Liu S, Chen J, Chen Y, Xu N, Tang C, Rong P, Lu L, Wang Y, Lee YS, Kim TH, Riley DS, Shi L, Lee MS, Yu L. CARE extension guideline for acupuncture case reports. BMJ Evid Based Med. 2025 Jul 1:bmjebm-2025-113641. PMID: 40562435](https://pubmed.ncbi.nlm.nih.gov/40562435/) [full text](https://doi.org/10.1136/bmjebm-2025-113641)'
 
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
-relevant-more: ''
+relevant-more: |-
+  **Generic**
+
+  [**CARE**](/reporting-guidelines/care/): Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development.\
+
+  BMJ Case Rep. 2013; 2013:bcr2013201554. PMID: [24155002](http://www.ncbi.nlm.nih.gov/pubmed/24155002) [full text](https://casereports.bmj.com/content/2013/bcr-2013-201554)
+
+  Global Adv Health Med. 2013; 2:38-43. PMID: [24416692](https://pubmed.ncbi.nlm.nih.gov/24416692/) [full text](http://www.gahmj.com/doi/abs/10.7453/gahmj.2013.008)
+  
+  Dtsch Arztebl Int. 2013;110(37):603-608. PMID: [24078847](http://www.ncbi.nlm.nih.gov/pubmed/24078847) [Full-text in English](http://www.aerzteblatt.de/int/archive/article/145667/The-CARE-Guidelines-Consensus-Based-Clinical-Case-Reporting-Guideline-Development) / [Full-text in German](http://www.aerzteblatt.de/archiv/145657/Die-Case-Reporting-%28CARE%29-Guideline-Entwicklung-einer-konsensbasierten-Leitlinie-fuer-die-Erstellung-klinischer-Fallberichte)
+
+  J Clin Epidemiol. 2014;67(1):46-51. PMID: [24035173](http://www.ncbi.nlm.nih.gov/pubmed/24035173) [full text](https://linkinghub.elsevier.com/retrieve/pii/S0895-4356(13)00317-X)
+
+  J Med Case Rep. 2013;7(1):223. PMID: [24228906](http://www.ncbi.nlm.nih.gov/pubmed/24228906) [Full-text](http://www.jmedicalcasereports.com/content/7/1/223).
+
+  J Diet Suppl. 2013;10(4):381-390. PMID: [24237192](http://www.ncbi.nlm.nih.gov/pubmed/24237192) [full text](https://doi.org/10.3109/19390211.2013.830679)
+
+  Headache. 2013;53(10):1541-1547. PMID: [24266334](http://www.ncbi.nlm.nih.gov/pubmed/24266334) [full text](https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/head.12246)\ 
+
+  **Specialised**
+
+  [**Therapeutic Massage and Bodywork**](/reporting-guidelines/adaptation-of-the-care-guidelines-for-therapeutic-massage-and-bodywork-publications-efforts-to-improve-the-impact-of-case-reports/): Munk N, Boulanger K. Adaptation of the CARE Guidelines for Therapeutic Massage and Bodywork Publications: Efforts To Improve the Impact of Case Reports. Int J Ther Massage Bodywork. 2014;7(3):32-40. PMID: [25184013](https://www.ncbi.nlm.nih.gov/pubmed/25184013) \
+
+  [**PhyCARE**](/reporting-guidelines/phycare-reporting-guidelines-for-physiotherapy-case-reports-a-consensus-based-development/): Naqvi WM, Mishra GV, Shaikh SZ, Pashine AA, Sánchez Romero EA, Swaminathan N, Jiandani MP, Herrero P, Zazulak B, Macpherson CE, Goyal C, Zadro JR, Sahni P, Innocenti T, Quazi Syed Z, Hoogeboom T, Kiekens C. PhyCARE reporting guidelines for physiotherapy case reports: a consensus-based development. BMJ Open. 2026 Jan 27;16(1):e110765. PMID: [41592824](https://pubmed.ncbi.nlm.nih.gov/41592824/) \
+
+  [**CARE-DN**](/reporting-guidelines/care-dn-an-extension-of-the-care-guidelines-for-dry-needling-case-reports/): Tzigkounakis G, Simati K, Georgiadis K, Kostaridou V, Battersby P, Calvo S, Herrero P, Kuzdzal A, McEvoy J, Sánchez Milá Z, Velázquez Saornil J, Voight M, Wang T, Stefanakis M. CARE-DN: An Extension of the CARE Guidelines for Dry Needling Case Reports. Cureus. 2026 Jan 18;18(1):e101789. PMID: [41555957](https://pubmed.ncbi.nlm.nih.gov/41555957/) \
+  
+  [**CARE-radiology**](/reporting-guidelines/care-radiology-statement-explanation-and-elaboration-reporting-guideline-for-radiological-case-reports/): Wang M, Luo X, Xiao X, Zhang L, Wang Q, Wang S, Wang X, Xue H, Zhang L, Chen Y, Lei J, Štupnik T, Scarci M, Fiorelli A, Laisaar T, Fruscio R, Elkhayat H, Novoa NM, Davoli F, Waseda R, Estill J, Norris SL, Riley DS, Tian J. CARE-radiology statement explanation and elaboration: reporting guideline for radiological case reports. BMJ Evid Based Med. 2024:bmjebm-2023-112695. PMID: [38458654](https://pubmed.ncbi.nlm.nih.gov/38458654/) 
 website-url: ''
 additional-languages: ''
 additional-information: ''
