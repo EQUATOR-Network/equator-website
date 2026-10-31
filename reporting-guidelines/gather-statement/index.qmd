@@ -52,10 +52,6 @@ additional-information: |-
 
   Health indicators are rarely measured for every population and every period of interest, and the data that do exist are often incomplete, inconsistent or not comparable. Estimates are therefore usually produced by combining multiple data sources with statistical or mathematical models. Governments, funders and non-governmental organizations rely on these estimates to compare populations, track progress toward targets such as the Sustainable Development Goals, and understand causes of death, burden of disease and risks to health. Interpreting them responsibly requires an understanding of the input data, their quality, and the methods used to derive the estimates. When data sources and methods are poorly documented, differences between sets of estimates can cause confusion and may lead users to reject them.\
 
-  GATHER serve two main audiences:
-
-  Decision makers (planners, policy makers, monitoring staff, funders and civil society organizations) need accessible information about data sources, methods, key assumptions and limitations, and an explanation of how new estimates compare with earlier ones.\
-
   **Scope of GATHER**
 
   GATHER applies to studies reporting quantitative population-level estimates (global, regional, national or subnational) of health indicators.
