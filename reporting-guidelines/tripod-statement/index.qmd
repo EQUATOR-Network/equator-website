@@ -53,9 +53,6 @@ guideline-history: |-
   
   Diabet Med. 2015;32(2):146-154. PMID: [25600898](http://www.ncbi.nlm.nih.gov/pubmed/25600898) [full text](http://www.doi.org/10.1111/dme.12654) \
 
-  **TRIPOD for Abstracts**
-
-  Heus P, Reitsma JB, Collins GS, Damen JAAG, Scholten RJPM, Altman DG, Moons KGM, Hooft L. Transparent Reporting of Multivariable Prediction Models in Journal and Conference Abstracts: TRIPOD for Abstracts. Ann Intern Med. 2020. PMID: [32479165](https://pubmed.ncbi.nlm.nih.gov/32479165/) [full text](http://www.doi.org/10.7326/M20-0193)
 relevant-more: |-
   **Specialised**
 
@@ -64,6 +61,7 @@ relevant-more: |-
   [**TRIPOD-Cluster**](/reporting-guidelines/tripod-cluster/): Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM. Transparent reporting of multivariable prediction models developed or validated using clustered data: TRIPOD-Cluster checklist. BMJ. 2023;380:e071018. PMID: [36750242](https://pubmed.ncbi.nlm.nih.gov/36750242/) \
 
   [**TRIPOD-LLM**](/reporting-guidelines/the-tripod-llm-reporting-guideline-for-studies-using-large-language-models/): Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025. PMID: [39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/)
+
 website-url: <http://www.tripod-statement.org/>
 additional-languages: |-
   **TRIPOD+AI**
@@ -90,17 +88,32 @@ additional-languages: |-
 
   TRIPOD 2015 E&E (Russian) [PDF](Russian-TRIPOD-EE.pdf)
 additional-information: |-
-  An adherence assessment form for measuring adherence to the Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) statement has been developed. \
+  **What is TRIPOD/TRIPOD+AI?**
   
+  TRIPOD stands for Transparent Reporting Items for studies of Prognosis Or Diagnosis. It is an international, consensus-based reporting guideline for studies that develop or evaluate clinical prediction models. \
+  
+  The original TRIPOD Statement was published in 2015 and focused mainly on models built with regression methods. TRIPOD+AI, published in 2024, is the updated version. It covers prediction models built with regression or machine learning methods (such as random forests or deep learning), using one harmonised checklist. The “+” signals that regression and machine learning are covered together. The “AI” matches the terminology of other reporting guidelines for AI-related studies. TRIPOD+AI replaces the 2015 checklist, which should no longer be used.\
+
+  **What is a prediction model?** 
+  
+  A prediction model combines information from several predictors (for example age, blood pressure or imaging features) to estimate an individual’s probability of having a condition now (diagnostic models) or of developing an outcome in the future (prognostic models). \
+
+  Prediction models support clinical decisions such as referring patients for further testing, starting treatment or lifestyle changes, or monitoring disease progression. \
+
+  **Aims and use of TRIPOD+AI**
+
+  TRIPOD+AI aims to help authors give a complete, accurate and transparent account of why a prediction model study was done, what was done, and what was found. This supports appraisal by peer reviewers and editors, independent evaluation and implementation of models, and, ultimately, trust from the clinicians, patients and policy makers who may rely on them.
+
+  **Adherence assessment**
+  
+  An adherence assessment form for measuring adherence to the Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) statement has been developed. \
 
   Heus P, Damen JAAG, Pajouheshnia R, Scholten RJPM, Reitsma JB, Collins GS, Altman DG, Moons KGM, Hooft L.Uniformity in measuring adherence to reporting guidelines: the example of TRIPOD for assessing completeness of reporting of prediction model studies. BMJ Open. 2019;9(4):e025611. PMID: [31023756](https://www.ncbi.nlm.nih.gov/pubmed/31023756) \
-
 
   The adherence assessment forms are available from: <https://www.tripod-statement.org/adherence/>
 relevant-editorials: ''
 primary-guideline: ''
-other: '[Read the protocol](https://pubmed.ncbi.nlm.nih.gov/34244270/) for the development
-  of TRIPOD+AI.'
+other: '[Read the protocol](https://pubmed.ncbi.nlm.nih.gov/34244270/) for the development of TRIPOD+AI.'
 other-relevant-research: ''
 sticky: true
 downloads: |-

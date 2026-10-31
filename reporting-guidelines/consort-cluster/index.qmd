@@ -7,17 +7,14 @@ rg-doi: ''
 pmid-id: '[22951546](http://www.ncbi.nlm.nih.gov/pubmed/22951546)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/22951546
 relevant-urls: ''
-full-bibliographic-reference: 'Campbell MK, Piaggio G, Elbourne DR, Altman DG; for
-  the CONSORT Group. Consort 2010 statement: extension to cluster randomised trials.
-  BMJ. 2012;345:e5661.'
+full-bibliographic-reference: 'Campbell MK, Piaggio G, Elbourne DR, Altman DG; for the CONSORT Group. Consort 2010 statement: extension to cluster randomised trials. BMJ. 2012;345:e5661.PMID: [15031246](http://www.ncbi.nlm.nih.gov/pubmed/15031246) [full text](https://doi.org/10.1136/bmj.e5661)'
 
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: ''
-guideline-history: 'The CONSORT 2010 statement: extension to cluster trials replaces
-  the CONSORT statement: extension to cluster randomised trials published in 2004
-  (PMID: [15031246](http://www.ncbi.nlm.nih.gov/pubmed/15031246)).'
+guideline-history: 'The CONSORT 2010 statement: extension to cluster trials replaces the CONSORT statement: extension to cluster randomised trials published in 2004 (PMID: [15031246](http://www.ncbi.nlm.nih.gov/pubmed/15031246)).'
+
 relevant-more: |-
   **Generic**
 
