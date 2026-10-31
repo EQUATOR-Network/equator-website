@@ -19,7 +19,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**CARE**](/reporting-guidelines/care/): Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development.
+  [**CARE**](/reporting-guidelines/care/): Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development.\
 
   BMJ Case Rep. 2013; doi: 10.1136/bcr-2013-201554 PMID: [24155002](http://www.ncbi.nlm.nih.gov/pubmed/24155002)
 
@@ -33,7 +33,7 @@ relevant-more: |-
 
   J Diet Suppl. 2013;10(4):381-390. PMID: [24237192](http://www.ncbi.nlm.nih.gov/pubmed/24237192)
 
-  Headache. 2013;53(10):1541-1547. PMID: [24266334](http://www.ncbi.nlm.nih.gov/pubmed/24266334)
+  Headache. 2013;53(10):1541-1547. PMID: [24266334](http://www.ncbi.nlm.nih.gov/pubmed/24266334)\
 
   **Specialised**
 
