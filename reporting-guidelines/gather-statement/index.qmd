@@ -6,8 +6,8 @@ acronym: GATHER
 provided-for: Reporting practices for studies that calculate health estimates for
   multiple populations (in time or space) using multiple information sources.
 rg-doi: ''
-pmid-id: ''
-pmid-url: ''
+pmid-id: '[27371184](https://pubmed.ncbi.nlm.nih.gov/27371184/)'
+pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/27371184/)'
 relevant-urls: ''
 full-bibliographic-reference: |-
   Stevens GA, Alkema L, Black RE, Boerma JT, Collins GS, Ezzati M, Grove JT, Hogan DR, Hogan MC, Horton R, Lawn JE, Marušić A, Mathers CD, Murray CJ, Rudan I, Salomon JA, Simpson PJ, Vos T, Welch V; GATHER Working Group. Guidelines for Accurate and Transparent Health Estimates Reporting: the GATHER statement.\
@@ -24,7 +24,7 @@ guideline-history: ''
 relevant-more: ''
 website-url: <http://gather-statement.org/>
 additional-languages: |-
-  The GATHER Statement has been translated into [Portuguese (PDF)](http://scielo.iec.pa.gov.br/pdf/ess/v26n1/2237-9622-ess-26-01-00215.pdf), [French (PDF)](http://gather-statement.org/download/gather-statement-french-pdf/), [Spanish (PDF)](http://gather-statement.org/download/gather-statement-spanish-pdf/).
+  The GATHER Statement has been translated into [Portuguese (PDF)](http://scielo.iec.pa.gov.br/pdf/ess/v26n1/2237-9622-ess-26-01-00215.pdf), [French (PDF)](http://gather-statement.org/download/gather-statement-french-pdf/), [Spanish (PDF)](http://gather-statement.org/download/gather-statement-spanish-pdf/). \
 
   The GATHER checklist has been translated into the following languages:
 
@@ -62,7 +62,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: false
+sticky: true
 downloads: ''
 
 
