@@ -7,11 +7,8 @@ provided-for: Protocols for systematic reviews of animal intervention studies.
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
-relevant-urls: 'The full-text of this reporting guideline is available at: <http://onlinelibrary.wiley.com/doi/10.1002/ebm2.7/abstract>'
-full-bibliographic-reference: 'de Vries RBM, Hooijmans CR, Langendam MW, van Luijk
-  J, Leenaars M, Ritskes-Hoitinga M, Wever KE. A protocol format for the preparation,
-  registration and publication of systematic reviews of animal intervention studies.
-  Evidence-based Preclinical Medicine. 2015;2(1): 1–9.'
+relevant-urls: 'The full-text of this reporting guideline is available at: <https://doi.org/10.1002/ebm2.7>'
+full-bibliographic-reference: 'de Vries RBM, Hooijmans CR, Langendam MW, van Luijk J, Leenaars M, Ritskes-Hoitinga M, Wever KE. A protocol format for the preparation, registration and publication of systematic reviews of animal intervention studies. Evidence-based Preclinical Medicine. 2015;2(1): 1–9.'
 
 
 # OPTIONAL FIELDS

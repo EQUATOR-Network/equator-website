@@ -19,7 +19,7 @@ rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: <https://www.mibo-statement.org/>
+website-url: ''
 additional-languages: ''
 additional-information: 'Murray IR, Murray AD, Geeslin AG, Goudie EB, White TO, Petrigliano
   FA, LaPrade RF. Infographic: we need minimum reporting standards for biologics.

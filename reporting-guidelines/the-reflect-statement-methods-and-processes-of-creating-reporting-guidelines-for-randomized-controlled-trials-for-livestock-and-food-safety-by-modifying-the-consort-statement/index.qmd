@@ -38,7 +38,6 @@ website-url: ''
 additional-languages: |-
   The REFLECT statement checklist is available to download in Spanish and French from the [Meridian Network website](https://meridian-network.org/reflect/).
 
-  Visit our translations page to find out what other reporting guidelines are available in languages other than English: [reporting guideline translations](https://www.equator-network.org/library/translations-of-reporting-guidelines/)
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''

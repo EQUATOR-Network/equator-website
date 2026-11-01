@@ -108,16 +108,6 @@ additional-languages: |-
 
   Additional translations (including flow diagrams) are available at <https://www.prisma-statement.org/translations> \
 
-  **PRISMA 2009 translations**
-
-  A full-text copy of the PRISMA 2009 Statement is available in [German (PDF)](http://www.prisma-statement.org/documents/PRISMA%20German%20Statement.pdf), [Italian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Italian%20Statement.pdf) and [Portuguese (PDF)](http://www.scielo.br/scielo.php?script=sci_arttext&pid=S2237-96222015000200335&lng=en&nrm=iso&tlng=pt). \
-
-  The PRISMA 2009 checklist is available in [Korean (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Korean%20checklist.pdf), [Portuguese (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Portugese%20checklist.pdf), [Russian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Russian%20checklist.pdf), [German (PDF)](http://www.prisma-statement.org/documents/PRISMA%20German%20checklist.pdf), [Japanese (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Japanese%20checklist.pdf), [Turkish (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Turkish%20checklist.pdf) and [Italian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Italian%20checklist.pdf). \
-
-  The PRISMA 2009 flow diagram is available in [French (PDF)](http://www.prisma-statement.org/documents/PRISMA%20French%20Flow%20Diagram.pdf), [German (PDF)](http://www.prisma-statement.org/documents/PRISMA%20German%20flow%20diagram.pdf), [Italian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Italian%20flow%20diagram.pdf), [Korean (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Korean%20flow%20diagram.pdf), [Russian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Russian%20flow%20diagram.pdf), [Japanese (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Japanese%20flow%20diagram.pdf), [Turkish (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Turkish%20flow%20diagram.pdf) and [Portuguese (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Portugese%20flow%20diagram.pdf). \
-
-  The PRISMA 2009 Explanation and Elaboration document is available in [Italian (PDF)](http://www.prisma-statement.org/documents/PRISMA%20Italian%20EandE.pdf). 
-
 additional-information: |-
   [Read the protocol](https://osf.io/xwcv5/) for the PRISMA Statement update.\
 

@@ -40,7 +40,7 @@ relevant-more: |-
   [**RIGHT-COI&F**](/reporting-guidelines/reporting-conflicts-of-interest-and-funding-in-health-care-guidelines-the-right-coif-checklist/): Xun Y, Estill J, Khabsa J, Florez ID, Guyatt GH, Norris SL, Lee MS, Ozaki A, Qaseem A, Schünemann HJ, Shao R, Chen Y, Akl EA; RIGHT-COI&F Working Groups. Reporting Conflicts of Interest and Funding in Health Care Guidelines: The RIGHT-COI&F Checklist. Ann Intern Med. 2024;177(6):782-790. PMID: [38739919](https://pubmed.ncbi.nlm.nih.gov/38739919/)
 
   [**RIGHT for CPM**](/reporting-guidelines/the-reporting-checklist-for-chinese-patent-medicine-guidelines-right-for-cpm/): Li X, Huang L, Wang L, Jin X, Zhou Q, Ma Y, Wang Q, Wang T, Hu X, Ye D, Mao Y, Xie Z, Chen Y, Wen C. The reporting checklist for Chinese patent medicine guidelines: RIGHT for CPM. Pharmacol Res. 2024;199:107015. PMID: [38036197](https://pubmed.ncbi.nlm.nih.gov/38036197/)
-website-url: <http://www.right-statement.org/extensions/13>
+website-url: <http://www.right-statement.org/extensions/>
 additional-languages: ''
 additional-information: |-
   Read the RIGHT-Ad@pt study protocol:

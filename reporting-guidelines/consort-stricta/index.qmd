@@ -118,8 +118,7 @@ website-url: <http://www.stricta.info/>
 additional-languages: |-
   The STRICTA statement has been translated into the following languages: Chinese; Japanese; Korean; Russian.
   Please visit the following URL for more information and full-text downloads: <http://www.stricta.info/translations.htm>
-
-  Visit our translations page to find out what other reporting guidelines are available in languages other than English: [reporting guideline translations](https://www.equator-network.org/library/translations-of-reporting-guidelines/)
+  
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''

@@ -138,7 +138,7 @@ relevant-more: |-
   [**CONSORT-iNeurostim**](/reporting-guidelines/reporting-guidelines-for-randomised-controlled-trial-reports-of-implantable-neurostimulation-devices-the-consort-ineurostim-extension/): Duarte RV, Bresnahan R, Copley S, Eldabe S, Thomson S, North RB, Baranidharan G, Levy RM, Collins GS, Taylor RS. Reporting guidelines for randomised controlled trial reports of implantable neurostimulation devices: the CONSORT-iNeurostim extension. EClinicalMedicine. 2024;78:102932. PMID: [39606687](https://pubmed.ncbi.nlm.nih.gov/39606687/) \
 
   [**CONSORT CRXO**](/reporting-guidelines/reporting-of-cluster-randomised-crossover-trials-extension-of-the-consort-2010-statement-with-explanation-and-elaboration/): McKenzie JE, Taljaard M, Hemming K, Arnup SJ, Giraudeau B, Eldridge S, Hooper R, Kahan BC, Li T, Moher D, Turner EL, Grimshaw JM, Forbes AB. Reporting of cluster randomised crossover trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2025;388:e080472. PMID: [39761979](https://pubmed.ncbi.nlm.nih.gov/39761979/)
-website-url: <https://www.spi.ox.ac.uk/research/site/consort-spi/outputs.html>
+website-url: 
 additional-languages: ''
 additional-information: |-
   This reporting guideline also includes a CONSORT extension for abstracts for social and psychological intervention trials (table 3) and a CONSORT extension for cluster randomised trials for social and psychological intervention trials (tables 4 and 5).

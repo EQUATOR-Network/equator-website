@@ -26,7 +26,7 @@ guideline-history: ''
 relevant-more: ''
 website-url: <http://gather-statement.org/>
 additional-languages: |-
-  The GATHER Statement has been translated into [Portuguese (PDF)](http://scielo.iec.pa.gov.br/pdf/ess/v26n1/2237-9622-ess-26-01-00215.pdf), [French (PDF)](http://gather-statement.org/download/gather-statement-french-pdf/), [Spanish (PDF)](http://gather-statement.org/download/gather-statement-spanish-pdf/). \
+  The GATHER Statement has been translated into [French (PDF)](http://gather-statement.org/download/gather-statement-french-pdf/), [Spanish (PDF)](http://gather-statement.org/download/gather-statement-spanish-pdf/). \
 
   The GATHER checklist has been translated into the following languages:
 

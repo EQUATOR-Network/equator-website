@@ -38,7 +38,7 @@ relevant-more: |-
   [**STARD-BLCM**](/reporting-guidelines/stard-blcm/): Kostoulas P, Nielsen SS, Branscum AJ, Johnson WO, Dendukuri N, Dhand NK, Toft N, Gardner IA. STARD-BLCM: Standards for the Reporting of Diagnostic accuracy studies that use Bayesian Latent Class Models. Prev Vet Med. 2017; 138:37-47. PMID: [28237234](https://www.ncbi.nlm.nih.gov/pubmed/28237234) \
 
   [**STARD for Abstracts**](/reporting-guidelines/stard-abstracts/): Cohen JF, Korevaar DA, Gatsonis CA, Glasziou PP, Hooft L, Moher D, Reitsma JB, de Vet HC, Bossuyt PM; STARD Group. STARD for Abstracts: essential items for reporting diagnostic accuracy studies in journal or conference abstracts. BMJ. 2017;358:j3751. PMID: [28819063](https://www.ncbi.nlm.nih.gov/pubmed/28819063)
-website-url: <http://www.starddem.org/>
+website-url: ''
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''

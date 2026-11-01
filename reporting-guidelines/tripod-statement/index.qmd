@@ -41,7 +41,7 @@ guideline-history: |-
 
   J Clin Epidemiol. 2015 Feb;68(2):134-43. PMID: [25579640](http://www.ncbi.nlm.nih.gov/pubmed/25579640) [full text](http://www.doi.org/10.1016/j.jclinepi.2014.11.010)
 
-  Eur Urol. 2014 Dec 9. PMID: [25572824](http://www.ncbi.nlm.nih.gov/pubmed/25572824) [full text](http://www.doi.org/10.1016/10.1016/j.eururo.2014.11.025)
+  Eur Urol. 2014 Dec 9. PMID: [25572824](http://www.ncbi.nlm.nih.gov/pubmed/25572824) [full text](https://doi.org/10.1016/j.eururo.2014.11.025)
 
   BMC Med. 2015 Jan 6;13(1):1. PMID: [25563062](http://www.ncbi.nlm.nih.gov/pubmed/25563062) [full text](http://www.doi.org/10.1186/s12916-014-0241-z)
 

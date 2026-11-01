@@ -22,7 +22,7 @@ explanation-and-elaboration-papers: |-
 guideline-history: ''
 relevant-more: ''
 website-url: ''
-additional-languages: The STROPS reporting guideline has been translated into [Chinese](http://rs.yiigle.com/CN112338202205/1377745.htm).
+additional-languages: ''
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''

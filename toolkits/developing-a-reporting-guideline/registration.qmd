@@ -62,7 +62,7 @@ Before registering your guideline, [search the list](/reporting-guidelines/under
 
 **Please register your planned guideline using this form: [Registration-form](Registration-form-for-reporting-guidelines-under-development-May-2026.docx) and [send it back us.](/about/contact.qmd)**
 
-Please take care to fill in all fields, as incomplete forms may be returned to authors. Feel free to add additional information where applicable.
+Please take care to fill in all fields, as incomplete forms may be returned to authors. Feel free to add additional information where applicable. We recommend you have an acronym for your reporting guideline, this will help make it identifiable.
 
 The EQUATOR Network will summarise the information provided in the registration form for publication on the website. The information on the forms helps us verify if the project is about the development of a reporting guideline (and not a methodological or clinical guideline) and any duplication or overlap with other reporting guidelines under development or already published.
 

@@ -19,7 +19,7 @@ rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: <http://www.circle-smt.com/>
+website-url: ''
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''

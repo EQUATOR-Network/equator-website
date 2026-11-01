@@ -8,7 +8,7 @@ provided-for: Reporting of cellular and molecular pathology content in clinical 
 rg-doi: ''
 pmid-id: '[34592193](https://pubmed.ncbi.nlm.nih.gov/34592193/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/34592193/
-relevant-urls: The SPIRIT-Path checklist can be accessed from the [NCRI website](https://www.ncri.org.uk/publications/spirit-2013-and-spirit-path-extension-checklist).
+relevant-urls: ''
 full-bibliographic-reference: 'Kendall TJ, Robinson M, Brierley DJ, Lim SJ, O''Connor
   DJ, Shaaban AM, Lewis I, Chan AW, Harrison DJ; SPIRIT-Path group. Guidelines for
   cellular and molecular pathology content in clinical trial protocols: the SPIRIT-Path
@@ -59,7 +59,7 @@ relevant-more: |-
   [**SPIRIT-Surrogate**](/reporting-guidelines/spirit-surrogate/): Manyara AM, Davies P, Stewart D, Weir CJ, Young AE, Blazeby J, Butcher NJ, Bujkiewicz S, Chan AW, Dawoud D, Offringa M, Ouwens M, Hróbjartssson A, Amstutz A, Bertolaccini L, Bruno VD, Devane D, Faria CDCM, Gilbert PB, Harris R, Lassere M, Marinelli L, Markham S, Powers JH 3rd, Rezaei Y, Richert L, Schwendicke F, Tereshchenko LG, Thoma A, Turan A, Worrall A, Christensen R, Collins GS, Ross JS, Taylor RS, Ciani O. Reporting of surrogate endpoints in randomised controlled trial protocols (SPIRIT-Surrogate): extension checklist with explanation and elaboration. BMJ. 2024;386:e078525. PMID: [38981624](https://pubmed.ncbi.nlm.nih.gov/38981624/) \
 
   [**SPIRIT-iNeurostim**](/reporting-guidelines/reporting-guidelines-for-protocols-of-randomised-controlled-trials-of-implantable-neurostimulation-devices-the-spirit-ineurostim-extension/): Bresnahan R, Copley S, Eldabe S, Thomson S, North RB, Baranidharan G, Levy RM, Collins GS, Taylor RS, Duarte RV. Reporting guidelines for protocols of randomised controlled trials of implantable neurostimulation devices: the SPIRIT-iNeurostim extension. EClinicalMedicine. 2024;78:102933. PMID: [39610902](https://pubmed.ncbi.nlm.nih.gov/39610902/)
-website-url: <https://www.ncri.org.uk/spirit-path-extension/>
+website-url: ''
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''

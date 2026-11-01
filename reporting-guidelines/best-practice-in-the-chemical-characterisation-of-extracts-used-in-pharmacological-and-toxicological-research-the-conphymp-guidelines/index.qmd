@@ -23,9 +23,7 @@ guideline-history: ''
 relevant-more: ''
 website-url: ''
 additional-languages: ''
-additional-information: An online fillable open-access ConPhyMP tool is also available
-  via the GA (Society of Medicinal Plants and Natural Products Research) website at
-  [https://ga-online.org/best-practice/](https://ga-online.org/best-practice/ "https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fga-online.org%2Fbest-practice%2F&data=05%7C01%7Cb.jalil%40ucl.ac.uk%7C7eb2e429ba984150554208db9dc7299d%7C1faf88fea9984c5b93c9210a11d9a5c2%7C0%7C0%7C638277250964198929%7CUnknown%7CTWFpbGZsb3")
+additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

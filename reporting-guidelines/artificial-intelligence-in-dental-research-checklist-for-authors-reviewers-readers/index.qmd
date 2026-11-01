@@ -4,14 +4,11 @@ title: 'Artificial intelligence in dental research: Checklist for authors, revie
   readers'
 acronym: ''
 provided-for: Reporting studies on artificial intelligence (AI) in dentistry.
-rg-doi: ''
-pmid-id: '[33631303](https://pubmed.ncbi.nlm.nih.gov/33631303/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/33631303/
+rg-doi: 'https://doi.org/10.1016/j.jdent.2021.103610'
+pmid-id: ''
+pmid-url: 
 relevant-urls: ''
-full-bibliographic-reference: 'Falk Schwendicke, Tarry Singh, Jae-Hong Lee, Robert
-  Gaudin, Akhilanand Chaurasia, Thomas Wiegand, Sergio Uribe, Joachim Krois, IADR
-  e-oral health network and the ITU WHO focus group AI for Health. Artificial intelligence
-  in dental research: Checklist for authors, reviewers, readers. J Dent. 2021.'
+full-bibliographic-reference: 'Falk Schwendicke, Tarry Singh, Jae-Hong Lee, Robert Gaudin, Akhilanand Chaurasia, Thomas Wiegand, Sergio Uribe, Joachim Krois, IADR e-oral health network and the ITU WHO focus group AI for Health. Artificial intelligence in dental research: Checklist for authors, reviewers, readers. J Dent. 2021; 107: 103610 [full text](https://doi.org/10.1016/j.jdent.2021.103610)'
 
 
 # OPTIONAL FIELDS

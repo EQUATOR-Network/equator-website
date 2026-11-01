@@ -24,7 +24,7 @@ rg-language: ''
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: <https://rapid-statement.org/>
+website-url: ''
 additional-languages: ''
 additional-information: Read the [protocol](https://pubmed.ncbi.nlm.nih.gov/31411790/)
   for the development of the RAPID guideline.

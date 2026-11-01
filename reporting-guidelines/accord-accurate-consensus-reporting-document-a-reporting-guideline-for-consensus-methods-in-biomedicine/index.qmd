@@ -9,10 +9,7 @@ pmid-id: '[38261576](https://pubmed.ncbi.nlm.nih.gov/38261576/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38261576/
 relevant-urls: '[Read the full-text](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004326)
   of the ACCORD guideline.'
-full-bibliographic-reference: 'Gattrell WT, Logullo P, van Zuuren EJ, Price A, Hughes
-  EL, Blazey P, Winchester CC, Tovey D, Goldman K, Hungin AP, Harrison N. ACCORD (ACcurate
-  COnsensus Reporting Document): A reporting guideline for consensus methods in biomedicine
-  developed via a modified Delphi. PLoS Med. 2024;21(1):e1004326.'
+full-bibliographic-reference: 'Gattrell WT, Logullo P, van Zuuren EJ, Price A, Hughes EL, Blazey P, Winchester CC, Tovey D, Goldman K, Hungin AP, Harrison N. ACCORD (ACcurate COnsensus Reporting Document): A reporting guideline for consensus methods in biomedicine developed via a modified Delphi. PLoS Med. 2024;21(1):e1004326.'
 
 
 # OPTIONAL FIELDS
@@ -29,7 +26,7 @@ additional-languages: ''
 additional-information: |-
   Read the [ACCORD study protocol](https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-022-00122-0).
 
-  Read the [systematic review](https://bmjopen.bmj.com/content/12/9/e065154.long) that informed development of the ACCORD reporting guideline.
+  Read the [systematic review](http://www.doi.org/10.1136/bmjopen-2022-065154) that informed development of the ACCORD reporting guideline.
 relevant-editorials: ''
 primary-guideline: ''
 other: 'The ACCORD project was registered at the OSF platform and can be assessed

@@ -13,7 +13,7 @@ relevant-urls: |-
 
   The CORE Reference Manual and Mapping Tool can be downloaded from:
 
-  <http://www.core-reference.org/core-reference/>
+  <https://emwa.org/resources/the-core-reference-project/>
 full-bibliographic-reference: 'Hamilton S, Bernstein AB, Blakey G, Fagan V, Farrow
   T, Jordan D, Seiler W, Shannon A, Gertel A and for the Budapest Working Group. Developing
   the Clarity and Openness in Reporting: E3-based (CORE) reference user manual for
@@ -26,16 +26,13 @@ rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: <http://​www.​core-reference.​org>
+website-url: <https://emwa.org/resources/the-core-reference-project/>
 additional-languages: ''
 additional-information: |-
   Additional documents prepared during the development of this guideline:
 
   Hamilton, S, Seiler W, Gertel A. The EMWA Budapest Working Group: A 2-year collaboration to make recommendations for aligning the ICH E3 guidance with current practice and developing clinical study protocol guidance. Medical Writing 2014;23(4):281-288. [Link to paper](http://www.tandfonline.com/doi/full/10.1179/2047480614Z.000000000254)
-
-  [Press release (PDF)](http://www.emwa.org/Documents/CORE%20Press%20Release-28jan15_final.pdf) dated 28 January 2015
-
-  CORE Reference BWG [team members list (PDF)](http://www.emwa.org/Documents/CORE%20Team-02feb15.pdf)
+  
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

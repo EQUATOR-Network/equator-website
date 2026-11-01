@@ -113,7 +113,7 @@ relevant-more: |-
   [**CONSORT-iNeurostim**](/reporting-guidelines/reporting-guidelines-for-randomised-controlled-trial-reports-of-implantable-neurostimulation-devices-the-consort-ineurostim-extension/): Duarte RV, Bresnahan R, Copley S, Eldabe S, Thomson S, North RB, Baranidharan G, Levy RM, Collins GS, Taylor RS. Reporting guidelines for randomised controlled trial reports of implantable neurostimulation devices: the CONSORT-iNeurostim extension. EClinicalMedicine. 2024;78:102932. PMID: [39606687](https://pubmed.ncbi.nlm.nih.gov/39606687/) \
 
   [**CONSORT CRXO**](/reporting-guidelines/reporting-of-cluster-randomised-crossover-trials-extension-of-the-consort-2010-statement-with-explanation-and-elaboration/): McKenzie JE, Taljaard M, Hemming K, Arnup SJ, Giraudeau B, Eldridge S, Hooper R, Kahan BC, Li T, Moher D, Turner EL, Grimshaw JM, Forbes AB. Reporting of cluster randomised crossover trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2025;388:e080472. PMID: [39761979](https://pubmed.ncbi.nlm.nih.gov/39761979/)
-website-url: <http://www.clinical-trials.ai/>
+website-url: ''
 additional-languages: Translations of the CONSORT-AI Statement are available in [Spanish](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10863743/)
   and [Portuguese](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10863743/).
 additional-information: ''

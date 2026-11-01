@@ -101,7 +101,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: '[Longitudinal observational drug studies in rheumatology checklist (Word)](http://www.eular.org/myUploadData/files/EULAR_checklist_registries.doc)'
+downloads: ''
 
 
 # LIST FIELDS

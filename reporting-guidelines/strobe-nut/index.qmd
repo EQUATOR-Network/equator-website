@@ -107,7 +107,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: |-
   A fillable checklist can be found in the supplementary material of the [Explanation and Elaboration paper](https://www.ncbi.nlm.nih.gov/pubmed/28916567)
-  Dietary assessment guidelines and interactive tools for the design and conduct of dietary assessment studies are available from: <https://www.nutritools.org/>
+
 other-relevant-research: ''
 sticky: true
 downloads: ''

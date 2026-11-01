@@ -21,7 +21,7 @@ rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: <https://tares-statement.org/wp/>
+website-url: <https://tares-statement.org/>
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''

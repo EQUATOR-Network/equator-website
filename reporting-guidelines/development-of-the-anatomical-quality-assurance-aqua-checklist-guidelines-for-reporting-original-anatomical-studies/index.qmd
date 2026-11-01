@@ -1,17 +1,13 @@
 ---
 # REQUIRED FIELDS
-title: 'Development of the Anatomical Quality Assurance (AQUA) Checklist: guidelines
-  for reporting original anatomical studies'
+title: 'Development of the Anatomical Quality Assurance (AQUA) Checklist: guidelines for reporting original anatomical studies'
 acronym: AQUA
 provided-for: Reporting original anatomical studies
-rg-doi: ''
+rg-doi: '10.1002/ca.22800'
 pmid-id: '[27801507](https://www.ncbi.nlm.nih.gov/pubmed/27801507)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/27801507
 relevant-urls: 'The AQUA checklist is freely available from: <http://www.eba.cm.uj.edu.pl/about-aqua>'
-full-bibliographic-reference: 'Tomaszewski KA, Henry BM, Ramakrishnan PK, Roy J, Vikse
-  J, Loukas M, Tubbs RS, Walocha JA. Development of the Anatomical Quality Assurance
-  (AQUA) Checklist: guidelines for reporting original anatomical studies. Clin Anat.
-  2016.'
+full-bibliographic-reference: 'Tomaszewski KA, Henry BM, Ramakrishnan PK, Roy J, Vikse J, Loukas M, Tubbs RS, Walocha JA. Development of the Anatomical Quality Assurance (AQUA) Checklist: guidelines for reporting original anatomical studies. Clin Anat. 2016.'
 
 
 # OPTIONAL FIELDS
@@ -19,10 +15,8 @@ rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: <http://www.eba.cm.uj.edu.pl/aqua>
-additional-languages: The AQUA checklist is also available in [French (PDF)](https://drive.google.com/file/d/0B9oZi4t81NkcaUV1UWRRVFl6cnM/view?usp=sharing),
-  [Spanish (PDF)](https://drive.google.com/file/d/0B_AZDPm1Mm0GQ2doTmdSTDlFRFE/view?usp=sharing)
-  and [Polish (PDF)](https://drive.google.com/file/d/0B_AZDPm1Mm0GSmhqOXNtbFF0Z2c/view?usp=sharing).
+website-url: 
+additional-languages: 
 additional-information: |-
   The AQUA reporting guideline development team have also produced consensus guidelines specifically for reporting study ethics in anatomical research within the framework of the AQUA checklist (relating to checklist items 6, 16 and 17):
 
@@ -32,9 +26,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: AQUA checklist[PDF](https://drive.google.com/file/d/0B8aUZqV2goZkTFQwUXNnQW5CZjA/view?usp=sharing)
-  / [Word](https://drive.google.com/file/d/0B8aUZqV2goZkRHFlQXJIMEROQjg/view?usp=sharing)
-
+downloads: 
 
 # LIST FIELDS
 study-design:

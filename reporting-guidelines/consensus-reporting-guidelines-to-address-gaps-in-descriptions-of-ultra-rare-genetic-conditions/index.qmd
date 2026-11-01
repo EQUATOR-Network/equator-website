@@ -7,8 +7,7 @@ provided-for: Reporting phenotype descriptions for rare genetic diseases.
 rg-doi: ''
 pmid-id: '[38582909](https://pubmed.ncbi.nlm.nih.gov/38582909/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38582909/
-relevant-urls: The PHELIX checklists are available in Tables 9 and 10 in the [supplementary
-  materials (PDF)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10998895/bin/41525_2024_408_MOESM1_ESM.pdf).
+relevant-urls: The PHELIX checklists are available in Tables 9 and 10 in the [supplementary materials (PDF)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998895/).
 full-bibliographic-reference: AlMail A, Jamjoom A, Pan A, Feng MY, Chau V, D'Gama
   AM, Howell K, Liang NSY, McTague A, Poduri A, Wiltrout K; IPCHiP Executive Committee;
   Bassett AS, Christodoulou J, Dupuis L, Gill P, Levy T, Siper P, Stark Z, Vorstman

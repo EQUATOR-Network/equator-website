@@ -7,8 +7,7 @@ provided-for: Reporting of reliability generalisation meta-analyses
 rg-doi: ''
 pmid-id: '[33742752](https://pubmed.ncbi.nlm.nih.gov/33742752/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/33742752/
-relevant-urls: The REGEMA checklist and flow chart can be freely downloaded from the
-  [reporting guideline development group website](https://www.um.es/metaanalysis/REGEMA.php).
+relevant-urls: ''
 full-bibliographic-reference: 'Sánchez-Meca J, Marín-Martínez F, López-López JA, Núñez-Núñez
   RM, Rubio-Aparicio M, López-García JJ, López-Pina JA, Blázquez-Rincón DM, López-Ibáñez
   C, López-Nicolás R. Improving the reporting quality of reliability generalization
