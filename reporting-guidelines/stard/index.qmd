@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy
-  Studies'
+title: 'STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy Studies'
+aliases:
+  - /reporting-guidelines/towards-complete-and-accurate-reporting-of-studies-of-diagnostic-accuracy-the-stard-initiative-standards-for-reporting-of-diagnostic-accuracy/
 acronym: STARD 2015
 provided-for: Studies of diagnostic accuracy.
 rg-doi: ''
