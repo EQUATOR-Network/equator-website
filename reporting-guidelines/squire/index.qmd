@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised
-  publication guidelines from a detailed consensus process'
+title: 'SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process'
+aliases:
+  - /reporting-guidelines/publication-guidelines-for-quality-improvement-in-health-care-evolution-of-the-squire-project/
 acronym: SQUIRE 2.0
 provided-for: Quality improvement in health care
 rg-doi: ''
