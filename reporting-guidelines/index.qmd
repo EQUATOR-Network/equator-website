@@ -1,7 +1,5 @@
 ---
 title: "Search all Reporting Guidelines"
-aliases:
-  - /library/
 page-layout: full
 listing:
     contents:
