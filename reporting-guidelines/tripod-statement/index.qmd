@@ -64,7 +64,9 @@ relevant-more: |-
   
   [**CLAIM**](/reporting-guidelines/claim): Tejani AS, Klontzas ME, Gatti AA, Mongan JT, Moy L, Park SH, Kahn CE Jr; CLAIM 2024 Update Panel. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024 Update. Radiol Artif Intell. 2024;6(4):e240300. PMID: [38809149](https://pubmed.ncbi.nlm.nih.gov/38809149/)\
   
-   [TRAM-AI](/reporting-guidelines/tram-ai): Bose K, Gupta P, Adams L, Agrawal R, Aboian M, Basu S, Brunak S, Chang K, Chu LC, Cuocolo R, Akinci D'Antonoli T, Fanni SC, Judice de Mattos Farina EM, Gatti AA, Ghodasara S, Gonzales RA, Gupta A, Hoebel K, Hsu W, Jiang Z, Khosravi B, Klontzas ME, Kiosia A, Lalwani N, Langlotz C, Lee H, Moy L, Pal D, Paolucci I, Savage CH, Rangarajan K, Sebro R, Suri A, Tejani A, Wang S, Kahn CE Jr. TRAM-AI: A Framework for Transparency in Reporting of Medical Imaging Datasets for Artificial Intelligence Development. Radiol Artif Intell. 2026 Oct 21:e260538. PMID: [42905015](https://www.ncbi.nlm.nih.gov/pubmed/42905015)
+   [**TRAM-AI**](/reporting-guidelines/tram-ai): Bose K, Gupta P, Adams L, Agrawal R, Aboian M, Basu S, Brunak S, Chang K, Chu LC, Cuocolo R, Akinci D'Antonoli T, Fanni SC, Judice de Mattos Farina EM, Gatti AA, Ghodasara S, Gonzales RA, Gupta A, Hoebel K, Hsu W, Jiang Z, Khosravi B, Klontzas ME, Kiosia A, Lalwani N, Langlotz C, Lee H, Moy L, Pal D, Paolucci I, Savage CH, Rangarajan K, Sebro R, Suri A, Tejani A, Wang S, Kahn CE Jr. TRAM-AI: A Framework for Transparency in Reporting of Medical Imaging Datasets for Artificial Intelligence Development. Radiol Artif Intell. 2026 Oct 21:e260538. PMID: [42905015](https://www.ncbi.nlm.nih.gov/pubmed/42905015) \
+   
+   [**CONSORT-AI**](/reporting-guidelines/consort-artificial-intelligence): Liu X, Rivera SC, Moher D, Calvert MJ, Denniston AK; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI Extension. BMJ 2020; 370: m3164. PMID: [32909959](https://pubmed.ncbi.nlm.nih.gov/32909959/)
 
 website-url: <http://www.tripod-statement.org/>
 additional-languages: |-
