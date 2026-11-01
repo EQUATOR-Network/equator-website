@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'GRIPP 2 reporting checklists: tools to improve reporting of patient and public
-  involvement in research'
+title: 'GRIPP 2 reporting checklists: tools to improve reporting of patient and public involvement in research'
+aliases:
+  - /reporting-guidelines/gripp2-reporting-checklists-tools-to-improve-reporting-of-patient-and-public-involvement-in-research
 acronym: GRIPP2
 provided-for: Reporting patient and public involvement in health and social care research.
 rg-doi: ''
