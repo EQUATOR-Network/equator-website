@@ -9,21 +9,19 @@ pmid-id: ''
 pmid-url: ''
 relevant-urls: ''
 full-bibliographic-reference: |-
-  Staniszewska S, Simera I, Seers K, Mockford C, Goodlad S, Altman DG, Moher D, Barber R, Denegri S, Entwistle A, Littlejohns P, Morris C, Suleman R. GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research.
+  Staniszewska S, Simera I, Seers K, Mockford C, Goodlad S, Altman DG, Moher D, Barber R, Denegri S, Entwistle A, Littlejohns P, Morris C, Suleman R. GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research.\
 
-  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
+  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.\
 
-  BMJ. 2017;358:j3453. PMID: [28768629](https://pubmed.ncbi.nlm.nih.gov/28768629/)
+  BMJ. 2017;358:j3453. PMID: [28768629](https://pubmed.ncbi.nlm.nih.gov/28768629/) [full text](https://doi.org/10.1136/bmj.j3453)
 
-  Res Involv Engagem. 2017;3:13. PMID: [29062538](https://pubmed.ncbi.nlm.nih.gov/29062538/)
+  Res Involv Engagem. 2017;3:13. PMID: [29062538](https://pubmed.ncbi.nlm.nih.gov/29062538/) [full text](https://doi.org/10.1186/s40900-017-0062-2)
 
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: ''
-guideline-history: 'Staniszewska S, Brett J, Mockford C, Barber R. The GRIPP checklist:
-  strengthening the quality of patient and public involvement reporting in research.
-  Int J Technol Assess Health Care. 2011 Oct;27(4):391-9. PMID: [22004782](https://www.ncbi.nlm.nih.gov/pubmed/22004782)'
+guideline-history: 'Staniszewska S, Brett J, Mockford C, Barber R. The GRIPP checklist: strengthening the quality of patient and public involvement reporting in research. Int J Technol Assess Health Care. 2011 Oct;27(4):391-9. PMID: [22004782](https://www.ncbi.nlm.nih.gov/pubmed/22004782)'
 relevant-more: ''
 website-url: ''
 additional-languages: |-
