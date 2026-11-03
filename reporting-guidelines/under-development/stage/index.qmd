@@ -1,0 +1,30 @@
+---
+title: "STAGE"
+contact-name: "Waqar Naqvi, Khalid Khan, Gaurav Mishra"
+contact-email: "waqarnaqvi@lmu.edu.in"
+date-registered: "3 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Game-based learning is an established and growing approach in health professions education, spanning analog formats such as card and board games, digital and web-based games, and gamified curricula. Studies of these interventions regularly report learning outcomes without describing the game itself: the mechanics, the learning objectives those mechanicsserve, the components and rules needed to run the game, or the facilitation and debriefing materials used in the study. As a result, readers frequently cannot tell what the intervention actually was, educators cannot reproduce or adopt the game in their own settings, and reviewers cannot judge whether reported effects reflect genuine learning or engagement alone.
+
+This gap is documented across the literature. A systematic review of serious games in medical education found that public access to medical games is limited and that the quality of effectiveness evidence is only moderate (Gorbanev et al., Med Educ Online 2018). A systematic review of 45 serious games evaluated in randomised trials found that the development process, including end user involvement, was poorly described in published reports (Maheu-Cadotte et al., JMIR Serious Games 2021). A large systematic review of serious gaming and gamification in health professions education rated the evidence as low or very low quality across all outcomes and called for more rigorous research (Gentry et al., J Med Internet Res 2019). A recent scoping review of analog serious games for physician-track learners (88 records, 2013 to 2023) found the field dominated by description studies and identified substantial gaps and opportunities for more rigorous scholarship (Edwards etal., Acad Med 2024).
+
+No existing reporting guideline addresses this gap. The GAMING guidelines (Warsinsky et al., J Med Internet Res 2021) address conceptual clarity in distinguishing gamification from serious games but their 25 items cover conceptual focus, contribution, mindfulness about related concepts and concept definitions only; they do not address the reproducibility of the game intervention itself. Generic intervention reporting tools such as TIDieR were not designed for the distinctive elements of games, including mechanics, components, player roles, scoring structures and print-and-play materials.
+
+STAGE will provide a consensus-based checklist specifying the minimum information that studies of game-based learning interventions in health professions education should report. Candidate items will draw on established game design theory, including the Mechanics, Dynamics and Aesthetics (MDA) framework (Hunicke et al., 2004), which distinguishes the rules and components of a game, its behaviour during play, and the player experience it produces. Anticipated domains include the description of game mechanics and their alignment with learning objectives; a full rule set and component listing; availability of printable or digital game files; facilitator materials used for teaching, running and debriefing the game; the educational context and learner population; and the evaluation methods used to assess learning beyond engagement. The guideline is intended for authors, peer reviewers and journal editors, and aims to turn the growing body of game-based education research into evidence that can be replicated, compared and built upon.
+
+{{< include ../_template.qmd >}}
