@@ -1,5 +1,6 @@
 ---
-title: "STAGE"
+title: "Standards for Transparent And complete reporting of
+Games in medical Education (STAGE)"
 contact-name: "Waqar Naqvi, Khalid Khan, Gaurav Mishra"
 contact-email: "waqarnaqvi@lmu.edu.in"
 date-registered: "3 November 2026"
