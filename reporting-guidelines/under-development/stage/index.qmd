@@ -13,7 +13,7 @@ categories:
 # - Health Economic evaluations
 # - Systematic reviews
 # - Observational studies
-# - Other
+- Other
 # - Qualitative research
 # - Study protocols
 ---
