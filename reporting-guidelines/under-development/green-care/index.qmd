@@ -1,0 +1,31 @@
+---
+title: "Guidelines foR Evaluating the ENvironmental impacts of CARE pathways in healthcare (GREEN CARE) reporting guideline"
+contact-name: "Simon Couillard"
+contact-email: "simon.couillard2@usherbrooke.ca"
+date-registered: "3 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+The healthcare sector significantly contributes to climate change, with 5% of global greenhouse gas (GHG) emissions arising from healthcare. To combat this, many healthcare systems have set sustainability targets. Care pathway environmental sustainability assessments (ESAs) allow for holistic quantification of the environmental impact of care, by capturing environmental impacts both upstream and downstream from clinical decision making. Insights from these studies can inform healthcare practice changes which simultaneously improve patient outcomes and reduce environmental impacts.
+
+To support a consistent approach to conducting care pathway ESAs, the Sustainable Healthcare Coalition (SHC) released a guidance document in 2015, which was subsequently updated in 2023. Since the initial publication of the SHC guidance document, there has been a substantial increase in the number of care pathway ESAs being conducted. However, despite existing guidance, increasing divergence in the conduct and reporting of care pathway ESAs has become apparent.
+
+The GREEN CARE guidelines build upon the SHC guidance to provide updated and strengthened instruction on how to conduct care pathway ESAs in a consistent, thorough and transparent manner. These guidelines address an important methodological gap by providing practical recommendations for incorporating environmental impact assessment into clinical and public health studies. The guidelines aims to support researchers in evaluating the environmental consequences of healthcare interventions, research activities, and public health programmes alongside their clinical, economic, and social impacts. 
+Development of the GREEN CARE guidelines was informed by a targeted literature review, which identified notable inconsistencies in care pathway ESAs, including divergent terminology use, a lack of thorough guideline application and incomplete reporting of input data. Insights from the literature review were used to inform user-specific recommendations, which were further developed and refined using a structured consensus-based process. The guidelines were developed using insights from a Scientific Steering Committee comprising 20 sustainability experts, including Professor Matthew Eckelman, Dr Scott McAlister, Dr Cassandra Thiel, the SHC, Environmental Resources Management, and AstraZeneca.
+
+To support comprehensive, consistent and transparent reporting of care pathway ESAs, the guideline document includes a 30-point reporting checklist, which expands upon the reporting checklist provided in the SHC guidance document. The GREEN CARE guidelines reporting checklist is structured chronologically to support comprehensive reporting of all aspects of a care pathway ESA. A supporting recommendation is provided, which encourages researchers to utilise the reporting checklist when creating a care pathway ESA report, and to submit the checklist to journals alongside manuscript submissions. This will ensure that the results of future care pathway ESAs are high quality, can be effectively critically appraised and reproduced, and translate into real-world care practice changes which will contribute towards achieving sustainable care.
+
+{{< include ../_template.qmd >}}

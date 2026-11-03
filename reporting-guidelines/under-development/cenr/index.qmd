@@ -1,0 +1,24 @@
+---
+title: "Reporting Guidelines for Peer-Review Publication of
+Community-Engaged Research (CEnR)"
+contact-name: "Darius Tandon"
+contact-email: "dtandon@northwestern.edu"
+date-registered: "3 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+- Observational studies
+# - Other
+- Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Increasing consensus exists within biomedical and heath service research of the need for clear guidance on reporting research study procedures to ensure accuracy, transparency and clarity for both journal editors and readers (Mohar, 2018). Yet, no systematically developed guidelines exist for reporting community-engaged research (CEnR) in peer reviewed publications. As a result, descriptions of CEnR elements vary widely in peer reviewed publications (Persad-Clem et al.,2023). Consequently, journal editors and readers experience challenges in deciphering the depth, quality and rigor of CEnR within empirical research. Inconsistent and/or missing elements of partner engagement significantly hinder efforts to interpret and synthesize CEnR publications found in the peer-reviewed literature. We will use a modified Delphi study to develop a reporting guideline for CEnR using a consensus driven method. Delphi panelists will include journal editors and academic and community CEnR practitioners.
+{{< include ../_template.qmd >}}
