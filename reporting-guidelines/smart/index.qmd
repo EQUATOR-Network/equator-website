@@ -10,7 +10,7 @@ pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/42832559
 relevant-urls: |-
   'Read the full text of the [SMART guidance](https://academic.oup.com/bjs/article/113/10/znag117/8865209)'
 full-bibliographic-reference: |-
-  'Olivier JB, Macefield RC, Coyle M, Avery KNL, Blencowe NS, Elliott D. Concise stakeholder-informed tool for reporting modifications to innovative surgical procedures and devices: Surgical ModificAtion Reporting Tool (SMART) checklist. Br J Surg 2025; 113: znag117. PMID: [42832559](http://www.ncbi.nlm.nih.gov/pubmed/42832559)
+  'Olivier JB, Macefield RC, Coyle M, Avery KNL, Blencowe NS, Elliott D. Concise stakeholder-informed tool for reporting modifications to innovative surgical procedures and devices: Surgical ModificAtion Reporting Tool (SMART) checklist. Br J Surg 2026; 113: znag117. PMID: [42832559](http://www.ncbi.nlm.nih.gov/pubmed/42832559) [full text](https://academic.oup.com/bjs/article/113/10/znag117/8865209)'
 # OPTIONAL FIELDS
 downloads: ''
 rg-language: English
