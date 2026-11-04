@@ -1,5 +1,30 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
     "listing": "/about/international-equator-centres.html",
     "items": [
       "/about/people/dmoher.html",
@@ -7,6 +32,16 @@
       "/about/people/pravaud.html",
       "/about/people/zbian.html",
       "/about/people/jioannidis.html"
+    ]
+  },
+  {
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   },
   {
@@ -69,6 +104,7 @@
       "/reporting-guidelines/under-development/dice-checklist-a-reporting-guideline-for-strengthening-diversity-inclusion-culture-and-equity-considerations-within-musculoskeletal-research/index.html",
       "/reporting-guidelines/under-development/denote-a-data-note-reporting-guideline-for-qualitative-health-and-social-care-research-datasets/index.html",
       "/reporting-guidelines/under-development/ecohealth-reporting-guideline-for-assessments-of-the-environmental-consequences-of-healthcare/index.html",
+      "/reporting-guidelines/under-development/enlight-icu/index.html",
       "/reporting-guidelines/under-development/enlight-field-field-research-extension-of-the-enlight-checklist-and-guidelines-for-daylight-electric-and-mixed-field-research/index.html",
       "/reporting-guidelines/under-development/epic-enhanced-prevalence-and-incidence-criteria/index.html",
       "/reporting-guidelines/under-development/pitnet/index.html",
@@ -950,41 +986,6 @@
       "/reporting-guidelines/what-should-be-done-to-tackle-ghostwriting-in-the-medical-literature/index.html",
       "/reporting-guidelines/icheck-dh-guidelines-and-checklist-for-the-reporting-on-digital-health-implementations/index.html",
       "/reporting-guidelines/brimful-of-starlite-toward-standards-for-reporting-literature-searches/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
-    ]
-  },
-  {
-    "listing": "/about/equator-network.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
     ]
   }
 ]
