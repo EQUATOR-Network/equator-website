@@ -2,7 +2,7 @@
 title: "A reporting guideline for artificial intelligence-enabled simulation-based eductianl interventions in health professions education (RAISE-HPE)"
 contact-name: "Aishwarya A. Pashine, Shraddha Patel, Waqar M. Naqvi"
 contact-email: "aishwaryapashine98@gmail.com, shraddha.patel@aiher.edu.in, vikkynaqvi@gmail.com"
-date-registered: "4 November 2026"
+date-registered: "5 August 2026"
 year-registered: 2026
 date-updated: null
 categories:
