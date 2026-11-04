@@ -2,7 +2,7 @@
 title: "A reporting guideline for artificial intelligence-enabled simulation-based educational interventions in health professions education"
 contact-name: "Aishwarya A. Pashine, Waqar M. Naqvi"
 contact-email: "aishwaryapashine98@gmail.com, vikkynaqvi@gmail.com"
-date-registered: "4 November 2026"
+date-registered: "5 August 2026"
 year-registered: 2026
 date-updated: null
 categories:
