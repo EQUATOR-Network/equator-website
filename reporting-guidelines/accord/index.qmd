@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'ACCORD  (ACcurate  COnsensus Reporting Document): A reporting guideline for
-  consensus methods in biomedicine developed via a modified Delphi'
+title: 'ACCORD  (ACcurate  COnsensus Reporting Document): A reporting guideline for consensus methods in biomedicine developed via a modified Delphi'
+aliases:
+  - /reporting-guidelines/accord-accurate-consensus-reporting-document-a-reporting-guideline-for-consensus-methods-in-biomedicine
 acronym: ACCORD
 provided-for: Reporting consensus methods used in biomedical research.
 rg-doi: ''

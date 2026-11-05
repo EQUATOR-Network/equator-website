@@ -1,18 +1,17 @@
 ---
 # REQUIRED FIELDS
-title: A Consensus -Based Checklist for Reporting of Survey Studies (CROSS)
-acronym: CROSS
-provided-for: Reporting of both web- and non-web-based surveys.
+title: 'A Reporting Checklist for Discrete Choice Experiments in Health: The DIRECT Checklist'
+aliases:
+  - /reporting-guidelines/a-reporting-checklist-for-discrete-choice-experiments-in-health-the-direct-checklist/
+acronym: DIRECT
+provided-for: Reporting of discrete choice experiments (DCEs) in health research.
 rg-doi: ''
-pmid-id: '[33886027](https://pubmed.ncbi.nlm.nih.gov/33886027/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/33886027/
+pmid-id: '[39227559](https://pubmed.ncbi.nlm.nih.gov/39227559/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39227559/
 relevant-urls: ''
-full-bibliographic-reference: Sharma A, Minh Duc NT, Luu Lam Thang T, Nam NH, Ng SJ,
-  Abbas KS, Huy NT, Marušić A, Paul CL, Kwok J, Karbwang J, de Waure C, Drummond FJ,
-  Kizawa Y, Taal E, Vermeulen J, Lee GHM, Gyedu A, To KG, Verra ML, Jacqz-Aigrain
-  ÉM, Leclercq WKG, Salminen ST, Sherbourne CD, Mintzes B, Lozano S, Tran US, Matsui
-  M, Karamouzian M. A Consensus-Based Checklist for Reporting of Survey Studies (CROSS).
-  J Gen Intern Med. 2021.
+full-bibliographic-reference: 'Ride J, Goranitis I, Meng Y, LaBond C, Lancsar E. A
+  Reporting Checklist for Discrete Choice Experiments in Health: The DIRECT Checklist.
+  Pharmacoeconomics. 2024;42(10):1161-1175.'
 
 
 # OPTIONAL FIELDS
@@ -22,8 +21,7 @@ guideline-history: ''
 relevant-more: ''
 website-url: ''
 additional-languages: ''
-additional-information: The CROSS checklist is located in supplementary materials
-  3, pages 5-7.
+additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
@@ -39,11 +37,11 @@ study-design:
 # - Clinical practice guidelines
 # - Clinical trials
 # - Diagnostic and prognostic studies
-# - Economic evaluations
+- Economic evaluations
 # - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-- Observational studies
+# - Observational studies
 # - Other
 # - Patent landscapes
 - Qualitative research
@@ -125,15 +123,25 @@ report-section:
 # - No report section specified
 keyword:
 - checklist
-- Checklist for Reporting of Survey Studies
 - checklists
-- CROSS
-- questionnaire
-- questionnaires
+- DCE
+- DCEs
+- DIRECT
+- DIRECT checklist
+- discrete choice experiment
+- DIscrete choice experiment REporting ChecklisT
+- discrete choice experiments
+- economic
+- economic evaluations
+- economics
+- economy
+- health preference
+- health preference research
+- health preferences
+- preference
+- preferences
+- qualitative
 - survey
-- survey research
-- survey studies
-- survey study
 - surveys
 
 ---

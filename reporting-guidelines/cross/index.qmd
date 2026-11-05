@@ -1,23 +1,20 @@
 ---
 # REQUIRED FIELDS
-title: 'A Guideline for Reporting Mediation Analyses of Randomized Trials and Observational
-  Studies: The AGReMA Statement'
-acronym: AGReMA
-provided-for: Reporting primary and secondary mediation analyses of randomised trials
-  and observational studies.
+title: A Consensus -Based Checklist for Reporting of Survey Studies (CROSS)
+aliases:
+  - /reporting-guidelines/a-consensus-based-checklist-for-reporting-of-survey-studies-cross/
+acronym: CROSS
+provided-for: Reporting of both web- and non-web-based surveys.
 rg-doi: ''
-pmid-id: '[34546296](https://pubmed.ncbi.nlm.nih.gov/34546296/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/34546296/
-relevant-urls: |-
-  Access the [AGReMA checklist](https://agrema-statement.org/index.php/home/agrema/) for reporting mediation analyses of randomised controlled trials and observational studies as a primary objective.
-
-  Access the [AGReMA-SF checklist](https://agrema-statement.org/index.php/home/agrema-sf/) for reporting secondary mediation analyses within primary reports of randomised controlled trials and observational studies.
-full-bibliographic-reference: 'Lee H, Cashin AG, Lamb SE, Hopewell S, Vansteelandt
-  S, VanderWeele TJ, MacKinnon DP, Mansell G, Collins GS, Golub RM, McAuley JH; AGReMA
-  group, Localio AR, van Amelsvoort L, Guallar E, Rijnhart J, Goldsmith K, Fairchild
-  AJ, Lewis CC, Kamper SJ, Williams CM, Henschke N. A Guideline for Reporting Mediation
-  Analyses of Randomized Trials and Observational Studies: The AGReMA Statement. JAMA.
-  2021;326(11):1045-1056.'
+pmid-id: '[33886027](https://pubmed.ncbi.nlm.nih.gov/33886027/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/33886027/
+relevant-urls: ''
+full-bibliographic-reference: Sharma A, Minh Duc NT, Luu Lam Thang T, Nam NH, Ng SJ,
+  Abbas KS, Huy NT, Marušić A, Paul CL, Kwok J, Karbwang J, de Waure C, Drummond FJ,
+  Kizawa Y, Taal E, Vermeulen J, Lee GHM, Gyedu A, To KG, Verra ML, Jacqz-Aigrain
+  ÉM, Leclercq WKG, Salminen ST, Sherbourne CD, Mintzes B, Lozano S, Tran US, Matsui
+  M, Karamouzian M. A Consensus-Based Checklist for Reporting of Survey Studies (CROSS).
+  J Gen Intern Med. 2021.
 
 
 # OPTIONAL FIELDS
@@ -25,9 +22,10 @@ rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: <https://agrema-statement.org/>
+website-url: ''
 additional-languages: ''
-additional-information: Read about the [development of the AGReMA reporting guideline](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-0915-5).
+additional-information: The CROSS checklist is located in supplementary materials
+  3, pages 5-7.
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
@@ -41,16 +39,16 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-- Clinical trials
+# - Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-- Experimental studies
+# - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 - Observational studies
 # - Other
 # - Patent landscapes
-# - Qualitative research
+- Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
 # - Study protocols
@@ -121,45 +119,24 @@ report-section:
 # - Research recommendations
 # - Results
 # - Statistical analysis plan-whole report
-- Statistical methods and analyses
+# - Statistical methods and analyses
 # - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-# - Whole report
+- Whole report
 # - No report section specified
 keyword:
-- AGReMA
-- AGReMA checklist
-- AGReMA statement
-- AGReMA-SF
-- AGReMA-SF checklist
-- causal mechanism
-- causal mechanisms
-- clinical trial
-- clinical trials
-- Guideline for Reporting Mediation Analyses
-- mediation
-- mediation analyses
-- mediation analysis
-- mediation studies
-- mediation study
-- observational
-- observational studies
-- observational study
-- primary reports of mediation analyses
-- randomised
-- randomised controlled trial
-- randomised controlled trials
-- randomised trial
-- randomized
-- randomized controlled trial
-- randomized controlled trials
-- randomized trial
-- RCT
-- RCTs
-- secondary reports of mediation analyses
-- trial
-- trials
+- checklist
+- Checklist for Reporting of Survey Studies
+- checklists
+- CROSS
+- questionnaire
+- questionnaires
+- survey
+- survey research
+- survey studies
+- survey study
+- surveys
 
 ---
 
