@@ -1,5 +1,15 @@
 [
   {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
+    ]
+  },
+  {
     "listing": "/reporting-guidelines/index.html",
     "items": [
       "/reporting-guidelines/right-statement/index.html",
@@ -59,7 +69,7 @@
       "/reporting-guidelines/consort-abstracts/index.html",
       "/reporting-guidelines/consort-ehealth-improving-and-standardizing-evaluation-reports-of-web-based-and-mobile-health-interventions/index.html",
       "/reporting-guidelines/consort-equity/index.html",
-      "/reporting-guidelines/consensus-statement-for-protocols-of-factorial-randomized-trials-extension-of-the-spirit-2013-statement/index.html",
+      "/reporting-guidelines/spirit-factorial/index.html",
       "/reporting-guidelines/coreq/index.html",
       "/reporting-guidelines/consort-cluster/index.html",
       "/reporting-guidelines/cobra/index.html",
@@ -236,7 +246,7 @@
       "/reporting-guidelines/consensus-guidelines-for-the-conduct-and-reporting-of-clinical-trials-in-systemic-light-chain-amyloidosis/index.html",
       "/reporting-guidelines/consensus-guidelines-on-plasma-cell-myeloma-minimal-residual-disease-analysis-and-reporting/index.html",
       "/reporting-guidelines/consensus-on-exercise-reporting-template-cert/index.html",
-      "/reporting-guidelines/consensus-on-recording-deep-endometriosis-surgery-the-cordes-statement/index.html",
+      "/reporting-guidelines/cordes/index.html",
       "/reporting-guidelines/consensus-on-the-reporting-and-experimental-design-of-clinical-and-cognitive-behavioural-neurofeedback-studies-cred-nf-checklist/index.html",
       "/reporting-guidelines/consensus-recommendations-for-the-uniform-reporting-of-clinical-trials-report-of-the-international-myeloma-workshop-consensus-panel-1/index.html",
       "/reporting-guidelines/consensus-reporting-guidelines-to-address-gaps-in-descriptions-of-ultra-rare-genetic-conditions/index.html",
@@ -278,8 +288,8 @@
       "/reporting-guidelines/development-of-guidelines-to-reduce-handle-and-report-missing-data-in-palliative-care-trials-a-multi-stakeholder-modified-nominal-group-technique/index.html",
       "/reporting-guidelines/development-of-the-assess-tool-a-comprehensive-tool-to-support-reporting-and-critical-appraisal-of-qualitative-quantitative-and-mixed-methods-implementation-research-outcomes/index.html",
       "/reporting-guidelines/development-of-the-anatomical-quality-assurance-aqua-checklist-guidelines-for-reporting-original-anatomical-studies/index.html",
-      "/reporting-guidelines/clarify-2021-reporting-of-yoga-research/index.html",
-      "/reporting-guidelines/development-of-the-reporting-infographics-and-visual-abstracts-of-comparative-studies-riva-c-checklist-and-guide/index.html",
+      "/reporting-guidelines/clarify/index.html",
+      "/reporting-guidelines/riva-c/index.html",
       "/reporting-guidelines/development-of-the-standards-of-reporting-of-neurological-disorders-strond-checklist-a-guideline-for-the-reporting-of-incidence-and-prevalence-studies-in-neuroepidemiology/index.html",
       "/reporting-guidelines/development-evaluation-and-assessment-of-large-language-models-deal-checklist/index.html",
       "/reporting-guidelines/development-explanation-and-presentation-of-the-physical-literacy-interventions-reporting-template-plirt/index.html",
@@ -682,7 +692,7 @@
       "/reporting-guidelines/the-scare-statement-consensus-based-surgical-case-report-guidelines/index.html",
       "/reporting-guidelines/the-share-sham-acupuncture-reporting-guidelines-and-a-checklist-in-clinical-trials/index.html",
       "/reporting-guidelines/the-stard-statement-for-reporting-diagnostic-accuracy-studies-application-to-the-history-and-physical-examination/index.html",
-      "/reporting-guidelines/the-stard-ai-reporting-guideline-for-diagnostic-accuracy-studies-using-artificial-intelligence/index.html",
+      "/reporting-guidelines/stard-ai/index.html",
       "/reporting-guidelines/the-strocss-statement-strengthening-the-reporting-of-cohort-studies-in-surgery/index.html",
       "/reporting-guidelines/the-super-reporting-guideline-suggested-for-reporting-of-surgical-technique/index.html",
       "/reporting-guidelines/scribe-statement/index.html",
@@ -968,16 +978,6 @@
       "/about/people/jdebeyer.html",
       "/about/people/pdhiman.html",
       "/about/people/daltman.html"
-    ]
-  },
-  {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
     ]
   },
   {
