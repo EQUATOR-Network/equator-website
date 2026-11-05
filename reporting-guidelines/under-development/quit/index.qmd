@@ -1,0 +1,32 @@
+---
+title: "QUality standards for reporting In Tobacco-intervention studies (QUIT)"
+contact-name: "Anusha Divvi, Shivashankar Kengadaran"
+contact-email: "anushadivvi1991@gmail.com"
+date-registered: "5 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+- Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+
+QUIT (QUality standards for reporting In Tobacco-intervention studies) is a reporting guideline for primary studies evaluating interventions to help people stop using tobacco or to prevent its uptake — behavioural, pharmacological, digital, and combined interventions delivered in health-care (including dental), school, community, and workplace settings — covering smoked tobacco, smokeless tobacco, waterpipe, and e-cigarette use. It is intended for authors, peer reviewers, journal editors, and evidence synthesists in tobacco control, public health, dentistry, and behavioural science. Because these studies span randomized, cluster-randomized, quasi-experimental, cohort, and pre–post designs, QUIT is deliberately design-transversal. Population-level policy evaluation is outside its scope.
+
+No existing guideline fills this role. CONSORT 2025 and its CONSORT-SPI extension for social and psychological intervention trials are generic and cover randomized trials only; TIDieR and TIDieR-PHP standardize intervention description but name no tobacco-specific content; and TREND covers non-randomized evaluations without tobacco-specific items. The closest guideline, CONSORT-SPI-SMOKE (Swithenbank et al., Addiction), tailors CONSORT-SPI for smoking cessation trials. By its own scope it addresses cigarette-smoking cessation trials, was developed by a panel of 17 experts of whom 15 were European, and does not address non-randomized designs, smokeless tobacco, or prevention. Outcome standards such as the Russell Standard and the SRNT biochemical-verification recommendations specify how abstinence should be measured and verified, not what authors must disclose.
+
+There is evidence that this gap matters. CONSORT-SPI-SMOKE exists because generic guidance left tobacco-specific content unreported: it added items on whether participants intended to quit, the abstinence definition and cut-point, the type of biochemical verification (or the reason for none), handling of missing biochemical data, a minimum core dataset including dependence, and tobacco-industry funding. Its authors describe the work as exploratory, and invited experts from the United States, Saudi Arabia, and China declined. Meanwhile, a scoping review of 92 cessation RCTs in low- and middle-income countries (Kumar et al., 2021) found that trials clustered in a few countries (India 28%, China 18%), that cigarettes were the most common product studied (61%), and that the evidence was weak in quality, even though smokeless tobacco is common in these settings. Product-specific disclosure — which product and local form was used, which dependence and verification measures suit it, and how counselling was adapted to culture and language — has no agreed standard.
+
+QUIT is therefore conceived as a single, standalone, cross-design guideline that builds on CONSORT-SPI-SMOKE and the generic scaffolds rather than duplicating them. Its items will be drawn from a scoping review of the tobacco-intervention reporting literature and a structured audit of how product, abstinence, verification, and intervention content are reported in published studies, so that each recommendation addresses a documented, not presumed, deficiency.
+
+
+{{< include ../_template.qmd >}}
