@@ -1,0 +1,30 @@
+---
+title: "Standards for Transparent reporting of Oral Health-Related Quality of life studies (STORQ)"
+contact-name: "Shivashankar Kengadaran"
+contact-email: "drshivashankark@gmail.com; shiva.freee@gmail.com"
+date-registered: "19 June 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+- Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+STORQ (Standards for Transparent reporting of Oral Health-Related Quality of life studies) is a reporting guideline for primary studies in which oral health-related quality of life (OHRQoL) is measured and reported, whether as a primary or secondary outcome or as an exposure of interest. It is intended for the authors, peer reviewers, journal editors, and evidence synthesists who produce and appraise this literature across dentistry, oral public health, and allied disciplines. Because OHRQoL is studied in many ways, STORQ is deliberately design-transversal, applying to cross-sectional, cohort, case-control, and interventional studies and to both self-report (adults and adolescents) and caregiver or proxy report (young children).
+
+OHRQoL is among the most frequently reported patient-centred outcomes in dental research, yet no single guideline covers its reporting across the designs in which it is used. The design-based guidelines STROBE and CONSORT are silent on patient-reported outcome (PRO) content, and the PRO-specific extensions CONSORT-PRO (Calvert et al., 2013) and SPIRIT-PRO address PROs only within randomised trials and their protocols, leaving the predominantly observational OHRQoL literature without PRO-specific standards. Adjacent frameworks sit beside this gap rather than filling it: ISOQOL minimum standards (Reeve et al., 2013) concern how PRO measures are selected and judged, not how primary studies are reported, while COSMIN and PRISMA-COSMIN (Elsman et al., 2024) govern the conduct and synthesis of instrument-validation studies, not the studies that apply those instruments. A guideline for PROMs in clinical practice is in development, but addresses their operational use in care, not their reporting as a research outcome. OHRQoL studies therefore fall between the available guidelines.
+
+There is empirical evidence that this gap matters. OHRQoL is captured with a large, overlapping family of instruments (OHIP and its short forms, GOHAI, OIDP, CPQ, ECOHIS, COHIP) that are frequently shortened or culturally adapted without revalidation and scored inconsistently. Methodological reviews applying COSMIN criteria have found the evidence base for widely used OHRQoL instruments to be incomplete, with measurement properties and cross-cultural adaptation procedures often unreported or inadequately described (Gusmão et al., 2024). More fundamentally, what these instruments capture differs between measures, and the construct is operationalised and scored inconsistently across studies (Locker and Allen, 2007). In published reports, critical details are documented erratically or omitted: the instrument and version used and its validation in the study population, the scoring approach, the handling of floor effects and missing data, the use of a minimal important difference, and, in children, who provided the report and how closely child and proxy accounts agreed. This inconsistency undermines replication, complicates evidence synthesis, and makes findings harder to interpret.
+
+STORQ is therefore conceived as a single, cross-design guideline grounded in evidence rather than opinion. Its items will be drawn from a scoping review and structured content analysis of published OHRQoL studies, so that each recommendation addresses a documented, not presumed, reporting deficiency.
+
+{{< include ../_template.qmd >}}
