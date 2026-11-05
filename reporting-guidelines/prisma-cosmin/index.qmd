@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: 'Guideline for reporting systematic reviews of outcome measurement instruments (OMIs) : PRISMA-COSMIN for OMIs 2024'
 aliases:
-  - /reporting-guideline/guideline-for-reporting-systematic-reviews-of-outcome-measurement-instruments-omis-prisma-cosmin-for-omis-2024/
+  - /reporting-guidelines/guideline-for-reporting-systematic-reviews-of-outcome-measurement-instruments-omis-prisma-cosmin-for-omis-2024/
 acronym: PRISMA-COSMIN for OMIs
 provided-for: Reporting of systematic reviews of outcome measurement instruments (OMIs).
 rg-doi: ''
