@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: 'CONSORT Extension for Chinese Herbal Medicine Formulas 2017: Recommendations, Explanation, and Elaboration'
 aliases:
-  - /reporting-guidelines/consort-extension-for-herbal-harms-reporting/
+  - /reporting-guidelines/consort-chinese-herbal-medicine-formulas/
 acronym: CONSORT-CHM
 provided-for: Reporting clinical trials of Chinese Herbal Medicine formulas.
 rg-doi: ''
