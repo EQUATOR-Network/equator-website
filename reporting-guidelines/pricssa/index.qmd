@@ -1,16 +1,17 @@
 ---
 # REQUIRED FIELDS
-title: 'Improving the reporting quality of nonrandomized evaluations of behavioral
-  and public health interventions: the TREND statement'
-acronym: TREND
-provided-for: Reporting of intervention evaluation studies using nonrandomized designs
+title: Preferred Reporting Items for Complex Sample Survey Analysis (PRICSSA)
+aliases:
+  - /reporting-guidelines/preferred-reporting-items-for-complex-sample-survey-analysis-pricssa/
+acronym: PRICSSA
+provided-for: Reporting analyses using complex sample survey data.
 rg-doi: ''
-pmid-id: '[14998794](http://www.ncbi.nlm.nih.gov/pubmed/14998794)'
-pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/14998794
-relevant-urls: 'TREND website: <https://www.cdc.gov/hivpartners/php/trend-statement/index.html>'
-full-bibliographic-reference: 'Des Jarlais DC, Lyles C, Crepaz N, Trend Group. Improving
-  the reporting quality of nonrandomized evaluations of behavioral and public health
-  interventions: the TREND statement. Am J Public Health. 2004;94(3):361-366.'
+pmid-id: ''
+pmid-url: ''
+relevant-urls: '[Read the full-text](https://academic.oup.com/jssam/advance-article/doi/10.1093/jssam/smac040/7136601)
+  of the PRICSSA guideline.'
+full-bibliographic-reference: Seidenberg AB, Moser RP, West BT. Preferred Reporting
+  Items for Complex Sample Survey Analysis (PRICSSA). J Surv Stat Methodol. 2023;smac040.
 
 
 # OPTIONAL FIELDS
@@ -26,10 +27,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: |-
-  [TREND Statement](https://stacks.cdc.gov/view/cdc/149676)
-
-  [TREND checklist](https://stacks.cdc.gov/view/cdc/149677)
+downloads: ''
 
 
 # LIST FIELDS
@@ -37,16 +35,16 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-- Clinical trials
+# - Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-- Experimental studies
+# - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-# - Observational studies
-- Other
+- Observational studies
+# - Other
 # - Patent landscapes
-# - Qualitative research
+- Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
 # - Study protocols
@@ -56,7 +54,7 @@ clinical-specialty:
 # - Allergy
 # - Anaesthesia
 # - Audiovestibular medicine
-- Behavioural medicine
+# - Behavioural medicine
 # - Cardiovascular medicine
 # - Complementary and alternative medicine
 # - Dentistry
@@ -84,7 +82,7 @@ clinical-specialty:
 # - Primary care
 # - Psychiatry
 # - Psychology
-- Public health
+# - Public health
 # - Radiology
 # - Rehabilitation medicine
 # - Renal medicine
@@ -95,7 +93,7 @@ clinical-specialty:
 # - Toxicology
 # - Tropical medicine
 # - Urology
-# - No clinical specialty specified
+- No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements
@@ -103,7 +101,7 @@ report-section:
 # - Biospecimen/bioresource information
 # - Conference paper/abstract
 # - Conflict of interest
-# - Data
+- Data
 # - Ethical issues (consent etc.)
 # - Figures/Graphs
 # - Funding
@@ -117,45 +115,33 @@ report-section:
 # - Research recommendations
 # - Results
 # - Statistical analysis plan-whole report
-# - Statistical methods and analyses
+- Statistical methods and analyses
 # - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-- Whole report
+# - Whole report
 # - No report section specified
 keyword:
-- behavior
-- behavioral
-- behavioral intervention
-- behavioral medicine
-- behaviour
-- behavioural
-- behavioural intervention
-- behavioural medicine
 - checklist
-- evaluation
-- evaluations
-- experimental studies
-- experimental study
-- intervention
-- interventions
-- non-randomised
-- non-randomised evaluation
-- non-randomised evaluations
-- non-randomized
-- non-randomized evaluation
-- non-randomized evaluations
-- nonrandomised
-- nonrandomised evaluation
-- nonrandomised evaluations
-- nonrandomized
-- nonrandomized evaluation
-- nonrandomized evaluations
-- NRS
-- NRSs
-- public health
-- TREND
-- TREND statement
+- checklists
+- code
+- complex sample survey analysis
+- complex sample survey data
+- data
+- dataset
+- datasets
+- methodology
+- methods
+- observational
+- Preferred Reporting Items for Complex Sample Survey Analysis
+- PRICSSA
+- qualitative
+- sample
+- software
+- statistical
+- statistics
+- survey
+- surveys
 
 ---
 

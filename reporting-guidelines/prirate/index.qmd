@@ -1,54 +1,54 @@
 ---
 # REQUIRED FIELDS
-title: 'PRIASE 2021 guidelines for reporting animal studies in Endodontology: a consensus-based
-  development'
-acronym: PRIASE 2021
-provided-for: Reporting animal studies in Endodontology.
+title: 'PRIRATE 2020 guidelines for reporting randomized trials in Endodontics: a consensus-based development'
+aliases:
+  - /reporting-guidelines/prirate-2020-guidelines-for-reporting-randomized-trials-in-endodontics-a-consensus-based-development/
+acronym: PRIRATE
+provided-for: Reporting randomised clinical trials in the specialty of Endodontics.
 rg-doi: ''
-pmid-id: '[33450080]( https://pubmed.ncbi.nlm.nih.gov/33450080/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/33450080/
-relevant-urls: 'The full-text of the PRIASE 2021 guideline is freely available at:
-  <https://onlinelibrary.wiley.com/doi/10.1111/iej.13477>'
-full-bibliographic-reference: 'Nagendrababu V, Kishen A, Murray PE, Nekoofar MH, de
-  Figueiredo JAP, Priya E, Jayaraman J, Pulikkotil SJ, Camilleri J, Silva RM, Dummer
-  PMH. PRIASE 2021 guidelines for reporting animal studies in Endodontology: a consensus-based
-  development. Int Endod J. 2021.'
+pmid-id: '[32196696](https://www.ncbi.nlm.nih.gov/pubmed/32196696)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/32196696
+relevant-urls: ''
+full-bibliographic-reference: 'Nagendrababu V, Duncan HF, Bjørndal L, Kvist T, Priya
+  E, Jayaraman J, Pulikkotil SJ, Pigg M, Rechenberg DK, Vaeth M, Dummer PMH. PRIRATE
+  2020 guidelines for reporting randomized trials in Endodontics: a consensus-based
+  development. Int Endod J. 2020;53(6):764-773.'
 
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Nagendrababu V, Kishen A, Murray PE, Nekoofar
-  MH, de Figueiredo J, Priya E, Jayaraman J, Pulikkotil SJ, Jakovljevic A, Dummer
-  P. PRIASE 2021 guidelines for reporting animal studies in Endodontology: Explanation
-  and Elaboration. Int Endod J. 2021. PMID: [33492704](https://pubmed.ncbi.nlm.nih.gov/33492704/)'
+explanation-and-elaboration-papers: 'Nagendrababu V, Duncan HF, Bjørndal L, Kvist
+  T, Priya E, Jayaraman J, Pulikkotil SJ, Dummer PMH. PRIRATE 2020 guidelines for
+  reporting randomized trials in Endodontics: explanation and elaboration. Int Endod
+  J. 2020;53(6):774-803. PMID: [32266988](https://www.ncbi.nlm.nih.gov/pubmed/32266988)'
 guideline-history: ''
 relevant-more: ''
-website-url: <http://pride-endodonticguidelines.org/priase/>
+website-url: <http://pride-endodonticguidelines.org/prirate/>
 additional-languages: ''
 additional-information: |-
   The protocol for guideline development is available at:
 
-  Nagendrababu V, Kishen A, Murray PE, Nekoofar MH, de Figueiredo JAP, Priya E, Jayaraman J, Pulikkotil SJ, Dummer PMH. Preferred Reporting Items for Animal Studies in Endodontology: a development protocol. Int Endod J. 2019;52(9):1290-1296. PMID: [30985938](https://pubmed.ncbi.nlm.nih.gov/30985938/)
+  Nagendrababu V, Duncan HF, Bjørndal L, Kvist T, Priya E, Pulikkotil SJ, Jayaraman J, Dummer PMH. Preferred Reporting Items for RAndomized Trials in Endodontics (PRIRATE) guidelines: a development protocol. Int Endod J. 2019;52(7):974-978.
+
+  PMID: [30702139](https://www.ncbi.nlm.nih.gov/pubmed/30702139)
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: |-
-  [PRIASE 2021 Checklist (Word)](http://pride-endodonticguidelines.org/PRIASE2021checklist.docx)
-
-  [PRIASE 2021 Flowchart (Word)](http://pride-endodonticguidelines.org/FinalPRICEflowchart.docx)
+downloads: '[PRIRATE 2020 Checklist (Word)](PRIRATE-2020-checklist.docx)  [PRIRATE
+  2020 Flowchart (Word)](PRIRATE-2020-flowchart.docx)'
 
 
 # LIST FIELDS
 study-design:
-- Animal pre-clinical research
+# - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
+- Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 # - Observational studies
@@ -132,28 +132,45 @@ report-section:
 - Whole report
 # - No report section specified
 keyword:
-- animal experiment
-- animal experimental
-- animal experimentation
-- animal pre clinical research
-- animal preclinical research
-- animal research
-- animal studies
-- animal study
-- animal testing
 - checklist
 - checklists
+- clinical trial
+- clinical trials
+- dental
+- Dentist
 - Dentistry
+- endodontic
 - Endodontics
 - endodontology
-- laboratory animal
-- laboratory animals
-- pre clinical animal research
-- preclinical animal research
-- Preferred Reporting Items for Animal Studies in Endodontology
-- PRIASE
-- PRIASE 2021
-- PRIASE 2021 guidelines
+- figure
+- figures
+- flow chart
+- illustration
+- illustrations
+- image
+- images
+- Preferred Reporting Items for RAndomized Trials in Endodontics
+- PRIRATE 2020
+- PRIRATE 2020 guidelines
+- PRIRATE checklist
+- PRIRATE flow chart
+- PRIRATE guidelines
+- randomised clinical trial
+- randomised clinical trials
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized clinical trial
+- randomized clinical trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- trial
+- trials
 
 ---
 

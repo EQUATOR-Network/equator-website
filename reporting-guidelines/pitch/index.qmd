@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'A consensus guideline on preferred items for reporting case series in homeopathy:
-  The PITCH statement'
+title: 'A consensus guideline on preferred items for reporting case series in homeopathy: The PITCH statement'
+aliases:
+  - /reporting-guidelines/a-consensus-guideline-on-preferred-items-for-reporting-case-series-in-homeopathy-the-pitch-statement/
 acronym: PITCH
 provided-for: Reporting of case series in homeopathy.
 rg-doi: ''

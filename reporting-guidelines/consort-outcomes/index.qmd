@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Guidelines for Reporting Outcomes in Trial Reports: The CONSORT-Outcomes 2022
-  Extension'
+title: 'Guidelines for Reporting Outcomes in Trial Reports: The CONSORT-Outcomes 2022 Extension'
+aliases:
+  - /reporting-guidelines/guidelines-for-reporting-outcomes-in-trial-reports-the-consort-outcomes-2022-extension/
 acronym: CONSORT-Outcomes 2022
 provided-for: Reporting outcomes in clinical trials.
 rg-doi: ''

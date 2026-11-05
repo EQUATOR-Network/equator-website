@@ -1,8 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Developing the TIDieR-Rehab checklist: a modified Delphi process to extend
-  the Template for Intervention Description and Replication (TIDieR) for rehabilitation
-  intervention reporting'
+title: 'Developing the TIDieR-Rehab checklist: a modified Delphi process to extend the Template for Intervention Description and Replication (TIDieR) for rehabilitation intervention reporting'
+aliases:
+  - /reporting-guidelines/developing-the-tidier-rehab-checklist-a-modified-delphi-process-to-extend-the-template-for-intervention-description-and-replication-tidier-for-rehabilitation-intervention-reporting/
 acronym: TIDieR-Rehab
 provided-for: Reporting of rehabilitation interventions.
 rg-doi: ''

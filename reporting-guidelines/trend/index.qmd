@@ -1,26 +1,25 @@
 ---
 # REQUIRED FIELDS
-title: 'PRIDASE 2024 guidelines for reporting diagnostic accuracy studies in endodontics:
-  A consensus-based development'
-acronym: PRIDASE
-provided-for: Reporting diagnostic accuracy studies in endodontics.
+title: 'Improving the reporting quality of nonrandomized evaluations of behavioral and public health interventions: the TREND statement'
+aliases:
+  - /reporting-guidelines/improving-the-reporting-quality-of-nonrandomized-evaluations-of-behavioral-and-public-health-interventions-the-trend-statement/
+acronym: TREND
+provided-for: Reporting of intervention evaluation studies using nonrandomized designs
 rg-doi: ''
-pmid-id: '[38669132](https://pubmed.ncbi.nlm.nih.gov/38669132/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/38669132/
-relevant-urls: ''
-full-bibliographic-reference: |-
-  Nagendrababu V, Pigg M, Duncan HF, Abbott PV, Fouad AF, Kruse C, Patel S, Rechenberg DK, Setzer FC, Rossi-Fedele G, Dummer PMH. PRIDASE 2024 guidelines for reporting diagnostic accuracy studies in endodontics: A consensus-based development. Int Endod J. 2024;57(8):996-1005. PMID: [38669132](https://pubmed.ncbi.nlm.nih.gov/38669132/)
+pmid-id: '[14998794](http://www.ncbi.nlm.nih.gov/pubmed/14998794)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/14998794
+relevant-urls: 'TREND website: <https://www.cdc.gov/hivpartners/php/trend-statement/index.html>'
+full-bibliographic-reference: 'Des Jarlais DC, Lyles C, Crepaz N, Trend Group. Improving
+  the reporting quality of nonrandomized evaluations of behavioral and public health
+  interventions: the TREND statement. Am J Public Health. 2004;94(3):361-366.'
 
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Pigg M, Nagendrababu V, Duncan HF, Abbott PV,
-  Fouad AF, Kruse C, Patel S, Rechenberg DK, Suresh N, Shetty YN, Dummer PMH. PRIDASE
-  2024 guidelines for reporting diagnostic accuracy studies in endodontics: Explanation
-  and elaboration. Int Endod J. 2024. PMID: [39298282](https://pubmed.ncbi.nlm.nih.gov/39298282/)'
+explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: <https://pride-endodonticguidelines.org/pridase/>
+website-url: ''
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''
@@ -28,7 +27,10 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: ''
+downloads: |-
+  [TREND Statement](https://stacks.cdc.gov/view/cdc/149676)
+
+  [TREND checklist](https://stacks.cdc.gov/view/cdc/149677)
 
 
 # LIST FIELDS
@@ -36,14 +38,14 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
-- Diagnostic and prognostic studies
+- Clinical trials
+# - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 # - Observational studies
-# - Other
+- Other
 # - Patent landscapes
 # - Qualitative research
 # - Quality improvement studies
@@ -55,10 +57,10 @@ clinical-specialty:
 # - Allergy
 # - Anaesthesia
 # - Audiovestibular medicine
-# - Behavioural medicine
+- Behavioural medicine
 # - Cardiovascular medicine
 # - Complementary and alternative medicine
-- Dentistry
+# - Dentistry
 # - Dermatology
 # - Emergency medicine
 # - Gastroenterology
@@ -83,7 +85,7 @@ clinical-specialty:
 # - Primary care
 # - Psychiatry
 # - Psychology
-# - Public health
+- Public health
 # - Radiology
 # - Rehabilitation medicine
 # - Renal medicine
@@ -123,24 +125,38 @@ report-section:
 - Whole report
 # - No report section specified
 keyword:
+- behavior
+- behavioral
+- behavioral intervention
+- behavioral medicine
+- behaviour
+- behavioural
+- behavioural intervention
+- behavioural medicine
 - checklist
-- checklists
-- Dentist
-- Dentistry
-- diagnosis
-- diagnostic
-- diagnostic accuracy studies
-- diagnostic accuracy study
-- endodontic
-- Endodontics
-- endodontology
-- Preferred Reporting Items for Diagnostic Accuracy Studies in Endodontics
-- PRIDASE
-- PRIDASE 2024
-- PRIDASE 2024 checklist
-- PRIDASE checklist
-- prognosis
-- prognostic
+- evaluation
+- evaluations
+- experimental studies
+- experimental study
+- intervention
+- interventions
+- non-randomised
+- non-randomised evaluation
+- non-randomised evaluations
+- non-randomized
+- non-randomized evaluation
+- non-randomized evaluations
+- nonrandomised
+- nonrandomised evaluation
+- nonrandomised evaluations
+- nonrandomized
+- nonrandomized evaluation
+- nonrandomized evaluations
+- NRS
+- NRSs
+- public health
+- TREND
+- TREND statement
 
 ---
 

@@ -1,15 +1,24 @@
 ---
 # REQUIRED FIELDS
-title: Preferred Reporting Items for Complex Sample Survey Analysis (PRICSSA)
-acronym: PRICSSA
-provided-for: Reporting analyses using complex sample survey data.
+title: 'ACURATE : A guide for reporting sham controls in trials using acupuncture'
+aliases:
+  - /reporting-guidelines/acurate-a-guide-for-reporting-sham-controls-in-trials-using-acupuncture/
+acronym: ACURATE
+provided-for: Reporting sham acupuncture in clinical trials.
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
-relevant-urls: '[Read the full-text](https://academic.oup.com/jssam/advance-article/doi/10.1093/jssam/smac040/7136601)
-  of the PRICSSA guideline.'
-full-bibliographic-reference: Seidenberg AB, Moser RP, West BT. Preferred Reporting
-  Items for Complex Sample Survey Analysis (PRICSSA). J Surv Stat Methodol. 2023;smac040.
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Lee YS, Kim SY, Lee H, Chae Y, Lee MS. ACURATE: A guide for reporting sham controls in trials using acupuncture.
+
+  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.
+
+  J Evid Based Med. 2023;16(1):82-90. PMID: [36959765](https://pubmed.ncbi.nlm.nih.gov/36959765/)
+
+  Integr Med Res. 2023;12(2):100955. PMID: [37250752](https://pubmed.ncbi.nlm.nih.gov/37250752/)
+
+  J Acupunct Meridian Stud. 2023;16(3):119-126. PMID: [37381034](https://pubmed.ncbi.nlm.nih.gov/37381034/)
 
 
 # OPTIONAL FIELDS
@@ -33,16 +42,16 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
+- Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-- Observational studies
+# - Observational studies
 # - Other
 # - Patent landscapes
-- Qualitative research
+# - Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
 # - Study protocols
@@ -54,7 +63,7 @@ clinical-specialty:
 # - Audiovestibular medicine
 # - Behavioural medicine
 # - Cardiovascular medicine
-# - Complementary and alternative medicine
+- Complementary and alternative medicine
 # - Dentistry
 # - Dermatology
 # - Emergency medicine
@@ -91,7 +100,7 @@ clinical-specialty:
 # - Toxicology
 # - Tropical medicine
 # - Urology
-- No clinical specialty specified
+# - No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements
@@ -99,13 +108,13 @@ report-section:
 # - Biospecimen/bioresource information
 # - Conference paper/abstract
 # - Conflict of interest
-- Data
+# - Data
 # - Ethical issues (consent etc.)
 # - Figures/Graphs
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-# - Intervention (exposure)
+- Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
@@ -113,33 +122,46 @@ report-section:
 # - Research recommendations
 # - Results
 # - Statistical analysis plan-whole report
-- Statistical methods and analyses
+# - Statistical methods and analyses
 # - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
 # - Whole report
 # - No report section specified
 keyword:
+- acupuncture
+- Acupuncture Controls gUideline for Reporting humAn Trials and Experiments
+- ACURATE
+- ACURATE checklist
 - checklist
 - checklists
-- code
-- complex sample survey analysis
-- complex sample survey data
-- data
-- dataset
-- datasets
-- methodology
-- methods
-- observational
-- Preferred Reporting Items for Complex Sample Survey Analysis
-- PRICSSA
-- qualitative
-- sample
-- software
-- statistical
-- statistics
-- survey
-- surveys
+- clinical trial
+- clinical trials
+- device
+- intervention
+- interventions
+- needle
+- needles
+- needling
+- placebo
+- placebo acupuncture
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- sham
+- sham acupuncture
+- sham control
+- sham controls
+- sham placebo
+- trial
+- trials
 
 ---
 

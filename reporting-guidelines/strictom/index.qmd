@@ -1,40 +1,33 @@
 ---
 # REQUIRED FIELDS
-title: 'PRICE 2020 guidelines for reporting case reports in Endodontics: a consensus-based
-  development'
-acronym: PRICE 2020
-provided-for: Reporting case reports in the specialty of Endodontology.
+title: Extending the CONSORT Statement to moxibustion
+aliases:
+  - /reporting-guidelines/extending-the-consort-statement-to-moxibustion/
+acronym: STRICTOM
+provided-for: Reporting of clinical trials of moxibustion.
 rg-doi: ''
-pmid-id: '[32090342](https://www.ncbi.nlm.nih.gov/pubmed/32090342)'
-pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/32090342
+pmid-id: '[23464647](https://pubmed.ncbi.nlm.nih.gov/23464647/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/23464647/
 relevant-urls: ''
-full-bibliographic-reference: 'Nagendrababu V, Chong BS, McCabe P, Shah PK, Priya
-  E, Jayaraman J, Pulikkotil SJ, Setzer FC, Sunde PT, Dummer PMH. PRICE 2020 guidelines
-  for reporting case reports in Endodontics: a consensus-based development. Int Endod
-  J. 2020;53(5):619-626.'
+full-bibliographic-reference: Cheng CW, Fu SF, Zhou QH, Wu TX, Shang HC, Tang XD,
+  Liu ZS, Liu J, Lin ZX, Lao L, Lü AP, Zhang BL, Liu BY, Bian ZX. Extending the CONSORT
+  Statement to moxibustion. J Integr Med. 2013;11(1):54-63.
 
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Nagendrababu V, Chong BS, McCabe P, Shah PK,
-  Priya E, Jayaraman J, Pulikkotil SJ, Dummer PMH. PRICE 2020 guidelines for reporting
-  case reports in Endodontics: explanation and elaboration. Int Endod J. 2020. PMID:
-  [32221975](https://www.ncbi.nlm.nih.gov/pubmed/32221975)'
+explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: <http://pride-endodonticguidelines.org/price/>
+website-url: ''
 additional-languages: ''
-additional-information: |-
-  The protocol for guideline development is available at:
-
-  Nagendrababu V, Chong BS, McCabe P, Shah PK, Priya E, Jayaraman J, Pulikkotil SJ, Dummer PMH. Guidelines for reporting the quality of clinical case reports in Endodontics: a development protocol. Int Endod J. 2019 Jun;52(6):775-778. PMID: [30586165](https://www.ncbi.nlm.nih.gov/pubmed/30586165)
+additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: '[PRICE 2020 Checklist (Word)](PRICE-2020-Checklist.docx) [PRICE 2020 Flowchart
-  (Word)](PRICE-2020-Flowchart.docx)'
+downloads: ''
 
 
 # LIST FIELDS
@@ -42,13 +35,13 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
+- Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-- Observational studies
+# - Observational studies
 # - Other
 # - Patent landscapes
 # - Qualitative research
@@ -63,8 +56,8 @@ clinical-specialty:
 # - Audiovestibular medicine
 # - Behavioural medicine
 # - Cardiovascular medicine
-# - Complementary and alternative medicine
-- Dentistry
+- Complementary and alternative medicine
+# - Dentistry
 # - Dermatology
 # - Emergency medicine
 # - Gastroenterology
@@ -114,7 +107,7 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-# - Intervention (exposure)
+- Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
@@ -126,32 +119,31 @@ report-section:
 # - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-- Whole report
+# - Whole report
 # - No report section specified
 keyword:
-- case report
-- case reports
-- checklist
-- checklists
-- dental
-- Dentist
-- Dentistry
-- endodontic
-- Endodontics
-- endodontology
-- figure
-- figures
-- flow chart
-- illustration
-- illustrations
-- image
-- images
-- Preferred Reporting Items for Case reports in Endodontics (PRICE) 2020 guidelines
-- PRICE 2020
-- PRICE 2020 guidelines
-- PRICE checklist
-- PRICE flow chart
-- PRICE guidelines
+- Chinese medicine
+- clinical trial
+- clinical trials
+- CONSORT
+- moxibustion
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- STandards for Reporting Interventions in Clinical Trials Of Moxibustion
+- STRICTOM
+- STRICTOM checklist
+- TCM
+- traditional Chinese medicine
+- trial
+- trials
 
 ---
 

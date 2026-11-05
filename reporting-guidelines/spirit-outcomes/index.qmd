@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Guidelines for Reporting Outcomes in Trial Protocols: The SPIRIT-Outcomes
-  2022 Extension'
+title: 'Guidelines for Reporting Outcomes in Trial Protocols: The SPIRIT-Outcomes 2022 Extension'
+aliases:
+  - /reporting-guidelines/guidelines-for-reporting-outcomes-in-trial-protocols-the-spirit-outcomes-2022-extension/
 acronym: SPIRIT-Outcomes 2022
 provided-for: Reporting outcomes in clinical trial protocols.
 rg-doi: ''
