@@ -1,18 +1,15 @@
 ---
 # REQUIRED FIELDS
-title: 'CONSORT Extension for Chinese Herbal Medicine Formulas 2017: Recommendations,
-  Explanation, and Elaboration'
+title: 'CONSORT Extension for Chinese Herbal Medicine Formulas 2017: Recommendations, Explanation, and Elaboration'
+aliases:
+  - /reporting-guidelines/consort-extension-for-herbal-harms-reporting/
 acronym: CONSORT-CHM
 provided-for: Reporting clinical trials of Chinese Herbal Medicine formulas.
 rg-doi: ''
 pmid-id: '[28654980](https://www.ncbi.nlm.nih.gov/pubmed/28654980)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/28654980
-relevant-urls: '[Read the full-text](http://annals.org/aim/article/2633843/consort-extension-chinese-herbal-medicine-formulas-2017-recommendations-explanation-elaboration)
-  of this reporting guideline.'
-full-bibliographic-reference: 'Cheng C-W, Wu T-X, Shang H-C, Li Y-P, Altman DG, Moher
-  D, Bian Z-X; for the CONSORT-CHM Formulas 2017 Group. CONSORT Extension for Chinese
-  Herbal Medicine Formulas 2017: Recommendations, Explanation, and Elaboration. 2017.
-  Ann Intern Med.'
+relevant-urls: '[Read the full-text](http://annals.org/aim/article/2633843/consort-extension-chinese-herbal-medicine-formulas-2017-recommendations-explanation-elaboration) of this reporting guideline.'
+full-bibliographic-reference: 'Cheng C-W, Wu T-X, Shang H-C, Li Y-P, Altman DG, Moher D, Bian Z-X; for the CONSORT-CHM Formulas 2017 Group. CONSORT Extension for Chinese Herbal Medicine Formulas 2017: Recommendations, Explanation, and Elaboration. Ann Intern Med 2017; 167: 112-121. PMID: [28654980](https://www.ncbi.nlm.nih.gov/pubmed/28654980) [full text](https://doi.org/10.7326/m16-2977)'
 
 
 # OPTIONAL FIELDS

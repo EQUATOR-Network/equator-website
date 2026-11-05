@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'CONSORT extension for reporting N-of- 1 trials for traditional Chinese medicine
-  (CENT for TCM) : Recommendations, explanation and elaboration'
+title: 'CONSORT extension for reporting N-of- 1 trials for traditional Chinese medicine (CENT for TCM) : Recommendations, explanation and elaboration'
+aliases:
+  - /reporting-guidelines/consort-extension-for-reporting-n-of-1-trials-for-traditional-chinese-medicine/
 acronym: CENT for TCM
 provided-for: Reporting of N-of-1 trials using traditional Chinese medicine.
 rg-doi: ''

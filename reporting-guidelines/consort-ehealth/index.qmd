@@ -1,17 +1,17 @@
 ---
 # REQUIRED FIELDS
-title: COSMIN reporting guideline for studies on measurement properties of patient-reported
-  outcome measures
-acronym: COSMIN
-provided-for: Reporting of primary studies of the measurement properties of patient-reported
-  outcome measures (PROMs).
+title: 'CONSORT-EHEALTH : improving and standardizing evaluation reports of Web-based and mobile health interventions'
+aliases:
+  - /reporting-guidelines/consort-ehealth-improving-and-standardizing-evaluation-reports-of-web-based-and-mobile-health-interventions/
+acronym: CONSORT-EHEALTH
+provided-for: Evaluation reports of Web-based and mobile health interventions
 rg-doi: ''
-pmid-id: '[33818733](https://pubmed.ncbi.nlm.nih.gov/33818733/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/33818733/
+pmid-id: '[22209829](http://www.ncbi.nlm.nih.gov/pubmed/22209829)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/22209829
 relevant-urls: ''
-full-bibliographic-reference: Gagnier JJ, Lai J, Mokkink LB, Terwee CB. COSMIN reporting
-  guideline for studies on measurement properties of patient-reported outcome measures.
-  Qual Life Res. 2021.
+full-bibliographic-reference: 'Eysenbach G; CONSORT-EHEALTH Group. CONSORT-EHEALTH:
+  improving and standardizing evaluation reports of Web-based and mobile health interventions.
+  J Med Internet Res. 2011;13(4):e126.'
 
 
 # OPTIONAL FIELDS
@@ -26,7 +26,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: false
+sticky: true
 downloads: ''
 
 
@@ -35,18 +35,18 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
+- Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-- Observational studies
+# - Observational studies
 # - Other
 # - Patent landscapes
-- Qualitative research
+# - Qualitative research
 # - Quality improvement studies
-- Reliability and agreement studies
+# - Reliability and agreement studies
 # - Study protocols
 # - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
 # - No study design specified
@@ -107,7 +107,7 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-# - Intervention (exposure)
+- Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
@@ -119,20 +119,56 @@ report-section:
 # - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-- Whole report
+# - Whole report
 # - No report section specified
 keyword:
-- COSMIN
-- measurement properties
-- measurement properties of PROMs
-- measurement property
-- outcome measure
-- outcome measures
-- patient-reported
-- patient-reported outcome measure
-- patient-reported outcome measures
-- PROM
-- PROMs
+- clinical studies
+- clinical study
+- clinical trial
+- clinical trials
+- CONSORT
+- CONSORT E-Health
+- CONSORT EHealth
+- CONSORT extension
+- e-health
+- eHealth
+- electronic tools
+- evaluation report
+- evaluation reports
+- experimental studies
+- experimental study
+- internet intervention
+- internet interventions
+- internet-based
+- intervention
+- interventions
+- m-health
+- mhealth
+- mhealth intervention
+- mhealth interventions
+- mobile
+- mobile intervention
+- mobile interventions
+- mobile platform
+- mobile platforms
+- non-RCT
+- randomised
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- trial
+- trials
+- web intervention
+- web interventions
+- web-based
 
 ---
 

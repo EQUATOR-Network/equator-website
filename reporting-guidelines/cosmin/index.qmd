@@ -1,28 +1,18 @@
 ---
 # REQUIRED FIELDS
-title: 'A checklist for assessing the methodological quality of concurrent t ES-fMRI
-  studies (ContES checklist): a consensus study and statement'
-acronym: ContES checklist
-provided-for: Reporting concurrent transcranial electrical stimulation-functional
-  MRI (tES-fMRI) studies.
+title: COSMIN reporting guideline for studies on measurement properties of patient-reported outcome measures
+aliases:
+  - /reporting-guidelines/cosmin-reporting-guideline-for-studies-on-measurement-properties-of-patient-reported-outcome-measures/
+acronym: COSMIN
+provided-for: Reporting of primary studies of the measurement properties of patient-reported
+  outcome measures (PROMs).
 rg-doi: ''
-pmid-id: '[35121855](https://pubmed.ncbi.nlm.nih.gov/35121855/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/35121855/
-relevant-urls: '[Read the full-text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7612687/)
-  of the ContES reporting guideline.'
-full-bibliographic-reference: 'Ekhtiari H, Ghobadi-Azbari P, Thielscher A, Antal A,
-  Li LM, Shereen AD, Cabral-Calderin Y, Keeser D, Bergmann TO, Jamil A, Violante IR,
-  Almeida J, Meinzer M, Siebner HR, Woods AJ, Stagg CJ, Abend R, Antonenko D, Auer
-  T, Bächinger M, Baeken C, Barron HC, Chase HW, Crinion J, Datta A, Davis MH, Ebrahimi
-  M, Esmaeilpour Z, Falcone B, Fiori V, Ghodratitoostani I, Gilam G, Grabner RH, Greenspan
-  JD, Groen G, Hartwigsen G, Hauser TU, Herrmann CS, Juan CH, Krekelberg B, Lefebvre
-  S, Liew SL, Madsen KH, Mahdavifar-Khayati R, Malmir N, Marangolo P, Martin AK, Meeker
-  TJ, Ardabili HM, Moisa M, Momi D, Mulyana B, Opitz A, Orlov N, Ragert P, Ruff CC,
-  Ruffini G, Ruttorf M, Sangchooli A, Schellhorn K, Schlaug G, Sehm B, Soleimani G,
-  Tavakoli H, Thompson B, Timmann D, Tsuchiyagaito A, Ulrich M, Vosskuhl J, Weinrich
-  CA, Zare-Bidoky M, Zhang X, Zoefel B, Nitsche MA, Bikson M. A checklist for assessing
-  the methodological quality of concurrent tES-fMRI studies (ContES checklist): a
-  consensus study and statement. Nat Protoc. 2022;17(3):596-617.'
+pmid-id: '[33818733](https://pubmed.ncbi.nlm.nih.gov/33818733/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/33818733/
+relevant-urls: ''
+full-bibliographic-reference: Gagnier JJ, Lai J, Mokkink LB, Terwee CB. COSMIN reporting
+  guideline for studies on measurement properties of patient-reported outcome measures.
+  Qual Life Res. 2021.
 
 
 # OPTIONAL FIELDS
@@ -49,15 +39,15 @@ study-design:
 # - Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-- Experimental studies
+# - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-# - Observational studies
+- Observational studies
 # - Other
 # - Patent landscapes
-# - Qualitative research
+- Qualitative research
 # - Quality improvement studies
-# - Reliability and agreement studies
+- Reliability and agreement studies
 # - Study protocols
 # - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
 # - No study design specified
@@ -78,7 +68,7 @@ clinical-specialty:
 # - Hepatology
 # - Infectious diseases
 # - Medical education
-- Neurology
+# - Neurology
 # - Nuclear medicine
 # - Nutrition and dietetics
 # - Obstetrics and gynaecology
@@ -94,7 +84,7 @@ clinical-specialty:
 # - Psychiatry
 # - Psychology
 # - Public health
-- Radiology
+# - Radiology
 # - Rehabilitation medicine
 # - Renal medicine
 # - Respiratory medicine
@@ -104,7 +94,7 @@ clinical-specialty:
 # - Toxicology
 # - Tropical medicine
 # - Urology
-# - No clinical specialty specified
+- No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements
@@ -118,10 +108,10 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-- Intervention (exposure)
+# - Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
-- Procedure/Method
+# - Procedure/Method
 # - Protocol-whole report
 # - Research recommendations
 # - Results
@@ -130,32 +120,20 @@ report-section:
 # - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-# - Whole report
+- Whole report
 # - No report section specified
 keyword:
-- brain
-- checklist
-- checklists
-- concurrent tES fMRI
-- ContES
-- ContES checklist
-- electrical stimulation
-- experiment
-- experimental
-- fMRI
-- functional magnetic resonance imaging
-- functional MRI
-- magnetic resonance imaging
-- MRI
-- neural
-- neuroimaging
-- neurological
-- neurology
-- neuromodulation
-- neuronal
-- tES
-- tES-fMRI
-- transcranial electrical stimulation
+- COSMIN
+- measurement properties
+- measurement properties of PROMs
+- measurement property
+- outcome measure
+- outcome measures
+- patient-reported
+- patient-reported outcome measure
+- patient-reported outcome measures
+- PROM
+- PROMs
 
 ---
 

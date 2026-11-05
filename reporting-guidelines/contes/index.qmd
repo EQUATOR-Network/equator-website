@@ -1,15 +1,29 @@
 ---
 # REQUIRED FIELDS
-title: 'Core Outcome Set -STAndardised Protocol Items: the COS-STAP Statement'
-acronym: COS-STAP Statement
-provided-for: Reporting core outcome set (COS) development studies.
+title: 'A checklist for assessing the methodological quality of concurrent t ES-fMRI studies (ContES checklist): a consensus study and statement'
+aliases:
+  - /reporting-guidelines/a-checklist-for-assessing-the-methodological-quality-of-concurrent-tes-fmri-studies-contes-checklist-a-consensus-study-and-statement/
+acronym: ContES checklist
+provided-for: Reporting concurrent transcranial electrical stimulation-functional
+  MRI (tES-fMRI) studies.
 rg-doi: ''
-pmid-id: '[30744706](https://www.ncbi.nlm.nih.gov/pubmed/30744706)'
-pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/30744706
-relevant-urls: The full-text of this reporting guideline is freely available at:<https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-019-3230-x>
-full-bibliographic-reference: 'Kirkham JJ, Gorst S, Altman DG, Blazeby JM, Clarke
-  M, Tunis S, Williamson PR; COS-STAP Group. Core Outcome Set-STAndardised Protocol
-  Items: the COS-STAP Statement. Trials. 2019 Feb 11;20(1):116.'
+pmid-id: '[35121855](https://pubmed.ncbi.nlm.nih.gov/35121855/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/35121855/
+relevant-urls: '[Read the full-text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7612687/)
+  of the ContES reporting guideline.'
+full-bibliographic-reference: 'Ekhtiari H, Ghobadi-Azbari P, Thielscher A, Antal A,
+  Li LM, Shereen AD, Cabral-Calderin Y, Keeser D, Bergmann TO, Jamil A, Violante IR,
+  Almeida J, Meinzer M, Siebner HR, Woods AJ, Stagg CJ, Abend R, Antonenko D, Auer
+  T, Bächinger M, Baeken C, Barron HC, Chase HW, Crinion J, Datta A, Davis MH, Ebrahimi
+  M, Esmaeilpour Z, Falcone B, Fiori V, Ghodratitoostani I, Gilam G, Grabner RH, Greenspan
+  JD, Groen G, Hartwigsen G, Hauser TU, Herrmann CS, Juan CH, Krekelberg B, Lefebvre
+  S, Liew SL, Madsen KH, Mahdavifar-Khayati R, Malmir N, Marangolo P, Martin AK, Meeker
+  TJ, Ardabili HM, Moisa M, Momi D, Mulyana B, Opitz A, Orlov N, Ragert P, Ruff CC,
+  Ruffini G, Ruttorf M, Sangchooli A, Schellhorn K, Schlaug G, Sehm B, Soleimani G,
+  Tavakoli H, Thompson B, Timmann D, Tsuchiyagaito A, Ulrich M, Vosskuhl J, Weinrich
+  CA, Zare-Bidoky M, Zhang X, Zoefel B, Nitsche MA, Bikson M. A checklist for assessing
+  the methodological quality of concurrent tES-fMRI studies (ContES checklist): a
+  consensus study and statement. Nat Protoc. 2022;17(3):596-617.'
 
 
 # OPTIONAL FIELDS
@@ -36,7 +50,7 @@ study-design:
 # - Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 # - Observational studies
@@ -45,7 +59,7 @@ study-design:
 # - Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
-- Study protocols
+# - Study protocols
 # - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
 # - No study design specified
 clinical-specialty:
@@ -65,7 +79,7 @@ clinical-specialty:
 # - Hepatology
 # - Infectious diseases
 # - Medical education
-# - Neurology
+- Neurology
 # - Nuclear medicine
 # - Nutrition and dietetics
 # - Obstetrics and gynaecology
@@ -81,7 +95,7 @@ clinical-specialty:
 # - Psychiatry
 # - Psychology
 # - Public health
-# - Radiology
+- Radiology
 # - Rehabilitation medicine
 # - Renal medicine
 # - Respiratory medicine
@@ -91,7 +105,7 @@ clinical-specialty:
 # - Toxicology
 # - Tropical medicine
 # - Urology
-- No clinical specialty specified
+# - No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements
@@ -105,11 +119,11 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-# - Intervention (exposure)
+- Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
-# - Procedure/Method
-- Protocol-whole report
+- Procedure/Method
+# - Protocol-whole report
 # - Research recommendations
 # - Results
 # - Statistical analysis plan-whole report
@@ -120,22 +134,29 @@ report-section:
 # - Whole report
 # - No report section specified
 keyword:
+- brain
 - checklist
 - checklists
-- core outcome
-- core outcome set
-- core outcome set protocol
-- Core Outcome Set-STAndardised Protocol Items
-- Core Outcome Set-STAndardised Protocol Items Statement
-- core outcome sets
-- core outcome sets protocol
-- core outcomes
-- COS
-- COS protocol
-- COS-STAP
-- COS-STAP Statement
-- protocol
-- protocols
+- concurrent tES fMRI
+- ContES
+- ContES checklist
+- electrical stimulation
+- experiment
+- experimental
+- fMRI
+- functional magnetic resonance imaging
+- functional MRI
+- magnetic resonance imaging
+- MRI
+- neural
+- neuroimaging
+- neurological
+- neurology
+- neuromodulation
+- neuronal
+- tES
+- tES-fMRI
+- transcranial electrical stimulation
 
 ---
 

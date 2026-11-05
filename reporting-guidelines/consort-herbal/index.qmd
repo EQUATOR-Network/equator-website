@@ -1,7 +1,6 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting randomized, controlled trials of herbal interventions: an elaborated
-  CONSORT Statement'
+title: 'Reporting randomized, controlled trials of herbal interventions: an elaborated CONSORT Statement'
 acronym: CONSORT Herbal
 provided-for: Controlled trials of herbal interventions
 rg-doi: ''

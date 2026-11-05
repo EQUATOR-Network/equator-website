@@ -1,16 +1,17 @@
 ---
 # REQUIRED FIELDS
-title: 'CONSORT-EHEALTH : improving and standardizing evaluation reports of Web-based
-  and mobile health interventions'
-acronym: CONSORT-EHEALTH
-provided-for: Evaluation reports of Web-based and mobile health interventions
+title: 'Core Outcome Set -STAndardised Protocol Items: the COS-STAP Statement'
+aliases:
+  - /reporting-guidelines/core-outcome-set-standardised-protocol-items-the-cos-stap-statement/
+acronym: COS-STAP Statement
+provided-for: Reporting core outcome set (COS) development studies.
 rg-doi: ''
-pmid-id: '[22209829](http://www.ncbi.nlm.nih.gov/pubmed/22209829)'
-pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/22209829
-relevant-urls: ''
-full-bibliographic-reference: 'Eysenbach G; CONSORT-EHEALTH Group. CONSORT-EHEALTH:
-  improving and standardizing evaluation reports of Web-based and mobile health interventions.
-  J Med Internet Res. 2011;13(4):e126.'
+pmid-id: '[30744706](https://www.ncbi.nlm.nih.gov/pubmed/30744706)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/30744706
+relevant-urls: The full-text of this reporting guideline is freely available at:<https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-019-3230-x>
+full-bibliographic-reference: 'Kirkham JJ, Gorst S, Altman DG, Blazeby JM, Clarke
+  M, Tunis S, Williamson PR; COS-STAP Group. Core Outcome Set-STAndardised Protocol
+  Items: the COS-STAP Statement. Trials. 2019 Feb 11;20(1):116.'
 
 
 # OPTIONAL FIELDS
@@ -25,7 +26,7 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
-sticky: true
+sticky: false
 downloads: ''
 
 
@@ -34,10 +35,10 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-- Clinical trials
+# - Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-- Experimental studies
+# - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 # - Observational studies
@@ -46,7 +47,7 @@ study-design:
 # - Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
-# - Study protocols
+- Study protocols
 # - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
 # - No study design specified
 clinical-specialty:
@@ -106,11 +107,11 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-- Intervention (exposure)
+# - Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
-# - Protocol-whole report
+- Protocol-whole report
 # - Research recommendations
 # - Results
 # - Statistical analysis plan-whole report
@@ -121,53 +122,22 @@ report-section:
 # - Whole report
 # - No report section specified
 keyword:
-- clinical studies
-- clinical study
-- clinical trial
-- clinical trials
-- CONSORT
-- CONSORT E-Health
-- CONSORT EHealth
-- CONSORT extension
-- e-health
-- eHealth
-- electronic tools
-- evaluation report
-- evaluation reports
-- experimental studies
-- experimental study
-- internet intervention
-- internet interventions
-- internet-based
-- intervention
-- interventions
-- m-health
-- mhealth
-- mhealth intervention
-- mhealth interventions
-- mobile
-- mobile intervention
-- mobile interventions
-- mobile platform
-- mobile platforms
-- non-RCT
-- randomised
-- randomised controlled trial
-- randomised controlled trials
-- randomised trial
-- randomised trials
-- randomized
-- randomized controlled trial
-- randomized controlled trials
-- randomized trial
-- randomized trials
-- RCT
-- RCTs
-- trial
-- trials
-- web intervention
-- web interventions
-- web-based
+- checklist
+- checklists
+- core outcome
+- core outcome set
+- core outcome set protocol
+- Core Outcome Set-STAndardised Protocol Items
+- Core Outcome Set-STAndardised Protocol Items Statement
+- core outcome sets
+- core outcome sets protocol
+- core outcomes
+- COS
+- COS protocol
+- COS-STAP
+- COS-STAP Statement
+- protocol
+- protocols
 
 ---
 
