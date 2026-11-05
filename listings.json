@@ -1,27 +1,12 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/about/equator-network.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   },
   {
@@ -35,13 +20,28 @@
     ]
   },
   {
-    "listing": "/about/equator-network.html",
+    "listing": "/about/uk-equator-centre.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
     ]
   },
   {
@@ -175,6 +175,7 @@
       "/reporting-guidelines/under-development/preferred-reporting-items-for-systematic-reviews-and-meta-analysis-reporting-for-children-prisma-c/index.html",
       "/reporting-guidelines/under-development/psychological-self-report-instruments-in-databases-the-pride-reporting-guideline/index.html",
       "/reporting-guidelines/under-development/qrdc-rg-qualitative-remote-data-collection-reporting-guideline/index.html",
+      "/reporting-guidelines/under-development/quit/index.html",
       "/reporting-guidelines/under-development/rctrack-randomized-controlled-trials-in-rehabilitation-checklist/index.html",
       "/reporting-guidelines/under-development/reconsider-reporting-extension-of-consort-and-spirit-for-inclusion-diversity-ethnicity-and-race/index.html",
       "/reporting-guidelines/under-development/reforh-reporting-guideline-for-organoids-in-human-clinical-studies/index.html",
@@ -334,7 +335,7 @@
       "/reporting-guidelines/spirit-define/index.html",
       "/reporting-guidelines/consort-define/index.html",
       "/reporting-guidelines/prisma-lsr/index.html",
-      "/reporting-guidelines/guideline-for-reporting-systematic-reviews-of-outcome-measurement-instruments-omis-prisma-cosmin-for-omis-2024/index.html",
+      "/reporting-guidelines/prisma-cosmin/index.html",
       "/reporting-guidelines/gather-statement/index.html",
       "/reporting-guidelines/spirit-pro/index.html",
       "/reporting-guidelines/guidelines-for-reporting-outcomes-in-trial-protocols-the-spirit-outcomes-2022-extension/index.html",
