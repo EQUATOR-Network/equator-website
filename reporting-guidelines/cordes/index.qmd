@@ -1,18 +1,20 @@
 ---
 # REQUIRED FIELDS
-title: The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence
+title: 'Consensus on Recording Deep Endometriosis Surgery: the CORDES statement'
 aliases:
-  - /reporting-guidelines/stard-ai/
-acronym: STARD-AI
-provided-for: ''
-rg-doi: 10.1038/s41591-025-03953-8
-pmid-id: '[40954311](https://pubmed.ncbi.nlm.nih.gov/40954311/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/40954311/
-relevant-urls: Read the STARD-AI guidance [here](https://www.nature.com/articles/s41591-025-03953-8).
-full-bibliographic-reference: 'Sounderajah V, Guni A, Liu X, Collins GS, Karthikesalingam
-  A, Markar SR, Golub RM, Denniston AK, Shetty S, Moher D, Bossuyt PM, Darzi A, Ashrafian
-  H; STARD-AI Steering Committee. The STARD-AI reporting guideline for diagnostic
-  accuracy studies using artificial intelligence. Nat Med. 2025 Sep 15. doi: 10.1038/s41591-025-03953-8'
+  - /reporting-guidelines/consensus-on-recording-deep-endometriosis-surgery-the-cordes-statement/
+acronym: CORDES
+provided-for: Reporting surgical treatment in women with deep endometriosis.
+rg-doi: ''
+pmid-id: '[27094477](http://www.ncbi.nlm.nih.gov/pubmed/27094477)'
+pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/27094477
+relevant-urls: ''
+full-bibliographic-reference: 'Vanhie A, Meuleman C, Tomassetti C, Timmerman D, D''Hoore
+  A, Wolthuis A, Van Cleynenbreugel B, Dancet E, Van den Broeck U, Tsaltas J, Renner
+  SP, Ebert AD, Carmona F, Abbott J, Stepniewska A, Taylor H, Saridogan E, Mueller
+  M, Keckstein J, Pluchino N, Janik G, Zupi E, Minelli L, Cooper M, Dunselman G, Koh
+  C, Abrao M, Chapron C, D''Hooghe T. Consensus on Recording Deep Endometriosis Surgery:
+  the CORDES statement. Hum Reprod. 2016 Apr 19. pii: dew067.'
 
 
 # OPTIONAL FIELDS
@@ -34,12 +36,12 @@ downloads: ''
 # LIST FIELDS
 study-design:
 # - Animal pre-clinical research
-- Artificial intelligence/Machine learning studies
+# - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
-- Diagnostic and prognostic studies
+- Clinical trials
+# - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 # - Observational studies
@@ -71,7 +73,7 @@ clinical-specialty:
 # - Neurology
 # - Nuclear medicine
 # - Nutrition and dietetics
-# - Obstetrics and gynaecology
+- Obstetrics and gynaecology
 # - Occupational therapy
 # - Oncology
 # - Ophthalmology
@@ -90,11 +92,11 @@ clinical-specialty:
 # - Respiratory medicine
 # - Rheumatology
 # - Sport and exercise medicine
-# - Surgery
+- Surgery
 # - Toxicology
 # - Tropical medicine
 # - Urology
-- No clinical specialty specified
+# - No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements
@@ -108,22 +110,62 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-# - Intervention (exposure)
+- Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
-# - Procedure/Method
+- Procedure/Method
 # - Protocol-whole report
 # - Research recommendations
-# - Results
+- Results
 # - Statistical analysis plan-whole report
 # - Statistical methods and analyses
-# - Study characteristics (participants etc.)
-# - Terminology/definitions
+- Study characteristics (participants etc.)
+- Terminology/definitions
 # - Title
-- Whole report
+# - Whole report
 # - No report section specified
 keyword:
-- No keywords provided
+- clinical trial
+- clinical trials
+- CORDES
+- CORDES statement
+- data
+- deep endometriosis
+- endometriosis
+- endometriosis surgery
+- gynaecological
+- gynaecology
+- gynecological
+- gynecology
+- intra-operative data
+- post-operative data
+- pre-operative data
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- surgery
+- surgical
+- surgical management
+- surgical outcome
+- surgical outcome trial
+- surgical outcome trials
+- surgical outcomes
+- surgical procedure
+- surgical procedures
+- surgical technique
+- surgical techniques
+- surgical treatment
+- surgical trial
+- surgical trials
+- trial
+- trials
 
 ---
 

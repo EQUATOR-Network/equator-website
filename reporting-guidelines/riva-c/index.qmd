@@ -1,32 +1,33 @@
 ---
 # REQUIRED FIELDS
-title: 'Development of the CLARIFY  (CheckList stAndardising the Reporting of Interventions
-  For Yoga) guidelines: a Delphi study'
-acronym: CLARIFY 2021
-provided-for: Reporting of yoga interventions.
+title: Development of the Reporting Infographics and Visual Abstracts of Comparative studies (RIVA-C) checklist and guide
+aliases:
+  - /reporting-guidelines/development-of-the-reporting-infographics-and-visual-abstracts-of-comparative-studies-riva-c-checklist-and-guide/
+acronym: RIVA-C
+provided-for: Reporting of infographics which summarise comparative studies of health
+  and medical interventions.
 rg-doi: ''
-pmid-id: '[35105638](https://pubmed.ncbi.nlm.nih.gov/35105638/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/35105638/
-relevant-urls: '[Read the full-text](https://bmjopen.bmj.com/content/12/1/e054585.long)
-  of the CLARIFY 2021 reporting guideline.'
-full-bibliographic-reference: 'Ward L, Nault D, Cramer H, Moonaz S. Development of
-  the CLARIFY (CheckList stAndardising the Reporting of Interventions For Yoga) guidelines:
-  a Delphi study. BMJ Open. 2022;12(1):e054585.'
+pmid-id: '[38242568](https://pubmed.ncbi.nlm.nih.gov/38242568/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38242568/
+relevant-urls: |-
+  The RIVA-C reporting checklist can be accessed from the journal website in [supplementary file 6 (PDF)](https://ebm.bmj.com/content/ebmed/early/2024/01/19/bmjebm-2023-112784/DC1/embed/inline-supplementary-material-1.pdf?download=true), pages 117-120.
+
+  The RIVA-C explanation and examples can be accessed from the journal website in [supplementary file 1 (PDF)](https://ebm.bmj.com/content/ebmed/early/2024/01/19/bmjebm-2023-112784/DC1/embed/inline-supplementary-material-1.pdf?download=true), pages 1-36.
+full-bibliographic-reference: Zadro JR, Ferreira GE, Stahl-Timmins W, Egger V, Elkins
+  MR, Gamble AR, O'Keeffe M, McCaffery KJ, Harris IA, Ardern CL, West CA, Maher CG,
+  Hoffmann TC. Development of the Reporting Infographics and Visual Abstracts of Comparative
+  studies (RIVA-C) checklist and guide. BMJ Evid Based Med. 2024:bmjebm-2023-112784.
 
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Moonaz S, Nault D, Cramer H, Ward L. CLARIFY
-  2021: explanation and elaboration of the Delphi-based guidelines for the reporting
-  of yoga research. BMJ Open. 2021;11(8):e045812. PMID: [34353794](https://pubmed.ncbi.nlm.nih.gov/34353794/)'
+explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
 website-url: ''
 additional-languages: ''
 additional-information: ''
-relevant-editorials: 'Moonaz S, Nault D, Cramer H, Ward L. Releasing CLARIFY: A New
-  Guideline for Improving Yoga Research Transparency and Usefulness. J Altern Complement
-  Med. 2021;27(10):807-809. PMID: [34550773](https://pubmed.ncbi.nlm.nih.gov/34550773/)'
+relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
@@ -52,7 +53,7 @@ study-design:
 # - Quality improvement studies
 # - Reliability and agreement studies
 # - Study protocols
-# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
 # - No study design specified
 clinical-specialty:
 # - Allergy
@@ -92,14 +93,14 @@ clinical-specialty:
 # - Renal medicine
 # - Respiratory medicine
 # - Rheumatology
-- Sport and exercise medicine
+# - Sport and exercise medicine
 # - Surgery
 # - Toxicology
 # - Tropical medicine
 # - Urology
-# - No clinical specialty specified
+- No clinical specialty specified
 report-section:
-# - Abstract
+- Abstract
 # - Acknowledgements
 # - Appendix
 # - Biospecimen/bioresource information
@@ -111,7 +112,7 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-- Intervention (exposure)
+# - Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
@@ -126,47 +127,46 @@ report-section:
 # - Whole report
 # - No report section specified
 keyword:
-- asana
-- breathing
-- case studies
-- case study
-- CheckList stAndardising the Reporting of Interventions For Yoga (CLARIFY) guidelines
-- CLARIFY
-- CLARIFY 2021
-- CLARIFY guidelines
+- abstract
+- abstracts
+- checklist
+- checklists
 - clinical trial
 - clinical trials
-- concentration
-- dhyana
-- exercise
-- intervention
-- interventions
-- meditation
-- observation
+- cohort
+- cohort studies
+- cohort study
+- comparative studies
+- comparative study
+- graphical abstract
+- graphical abstracts
+- infographic
+- infographics
+- information graphics
 - observational
 - observational studies
 - observational study
-- postures
-- pranayama
-- randomised clinical trial
-- randomised clinical trials
+- randomised controlled trial
+- randomised controlled trials
 - randomised trial
 - randomised trials
-- randomized clinical trial
-- randomized clinical trials
+- randomized controlled trial
+- randomized controlled trials
 - randomized trial
 - randomized trials
 - RCT
 - RCTs
-- relaxation
-- stretching
+- Reporting Infographics and Visual Abstracts of Comparative studies checklist
+- review
+- reviews
+- RIVA-C
+- RIVA-C checklist
+- systematic review
+- systematic reviews
 - trial
 - trials
-- yoga
-- Yoga intervention
-- Yoga interventions
-- Yoga research
-- yogic
+- visual abstract
+- visual abstracts
 
 ---
 

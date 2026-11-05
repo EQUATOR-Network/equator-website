@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Consensus Statement for Protocols of Factorial Randomized Trials: Extension
-  of the SPIRIT 2013 Statement'
+title: 'Consensus Statement for Protocols of Factorial Randomized Trials: Extension of the SPIRIT 2013 Statement'
+aliases:
+  - /reporting-guidelines/consensus-statement-for-protocols-of-factorial-randomized-trials-extension-of-the-spirit-2013-statement/
 acronym: SPIRIT Factorial
 provided-for: Reporting of factorial trial protocols.
 rg-doi: ''
