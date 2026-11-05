@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
-    ]
-  },
-  {
     "listing": "/reporting-guidelines/index.html",
     "items": [
       "/reporting-guidelines/right-statement/index.html",
@@ -143,9 +133,9 @@
       "/reporting-guidelines/tripod-cluster/index.html",
       "/reporting-guidelines/tripod-srma/index.html",
       "/reporting-guidelines/a-checklist-for-reporting-valuation-studies-of-multi-attribute-utility-based-instruments-create/index.html",
-      "/reporting-guidelines/a-consensus-based-checklist-for-reporting-of-survey-studies-cross/index.html",
-      "/reporting-guidelines/a-guideline-for-reporting-mediation-analyses-of-randomized-trials-and-observational-studies-the-agrema-statement/index.html",
-      "/reporting-guidelines/a-reporting-checklist-for-discrete-choice-experiments-in-health-the-direct-checklist/index.html",
+      "/reporting-guidelines/cross/index.html",
+      "/reporting-guidelines/agrema/index.html",
+      "/reporting-guidelines/direct/index.html",
       "/reporting-guidelines/a-scoping-review-of-four-decades-of-outcomes-in-nonsurgical-root-canal-treatment-nonsurgical-retreatment-and-apexification-studies-part-3-a-proposed-framework-for-standardized-data-collection-and-r/index.html",
       "/reporting-guidelines/a-systematic-review-of-methods-and-procedures-used-in-ecological-momentary-assessments-of-diet-and-physical-activity-research-in-youth-an-adapted-strobe-checklist-for-reporting-ema-studies-cremas/index.html",
       "/reporting-guidelines/a-call-for-transparent-reporting-to-optimize-the-predictive-value-of-preclinical-research/index.html",
@@ -175,7 +165,7 @@
       "/reporting-guidelines/a-systematic-review-of-systematic-reviews-and-meta-analyses-of-animal-experiments-with-guidelines-for-reporting/index.html",
       "/reporting-guidelines/a-systematic-review-of-the-reporting-of-data-monitoring-committees-roles-interim-analysis-and-early-termination-in-pediatric-clinical-trials/index.html",
       "/reporting-guidelines/a-tool-to-analyze-the-transferability-of-health-promotion-interventions/index.html",
-      "/reporting-guidelines/accord-accurate-consensus-reporting-document-a-reporting-guideline-for-consensus-methods-in-biomedicine/index.html",
+      "/reporting-guidelines/accord/index.html",
       "/reporting-guidelines/acurate-a-guide-for-reporting-sham-controls-in-trials-using-acupuncture/index.html",
       "/reporting-guidelines/amwa-emwa-ismpp-joint-position-statement-on-the-role-of-professional-medical-writers/index.html",
       "/reporting-guidelines/asas-recommendations-for-collecting-analysing-and-reporting-nsaid-intake-in-clinical-trialsepidemiological-studies-in-axial-spondyloarthritis/index.html",
@@ -978,6 +968,16 @@
       "/about/people/jdebeyer.html",
       "/about/people/pdhiman.html",
       "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
     ]
   },
   {
