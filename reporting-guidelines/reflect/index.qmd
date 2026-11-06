@@ -1,8 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'The REFLECT statement: methods and processes of creating reporting guidelines
-  for randomized controlled trials for livestock and food safety by modifying the
-  CONSORT statement'
+title: 'The REFLECT statement: methods and processes of creating reporting guidelines for randomized controlled trials for livestock and food safety by modifying the CONSORT statement'
+aliases:
+  - /reporting-guidelines/the-reflect-statement-methods-and-processes-of-creating-reporting-guidelines-for-randomized-controlled-trials-for-livestock-and-food-safety-by-modifying-the-consort-statement/
 acronym: REFLECT
 provided-for: Reporting randomised controlled trials for livestock and food safety
 rg-doi: ''

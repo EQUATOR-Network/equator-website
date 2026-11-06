@@ -1,24 +1,27 @@
 ---
 # REQUIRED FIELDS
-title: 'STrengthening the Reporting Of Pharmacogenetic Studies: Development of the
-  STROPS guideline'
-acronym: STROPS
-provided-for: Reporting of pharmacogenetic studies.
+title: 'The ORION statement: guidelines for transparent reporting of Outbreak Reports and Intervention studies Of Nosocomial infection'
+aliases:
+  - /reporting-guidelines/the-orion-statement-guidelines-for-transparent-reporting-of-outbreak-reports-and-intervention-studies-of-nosocomial-infection/
+acronym: ORION
+provided-for: Outbreak reports and intervention studies of nosocomial infection.
 rg-doi: ''
-pmid-id: '[32956352](https://pubmed.ncbi.nlm.nih.gov/32956352/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/32956352/
-relevant-urls: 'The full-text of the STROPS guideline is available at: <https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003344>'
-full-bibliographic-reference: 'Chaplin M, Kirkham JJ, Dwan K, Sloan DJ, Davies G,
-  Jorgensen AL. STrengthening the Reporting Of Pharmacogenetic Studies: Development
-  of the STROPS guideline. PLoS Med. 2020;17(9):e1003344.'
+pmid-id: ''
+pmid-url: ''
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Stone SP, Cooper BS, Kibbler CC, Cookson BD, Roberts JA, Medley GF, Duckworth G, Lai R, Ebrahim S, Brown EM, Wiffen PJ, Davey PG. The ORION statement: guidelines for transparent reporting of Outbreak Reports and Intervention studies Of Nosocomial infection.
+
+  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
+
+  J Antimicrob Chemother. 2007;59(5):833-840. PMID: [17387116](http://www.ncbi.nlm.nih.gov/pubmed/17387116)
+
+  Lancet Infect Dis. 2007;7(4):282–288. PMID: [17376385](http://www.ncbi.nlm.nih.gov/pubmed/17376385)
 
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: |-
-  The STROPS guideline explanation and elaboration document is available at:
-
-  <https://doi.org/10.1371/journal.pmed.1003344.s007> (MS Word)
+explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
 website-url: ''
@@ -44,7 +47,7 @@ study-design:
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 - Observational studies
-# - Other
+- Other
 # - Patent landscapes
 # - Qualitative research
 # - Quality improvement studies
@@ -63,11 +66,11 @@ clinical-specialty:
 # - Dermatology
 # - Emergency medicine
 # - Gastroenterology
-- Genetics
+# - Genetics
 # - Haematology
 # - Health informatics
 # - Hepatology
-# - Infectious diseases
+- Infectious diseases
 # - Medical education
 # - Neurology
 # - Nuclear medicine
@@ -79,7 +82,7 @@ clinical-specialty:
 # - Paediatrics
 # - Palliative care
 # - Pathology
-- Pharmaceutical medicine
+# - Pharmaceutical medicine
 # - Physiotherapy
 # - Primary care
 # - Psychiatry
@@ -124,38 +127,41 @@ report-section:
 - Whole report
 # - No report section specified
 keyword:
-- clinical trial
-- clinical trials
-- drug
-- drugs
-- genetic
-- genetics
-- observational
+- antimicrobial resistance
+- checklist
+- clinical studies
+- clinical study
+- experimental studies
+- experimental study
+- HCAI
+- health-care associated infection
+- health-care associated infections
+- hospital
+- hospital epidemiology
+- infection
+- infection control
+- infectious disease epidemiology
+- infectious diseases
+- interrupted time series
+- intervention studies
+- intervention study
+- non-randomised
+- non-randomized
+- nonrandomised
+- nonrandomized
+- nosocomial
+- nosocomial infection
 - observational studies
 - observational study
-- pharmaceutical
-- pharmacogenetic
-- pharmacogenetic studies
-- pharmacogenetic study
-- pharmacogenetics
-- pharmacogenomic
-- pharmacogenomics
-- pharmacy
-- randomised controlled trial
-- randomised controlled trials
-- randomised trial
-- randomised trials
-- randomized controlled trial
-- randomized controlled trials
-- randomized trial
-- randomized trials
-- RCT
-- RCTs
-- STrengthening the Reporting Of Pharmacogenetic Studies
-- STROPS
-- STROPS guideline
-- trial
-- trials
+- ORION
+- ORION statement
+- outbreak report
+- outbreak reports
+- quasi experimental
+- quasi-experimental studies
+- quasi-experimental study
+- statistical technique
+- statistical techniques
 
 ---
 

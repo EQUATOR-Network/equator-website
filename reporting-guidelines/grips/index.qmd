@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Strengthening the reporting of Genetic RIsk Prediction Studies: the GRIPS
-  Statement'
+title: 'Strengthening the reporting of Genetic RIsk Prediction Studies: the GRIPS Statement'
+aliases:
+  - /reporting-guidelines/strengthening-the-reporting-of-genetic-risk-prediction-studies-the-grips-statement/
 acronym: GRIPS
 provided-for: Genetic risk prediction studies
 rg-doi: ''

@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: The TRIPOD-LLM reporting guideline for studies using large language models
+aliases:
+  - /reporting-guidelines/the-tripod-llm-reporting-guideline-for-studies-using-large-language-models/
 acronym: TRIPOD-LLM
 provided-for: Reporting of studies that are developing, tuning, prompt engineering or evaluating a large language model (LLM).
 rg-doi: ''
