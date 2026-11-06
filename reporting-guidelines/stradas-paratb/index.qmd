@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: Consensus-based reporting standards for diagnostic test accuracy studies for
-  paratuberculosis in ruminants
+title: Consensus-based reporting standards for diagnostic test accuracy studies for paratuberculosis in ruminants
+aliases:
+  - /reporting-guidelines/consensus-based-reporting-standards-for-diagnostic-test-accuracy-studies-for-paratuberculosis-in-ruminants/
 acronym: STRADAS-paraTB
 provided-for: Field-based test accuracy studies for individual and herd classification
   of MAP infection status

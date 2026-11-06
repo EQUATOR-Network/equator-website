@@ -1,25 +1,25 @@
 ---
 # REQUIRED FIELDS
-title: 'Consolidated criteria for strengthening reporting of health research involving
-  indigenous peoples: the CONSIDER statement'
-acronym: CONSIDER
-provided-for: Reporting of health research involving Indigenous peoples.
+title: 'Refining the CRiSPHe (checklist for reporting research using a simulated patient methodology in Health): a Delphi study'
+aliases:
+  - /reporting-guidelines/developing-a-checklist-for-reporting-research-using-simulated-patient-methodology-crisp-a-consensus-study/
+acronym: CRiSPHe
+provided-for: Reporting research using a simulated patient methodology.
 rg-doi: ''
-pmid-id: '[31399058](https://www.ncbi.nlm.nih.gov/pubmed/31399058)'
-pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/31399058
-relevant-urls: |-
-  The full-text of this reporting guideline is available at:
-
-  <https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0815-8>
-full-bibliographic-reference: 'Huria T, Palmer SC, Pitama S, Beckert L, Lacey C, Ewen
-  S, Smith LT. Consolidated criteria for strengthening reporting of health research
-  involving indigenous peoples: the CONSIDER statement. BMC Med Res Methodol. 2019;19(1):173.'
+pmid-id: '[38752525](https://pubmed.ncbi.nlm.nih.gov/38752525/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/38752525/
+relevant-urls: ''
+full-bibliographic-reference: 'Park JS, Page A, Clifford R, Bond C, Seubert L. Refining
+  the CRiSPHe (checklist for reporting research using a simulated patient methodology
+  in Health): a Delphi study. Int J Pharm Pract. 2024:riae019.'
 
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: ''
-guideline-history: ''
+guideline-history: 'Amaratunge S, Harrison M, Clifford R, Seubert L, Page A, Bond
+  C. Developing a checklist for reporting research using simulated patient methodology
+  (CRiSP): a consensus study. Int J Pharm Pract. 2021;29(3):218-227. PMID: [33792718](https://pubmed.ncbi.nlm.nih.gov/33792718)'
 relevant-more: ''
 website-url: ''
 additional-languages: ''
@@ -37,20 +37,20 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
-- Diagnostic and prognostic studies
+- Clinical trials
+# - Diagnostic and prognostic studies
 # - Economic evaluations
 - Experimental studies
 # - Letters to the editor/Correspondence
-- Mixed methods studies
+# - Mixed methods studies
 - Observational studies
 # - Other
 # - Patent landscapes
-- Qualitative research
+# - Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
 # - Study protocols
-- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
 # - No study design specified
 clinical-specialty:
 # - Allergy
@@ -103,46 +103,54 @@ report-section:
 # - Biospecimen/bioresource information
 # - Conference paper/abstract
 # - Conflict of interest
-- Data
-- Ethical issues (consent etc.)
+# - Data
+# - Ethical issues (consent etc.)
 # - Figures/Graphs
-- Funding
-- Harms/adverse effects/safety data
+# - Funding
+# - Harms/adverse effects/safety data
 # - Images
 # - Intervention (exposure)
-- Narrative sections (discussion etc.)
+# - Narrative sections (discussion etc.)
 # - Outcomes (variables)
-- Procedure/Method
+# - Procedure/Method
 # - Protocol-whole report
 # - Research recommendations
-- Results
+# - Results
 # - Statistical analysis plan-whole report
-- Statistical methods and analyses
-- Study characteristics (participants etc.)
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-# - Whole report
+- Whole report
 # - No report section specified
 keyword:
-- Aboriginal
-- Aboriginal and Torres Strait Islanders
 - checklist
 - checklists
-- CONSIDER
-- CONSIDER statement
-- First Nations
-- First Nations Peoples
-- indigenous
-- indigenous health
-- Indigenous health outcomes
-- indigenous health research
-- indigenous people
-- indigenous peoples
-- M?ori
-- M\xe9tis
-- Native Hawaiian
-- Sami
-- Taiwan Indigenous Tribes
+- clinical trial
+- clinical trials
+- CRiSPHe
+- mystery shopper
+- observational studies
+- observational study
+- pharmaceutical
+- pharmacist
+- pharmacy
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- secret shopper
+- simulated
+- simulated patient
+- simulation
+- trial
+- trials
 
 ---
 

@@ -1,17 +1,20 @@
 ---
 # REQUIRED FIELDS
-title: 'Comprehensive reporting of pelvic floor muscle training for urinary incontinence:
-  CERT-PFMT'
-acronym: CERT-PFMT
-provided-for: Reporting of pelvic floor muscle training (PFMT) interventions for urinary
-  incontinence.
+title: 'Consolidated criteria for strengthening reporting of health research involving indigenous peoples: the CONSIDER statement'
+aliases:
+  - /reporting-guidelines/consolidated-criteria-for-strengthening-reporting-of-health-research-involving-indigenous-peoples-the-consider-statement/
+acronym: CONSIDER
+provided-for: Reporting of health research involving Indigenous peoples.
 rg-doi: ''
-pmid-id: '[34062452](https://pubmed.ncbi.nlm.nih.gov/34062452/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/34062452/
-relevant-urls: ''
-full-bibliographic-reference: 'Slade SC, Morris ME, Frawley H, Hay-Smith J. Comprehensive
-  reporting of pelvic floor muscle training for urinary incontinence: CERT-PFMT. Physiotherapy.
-  2021;112:103-112.'
+pmid-id: '[31399058](https://www.ncbi.nlm.nih.gov/pubmed/31399058)'
+pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/31399058
+relevant-urls: |-
+  The full-text of this reporting guideline is available at:
+
+  <https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0815-8>
+full-bibliographic-reference: 'Huria T, Palmer SC, Pitama S, Beckert L, Lacey C, Ewen
+  S, Smith LT. Consolidated criteria for strengthening reporting of health research
+  involving indigenous peoples: the CONSIDER statement. BMC Med Res Methodol. 2019;19(1):173.'
 
 
 # OPTIONAL FIELDS
@@ -35,20 +38,20 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-- Clinical trials
-# - Diagnostic and prognostic studies
+# - Clinical trials
+- Diagnostic and prognostic studies
 # - Economic evaluations
 - Experimental studies
 # - Letters to the editor/Correspondence
-# - Mixed methods studies
-# - Observational studies
+- Mixed methods studies
+- Observational studies
 # - Other
 # - Patent landscapes
-# - Qualitative research
+- Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
 # - Study protocols
-# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
 # - No study design specified
 clinical-specialty:
 # - Allergy
@@ -78,7 +81,7 @@ clinical-specialty:
 # - Palliative care
 # - Pathology
 # - Pharmaceutical medicine
-- Physiotherapy
+# - Physiotherapy
 # - Primary care
 # - Psychiatry
 # - Psychology
@@ -88,12 +91,12 @@ clinical-specialty:
 # - Renal medicine
 # - Respiratory medicine
 # - Rheumatology
-- Sport and exercise medicine
+# - Sport and exercise medicine
 # - Surgery
 # - Toxicology
 # - Tropical medicine
-- Urology
-# - No clinical specialty specified
+# - Urology
+- No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements
@@ -101,65 +104,46 @@ report-section:
 # - Biospecimen/bioresource information
 # - Conference paper/abstract
 # - Conflict of interest
-# - Data
-# - Ethical issues (consent etc.)
+- Data
+- Ethical issues (consent etc.)
 # - Figures/Graphs
-# - Funding
-# - Harms/adverse effects/safety data
+- Funding
+- Harms/adverse effects/safety data
 # - Images
-- Intervention (exposure)
-# - Narrative sections (discussion etc.)
+# - Intervention (exposure)
+- Narrative sections (discussion etc.)
 # - Outcomes (variables)
-# - Procedure/Method
+- Procedure/Method
 # - Protocol-whole report
 # - Research recommendations
-# - Results
+- Results
 # - Statistical analysis plan-whole report
-# - Statistical methods and analyses
-# - Study characteristics (participants etc.)
+- Statistical methods and analyses
+- Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
 # - Whole report
 # - No report section specified
 keyword:
-- application consolidation contexualisation
-- CERT-PFMT
-- CERT-PFMT checklist
+- Aboriginal
+- Aboriginal and Torres Strait Islanders
 - checklist
 - checklists
-- clinical trial
-- clinical trials
-- continence
-- continence physiotherapist
-- continence physiotherapy
-- exercise intervention
-- incontinence
-- pelvic floor
-- pelvic floor muscle training
-- PFMT
-- PFMT intervention
-- PFMT interventions
-- physiotherapist
-- physiotherapists
-- physiotherapy
-- randomised controlled trial
-- randomised controlled trials
-- randomised trial
-- randomised trials
-- randomized controlled trial
-- randomized controlled trials
-- randomized trial
-- randomized trials
-- RCT
-- RCTs
-- trial
-- trials
-- UI
-- urinary
-- urinary dysfunction
-- urinary incontinence
-- urine
-- urology
+- CONSIDER
+- CONSIDER statement
+- First Nations
+- First Nations Peoples
+- indigenous
+- indigenous health
+- Indigenous health outcomes
+- indigenous health research
+- indigenous people
+- indigenous peoples
+- M?ori
+- M\xe9tis
+- Native Hawaiian
+- Sami
+- Taiwan Indigenous Tribes
 
 ---
 

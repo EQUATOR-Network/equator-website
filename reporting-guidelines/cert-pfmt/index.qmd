@@ -1,18 +1,17 @@
 ---
 # REQUIRED FIELDS
-title: Consensus reporting guidelines to address gaps in descriptions of ultra-rare
-  genetic conditions
-acronym: PHELIX
-provided-for: Reporting phenotype descriptions for rare genetic diseases.
+title: 'Comprehensive reporting of pelvic floor muscle training for urinary incontinence: CERT-PFMT'
+aliases:
+  - /reporting-guidelines/comprehensive-reporting-of-pelvic-floor-muscle-training-for-urinary-incontinence-cert-pfmt/
+acronym: CERT-PFMT
+provided-for: Reporting of pelvic floor muscle training (PFMT) interventions for urinary incontinence.
 rg-doi: ''
-pmid-id: '[38582909](https://pubmed.ncbi.nlm.nih.gov/38582909/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/38582909/
-relevant-urls: The PHELIX checklists are available in Tables 9 and 10 in the [supplementary materials (PDF)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998895/).
-full-bibliographic-reference: AlMail A, Jamjoom A, Pan A, Feng MY, Chau V, D'Gama
-  AM, Howell K, Liang NSY, McTague A, Poduri A, Wiltrout K; IPCHiP Executive Committee;
-  Bassett AS, Christodoulou J, Dupuis L, Gill P, Levy T, Siper P, Stark Z, Vorstman
-  JAS, Diskin C, Jewitt N, Baribeau D, Costain G. Consensus reporting guidelines to
-  address gaps in descriptions of ultra-rare genetic conditions. NPJ Genom Med. 2024;9(1):27.
+pmid-id: '[34062452](https://pubmed.ncbi.nlm.nih.gov/34062452/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/34062452/
+relevant-urls: ''
+full-bibliographic-reference: 'Slade SC, Morris ME, Frawley H, Hay-Smith J. Comprehensive
+  reporting of pelvic floor muscle training for urinary incontinence: CERT-PFMT. Physiotherapy.
+  2021;112:103-112.'
 
 
 # OPTIONAL FIELDS
@@ -36,13 +35,13 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
+- Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-- Observational studies
+# - Observational studies
 # - Other
 # - Patent landscapes
 # - Qualitative research
@@ -62,7 +61,7 @@ clinical-specialty:
 # - Dermatology
 # - Emergency medicine
 # - Gastroenterology
-- Genetics
+# - Genetics
 # - Haematology
 # - Health informatics
 # - Hepatology
@@ -75,11 +74,11 @@ clinical-specialty:
 # - Occupational therapy
 # - Oncology
 # - Ophthalmology
-- Paediatrics
+# - Paediatrics
 # - Palliative care
 # - Pathology
 # - Pharmaceutical medicine
-# - Physiotherapy
+- Physiotherapy
 # - Primary care
 # - Psychiatry
 # - Psychology
@@ -89,11 +88,11 @@ clinical-specialty:
 # - Renal medicine
 # - Respiratory medicine
 # - Rheumatology
-# - Sport and exercise medicine
+- Sport and exercise medicine
 # - Surgery
 # - Toxicology
 # - Tropical medicine
-# - Urology
+- Urology
 # - No clinical specialty specified
 report-section:
 # - Abstract
@@ -102,13 +101,13 @@ report-section:
 # - Biospecimen/bioresource information
 # - Conference paper/abstract
 # - Conflict of interest
-- Data
+# - Data
 # - Ethical issues (consent etc.)
 # - Figures/Graphs
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-# - Intervention (exposure)
+- Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
@@ -117,38 +116,50 @@ report-section:
 # - Results
 # - Statistical analysis plan-whole report
 # - Statistical methods and analyses
-- Study characteristics (participants etc.)
+# - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
 # - Whole report
 # - No report section specified
 keyword:
+- application consolidation contexualisation
+- CERT-PFMT
+- CERT-PFMT checklist
 - checklist
 - checklists
-- child
-- children
-- data
-- genetic
-- genetic disease
-- genetic diseases
-- genetics
-- Mendelian disorders
-- observation
-- observational
-- paediatrics
-- pediatrics
-- PHELIX
-- PHELIX checklist
-- phenotype
-- PHEnotype LIsting fiX
-- phenotypic
-- phenotyping
-- rare genetic condition
-- rare genetic conditions
-- rare genetic disease
-- rare genetic diseases
-- rare genetic disorder
-- rare genetic disorders
+- clinical trial
+- clinical trials
+- continence
+- continence physiotherapist
+- continence physiotherapy
+- exercise intervention
+- incontinence
+- pelvic floor
+- pelvic floor muscle training
+- PFMT
+- PFMT intervention
+- PFMT interventions
+- physiotherapist
+- physiotherapists
+- physiotherapy
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- trial
+- trials
+- UI
+- urinary
+- urinary dysfunction
+- urinary incontinence
+- urine
+- urology
 
 ---
 
