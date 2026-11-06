@@ -12,13 +12,14 @@ relevant-urls: |-
 full-bibliographic-reference: |-
   Olivier JB, Macefield RC, Coyle M, Avery KNL, Blencowe NS, Elliott D. Concise stakeholder-informed tool for reporting modifications to innovative surgical procedures and devices: Surgical ModificAtion Reporting Tool (SMART) checklist. Br J Surg 2026; 113: znag117. PMID: [42832559](http://www.ncbi.nlm.nih.gov/pubmed/42832559) [full text](https://academic.oup.com/bjs/article/113/10/znag117/8865209)
 # OPTIONAL FIELDS
-downloads: ''
+downloads: |-
+  Download the SMART [infographic](/reporting-guidelines/smart/SMART_infographic_Nov-2026.pdf)
 rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: |-
   
-website-url: ''
+website-url: SMART [project website](https://www.bristol.ac.uk/population-health-sciences/centres/surgical-research/research/surgical-innovation/smart/)
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''
