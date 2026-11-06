@@ -1,41 +1,30 @@
 ---
 # REQUIRED FIELDS
-title: 'The SCARE 2020 Guideline: Updating Consensus Surgical CAse  REport  (SCARE)
-  Guidelines'
-acronym: SCARE
-provided-for: Reporting of surgical case reports.
-rg-doi: '10.1097/JS9.0000000000000373'
-pmid-id: '[37013953](https://pubmed.ncbi.nlm.nih.gov/37013953/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/33181358/
-relevant-urls: ''
-full-bibliographic-reference: |-
-  Sohrabi C, Mathew G, Maria N, Kerwan A, Franchi T, Agha RA. The SCARE 2023 guideline: updating consensus Surgical CAse REport (SCARE) guidelines. Int J Surg. 2023 May 1;109(5):1136-1140.
+title: 'STrengthening the Reporting Of Pharmacogenetic Studies: Development of the STROPS guideline'
+aliases:
+  - /reporting-guidelines/strengthening-the-reporting-of-pharmacogenetic-studies-development-of-the-strops-guideline/
+acronym: STROPS
+provided-for: Reporting of pharmacogenetic studies.
+rg-doi: ''
+pmid-id: '[32956352](https://pubmed.ncbi.nlm.nih.gov/32956352/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/32956352/
+relevant-urls: 'The full-text of the STROPS guideline is available at: <https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003344>'
+full-bibliographic-reference: 'Chaplin M, Kirkham JJ, Dwan K, Sloan DJ, Davies G,
+  Jorgensen AL. STrengthening the Reporting Of Pharmacogenetic Studies: Development
+  of the STROPS guideline. PLoS Med. 2020;17(9):e1003344.'
+
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: ''
-guideline-history: |-
-  The SCARE Statement was originally published in 2016 and updated in 2018, 202, and more recently in 2023:
+explanation-and-elaboration-papers: |-
+  The STROPS guideline explanation and elaboration document is available at:
 
-  2016
-
-  Agha RA, Fowler AJ, Saeta A, Barai I, Rajmohan S, Orgill DP; SCARE Group. The SCARE Statement: Consensus-based surgical case report guidelines. Int J Surg. 2016;34:180-186. PMID: [27613565](http://www.ncbi.nlm.nih.gov/pubmed/27613565)
-
-  2018 update
-
-  Agha RA, Borrelli MR, Farwana R, Koshy K, Fowler A, Orgill DP; SCARE Group. The SCARE 2018 Statement: Updating Consensus Surgical CAse REport (SCARE) Guidelines. Int J Surg. 2018;60:132-136. PMID: [30342279](http://www.ncbi.nlm.nih.gov/pubmed/30342279)
-  
-  2020 update
-  
-  Agha RA, Franchi T, Sohrabi C, Mathew G, Kerwan A;
-  SCARE Group. The SCARE 2020 Guideline: Updating Consensus Surgical CAse REport (SCARE) Guidelines. Int J Surg. 2020:S1743-9191(20)30771-8. PMID: [33181358](http://www.ncbi.nlm.nih.gov/pubmed/33181358)
+  <https://doi.org/10.1371/journal.pmed.1003344.s007> (MS Word)
+guideline-history: ''
 relevant-more: ''
-website-url:
+website-url: ''
 additional-languages: ''
-additional-information: |-
-  Read the protocol for the development of this reporting guideline:
-
-  <http://www.sciencedirect.com/science/article/pii/S1743919116001047>
+additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
@@ -49,10 +38,10 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
+- Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 - Observational studies
@@ -75,7 +64,7 @@ clinical-specialty:
 # - Dermatology
 # - Emergency medicine
 # - Gastroenterology
-# - Genetics
+- Genetics
 # - Haematology
 # - Health informatics
 # - Hepatology
@@ -91,7 +80,7 @@ clinical-specialty:
 # - Paediatrics
 # - Palliative care
 # - Pathology
-# - Pharmaceutical medicine
+- Pharmaceutical medicine
 # - Physiotherapy
 # - Primary care
 # - Psychiatry
@@ -103,7 +92,7 @@ clinical-specialty:
 # - Respiratory medicine
 # - Rheumatology
 # - Sport and exercise medicine
-- Surgery
+# - Surgery
 # - Toxicology
 # - Tropical medicine
 # - Urology
@@ -136,26 +125,38 @@ report-section:
 - Whole report
 # - No report section specified
 keyword:
-- CARE case extension
-- CARE extension
-- CARE guideline extension
-- case
-- case report
-- case reporting
-- case reports
-- case studies
-- case study
-- checklist
-- SCARE
-- SCARE checklist
-- SCARE guideline
-- SCARE Statement
-- surgery
-- surgical
-- surgical case report
-- surgical case reports
-- surgical case studies
-- surgical case study
+- clinical trial
+- clinical trials
+- drug
+- drugs
+- genetic
+- genetics
+- observational
+- observational studies
+- observational study
+- pharmaceutical
+- pharmacogenetic
+- pharmacogenetic studies
+- pharmacogenetic study
+- pharmacogenetics
+- pharmacogenomic
+- pharmacogenomics
+- pharmacy
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- STrengthening the Reporting Of Pharmacogenetic Studies
+- STROPS
+- STROPS guideline
+- trial
+- trials
 
 ---
 

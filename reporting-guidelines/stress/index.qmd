@@ -1,17 +1,18 @@
 ---
 # REQUIRED FIELDS
-title: 'Strengthening tRansparent reporting of reseArch on uNfinished nursing CARE
-  : The RANCARE guideline'
-acronym: RANCARE
-provided-for: Reporting of quantitative research on unfinished nursing care.
+title: 'Strengthening the reporting of empirical simulation studies: Introducing the STRESS guidelines'
+aliases:
+  - /reporting-guidelines/strengthening-the-reporting-of-empirical-simulation-studies-introducing-the-stress-guidelines/
+acronym: STRESS
+provided-for: Reporting of discrete-event simulation, system dynamics and agent-based
+  simulation models within the field of Operational Research and Management Science.
 rg-doi: ''
-pmid-id: '[33386768](https://pubmed.ncbi.nlm.nih.gov/33386768/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/33386768/
-relevant-urls: The full-text of the RANCARE guideline is freely available at:[https://doi.org/
-  10.1002/nur.22103](https://doi.org/10.1002/nur.22103)
-full-bibliographic-reference: 'Blatter C, Hamilton P, Bachnick S, Zúñiga F, Ausserhofer
-  D, Simon M; RANCARE Consortium. Strengthening tRansparent reporting of reseArch
-  on uNfinished nursing CARE: The RANCARE guideline. Res Nurs Health. 2021.'
+pmid-id: ''
+pmid-url: ''
+relevant-urls: 'The full-text of the STRESS guideline is freely available at: <https://doi.org/10.1080/17477778.2018.1442155>'
+full-bibliographic-reference: 'Monks T, Currie CSM, Onggo BS, Robinson S, Kunc M,
+  Taylor SJE. Strengthening the reporting of empirical simulation studies: Introducing
+  the STRESS guidelines. J Simulation. 2018.'
 
 
 # OPTIONAL FIELDS
@@ -21,7 +22,14 @@ guideline-history: ''
 relevant-more: ''
 website-url: ''
 additional-languages: ''
-additional-information: ''
+additional-information: |-
+  Three 20-item reporting checklists have been developed to stengthen the reporting of empirical simulation studies:
+
+  Discrete-event simulation guidelines [STRESS-DES (Word)](https://www.tandfonline.com/doi/suppl/10.1080/17477778.2018.1442155/suppl_file/tjsm_a_1442155_sm3123.docx)
+
+  Agent-based simulation guidelines [STRESS-ABS (Word)](https://www.tandfonline.com/doi/suppl/10.1080/17477778.2018.1442155/suppl_file/tjsm_a_1442155_sm3069.docx)
+
+  System dynamics guidelines [STRESS-SD (Word)](https://www.tandfonline.com/doi/suppl/10.1080/17477778.2018.1442155/suppl_file/tjsm_a_1442155_sm3083.docx)
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
@@ -35,13 +43,13 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-- Clinical trials
+# - Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-- Experimental studies
+# - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-- Observational studies
+# - Observational studies
 # - Other
 # - Patent landscapes
 # - Qualitative research
@@ -49,7 +57,7 @@ study-design:
 # - Reliability and agreement studies
 # - Study protocols
 # - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
-# - No study design specified
+- No study design specified
 clinical-specialty:
 # - Allergy
 # - Anaesthesia
@@ -122,29 +130,33 @@ report-section:
 - Whole report
 # - No report section specified
 keyword:
-- compromised care
-- incomplete care
-- missed care
-- nurse
-- nurses
-- nursing
-- nursing care
-- observation
-- observational
-- observational research
-- observational studies
-- observational study
-- omitted care
-- quantitative
-- quantitative research
-- RANCARE
-- RANCARE guideline
-- rationed care
-- Strengthening tRansparent reporting of reseArch on uNfinished nursing CARE
-- underused care
-- unfinished
-- unfinished care
-- unfinished nursing care
+- ABS
+- agent-based
+- agent-based simulation
+- DES
+- discrete-event
+- discrete-event simulation
+- Empirical Simulation Studies
+- model
+- modelling
+- modelling studies
+- modelling study
+- modelling technique
+- modelling techniques
+- models
+- ORMS
+- SD
+- simulation
+- simulation model
+- simulation models
+- simulation studies
+- simulation study
+- simulations
+- stress
+- STRESS-ABS
+- STRESS-DES
+- STRESS-SD
+- system dynamics
 
 ---
 

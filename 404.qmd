@@ -17,7 +17,7 @@ description: |
 :::::::: grid
 :::: {.g-col-lg-4 .g-col-md-3 .d-none .d-md-block}
 ::: top-banner-portrait
-![A selection of journal articles](/assets/images/ArticlesImage660x1046.webp){.img-fluid}
+<img src="assets/images/ArticlesImage660x1046.webp" alt="A selection of journal articles" class="img-fluid"/>
 :::
 ::::
 

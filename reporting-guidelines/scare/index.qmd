@@ -1,30 +1,42 @@
 ---
 # REQUIRED FIELDS
-title: 'TIDieR-telehealth : precision in reporting of telehealth interventions used
-  in clinical trials – unique considerations for the Template for the Intervention
-  Description and Replication (TIDieR) checklist'
-acronym: TIDieR-Telehealth
-provided-for: Reporting of telehealth interventions.
-rg-doi: ''
-pmid-id: '[35655144](https://pubmed.ncbi.nlm.nih.gov/35655144/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/35655144/
-relevant-urls: '[Read the full-text](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01640-7)
-  of TIDieR-Telehealth.'
-full-bibliographic-reference: 'Rhon DI, Fritz JM, Kerns RD, McGeary DD, Coleman BC,
-  Farrokhi S, Burgess DJ, Goertz CM, Taylor SL, Hoffmann T. TIDieR-telehealth: precision
-  in reporting of telehealth interventions used in clinical trials - unique considerations
-  for the Template for the Intervention Description and Replication (TIDieR) checklist.
-  BMC Med Res Methodol. 2022;22(1):161.'
-
+title: 'The SCARE 2020 Guideline: Updating Consensus Surgical CAse  REport  (SCARE) Guidelines'
+aliases:
+  - /reporting-guidelines/the-scare-statement-consensus-based-surgical-case-report-guidelines/
+acronym: SCARE
+provided-for: Reporting of surgical case reports.
+rg-doi: '10.1097/JS9.0000000000000373'
+pmid-id: '[37013953](https://pubmed.ncbi.nlm.nih.gov/37013953/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/33181358/
+relevant-urls: ''
+full-bibliographic-reference: |-
+  Sohrabi C, Mathew G, Maria N, Kerwan A, Franchi T, Agha RA. The SCARE 2023 guideline: updating consensus Surgical CAse REport (SCARE) guidelines. Int J Surg. 2023 May 1;109(5):1136-1140.
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: ''
-guideline-history: ''
+guideline-history: |-
+  The SCARE Statement was originally published in 2016 and updated in 2018, 202, and more recently in 2023:
+
+  2016
+
+  Agha RA, Fowler AJ, Saeta A, Barai I, Rajmohan S, Orgill DP; SCARE Group. The SCARE Statement: Consensus-based surgical case report guidelines. Int J Surg. 2016;34:180-186. PMID: [27613565](http://www.ncbi.nlm.nih.gov/pubmed/27613565)
+
+  2018 update
+
+  Agha RA, Borrelli MR, Farwana R, Koshy K, Fowler A, Orgill DP; SCARE Group. The SCARE 2018 Statement: Updating Consensus Surgical CAse REport (SCARE) Guidelines. Int J Surg. 2018;60:132-136. PMID: [30342279](http://www.ncbi.nlm.nih.gov/pubmed/30342279)
+  
+  2020 update
+  
+  Agha RA, Franchi T, Sohrabi C, Mathew G, Kerwan A;
+  SCARE Group. The SCARE 2020 Guideline: Updating Consensus Surgical CAse REport (SCARE) Guidelines. Int J Surg. 2020:S1743-9191(20)30771-8. PMID: [33181358](http://www.ncbi.nlm.nih.gov/pubmed/33181358)
 relevant-more: ''
-website-url: ''
+website-url:
 additional-languages: ''
-additional-information: ''
+additional-information: |-
+  Read the protocol for the development of this reporting guideline:
+
+  <http://www.sciencedirect.com/science/article/pii/S1743919116001047>
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
@@ -38,13 +50,13 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-- Clinical trials
+# - Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-- Experimental studies
+# - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-# - Observational studies
+- Observational studies
 # - Other
 # - Patent landscapes
 # - Qualitative research
@@ -92,11 +104,11 @@ clinical-specialty:
 # - Respiratory medicine
 # - Rheumatology
 # - Sport and exercise medicine
-# - Surgery
+- Surgery
 # - Toxicology
 # - Tropical medicine
 # - Urology
-- No clinical specialty specified
+# - No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements
@@ -110,7 +122,7 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-- Intervention (exposure)
+# - Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
@@ -122,41 +134,29 @@ report-section:
 # - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-# - Whole report
+- Whole report
 # - No report section specified
 keyword:
-- application consolidation contexualisation
+- CARE case extension
+- CARE extension
+- CARE guideline extension
+- case
+- case report
+- case reporting
+- case reports
+- case studies
+- case study
 - checklist
-- checklists
-- clinical trial
-- clinical trials
-- controlled clinical trial
-- controlled clinical trials
-- intervention
-- interventions
-- randomised controlled trial
-- randomised controlled trials
-- randomised trial
-- randomised trials
-- randomized controlled trial
-- randomized controlled trials
-- randomized trial
-- randomized trials
-- RCT
-- RCTs
-- remote
-- remote delivery
-- remotely
-- technology
-- telehealth
-- telemedicine
-- telephone
-- TIDieR
-- TIDieR-Telehealth
-- trial
-- trials
-- virtual
-- virtual care
+- SCARE
+- SCARE checklist
+- SCARE guideline
+- SCARE Statement
+- surgery
+- surgical
+- surgical case report
+- surgical case reports
+- surgical case studies
+- surgical case study
 
 ---
 

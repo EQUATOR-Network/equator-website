@@ -1,14 +1,22 @@
 ---
 # REQUIRED FIELDS
-title: The Reporting Items for Patent Landscapes statement
-acronym: RIPL
-provided-for: Reporting of patent landscapes.
+title: 'The ORION statement: guidelines for transparent reporting of Outbreak Reports and Intervention studies Of Nosocomial infection'
+aliases:
+  - /reporting-guidelines/the-orion-statement-guidelines-for-transparent-reporting-of-outbreak-reports-and-intervention-studies-of-nosocomial-infection/
+acronym: ORION
+provided-for: Outbreak reports and intervention studies of nosocomial infection.
 rg-doi: ''
-pmid-id: '[30412195](https://www.ncbi.nlm.nih.gov/pubmed/30412195)'
-pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/30412195
+pmid-id: ''
+pmid-url: ''
 relevant-urls: ''
-full-bibliographic-reference: Smith JA, Arshad Z, Trippe A, Collins GS, Brindley DA,
-  Carr AJ. The Reporting Items for Patent Landscapes statement. Nat Biotechnol. 2018;36(11):1043-1047.
+full-bibliographic-reference: |-
+  Stone SP, Cooper BS, Kibbler CC, Cookson BD, Roberts JA, Medley GF, Duckworth G, Lai R, Ebrahim S, Brown EM, Wiffen PJ, Davey PG. The ORION statement: guidelines for transparent reporting of Outbreak Reports and Intervention studies Of Nosocomial infection.
+
+  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
+
+  J Antimicrob Chemother. 2007;59(5):833-840. PMID: [17387116](http://www.ncbi.nlm.nih.gov/pubmed/17387116)
+
+  Lancet Infect Dis. 2007;7(4):282–288. PMID: [17376385](http://www.ncbi.nlm.nih.gov/pubmed/17376385)
 
 
 # OPTIONAL FIELDS
@@ -18,10 +26,7 @@ guideline-history: ''
 relevant-more: ''
 website-url: ''
 additional-languages: ''
-additional-information: |-
-  Read the background paper by the reporting guideline authors assessing the quality of reporting in patent landscapes in the life sciences:
-
-  Smith JA, Arshad Z, Thomas H, Carr AJ, Brindley DA. Evidence of insufficient quality of reporting in patent landscapes in the life sciences. Nat Biotechnol. 2017;35(3): 210-214. PMID: [28267720](https://www.ncbi.nlm.nih.gov/pubmed/28267720)
+additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
@@ -35,15 +40,15 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
+- Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-# - Experimental studies
+- Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-# - Observational studies
-# - Other
-- Patent landscapes
+- Observational studies
+- Other
+# - Patent landscapes
 # - Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
@@ -65,7 +70,7 @@ clinical-specialty:
 # - Haematology
 # - Health informatics
 # - Hepatology
-# - Infectious diseases
+- Infectious diseases
 # - Medical education
 # - Neurology
 # - Nuclear medicine
@@ -93,7 +98,7 @@ clinical-specialty:
 # - Toxicology
 # - Tropical medicine
 # - Urology
-- No clinical specialty specified
+# - No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements
@@ -122,25 +127,41 @@ report-section:
 - Whole report
 # - No report section specified
 keyword:
+- antimicrobial resistance
 - checklist
-- checklists
-- innovation
-- intellectual properties
-- intellectual property
-- intellectual property landscape
-- landscape
-- landscapes
-- landscaping
-- patent
-- patent landscape
-- patent landscapes
-- patent landscaping
-- patents
-- Reporting Items for Patent Landscapes
-- Reporting Items for Patent Landscapes (RIPL) checklist
-- RIPL
-- RIPL checklist
-- technology
+- clinical studies
+- clinical study
+- experimental studies
+- experimental study
+- HCAI
+- health-care associated infection
+- health-care associated infections
+- hospital
+- hospital epidemiology
+- infection
+- infection control
+- infectious disease epidemiology
+- infectious diseases
+- interrupted time series
+- intervention studies
+- intervention study
+- non-randomised
+- non-randomized
+- nonrandomised
+- nonrandomized
+- nosocomial
+- nosocomial infection
+- observational studies
+- observational study
+- ORION
+- ORION statement
+- outbreak report
+- outbreak reports
+- quasi experimental
+- quasi-experimental studies
+- quasi-experimental study
+- statistical technique
+- statistical techniques
 
 ---
 

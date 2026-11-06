@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: 'TIDieR-PHP : a reporting guideline for population health and policy interventions'
+aliases:
+  - /reporting-guidelines/tidier-php-a-reporting-guideline-for-population-health-and-policy-interventions/
 acronym: TIDieR-PHP
 provided-for: Reporting public health, health systems, and social and environmental
   policy interventions.

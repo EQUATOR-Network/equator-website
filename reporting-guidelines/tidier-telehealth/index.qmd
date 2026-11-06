@@ -1,21 +1,20 @@
 ---
 # REQUIRED FIELDS
-title: 'The ORION statement: guidelines for transparent reporting of Outbreak Reports
-  and Intervention studies Of Nosocomial infection'
-acronym: ORION
-provided-for: Outbreak reports and intervention studies of nosocomial infection.
+title: 'TIDieR-telehealth : precision in reporting of telehealth interventions used in clinical trials – unique considerations for the Template for the Intervention Description and Replication (TIDieR) checklist'
+aliases:
+  - /reporting-guidelines/tidier-telehealth-precision-in-reporting-of-telehealth-interventions-used-in-clinical-trials-unique-considerations-for-the-template-for-the-intervention-description-and-replication-tidier-checkli/
+acronym: TIDieR-Telehealth
+provided-for: Reporting of telehealth interventions.
 rg-doi: ''
-pmid-id: ''
-pmid-url: ''
-relevant-urls: ''
-full-bibliographic-reference: |-
-  Stone SP, Cooper BS, Kibbler CC, Cookson BD, Roberts JA, Medley GF, Duckworth G, Lai R, Ebrahim S, Brown EM, Wiffen PJ, Davey PG. The ORION statement: guidelines for transparent reporting of Outbreak Reports and Intervention studies Of Nosocomial infection.
-
-  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
-
-  J Antimicrob Chemother. 2007;59(5):833-840. PMID: [17387116](http://www.ncbi.nlm.nih.gov/pubmed/17387116)
-
-  Lancet Infect Dis. 2007;7(4):282–288. PMID: [17376385](http://www.ncbi.nlm.nih.gov/pubmed/17376385)
+pmid-id: '[35655144](https://pubmed.ncbi.nlm.nih.gov/35655144/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/35655144/
+relevant-urls: '[Read the full-text](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01640-7)
+  of TIDieR-Telehealth.'
+full-bibliographic-reference: 'Rhon DI, Fritz JM, Kerns RD, McGeary DD, Coleman BC,
+  Farrokhi S, Burgess DJ, Goertz CM, Taylor SL, Hoffmann T. TIDieR-telehealth: precision
+  in reporting of telehealth interventions used in clinical trials - unique considerations
+  for the Template for the Intervention Description and Replication (TIDieR) checklist.
+  BMC Med Res Methodol. 2022;22(1):161.'
 
 
 # OPTIONAL FIELDS
@@ -45,8 +44,8 @@ study-design:
 - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-- Observational studies
-- Other
+# - Observational studies
+# - Other
 # - Patent landscapes
 # - Qualitative research
 # - Quality improvement studies
@@ -69,7 +68,7 @@ clinical-specialty:
 # - Haematology
 # - Health informatics
 # - Hepatology
-- Infectious diseases
+# - Infectious diseases
 # - Medical education
 # - Neurology
 # - Nuclear medicine
@@ -97,7 +96,7 @@ clinical-specialty:
 # - Toxicology
 # - Tropical medicine
 # - Urology
-# - No clinical specialty specified
+- No clinical specialty specified
 report-section:
 # - Abstract
 # - Acknowledgements
@@ -111,7 +110,7 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-# - Intervention (exposure)
+- Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
@@ -123,44 +122,41 @@ report-section:
 # - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-- Whole report
+# - Whole report
 # - No report section specified
 keyword:
-- antimicrobial resistance
+- application consolidation contexualisation
 - checklist
-- clinical studies
-- clinical study
-- experimental studies
-- experimental study
-- HCAI
-- health-care associated infection
-- health-care associated infections
-- hospital
-- hospital epidemiology
-- infection
-- infection control
-- infectious disease epidemiology
-- infectious diseases
-- interrupted time series
-- intervention studies
-- intervention study
-- non-randomised
-- non-randomized
-- nonrandomised
-- nonrandomized
-- nosocomial
-- nosocomial infection
-- observational studies
-- observational study
-- ORION
-- ORION statement
-- outbreak report
-- outbreak reports
-- quasi experimental
-- quasi-experimental studies
-- quasi-experimental study
-- statistical technique
-- statistical techniques
+- checklists
+- clinical trial
+- clinical trials
+- controlled clinical trial
+- controlled clinical trials
+- intervention
+- interventions
+- randomised controlled trial
+- randomised controlled trials
+- randomised trial
+- randomised trials
+- randomized controlled trial
+- randomized controlled trials
+- randomized trial
+- randomized trials
+- RCT
+- RCTs
+- remote
+- remote delivery
+- remotely
+- technology
+- telehealth
+- telemedicine
+- telephone
+- TIDieR
+- TIDieR-Telehealth
+- trial
+- trials
+- virtual
+- virtual care
 
 ---
 
