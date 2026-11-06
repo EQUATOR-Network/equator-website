@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: The Reporting Items for Patent Landscapes statement
+aliases:
+  - /reporting-guidelines/the-reporting-items-for-patent-landscapes-statement/
 acronym: RIPL
 provided-for: Reporting of patent landscapes.
 rg-doi: ''
