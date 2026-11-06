@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: 'REFORMS : Consensus-based Recommendations for Machine-learning-based Science'
+aliases:
+  - /reporting-guidelines/reforms-consensus-based-recommendations-for-machine-learning-based-science/
 acronym: ''
 provided-for: Reporting machine learning (ML) based science.
 rg-doi: ''

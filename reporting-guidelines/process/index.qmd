@@ -1,25 +1,38 @@
 ---
 # REQUIRED FIELDS
-title: 'Preferred Reporting Items for the Development of Evidence-based Clinical Practice
-  Guidelines in Traditional Medicine (PRIDE-CPG-TM) : Explanation and elaboration'
-acronym: PRIDE-CPG-TM
-provided-for: Reporting of clinical practice guidelines in traditional medicine.
+title: Preferred Reporting Of Case Series in Surgery (PROCESS) 2023 guidelines
+aliases:
+  - /reporting-guidelines/preferred-reporting-of-case-series-in-surgery-the-process-guidelines/
+acronym: PROCESS
+provided-for: Reporting surgical case series.
 rg-doi: ''
-pmid-id: ''
-pmid-url: ''
-relevant-urls: 'The PRIDE-CPG-TM guideline can be accessed at: [http://dx.doi.org/10.1016/j.eujim.2016.07.027](https://dx.doi.org/10.1016/j.eujim.2016.07.027)'
-full-bibliographic-reference: 'Choia J, Choia T-Y, Juna JH, Leeb JA, Lee MS. Preferred
-  Reporting Items for the Development of Evidence-based Clinical Practice Guidelines
-  in Traditional Medicine (PRIDE-CPG-TM): Explanation and elaboration. Eur J Integr
-  Med. 2016; 8(6):905-915.'
+pmid-id: '[37988417](https://pubmed.ncbi.nlm.nih.gov/37988417/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/37988417/
+relevant-urls: ''
+full-bibliographic-reference: Mathew G, Sohrabi C, Franchi T, Nicola M, Kerwan A,
+  Agha R; PROCESS Group. Preferred Reporting Of Case Series in Surgery (PROCESS) 2023
+  guidelines. Int J Surg. 2023;109(12):3760-3769.
 
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: ''
-guideline-history: ''
+guideline-history: |-
+  The PROCESS reporting guideline was originally published in 2016 and updated in 2018 and 2020.
+
+  2016
+
+  Agha RA, Fowler AJ, Rajmohan S, Barai I, Orgill DP; PROCESS Group. Preferred reporting of case series in surgery; the PROCESS guidelines. Int J Surg. 2016;36 (Pt A):319-323. PMID: [27770639](https://www.ncbi.nlm.nih.gov/pubmed/27770639)
+
+  2018 update
+
+  Agha RA, Borrelli MR, Farwana R, Koshy K, Fowler A, Orgill DP; SCARE Group. The PROCESS 2018 Statement: Updating Consensus Preferred Reporting Of CasE Series in Surgery (PROCESS) Guidelines. Int J Surg. 2018. PMID: [30359781](https://www.ncbi.nlm.nih.gov/pubmed/30359781)
+
+  2020 update
+
+  Agha RA, Sohrabi C, Mathew G, Franchi T, Kerwan A, O'Neill N; PROCESS Group. The PROCESS 2020 Guideline: Updating Consensus Preferred Reporting Of CasE Series in Surgery (PROCESS) Guidelines. Int J Surg. 2020:S1743-9191(20)30779-2. PMID: [33189880](https://pubmed.ncbi.nlm.nih.gov/33189880/)
 relevant-more: ''
-website-url: ''
+website-url: <http://www.processguideline.com/>
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''
@@ -34,14 +47,14 @@ downloads: ''
 study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
-- Clinical practice guidelines
+# - Clinical practice guidelines
 # - Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
 # - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-# - Observational studies
+- Observational studies
 # - Other
 # - Patent landscapes
 # - Qualitative research
@@ -56,7 +69,7 @@ clinical-specialty:
 # - Audiovestibular medicine
 # - Behavioural medicine
 # - Cardiovascular medicine
-- Complementary and alternative medicine
+# - Complementary and alternative medicine
 # - Dentistry
 # - Dermatology
 # - Emergency medicine
@@ -89,7 +102,7 @@ clinical-specialty:
 # - Respiratory medicine
 # - Rheumatology
 # - Sport and exercise medicine
-# - Surgery
+- Surgery
 # - Toxicology
 # - Tropical medicine
 # - Urology
@@ -122,23 +135,18 @@ report-section:
 - Whole report
 # - No report section specified
 keyword:
-- CAM
+- case report
+- case series
 - checklist
 - checklists
-- clinical practice guideline
-- clinical practice guidelines
-- complementary and alternative medicine
-- complementary medicine
-- CPG
-- CPGs
-- Preferred Reporting Items for Development of Evidence-based Clinical Practice Guideline
-  in Traditional Medicine
-- PRIDE-CPG-TM
-- TCM
-- TM
-- traditional Chinese medicine
-- traditional Chinese medicines
-- traditional medicine
+- PROCESS
+- PROCESS checklist
+- PROCESS guideline
+- PROCESS guidelines
+- surgery
+- surgery case series
+- surgical
+- surgical case series
 
 ---
 

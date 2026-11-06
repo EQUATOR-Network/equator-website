@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Rasch Reporting Guideline for Rehabilitation Research (RULER) : The RULER
-  Statement'
+title: 'Rasch Reporting Guideline for Rehabilitation Research (RULER) : The RULER Statement'
+aliases:
+  - /reporting-guidelines/rasch-reporting-guideline-for-rehabilitation-research-ruler-the-ruler-statement/
 acronym: RULER
 provided-for: Reporting studies that apply Rasch Measurement Theory in a rehabilitation
   context.

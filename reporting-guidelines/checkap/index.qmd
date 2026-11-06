@@ -1,19 +1,19 @@
 ---
 # REQUIRED FIELDS
-title: 'Preferred Reporting Items for Resistance Exercise Studies (PRIRES) : A Checklist
-  Developed Using an Umbrella Review of Systematic Reviews'
-acronym: PRIRES
-provided-for: Reporting resistance exercise intervention studies.
+title: 'Chec KAP : A Checklist for Reporting a Knowledge, Attitude, and Practice (KAP) Study'
+aliases:
+  - /reporting-guidelines/checkap-a-checklist-for-reporting-a-knowledge-attitude-and-practice-kap-study/
+acronym: ChecKAP
+provided-for: Reporting Knowledge, Attitude, and Practices (KAP) Studies.
 rg-doi: ''
-pmid-id: '[38040927](https://pubmed.ncbi.nlm.nih.gov/38040927/)'
-pmid-url: https://pubmed.ncbi.nlm.nih.gov/38040927/
+pmid-id: '[39068593](https://pubmed.ncbi.nlm.nih.gov/39068593/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/39068593/
 relevant-urls: ''
-full-bibliographic-reference: |-
-  Lin TY, Chueh TY, Hung TM. Preferred Reporting Items for Resistance Exercise Studies (PRIRES): A Checklist Developed Using an Umbrella Review of Systematic Reviews. Sports Med Open. 2023; 9: 114. PMID: [38040927](https://pubmed.ncbi.nlm.nih.gov/38040927/) [full text](https://link.springer.com/article/10.1186/s40798-023-00640-1) \
+full-bibliographic-reference: 'Zarei F, Dehghani A, Ratansiri A, Ghaffari M, Raina
+  SK, Halimi A, Rakhshanderou S, Isamel SA, Amiri P, Aminafshar A, Mosavi Jarrahi
+  A. ChecKAP: A Checklist for Reporting a Knowledge, Attitude, and Practice (KAP)
+  Study. Asian Pac J Cancer Prev. 2024;25(7):2573-2577.'
 
-  **Explanation and Elaboration**
-  
-  Lin TY, Chueh TY, Hung TM. Preferred reporting items for resistance exercise studies (PRIRES) explanation and elaboration. J Sports Sci. 2026 Feb;44(3):298-321. PMID: [41249931](https://pubmed.ncbi.nlm.nih.gov/41249931/) [full text](https://www.tandfonline.com/doi/full/10.1080/02640414.2025.2578030)
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -22,7 +22,8 @@ guideline-history: ''
 relevant-more: ''
 website-url: ''
 additional-languages: ''
-additional-information: A PRIRES Checklist for Protocols has also been developed.
+additional-information: The checklist can be found in appendix 1 of the supplementary
+  file.
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
@@ -36,19 +37,19 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-- Clinical trials
+# - Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
-- Experimental studies
+# - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 # - Observational studies
 # - Other
 # - Patent landscapes
-# - Qualitative research
+- Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
-- Study protocols
+# - Study protocols
 # - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
 # - No study design specified
 clinical-specialty:
@@ -83,13 +84,13 @@ clinical-specialty:
 # - Primary care
 # - Psychiatry
 # - Psychology
-# - Public health
+- Public health
 # - Radiology
 # - Rehabilitation medicine
 # - Renal medicine
 # - Respiratory medicine
 # - Rheumatology
-- Sport and exercise medicine
+# - Sport and exercise medicine
 # - Surgery
 # - Toxicology
 # - Tropical medicine
@@ -108,7 +109,7 @@ report-section:
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
-- Intervention (exposure)
+# - Intervention (exposure)
 # - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
@@ -120,41 +121,28 @@ report-section:
 # - Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-# - Whole report
+- Whole report
 # - No report section specified
 keyword:
-- athletics
-- CERT
-- clinical trial
-- clinical trials
-- exercise
-- exercising
-- kinesiology
-- Preferred Reporting Items for Resistance Exercise Studies
-- PRIRES
-- PRIRES checklist
-- protocol
-- protocols
-- randomised controlled trial
-- randomised controlled trials
-- randomised trial
-- randomised trials
-- randomized controlled trial
-- randomized controlled trials
-- randomized trial
-- randomized trials
-- RCT
-- RCTs
-- resistance
-- resistance exercise
-- sport
-- sports
-- strength
-- training
-- trial
-- trials
-- weight
-- weights
+- ChecKAP
+- checklist
+- Checklist for Reporting Items for Knowledge Attitude and Practice
+- checklists
+- KAP
+- KAP checklist
+- KAP studies
+- KAP study
+- KAP survey
+- KAP surveys
+- knowledge
+- knowledge attitudes practices
+- knowledge attitudes practices studies
+- knowledge attitudes practices study
+- population
+- public health
+- qualitative
+- survey
+- surveys
 
 ---
 
