@@ -931,29 +931,25 @@
       "/reporting-guidelines/under-development/transparent-reporting-of-educational-interventions-and-curriculum-research-in-health-professions-education/index.html",
       "/reporting-guidelines/under-development/teach/index.html",
       "/reporting-guidelines/under-development/unite-reporting-guidelines-for-youth-and-family-specific-engagement-in-research/index.html",
+      "/reporting-guidelines/under-development/united-through-health/index.html",
       "/reporting-guidelines/under-development/updating-the-reporting-guidelines-for-music-based-interventions/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
     ]
   },
   {
-    "listing": "/about/equator-network.html",
+    "listing": "/index.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
     ]
   },
   {
-    "listing": "/about/international-equator-centres.html",
+    "listing": "/news/index.html",
     "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
+      "/news/posts/2026-10-22-website-redesign/index.html"
     ]
   },
   {
@@ -967,18 +963,23 @@
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/about/international-equator-centres.html",
     "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/about/equator-network.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   }
 ]
