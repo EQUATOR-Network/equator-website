@@ -96,4 +96,4 @@ registration requirements.
   (e.g. some journals recommend authors to read the CONSORT Statement when
   planning a randomised trial even before starting participants’
   recruitment)
-- When writing up your
+- When writing up your research consult our [toolkit on how to write a great research paper using reporting guidelines](/toolkits/writing-research/index.qmd)
