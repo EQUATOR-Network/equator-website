@@ -7,9 +7,7 @@ rg-doi: 10.1097/NCQ.0000000000000912
 pmid-id: '[40937903](https://pubmed.ncbi.nlm.nih.gov/40937903/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40937903/
 relevant-urls: ''
-full-bibliographic-reference: 'Reynolds SS, Waldrop JB, Dunlap JJ. Evidence-Based
-  Practice Quality Improvement Reporting Guidelines. J Nurs Care Qual. 2025 Sep 12.
-  doi: 10.1097/NCQ.0000000000000912'
+full-bibliographic-reference: 'Reynolds SS, Waldrop JB, Dunlap JJ. Evidence-Based Practice Quality Improvement Reporting Guidelines. J Nurs Care Qual. 2025; 41: 17-21. PMID: [40937903](https://pubmed.ncbi.nlm.nih.gov/40937903/) [full text](https://doi.org/10.1097/NCQ.0000000000000912)'
 
 
 # OPTIONAL FIELDS
@@ -43,7 +41,7 @@ study-design:
 # - Other
 # - Patent landscapes
 # - Qualitative research
-# - Quality improvement studies
+- Quality improvement studies
 # - Reliability and agreement studies
 # - Study protocols
 # - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
