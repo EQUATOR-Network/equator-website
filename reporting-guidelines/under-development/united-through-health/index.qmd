@@ -1,0 +1,23 @@
+---
+title: "United Through Health (UTH) — a reporting guideline for published national calculations of the monetary cost of the between-group gap in access to health (health-economic estimates of what unequal access costs)"
+contact-name: "Victoria Astorga"
+contact-email: "victoria@unitedthroughhealth.org"
+date-registered: "7 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+- Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+United Through Health (UTH) is a reporting guideline for a specific, under-served output: a published national calculation of the monetary cost of the gap between groups (for example women and men) in access to health — what unequal access costs a country. Such figures increasingly appear in government reports, agency analyses and peer-reviewed articles, but are rarely reproducible by a reader outside the issuing body: the price year, the comparison population, the scope and exclusions, and the source locators are often unstated, so the figure cannot be traced from source data to result, cannot be compared between countries, and cannot be audited. No existing reporting guideline covers this output. UTH's checklist specifies what such a calculation must contain to be reproducible: scope and exclusions; a burden base disaggregated by the dimension of inequality being priced; a cost base in national currency with a stated price year; a named comparison population; followability (source locators); and transmission. It prescribes no method and no value. It maps, criterion by criterion, onto GATHER 2016 and CHEERS 2022, and covers ground neither reaches: a monetised national access-gap claim published outside peer review — by a ministry, an agency, an intergovernmental body or a consultancy — where no intervention is compared and no journal is reviewing the submission. The criteria are what such a publisher should report for the figure to be reproducible; the same checklist can then be applied by a reader to a calculation already published. A companion register applies the checklist to published national calculations as an empirical test of its usefulness.
+{{< include ../_template.qmd >}}
