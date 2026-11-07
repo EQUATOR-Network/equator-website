@@ -5,10 +5,10 @@ aliases:
   - /reporting-guidelines/consort-2010-statement-updated-guidelines-for-reporting-parallel-group-randomised-trials/
 acronym: CONSORT
 provided-for: Reporting of randomised trials.
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
-relevant-urls: <https://www.consort-spirit.org/>
+rg-doi: 'https://doi.org/10.1136/bmj-2024-081123'
+pmid-id: '40228833'
+pmid-url: '[40228833](https://pubmed.ncbi.nlm.nih.gov/40228833/)'
+relevant-urls: 'Read the [full-text](https://doi.org/10.1136/bmj-2024-081123) of CONSORT-2025'
 full-bibliographic-reference: |-
   Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne D, Farmer A, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson D, Vohra S, White IR, Boutron I. CONSORT 2025 statement: updated guideline for reporting randomised trials. \
 
@@ -131,9 +131,10 @@ other: |-
 other-relevant-research: ''
 sticky: true
 search-priority: 1
-downloads: '[CONSORT 2025 Checklist (Download from CONSORT-SPIRIT website)](https://www.consort-spirit.org/)'
-
-
+downloads: |-
+  [CONSORT 2025 Checklist](/reporting-guidelines/consort/CONSORT 2025 checklist.docx) \
+  
+  [CONSORT 2025 expanded checklist](https://www.bmj.com/highwire/filestream/1108702/field_highwire_adjunct_files/1/hops081123.ww2.pdf)
 # LIST FIELDS
 study-design:
 # - Animal pre-clinical research

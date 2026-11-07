@@ -5,10 +5,10 @@ aliases:
   - /reporting-guidelines/spirit-2013-statement-defining-standard-protocol-items-for-clinical-trials
 acronym: SPIRIT
 provided-for: Defining standard protocol items for clinical trials
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
-relevant-urls: <https://www.consort-spirit.org/>
+rg-doi: 'https://doi.org/10.1136/bmj-2024-081477'
+pmid-id: '40294956'
+pmid-url: '[40294956](https://pubmed.ncbi.nlm.nih.gov/40294956/)'
+relevant-urls: 'Read the [full-text](https://doi.org/10.1136/bmj-2024-081477) of SPIRIT-2025'
 full-bibliographic-reference: |-
   Chan AW, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Hróbjartsson A. SPIRIT 20205 statement: updated guideline for protocols of randomized trials. \
 
@@ -72,9 +72,11 @@ other: ''
 other-relevant-research: ''
 sticky: true
 search-priority: 1
-downloads: '[SPIRIT 2025 Checklist (Download from CONSORT-SPIRIT website)](https://www.consort-spirit.org/)'
+downloads: |-
+  [SPIRIT 2025 Checklist (Download from CONSORT-SPIRIT website)](/reporting-guidelines/spirit/SPIRIT 2025 checklist.docx)
 
-
+  [SPIRIT 2025 expanded checklist](https://www.bmj.com/highwire/filestream/1109138/field_highwire_adjunct_files/0/chaa081477.ww.pdf)
+  
 # LIST FIELDS
 study-design:
 # - Animal pre-clinical research
