@@ -8,10 +8,7 @@ rg-doi: ''
 pmid-id: '[37695653](https://pubmed.ncbi.nlm.nih.gov/37695653/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/37695653/
 relevant-urls: ''
-full-bibliographic-reference: 'Trompier F, DeWerd LA, Poirier Y, Dos Santos M, Sheng
-  K, Kunugi KA, Winters TA, DiCarlo AL, Satyamitra M. Commentary: minimum reporting
-  standards should be expected for preclinical radiobiology irradiators and dosimetry
-  in the published literature. Int J Radiat Biol. 2023:1-6.'
+full-bibliographic-reference: 'Trompier F, DeWerd LA, Poirier Y, Dos Santos M, Sheng K, Kunugi KA, Winters TA, DiCarlo AL, Satyamitra M. Commentary: minimum reporting standards should be expected for preclinical radiobiology irradiators and dosimetry in the published literature. Int J Radiat Biol. 2023:1-6.'
 
 
 # OPTIONAL FIELDS

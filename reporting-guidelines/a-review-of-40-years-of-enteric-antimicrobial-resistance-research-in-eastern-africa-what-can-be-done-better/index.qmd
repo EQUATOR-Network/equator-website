@@ -1,16 +1,13 @@
 ---
 # REQUIRED FIELDS
-title: 'A review of 40 years of enteric antimicrobial resistance research in Eastern
-  Africa: what can be done better?'
+title: 'A review of 40 years of enteric antimicrobial resistance research in Eastern Africa: what can be done better?'
 acronym: ''
 provided-for: Reporting research on antimicrobial resistance.
 rg-doi: ''
 pmid-id: '[25717374](http://www.ncbi.nlm.nih.gov/pubmed/25717374)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25717374
 relevant-urls: ''
-full-bibliographic-reference: 'Omulo S, Thumbi SM, Njenga MK, Call DR. A review of
-  40 years of enteric antimicrobial resistance research in Eastern Africa: what can
-  be done better? Antimicrob Resist Infect Control. 2015;4:1.'
+full-bibliographic-reference: 'Omulo S, Thumbi SM, Njenga MK, Call DR. A review of 40 years of enteric antimicrobial resistance research in Eastern Africa: what can be done better? Antimicrob Resist Infect Control. 2015;4:1.'
 
 
 # OPTIONAL FIELDS

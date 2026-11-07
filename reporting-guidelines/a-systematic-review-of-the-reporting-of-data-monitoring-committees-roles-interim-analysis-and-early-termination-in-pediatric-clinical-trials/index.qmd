@@ -1,17 +1,13 @@
 ---
 # REQUIRED FIELDS
-title: A systematic review of the reporting of Data Monitoring Committees’ roles,
-  interim analysis and early termination in pediatric clinical trials
+title: A systematic review of the reporting of Data Monitoring Committees’ roles, interim analysis and early termination in pediatric clinical trials
 acronym: ''
-provided-for: Reporting of Data Monitoring Committees' roles, interim analysis and
-  early termination in pediatric clinical trials
+provided-for: Reporting of Data Monitoring Committees' roles, interim analysis and early termination in pediatric clinical trials
 rg-doi: ''
 pmid-id: '[20003383](http://www.ncbi.nlm.nih.gov/pubmed/20003383)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/20003383
 relevant-urls: ''
-full-bibliographic-reference: Fernandes RM, van der Lee JH, Offringa M. A systematic
-  review of the reporting of Data Monitoring Committees' roles, interim analysis and
-  early termination in pediatric clinical trials. BMC Pediatr. 2009;9:77.
+full-bibliographic-reference: Fernandes RM, van der Lee JH, Offringa M. A systematic review of the reporting of Data Monitoring Committees' roles, interim analysis and early termination in pediatric clinical trials. BMC Pediatr. 2009;9:77.
 
 
 # OPTIONAL FIELDS
