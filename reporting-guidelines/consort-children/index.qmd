@@ -129,7 +129,7 @@ study-design:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines
-# - Clinical trials
+- Clinical trials
 # - Diagnostic and prognostic studies
 # - Economic evaluations
 # - Experimental studies
@@ -143,7 +143,7 @@ study-design:
 # - Reliability and agreement studies
 # - Study protocols
 # - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
-- No study design specified
+# - No study design specified
 clinical-specialty:
 # - Allergy
 # - Anaesthesia

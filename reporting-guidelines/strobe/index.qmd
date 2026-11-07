@@ -7,9 +7,9 @@ aliases:
 acronym: STROBE
 provided-for: Observational studies in epidemiology (cohort, case-control studies,
   cross-sectional studies)
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
+rg-doi: 'https://doi.org/10.1136/bmj.39335.541782.ad'
+pmid-id: '17947786'
+pmid-url: '[17947786](http://www.ncbi.nlm.nih.gov/pubmed/17947786)'
 relevant-urls: ''
 full-bibliographic-reference: |-
   von Elm E, Altman DG, Egger M, Pocock SJ, Gotzsche PC, Vandenbroucke JP. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: guidelines for reporting observational studies. \
