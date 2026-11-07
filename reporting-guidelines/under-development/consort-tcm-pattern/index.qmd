@@ -1,0 +1,31 @@
+---
+title: "CONSORT Extension for TCM Pattern-Guided Same Treatment for Different Diseases Randomized Controlled Trials: the CONSORT-TCM Pattern Statement"
+contact-name: "Lu Wang"
+contact-email: "18300704968@163.com"
+date-registered: "7 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Randomized controlled trials (RCTs) are the gold standard for evaluating the efficacy of interventions, and the completeness of their reporting directly impacts the reliability and applicability of research findings. To improve the reporting quality of RCTs, the internationally recognized CONSORT statement was first published in 1996 and has been continuously updated. To address the specific methodological needs of different trial designs and interventions, the CONSORT Group has developed a series of extensions. Among these, the Consolidated Standards of Reporting Trials for Chinese Herbal Medicine Formulas (CONSORT-CHM Formula) is an extension specifically developed to enhance the reporting quality of RCTs on Chinese herbal medicine formulas. The core of Traditional Chinese Medicine (TCM) theory lies in "treatment based on pattern differentiation," which includes two guiding principles: "different treatments for same disease" and " same treatment for different diseases." The CONSORT-CHM Formula extension primarily applies to the model of "different treatments for same disease" (i.e., applying different treatments for different TCM syndrome patterns within the same western medicine disease). However, it lacks specific guidance for the research model of "treating different diseases with the same method."
+
+"Same treatment for different diseases" refers to applying the same TCM treatment method (e.g., the method of clearing heat and transform phlegm) when patients with different diseases (for example, chronic obstructive pulmonary disease and lung cancer) present with the same TCM "syndrome pattern" (i.e., an identifiable core set of symptoms and signs, such as the " phlegm heat accumulating in the lung pattern "). This concept is highly similar in logic to the modern precision medicine design of "basket trials," where the same intervention is applied based on a common biological target (in TCM, corresponding to the "syndrome pattern") across different diseases.
+
+Currently, the coexistence of multiple diseases (multimorbidity) has become a global public health challenge, especially among the elderly population, and there is still a lack of unified management models for multimorbidity. The TCM concept of " same treatment for different diseases"-treating based on a common "syndrome pattern" rather than different disease diagnoses-offers a new perspective for managing multimorbidity.
+
+Despite its promising potential, current RCTs following the " same treatment for different diseases" model often suffer from incomplete reporting and unclear descriptions of research methods, severely compromising study transparency and the value of the evidence. Furthermore, the latest CONSORT 2025 statement has added a new "Open Science" section and integrated updates to several items.
+Therefore, it is particularly necessary to develop a dedicated reporting guideline for RCTs based on the TCM syndrome pattern-led model of "same treatment for different diseases." This guideline will primarily apply to such research, and it is also applicable to RCTs targeting patients with multimorbidity who present with the same syndrome pattern. We will develop this extension based on the CONSORT 2025 framework and the CONSORT-CHM Formula statement, aiming to fill the gap. This will ensure the clear, complete, and standardized reporting of the design, implementation, and results of such trials, thereby comprehensively enhancing their methodological quality and reporting transparency.
+
+{{< include ../_template.qmd >}}
