@@ -30,7 +30,6 @@
       "/reporting-guidelines/under-development/consens-recommendations-for-improving-reporting-of-contextual-analysis-in-implementation-science/index.html",
       "/reporting-guidelines/under-development/consort-extension-for-herbal-harms-reporting/index.html",
       "/reporting-guidelines/under-development/consort-extension-for-multicenter-clinical-trials-2020-recommendations-explanation-and-elaboration/index.html",
-      "/reporting-guidelines/under-development/consort-extension-for-trials-conducted-in-existing-data-structures/index.html",
       "/reporting-guidelines/under-development/consort-social-work-reporting-guideline-for-social-work-intervention-trials-consort-extension/index.html",
       "/reporting-guidelines/under-development/consort-and-spirit-extension-for-decentralized-clinical-trials-consort-dct-spirit-dct/index.html",
       "/reporting-guidelines/under-development/consort-and-spirit-extensions-for-non-inferiority-and-equivalence-trials/index.html",
@@ -222,28 +221,13 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/about/equator-network.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   },
   {
@@ -257,13 +241,28 @@
     ]
   },
   {
-    "listing": "/about/equator-network.html",
+    "listing": "/about/uk-equator-centre.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
     ]
   },
   {
