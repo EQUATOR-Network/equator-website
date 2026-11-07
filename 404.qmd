@@ -15,7 +15,7 @@ description: |
 :::::::::: content-block
 ::::::::: hero-title-block
 :::::::: grid
-:::: {.g-col-lg-4 .g-col-md-3 .d-none .d-md-block}
+:::: {#cursor .g-col-lg-4 .g-col-md-3 .d-none .d-md-block}
 ::: top-banner-portrait
 <img src="assets/images/ArticlesImage660x1046.webp" alt="A selection of journal articles" class="img-fluid"/>
 :::
@@ -26,13 +26,13 @@ description: |
 
 ::: subtitle
 The page you were looking for may have been moved, renamed, or never
-existed. Let's get you back to <br> the **reporting guidelines** you need.
+existed. Let's get you back to the **reporting guidelines** you need.
 :::
 
 ::: hero-buttons
 [Search 700+ reporting
-guidelines](/reporting-guidelines/index.qmd){.btn-action-primary .btn-action
-.btn-primary .btn .btn-lg role="button"}
+guidelines](/reporting-guidelines/index.qmd){.btn-action-primary
+.btn-action .btn-primary .btn .btn-lg role="button"}
 
 [[›]{.chevron} Back to the home page](/index.qmd){.modern-link}
 
@@ -61,46 +61,50 @@ guidelines](/reporting-guidelines/index.qmd){.btn-action-primary .btn-action
 
 <!-- Commonly used reporting guidelines -->
 
-::::::::: radial-background
-![](/assets/images/radial1.svg){.radial1 fig-alt="Blurred background colours"}
-![](/assets/images/radial2.svg){.radial2 fig-alt="Blurred background colours"}
+::::::: radial-background
+![](/assets/images/radial1.svg){.radial1
+fig-alt="Blurred background colours"}
+![](/assets/images/radial2.svg){.radial2
+fig-alt="Blurred background colours"}
 
-:::::::: {.content-block .center}
-::::::: {.card-highlight style="margin-top: 2rem;"}
+:::::: {.content-block .center}
+::::: {.card-highlight style="margin-top: 2rem;"}
 ### Looking for a reporting guideline?
 
 [These general reporting guidelines are the ones people use most often.
 Search our full database for guidelines that fit your study more
 closely.]{.lead}
 
-:::::: table-block
+:::: table-block
 ::: {#common-rgs style="text-align: left; margin: 3rem 0 2rem 0;"}
 {{< include _partials/_index_table.qmd >}}
 :::
 
 [Search 700+ reporting
-guidelines](/reporting-guidelines/index.qmd){.btn-action-primary .btn-action
-.btn-primary .btn .btn-lg .search-shortcut role="button"
+guidelines](/reporting-guidelines/index.qmd){.btn-action-primary
+.btn-action .btn-primary .btn .btn-lg .search-shortcut role="button"
 style="margin: 1rem 0 1rem 0;"}
-::::::
+::::
 
 <!-- table-block -->
-:::::::
+:::::
 
 <!-- card-highlight -->
-::::::::
-:::::::::
+::::::
+:::::::
 
 <!-- radial-background -->
 
-::::::::: radial-background
-![](/assets/images/radial1.svg){.radial1 fig-alt="Blurred background colours"}
-![](/assets/images/radial2.svg){.radial2 fig-alt="Blurred background colours"}
+:::::::: radial-background
+![](/assets/images/radial1.svg){.radial1
+fig-alt="Blurred background colours"}
+![](/assets/images/radial2.svg){.radial2
+fig-alt="Blurred background colours"}
 
-:::::: {.content-block .center}
+::::::: {.content-block .center}
 ## Or try one of our resources
 
-:::: grid
+:::::: grid
 ::: {.g-col-md-4 .g-col-12 .card-highlight}
 ### Authors
 
@@ -123,14 +127,15 @@ information.
 
 Guidance on using reporting guidelines in your journal.
 
-[Using guidelines in journals »](/toolkits/using-guidelines-in-journals/index.qmd)
+[Using guidelines in journals
+»](/toolkits/using-guidelines-in-journals/index.qmd)
 :::
-::::
-
-<!-- grid -->
 ::::::
 
+<!-- grid -->
+:::::::
+
 <!-- content-block -->
-:::::::::
+::::::::
 
 <!-- radial-background -->
