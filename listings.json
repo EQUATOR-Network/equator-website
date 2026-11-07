@@ -2,7 +2,6 @@
   {
     "listing": "/reporting-guidelines/under-development/index.html",
     "items": [
-      "/reporting-guidelines/under-development/a-framework-for-the-identification-and-reporting-of-modifications-to-surgical-procedures-the-surgical-modification-and-reporting-tool-smart-checklist/index.html",
       "/reporting-guidelines/under-development/raise-hpe/index.html",
       "/reporting-guidelines/under-development/a-reporting-guideline-for-research-into-outcomes-following-release-from-correctional-and-forensic-settings/index.html",
       "/reporting-guidelines/under-development/rails/index.html",
@@ -216,23 +215,18 @@
     ]
   },
   {
-    "listing": "/about/equator-network.html",
+    "listing": "/index.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
     ]
   },
   {
-    "listing": "/about/international-equator-centres.html",
+    "listing": "/news/index.html",
     "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
+      "/news/posts/2026-10-22-website-redesign/index.html"
     ]
   },
   {
@@ -246,18 +240,23 @@
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/about/international-equator-centres.html",
     "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/about/equator-network.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   },
   {
