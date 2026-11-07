@@ -1,50 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
-    ]
-  },
-  {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
-    ]
-  },
-  {
-    "listing": "/about/equator-network.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
-    ]
-  },
-  {
     "listing": "/reporting-guidelines/under-development/index.html",
     "items": [
       "/reporting-guidelines/under-development/a-framework-for-the-identification-and-reporting-of-modifications-to-surgical-procedures-the-surgical-modification-and-reporting-tool-smart-checklist/index.html",
@@ -76,7 +31,6 @@
       "/reporting-guidelines/under-development/consort-extension-for-herbal-harms-reporting/index.html",
       "/reporting-guidelines/under-development/consort-extension-for-multicenter-clinical-trials-2020-recommendations-explanation-and-elaboration/index.html",
       "/reporting-guidelines/under-development/consort-extension-for-trials-conducted-in-existing-data-structures/index.html",
-      "/reporting-guidelines/under-development/consort-extension-for-trials-in-child-health-consort-c/index.html",
       "/reporting-guidelines/under-development/consort-social-work-reporting-guideline-for-social-work-intervention-trials-consort-extension/index.html",
       "/reporting-guidelines/under-development/consort-and-spirit-extension-for-decentralized-clinical-trials-consort-dct-spirit-dct/index.html",
       "/reporting-guidelines/under-development/consort-and-spirit-extensions-for-non-inferiority-and-equivalence-trials/index.html",
@@ -208,7 +162,6 @@
       "/reporting-guidelines/under-development/sesame-standard-elements-in-studies-of-adverse-events-and-medical-error/index.html",
       "/reporting-guidelines/under-development/shime-standards-for-healthcare-impact-evaluation/index.html",
       "/reporting-guidelines/under-development/spark-scale-up-research-reporting-checklist/index.html",
-      "/reporting-guidelines/under-development/spirit-extension-for-trials-in-child-health-spirit-c/index.html",
       "/reporting-guidelines/under-development/spirit-a-2026-standard-protocol-items-recommendations-for-interventional-trials-for-acupuncture-2026/index.html",
       "/reporting-guidelines/under-development/spirit-mct-spirit-extension-for-multicenter-clinical-trials/index.html",
       "/reporting-guidelines/under-development/spirit-routine-for-protocols-of-trials-using-cohorts-and-routinely-collected-data/index.html",
@@ -266,6 +219,51 @@
       "/reporting-guidelines/under-development/updating-the-reporting-guidelines-for-music-based-interventions/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
+    ]
+  },
+  {
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   },
   {
