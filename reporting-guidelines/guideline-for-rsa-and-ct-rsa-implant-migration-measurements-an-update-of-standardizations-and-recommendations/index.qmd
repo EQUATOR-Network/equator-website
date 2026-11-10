@@ -8,11 +8,7 @@ rg-doi: ''
 pmid-id: '[38819193](https://pubmed.ncbi.nlm.nih.gov/38819193/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38819193/
 relevant-urls: ''
-full-bibliographic-reference: 'Kaptein BL, Pijls B, Koster L, Kärrholm J, Hull M,
-  Niesen A, Heesterbeek P, Callary S, Teeter M, Gascoyne T, Röhrl SM, Flivik G, Bragonzoni
-  L, Laende E, Sandberg O, Solomon LB, Nelissen R, Stilling M. Guideline for RSA and
-  CT-RSA implant migration measurements: an update of standardizations and recommendations.
-  Acta Orthop. 2024;95:256-267.'
+full-bibliographic-reference: 'Kaptein BL, Pijls B, Koster L, Kärrholm J, Hull M, Niesen A, Heesterbeek P, Callary S, Teeter M, Gascoyne T, Röhrl SM, Flivik G, Bragonzoni L, Laende E, Sandberg O, Solomon LB, Nelissen R, Stilling M. Guideline for RSA and CT-RSA implant migration measurements: an update of standardizations and recommendations. Acta Orthop. 2024;95:256-267. [38819193](https://pubmed.ncbi.nlm.nih.gov/38819193/) [full text](https://doi.org/10.2340/17453674.2024.40709)'
 
 
 # OPTIONAL FIELDS
