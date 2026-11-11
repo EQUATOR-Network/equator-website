@@ -1,0 +1,28 @@
+---
+title: "TRAFFIC: Reporting and conduct guideline for randomised clinical trials of fermented food interventions"
+contact-name: "Arghya Mukherjee"
+contact-email: "arghya.mukherjee@teagasc.ie"
+date-registered: "11 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+- Study protocols
+---
+
+<!-- Add Description Below -->
+TRAFFIC (Transforming the Reporting and Organisation of Fermented Foods Interventions in Clinical Trials) is a reporting and conduct guideline developed to improve the design, transparency, reproducibility, and interpretability of clinical trials investigating fermented food interventions. Fermented foods - defined as 'foods made through desired microbial growth and enzymatic conversions of food components' (Marco et al., Nature Reviews Gastroenterology & Hepatology, 2021) - represent a rapidly growing area of health research. However, despite an accumulating body of clinical evidence, few approved health claims for fermented foods as a category exist (for example, under the EU Health and Nutrition Claims Regulation (EC 1924/2006)), and EFSA’s near-total rejection of probiotic-related health claim applications since 2009 has been attributed in large part to insufficient characterisation of interventions and inadequate trial design - problems that standardised guidance can directly address. Indeed, current reporting of such trials is inconsistent, particularly in relation to intervention characterisation (microbial strains, viability, metabolites), mechanistic hypotheses (probiotic vs postbiotic effects), and alignment with regulatory frameworks (e.g., health claims vs structure/function outcomes), among others.
+
+Fermented foods differ fundamentally from conventional nutritional or pharmacological interventions. Their dynamic microbial composition, variable metabolite profiles, dependency on processing, storage, and food matrix effects, and culturally contextualised use create reporting and design challenges not addressed by existing guidelines. For example, guidelines such as CONSORT 2025 provide the backbone for randomised trial reporting, while STORMS offers guidance for microbiome research methodology, but neither addresses the specific intersection of food science, microbiology, clinical trial design, and regulatory science that fermented foods trials require. Notably, the nutrition extension of CONSORT (CONSORT-Nut), currently being finalised, addresses nutrition trials broadly and does not cover the microbial, metabolite, or regulatory dimensions unique to fermented foods.
+
+TRAFFIC aims to bridge these gaps by providing structured guidance spanning both the conduct of fermented food trials (intervention characterisation, control selection, population selection and equity, blinding, compliance, and outcome selection) and their reporting (microbial strain identity and viability, metabolite profiling, food matrix effects, dietary context, regulatory alignment, and open science practices). The guideline integrates and extends existing standards including CONSORT 2025, STORMS, TIDieR, and STROBE-nut, among others. Ultimately, by standardising what trials must characterise, design, and report, TRAFFIC aims to reduce research waste, enable meaningful meta-analyses, and support the generation of high-quality, regulatorily actionable evidence in this field.
+
+{{< include ../_template.qmd >}}
