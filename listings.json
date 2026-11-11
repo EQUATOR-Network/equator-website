@@ -722,23 +722,18 @@
     ]
   },
   {
-    "listing": "/about/equator-network.html",
+    "listing": "/index.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
     ]
   },
   {
-    "listing": "/about/international-equator-centres.html",
+    "listing": "/news/index.html",
     "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
+      "/news/posts/2026-10-22-website-redesign/index.html"
     ]
   },
   {
@@ -752,18 +747,23 @@
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/about/international-equator-centres.html",
     "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/about/equator-network.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   },
   {
@@ -821,6 +821,7 @@
       "/reporting-guidelines/under-development/consolidated-guidelines-for-reporting-and-evaluation-of-studies-using-transcranial-electrical-stimulation/index.html",
       "/reporting-guidelines/under-development/consolidated-reporting-items-for-real-world-study-crews/index.html",
       "/reporting-guidelines/under-development/dice-checklist-a-reporting-guideline-for-strengthening-diversity-inclusion-culture-and-equity-considerations-within-musculoskeletal-research/index.html",
+      "/reporting-guidelines/under-development/dossier/index.html",
       "/reporting-guidelines/under-development/denote-a-data-note-reporting-guideline-for-qualitative-health-and-social-care-research-datasets/index.html",
       "/reporting-guidelines/under-development/ecohealth-reporting-guideline-for-assessments-of-the-environmental-consequences-of-healthcare/index.html",
       "/reporting-guidelines/under-development/enlight-icu/index.html",
