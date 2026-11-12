@@ -1,0 +1,30 @@
+---
+title: "Consolidated Health Economic Evaluation Reporting Standards for Screening Studies (CHEERS-SCREEN)"
+contact-name: "Lena Mandrik"
+contact-email: "o.mandrik@sheffield.ac.uk"
+date-registered: "09 December 2025"
+year-registered: 2025
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+- Diagnostic/prognostic research
+- Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Screening involves testing usually asymptomatic individuals with the aim of detecting disease earlier, when treatment has a greater potential to improve survival and/or quality of life. Screening can shift the diagnostic timeline by months or even years, thereby influencing existing diagnostic pathways. Screening interventions for chronic diseases vary substantially in both design and implementation. Programmes may be organised or opportunistic; population-wide, risk-stratified, or targeted. They also differ in who is screened (e.g., age or other characteristics), how frequently screening occurs (e.g., annual, biennial, one-off), and which tests and decision thresholds are used. These choices create a wide array of potential programme configurations.
+
+Because of this complexity, decision-analytic models evaluating screening interventions (hereafter, screening models) often differ in structure and scope from models intended for treatment or diagnostics. Screening models are typically more complex and therefore require more extensive methodological reporting. Many screening evaluations require natural history of disease modelling, which adds additional uncertainty due to the need to incorporate multiple risk factors, estimate unobservable health states, and make assumptions about disease progression in the absence of diagnosis—often with limited empirical evidence. As a result, screening models frequently necessitate more comprehensive validation approaches.
+
+The CHEERS checklist (Consolidated Health Economic Evaluation Reporting Standards) is an internationally recognised guideline that aims to improve the transparency, completeness, and consistency of reporting in health economic evaluations. However, due to their higher complexity, screening studies have reporting needs that go beyond what is explicitly captured in CHEERS. Although many topics relevant to screening can fit under existing CHEERS domains, because some essential aspects, such as false positives, false negatives, overdiagnosis, and screening-related harms, are not implicitly covered, they may not be reported by authors as necessary elements when they are using CHEERS statement as a reporting standard. As a result, applying CHEERS directly to screening models may lead to incomplete reporting of elements that are fundamental to screening evaluations.
+
+CHEERS-SCREEN will be the screening-specific reporting standard to guide the reporting of economic evaluations of screening interventions. CHEERS-SCREEN will be developed following the Guidance for Developers of Health Research Reporting Guidelines (Moher et al., 2010) and been informed by the prior work of the authors currently in press in The Pharmacoeconomics.
+
+{{< include ../_template.qmd >}}
