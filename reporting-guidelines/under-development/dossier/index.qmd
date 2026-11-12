@@ -1,7 +1,7 @@
 ---
 title: "DOSSIER (Documentation Of Synthetic health data: Standard Items for Evaluation and Reporting), a reporting guideline for studies that generate, use or evaluate synthetic health data"
-contact-name: "Miguel Rujas"
-contact-email: "miguel.rujas.atahonero@alumnos.upm.es"
+contact-name: "Miguel Rujas, Beatriz Merino-Barbancho"
+contact-email: "miguelrujas@hotmail.com, beamerino28@gmail.com"
 date-registered: "08 October 2026"
 year-registered: 2026
 date-updated: null
