@@ -1,0 +1,23 @@
+---
+title: "AI4HM: A Protocol Template for Observational Studies Involving Artificial Intelligence and Machine Learning in Health and Medicine"
+contact-name: "Nivantha Naidoo"
+contact-email: "nivantha.naidoo@oracle.com"
+date-registered: "26 July 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+- Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Current protocol templates for pharmacoepidemiology RWE studies are optimized for hypothesis-evaluating studies with pre-specified analyses and well-defined study components e.g., ENCEPP, HARPER. However, they do not adequately address the iterative development, validation, and deployment considerations unique to AI/ML-based health research
+{{< include ../_template.qmd >}}

@@ -1,0 +1,23 @@
+---
+title: "SPIRIT extension for reporting Pragmatic and Explanatory trial protocols designed using the PRECIS tool (SPIRIT-PRECIS)"
+contact-name: "David Moher"
+contact-email: "dmoher@ohri.ca"
+date-registered: "16 June 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+- Study protocols
+---
+
+<!-- Add Description Below -->
+The need to design randomized controlled trials (RCTs) with explicit intent, either pragmatic or explanatory, and matching design features is well recognised. There is a need for clear, standardised reporting recommendations for protocols for these RCTs to facilitate communication of trialists’ intention and trial design choices. This protocol outlines the development process of a SPIRIT (Standard Protocol Items: Recommendations for Interventional Trials) extension applicable to RCTs where authors explicitly declare their intention for the trial. This will enhance the transparency, reproducibility, and comprehensiveness of RCT protocol reports.
+{{< include ../_template.qmd >}}

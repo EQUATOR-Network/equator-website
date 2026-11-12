@@ -1,0 +1,28 @@
+---
+title: "Reporting guidelines for artificial intelligence (AI) and extended reality (XR) interventions in nursing research – twin reporting checklists (one for AI, one for XR) with a shared explanation-and-elaboration document (DEFINE)"
+contact-name: "Bradley Chesham"
+contact-email: "brad@bundleofrays.com"
+date-registered: "18 June 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+- Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+- Qualitative research
+- Study protocols
+---
+
+<!-- Add Description Below -->
+In nursing research the same labels describe fundamentally different technologies. “VR” may mean a fixed-viewpoint 360° video or a room-scale, hands-on simulation; “AI” may mean a single-turn information lookup or a multi-turn conversational agent that withholds answers by design. When the label is reported but the underlying design is not, studies cannot be compared, pooled or reproduced, and the evidence base fragments.
+
+These guidelines will standardise how AI and XR interventions are described in published nursing research. They cover primary studies in nursing that evaluate, or substantially involve, an AI or XR intervention across education, simulation, clinical and continuing-professional-development settings. They are reporting guidelines, not appraisal tools or design standards: they specify what an author must describe for a study to be interpretable, not whether the study was well conducted. They are designed to complement, not replace, study-type guidelines such as CONSORT and PRISMA – an author reports against the relevant study-type guideline and, additionally, against the technology checklist.
+
+A new guideline is needed because no reporting guideline currently addresses XR in nursing research, and the AI-reporting checklists now emerging (for example GAMER, and the SPIRIT-AI / CONSORT-AI trial extensions) are generic or medicine-facing rather than grounded in nursing’s education and simulation context. Each checklist item is built to force authors to declare the distinction a loose term hides – for AI, predictive versus generative, and large language model versus LLM-based agent versus agentic system; for XR, 360° video versus room-scale VR, three- versus six-degrees-of-freedom, and passive-seated versus active-embodied use. A shared, operationalised vocabulary is the precondition for cumulative evidence in a field where both technologies are being adopted faster than they are being described.
+
+{{< include ../_template.qmd >}}

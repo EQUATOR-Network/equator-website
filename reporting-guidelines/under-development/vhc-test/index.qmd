@@ -1,0 +1,34 @@
+---
+title: "VHC-TEST: a reporting guideline for bench and in vitro testing of spacers and valved holding chambers used with inhalers"
+contact-name: "Péter Csonka"
+contact-email: "peter.csonka@tuni.fi"
+date-registered: "25 July 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+- Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+VHC-TEST is a reporting guideline for bench and in vitro (laboratory) studies that evaluate inhaler add-on devices, in particular valved holding chambers (VHCs) and spacers. Its purpose is to improve the transparency, reproducibility and interpretability of such studies by defining a minimum set of items that authors should report. 
+
+The guideline covers the reporting of aerosol delivery, aerodynamic particle size distribution (APSD), drug deposition and functional device performance measured under basic (steady flow) and simulated-use (patient group specific) conditions. The primary target is bench and in vitro studies of VHCs and spacers used with pressurised metered-dose inhalers (pMDIs). The checklist may also be applied to studies of add-on devices used with other inhaler types where relevant. 
+
+Where human participants are involved (for example, breathing through devices during testing), users are directed to apply appropriate clinical reporting items alongside VHC-TEST. 
+
+A new guideline is needed because reporting in this field is highly heterogeneous, inconsistent, and frequently incomplete. Methodological factors that materially affect measured device performance, such as inhalation flow rate and breathing pattern, the delay between actuation and inhalation, actuation number and shaking, electrostatic charge and device pre-treatment or washing, facemask type and seal or leak, impactor and APSD methodology, dose-uniformity procedures, and ambient temperature and humidity, are often underreported or described inconsistently. A further reporting deficiency in this field is the frequently close involvement of device manufacturers in VHC and spacer studies, together with incomplete or inconsistent reporting of industry sponsorship, financial conflicts of interest and the role of the funder in study design, conduct, analysis and publication.
+
+This undermines the comparability and replication of studies, hampers evidence synthesis, and can lead to misleading inferences about the clinical performance of devices. Generic reporting guidelines (for example CONSORT, STROBE, PRISMA and ARRIVE) do not address the specific requirements of bench and in vitro inhaler add-on device testing, and existing standards in this area describe physical test methods rather than how studies should be reported. 
+
+VHC-TEST is intended to fill this gap with a domain-specific, consensus-based minimum reporting standard for authors, peer reviewers, editors and regulators.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,23 @@
+---
+title: "STEMGEN Checklist Design for Stem Cell Differentiation and Genetic Engineering Studies"
+contact-name: "Farzaneh Khani"
+contact-email: "farzanehkhani61@gmail.com"
+date-registered: "21 July 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+- Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+With the rapid expansion of research involving human pluripotent stem cells (hPSCs) and the increasing application of genome editing technologies such as the CRISPR/Cas9 system, the need for unified reporting standards for this category of studies has become critical. A systematic evaluation of existing guidelines in the EQUATOR Network and other reputable scientific databases reveals that current tools such as STREGA (for genetic epidemiology studies), MIAME (designed for microarray data), and ARRIVE (for animal in vivo research) are only able to cover a portion of the reporting requirements in this field. None comprehensively address the specialized needs of in vitro studies focused on genetic engineering in stem cells. This standardization gap can lead to multiple challenges, including a lack of transparency in the design of differentiation protocols, deficiencies in the accurate documentation of genetic manipulation processes and quality control protocols, and limitations in assessing the reproducibility and validity of findings. Given the high sensitivity of this type of research and its broad range of applications in areas such as regenerative medicine, disease modeling, and drug discovery, designing a specialized and structured standard framework – introduced in this project as STEMGEN – is presented as a scientific and practical necessity to improve the quality and coherence of research reporting. Validation and acceptance of this tool by the scientific community will enable its registration in reputable networks such as the EQUATOR Network, making it available as a reference document for researchers in this field.
+{{< include ../_template.qmd >}}

@@ -1,0 +1,28 @@
+---
+title: "SSG-REPORT: Reporting guideline for acute and longitudinal small-sided games studies in team sports research"
+contact-name: "Filipe Manuel Clemente"
+contact-email: "filipe.clemente5@gmail.com"
+date-registered: "14 July 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+- Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+SSG-REPORT will be a consensus-based reporting guideline for original studies that use small-sided games (SSGs) in team sports research. It will cover studies in which SSGs are used as experimental tasks, training interventions, testing contexts, or practice-based learning environments in sports such as football/soccer, futsal, rugby, basketball, handball, hockey and related team sports. The guideline will include a core reporting checklist for all SSG studies and two design-specific modules: one for acute studies, including single-session, crossover, repeated-measures and experimental-manipulation designs; and one for longitudinal studies, including pre-post, controlled, randomized, non-randomized and training-intervention designs.
+ 
+A new reporting guideline is needed because existing generic and exercise-intervention reporting guidance does not capture several SSG-specific features that directly influence reproducibility and interpretation. These include the number of players, player roles, goalkeepers, neutral players, pitch/court dimensions, area per player, task objectives, scoring system, rule constraints, coach instructions, encouragement, team balancing, ball availability, bout and rest structure, progression across sessions, contextual training load, and the technology and coding procedures used to measure physical, physiological, technical, tactical and perceptual outcomes.
+ 
+SSG-REPORT is intended to complement, not replace, design-specific reporting guidelines such as CONSORT, STROBE or relevant protocol guidance, and intervention-description tools such as TIDieR and CERT. Its purpose is to improve transparency, replication, evidence synthesis, peer review and applied translation of SSG research.
+
+{{< include ../_template.qmd >}}

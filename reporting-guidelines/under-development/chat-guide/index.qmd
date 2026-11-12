@@ -1,0 +1,30 @@
+---
+title: "CHAT-GUIDE: Reporting the Use of ChatGPT and Generative Artificial Intelligence (Large Language Models) in Healthcare Research and Practice"
+contact-name: "Yaser Mohammed Al-Worafi"
+contact-email: "yworafi@fcms.edu.sa"
+date-registered: "12 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+- Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+- Observational studies
+# - Other
+- Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+The CHAT-GUIDE reporting guideline is designed to improve how studies using ChatGPT and other generative AI tools (e.g., Gemini) are reported in healthcare research and practice. As these tools are increasingly used in clinical decision-making, patient education, and research, there is a growing need for clear, transparent, and reproducible reporting standards.
+
+Current guidelines such as CONSORT-AI and SPIRIT-AI focus mainly on clinical trials and do not fully address issues specific to generative AI, such as prompt design, variability in responses, hallucination risks, and the nature of human–AI interaction.
+
+CHAT-GUIDE aims to fill this gap by providing structured guidance on key aspects, including AI model details, prompt development, evaluation of outputs, validation against clinical standards, bias and safety considerations, and ethical issues. It also emphasizes reproducibility through proper documentation of prompts and AI-generated outputs.
+
+This guideline targets researchers, clinicians, educators, and journal editors working with generative AI in healthcare. 
+
+{{< include ../_template.qmd >}}

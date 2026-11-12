@@ -1,5 +1,7 @@
 ---
-title: "Standards for reporting disaster health research and field operations"
+title: "Standards for reporting disaster health research and field operations (STARDIS)"
+aliases:
+  - /reporting-guidelines/under-development/standards-for-reporting-disaster-health-research-and-field-operations/
 contact-name: "Duygu Ege Zilan"
 contact-email: "duygu.ege.deu@hotmail.com"
 date-registered: "27 October 2026"

@@ -1,0 +1,30 @@
+---
+title: "Guidance for Reporting Involvement of Patients and the Public 2 – Youth Extension (GRIPP2-Y)"
+contact-name: "Shimei Nelapati"
+contact-email: "shimei.nelapati@ufl.edu"
+date-registered: "12 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+- Artificial intelligence/machine learning
+- Clinical trials
+- Diagnostic/prognostic research
+- Health Economic evaluations
+# - Systematic reviews
+- Observational studies
+# - Other
+- Qualitative research
+- Study protocols
+---
+
+<!-- Add Description Below -->
+GRIPP2-Y intends to be a formal extension of the GRIPP2 reporting guideline, designed to standardize transparent and reproducible reporting of youth engagement in research. While GRIPP2 provides guidance for patient and public involvement broadly, it does not address developmental, ethical, and practical considerations unique to youth partners.
+
+GRIPP2-Y responds to this gap by providing a structured, consensus-based checklist that incorporates recommendations from recent literature. Nagata et al. (2025) proposed a youth-focused reporting checklist adapted from GRIPP2, emphasizing meaningful engagement across research stages, and Jarrett et al. (2025) highlighted the importance of reporting training, guiding values/principles, and outcomes for youth partners. GRIPP2-Y integrates these elements while following EQUATOR-endorsed methodology for reporting-guideline development.
+
+The guideline is intended for researchers, youth partners, institutional review boards, journal editors, and funders involved in studies where youth contribute beyond participation (e.g., as advisors or co-researchers). Although Foster et al.’s (2024) “child-centred research checklist” is in development, the content of their checklist is less generalizable and more specific to medical research (e.g., “Was appropriate pain relief offered, according to current evidence?”). GRIPP2-Y intends to provide guidance on reporting: composition and recruitment of youth partners, training, ethical and developmental considerations, enactment of engagement values, youth-centered outcomes, and the stages and nature of youth involvement.
+
+By offering a structured framework for reporting, GRIPP2-Y aims to improve the quality, transparency, and ethical accountability of youth-engaged research, support youth empowerment and skill development, and facilitate broader adoption of best research practices in youth involvement.
+
+{{< include ../_template.qmd >}}

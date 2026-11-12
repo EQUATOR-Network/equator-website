@@ -1,0 +1,27 @@
+---
+title: "VANRA (Verification of Assertions in Narrative Review Articles): a reporting checklist for narrative review articles"
+contact-name: "David J Parker"
+contact-email: "david.parker@stonybrookmedicine.edu"
+date-registered: "23 August 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Completed by authors at submission, VANRA is a 20 item reporting checklist for narrative review articles, arranged in four domains. Framing; search and selection; citation integrity; and synthesis and presentation. The instrument is organized around verification. For the references cited in a review, authors report in explicit tiers what was established. Whether each reference exists, whether its bibliographic fields agree with the published version of record, whether the full text supports the statements citing it, and whether support is found at the specific locus cited. A ten-class error taxonomy ties the items to documented citation failure modes, and every item is accompanied by an explanation. A companion appraisal scale for raters has been developed alongside the checklist. We take critical appraisal instruments to lie outside this register's scope so registration is sought for the reporting checklist.
+
+The case for a new guideline rests on two grounds. First, to our knowledge no reporting guideline exists for narrative reviews. The methodological guidance literature acknowledges that no accepted guidelines cover this article type, and the best-known instrument, SANRA, is characterized by its own developers as a critical appraisal tool rather than a reporting guideline. Second, existing instruments and guidance assess description alone. Whether a search is described, whether aims are stated, whether key statements carry a citation. None asks whether a cited reference exists, matches the version of record, or supports the sentence that cites it. That omission now carries weight. A 2026 audit of the biomedical literature documented a more than twelve fold rise in the rate of fabricated references across a three year audit window. The fabricated references were typically correctly formatted and attributed to real researchers, leaving them invisible to description level checks. Experimental work reproduces the mechanism with large language models. Prompted to draft short literature reviews, a model fabricated roughly one in five citations outright, and hallucinated citations have been shown to survive expert peer review. The checklist itself is tool-agnostic. It asks what was verified not how a review was drafted.
+
+VANRA is an independent instrument informed by SANRA. The six SANRA topics are deliberately carried forward into its domains so that the current standard's coverage is retained. Even so, VANRA is a new instrument from a separate group, not an extension, update, or translation of SANRA, and no endorsement by SANRA's developers is implied.
+{{< include ../_template.qmd >}}

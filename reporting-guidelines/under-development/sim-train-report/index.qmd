@@ -1,5 +1,5 @@
 ---
-title: "M-TRAIN REPORT: Reporting Guideline for Simulation-Based Training, Education and Research in Medical and Health Care"
+title: "SIM-TRAIN REPORT: Reporting Guideline for Simulation-Based Training, Education and Research in Medical and Health Care "
 contact-name: "Yaser Mohammed Al-Worafi"
 contact-email: "yworafi@fcms.edu.sa"
 date-registered: "28 October 2026"

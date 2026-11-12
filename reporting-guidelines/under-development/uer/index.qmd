@@ -1,0 +1,23 @@
+---
+title: "Universal Engagement Reporting Tool (UER)"
+contact-name: "SHannon D. Simonovich"
+contact-email: "sdsimon@uic.edu"
+date-registered: "12 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+- Observational studies
+# - Other
+- Qualitative research
+- Study protocols
+---
+
+<!-- Add Description Below -->
+Research studies to improve the health of patients, families, and communities are better when these groups are included in the process from start to finish, a concept we call engagement. Engagement is a distinct concept that is not captured in any current EQUATOR reporting guidelines. Engagement means working together with these stakeholders as partners and equal members of the team to make sure the research is relevant and respectful, this is particularly important when engaging with populations that historically underrepresented in scientific studies. Unfortunately, stakeholders are not always included and researchers do not write about their engagement with stakeholders in clear and consistent ways. This makes it hard to know what kinds of engagement work best, for whom, and in what situations. This also keeps researchers and stakeholders from learning from each other to create better research studies in the future. This concept is particularly important in patient-centered outcomes research and comparative effectiveness research funded by organizations such as the Patient-Centered Outcomes Research Institute (pcori.org) as is becoming required of research teams participating in engagement science. This reporting guideline will standardize how stakeholder engagement is reported in the methods section of research publications, particularly when research teams are working with underrepresented groups. Better reporting of engagement can help make research more transparent, trustworthy, and useful to the people it is meant to serve. This new tool will be called the Universal Engagement Reporting (UER) tool. This is a new tool that will help researchers clearly describe who was engaged in a study, how they were involved, when engagement happened, and what impact it had. The goal is to create a tool that is easy to use, useful across many types of studies, and meaningful to patients, communities, researchers, and the journals where the research is published.
+{{< include ../_template.qmd >}}

@@ -1,0 +1,27 @@
+---
+title: "Sex and Gender Reporting Guidelines in Traditional Chinese Medicine Research (SGR-TCM)"
+contact-name: "Zhaochen Ji"
+contact-email: "robin_johnson@foxmail.com"
+date-registered: "29 August 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+- Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Modern medicine is rapidly evolving toward precision medicine, where sex and gender differences are increasingly recognized as critical determinants of health and disease. In parallel, the foundational theory and clinical practice of Traditional Chinese Medicine (TCM) have long pioneered individualized diagnosis and therapeutics tailored to patient-specific phenotypes. This holistic approach naturally encompasses the biological and psychosocial impacts of sex and gender on physiological harmony and pathological manifestations. Despite this intrinsic conceptual alignment, a profound gap exists between TCM’s theoretical framework and current research practices. Currently, few studies in TCM focus on sex- and gender-specific characteristics, leaving the evidence chain incomplete. Only a few studies aim to examine sex differences, whereas most treat them as a secondary exploratory indicator. Furthermore, some studies fail to provide quantitative data on sex differences, which severely hinders horizontal comparisons and pooled meta-analyses. Across all study designs, researchers consistently fail to report the corresponding methods and results data for sex and gender stratification, directly impeding any accurate assessment of the risk of bias. This methodological deficit is further compounded by conceptual confusion and inconsistent usage of sex- and gender-related terminology within the academic community, where a standardized consensus is still lacking. 
+
+Notably, the TCM-adapted CONSORT and PRISMA guidelines etc. contain no standardized reporting provisions for either biological sex or social gender indicators. It was revealed that usable sex-stratified data were obtainable only in a minority of the TCM studies, while gender-related data were absent across all retrieved literature. This phenomenon prevents a comprehensive interpretation of the integrated biological and sociocultural effects of sex and gender on the therapeutic efficacy of TCM interventions. While the Sex and Gender Equity in Research (SAGER) guidelines provide a robust foundational framework for reporting of sex- and gender-related information, they are inherently limited by their cross-disciplinary, generalist nature.
+
+Consequently, SAGER fails to take into account the specific clinical complexities unique to TCM. Compounding this issue, the existing specialized reporting guidelines for TCM do not incorporate the standard sex and gender stratification reporting items. The recording standards for different studies regarding TCM intervention protocols, evaluation indicators, and stratified statistical methods vary greatly, and the safety evidence of TCM therapies such as Chinese herbal medicine (CHM) and acupuncture has not been reported according to sex and gender stratification. This leads to insufficient comparability and reproducibility of existing research data, a lack of high-quality evidence-based research, and hinders the standardized advancement and evidence production of sex- and gender-specific research in TCM. To bridge these dual gaps, namely the lack of TCM-specific content within the SAGER guidelines and the absence of standardized sex- and gender-stratified items in existing TCM reporting guidelines, it is urgent to develop a dedicated set of reporting standards. This standard will not only harmonize terminology and methodological stratification but will also elevate the transparency, reproducibility, and rigorous scientific validity of TCM clinical evidence on a global scale.
+{{< include ../_template.qmd >}}

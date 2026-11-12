@@ -1,0 +1,23 @@
+---
+title: "A CONSORT extension for reporting Pragmatic and Explanatory trials designed using the PRECIS tool (CONSORT-PRECIS)"
+contact-name: "David Moher"
+contact-email: "dmoher@ohri.ca"
+date-registered: "16 June 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Pragmatic trials, whose intention is to provide evidence for real-world decision makers choosing between alternative interventions, differ in design from explanatory trials, whose intention is to test hypotheses on mechanism of action often under tightly controlled conditions, which are often contrived in comparison with usual care conditions for that condition and intervention. As the understanding of trials with explanatory and pragmatic intentions has evolved, there is a need to revise the reporting guidelines to better align with current best practices and emerging challenges. This protocol is an update to the previous CONSORT statement extension for pragmatic trials, originally published in 2008. By improving the transparency and completeness of reporting for both pragmatic and explanatory trials, this updated CONSORT extension aims to support informed healthcare decisions, promote trust in trial results, and advance scientific knowledge.
+{{< include ../_template.qmd >}}

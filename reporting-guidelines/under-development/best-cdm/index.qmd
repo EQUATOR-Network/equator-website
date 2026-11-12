@@ -1,0 +1,23 @@
+---
+title: "Construction of Individualized Clinical Decision Model for Single Disease with Benefit-Risk-Cost Analysis and Priority Reporting List (BEST-CDM)"
+contact-name: "Changtai Zhu"
+contact-email: "zct101@163.com"
+date-registered: "12 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+- Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+This reporting guideline aims to provide a minimum set of recommendations for transparently reporting the development, validation, and application of individualized clinical decision models that quantitatively integrate the three core dimensions of health Benefits, Risks, and Costs for a single, well-defined disease (e.g., thyroid cancer, hip osteoarthritis). In the era of precision medicine and value-based healthcare, there is a paradigm shift from population-level guidelines towards individualized decision support. While existing reporting guidelines (e.g., TRIPOD for prediction models, CHEERS for economic evaluations) cover parts of this process, none specifically address the unique methodological and reporting challenges of constructing and reporting a unified model that synthesizes clinical outcomes, patient preferences, and economic data to inform personalized care. Current reporting of such models is inconsistent and often lacks critical details on data provenance, model structure, handling of individualized parameters, uncertainty analysis, and equity considerations, which severely hinders the evaluation, validation, replication, and clinical translation of these valuable tools. This guideline seeks to fill this gap, enhancing the rigor, transparency, and utility of research in this field.
+{{< include ../_template.qmd >}}

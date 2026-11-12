@@ -1,0 +1,29 @@
+---
+title: "Reporting Elements for Foundation Models in Gastrointestinal Endoscopy (REFORM-GIE)"
+contact-name: "Daniel von Renteln"
+contact-email: "danielrenteln@gmail.com"
+date-registered: "18 June 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+# - Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Foundation models (FMs) have recently emerged as a new paradigm in medical artificial intelligence. Unlike conventional task-specific models, FMs are trained on large-scale datasets using self-supervised learning and can be adapted to multiple downstream tasks with limited labelled data. 
+
+The field of FMs for gastrointestinal (GI) endoscopy is rapidly progressing, and various models have been recently proposed. While these models show promising performance, a systematic review conducted by our team demonstrated substantial heterogeneity in reporting practices across studies. Notably, critical information was frequently missing, including dataset provenance, endoscopy equipment used, patient consent, availability of model weights, and measures to prevent data leakage. These reporting gaps limit reproducibility, transparency, assessment of generalizability, and eventual clinical translation. 
+
+While important frameworks such as TRIPOD-AI, CONSORT-AI, and other AI-related reporting standards provide valuable guidance, they were not specifically designed for FM studies and may fail to capture several considerations specific to this emerging field. 
+
+REFORM-GIE aims to establish minimum reporting standards for FM studies in GI endoscopy. This guideline will provide a structured framework covering key elements including datasets, model development, model evaluation, and clinically relevant evaluations. Ultimately, REFORM-GIE seeks to improve the quality, comparability, reproducibility, and regulatory readiness of future research involving FMs in GI endoscopy.
+{{< include ../_template.qmd >}}
