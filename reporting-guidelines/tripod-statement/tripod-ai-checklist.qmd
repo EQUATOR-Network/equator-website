@@ -98,7 +98,7 @@ resources:
     "TITLE",
     ["Title","1","D;E","Identify the study as developing or evaluating the performance of a multivariable prediction model, the target population, and the outcome to be predicted"],
     "ABSTRACT",
-    ["Abstract","2","D;E","[[See TRIPOD+AI for Abstracts checklist|TRIPOD_AI_abstracts.pdf]]"],
+    ["Abstract","2","D;E","[[See TRIPOD+AI for Abstracts checklist|https://equator-network.org/reporting-guidelines/tripod-statement/TRIPOD-AI-abstracts.pdf]]"],
     "INTRODUCTION",
     ["Background","3a","D;E","Explain the healthcare context (including whether diagnostic or prognostic) and rationale for developing or evaluating the prediction model, including references to existing models"],
     ["","3b","D;E","Describe the target population and the intended purpose of the prediction model in the context of the care pathway, including its intended users (e.g., healthcare professionals, patients, public)"],
