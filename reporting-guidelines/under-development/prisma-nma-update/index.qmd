@@ -1,5 +1,7 @@
 ---
 title: PRISMA for NMA update - Updating PRISMA for Network meta-analysis
+aliases:
+  - /reporting-guidelines/under-development/prisma-for-nma-update-updating-prisma-for-network-meta-analysis/
 date-registered: 5 January 2024
 year-registered: 2024
 date-updated: null

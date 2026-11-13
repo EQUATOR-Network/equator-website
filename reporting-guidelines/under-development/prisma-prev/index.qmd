@@ -2,6 +2,7 @@
 title: PRISMA-prev - Extension of PRISMA 2020 for systematic reviews of prevalence
 aliases:
   - /library/reporting-guidelines-under-development/reporting-guidelines-under-development-for-systematic-reviews/#PRISMAPREV
+  - /reporting-guidelines/under-development/prisma-prev-extension-of-prisma-2020-for-systematic-reviews-of-prevalence/
 date-registered: 14 August 2023
 year-registered: 2023
 date-updated: null

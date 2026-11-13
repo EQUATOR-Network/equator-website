@@ -1,5 +1,7 @@
 ---
 title: PRISMA-EGMs - PRISMA-Evidence and Gap Maps
+aliases:
+  - /reporting-guidelines/under-development/prisma-egms-prisma-evidence-and-gap-maps/
 date-registered: 14 September 2023
 year-registered: 2023
 date-updated: null
