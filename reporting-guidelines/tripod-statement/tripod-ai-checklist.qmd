@@ -75,12 +75,12 @@ resources:
   </div>
   <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
   <table id="tp-table">
-    <thead><tr>
-      <th>Section/Topic</th><th class="c">Item</th><th class="c">Development / evaluation<sup>1</sup></th>
-      <th>Checklist item</th><th class="c">Reported on page<span class="tp-hint">type page no. in the boxes below</span></th>
-    </tr></thead>
-    <tbody></tbody>
-  </table>
+  <thead><tr>
+    <th>Section/Topic</th><th class="c">Item</th><th class="c">Development / evaluation<sup>1</sup></th>
+    <th>Checklist item</th><th class="c">Reported on page<span class="tp-hint">type page no. in the boxes below</span></th>
+  </tr></thead>
+  <tbody></tbody>
+</table>
   <div class="tp-foot">
     <p><sup>1</sup> D=items relevant only to the development of a prediction model; E=items relating solely to the evaluation of a prediction model; D;E=items applicable to both the development and evaluation of a prediction model</p>
     <p><sup>2</sup> Separately for all model building approaches.</p>
@@ -98,7 +98,7 @@ resources:
     "TITLE",
     ["Title","1","D;E","Identify the study as developing or evaluating the performance of a multivariable prediction model, the target population, and the outcome to be predicted"],
     "ABSTRACT",
-    ["Abstract","2","D;E","[[See TRIPOD+AI for Abstracts checklist|https://equator-network.org/reporting-guidelines/tripod-statement/TRIPODAIAbstracts.pdf]]"],
+    ["Abstract","2","D;E","[[See TRIPOD+AI for Abstracts checklist|https://www.equator-network.org/reporting-guidelines/tripod-statement/TRIPODAIAbstracts.pdf]]"],
     "INTRODUCTION",
     ["Background","3a","D;E","Explain the healthcare context (including whether diagnostic or prognostic) and rationale for developing or evaluating the prediction model, including references to existing models"],
     ["","3b","D;E","Describe the target population and the intended purpose of the prediction model in the context of the care pathway, including its intended users (e.g., healthcare professionals, patients, public)"],
