@@ -91,7 +91,7 @@ resources:
     "TITLE",
     ["Title","1","D;E","Identify the study as developing or evaluating the performance of a multivariable prediction model, the target population, and the outcome to be predicted"],
     "ABSTRACT",
-    ["Abstract","2","D;E",'<a href="https://www.equator-network.org/reporting-guidelines/tripod-statement/TRIPOD_AI_abstracts.pdf" target="_blank" rel="noopener">See TRIPOD+AI for Abstracts checklist</a>'],
+    ["Abstract","2","D;E","[[See TRIPOD+AI for Abstracts checklist|https://www.equator-network.org/reporting-guidelines/tripod-statement/TRIPOD_AI_abstracts.docx]]"],
     "INTRODUCTION",
     ["Background","3a","D;E","Explain the healthcare context (including whether diagnostic or prognostic) and rationale for developing or evaluating the prediction model, including references to existing models"],
     ["","3b","D;E","Describe the target population and the intended purpose of the prediction model in the context of the care pathway, including its intended users (e.g., healthcare professionals, patients, public)"],
@@ -152,14 +152,21 @@ resources:
 
   const STORE = "tripod-ai-checklist-v1";
   const tbody = document.querySelector("#tp-table tbody");
+  const linkify = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, (_, label, url) => {
+    const a = document.createElement("a");
+    a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener");
+    a.setAttribute("data-url", url); a.textContent = label;
+    return a.outerHTML;
+  });
   const html = [];
   ROWS.forEach(r => {
     if (typeof r === "string") { html.push(`<tr class="sec"><td colspan="5">${r}</td></tr>`); return; }
     const [topic, item, de, text] = r;
     html.push(`<tr><td class="topic">${topic}</td><td class="item">${item}</td><td class="de">${de}</td>` +
-      `<td class="txt">${text}</td><td class="pg"><input type="text" data-key="p${item}" aria-label="Reported on page, item ${item}"></td></tr>`);
+      `<td class="txt">${linkify(text)}</td><td class="pg"><input type="text" data-key="p${item}" aria-label="Reported on page, item ${item}"></td></tr>`);
   });
   tbody.innerHTML = html.join("");
+  tbody.querySelectorAll("a[data-url]").forEach(a => { a.href = a.getAttribute("data-url"); a.removeAttribute("data-url"); });
 
   const fields = () => [...document.querySelectorAll("#tp-wrap input")];
   const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
@@ -192,13 +199,13 @@ resources:
     const dotted = { style: D.BorderStyle.DOTTED, size: 4, color: "444444" };
     // turn "text <sup>2</sup> <a href=..>label</a>" into runs
     const runs = (text, o = {}) => {
-      const out = [], re = /<sup>(.*?)<\/sup>|<a href="([^"]*)"[^>]*>(.*?)<\/a>/g;
+      const out = [], re = /<sup>(.*?)<\/sup>|\[\[(.*?)\|(.*?)\]\]/g;
       let last = 0, m;
       const plain = (t, extra) => t && out.push(new D.TextRun({ text: t, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, ...extra }));
       while ((m = re.exec(text))) {
         plain(text.slice(last, m.index));
         if (m[1] !== undefined) plain(m[1], { superScript: true });
-        else out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[3], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        else out.push(new D.ExternalHyperlink({ link: m[3], children: [new D.TextRun({ text: m[2], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
         last = re.lastIndex;
       }
       plain(text.slice(last));
