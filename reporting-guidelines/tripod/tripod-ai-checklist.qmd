@@ -5,6 +5,7 @@ toc: false
 resources:
   - tripod-ai-logo.png
   - docx.min.js
+  - TRIPOD-abstracts.pdf
 ---
 
 ```{=html}
