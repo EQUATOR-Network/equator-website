@@ -33,6 +33,7 @@ resources:
   #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
   #tp-wrap input::placeholder { color:#6f8f80; font-size:12px; }
   #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-cite { margin-top:1rem; font-size:14px; }
   .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
   .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
     border:2px solid #4a7662; background:#4a7662; color:#fff; }
@@ -53,6 +54,7 @@ resources:
     #tp-wrap td.pg input { background:none; border:0; }
     #tp-wrap input::placeholder { color:transparent; }
     #tp-wrap .tp-hint { display:none; }
+    #tp-wrap .tp-cite { font-size:10.5px; }
     #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
   }
@@ -77,6 +79,7 @@ resources:
     </tr></thead>
     <tbody></tbody>
   </table>
+  <p class="tp-cite">From: Snell KIE, Levis B, Damen JAA, et al. <em>BMJ</em> 2023;381:e073538. <a href="https://doi.org/10.1136/bmj-2022-073538" target="_blank" rel="noopener">doi:10.1136/bmj-2022-073538</a></p>
 </div>
 
 <script>
@@ -203,7 +206,8 @@ resources:
       title: "TRIPOD-SRMA checklist", creator: "TRIPOD-SRMA checklist",
       sections: [{
         properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
-        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] })]
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para(runs("From: Snell KIE, Levis B, Damen JAA, et al. BMJ 2023;381:e073538. [[doi:10.1136/bmj-2022-073538|https://doi.org/10.1136/bmj-2022-073538]]", { size: 16 }), { spacing: { before: 160 } })]
       }]
     });
   }
