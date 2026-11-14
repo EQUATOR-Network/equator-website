@@ -1,0 +1,237 @@
+---
+pagetitle: "STARD 2015 checklist"
+page-layout: full
+toc: false
+resources:
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#215e99; --head:#4c94d8; --blue:#215e99; --box:#edf4fc; --boxline:#8fbbe6; --line:#333;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; line-height:1.25; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:12.5px; line-height:1.3; }
+  #tp-wrap th, #tp-wrap td { border:1px dotted var(--line); padding:3px 6px; vertical-align:middle; }
+  #tp-wrap th { background:var(--head); color:#fff; font-weight:bold; text-align:left; }
+  #tp-wrap th.c { text-align:center; }
+  #tp-wrap tr.sec td { color:var(--blue); font-weight:bold; padding:4px 6px; }
+  #tp-wrap td.topic { width:15%; vertical-align:top; font-style:italic; color:var(--blue); }
+  #tp-wrap td.item { width:6%; text-align:center; vertical-align:top; }
+  #tp-wrap td.pg { width:11%; padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6b86a6; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-cite { margin-top:1rem; font-size:14px; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #215e99; background:#215e99; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#215e99; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:9.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:17px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap .tp-cite { font-size:10.5px; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td, #tp-wrap td.topic { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-title">STARD 2015: an updated list of essential items for reporting diagnostic accuracy studies</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the blue boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section &amp; Topic</th><th class="c">No</th><th>Item</th>
+      <th class="c">Reported on page #<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-cite">From Bossuyt PM, Reitsma JB, Bruns DE, et al. <em>BMJ</em> 2015; 351:h5527. doi: <a href="https://doi.org/10.1136/bmj.h5527" target="_blank" rel="noopener">10.1136/bmj.h5527</a></p>
+</div>
+
+<script>
+(function () {
+  // ["Topic", "item", "text"]; topic "" = continuation row; plain strings = section bars
+  const ROWS = [
+    "TITLE OR ABSTRACT",
+    ["", "1", "Identification as a study of diagnostic accuracy using at least one measure of accuracy (such as sensitivity, specificity, predictive values, or AUC)"],
+    "ABSTRACT",
+    ["", "2", "Structured summary of study design, methods, results, and conclusions (for specific guidance, see STARD for Abstracts)"],
+    "INTRODUCTION",
+    ["", "3", "Scientific and clinical background, including the intended use and clinical role of the index test"],
+    ["", "4", "Study objectives and hypotheses"],
+    "METHODS",
+    ["Study design", "5", "Whether data collection was planned before the index test and reference standard were performed (prospective study) or after (retrospective study)"],
+    ["Participants", "6", "Eligibility criteria"],
+    ["", "7", "On what basis potentially eligible participants were identified (such as symptoms, results from previous tests, inclusion in registry)"],
+    ["", "8", "Where and when potentially eligible participants were identified (setting, location and dates)"],
+    ["", "9", "Whether participants formed a consecutive, random or convenience series"],
+    ["Test methods", "10a", "Index test, in sufficient detail to allow replication"],
+    ["", "10b", "Reference standard, in sufficient detail to allow replication"],
+    ["", "11", "Rationale for choosing the reference standard (if alternatives exist)"],
+    ["", "12a", "Definition of and rationale for test positivity cut-offs or result categories of the index test, distinguishing pre-specified from exploratory"],
+    ["", "12b", "Definition of and rationale for test positivity cut-offs or result categories of the reference standard, distinguishing pre-specified from exploratory"],
+    ["", "13a", "Whether clinical information and reference standard results were available to the performers/readers of the index test"],
+    ["", "13b", "Whether clinical information and index test results were available to the assessors of the reference standard"],
+    ["Analysis", "14", "Methods for estimating or comparing measures of diagnostic accuracy"],
+    ["", "15", "How indeterminate index test or reference standard results were handled"],
+    ["", "16", "How missing data on the index test and reference standard were handled"],
+    ["", "17", "Any analyses of variability in diagnostic accuracy, distinguishing pre-specified from exploratory"],
+    ["", "18", "Intended sample size and how it was determined"],
+    "RESULTS",
+    ["Participants", "19", "Flow of participants, using a diagram"],
+    ["", "20", "Baseline demographic and clinical characteristics of participants"],
+    ["", "21a", "Distribution of severity of disease in those with the target condition"],
+    ["", "21b", "Distribution of alternative diagnoses in those without the target condition"],
+    ["", "22", "Time interval and any clinical interventions between index test and reference standard"],
+    ["Test results", "23", "Cross tabulation of the index test results (or their distribution) by the results of the reference standard"],
+    ["", "24", "Estimates of diagnostic accuracy and their precision (such as 95% confidence intervals)"],
+    ["", "25", "Any adverse events from performing the index test or the reference standard"],
+    "DISCUSSION",
+    ["", "26", "Study limitations, including sources of potential bias, statistical uncertainty, and generalisability"],
+    ["", "27", "Implications for practice, including the intended use and clinical role of the index test"],
+    "OTHER INFORMATION",
+    ["", "28", "Registration number and name of registry"],
+    ["", "29", "Where the full study protocol can be accessed"],
+    ["", "30", "Sources of funding and other support; role of funders"]
+  ];
+  const TITLE = "STARD 2015: an updated list of essential items for reporting diagnostic accuracy studies";
+
+  const STORE = "stard-2015-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  const linkify = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, (_, label, url) => {
+    const a = document.createElement("a");
+    a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener");
+    a.setAttribute("data-url", url); a.textContent = label;
+    return a.outerHTML;
+  });
+  tbody.innerHTML = ROWS.map(r => typeof r === "string"
+    ? `<tr class="sec"><td colspan="4">${r}</td></tr>`
+    : `<tr><td class="topic">${r[0]}</td><td class="item">${r[1]}</td><td class="txt">${linkify(r[2])}</td>` +
+      `<td class="pg"><input type="text" data-key="p${r[1]}" placeholder="page no." aria-label="Page, item ${r[1]}"></td></tr>`).join("");
+  tbody.querySelectorAll("a[data-url]").forEach(a => { a.href = a.getAttribute("data-url"); a.removeAttribute("data-url"); });
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "STARD 2015 checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title) {
+    const F = "Arial", SZ = 17, W = [1500, 700, 7066, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const line = { style: D.BorderStyle.DOTTED, size: 4, color: "333333" };
+    const borders = { top: line, bottom: line, left: line, right: line };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, color: o.color });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span,
+      verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders,
+      children: [new D.Paragraph({ alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "4C94D8", bold: true, color: "FFFFFF" };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section & Topic", hd), cell(1, "No", { ...hd, center: true }),
+      cell(2, "Item", hd), cell(3, "Reported on page #", { ...hd, center: true })] });
+    const body = ROWS.map(r => typeof r === "string"
+      ? new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, bold: true, color: "215E99" })] })
+      : new D.TableRow({ cantSplit: true, children: [
+          cell(0, r[0], { top: true, italics: true, color: "215E99" }), cell(1, r[1], { center: true, top: true }), cell(2, r[2]),
+          cell(3, vals["p" + r[1]] || "", { center: true })] }));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const top = [];
+    top.push(para([new D.TextRun({ text: title, font: F, size: 26, bold: true })], { spacing: { before: 60, after: 120 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "STARD 2015 checklist", creator: "STARD 2015 checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para(runs("From Bossuyt PM, Reitsma JB, Bruns DE, et al. BMJ 2015; 351:h5527. doi: [[10.1136/bmj.h5527|https://doi.org/10.1136/bmj.h5527]]", { size: 16 }), { spacing: { before: 160 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      const logo = null;
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS.map(r => typeof r === "string" ? r : [r[0], r[1], r[2].replace(/\|([^|\]]*)\]\]/, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")]), vals, logo, TITLE));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "STARD-2015-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

@@ -8,22 +8,24 @@ provided-for: Studies of diagnostic accuracy.
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
-relevant-urls: The full-text of the STARD 2015 reporting guideline for diagnostic
-  accuracy studies is available to download as a[PDF](STARD-2015-paper.pdf) file.
+relevant-urls: |-
+  The full-text of the STARD 2015 reporting guideline for diagnostic accuracy studies is available to download as a [PDF](STARD-2015-paper.pdf) file.\
+  
+  Complete an interactive [STARD-2015 checklist](stard-checklist.qmd), which you can upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig L, LijmerJG Moher D, Rennie D, de Vet HCW, Kressel HY, Rifai N, Golub RM, Altman DG, Hooft L, Korevaar DA, Cohen JF, For the STARD Group. STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy Studies. \
 
-  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.
+  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.\
 
-  BMJ. 2015;351:h5527. PMID: [26511519](http://www.ncbi.nlm.nih.gov/pubmed/26511519)
+  BMJ. 2015;351:h5527. PMID: [26511519](http://www.ncbi.nlm.nih.gov/pubmed/26511519) [full text](https://doi.org/10.1136/bmj.h5527)
 
-  Radiology. 2015:151516. PMID: [26509226](http://www.ncbi.nlm.nih.gov/pubmed/26509226)
+  Radiology. 2015:151516. PMID: [26509226](http://www.ncbi.nlm.nih.gov/pubmed/26509226) [full text](https://doi.org/10.1148/radiol.2015151516)
 
-  Clinical Chemistry. 2015. pii: clinchem.2015.246280. PMID: [26510957](http://www.ncbi.nlm.nih.gov/pubmed/26510957) \
+  Clinical Chemistry. 2015. pii: clinchem.2015.246280. PMID: [26510957](http://www.ncbi.nlm.nih.gov/pubmed/26510957) [full text](https://doi.org/10.1373/clinchem.2015.246280) \
 
   **Explanation and Elaboration**
   
-    Cohen JF, Korevaar DA, Altman DG, Bruns DE, Gatsonis CA, Hooft L, Irwig L, Levine D, Reitsma JB, de Vet HCW, Bossuyt PMM. STARD 2015 guidelines for reporting diagnostic accuracy studies: explanation and elaboration. BMJ Open 2016;6:e012799 <http://bmjopen.bmj.com/content/6/11/e012799.abstract>
+    Cohen JF, Korevaar DA, Altman DG, Bruns DE, Gatsonis CA, Hooft L, Irwig L, Levine D, Reitsma JB, de Vet HCW, Bossuyt PMM. STARD 2015 guidelines for reporting diagnostic accuracy studies: explanation and elaboration. BMJ Open 2016;6:e012799 PMID: [28137831](https://pubmed.ncbi.nlm.nih.gov/28137831/) [full text](https://doi.org/10.1136/bmjopen-2016-012799)
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -34,9 +36,7 @@ guideline-history: |-
 
   Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig LM, Lijmer JG, Moher D, Rennie D, de Vet HC. Towards complete and accurate reporting of studies of diagnostic accuracy: the STARD initiative. Standards for Reporting of Diagnostic Accuracy.
 
-  Clin Chem. 2003; 49(1):1-6. PMID: [12507953
-
-  ](http://www.ncbi.nlm.nih.gov/pubmed/12507953)BMJ. 2003; 326(7379):41-44. PMID: [12511463](http://www.ncbi.nlm.nih.gov/pubmed/12511463)
+  Clin Chem. 2003; 49(1):1-6. PMID: [12507953](http://www.ncbi.nlm.nih.gov/pubmed/12507953)BMJ. 2003; 326(7379):41-44. PMID: [12511463](http://www.ncbi.nlm.nih.gov/pubmed/12511463)
 
   Radiology. 2003; 226(1):24-28. PMID: [12511664](http://www.ncbi.nlm.nih.gov/pubmed/12511664)
 
@@ -81,7 +81,7 @@ additional-languages: |-
 
   The Japanese translation of the STARD Statement is published in the Official Journal of the Japanese Society of Laboratory Medicine. 2004. 52(5):465-471. \
 
-  The STARD 2003 Checklist is available in[Turkish (PDF)](STARD-Turkish-translation.pdf).
+  The STARD 2003 Checklist is available in [Turkish (PDF)](STARD-Turkish-translation.pdf).
 additional-information: |-
   **Objective of the STARD initiative**
 
