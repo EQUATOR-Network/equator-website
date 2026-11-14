@@ -546,7 +546,7 @@
       "/reporting-guidelines/reporting-guidance-for-violence-risk-assessment-predictive-validity-studies-the-ragee-statement/index.html",
       "/reporting-guidelines/reporting-guideline-for-chatbot-health-advice-studies-the-chart-statement/index.html",
       "/reporting-guidelines/reporting-guideline-for-overviews-of-reviews-of-healthcare-interventions-development-of-the-prior-statement/index.html",
-      "/reporting-guidelines/reporting-guideline-for-the-early-stage-clinical-evaluation-of-decision-support-systems-driven-by-artificial-intelligence-decide-ai/index.html",
+      "/reporting-guidelines/decide-ai/index.html",
       "/reporting-guidelines/reporting-guideline-for-the-use-of-generative-artificial-intelligence-tools-in-medical-research-the-gamer-statement/index.html",
       "/reporting-guidelines/reporting-guidelines-for-allergy-and-immunology-survey-research/index.html",
       "/reporting-guidelines/reporting-guidelines-for-evidence-based-practice-projects-a-delphi-study-and-publication-checklist/index.html",
@@ -722,28 +722,13 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/about/equator-network.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   },
   {
@@ -757,13 +742,28 @@
     ]
   },
   {
-    "listing": "/about/equator-network.html",
+    "listing": "/about/uk-equator-centre.html",
     "items": [
       "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
     ]
   },
   {
