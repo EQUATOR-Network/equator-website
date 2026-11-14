@@ -38,7 +38,7 @@ sticky: true
 downloads: |-
   Download the TRIPOD-SRMA checklist [(PDF)](TRIPOD-SRMA-Checklist.pdf) or [word](TRIPOD-SRMA-Checklist.docx)\
 
-  Download the TRIPOD-SRMA for Abstracts [(PDF)](TRIPOD-SRMA-Checklist-Abstract.pdf) or [word](TRIPOD-SRMA-Checklist-Abstract.docx)
+  Download the TRIPOD-SRMA for Abstracts [PDF](TRIPOD-SRMA-Checklist-Abstract.pdf) or [Word](TRIPOD-SRMA-Checklist-Abstract.docx)
 # LIST FIELDS
 study-design:
 # - Animal pre-clinical research
