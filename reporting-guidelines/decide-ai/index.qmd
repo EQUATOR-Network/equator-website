@@ -1,19 +1,21 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting guideline for the early-stage clinical evaluation of decision support
-  systems driven by artificial intelligence: DECIDE-AI'
+title: 'Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI'
+aliases:
+  - /reporting-guidelines/reporting-guideline-for-the-early-stage-clinical-evaluation-of-decision-support-systems-driven-by-artificial-intelligence-decide-ai/
 acronym: DECIDE-AI
-provided-for: Reporting of studies describing the early-stage live clinical evaluation
-  of AI-based decision support systems.
+provided-for: Reporting of studies describing the early-stage live clinical evaluation of AI-based decision support systems.
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
-relevant-urls: Read the full-text of the DECIDE-AI reporting guideline in the [BMJ](https://www.bmj.com/content/377/bmj-2022-070904)
-  or [Nature Medicine](https://www.nature.com/articles/s41591-022-01772-9).
+relevant-urls: |-
+  Read the full-text of the DECIDE-AI reporting guideline in the [BMJ](https://www.bmj.com/content/377/bmj-2022-070904) or [Nature Medicine](https://www.nature.com/articles/s41591-022-01772-9) \
+  
+  Complete an interactive [DECIDE-AI checklist](decide-ai-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
-  Vasey B, Nagendran M, Campbell B, Clifton DA, Collins GS, Denaxas S, Denniston AK, Faes L, Geerts B, Ibrahim M, Liu X, Mateen BA, Mathur P, McCradden MD, Morgan L, Ordish J, Rogers C, Saria S, Ting DSW, Watkinson P, Weber W, Wheatstone P, McCulloch P; DECIDE-AI expert group. Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI.
+  Vasey B, Nagendran M, Campbell B, Clifton DA, Collins GS, Denaxas S, Denniston AK, Faes L, Geerts B, Ibrahim M, Liu X, Mateen BA, Mathur P, McCradden MD, Morgan L, Ordish J, Rogers C, Saria S, Ting DSW, Watkinson P, Weber W, Wheatstone P, McCulloch P; DECIDE-AI expert group. Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI.\
 
-  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
+  This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.\
 
   Nat Med. 2022;28(5):924-933. PMID: [35585198](https://pubmed.ncbi.nlm.nih.gov/35585198/)
 

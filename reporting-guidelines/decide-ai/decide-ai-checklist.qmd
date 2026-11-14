@@ -1,0 +1,271 @@
+---
+pagetitle: "DECIDE-AI checklist"
+page-layout: full
+toc: false
+resources:
+  - decide-ai-logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#a30000; --red:#c00000; --grey:#d9d9d9; --box:#fdf1f1; --boxline:#e3a6a6; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-run { display:flex; justify-content:space-between; font-size:13px; color:#333; margin-bottom:.4rem; }
+  #tp-wrap .tp-top { text-align:center; margin-bottom:.8rem; }
+  #tp-wrap .tp-top img { width:min(340px,70%); height:auto; }
+  #tp-wrap .tp-title { font-size:24px; margin-top:.2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 7px; vertical-align:middle; text-align:left; }
+  #tp-wrap thead th { background:var(--red); color:#fff; text-align:center; font-weight:bold; }
+  #tp-wrap tr.sec td { background:var(--red); color:#fff; font-weight:bold; }
+  #tp-wrap tr.gen td { background:var(--grey); }
+  #tp-wrap td.item, #tp-wrap td.theme { text-align:center; }
+  #tp-wrap td.item { width:7%; } #tp-wrap td.theme { width:16%; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:12%; }
+  #tp-wrap td.pg { padding:3px; background:#fff; }
+  #tp-wrap tr.gen td.pg { background:var(--grey); }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#a06a6a; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-cite { margin-top:1rem; font-size:13px; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #a30000; background:#a30000; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#a30000; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:18px; }
+    #tp-wrap .tp-cite { font-size:9.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td, #tp-wrap tr.gen td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-run"><span>DECIDE-AI</span><span>Checklist</span><span>2022</span></div>
+  <div class="tp-top">
+    <img src="decide-ai-logo.png" alt="DECIDE-AI" id="tp-logo">
+    <div class="tp-title">Reporting item checklist</div>
+  </div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Item nº</th><th>Theme</th><th>Recommendation</th>
+      <th class="pgh">Reported on page<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-cite">Taken from Vasey et al. Reporting guideline for the early stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. BMJ 2022;377:e070904 <a href="https://doi.org/10.1136/bmj-2022-070904" target="_blank" rel="noopener">doi: 10.1136/bmj-2022-070904</a></p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings. ["L", label, text, grey?] = key row at the top.
+  // Items: [item no, theme, generic (grey) row?, [[page key, text], ...]]  ("\n" = line break)
+  const ROWS = [
+    ["L","1 -17","AI-specific reporting items",false],
+    ["L","I - X","Generic reporting items",true],
+    "Title and abstract",
+    ["1","Title",false,[["1","Identify the study as early clinical evaluation of a decision support system based on AI or machine learning, specifying the problem addressed."]]],
+    ["I","Abstract",true,[["I","Provide a structured summary of the study.\nConsider including: intended use of the AI system, type of underlying algorithm, study setting, number of patients and users included, primary and secondary outcomes, key safety endpoints, human factors evaluated, main results, conclusions."]]],
+    "Introduction",
+    ["2","Intended use",false,[
+      ["2a","a) Describe the targeted medical condition(s) and problem(s), including the current standard practice, and the intended patient population(s)."],
+      ["2b","b) Describe the intended users of the AI system, its planned integration in the care pathway, and the potential impact, including patient outcomes, it is intended to have."]]],
+    ["II","Objectives",true,[["II","State the study objectives."]]],
+    "Methods",
+    ["III","Research governance",true,[["III","Provide a reference to any study protocol, study registration number, and ethics approval."]]],
+    ["3","Participants",false,[
+      ["3a","a) Describe how patients were recruited, stating the inclusion and exclusion criteria at both patient and data level, and how the number of recruited patients was decided."],
+      ["3b","b) Describe how users were recruited, stating the inclusion and exclusion criteria, and how the intended number of recruited users was decided."],
+      ["3c","c) Describe steps taken to familiarise the users with the AI system, including any training received prior to the study."]]],
+    ["4","AI system",false,[
+      ["4a","a) Briefly describe the AI system, specifying its version and type of underlying algorithm used. Describe, or provide a direct reference to, the characteristics of the patient population on which the algorithm was trained and its performance in preclinical development/validation studies."],
+      ["4b","b) Identify the data used as inputs. Describe how the data were acquired, the process needed to enter the input data, the pre-processing applied, and how missing/low-quality data were handled."],
+      ["4c","c) Describe the AI system outputs and how they were presented to the users (an image may be useful)."]]],
+    ["5","Implementation",false,[
+      ["5a","a) Describe the settings in which the AI system was evaluated."],
+      ["5b","b) Describe the clinical workflow/care pathway in which the AI system was evaluated, the timing of its use, and how the final supported decision was reached and by whom."]]],
+    ["IV","Outcomes",true,[["IV","Specify the primary and secondary outcomes measured."]]],
+    ["6","Safety and errors",false,[
+      ["6a","a) Provide a description of how significant errors/malfunctions were defined and identified."],
+      ["6b","b) Describe how any risks to patient safety or instances of harm were identified, analysed, and minimised."]]],
+    ["7","Human factors",false,[["7","Describe the human factors tools, methods or frameworks used, the use cases considered, and the users involved."]]],
+    ["V","Analysis",true,[["V","Describe the statistical methods by which the primary and secondary outcomes were analysed, as well as any prespecified additional analyses, including subgroup analyses and their rationale."]]],
+    ["8","Ethics",false,[["8","Describe whether specific methodologies were utilised to fulfil an ethics-related goal (such as algorithmic fairness) and their rationale."]]],
+    ["VI","Patient Involvement",true,[["VI","State how patients were involved in any aspect of: the development of the research question, the study design, and the conduct of the study."]]],
+    "Results",
+    ["9","Participants",false,[
+      ["9a","a) Describe the baseline characteristics of the patients included in the study, and report on input data missingness."],
+      ["9b","b) Describe the baseline characteristics of the users included in the study."]]],
+    ["10","Implementation",false,[
+      ["10a","a) Report on the user exposure to the AI system, on the number of instances the AI system was used, and on the users’ adherence to the intended implementation."],
+      ["10b","b) Report any significant changes to the clinical workflow or care pathway caused by the AI system."]]],
+    ["VII","Main results",true,[["VII","Report on the prespecified outcomes, including outcomes for any comparison group if applicable."]]],
+    ["VIII","Subgroups analysis",true,[["VIII","Report on the differences in the main outcomes according to the prespecified subgroups."]]],
+    ["11","Modifications",false,[["11","Report any changes made to the AI system or its hardware platform during the study. Report the timing of these modifications, the rationale for each, and any changes in outcomes observed after each of them."]]],
+    ["12","Human-computer agreement",false,[["12","Report on the user agreement with the AI system. Describe any instances of and reasons for user variation from the AI system’s recommendations and, if applicable, users changing their mind based on the AI system’s recommendations."]]],
+    ["13","Safety and errors",false,[
+      ["13a","a) List any significant errors/malfunctions related to: AI system recommendations, supporting software/hardware, or users. Include details of: (i) rate of occurrence, (ii) apparent causes, (iii) whether they could be corrected, and (iv) any significant potential impacts on patient care."],
+      ["13b","b) Report on any risks to patient safety or observed instances of harm (including indirect harm) identified during the study."]]],
+    ["14","Human factors",false,[
+      ["14a","a) Report on the usability evaluation, according to recognised standards or frameworks."],
+      ["14b","b) Report on the user learning curves evaluation."]]],
+    "Discussion",
+    ["15","Support for intended use",false,[["15","Discuss whether the results obtained support the intended use of the AI system in clinical settings."]]],
+    ["16","Safety and errors",false,[["16","Discuss what the results indicate about the safety profile of the AI system. Discuss any observed errors/malfunctions and instances of harm, their implications for patient care, and whether/how they can be mitigated."]]],
+    ["IX","Strengths and limitations",true,[["IX","Discuss the strengths and limitations of the study."]]],
+    "Statements",
+    ["17","Data availability",false,[["17","Disclose if and how data and relevant code are available."]]],
+    ["X","Conflicts of interest",true,[["X","Disclose any relevant conflicts of interest, including the source of funding for the study, the role of funders, any other roles played by commercial companies, and personal conflicts of interest for each author."]]]
+  ];
+  const TITLE = "Reporting item checklist";
+  const FOOT = "Taken from Vasey et al. Reporting guideline for the early stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. BMJ 2022;377:e070904 [[doi: 10.1136/bmj-2022-070904|https://doi.org/10.1136/bmj-2022-070904]]";
+
+  const STORE = "decide-ai-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    if (r[0] === "L") return `<tr${r[3] ? ' class="gen"' : ""}><td class="item">${r[1]}</td><td colspan="3">${r[2]}</td></tr>`;
+    const [no, theme, gen, subs] = r, n = subs.length;
+    return subs.map(([key, text], i) =>
+      `<tr${gen ? ' class="gen"' : ""}>` + (i ? "" : `<td class="item" rowspan="${n}">${no}</td><td class="theme" rowspan="${n}">${theme}</td>`) +
+      `<td class="txt">${text.replace(/\n/g, "<br>")}</td>` +
+      `<td class="pg"><input type="text" data-key="p${key}" placeholder="page no." aria-label="Page, item ${key}"></td></tr>`).join("");
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "DECIDE-AI checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, foot) {
+    const F = "Arial", SZ = 17, W = [800, 1700, 6666, 1300], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, color: o.color });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? W.slice(i, i + o.span).reduce((a, b) => a + b) : W[i], type: D.WidthType.DXA },
+      columnSpan: o.span, rowSpan: o.rowSpan, verticalAlign: D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 45, bottom: 45, left: 100, right: 100 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "C00000", color: "FFFFFF", bold: true, center: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Item nº", hd), cell(1, "Theme", hd), cell(2, "Recommendation", hd), cell(3, "Reported on page", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: 4, fill: "C00000", color: "FFFFFF", bold: true, keepNext: true })] })];
+      if (r[0] === "L") { const f = r[3] ? "D9D9D9" : undefined;
+        return [new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { center: true, fill: f }), cell(1, r[2], { span: 3, fill: f })] })]; }
+      const [no, theme, gen, subs] = r, f = gen ? "D9D9D9" : undefined;
+      return subs.map(([key, text], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, no, { rowSpan: subs.length, center: true, fill: f }), cell(1, theme, { rowSpan: subs.length, center: true, fill: f })]),
+        cell(2, text, { fill: f }), cell(3, vals["p" + key] || "", { center: true, fill: f })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const header = new D.Header({ children: [new D.Paragraph({
+      tabStops: [{ type: D.TabStopType.CENTER, position: TOTAL / 2 }, { type: D.TabStopType.RIGHT, position: TOTAL }],
+      children: [run("DECIDE-AI", { size: 18 }), new D.TextRun({ children: [new D.Tab(), "Checklist"], font: F, size: 18 }),
+                 new D.TextRun({ children: [new D.Tab(), "2022"], font: F, size: 18 })] })] });
+    const top = [];
+    if (logo) top.push(para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 260, height: Math.round(260 * 121 / 641) } })], { alignment: D.AlignmentType.CENTER }));
+    top.push(para([run(title, { size: 32 })], { alignment: D.AlignmentType.CENTER, spacing: { after: 160 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "DECIDE-AI checklist", creator: "DECIDE-AI checklist",
+      sections: [{
+        headers: { default: header },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 900, bottom: 720, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para(runs(foot, { size: 16 }), { spacing: { before: 140 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      try { logo = new Uint8Array(await (await fetch(new URL("decide-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "DECIDE-AI-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
