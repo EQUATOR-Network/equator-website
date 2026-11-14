@@ -11,9 +11,9 @@ pmid-id: ''
 pmid-url: ''
 relevant-urls: ''
 full-bibliographic-reference: |-
-  Liu X, Rivera SC, Moher D, Calvert MJ, Denniston AK; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI Extension.
+  Liu X, Rivera SC, Moher D, Calvert MJ, Denniston AK; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI Extension. \
 
-  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.
+  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.\
 
   BMJ 2020;370:m3164. PMID: [32909959](https://pubmed.ncbi.nlm.nih.gov/32909959/) [full text](https://www.bmj.com/content/370/bmj.m3164)
 

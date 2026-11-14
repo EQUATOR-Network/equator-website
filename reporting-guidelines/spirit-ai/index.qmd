@@ -10,9 +10,9 @@ pmid-id: ''
 pmid-url: ''
 relevant-urls: ''
 full-bibliographic-reference: |-
-  Rivera SC, Liu X, Chan A-W, Denniston AK, Calvert MJ; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension.
+  Rivera SC, Liu X, Chan A-W, Denniston AK, Calvert MJ; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension.\
 
-  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.
+  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.\
 
   BMJ. 2020;370:m3210. PMID: [32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/) [full text](https://www.bmj.com/content/370/bmj.m3210)
 
