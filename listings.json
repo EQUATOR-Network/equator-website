@@ -722,6 +722,51 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
+    ]
+  },
+  {
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
+    ]
+  },
+  {
     "listing": "/reporting-guidelines/under-development/index.html",
     "items": [
       "/reporting-guidelines/under-development/consort-precis/index.html",
@@ -911,6 +956,7 @@
       "/reporting-guidelines/under-development/strobe-pregnancy-outcomes/index.html",
       "/reporting-guidelines/under-development/strobe-prev-strengthening-the-reporting-of-studies-of-prevalence/index.html",
       "/reporting-guidelines/under-development/sumo-cross-reporting-cross-sectional-surveys-conducted-in-multiple-contexts-sumo-cross/index.html",
+      "/reporting-guidelines/under-development/swap-ai/index.html",
       "/reporting-guidelines/under-development/sgr-tcm/index.html",
       "/reporting-guidelines/under-development/starlif-standards-for-reporting-the-development-and-validation-of-literature-search-filters/index.html",
       "/reporting-guidelines/under-development/standardised-reporting-of-the-carbon-footprint-of-clinical-pathways/index.html",
@@ -947,6 +993,7 @@
       "/reporting-guidelines/under-development/transparent-reporting-of-adaptations-context-and-effects/index.html",
       "/reporting-guidelines/under-development/transparent-reporting-of-educational-interventions-and-curriculum-research-in-health-professions-education/index.html",
       "/reporting-guidelines/under-development/teach/index.html",
+      "/reporting-guidelines/under-development/traico/index.html",
       "/reporting-guidelines/under-development/unite-reporting-guidelines-for-youth-and-family-specific-engagement-in-research/index.html",
       "/reporting-guidelines/under-development/united-through-health/index.html",
       "/reporting-guidelines/under-development/uer/index.html",
@@ -955,51 +1002,6 @@
       "/reporting-guidelines/under-development/vhc-test/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
-    ]
-  },
-  {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
-    ]
-  },
-  {
-    "listing": "/about/equator-network.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
     ]
   }
 ]
