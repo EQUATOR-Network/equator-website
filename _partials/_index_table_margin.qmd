@@ -17,7 +17,7 @@ editor:
 | [SRQR](/reporting-guidelines/srqr) | Qualitative Research |
 | [CARE](/reporting-guidelines/care) | Case Reports |
 | [STARD](/reporting-guidelines/stard) | Diagnostic studies |
-| [TRIPOD+AI](/reporting-guidelines/tripod-statement/) | Prediction Models |
+| [TRIPOD+AI](/reporting-guidelines/tripod/) | Prediction Models |
 | [ARRIVE](/reporting-guidelines/arrive) | Animal Research |
 | [SQUIRE](/reporting-guidelines/squire) | Quality Improvement |
 | [CHEERS](/reporting-guidelines/cheers/) | Economic Evaluations |
