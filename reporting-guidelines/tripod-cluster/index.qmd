@@ -10,7 +10,7 @@ pmid-url: https://pubmed.ncbi.nlm.nih.gov/36750242/
 relevant-urls: |- 
   [Read the full-text](https://www.bmj.com/content/380/bmj-2022-071018) of the TRIPOD-Cluster reporting guideline. \
   
-  Complete an interactive [TRIPOD-Cluster checklist](tripod-cluster-checklist.qmd), which you can upload when submitting your paper to a journal.
+  Complete an interactive [TRIPOD-Cluster checklist](tripod-cluster-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: 'Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM. Transparent reporting of multivariable prediction models developed or validated using clustered data: TRIPOD-Cluster checklist. BMJ. 2023;380:e071018. PMID: [36750242](https://pubmed.ncbi.nlm.nih.gov/36750242/) [full text](https://doi.org/10.1136/bmj-2022-071018)'
 
 

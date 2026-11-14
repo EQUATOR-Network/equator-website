@@ -8,8 +8,12 @@ provided-for: Reporting of studies that are developing, tuning, prompt engineeri
 rg-doi: ''
 pmid-id: '[39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39779929/
-relevant-urls: '[Read the full-text](https://www.nature.com/articles/s41591-024-03425-5)
-  of the TRIPOD-LLM guideline.'
+relevant-urls: |-
+  [Read the full-text](https://www.nature.com/articles/s41591-024-03425-5)
+  of the TRIPOD-LLM guideline.\
+  
+  Complete an interactice [TRIPOD-LLM checklist](https://tripod-llm.vercel.app/), which you can save and upload when submitting your paper to a journal.
+  
 full-bibliographic-reference: Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025.
 
 

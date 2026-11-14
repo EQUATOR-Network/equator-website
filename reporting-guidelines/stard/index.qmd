@@ -11,7 +11,7 @@ pmid-url: ''
 relevant-urls: |-
   The full-text of the STARD 2015 reporting guideline for diagnostic accuracy studies is available to download as a [PDF](STARD-2015-paper.pdf) file.\
   
-  Complete an interactive [STARD-2015 checklist](stard-checklist.qmd), which you can upload when submitting your paper to a journal.
+  Complete an interactive [STARD-2015 checklist](stard-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig L, LijmerJG Moher D, Rennie D, de Vet HCW, Kressel HY, Rifai N, Golub RM, Altman DG, Hooft L, Korevaar DA, Cohen JF, For the STARD Group. STARD 2015: An Updated List of Essential Items for Reporting Diagnostic Accuracy Studies. \
 
