@@ -1,10 +1,10 @@
 ---
 # REQUIRED FIELDS
-title: 'Guidelines for clinical trial protocols for interventions involving artificial
-  intelligence: the SPIRIT-AI Extension'
+title: 'Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension'
+aliases:
+    - /reporting-guidelines/spirit-artificial-intelligence/
 acronym: SPIRIT-AI
-provided-for: Reporting for clinical trial protocols evaluating interventions with
-  an artificial intelligence (AI) component.
+provided-for: Reporting for clinical trial protocols evaluating interventions with an artificial intelligence (AI) component.
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
@@ -14,11 +14,11 @@ full-bibliographic-reference: |-
 
   This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.
 
-  [BMJ. 2020;370:m3210.](https://www.bmj.com/content/370/bmj.m3210) PMID: [32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/)
+  BMJ. 2020;370:m3210. PMID: [32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/) [full text](https://www.bmj.com/content/370/bmj.m3210)
 
-  [Nat Med. 2020;26(9):1351–1363.](https://www.nature.com/articles/s41591-020-1037-7) PMID: [32908284](https://pubmed.ncbi.nlm.nih.gov/32908284/)
+  Nat Med. 2020;26(9):1351–1363 PMID: [32908284](https://pubmed.ncbi.nlm.nih.gov/32908284/) [full text]](https://www.nature.com/articles/s41591-020-1037-7)
 
-  [Lancet Digital Health. 2020;2(10):e549-e560.](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30219-3/fulltext) PMID: [33328049](https://pubmed.ncbi.nlm.nih.gov/33328049/)
+  Lancet Digital Health. 2020;2(10):e549-e560. PMID: [33328049](https://pubmed.ncbi.nlm.nih.gov/33328049/) [full text]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30219-3/fulltext)
 
 
 # OPTIONAL FIELDS
