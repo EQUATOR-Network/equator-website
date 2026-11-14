@@ -1,0 +1,238 @@
+---
+pagetitle: "AGReMA checklist"
+page-layout: full
+toc: false
+resources:
+  - agrema-logo.png
+  - cc-by-nc-nd.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2f4f9a; --head:#8eaadb; --sect:#b4c6e7; --box:#eef3fb; --boxline:#8eaadb; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top img { width:min(300px,60%); height:auto; display:block; margin-bottom:.8rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:6px 7px; vertical-align:middle; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; }
+  #tp-wrap th.c, #tp-wrap td.item { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:3px 7px; }
+  #tp-wrap td.topic { width:18%; } #tp-wrap td.item { width:9%; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:13%; }
+  #tp-wrap td.pg { padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6f82a8; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-cite { margin-top:1rem; font-size:13px; }
+  #tp-wrap .tp-more { margin-top:.8rem; font-size:13px; text-align:center; }
+  #tp-wrap .tp-lic { display:flex; justify-content:space-between; align-items:center; margin-top:1rem; padding-top:.3rem;
+    border-top:1px solid #000; font-size:12px; font-style:italic; }
+  #tp-wrap .tp-lic img { width:80px; height:auto; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2f4f9a; background:#2f4f9a; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2f4f9a; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap td, #tp-wrap th { padding:4px 6px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-cite, #tp-wrap .tp-more { font-size:9.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img src="agrema-logo.png" alt="AGReMA: A Guideline for Reporting Mediation Analyses" id="tp-logo"></div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section/Topic</th><th class="c">Item Number</th><th>Item Description</th>
+      <th class="pgh">Reported on page No<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-cite"><em>From:</em> Lee H, Cashin AG, Lamb SE, Hopewell S, Vansteelandt S, VanderWeele TJ, et al. A Guideline for Reporting Mediation Analyses of Randomized Trials and Observational Studies. The AGReMA Statement. JAMA. 2021;326(11):1045–1056. <a href="https://doi.org/10.1001/jama.2021.14075" target="_blank" rel="noopener">doi:10.1001/jama.2021.14075</a></p>
+  <p class="tp-more">AGReMA is designed for articles that report mediation analyses of randomized trials or observational studies.<br>For more information, visit: <a href="https://agrema-statement.org/" target="_blank" rel="noopener">agrema-statement.org</a></p>
+  <div class="tp-lic"><span>AGReMA Checklist</span><img src="cc-by-nc-nd.png" alt="Creative Commons BY-NC-ND licence"></div>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings. Items: [topic, item no, text]
+  const ROWS = [
+    "Title and abstract",
+    ["Title","1","Identify that the study uses mediation analysis"],
+    ["Abstract","2","Provide a structured summary of the objectives, methods, results, and conclusions specific to mediation analyses"],
+    "Introduction",
+    ["Background and rationale","3","Describe the study background and theoretical rationale for investigating the mechanisms of interest. Include supporting evidence or theoretical rationale for why the intervention or exposure might have a causal relationship with the proposed mediators. Include supporting evidence or theoretical rationale for why the mediators might have a causal relationship with the outcomes"],
+    ["Objectives","4","State the objectives of the study specific to the mechanisms of interest. The objectives should specify whether the study aims to test or estimate the mechanistic effects"],
+    "Methods",
+    ["Study registration","5","If applicable, provide references to any protocols or study registrations specific to the mediation analysis, and highlight any deviations from the planned protocol"],
+    ["Study design and source of data","6","Specify the design of the original study that was used in mediation analyses and where the details can be accessed, supported by a reference. If applicable, describe study design features that are relevant to mediation analyses"],
+    ["Participants","7","Describe the target population, eligibility criteria specific to mediation analyses, study locations, and study dates (start of participant enrolment and end of follow-up)"],
+    ["Sample Size","8","State whether a sample size calculation was conducted for mediation analyses. If so, explain how it was calculated"],
+    ["Effects of interest","9","Specify the effects of interest"],
+    ["Assumed causal model","10","Include a graphic representation of the assumed causal model including the exposure, mediator, outcome, and possible confounders"],
+    ["Causal assumptions","11","Specify assumptions about the causal model"],
+    ["Measurement","12","Clearly describe the interventions or exposures, mediators, outcomes, confounders, and moderators that were used in the analyses. Specify how and when they were measured, the measurement properties, and whether blinded assessment was used"],
+    ["Measurement levels","13","If relevant, describe the levels at which the exposure, mediator, and outcome were measured"],
+    ["Statistical methods","14","Describe the statistical methods used to estimate the causal relationships of interest. This description should specify analytical strategies used to reduce confounding, model building procedures, justification for the inclusion or exclusion of possible interaction terms, modelling assumptions, and methods used to handle missing data. Provide a reference to the statistical software and package used"],
+    ["Sensitivity analyses","15","Describe any sensitivity analyses that were used to explore causal or statistical assumptions and the influence of missing data"],
+    ["Ethical approval","16","Name the institutional research board or ethics committee that approved the study. Provide a description of participant informed consent or ethics committee waiver of informed consent"],
+    "Results",
+    ["Participants","17","Describe baseline characteristics of participants included in mediation analyses. Report the total sample size and number of participants lost during follow-up or with missing data"],
+    ["Outcomes and estimates","18","Report point estimates and uncertainty estimates for the exposure-mediator and mediator-outcome relationships. If inference concerning the causal relationship of interest is considered feasible given the causal assumptions, report the point estimate and uncertainty estimate"],
+    ["Sensitivity parameters","19","Report the results from any sensitivity analyses used to assess robustness of the causal or statistical assumptions, and the influence of missing data"],
+    "Discussion",
+    ["Limitations","20","Discuss the limitations of the study including potential sources of bias"],
+    ["Interpretation","21","Interpret the estimated effects considering the study’s magnitude and uncertainty, plausibility of the causal assumptions, limitations, generalizability of the findings, and results from relevant studies"],
+    ["Implications","22","Discuss the implications of the overall results for clinical practice, policy, and science"],
+    "Other information",
+    ["Funding and role of sponsor","23","List all sources of funding or sponsorship for the mediation analysis and the role of the funders/sponsors in the conduct of the study, writing of the manuscript, and decision to submit for publication."],
+    ["Conflicts of interest and financial disclosures","24","State any conflicts of interest and financial disclosures for all authors"],
+    ["Data and code","25","Authors are encouraged to provide a statement for sharing data and code for the mediation analysis"]
+  ];
+  const FOOT = [
+    "<em>From:</em> Lee H, Cashin AG, Lamb SE, Hopewell S, Vansteelandt S, VanderWeele TJ, et al. A Guideline for Reporting Mediation Analyses of Randomized Trials and Observational Studies. The AGReMA Statement. JAMA. 2021;326(11):1045–1056. [[doi:10.1001/jama.2021.14075|https://doi.org/10.1001/jama.2021.14075]]",
+    "AGReMA is designed for articles that report mediation analyses of randomized trials or observational studies.\nFor more information, visit: [[agrema-statement.org|https://agrema-statement.org/]]"
+  ];
+
+  const STORE = "agrema-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => typeof r === "string" ? `<tr class="sec"><td colspan="4">${r}</td></tr>`
+    : `<tr><td class="topic">${r[0]}</td><td class="item">${r[1]}</td><td class="txt">${r[2]}</td>` +
+      `<td class="pg"><input type="text" data-key="p${r[1]}" placeholder="page no." aria-label="Page, item ${r[1]}"></td></tr>`).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "AGReMA checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, badge, foot) {
+    const F = "Arial", SZ = 17, W = [1700, 900, 6666, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics });
+    const runs = (text, o = {}) => {
+      const out = [], re = /<em>(.*?)<\/em>|\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        if (m[1] !== undefined) out.push(run(m[1], { ...o, italics: true }));
+        else out.push(new D.ExternalHyperlink({ link: m[3], children: [new D.TextRun({ text: m[2], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined,
+      verticalAlign: D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: o.span ? 40 : 90, bottom: o.span ? 40 : 90, left: 100, right: 100 },
+      borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "8EAADB", bold: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section/Topic", hd), cell(1, "Item Number", { ...hd, center: true }),
+      cell(2, "Item Description", hd), cell(3, "Reported on page No", hd)] });
+    const body = ROWS.map(r => new D.TableRow({ cantSplit: true, children: typeof r === "string"
+      ? [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })]
+      : [cell(0, r[0]), cell(1, r[1], { center: true }), cell(2, r[2]), cell(3, vals["p" + r[1]] || "", { center: true })] }));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({
+      border: { top: { style: D.BorderStyle.SINGLE, size: 6, color: "000000", space: 4 } },
+      tabStops: [{ type: D.TabStopType.RIGHT, position: TOTAL }],
+      children: [run("AGReMA Checklist", { size: 16, italics: true }),
+        ...(badge ? [new D.TextRun({ children: [new D.Tab()] }), new D.ImageRun({ data: badge, type: "png", transformation: { width: 80, height: 15 } })] : [])] })] });
+    const top = [];
+    if (logo) top.push(para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 260, height: Math.round(260 * 330 / 1605) } })], { spacing: { after: 160 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "AGReMA checklist", creator: "AGReMA checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 900, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para(runs(foot[0], { size: 16 }), { spacing: { before: 140 } }),
+          para(lines(foot[1], { size: 16 }), { alignment: D.AlignmentType.CENTER, spacing: { before: 60 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+  const getImage = async name => { try { return new Uint8Array(await (await fetch(new URL(name, document.baseURI))).arrayBuffer()); } catch (e) { return null; } };
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      const logo = await getImage("agrema-logo.png"), badge = await getImage("cc-by-nc-nd.png");
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, badge, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "AGReMA-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

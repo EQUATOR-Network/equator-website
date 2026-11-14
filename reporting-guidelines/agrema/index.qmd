@@ -4,21 +4,20 @@ title: 'A Guideline for Reporting Mediation Analyses of Randomized Trials and Ob
 aliases:
   - /reporting-guidelines/a-guideline-for-reporting-mediation-analyses-of-randomized-trials-and-observational-studies-the-agrema-statement/
 acronym: AGReMA
-provided-for: Reporting primary and secondary mediation analyses of randomised trials
-  and observational studies.
+provided-for: Reporting primary and secondary mediation analyses of randomised trials and observational studies.
 rg-doi: ''
 pmid-id: '[34546296](https://pubmed.ncbi.nlm.nih.gov/34546296/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/34546296/
 relevant-urls: |-
-  Access the [AGReMA checklist](https://agrema-statement.org/index.php/home/agrema/) for reporting mediation analyses of randomised controlled trials and observational studies as a primary objective.
+  Read the [full text](https://doi.org/10.1001/jama.2021.14075) of AGReMA.\
 
-  Access the [AGReMA-SF checklist](https://agrema-statement.org/index.php/home/agrema-sf/) for reporting secondary mediation analyses within primary reports of randomised controlled trials and observational studies.
-full-bibliographic-reference: 'Lee H, Cashin AG, Lamb SE, Hopewell S, Vansteelandt
-  S, VanderWeele TJ, MacKinnon DP, Mansell G, Collins GS, Golub RM, McAuley JH; AGReMA
-  group, Localio AR, van Amelsvoort L, Guallar E, Rijnhart J, Goldsmith K, Fairchild
-  AJ, Lewis CC, Kamper SJ, Williams CM, Henschke N. A Guideline for Reporting Mediation
-  Analyses of Randomized Trials and Observational Studies: The AGReMA Statement. JAMA.
-  2021;326(11):1045-1056.'
+  Access the [AGReMA checklist](https://agrema-statement.org/index.php/home/agrema/) for reporting mediation analyses of randomised controlled trials and observational studies as a primary objective. \
+
+  Access the [AGReMA-SF checklist](https://agrema-statement.org/index.php/home/agrema-sf/) for reporting secondary mediation analyses within primary reports of randomised controlled trials and observational studies.\
+  
+  Complete an interactive [AGReMA checklist](agrema-checklist.qmd), which you can save and upload when submitting your paper to a journal.
+  
+full-bibliographic-reference: 'Lee H, Cashin AG, Lamb SE, Hopewell S, Vansteelandt S, VanderWeele TJ, MacKinnon DP, Mansell G, Collins GS, Golub RM, McAuley JH; AGReMA group, Localio AR, van Amelsvoort L, Guallar E, Rijnhart J, Goldsmith K, Fairchild AJ, Lewis CC, Kamper SJ, Williams CM, Henschke N. A Guideline for Reporting Mediation Analyses of Randomized Trials and Observational Studies: The AGReMA Statement. JAMA. 2021;326(11):1045-1056. PMID: [34546296](https://pubmed.ncbi.nlm.nih.gov/34546296/) [full text](https://doi.org/10.1001/jama.2021.14075)'
 
 
 # OPTIONAL FIELDS
@@ -34,8 +33,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: ''
-
+downloads: |-
+  Download the AGReMA Checklist [PDF](AGReMA_Checklist.pdf) / [Word](AGReMA_Checklist.docx)
 
 # LIST FIELDS
 study-design:
