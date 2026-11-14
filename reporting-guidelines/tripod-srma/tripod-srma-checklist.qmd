@@ -1,0 +1,222 @@
+---
+pagetitle: "TRIPOD-SRMA checklist"
+page-layout: full
+toc: false
+resources:
+  - tripod-logo.png
+  - docx.min.js
+  - TRIPOD-SRMA-Checklist-Abstract.pdf
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#4a7662; --head:#4a7662; --sect:#93bba9; --box:#eef6f1; --boxline:#93bba9; --line:#272727;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top img { width:min(300px,60%); height:auto; display:block; }
+  #tp-wrap .tp-title { font-size:22px; line-height:1.25; margin:.7rem 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:12.5px; line-height:1.3; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:middle; }
+  #tp-wrap th { background:var(--head); color:#fff; font-weight:bold; text-align:left; }
+  #tp-wrap th.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:1px 6px; }
+  #tp-wrap td.topic { width:15%; vertical-align:top; }
+  #tp-wrap td.item { width:6%; text-align:center; vertical-align:top; }
+  #tp-wrap td.pg { width:11%; padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6f8f80; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #4a7662; background:#4a7662; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#4a7662; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:9.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:17px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img src="tripod-logo.png" alt="TRIPOD" id="tp-logo"></div>
+  <div class="tp-title">TRIPOD-SRMA Checklist for reporting systematic reviews of prediction model studies</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the green boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section and topic</th><th class="c">Item No</th><th>Checklist item</th>
+      <th class="c">Page<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+(function () {
+  // ["Topic", "item", "text"]; topic "" = continuation row; plain strings = section bars
+  const ROWS = [
+    "Title",
+    ["Title","1","Identify the report as a systematic review or meta-analysis (or both) of diagnostic or prognostic model studies. Specify the target population and outcome(s) predicted as relevant to the review question."],
+    "Abstract",
+    ["Abstract","2","[[See the TRIPOD-SRMA Checklist for Abstracts|TRIPOD-SRMA-Checklist-Abstract.pdf]]"],
+    "Introduction",
+    ["Rationale","3","Describe the rationale for the review in the context of existing knowledge."],
+    ["Objectives","4","Provide an explicit statement of the objective(s) being addressed with reference to: target population, index and comparator models (as relevant), outcome(s), time (prediction horizon and intended moment of using the model), and setting."],
+    "Methods",
+    ["Study eligibility criteria","5","Specify study characteristics used as eligibility criteria, including any prediction models of specific interest, and whether development or validation studies (or both) were eligible."],
+    ["Information sources","6","Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted."],
+    ["Search strategy","7","Present the full search strategies for all databases, registers and websites, including any filters and limits used."],
+    ["Study selection process","8","Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and if applicable, details of automation tools used in the process."],
+    ["Data collection process","9","Specify the methods used to collect data from study reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process."],
+    ["Data Items","10a","List and define all items for which data were sought from each study."],
+    ["","10b","State the model performance measures that were sought (e.g., measures of calibration, discrimination, overall model fit, clinical utility)."],
+    ["","10c","Describe how any desired but unreported data items (items 10a, 10b) were handled (e.g., contacted authors, calculated from other reported information)."],
+    ["Risk of bias and applicability assessment","11","Specify the methods used to assess risk of bias in the included studies and their applicability to the review question. This should be done separately for each model development and validation. Include details of any tool(s) used, how many reviewers assessed each study and whether they worked independently."],
+    ["Synthesis methods","12a","Describe any methods for synthesising estimates of performance measures for each model. If meta-analysis was carried out, describe the methods used, including any transformations of data prior to pooling, how any heterogeneity in model performance was quantified and handled, and software package(s) used."],
+    ["","12b","Describe any methods used to explore possible causes of heterogeneity in model performance (e.g., subgroup analysis, meta-regression), including whether or not they were planned."],
+    ["","12c","Describe any sensitivity analyses conducted to assess robustness of the synthesised results."],
+    ["Certainty assessment","13","Describe any methods used to assess certainty (or confidence) in the body of evidence for a prediction model."],
+    "Results",
+    ["Study selection","14","Describe the results of the search and selection process, from the number of records identified in the search to the number of studies and models included in the review, ideally using a flow diagram."],
+    ["Study and model characteristics","15","Present study characteristics and model details extracted (as per Item 10a), and cite the study reports."],
+    ["Risk of bias and applicability","16","Present results of risk of bias and applicability assessment. This should be done separately for each model development and validation in each included study."],
+    ["Results of model performance in individual studies","17","Present performance estimates and confidence intervals for each model and all evaluations, including whether they relate to the internal or external validation performance. If internal, give details of the method."],
+    ["Results of syntheses","18a","Present the results of any synthesis of model performance, together with details of which study estimates contributed. If meta-analysis was carried out, then for each model and performance measure, present summary results, confidence/credible intervals and measures of heterogeneity. Forest plots may be useful."],
+    ["","18b","For each model, present results of all investigations of possible causes of heterogeneity in model performance."],
+    ["","18c","Present results of all sensitivity analyses conducted to assess the robustness of the synthesised results."],
+    ["Certainty of evidence","19","Present any assessments of certainty (or confidence) in the body of evidence for each prediction model of interest."],
+    "Discussion",
+    ["Summary of evidence","20","Summarise the main findings including the strengths and limitations of the evidence."],
+    ["Limitations","21","Discuss the strengths and limitations of the review process."],
+    ["Implications","22","Discuss implications of the results in the context of other evidence and for practice, policy, and future research."],
+    "Other information",
+    ["Registration and protocol","23a","Provide registration information for the review, including register name and registration number, or state that the review was not registered."],
+    ["","23b","Indicate where the review protocol can be accessed, or state that a protocol was not prepared."],
+    ["","23c","Describe and explain any amendments to information provided at registration or in the protocol."],
+    ["Support","24","Describe sources of financial or non-financial support for the review, and the role of the funders or sponsors in the review."],
+    ["Competing interests","25","Declare any competing interests of review authors."],
+    ["Availability of data, code, and other materials","26","Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review."]
+  ];
+  const TITLE = "TRIPOD-SRMA Checklist for reporting systematic reviews of prediction model studies";
+
+  const STORE = "tripod-srma-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => typeof r === "string"
+    ? `<tr class="sec"><td colspan="4">${r}</td></tr>`
+    : `<tr><td class="topic">${r[0]}</td><td class="item">${r[1]}</td><td class="txt">${r[2]}</td>` +
+      `<td class="pg"><input type="text" data-key="p${r[1]}" placeholder="page no." aria-label="Page, item ${r[1]}"></td></tr>`).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "TRIPOD-SRMA checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title) {
+    const F = "Arial", SZ = 17, W = [1500, 700, 7066, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const line = { style: D.BorderStyle.SINGLE, size: 6, color: "272727" };
+    const borders = { top: line, bottom: line, left: line, right: line };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, color: o.color });
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span,
+      verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders,
+      children: [new D.Paragraph({ alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: [run(text, o)] })]
+    });
+    const hd = { fill: "4A7662", bold: true, color: "FFFFFF" };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section and topic", hd), cell(1, "Item No", { ...hd, center: true }),
+      cell(2, "Checklist item", hd), cell(3, "Page", { ...hd, center: true })] });
+    const body = ROWS.map(r => typeof r === "string"
+      ? new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "93BBA9", bold: true })] })
+      : new D.TableRow({ cantSplit: true, children: [
+          cell(0, r[0], { top: true }), cell(1, r[1], { center: true, top: true }), cell(2, r[2]),
+          cell(3, vals["p" + r[1]] || "", { center: true })] }));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const top = [];
+    if (logo) top.push(para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 240, height: Math.round(240 * 68 / 316) } })]));
+    top.push(para([new D.TextRun({ text: title, font: F, size: 28 })], { spacing: { before: 60, after: 120 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "TRIPOD-SRMA checklist", creator: "TRIPOD-SRMA checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      try { logo = new Uint8Array(await (await fetch(new URL("tripod-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "TRIPOD-SRMA-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
