@@ -85,10 +85,10 @@ resources:
   <div class="tp-foot">
     <p><sup>1</sup> D=items relevant only to the development of a prediction model; E=items relating solely to the evaluation of a prediction model; D;E=items applicable to both the development and evaluation of a prediction model</p>
     <p><sup>2</sup> Separately for all model building approaches.</p>
-    <p><sup>3</sup> TRIPOD-Cluster is a checklist of reporting recommendations for studies developing or validating models that explicitly account for clustering or explore heterogeneity in model performance (eg, at different hospitals or centres). Debray et al, BMJ 2023; 380: e071018 [DOI: 10.1136/bmj-2022-071018]</p>
+    <p><sup>3</sup> TRIPOD-Cluster is a checklist of reporting recommendations for studies developing or validating models that explicitly account for clustering or explore heterogeneity in model performance (eg, at different hospitals or centres). Debray et al, BMJ 2023; 380: e071018 [<a href="https://doi.org/10.1136/bmj-2022-071018" target="_blank" rel="noopener">doi: 10.1136/bmj-2022-071018</a>]</p>
     <p><sup>4</sup> This relates to the analysis code, for example, any data cleaning, feature engineering, model building, evaluation.</p>
     <p><sup>5</sup> This relates to the code to implement the model to get estimates of risk for a new individual.</p>
-    <p class="tp-cite">From: Collins GS, Moons KGM, Dhiman P, et al. <em>BMJ</em> 2024;385:e078378. doi:10.1136/bmj-2023-078378</p>
+    <p class="tp-cite">From: Collins GS, Moons KGM, Dhiman P, et al. <em>BMJ</em> 2024;385:e078378. <a href="https://doi.org/10.1136/bmj-2023-078378" target="_blank" rel="noopener">doi:10.1136/bmj-2023-078378</a></p>
   </div>
 </div>
 
@@ -245,7 +245,7 @@ resources:
     const foot = [
       "<sup>1</sup> D=items relevant only to the development of a prediction model; E=items relating solely to the evaluation of a prediction model; D;E=items applicable to both the development and evaluation of a prediction model",
       "<sup>2</sup> Separately for all model building approaches.",
-      "<sup>3</sup> TRIPOD-Cluster is a checklist of reporting recommendations for studies developing or validating models that explicitly account for clustering or explore heterogeneity in model performance (eg, at different hospitals or centres). Debray et al, BMJ 2023; 380: e071018 [[doi: 10.1136/bmj-2022-071018|www.doi.org/10.1136/bmj-2022-071018]]",
+      ["<sup>3</sup> TRIPOD-Cluster is a checklist of reporting recommendations for studies developing or validating models that explicitly account for clustering or explore heterogeneity in model performance (eg, at different hospitals or centres). Debray et al, BMJ 2023; 380: e071018 [", "[[doi: 10.1136/bmj-2022-071018|https://doi.org/10.1136/bmj-2022-071018]]", "]"],
       "<sup>4</sup> This relates to the analysis code, for example, any data cleaning, feature engineering, model building, evaluation.",
       "<sup>5</sup> This relates to the code to implement the model to get estimates of risk for a new individual."
     ].map(t => para(runs(t, { size: 15 })));
@@ -261,7 +261,7 @@ resources:
         children: [...top,
           new D.Table({ width: { size: W.reduce((a, b) => a + b), type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
           para([], { spacing: { after: 120 } }), ...foot,
-          para(runs("From: Collins GS, Moons KGM, Dhiman P, et al. BMJ 2024;385:e078378. [[doi:10.1136/bmj-2023-078378|www.doi.org/10.1136/bmj-2023-078378]]", { size: 16 }), { spacing: { before: 120 } })]
+          para(runs("From: Collins GS, Moons KGM, Dhiman P, et al. BMJ 2024;385:e078378. [[doi:10.1136/bmj-2023-078378|https://doi.org/10.1136/bmj-2023-078378]]", { size: 16 }), { spacing: { before: 120 } })]
       }]
     });
   }
