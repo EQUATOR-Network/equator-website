@@ -102,7 +102,9 @@ other-relevant-research: ''
 sticky: true
 search-priority: 1
 downloads: |-
-  [STARD 2015 checklist (PDF)](STARD-2015-checklist.pdf) [STARD 2015 flow diagram (PDF)](STARD-2015-flow-diagram.pdf) \
+  [STARD 2015 checklist (PDF)](STARD-2015-checklist.pdf) \
+  
+  [STARD 2015 flow diagram (PDF)](STARD-2015-flow-diagram.pdf) \
 
   [STARD 2015 checklist (Word)](STARD-2015-Checklist.docx)
 

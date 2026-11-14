@@ -1,0 +1,248 @@
+---
+pagetitle: "STROBE checklist"
+page-layout: full
+toc: false
+resources:
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#333; --box:#f3f3f3; --boxline:#999; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-title { font-size:20px; line-height:1.25; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:4px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap th { vertical-align:bottom; }
+  #tp-wrap th.c, #tp-wrap td.item { text-align:center; }
+  #tp-wrap tr.sec td { font-weight:bold; }
+  #tp-wrap td.topic { width:15%; } #tp-wrap td.topic.b { font-weight:bold; }
+  #tp-wrap td.item { width:7%; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { border-left:1px solid var(--line); width:12%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#777; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12.5px; margin-top:1rem; }
+  #tp-wrap .tp-foot p { margin:.35rem 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #333; background:#333; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#333; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:16px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap .tp-foot { font-size:9.5px; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-title">STROBE Statement—checklist of items that should be included in reports of observational studies</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th></th><th class="c">Item No</th><th>Recommendation</th>
+      <th class="c pgh">Reported on page<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="tp-foot">
+    <p>*Give information separately for cases and controls in case-control studies and, if applicable, for exposed and unexposed groups in cohort and cross-sectional studies.</p>
+    <p>Note: An Explanation and Elaboration article discusses each checklist item and gives methodological background and published examples of transparent reporting. The STROBE checklist is best used in conjunction with this article (freely available on the Web sites of PLoS Medicine at <a href="http://www.plosmedicine.org/" target="_blank" rel="noopener">http://www.plosmedicine.org/</a>, Annals of Internal Medicine at <a href="http://www.annals.org/" target="_blank" rel="noopener">http://www.annals.org/</a>, and Epidemiology at <a href="http://www.epidem.com/" target="_blank" rel="noopener">http://www.epidem.com/</a>). Information on the STROBE Initiative is available at <a href="http://www.strobe-statement.org/" target="_blank" rel="noopener">www.strobe-statement.org</a>.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings. Items: [topic, item label, bold topic?, [[page key, text], ...]]
+  // "\n" = line break inside a cell; <em> = italics.
+  const ROWS = [
+    ["Title and abstract","1",true,[
+      ["1a","(<em>a</em>) Indicate the study’s design with a commonly used term in the title or the abstract"],
+      ["1b","(<em>b</em>) Provide in the abstract an informative and balanced summary of what was done and what was found"]]],
+    "Introduction",
+    ["Background/rationale","2",false,[["2","Explain the scientific background and rationale for the investigation being reported"]]],
+    ["Objectives","3",false,[["3","State specific objectives, including any prespecified hypotheses"]]],
+    "Methods",
+    ["Study design","4",false,[["4","Present key elements of study design early in the paper"]]],
+    ["Setting","5",false,[["5","Describe the setting, locations, and relevant dates, including periods of recruitment, exposure, follow-up, and data collection"]]],
+    ["Participants","6",false,[
+      ["6a","(<em>a</em>) <em>Cohort study</em>—Give the eligibility criteria, and the sources and methods of selection of participants. Describe methods of follow-up\n<em>Case-control study</em>—Give the eligibility criteria, and the sources and methods of case ascertainment and control selection. Give the rationale for the choice of cases and controls\n<em>Cross-sectional study</em>—Give the eligibility criteria, and the sources and methods of selection of participants"],
+      ["6b","(<em>b</em>) <em>Cohort study</em>—For matched studies, give matching criteria and number of exposed and unexposed\n<em>Case-control study</em>—For matched studies, give matching criteria and the number of controls per case"]]],
+    ["Variables","7",false,[["7","Clearly define all outcomes, exposures, predictors, potential confounders, and effect modifiers. Give diagnostic criteria, if applicable"]]],
+    ["Data sources/ measurement","8*",false,[["8","For each variable of interest, give sources of data and details of methods of assessment (measurement). Describe comparability of assessment methods if there is more than one group"]]],
+    ["Bias","9",false,[["9","Describe any efforts to address potential sources of bias"]]],
+    ["Study size","10",false,[["10","Explain how the study size was arrived at"]]],
+    ["Quantitative variables","11",false,[["11","Explain how quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen and why"]]],
+    ["Statistical methods","12",false,[
+      ["12a","(<em>a</em>) Describe all statistical methods, including those used to control for confounding"],
+      ["12b","(<em>b</em>) Describe any methods used to examine subgroups and interactions"],
+      ["12c","(<em>c</em>) Explain how missing data were addressed"],
+      ["12d","(<em>d</em>) <em>Cohort study</em>—If applicable, explain how loss to follow-up was addressed\n<em>Case-control study</em>—If applicable, explain how matching of cases and controls was addressed\n<em>Cross-sectional study</em>—If applicable, describe analytical methods taking account of sampling strategy"],
+      ["12e","(<em>e</em>) Describe any sensitivity analyses"]]],
+    "Results",
+    ["Participants","13*",false,[
+      ["13a","(<em>a</em>) Report numbers of individuals at each stage of study—eg numbers potentially eligible, examined for eligibility, confirmed eligible, included in the study, completing follow-up, and analysed"],
+      ["13b","(<em>b</em>) Give reasons for non-participation at each stage"],
+      ["13c","(<em>c</em>) Consider use of a flow diagram"]]],
+    ["Descriptive data","14*",false,[
+      ["14a","(<em>a</em>) Give characteristics of study participants (eg demographic, clinical, social) and information on exposures and potential confounders"],
+      ["14b","(<em>b</em>) Indicate number of participants with missing data for each variable of interest"],
+      ["14c","(<em>c</em>) <em>Cohort study</em>—Summarise follow-up time (eg, average and total amount)"]]],
+    ["Outcome data","15*",false,[["15","<em>Cohort study</em>—Report numbers of outcome events or summary measures over time\n<em>Case-control study</em>—Report numbers in each exposure category, or summary measures of exposure\n<em>Cross-sectional study</em>—Report numbers of outcome events or summary measures"]]],
+    ["Main results","16",false,[
+      ["16a","(<em>a</em>) Give unadjusted estimates and, if applicable, confounder-adjusted estimates and their precision (eg, 95% confidence interval). Make clear which confounders were adjusted for and why they were included"],
+      ["16b","(<em>b</em>) Report category boundaries when continuous variables were categorized"],
+      ["16c","(<em>c</em>) If relevant, consider translating estimates of relative risk into absolute risk for a meaningful time period"]]],
+    ["Other analyses","17",false,[["17","Report other analyses done—eg analyses of subgroups and interactions, and sensitivity analyses"]]],
+    "Discussion",
+    ["Key results","18",false,[["18","Summarise key results with reference to study objectives"]]],
+    ["Limitations","19",false,[["19","Discuss limitations of the study, taking into account sources of potential bias or imprecision. Discuss both direction and magnitude of any potential bias"]]],
+    ["Interpretation","20",false,[["20","Give a cautious overall interpretation of results considering objectives, limitations, multiplicity of analyses, results from similar studies, and other relevant evidence"]]],
+    ["Generalisability","21",false,[["21","Discuss the generalisability (external validity) of the study results"]]],
+    "Other information",
+    ["Funding","22",false,[["22","Give the source of funding and the role of the funders for the present study and, if applicable, for the original study on which the present article is based"]]]
+  ];
+  const TITLE = "STROBE Statement—checklist of items that should be included in reports of observational studies";
+  const FOOT = [
+    "*Give information separately for cases and controls in case-control studies and, if applicable, for exposed and unexposed groups in cohort and cross-sectional studies.",
+    "Note: An Explanation and Elaboration article discusses each checklist item and gives methodological background and published examples of transparent reporting. The STROBE checklist is best used in conjunction with this article (freely available on the Web sites of PLoS Medicine at [[http://www.plosmedicine.org/|http://www.plosmedicine.org/]], Annals of Internal Medicine at [[http://www.annals.org/|http://www.annals.org/]], and Epidemiology at [[http://www.epidem.com/|http://www.epidem.com/]]). Information on the STROBE Initiative is available at [[www.strobe-statement.org|http://www.strobe-statement.org/]]."
+  ];
+
+  const STORE = "strobe-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    const [topic, label, bold, subs] = r, n = subs.length;
+    return subs.map(([key, text], i) =>
+      `<tr>` + (i ? "" : `<td class="topic${bold ? " b" : ""}" rowspan="${n}">${topic}</td><td class="item" rowspan="${n}">${label}</td>`) +
+      `<td class="txt">${text.replace(/\n/g, "<br>")}</td>` +
+      `<td class="pg"><input type="text" data-key="p${key}" placeholder="page no." aria-label="Page, item ${key}"></td></tr>`).join("");
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "STROBE checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, title, foot) {
+    const F = "Arial", SZ = 17, W = [1650, 650, 6666, 1500], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics });
+    const runs = (text, o = {}) => {
+      const out = [], re = /<em>(.*?)<\/em>|\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        if (m[1] !== undefined) out.push(run(m[1], { ...o, italics: true }));
+        else out.push(new D.ExternalHyperlink({ link: m[3], children: [new D.TextRun({ text: m[2], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      margins: { top: 50, bottom: 50, left: 90, right: 90 },
+      borders: { top: ln, bottom: ln, left: i === 3 && !o.span ? ln : none, right: none },
+      children: [new D.Paragraph({ alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "", { bold: true }), cell(1, "Item No", { bold: true, center: true }),
+      cell(2, "Recommendation", { bold: true }), cell(3, "Reported on page", { bold: true, center: true })] });
+    const body = ROWS.flatMap(r => typeof r === "string"
+      ? [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, bold: true })] })]
+      : r[3].map(([key, text], i) => new D.TableRow({ cantSplit: true, children: [
+          ...(i ? [] : [cell(0, r[0], { rowSpan: r[3].length, top: true, bold: r[2] }),
+                        cell(1, r[1], { rowSpan: r[3].length, top: true, center: true })]),
+          cell(2, text, { top: true }), cell(3, vals["p" + key] || "", { center: true })] })));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    return new D.Document({
+      title: "STROBE checklist", creator: "STROBE checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [
+          para([new D.TextRun({ text: title, font: F, size: 26 })], { spacing: { after: 120 } }),
+          para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 15 }), { spacing: { before: i ? 60 : 160, after: 60 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "STROBE-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

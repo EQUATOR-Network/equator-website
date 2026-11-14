@@ -5,12 +5,12 @@ title: 'The Strengthening the Reporting of Observational Studies in Epidemiology
 aliases:
   - /reporting-guidelines/the-strengthening-the-reporting-of-observational-studies-in-epidemiology-strobe-statement-guidelines-for-reporting-observational-studies/
 acronym: STROBE
-provided-for: Observational studies in epidemiology (cohort, case-control studies,
-  cross-sectional studies)
+provided-for: Observational studies in epidemiology (cohort, case-control studies, cross-sectional studies)
 rg-doi: 'https://doi.org/10.1136/bmj.39335.541782.ad'
 pmid-id: '17947786'
 pmid-url: '[17947786](http://www.ncbi.nlm.nih.gov/pubmed/17947786)'
-relevant-urls: ''
+relevant-urls: |-
+  Complete an interactive [STROBE checklist](strobe-checklist.qmd), which you can upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   von Elm E, Altman DG, Egger M, Pocock SJ, Gotzsche PC, Vandenbroucke JP. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: guidelines for reporting observational studies. \
 
