@@ -36,7 +36,9 @@ guideline-history: |-
 
   Bossuyt PM, Reitsma JB, Bruns DE, Gatsonis CA, Glasziou PP, Irwig LM, Lijmer JG, Moher D, Rennie D, de Vet HC. Towards complete and accurate reporting of studies of diagnostic accuracy: the STARD initiative. Standards for Reporting of Diagnostic Accuracy.
 
-  Clin Chem. 2003; 49(1):1-6. PMID: [12507953](http://www.ncbi.nlm.nih.gov/pubmed/12507953)BMJ. 2003; 326(7379):41-44. PMID: [12511463](http://www.ncbi.nlm.nih.gov/pubmed/12511463)
+  Clin Chem. 2003; 49(1):1-6. PMID: [12507953](http://www.ncbi.nlm.nih.gov/pubmed/12507953)
+  
+  BMJ. 2003; 326(7379):41-44. PMID: [12511463](http://www.ncbi.nlm.nih.gov/pubmed/12511463)
 
   Radiology. 2003; 226(1):24-28. PMID: [12511664](http://www.ncbi.nlm.nih.gov/pubmed/12511664)
 
