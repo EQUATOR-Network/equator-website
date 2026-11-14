@@ -1,0 +1,66 @@
+---
+title: "SWAP-AI: A Reporting Guideline for Scientific Web Applications and Platforms Built with Artificial Intelligence"
+contact-name: "Anas Bedraoui"
+contact-email: "anasbedr@gmail.com"
+date-registered: "14 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+- Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+
+Generative artificial intelligence, large language models, and agentic
+rapid-development environments (such as Lovable, Replit, v0, and Cursor)
+are fundamentally transforming research software. Biomedical researchers
+increasingly build and publish interactive web applications, analytical
+dashboards, clinical decision calculators, and bioinformatics pipelines
+created entirely or substantially through AI generation. However, no
+standardized reporting guideline exists to disclose how these AI-built
+scientific web platforms are constructed, verified, and preserved. Existing
+guidelines (such as CONSORT-AI, STARD-AI, or TRIPOD-AI) govern AI
+algorithms applied to research datasets, while general AI authorship
+checklists (such as CHAT-GUIDE) govern text generation in manuscripts. None
+address the reproducibility, computational accuracy, and data security
+risks unique to AI-generated software platforms. Unstandardized reporting
+in this domain introduces four major scientific vulnerabilities:
+
+1.  Model, Platform, and Prompt Provenance: Papers rarely document the
+    underlying foundation model, temperature, platform versions, system
+    prompts, or agentic iteration history used to generate the code.
+
+2.  Algorithmic and Mathematical Verification: Generative AI models
+    frequently introduce subtle mathematical or statistical hallucinations
+    into computational logic. There is currently no reporting checklist
+    requiring authors to verify in-browser or backend calculations against
+    gold-standard scientific packages (such as R Bioconductor or Python
+    SciPy).
+
+3.  Data Governance and Patient Privacy: AI-scaffolded web platforms often
+    introduce undocumented third-party telemetry, cloud database syncing,
+    or external API calls, creating severe privacy risks when handling
+    human or clinical data. Authors must explicitly report whether
+    processing occurs entirely client-side or involves remote servers.
+
+4.  Reproducibility and Software Decay: AI web platforms frequently update
+    underlying dependencies or deprecate hosting runtimes, causing tools to
+    break after publication. Authors must report self-contained source
+    repositories, dependency lockfiles, and long-term archival plans (e.g.,
+    Zenodo/Software Heritage).
+
+SWAP-AI will establish an international, consensus-based minimum reporting
+checklist for any peer-reviewed scientific paper presenting, validating, or
+deploying web applications and analytical platforms built with AI-assisted
+or agentic workflows.
+
+{{< include ../_template.qmd >}}

@@ -1,0 +1,32 @@
+---
+title: "Transparent Reporting of studies developing, validating, updating or evaluating AI- and ML-based systems in the Care of Older Adults: a reporting guideline (TRAICO)"
+contact-name: "Jonas Schropp"
+contact-email: "jonas.schropp@hs-kempten.de"
+date-registered: "14 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+- Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+This reporting guideline will apply to primary studies that develop, validate, update, or evaluate artificial intelligence (AI) and machine learning (ML) systems intended to support the care of older adults in nursing homes, assisted living facilities, home and community care, or mixed social–medical care settings. It will cover systems that produce individual-level outputs concerning a care recipient or care episode and target events, behaviours, functional states, or care needs rather than clinical diagnoses. Examples include fall and bed-exit detection, activity and mobility monitoring, night-time repositioning and risk-related behaviours in dementia.
+
+Two types of system will be excluded. Systems primarily intended for clinical diagnosis or disease prognosis fall within the scope of existing frameworks such as TRIPOD+AI and PROBAST+AI. Systems producing aggregate-level outputs about organisations, workforces, facilities, markets, or populations fall outside the guideline’s care-recipient focus.
+
+A dedicated reporting guideline is needed because the characteristics that determine whether these systems are useful, safe, and transferable are not adequately captured by existing guidance. Unlike conventional diagnostic or prognostic models, they primarily seek to support day-to-day care processes, safety, functioning, quality of life, and resource allocation. Their outputs may be interpreted or acted upon by a heterogeneous group that includes registered and auxiliary nursing staff, managers, family carers, and older people themselves. In some cases, systems operate with limited professional mediation or oversight.
+
+Their effectiveness also cannot be judged from discriminative performance measures alone. Performance and utility are co-determined by the surrounding socio-technical context, including staffing levels, room and housing configuration, sensor infrastructure, user capabilities, and documentation, alerting, and response routines. Adequate reporting must therefore explain who uses or responds to the system, how outputs lead to action, what level of autonomy and oversight is involved, and which organisational and environmental conditions are required. Without this information, validity and transferability cannot be assessed. For example, a fall-detection system developed using movement data from healthy volunteers in a laboratory may perform poorly among multimorbid residents with atypical gait, even when its reported performance appears satisfactory.
+
+Existing guidance, including TRIPOD+AI, PROBAST+AI, CONSORT-AI, SPIRIT-AI, DECIDE-AI, and TRIPOD-LLM, addresses prediction models, trials, or clinical evaluation but does not collectively ensure adequate reporting of these care-specific socio-technical factors. In our own rapid scoping review, 69 empirical studies were assessed against 16 predefined reporting characteristics. Completeness fell as characteristics moved closer to real-world applicability: the intended role of the system was described in every study, the intended decision-makers were fully specified in 29%, evaluation in a real care context was reported by 20% and complete external validation by 6%. One study of the 69 applied a reporting guideline. The proposed guideline will address this gap by defining the minimum information needed to appraise, replicate, compare, and safely implement AI- and ML-supported care systems for older adults.
+
+{{< include ../_template.qmd >}}
