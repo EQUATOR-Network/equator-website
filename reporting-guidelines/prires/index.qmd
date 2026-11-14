@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: 'Preferred Reporting Items for Resistance Exercise Studies (PRIRES) : A Checklist Developed Using an Umbrella Review of Systematic Reviews'
 aliases:
-  - /reporting-guidlines/preferred-reporting-items-for-resistance-exercise-studies-prires-a-checklist-developed-using-an-umbrella-review-of-systematic-reviews/
+  - /reporting-guidelines/preferred-reporting-items-for-resistance-exercise-studies-prires-a-checklist-developed-using-an-umbrella-review-of-systematic-reviews/
 acronym: PRIRES
 provided-for: Reporting resistance exercise intervention studies.
 rg-doi: ''

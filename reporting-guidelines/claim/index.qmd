@@ -2,7 +2,7 @@
 # REQUIRED FIELDS
 title: 'Checklist for Artificial Intelligence in Medical Imaging (CLAIM) : 2024 Update'
 aliases:
-  - /reporting-guideline/checklist-for-artificial-intelligence-in-medical-imaging-claim-a-guide-for-authors-and-reviewers
+  - /reporting-guidelines/checklist-for-artificial-intelligence-in-medical-imaging-claim-a-guide-for-authors-and-reviewers
 acronym: CLAIM
 provided-for: Reporting of artificial intelligence (AI) in Medical Imaging studies.
 rg-doi: ''
