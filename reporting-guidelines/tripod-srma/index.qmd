@@ -1,10 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Transparent reporting of multivariable prediction models for individual prognosis
-  or diagnosis: checklist for systematic reviews and meta-analyses (TRIPOD-SRMA)'
+title: 'Transparent reporting of multivariable prediction models for individual prognosis or diagnosis: checklist for systematic reviews and meta-analyses (TRIPOD-SRMA)'
 acronym: TRIPOD-SRMA
-provided-for: Reporting of systematic reviews and meta-analyses of multivariable prediction
-  models for individual prognosis or diagnosis.
+provided-for: Reporting of systematic reviews and meta-analyses of multivariable prediction models for individual prognosis or diagnosis.
 rg-doi: 'https://doi.org/10.1136/bmj-2022-073538'
 pmid-id: '[37137496](https://pubmed.ncbi.nlm.nih.gov/37137496/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/37137496/
@@ -12,7 +10,7 @@ relevant-urls: |-
   [Read the full-text](https://www.bmj.com/content/381/bmj-2022-073538) of the TRIPOD-SRMA \
   
   Complete an interactive [TRIPOD-SRMA checklist](/reporting-guidelines/tripod-srma/tripod-srma-checklist.qmd), which you can upload when submitting your paper to a journal.
-full-bibliographic-reference: 'Snell KIE, Levis B, Damen JAA, Dhiman P, Debray TPA, Hooft L, Reitsma JB, Moons KGM, Collins GS, Riley RD. Transparent reporting of multivariable prediction models for individual prognosis or diagnosis: checklist for systematic reviews and meta-analyses (TRIPOD-SRMA). BMJ. 2023;381:e073538. PMID: [37137496](https://pubmed.ncbi.nlm.nih.gov/37137496/) [full text] (https://doi.org/10.1136/bmj-2022-073538)'
+full-bibliographic-reference: 'Snell KIE, Levis B, Damen JAA, Dhiman P, Debray TPA, Hooft L, Reitsma JB, Moons KGM, Collins GS, Riley RD. Transparent reporting of multivariable prediction models for individual prognosis or diagnosis: checklist for systematic reviews and meta-analyses (TRIPOD-SRMA). BMJ. 2023;381:e073538. PMID: [37137496](https://pubmed.ncbi.nlm.nih.gov/37137496/) [full text](https://doi.org/10.1136/bmj-2022-073538)'
 
 
 # OPTIONAL FIELDS
