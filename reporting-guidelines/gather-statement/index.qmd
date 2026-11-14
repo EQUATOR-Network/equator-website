@@ -8,7 +8,9 @@ provided-for: Reporting practices for studies that calculate health estimates fo
 rg-doi: ''
 pmid-id: '[27371184](https://pubmed.ncbi.nlm.nih.gov/27371184/)'
 pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/27371184/)'
-relevant-urls: ''
+relevant-urls: |-
+  Complete an interactive [GATHER checklist](gather-checklist.qmd), which you can save and upload when submitting your paper to a journal.
+  
 full-bibliographic-reference: |-
   Stevens GA, Alkema L, Black RE, Boerma JT, Collins GS, Ezzati M, Grove JT, Hogan DR, Hogan MC, Horton R, Lawn JE, Marušić A, Mathers CD, Murray CJ, Rudan I, Salomon JA, Simpson PJ, Vos T, Welch V; GATHER Working Group. Guidelines for Accurate and Transparent Health Estimates Reporting: the GATHER statement.\
   
@@ -61,7 +63,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the [GATHER checklist](gather-checklist.pdf)
 
 
 # LIST FIELDS

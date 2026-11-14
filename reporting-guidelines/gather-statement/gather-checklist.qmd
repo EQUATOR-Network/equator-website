@@ -1,0 +1,232 @@
+---
+pagetitle: "GATHER checklist"
+page-layout: full
+toc: false
+resources:
+  - gather-logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#137a74; --box:#eef6f5; --boxline:#9ccfca; --line:#000; --bar:#bfbfbf; --sub:#d9d9d9;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; align-items:center; gap:1.2rem; margin-bottom:.8rem; }
+  #tp-wrap .tp-top img { width:min(190px,32%); height:auto; flex:none; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:middle; text-align:left; }
+  #tp-wrap thead th { border-bottom:2px solid var(--line); vertical-align:top; }
+  #tp-wrap th.c, #tp-wrap td.item { text-align:center; }
+  #tp-wrap td.item { width:8%; font-weight:bold; vertical-align:top; }
+  #tp-wrap tr.sec td { background:var(--bar); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.sub td { background:var(--sub); font-style:italic; padding:2px 6px 2px 14px; }
+  #tp-wrap td.pg, #tp-wrap th.pgh { width:13%; }
+  #tp-wrap td.pg { padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#5f8b87; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:13px; font-style:italic; margin-top:.8rem; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #137a74; background:#137a74; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#137a74; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-foot { font-size:10px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap tr.sec td, #tp-wrap tr.sub td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <img src="gather-logo.png" alt="GATHER: Guidelines for Accurate and Transparent Health Estimates Reporting" id="tp-logo">
+    <div class="tp-title">Checklist of information that should be included in new reports of global health estimates</div>
+  </div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th class="c">Item #</th><th>Checklist item</th>
+      <th class="pgh">Reported on page #<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-foot">This checklist should be used in conjunction with the GATHER statement and Explanation and Elaboration document, found on <a href="https://gather-statement.org/" target="_blank" rel="noopener">gather-statement.org</a></p>
+</div>
+
+<script>
+(function () {
+  // ["#", text] = section bar, ["##", text] = sub-heading bar, [item no, text] = checklist item
+  const ROWS = [
+    ["#","Objectives and funding"],
+    ["1","Define the indicator(s), populations (including age, sex, and geographic entities), and time period(s) for which estimates were made."],
+    ["2","List the funding sources for the work."],
+    ["#","Data Inputs"],
+    ["##","For all data inputs from multiple sources that are synthesized as part of the study:"],
+    ["3","Describe how the data were identified and how the data were accessed."],
+    ["4","Specify the inclusion and exclusion criteria. Identify all ad-hoc exclusions."],
+    ["5","Provide information on all included data sources and their main characteristics. For each data source used, report reference information or contact name/institution, population represented, data collection method, year(s) of data collection, sex and age range, diagnostic criteria or measurement method, and sample size, as relevant."],
+    ["6","Identify and describe any categories of input data that have potentially important biases (e.g., based on characteristics listed in item 5)."],
+    ["##","For data inputs that contribute to the analysis but were not synthesized as part of the study:"],
+    ["7","Describe and give sources for any other data inputs."],
+    ["##","For all data inputs:"],
+    ["8","Provide all data inputs in a file format from which data can be efficiently extracted (e.g., a spreadsheet rather than a PDF), including all relevant meta-data listed in item 5. For any data inputs that cannot be shared because of ethical or legal reasons, such as third-party ownership, provide a contact name or the name of the institution that retains the right to the data."],
+    ["#","Data analysis"],
+    ["9","Provide a conceptual overview of the data analysis method. A diagram may be helpful."],
+    ["10","Provide a detailed description of all steps of the analysis, including mathematical formulae. This description should cover, as relevant, data cleaning, data pre-processing, data adjustments and weighting of data sources, and mathematical or statistical model(s)."],
+    ["11","Describe how candidate models were evaluated and how the final model(s) were selected."],
+    ["12","Provide the results of an evaluation of model performance, if done, as well as the results of any relevant sensitivity analysis."],
+    ["13","Describe methods for calculating uncertainty of the estimates. State which sources of uncertainty were, and were not, accounted for in the uncertainty analysis."],
+    ["14","State how analytic or statistical source code used to generate estimates can be accessed."],
+    ["#","Results and Discussion"],
+    ["15","Provide published estimates in a file format from which data can be efficiently extracted."],
+    ["16","Report a quantitative measure of the uncertainty of the estimates (e.g. uncertainty intervals)."],
+    ["17","Interpret results in light of existing evidence. If updating a previous set of estimates, describe the reasons for changes in estimates."],
+    ["18","Discuss limitations of the estimates. Include a discussion of any modelling assumptions or data limitations that affect interpretation of the estimates."]
+  ];
+  const TITLE = "Checklist of information that should be included in new reports of global health estimates";
+  const FOOT = "This checklist should be used in conjunction with the GATHER statement and Explanation and Elaboration document, found on [[gather-statement.org|https://gather-statement.org/]]";
+
+  const STORE = "gather-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(([k, text]) => k === "#" ? `<tr class="sec"><td colspan="3">${text}</td></tr>`
+    : k === "##" ? `<tr class="sub"><td colspan="3">${text}</td></tr>`
+    : `<tr><td class="item">${k}</td><td class="txt">${text}</td>` +
+      `<td class="pg"><input type="text" data-key="p${k}" placeholder="page no." aria-label="Page, item ${k}"></td></tr>`).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "GATHER checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, foot) {
+    const F = "Arial", SZ = 18, W = [900, 8366, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, italics: o.italics, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 3 : undefined,
+      verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 45, bottom: 45, left: o.indent || 90, right: 90 },
+      borders: { top: ln, bottom: o.thick ? { ...ln, size: 12 } : ln, left: ln, right: ln },
+      children: [new D.Paragraph({ alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Item #", { bold: true, center: true, top: true, thick: true }),
+      cell(1, "Checklist item", { bold: true, top: true, thick: true }),
+      cell(2, "Reported on page #", { bold: true, top: true, thick: true })] });
+    const body = ROWS.map(([k, text]) => new D.TableRow({ cantSplit: true, children:
+      k === "#" ? [cell(0, text, { span: true, bold: true, fill: "BFBFBF" })]
+      : k === "##" ? [cell(0, text, { span: true, italics: true, fill: "D9D9D9", indent: 200 })]
+      : [cell(0, k, { bold: true, center: true, top: true }), cell(1, text), cell(2, vals["p" + k] || "", { center: true })] }));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const nb = { top: none, bottom: none, left: none, right: none };
+    const topTable = new D.Table({
+      width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: [2600, TOTAL - 2600],
+      borders: { ...nb, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [
+        new D.TableCell({ width: { size: 2600, type: D.WidthType.DXA }, borders: nb,
+          children: [para(logo ? [new D.ImageRun({ data: logo, type: "png", transformation: { width: 150, height: 112 } })] : [])] }),
+        new D.TableCell({ width: { size: TOTAL - 2600, type: D.WidthType.DXA }, borders: nb, verticalAlign: D.VerticalAlign.CENTER,
+          children: [para([run(title, { bold: true, size: 26 })])] })] })]
+    });
+    return new D.Document({
+      title: "GATHER checklist", creator: "GATHER checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [topTable,
+          para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { before: 160, after: 120 } }),
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para(runs(foot, { size: 17, italics: true }), { spacing: { before: 120 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      try { logo = new Uint8Array(await (await fetch(new URL("gather-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "GATHER-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
