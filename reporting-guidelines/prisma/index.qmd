@@ -106,7 +106,7 @@ additional-languages: |-
 
   The PRISMA 2020 for Abstracts Checklist is available in [Chinese Simplified (Word)](https://www.prisma-statement.org/s/PRISMA_2020_abstract_checklist_Chinese.docx), [Chinese Traditional (PDF)](https://www.prisma-statement.org/s/PRISMA_2020_Abs-checklist_Traditional-Chinese_new.pdf), [Japanese (PDF)](https://www.prisma-statement.org/s/PRISMA-Japanese-Table-2-PRISMA-2020-for-Abstracts-checklist.pdf), [Korean (Word)](https://www.prisma-statement.org/s/PRISMA_2020_Korean_Abstract_Checklist-jna2.docx), [European Portuguese (Word)](https://www.prisma-statement.org/s/PRISMA-2020-abstract-checklist-EUROPEAN-PORTUGUESE-cytw.docx) and [Turkish (PDF)](https://www.prisma-statement.org/s/PRISMA-2020-for-Abstract-checklist-Turkish-version.pdf). \
 
-  Additional translations (including flow diagrams) are available at <https://www.prisma-statement.org/translations> \
+  Additional translations (including flow diagrams) are available at <https://www.prisma-statement.org/translations> 
 
 additional-information: |-
   [Read the protocol](https://osf.io/xwcv5/) for the PRISMA Statement update.\
