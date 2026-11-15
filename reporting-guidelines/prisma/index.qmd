@@ -123,9 +123,11 @@ other-relevant-research: ''
 sticky: true
 search-priority: 1
 downloads: |-
-  [PRISMA 2020 checklist (Word)](https://www.prisma-statement.org/s/PRISMA_2020_checklist-gely.docx)  [PRISMA 2020 checklist (PDF)](https://www.prisma-statement.org/s/PRISMA_2020_checklist-djgh.pdf)
+  Download the PRISMA 2020 checklist [Word](https://www.prisma-statement.org/s/PRISMA_2020_checklist-gely.docx) / [PDF](https://www.prisma-statement.org/s/PRISMA_2020_checklist-djgh.pdf) \
 
-  [PRISMA 2020 expanded checklist (PDF)](https://www.prisma-statement.org/s/PRISMA_2020_expanded_checklist-rp3l.pdf)  [PRISMA 2020 checklist (Shiny App)](https://prisma.shinyapps.io/checklist/)
+  Download the [PRISMA 2020 expanded checklist (PDF)](https://www.prisma-statement.org/s/PRISMA_2020_expanded_checklist-rp3l.pdf) \
+  
+  Complete an interactive [PRISMA 2020 checklist (Shiny App)](https://prisma.shinyapps.io/checklist/), which you can save and upload when submitting your paper to a journal.
 
 
 # LIST FIELDS
