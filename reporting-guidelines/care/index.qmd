@@ -10,7 +10,7 @@ pmid-url: ''
 relevant-urls: |-
   A list of CARE articles can be found on the [CARE website](https://www.care-statement.org/publications) \
   
-  The CARE checklist has been translated into [Chinese](https://www.care-statement.org/s/CARE-checklist-Chinese-2013.pdf), [Croatian](https://www.care-statement.org/s/CARE-checklist-Croatian-2013.pdf), [Dutch](https://www.care-statement.org/s/CARE-checklist-Dutch-2013.pdf), [French](https://www.care-statement.org/s/CARE-checklist-French-2013.pdf), [German](https://www.care-statement.org/s/CARE-checklist-German-2013.pdf), [Japanese](https://www.care-statement.org/s/CARE-checklist-Japanese-2013.pdf), [Korean](https://www.care-statement.org/s/CARE-checklist-Korean-2013.pdf), [Portugese](https://www.care-statement.org/s/CARE-checklist-Portuguese-2013.pdf), [Russian](https://www.care-statement.org/s/CARE-checklist-Russian-2019.pdf), and [Spanish](https://www.care-statement.org/s/CARE-checklist-Spanish-2013.pdf)
+  The CARE checklist has been translated into [Chinese](CARE-checklist-Chinese-2013.pdf), [Croatian](CARE-checklist-Croatian-2013.pdf), [Dutch](CARE-checklist-Dutch-2013.pdf), [French](CARE-checklist-French-2013.pdf), [German](CARE-checklist-German-2013.pdf), [Japanese](CARE-checklist-Japanese-2013.pdf), [Korean](CARE-checklist-Korean-2013.pdf), [Portugese](CARE-checklist-Portuguese-2013.pdf), [Russian](CARE-checklist-Russian-2019.pdf), and [Spanish](CARE-checklist-Spanish-2013.pdf)
 full-bibliographic-reference: |-
   Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development. \
 
