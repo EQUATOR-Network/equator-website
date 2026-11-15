@@ -8,7 +8,8 @@ provided-for: Reporting patient and public involvement in health and social care
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
-relevant-urls: ''
+relevant-urls: |-
+  Complete an interactive [GRIPP2 checklist](gripp2-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Staniszewska S, Simera I, Seers K, Mockford C, Goodlad S, Altman DG, Moher D, Barber R, Denegri S, Entwistle A, Littlejohns P, Morris C, Suleman R. GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research.\
 
