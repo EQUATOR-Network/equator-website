@@ -13,7 +13,7 @@ relevant-urls: |-
   
   Go to the [PRISMA website](http://www.prisma-statement.org/) for a history and development of PRISMA. See here for a list of [PRISMA endorsed extensions](https://www.prisma-statement.org/extensions) \  
   
-  If you are interested in developing a new PRISMA 2020 extension, then please the [PRISMA criteria](https://www.prisma-statement.org/extensions) for their approval.
+  If you are interested in developing a new PRISMA 2020 extension, then please read the [PRISMA criteria](https://www.prisma-statement.org/extensions) for their approval.
 full-bibliographic-reference: |-
   Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. \
 
