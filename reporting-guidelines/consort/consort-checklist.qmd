@@ -1,0 +1,251 @@
+---
+pagetitle: "CONSORT 2025 checklist"
+page-layout: full
+toc: false
+resources:
+  - spirit-consort-logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top img { width:min(220px,50%); height:auto; display:block; margin-bottom:.8rem; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.lab td { padding:2px 6px; }
+  #tp-wrap td.topic { width:19%; } #tp-wrap td.topic.ind { padding-left:16px; }
+  #tp-wrap td.item { width:6%; text-align:center; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:13%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite, #tp-wrap .tp-lic { font-size:12.5px; margin:.6rem 0 0; }
+  #tp-wrap .tp-lic { font-size:11.5px; color:#333; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9.5px; } #tp-wrap .tp-lic { font-size:8.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img src="spirit-consort-logo.png" alt="SPIRIT CONSORT" id="tp-logo"></div>
+  <div class="tp-title">CONSORT 2025 checklist of information to include when reporting a randomised trial<sup>*</sup></div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section / Topic</th><th class="c">No</th><th>CONSORT 2025 checklist item description</th>
+      <th class="pgh">Reported on page no.<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-foot"><sup>*</sup>We strongly recommend reading this statement in conjunction with the CONSORT 2025 Explanation and Elaboration and/or the CONSORT 2025 Expanded Checklist for important clarifications on all the items. We also recommend reading relevant CONSORT extensions. See <a href="http://www.consort-spirit.org" target="_blank" rel="noopener">www.consort-spirit.org</a>.</p>
+  <p class="tp-cite">Citation: Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, et al. CONSORT 2025 Statement: updated guideline for reporting randomised trials. BMJ. 2025; 388:e081123. <a href="https://dx.doi.org/10.1136/bmj-2024-081123" target="_blank" rel="noopener">https://dx.doi.org/10.1136/bmj-2024-081123</a>.</p>
+  <p class="tp-lic">© 2025 Hopewell et al. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">https://creativecommons.org/licenses/by/4.0/</a>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings; ["L", text] = label row; otherwise [topic, indented?, [[item no, text], ...]]
+  const ROWS = [
+    "Title and abstract",
+    ["Title and structured abstract", false, [["1a", "Identification as a randomised trial"], ["1b", "Structured summary of the trial design, methods, results, and conclusions"]]],
+    "Open science",
+    ["Trial registration", false, [["2", "Name of trial registry, identifying number (with URL) and date of registration"]]],
+    ["Protocol and statistical analysis plan", false, [["3", "Where the trial protocol and statistical analysis plan can be accessed"]]],
+    ["Data sharing", false, [["4", "Where and how the individual de-identified participant data (including data dictionary), statistical code and any other materials can be accessed"]]],
+    ["Funding and conflicts of interest", false, [["5a", "Sources of funding and other support (e.g., supply of drugs), and role of funders in the design, conduct, analysis and reporting of the trial"], ["5b", "Financial and other conflicts of interest of the manuscript authors"]]],
+    "Introduction",
+    ["Background and rationale", false, [["6", "Scientific background and rationale"]]],
+    ["Objectives", false, [["7", "Specific objectives related to benefits and harms"]]],
+    "Methods",
+    ["Patient and public involvement", false, [["8", "Details of patient or public involvement in the design, conduct and reporting of the trial"]]],
+    ["Trial design", false, [["9", "Description of trial design including type of trial (e.g., parallel group, crossover), allocation ratio, and framework (e.g., superiority, equivalence, non-inferiority, exploratory)"]]],
+    ["Changes to trial protocol", false, [["10", "Important changes to the trial after it commenced including any outcomes or analyses that were not prespecified, with reason"]]],
+    ["Trial setting", false, [["11", "Settings (e.g., community, hospital) and locations (e.g., countries, sites) where the trial was conducted"]]],
+    ["Eligibility criteria", false, [["12a", "Eligibility criteria for participants"], ["12b", "If applicable, eligibility criteria for sites and for individuals delivering the interventions (e.g., surgeons, physiotherapists)"]]],
+    ["Intervention and comparator", false, [["13", "Intervention and comparator with sufficient details to allow replication. If relevant, where additional materials describing the intervention and comparator (e.g., intervention manual) can be accessed"]]],
+    ["Outcomes", false, [["14", "Pre-specified primary and secondary outcomes, including the specific measurement variable (e.g., systolic blood pressure), analysis metric (e.g., change from baseline, final value, time to event), method of aggregation (e.g., median, proportion), and time point for each outcome"]]],
+    ["Harms", false, [["15", "How harms were defined and assessed (e.g., systematically, non-systematically)"]]],
+    ["Sample size", false, [["16a", "How sample size was determined, including all assumptions supporting the sample size calculation"], ["16b", "Explanation of any interim analyses and stopping guidelines"]]],
+    ["L", "Randomisation:"],
+    ["Sequence generation", true, [["17a", "Who generated the random allocation sequence and the method used"], ["17b", "Type of randomisation and details of any restriction (e.g., stratification, blocking and block size)"]]],
+    ["Allocation concealment mechanism", true, [["18", "Mechanism used to implement the random allocation sequence (e.g., central computer/telephone; sequentially numbered, opaque, sealed containers), describing any steps to conceal the sequence until interventions were assigned"]]],
+    ["Implementation", true, [["19", "Whether the personnel who enrolled and those who assigned participants to the interventions had access to the random allocation sequence"]]],
+    ["Blinding", false, [["20a", "Who was blinded after assignment to interventions (e.g., participants, care providers, outcome assessors, data analysts)"], ["20b", "If blinded, how blinding was achieved and description of the similarity of interventions"]]],
+    ["Statistical methods", false, [["21a", "Statistical methods used to compare groups for primary and secondary outcomes, including harms"], ["21b", "Definition of who is included in each analysis (e.g., all randomised participants), and in which group"], ["21c", "How missing data were handled in the analysis"], ["21d", "Methods for any additional analyses (e.g., subgroup and sensitivity analyses), distinguishing prespecified from post-hoc"]]],
+    "Results",
+    ["Participant flow, including flow diagram", false, [["22a", "For each group, the numbers of participants who were randomly assigned, received intended intervention, and were analysed for the primary outcome"], ["22b", "For each group, losses and exclusions after randomisation, together with reasons"]]],
+    ["Recruitment", false, [["23a", "Dates defining the periods of recruitment and follow-up for outcomes of benefits and harms"], ["23b", "If relevant, why the trial ended or was stopped"]]],
+    ["Intervention and comparator delivery", false, [["24a", "Intervention and comparator as they were actually administered (e.g., where appropriate, who delivered the intervention/comparator, how participants adhered, whether they were delivered as intended [fidelity])"], ["24b", "Concomitant care received during the trial for each group"]]],
+    ["Baseline data", false, [["25", "A table showing baseline demographic and clinical characteristics for each group"]]],
+    ["Numbers analysed, outcomes and estimation", false, [["26", "For each primary and secondary outcome, by group:\n• the number of participants included in the analysis\n• the number of participants with available data at the outcome time point\n• result for each group, and the estimated effect size and its precision (such as 95% confidence interval)\n• for binary outcomes, presentation of both absolute and relative effect size"]]],
+    ["Harms", false, [["27", "All harms or unintended events in each group"]]],
+    ["Ancillary analyses", false, [["28", "Any other analyses performed, including subgroup and sensitivity analyses, distinguishing pre-specified from post-hoc"]]],
+    "Discussion",
+    ["Interpretation", false, [["29", "Interpretation consistent with results, balancing benefits and harms, and considering other relevant evidence"]]],
+    ["Limitations", false, [["30", "Trial limitations, addressing sources of potential bias, imprecision, generalisability, and, if relevant, multiplicity of analyses"]]]
+  ];
+  const TITLE = "CONSORT 2025 checklist of information to include when reporting a randomised trial";
+  const FOOT = [
+    "*We strongly recommend reading this statement in conjunction with the CONSORT 2025 Explanation and Elaboration and/or the CONSORT 2025 Expanded Checklist for important clarifications on all the items. We also recommend reading relevant CONSORT extensions. See [[www.consort-spirit.org|http://www.consort-spirit.org]].",
+    "Citation: Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, et al. CONSORT 2025 Statement: updated guideline for reporting randomised trials. BMJ. 2025; 388:e081123. [[https://dx.doi.org/10.1136/bmj-2024-081123|https://dx.doi.org/10.1136/bmj-2024-081123]].",
+    "© 2025 Hopewell et al. This is an Open Access article distributed under the terms of the Creative Commons Attribution License ([[https://creativecommons.org/licenses/by/4.0/|https://creativecommons.org/licenses/by/4.0/]]), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited."
+  ];
+
+  const STORE = "consort-2025-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    if (r[0] === "L") return `<tr class="lab"><td colspan="4">${r[1]}</td></tr>`;
+    const [topic, ind, items] = r, n = items.length;
+    return items.map(([code, text], i) =>
+      `<tr>` + (i ? "" : `<td class="topic${ind ? " ind" : ""}" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${code}</td><td class="txt">${text.replace(/\n/g, "<br>")}</td>` +
+      `<td class="pg"><input type="text" data-key="p${code}" placeholder="page no." aria-label="Page, item ${code}"></td></tr>`).join("");
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "CONSORT 2025 checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, foot) {
+    const F = "Arial", SZ = 17, W = [2000, 650, 6616, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section / Topic", hd), cell(1, "No", { ...hd, center: true }),
+      cell(2, "CONSORT 2025 checklist item description", hd), cell(3, "Reported on page no.", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] })];
+      if (r[0] === "L") return [new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { span: true, keepNext: true })] })];
+      const [topic, ind, items] = r;
+      return items.map(([code, text], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length, indent: ind ? 260 : 90 })]),
+        cell(1, code, { center: true }), cell(2, text), cell(3, vals["p" + code] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    if (logo) top.push(para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 100 } }));
+    top.push(para([run(title, { bold: true, size: 24 }), run("*", { bold: true, size: 24, sup: true })], { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "CONSORT 2025 checklist", creator: "CONSORT 2025 checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: i === 2 ? 14 : 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      try { logo = new Uint8Array(await (await fetch(new URL("spirit-consort-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "CONSORT-2025-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
