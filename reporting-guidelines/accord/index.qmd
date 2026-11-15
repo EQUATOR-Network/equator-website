@@ -5,12 +5,14 @@ aliases:
   - /reporting-guidelines/accord-accurate-consensus-reporting-document-a-reporting-guideline-for-consensus-methods-in-biomedicine
 acronym: ACCORD
 provided-for: Reporting consensus methods used in biomedical research.
-rg-doi: ''
+rg-doi: '10.1371/journal.pmed.1004326'
 pmid-id: '[38261576](https://pubmed.ncbi.nlm.nih.gov/38261576/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38261576/
-relevant-urls: '[Read the full-text](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004326)
-  of the ACCORD guideline.'
-full-bibliographic-reference: 'Gattrell WT, Logullo P, van Zuuren EJ, Price A, Hughes EL, Blazey P, Winchester CC, Tovey D, Goldman K, Hungin AP, Harrison N. ACCORD (ACcurate COnsensus Reporting Document): A reporting guideline for consensus methods in biomedicine developed via a modified Delphi. PLoS Med. 2024;21(1):e1004326.'
+relevant-urls: |-
+  [Read the full-text](https://doi.org/10.1371/journal.pmed.1004326) of the ACCORD guideline.\
+  
+  Complete an interactive [ACCORD checklist](accord-checklist.qmd), which you can save and upload when submitting your paper to a journal.
+full-bibliographic-reference: 'Gattrell WT, Logullo P, van Zuuren EJ, Price A, Hughes EL, Blazey P, Winchester CC, Tovey D, Goldman K, Hungin AP, Harrison N. ACCORD (ACcurate COnsensus Reporting Document): A reporting guideline for consensus methods in biomedicine developed via a modified Delphi. PLoS Med. 2024;21(1):e1004326. PMID: [38261576](https://pubmed.ncbi.nlm.nih.gov/38261576/) [full text](https://doi.org/10.1371/journal.pmed.1004326)'
 
 
 # OPTIONAL FIELDS

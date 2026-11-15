@@ -138,25 +138,25 @@ report-section:
 # - Biospecimen/bioresource information
 # - Conference paper/abstract
 # - Conflict of interest
-- Data
+# - Data
 # - Ethical issues (consent etc.)
 # - Figures/Graphs
 # - Funding
 # - Harms/adverse effects/safety data
 # - Images
 # - Intervention (exposure)
-- Narrative sections (discussion etc.)
+# - Narrative sections (discussion etc.)
 # - Outcomes (variables)
 # - Procedure/Method
 # - Protocol-whole report
 # - Research recommendations
-- Results
+# - Results
 # - Statistical analysis plan-whole report
-- Statistical methods and analyses
-- Study characteristics (participants etc.)
+# - Statistical methods and analyses
+#- Study characteristics (participants etc.)
 # - Terminology/definitions
 # - Title
-# - Whole report
+- Whole report
 # - No report section specified
 keyword:
 - checklist

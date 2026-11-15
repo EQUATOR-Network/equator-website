@@ -1,0 +1,204 @@
+---
+pagetitle: "ACCORD checklist"
+page-layout: full
+toc: false
+resources:
+  - accord-logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#0b7f99; --head:#10afd3; --box:#eaf8fc; --boxline:#7fd0e6; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top img { width:min(210px,45%); height:auto; display:block; margin-bottom:.8rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); color:#fff; font-weight:bold; }
+  #tp-wrap td.item { width:8%; } #tp-wrap td.sect { width:15%; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:12%; }
+  #tp-wrap .help { font-style:italic; font-size:11.5px; margin-top:2px; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#4f8796; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-cite { margin-top:1rem; font-size:13px; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #0b7f99; background:#0b7f99; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#0b7f99; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap .help { font-size:9px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-cite { font-size:9.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img src="accord-logo.png" alt="ACCORD: Accurate Consensus Reporting Document" id="tp-logo"></div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Item No.</th><th>Section</th><th>Checklist Item (<em>help text</em>)</th>
+      <th class="pgh">Page No.<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-cite">From: PLoS Med 21(1): e1004326. <a href="https://doi.org/10.1371/journal.pmed.1004326" target="_blank" rel="noopener">https://doi.org/10.1371/journal.pmed.1004326</a>&nbsp; For more information see: <a href="https://www.ismpp.org/accord" target="_blank" rel="noopener">https://www.ismpp.org/accord</a></p>
+</div>
+
+<script>
+(function () {
+  // Groups: [section label (<b>, "\n" = line break), [[item no, text, help text], ...]]
+  const ROWS = [
+      ["<b>Title</b>", [["T1", "Identify the article as reporting a consensus exercise and state the consensus methods used in the title.", "For example, Delphi or nominal group technique."]]],
+      ["<b>Introduction</b>", [["I1", "Explain why a consensus exercise was chosen over other approaches.", ""], ["I2", "State the aim of the consensus exercise, including its intended audience and geographical scope (national, regional, global).", ""], ["I3", "If the consensus exercise is an update of an existing document, state why an update is needed, and provide the citation for the original document.", ""]]],
+      ["<b>Methods</b>\nRegistration", [["M1", "If the study or study protocol was prospectively registered, state the registration platform and provide a link. If the exercise was not registered, this should be stated.", "Recommended to include the date of registration."]]],
+      ["Selection of SC and/or panellists", [["M2", "Describe the role(s) and areas of expertise or experience of those directing the consensus exercise.", "For example, whether the project was led by a chair, co-chairs or a steering committee, and, if so, how they were chosen. List their names if appropriate, and whether there were any subgroups for individual steps in the process."], ["M3", "Explain the criteria for panellist inclusion and the rationale for panellist numbers. State who was responsible for panellist selection.", ""], ["M4", "Describe the recruitment process (how panellists were invited to participate).", "Include communication/advertisement method(s) and locations, numbers of invitations sent, and whether there was centralised oversight of invitations or if panellists were asked/allowed to suggest other members of the panel."], ["M5", "Describe the role of any members of the public, patients or carers in the different steps of the study.", ""]]],
+      ["Preparatory research", [["M6", "Describe how information was obtained prior to generating items or other materials used during the consensus exercise.", "This might include a literature review, interviews, surveys, or another process."], ["M7", "Describe any systematic literature search in detail, including the search strategy and dates of search or the citation if published already.", "Provide the details suggested by the reporting guideline PRISMA and the related PRISMA-Search extension."], ["M8", "Describe how any existing scientific evidence was summarised and if this evidence was provided to the panellists.", ""]]],
+      ["Assessing consensus", [["M9", "Describe the methods used and steps taken to gather panellist input and reach consensus (for example, Delphi, RAND-UCLA, nominal group technique).", "If modifications were made to the method in its original form, provide a detailed explanation of how the method was adjusted and why this was necessary for the purpose of your consensus-based study."], ["M10", "Describe how each question or statement was presented and the response options. State whether panellists were able to or required to explain their responses, and whether they could propose new items.", "Where possible, present the questionnaire or list of statements as supplementary material."], ["M11", "State the objective of each consensus step.", "A step could be a consensus meeting, a discussion or interview session, or a Delphi round."], ["M12", "State the definition of consensus (for example, number, percentage, or categorical rating, such as ‘agree’ or ‘strongly agree’) and explain the rationale for that definition.", ""], ["M13", "State whether items that met the prespecified definition of consensus were included in any subsequent voting rounds.", ""], ["M14", "For each step, describe how responses were collected, and whether responses were collected in a group setting or individually.", ""], ["M15", "Describe how responses were processed and/or synthesised.", "Include qualitative analyses of free-text responses (for example, thematic, content or cluster analysis) and/or quantitative analytical methods, if used."], ["M16", "Describe any piloting of the study materials and/or survey instruments.", "Include how many individuals piloted the study materials, the rationale for the selection of those individuals, any changes made as a result and whether their responses were used in the calculation of the final consensus. If no pilot was conducted, this should be stated."], ["M17", "If applicable, describe how feedback was provided to panellists at the end of each consensus step or meeting.", "State whether feedback was quantitative (for example, approval rates per topic/item) and/or qualitative (for example, comments, or lists of approved items), and whether it was anonymised."], ["M18", "State whether anonymity was planned in the study design. Explain where and to whom it was applied and what methods were used to guarantee anonymity.", ""], ["M19", "State if the steering committee was involved in the decisions made by the consensus panel.", "For example, whether the steering committee or those managing consensus also had voting rights."]]],
+      ["Participation", [["M20", "Describe any incentives used to encourage responses or participation in the consensus process.", "For example, were invitations to participate reiterated, or were participants reimbursed for their time."], ["M21", "Describe any adaptations to make the surveys/meetings more accessible.", "For example, the languages in which the surveys/meetings were conducted and whether translations or plain language summaries were available."]]],
+      ["<b>Results</b>", [["R1", "State when the consensus exercise was conducted. List the date of initiation and the time taken to complete each consensus step, analysis, and any extensions or delays in the analysis.", ""], ["R2", "Explain any deviations from the study protocol, and why these were necessary.", "For example, addition of panel members during the exercise, number of consensus steps, stopping criteria; report the step(s) in which this occurred."], ["R3", "For each step, report quantitative (number of panellists, response rate) and qualitative (relevant socio-demographics) data to describe the participating panellists.", ""], ["R4", "Report the final outcome of the consensus process as qualitative (for example, aggregated themes from comments) and/or quantitative (for example, summary statistics, score means, medians and/or ranges) data.", ""], ["R5", "List any items or topics that were modified or removed during the consensus process. Include why and when in the process they were modified or removed.", ""]]],
+      ["<b>Discussion</b>", [["D1", "Discuss the methodological strengths and limitations of the consensus exercise.", "Include factors that may have impacted the decisions (for example, response rates, representativeness of the panel, potential for feedback during consensus to bias responses, potential impact of any non-anonymised interactions)."], ["D2", "Discuss whether the recommendations are consistent with any pre-existing literature and, if not, propose reasons why this process may have arrived at alternative conclusions.", ""]]],
+      ["<b>Other information</b>", [["O1", "List any endorsing organisations involved and their role.", ""], ["O2", "State any potential conflicts of interests, including among those directing the consensus study and panellists. Describe how conflicts of interest were managed.", ""], ["O3", "State any funding received and the role of the funder.", "Specify, for example, any funder involvement in the study concept/design, participation in the steering committee, conducting the consensus process, funding of any medical writing support. This could be disclosed in the methods or in the relevant transparency section of the manuscript. Where a funder did not play a role in the process or influence the decisions reached, this should be specified."]]]
+    ];
+
+  const FOOT = "From: PLoS Med 21(1): e1004326. [[https://doi.org/10.1371/journal.pmed.1004326|https://doi.org/10.1371/journal.pmed.1004326]]  For more information see: [[https://www.ismpp.org/accord|https://www.ismpp.org/accord]]";
+
+  const STORE = "accord-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(([sect, items]) => items.map(([id, text, help], i) =>
+    `<tr><td class="item">${id}</td>` + (i ? "" : `<td class="sect" rowspan="${items.length}">${sect.replace(/\n/g, "<br>")}</td>`) +
+    `<td class="txt">${text}${help ? `<div class="help">${help}</div>` : ""}</td>` +
+    `<td class="pg"><input type="text" data-key="p${id}" placeholder="page no." aria-label="Page, item ${id}"></td></tr>`).join("")).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "ACCORD checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, foot) {
+    const F = "Arial", SZ = 17, W = [900, 1500, 7066, 1000], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, color: o.color });
+    const runs = (text, o = {}) => {
+      const out = [], re = /<b>(.*?)<\/b>|<em>(.*?)<\/em>|\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        if (m[1] !== undefined) out.push(run(m[1], { ...o, bold: true }));
+        else if (m[2] !== undefined) out.push(run(m[2], { ...o, italics: true }));
+        else out.push(new D.ExternalHyperlink({ link: m[4], children: [new D.TextRun({ text: m[3], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, children, o = {}) => new D.TableCell({
+      width: { size: W[i], type: D.WidthType.DXA }, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 45, bottom: 45, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children })]
+    });
+    const hd = { fill: "10AFD3", color: "FFFFFF", bold: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, runs("Item No.", hd), hd), cell(1, runs("Section", hd), hd),
+      cell(2, [...runs("Checklist Item (", hd), run("help text", { ...hd, italics: true }), run(")", hd)], hd),
+      cell(3, runs("Page No.", hd), hd)] });
+    const body = ROWS.flatMap(([sect, items]) => items.map(([id, text, help], i) => new D.TableRow({ cantSplit: true, children: [
+      cell(0, runs(id)),
+      ...(i ? [] : [cell(1, lines(sect), { rowSpan: items.length })]),
+      cell(2, [...runs(text), ...(help ? [new D.TextRun({ break: 1 }), ...runs(help, { size: 15, italics: true })] : [])]),
+      cell(3, runs(vals["p" + id] || ""), { center: true, mid: true })] })));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const header = new D.Header({ children: [para(logo ? [new D.ImageRun({ data: logo, type: "png", transformation: { width: 150, height: 46 } })] : [])] });
+    return new D.Document({
+      title: "ACCORD checklist", creator: "ACCORD checklist",
+      sections: [{
+        headers: { default: header },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 1100, bottom: 720, left: 720, right: 720, header: 400 } } },
+        children: [para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para(runs(foot, { size: 16 }), { spacing: { before: 140 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      try { logo = new Uint8Array(await (await fetch(new URL("accord-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "ACCORD-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
