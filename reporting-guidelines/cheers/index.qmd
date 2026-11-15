@@ -11,7 +11,7 @@ pmid-url: ''
 relevant-urls: |-
   Further information about the CHEERS Statement is available from: [the International Society for Pharmacoeconomics and Outcomes (ISPOR) website](https://www.ispor.org/heor-resources/good-practices/article/consolidated-health-economic-evaluation-reporting-standards-2022-(cheers-2022)-statement-updated-reporting-guidance-for-health-economic-evaluations) \
   
-  Complete an interative [CHEERS checklist]((https://don-husereau.shinyapps.io/CHEERS/), which you can save and upload when submitting your paper to a journal.
+  Complete an interative [CHEERS checklist](https://don-husereau.shinyapps.io/CHEERS/), which you can save and upload when submitting your paper to a journal.
 
 full-bibliographic-reference: |-
   Husereau D, Drummond M, Augustovski F, de Bekker-Grob E, Briggs AH, Carswell C, Caulley L, Chaiyakunapruk N, Greenberg D, Loder E, Mauskopf J, Mullins CD, Petrou S, Pwu RF, Staniszewska S; CHEERS 2022 ISPOR Good Research Practices Task Force. Consolidated Health Economic Evaluation Reporting Standards 2022 (CHEERS 2022) Statement: Updated Reporting Guidance for Health Economic Evaluations. \

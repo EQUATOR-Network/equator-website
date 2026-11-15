@@ -132,9 +132,9 @@ other-relevant-research: ''
 sticky: true
 search-priority: 1
 downloads: |-
-  [CONSORT 2025 Checklist](/reporting-guidelines/consort/CONSORT 2025 checklist.docx) \
+  Download the [CONSORT 2025 Checklist](CONSORT 2025 checklist.docx) \
   
-  [CONSORT 2025 expanded checklist](https://www.bmj.com/highwire/filestream/1108702/field_highwire_adjunct_files/1/hops081123.ww2.pdf)
+  Download the [CONSORT 2025 expanded checklist](CONSORT_2025_expanded.pdf)
 # LIST FIELDS
 study-design:
 # - Animal pre-clinical research
