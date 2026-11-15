@@ -1,0 +1,260 @@
+---
+pagetitle: "PRISMA 2020 checklist"
+page-layout: full
+toc: false
+resources:
+  - prisma-logo.png
+  - PRISMA_2020_abstract_checklist.pdf
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#63639a; --sect:#ffffcc; --box:#f1f1f8; --boxline:#a9a9cf; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; align-items:center; gap:1rem; margin-bottom:.8rem; }
+  #tp-wrap .tp-top img { width:72px; height:auto; flex:none; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--accent); color:#fff; font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:17%; } #tp-wrap td.item { width:7%; text-align:right; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:15%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6e6e99; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-cite { margin-top:1rem; font-size:13px; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #63639a; background:#63639a; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#4f4f86; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:16px; } #tp-wrap .tp-cite { font-size:9.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap thead th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img src="prisma-logo.png" alt="PRISMA" id="tp-logo"><div class="tp-title">PRISMA 2020 Checklist</div></div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) or location where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section and Topic</th><th>Item #</th><th>Checklist item</th>
+      <th class="pgh">Location where item is reported<span class="tp-hint">type location in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-cite"><em>From:</em> Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71. <a href="https://doi.org/10.1136/bmj.n71" target="_blank" rel="noopener">doi: 10.1136/bmj.n71</a></p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings. Groups: [topic, [[item no, text], ...]]. [[label|file]] = link.
+  const ROWS = [
+    "TITLE",
+    ["Title",[["1","Identify the report as a systematic review."]]],
+    "ABSTRACT",
+    ["Abstract",[["2","[[See the PRISMA 2020 for Abstracts checklist|PRISMA_2020_abstract_checklist.pdf]]."]]],
+    "INTRODUCTION",
+    ["Rationale",[["3","Describe the rationale for the review in the context of existing knowledge."]]],
+    ["Objectives",[["4","Provide an explicit statement of the objective(s) or question(s) the review addresses."]]],
+    "METHODS",
+    ["Eligibility criteria",[["5","Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses."]]],
+    ["Information sources",[["6","Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted."]]],
+    ["Search strategy",[["7","Present the full search strategies for all databases, registers and websites, including any filters and limits used."]]],
+    ["Selection process",[["8","Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and if applicable, details of automation tools used in the process."]]],
+    ["Data collection process",[["9","Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process."]]],
+    ["Data items",[
+      ["10a","List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought (e.g. for all measures, time points, analyses), and if not, the methods used to decide which results to collect."],
+      ["10b","List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information."]]],
+    ["Study risk of bias assessment",[["11","Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and if applicable, details of automation tools used in the process."]]],
+    ["Effect measures",[["12","Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results."]]],
+    ["Synthesis methods",[
+      ["13a","Describe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5))."],
+      ["13b","Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions."],
+      ["13c","Describe any methods used to tabulate or visually display results of individual studies and syntheses."],
+      ["13d","Describe any methods used to synthesize results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used."],
+      ["13e","Describe any methods used to explore possible causes of heterogeneity among study results (e.g. subgroup analysis, meta-regression)."],
+      ["13f","Describe any sensitivity analyses conducted to assess robustness of the synthesized results."]]],
+    ["Reporting bias assessment",[["14","Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases)."]]],
+    ["Certainty assessment",[["15","Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome."]]],
+    "RESULTS",
+    ["Study selection",[
+      ["16a","Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram."],
+      ["16b","Cite studies that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded."]]],
+    ["Study characteristics",[["17","Cite each included study and present its characteristics."]]],
+    ["Risk of bias in studies",[["18","Present assessments of risk of bias for each included study."]]],
+    ["Results of individual studies",[["19","For all outcomes, present, for each study: (a) summary statistics for each group (where appropriate) and (b) an effect estimate and its precision (e.g. confidence/credible interval), ideally using structured tables or plots."]]],
+    ["Results of syntheses",[
+      ["20a","For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies."],
+      ["20b","Present results of all statistical syntheses conducted. If meta-analysis was done, present for each the summary estimate and its precision (e.g. confidence/credible interval) and measures of statistical heterogeneity. If comparing groups, describe the direction of the effect."],
+      ["20c","Present results of all investigations of possible causes of heterogeneity among study results."],
+      ["20d","Present results of all sensitivity analyses conducted to assess the robustness of the synthesized results."]]],
+    ["Reporting biases",[["21","Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed."]]],
+    ["Certainty of evidence",[["22","Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed."]]],
+    "DISCUSSION",
+    ["Discussion",[
+      ["23a","Provide a general interpretation of the results in the context of other evidence."],
+      ["23b","Discuss any limitations of the evidence included in the review."],
+      ["23c","Discuss any limitations of the review processes used."],
+      ["23d","Discuss implications of the results for practice, policy, and future research."]]],
+    "OTHER INFORMATION",
+    ["Registration and protocol",[
+      ["24a","Provide registration information for the review, including register name and registration number, or state that the review was not registered."],
+      ["24b","Indicate where the review protocol can be accessed, or state that a protocol was not prepared."],
+      ["24c","Describe and explain any amendments to information provided at registration or in the protocol."]]],
+    ["Support",[["25","Describe sources of financial or non-financial support for the review, and the role of the funders or sponsors in the review."]]],
+    ["Competing interests",[["26","Declare any competing interests of review authors."]]],
+    ["Availability of data, code and other materials",[["27","Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review."]]]
+  ];
+  const TITLE = "PRISMA 2020 Checklist";
+  const FOOT = "<em>From:</em> Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71. [[doi: 10.1136/bmj.n71|https://doi.org/10.1136/bmj.n71]]";
+
+  const STORE = "prisma-2020-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  // [[label|url]] becomes a link; built through the DOM so the script holds no literal link attributes
+  const linkify = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, (_, label, url) => {
+    const a = document.createElement("a");
+    a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener");
+    a.setAttribute("data-url", url); a.textContent = label;
+    return a.outerHTML;
+  });
+  tbody.innerHTML = ROWS.map(r => typeof r === "string" ? `<tr class="sec"><td colspan="4">${r}</td></tr>`
+    : r[1].map(([code, text], i) =>
+      `<tr>` + (i ? "" : `<td class="topic" rowspan="${r[1].length}">${r[0]}</td>`) +
+      `<td class="item">${code}</td><td class="txt">${linkify(text)}</td>` +
+      `<td class="pg"><input type="text" data-key="p${code}" placeholder="page / location" aria-label="Location, item ${code}"></td></tr>`).join("")).join("");
+  tbody.querySelectorAll("a[data-url]").forEach(a => { a.href = a.getAttribute("data-url"); a.removeAttribute("data-url"); });
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA 2020 checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all entries and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, foot) {
+    const F = "Arial", SZ = 17, W = [1800, 650, 6616, 1400], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, color: o.color });
+    const runs = (text, o = {}) => {
+      const out = [], re = /<em>(.*?)<\/em>|\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        if (m[1] !== undefined) out.push(run(m[1], { ...o, italics: true }));
+        else out.push(new D.ExternalHyperlink({ link: m[3], children: [new D.TextRun({ text: m[2], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.right ? D.AlignmentType.RIGHT : o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "63639A", color: "FFFFFF", bold: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section and Topic", hd), cell(1, "Item #", hd), cell(2, "Checklist item", hd), cell(3, "Location where item is reported", hd)] });
+    const body = ROWS.flatMap(r => typeof r === "string"
+      ? [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "FFFFCC", bold: true, keepNext: true })] })]
+      : r[1].map(([code, text], i) => new D.TableRow({ cantSplit: true, children: [
+          ...(i ? [] : [cell(0, r[0], { rowSpan: r[1].length, top: true })]),
+          cell(1, code, { right: true, top: true }), cell(2, text, { top: true }), cell(3, vals["p" + code] || "", { center: true })] })));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const header = new D.Header({ children: [para([
+      ...(logo ? [new D.ImageRun({ data: logo, type: "png", transformation: { width: 48, height: 44 } })] : []),
+      run("   " + title, { bold: true, size: 26 })])] });
+    return new D.Document({
+      title: "PRISMA 2020 checklist", creator: "PRISMA 2020 checklist",
+      sections: [{
+        headers: { default: header },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 1250, bottom: 720, left: 720, right: 720, header: 400 } } },
+        children: [para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para(runs(foot, { size: 16 }), { spacing: { before: 140 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      try { logo = new Uint8Array(await (await fetch(new URL("prisma-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      // a relative link would break once the file is downloaded, so use the full web address
+      const rows = ROWS.map(r => typeof r === "string" ? r : [r[0], r[1].map(([c, t]) => [c, t.replace(/\|([^|\]]*)\]\]/g, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")])]);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, rows, vals, logo, TITLE, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "PRISMA-2020-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

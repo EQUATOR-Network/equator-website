@@ -1,0 +1,257 @@
+---
+pagetitle: "SPIRIT 2025 checklist"
+page-layout: full
+toc: false
+resources:
+  - spirit-consort-logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top img { width:min(220px,50%); height:auto; display:block; margin-bottom:.8rem; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.lab td { padding:2px 6px; }
+  #tp-wrap td.topic { width:19%; } #tp-wrap td.topic.ind { padding-left:16px; }
+  #tp-wrap td.item { width:6%; text-align:center; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:13%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite, #tp-wrap .tp-lic { font-size:12.5px; margin:.6rem 0 0; }
+  #tp-wrap .tp-lic { font-size:11.5px; color:#333; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9.5px; } #tp-wrap .tp-lic { font-size:8.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img src="spirit-consort-logo.png" alt="SPIRIT CONSORT" id="tp-logo"></div>
+  <div class="tp-title">SPIRIT 2025 checklist of items to address in a randomized trial protocol<sup>*</sup></div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Protocol title: <input type="text" id="tp-title" data-key="title" placeholder="Type your protocol title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section / Topic</th><th class="c">No</th><th>SPIRIT 2025 checklist item description</th>
+      <th class="pgh">Reported on page no.<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-foot"><sup>*</sup>We strongly recommend reading this checklist in conjunction with the SPIRIT 2025 Explanation and Elaboration and the SPIRIT 2025 Expanded Checklist for important clarifications on all the items. We also recommend reading relevant SPIRIT extensions. See <a href="http://www.consort-spirit.org" target="_blank" rel="noopener">www.consort-spirit.org</a></p>
+  <p class="tp-cite">Citation: Chan A-W, Boutron I, Hopewell S, Moher D, Schulz KF, et al. SPIRIT 2025 statement: updated guideline for protocols of randomised trials. BMJ 2025;389:e081477. <a href="https://dx.doi.org/10.1136/bmj-2024-081477" target="_blank" rel="noopener">https://dx.doi.org/10.1136/bmj-2024-081477</a></p>
+  <p class="tp-lic">© 2025 Chan A-W et al. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">https://creativecommons.org/licenses/by/4.0/</a>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings; ["L", text] = label row; otherwise [topic, indented?, [[item no, text], ...]]
+  const ROWS = [
+    "Administrative information",
+    ["Title and structured summary", false, [["1a", "Title stating the trial design, population, and interventions, with identification as a protocol"], ["1b", "Structured summary of trial design and methods, including items from the World Health Organization Trial Registration Data Set"]]],
+    ["Protocol version", false, [["2", "Version date and identifier"]]],
+    ["Roles and responsibilities", false, [["3a", "Names, affiliations, and roles of protocol contributors"], ["3b", "Name and contact information for the trial sponsor"], ["3c", "Role of trial sponsor and funders in design, conduct, analysis, and reporting of trial; including any authority over these activities"], ["3d", "Composition, roles, and responsibilities of the coordinating site, steering committee, endpoint adjudication committee, data management team, and other individuals or groups overseeing the trial, if applicable"]]],
+    "Open science",
+    ["Trial registration", false, [["4", "Name of trial registry, identifying number (with URL), and date of registration. If not yet registered, name of intended registry"]]],
+    ["Protocol and statistical analysis plan", false, [["5", "Where the trial protocol and statistical analysis plan can be accessed"]]],
+    ["Data sharing", false, [["6", "Where and how the individual de-identified participant data (including data dictionary), statistical code, and any other materials will be accessible"]]],
+    ["Funding and conflicts of interest", false, [["7a", "Sources of funding and other support (e.g., supply of drugs)"], ["7b", "Financial and other conflicts of interest for principal investigators and steering committee members"]]],
+    ["Dissemination policy", false, [["8", "Plans to communicate trial results to participants, healthcare professionals, the public, and other relevant groups (e.g., reporting in trial registry, plain language summary, publication)"]]],
+    "Introduction",
+    ["Background and rationale", false, [["9a", "Scientific background and rationale, including summary of relevant studies (published and unpublished) examining benefits and harms for each intervention"], ["9b", "Explanation for choice of comparator"]]],
+    ["Objectives", false, [["10", "Specific objectives related to benefits and harms"]]],
+    "Methods: Patient and public involvement, trial design",
+    ["Patient and public involvement", false, [["11", "Details of, or plans for, patient or public involvement in the design, conduct, and reporting of the trial"]]],
+    ["Trial design", false, [["12", "Description of trial design including type of trial (e.g., parallel group, crossover), allocation ratio, and framework (e.g., superiority, equivalence, non-inferiority, exploratory)"]]],
+    "Methods: Participants, interventions, and outcomes",
+    ["Trial setting", false, [["13", "Settings (e.g., community, hospital) and locations (e.g., countries, sites) where the trial will be conducted"]]],
+    ["Eligibility criteria", false, [["14a", "Eligibility criteria for participants"], ["14b", "If applicable, eligibility criteria for sites and for individuals who will deliver the interventions (e.g., surgeons, physiotherapists)"]]],
+    ["Intervention and comparator", false, [["15a", "Intervention and comparator with sufficient details to allow replication including how, when, and by whom they will be administered. If relevant, where additional materials describing the intervention and comparator (e.g., intervention manual) can be accessed"], ["15b", "Criteria for discontinuing or modifying allocated intervention/comparator for a trial participant (e.g., drug dose change in response to harms, participant request, or improving/worsening disease)"], ["15c", "Strategies to improve adherence to intervention/comparator protocols, if applicable, and any procedures for monitoring adherence (e.g., drug tablet return, sessions attended)"], ["15d", "Concomitant care that is permitted or prohibited during the trial"]]],
+    ["Outcomes", false, [["16", "Primary and secondary outcomes, including the specific measurement variable (e.g., systolic blood pressure), analysis metric (e.g., change from baseline, final value, time to event), method of aggregation (e.g., median, proportion), and time point for each outcome"]]],
+    ["Harms", false, [["17", "How harms are defined and will be assessed (e.g., systematically, non-systematically)"]]],
+    ["Participant timeline", false, [["18", "Time schedule of enrollment, interventions (including any run-ins and washouts), assessments, and visits for participants. A schematic diagram is highly recommended (see Figure)"]]],
+    ["Sample size", false, [["19", "How sample size was determined, including all assumptions supporting the sample size calculation"]]],
+    ["Recruitment", false, [["20", "Strategies for achieving adequate participant enrollment to reach target sample size"]]],
+    "Methods: Assignment of interventions",
+    ["L", "Randomization:"],
+    ["Sequence generation", true, [["21a", "Who will generate the random allocation sequence and the method used"], ["21b", "Type of randomization (simple or restricted) and details of any factors for stratification. To reduce predictability of a random sequence, other details of any planned restriction (e.g., blocking) should be provided in a separate document that is unavailable to those who enroll participants or assign interventions"]]],
+    ["Allocation concealment mechanism", true, [["22", "Mechanism used to implement the random allocation sequence (e.g., central computer/telephone; sequentially numbered, opaque, sealed containers), describing any steps to conceal the sequence until interventions are assigned"]]],
+    ["Implementation", true, [["23", "Whether the personnel who will enroll and those who will assign participants to the interventions will have access to the random allocation sequence"]]],
+    ["Blinding", false, [["24a", "Who will be blinded after assignment to interventions (e.g., participants, care providers, outcome assessors, data analysts)"], ["24b", "If blinded, how blinding will be achieved and description of the similarity of interventions"], ["24c", "If blinded, circumstances under which unblinding is permissible, and procedure for revealing a participant’s allocated intervention during the trial"]]],
+    "Methods: Data collection, management, and analysis",
+    ["Data collection methods", false, [["25a", "Plans for assessment and collection of trial data, including any related processes to promote data quality (e.g., duplicate measurements, training of assessors) and a description of trial instruments (e.g., questionnaires, laboratory tests) along with their reliability and validity, if known. Reference to where data collection forms can be accessed, if not in the protocol"], ["25b", "Plans to promote participant retention and complete follow-up, including list of any outcome data to be collected for participants who discontinue or deviate from intervention protocols"]]],
+    ["Data management", false, [["26", "Plans for data entry, coding, security, and storage, including any related processes to promote data quality (e.g., double data entry; range checks for data values). Reference to where details of data management procedures can be accessed, if not in the protocol"]]],
+    ["Statistical methods", false, [["27a", "Statistical methods used to compare groups for primary and secondary outcomes, including harms"], ["27b", "Definition of who will be included in each analysis (e.g., all randomized participants), and in which group"], ["27c", "How missing data will be handled in the analysis"], ["27d", "Methods for any additional analyses (e.g., subgroup and sensitivity analyses)"]]],
+    "Methods: Monitoring",
+    ["Data monitoring committee", false, [["28a", "Composition of data monitoring committee (DMC); summary of its role and reporting structure; statement of whether it is independent from the sponsor and funder; conflicts of interest and reference to where further details about its charter can be found, if not in the protocol. Alternatively, an explanation of why a DMC is not needed"], ["28b", "Explanation of any interim analyses and stopping guidelines, including who will have access to these interim results and make the final decision to terminate the trial"]]],
+    ["Trial monitoring", false, [["29", "Frequency and procedures for monitoring trial conduct. If there is no monitoring, give explanation"]]],
+    "Ethics",
+    ["Research ethics approval", false, [["30", "Plans for seeking research ethics committee/institutional review board approval"]]],
+    ["Protocol amendments", false, [["31", "Plans for communicating important protocol modifications to relevant parties"]]],
+    ["Consent or assent", false, [["32a", "Who will obtain informed consent or assent from potential trial participants or authorized proxies, and how"], ["32b", "Additional consent provisions for collection and use of participant data and biological specimens in ancillary studies, if applicable"]]],
+    ["Confidentiality", false, [["33", "How personal information about potential and enrolled participants will be collected, shared, and maintained in order to protect confidentiality before, during, and after the trial"]]],
+    ["Ancillary and post-trial care", false, [["34", "Provisions, if any, for ancillary and post-trial care, and for compensation to those who suffer harm from trial participation"]]]
+  ];
+  const TITLE = "SPIRIT 2025 checklist of items to address in a randomized trial protocol";
+  const FOOT = [
+    "*We strongly recommend reading this checklist in conjunction with the SPIRIT 2025 Explanation and Elaboration and the SPIRIT 2025 Expanded Checklist for important clarifications on all the items. We also recommend reading relevant SPIRIT extensions. See [[www.consort-spirit.org|http://www.consort-spirit.org]]",
+    "Citation: Chan A-W, Boutron I, Hopewell S, Moher D, Schulz KF, et al. SPIRIT 2025 statement: updated guideline for protocols of randomised trials. BMJ 2025;389:e081477. [[https://dx.doi.org/10.1136/bmj-2024-081477|https://dx.doi.org/10.1136/bmj-2024-081477]]",
+    "© 2025 Chan A-W et al. This is an Open Access article distributed under the terms of the Creative Commons Attribution License ([[https://creativecommons.org/licenses/by/4.0/|https://creativecommons.org/licenses/by/4.0/]]), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited."
+  ];
+
+  const STORE = "spirit-2025-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    if (r[0] === "L") return `<tr class="lab"><td colspan="4">${r[1]}</td></tr>`;
+    const [topic, ind, items] = r, n = items.length;
+    return items.map(([code, text], i) =>
+      `<tr>` + (i ? "" : `<td class="topic${ind ? " ind" : ""}" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${code}</td><td class="txt">${text}</td>` +
+      `<td class="pg"><input type="text" data-key="p${code}" placeholder="page no." aria-label="Page, item ${code}"></td></tr>`).join("");
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "SPIRIT 2025 checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the protocol title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, foot) {
+    const F = "Arial", SZ = 17, W = [2000, 650, 6616, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section / Topic", hd), cell(1, "No", { ...hd, center: true }),
+      cell(2, "SPIRIT 2025 checklist item description", hd), cell(3, "Reported on page no.", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] })];
+      if (r[0] === "L") return [new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { span: true, keepNext: true })] })];
+      const [topic, ind, items] = r;
+      return items.map(([code, text], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length, indent: ind ? 260 : 90 })]),
+        cell(1, code, { center: true }), cell(2, text), cell(3, vals["p" + code] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    if (logo) top.push(para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 100 } }));
+    top.push(para([run(title, { bold: true, size: 24 }), run("*", { bold: true, size: 24, sup: true })], { spacing: { after: 100 } }));
+    top.push(para([run("Protocol title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "SPIRIT 2025 checklist", creator: "SPIRIT 2025 checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: i === 2 ? 14 : 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      try { logo = new Uint8Array(await (await fetch(new URL("spirit-consort-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "SPIRIT-2025-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

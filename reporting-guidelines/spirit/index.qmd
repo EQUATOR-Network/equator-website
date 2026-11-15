@@ -8,7 +8,10 @@ provided-for: Defining standard protocol items for clinical trials
 rg-doi: 'https://doi.org/10.1136/bmj-2024-081477'
 pmid-id: '40294956'
 pmid-url: '[40294956](https://pubmed.ncbi.nlm.nih.gov/40294956/)'
-relevant-urls: 'Read the [full-text](https://doi.org/10.1136/bmj-2024-081477) of SPIRIT-2025'
+relevant-urls: |-
+  Read the [full-text](https://doi.org/10.1136/bmj-2024-081477) of SPIRIT-2025\
+  
+  Complete an interactive [SPIRIT-2025 checklist](spirit-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Chan AW, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Hróbjartsson A. SPIRIT 20205 statement: updated guideline for protocols of randomized trials. \
 

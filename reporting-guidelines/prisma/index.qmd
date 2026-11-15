@@ -9,11 +9,11 @@ rg-doi: ''
 pmid-id: ''
 pmid-url: ''
 relevant-urls: |-
-  The PRISMA 2020 Statement and Explanation and Elaboration document are available at: <https://www.prisma-statement.org/prisma-2020> \
-
-  All versions (including a Shiny App) of the PRISMA 2020 checklist are available at: <https://www.prisma-statement.org/prisma-2020-checklist> \
-
-  All versions (including a Shiny App) of the PRISMA 2020 flow diagram are available (for both new and updated systematic reviews) at: <https://www.prisma-statement.org/prisma-2020-flow-diagram>
+  All versions (including a Shiny App) of the PRISMA 2020 flow diagram are available (for both new and updated systematic reviews) at: <https://www.prisma-statement.org/prisma-2020-flow-diagram> \
+  
+  Go to the [PRISMA website](http://www.prisma-statement.org/) for a history and development of PRISMA. See here for a list of [PRISMA endorsed extensions](https://www.prisma-statement.org/extensions) \  
+  
+  If you are interested in developing a new PRISMA 2020 extension, then please the [PRISMA criteria](https://www.prisma-statement.org/extensions) for their approval.
 full-bibliographic-reference: |-
   Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. \
 
@@ -123,12 +123,11 @@ other-relevant-research: ''
 sticky: true
 search-priority: 1
 downloads: |-
-  Download the PRISMA 2020 checklist [Word](https://www.prisma-statement.org/s/PRISMA_2020_checklist-gely.docx) / [PDF](https://www.prisma-statement.org/s/PRISMA_2020_checklist-djgh.pdf) \
+  Download the PRISMA 2020 checklist [Word](PRISMA_2020_checklist.docx) / [PDF](PRISMA_2020_checklist.pdf) \
 
-  Download the [PRISMA 2020 expanded checklist (PDF)](https://www.prisma-statement.org/s/PRISMA_2020_expanded_checklist-rp3l.pdf) \
+  Download the [PRISMA 2020 expanded checklist (PDF)](PRISMA_2020_expanded_checklist.pdf) \
   
-  Complete an interactive [PRISMA 2020 checklist (Shiny App)](https://prisma.shinyapps.io/checklist/), which you can save and upload when submitting your paper to a journal.
-
+  Complete an interactive [PRISMA 2020 checklist](prisma-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 
 # LIST FIELDS
 study-design:

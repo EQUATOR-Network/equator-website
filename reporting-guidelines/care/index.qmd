@@ -10,7 +10,9 @@ pmid-url: ''
 relevant-urls: |-
   A list of CARE articles can be found on the [CARE website](https://www.care-statement.org/publications) \
   
-  The CARE checklist has been translated into [Chinese](CARE-checklist-Chinese-2013.pdf), [Croatian](CARE-checklist-Croatian-2013.pdf), [Dutch](CARE-checklist-Dutch-2013.pdf), [French](CARE-checklist-French-2013.pdf), [German](CARE-checklist-German-2013.pdf), [Japanese](CARE-checklist-Japanese-2013.pdf), [Korean](CARE-checklist-Korean-2013.pdf), [Portugese](CARE-checklist-Portuguese-2013.pdf), [Russian](CARE-checklist-Russian-2019.pdf), and [Spanish](CARE-checklist-Spanish-2013.pdf)
+  The CARE checklist has been translated into [Chinese](CARE-checklist-Chinese-2013.pdf), [Croatian](CARE-checklist-Croatian-2013.pdf), [Dutch](CARE-checklist-Dutch-2013.pdf), [French](CARE-checklist-French-2013.pdf), [German](CARE-checklist-German-2013.pdf), [Japanese](CARE-checklist-Japanese-2013.pdf), [Korean](CARE-checklist-Korean-2013.pdf), [Portugese](CARE-checklist-Portuguese-2013.pdf), [Russian](CARE-checklist-Russian-2019.pdf), and [Spanish](CARE-checklist-Spanish-2013.pdf)\
+  
+  Complete an interactive [CARE checklist](care-checklist.qmd), which you can save and upload when submitting your paper to a journa.l.
 full-bibliographic-reference: |-
   Gagnier JJ, Kienle G, Altman DG, Moher D, Sox H, Riley D; the CARE Group. The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development. \
 
