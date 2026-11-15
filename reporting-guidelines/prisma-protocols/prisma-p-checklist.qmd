@@ -1,0 +1,242 @@
+---
+pagetitle: "PRISMA-P checklist"
+page-layout: full
+toc: false
+resources:
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#156082; --sect:#83caeb; --sub:#e8e8e8; --box:#eaf4f9; --boxline:#83caeb; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-sub { font-size:14px; margin:0 0 .4rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:middle; text-align:left; }
+  #tp-wrap thead th { background:var(--accent); color:#fff; font-weight:bold; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.sub td { background:var(--sub); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:19%; } #tp-wrap td.item { width:7%; text-align:center; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:14%; }
+  #tp-wrap td.pg { padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#5f8296; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:12.5px; margin:.7rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #156082; background:#156082; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#156082; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; } #tp-wrap .tp-sub { font-size:12px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap thead th, #tp-wrap tr.sec td, #tp-wrap tr.sub td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-title">PRISMA-P (Preferred Reporting Items for Systematic review and Meta-Analysis Protocols) 2015 Checklist</div>
+  <div class="tp-sub">Recommended items to address in a systematic review protocol*</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Protocol title: <input type="text" id="tp-title" data-key="title" placeholder="Type your protocol title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section &amp; Topic</th><th class="c">Item No.</th><th>Checklist Item</th>
+      <th class="pgh">Reported on page no.<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-foot">*It is strongly recommended that this checklist be read in conjunction with the PRISMA-P Explanation and Elaboration for important clarification on the items. Amendments to a review protocol should be tracked and dated. The copyright for PRISMA-P (including checklist) is held by the PRISMA-P Group and is distributed under a Creative Commons Attribution Licence 4.0.</p>
+  <p class="tp-cite">From: Shamseer L, Moher D, Clarke M, Ghersi D, Liberati A, Petticrew M, Shekelle P, Stewart L, PRISMA-P Group. Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015: elaboration and explanation. BMJ. 2015 Jan 2;349(jan02 1):g7647. <a href="https://doi.org/10.1186/2046-4053-4-1" target="_blank" rel="noopener">doi: 10.1186/2046-4053-4-1</a></p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings; ["T", text] = grey topic heading; otherwise [topic, item no, text]
+  const ROWS = [
+    "ADMINISTRATIVE INFO",
+    ["T","Title"],
+    ["Identification","1a","Identify the report as a protocol of a systematic review"],
+    ["Update","1b","If the protocol is for an update of a previous systematic review, identify as such"],
+    ["T","Registration"],
+    ["Registration","2","If registered, provide the name of the registry (such as PROSPERO) and registration number"],
+    ["T","Authors"],
+    ["Contact","3a","Provide name, institutional affiliation, e-mail address of all protocol authors; provide physical mailing address of corresponding author"],
+    ["Contributions","3b","Describe contributions of protocol authors and identify the guarantor of the review"],
+    ["T","Amendments"],
+    ["Amendments","4","If the protocol represents an amendment of a previously completed or published protocol, identify as such and list changes; otherwise, state plan for documenting important protocol amendments"],
+    ["T","Support"],
+    ["Sources","5a","Indicate sources of financial or other support for the review"],
+    ["Sponsor","5b","Provide name for the review funder and/or sponsor"],
+    ["Role of Sponsor or Funder","5c","Describe roles of funder(s), sponsor(s), and/or institution(s), if any, in developing the protocol"],
+    "INTRODUCTION",
+    ["T","Rationale"],
+    ["Rationale","6","Describe the rationale for the review in the context of what is already known"],
+    ["T","Objectives"],
+    ["Objectives","7","Provide an explicit statement of the question(s) the review will address with reference to participants, interventions, comparators, and outcomes (PICO)"],
+    "METHODS",
+    ["T","Eligibility Criteria"],
+    ["Eligibility criteria","8","Specify the study characteristics (such as PICO, study design, setting, time frame) and report characteristics (such as years considered, language, publication status) to be used as criteria for eligibility for the review"],
+    ["T","Information Sources"],
+    ["Information sources","9","Describe all intended information sources (such as electronic databases, contact with study authors, trial registers or other grey literature sources) with planned dates of coverage"],
+    ["T","Search Strategy"],
+    ["Search strategy","10","Present draft of search strategy to be used for at least one electronic database, including planned limits, such that it could be repeated"],
+    ["T","Study Records"],
+    ["Data management","11a","Describe the mechanism(s) that will be used to manage records and data throughout the review"],
+    ["Selection process","11b","State the process that will be used for selecting studies (such as two independent reviewers) through each phase of the review (that is, screening, eligibility and inclusion in meta-analysis)"],
+    ["Data collection process","11c","Describe planned method of extracting data from reports (such as piloting forms, done independently, in duplicate), any processes for obtaining and confirming data from investigators"],
+    ["T","Data Items"],
+    ["Data items","12","List and define all variables for which data will be sought (such as PICO items, funding sources), any pre-planned data assumptions and simplifications"],
+    ["T","Outcomes and Prioritization"],
+    ["Outcomes and prioritization","13","List and define all outcomes for which data will be sought, including prioritization of main and additional outcomes, with rationale"],
+    ["T","Risk of Bias"],
+    ["Risk of bias in individual studies","14","Describe anticipated methods for assessing risk of bias of individual studies, including whether this will be done at the outcome or study level, or both; state how this information will be used in data synthesis"],
+    ["T","Data Synthesis"],
+    ["Data synthesis","15a","Describe criteria under which study data will be quantitatively synthesised"],
+    ["","15b","If data are appropriate for quantitative synthesis, describe planned summary measures, methods of handling data and methods of combining data from studies, including any planned exploration of consistency (such as I², Kendall’s τ)"],
+    ["","15c","Describe any proposed additional analyses (such as sensitivity or subgroup analyses, meta-regression)"],
+    ["","15d","If quantitative synthesis is not appropriate, describe the type of summary planned"],
+    ["T","Meta-bias(es)"],
+    ["Meta-bias(es)","16","Specify any planned assessment of meta-bias(es) (such as publication bias across studies, selective reporting within studies)"],
+    ["T","Confidence in Evidence"],
+    ["Confidence in cumulative evidence","17","Describe how the strength of the body of evidence will be assessed (such as GRADE)"]
+  ];
+  const TITLE = "PRISMA-P (Preferred Reporting Items for Systematic review and Meta-Analysis Protocols) 2015 Checklist";
+  const SUBTITLE = "Recommended items to address in a systematic review protocol*";
+  const FOOT = [
+    "*It is strongly recommended that this checklist be read in conjunction with the PRISMA-P Explanation and Elaboration for important clarification on the items. Amendments to a review protocol should be tracked and dated. The copyright for PRISMA-P (including checklist) is held by the PRISMA-P Group and is distributed under a Creative Commons Attribution Licence 4.0.",
+    "From: Shamseer L, Moher D, Clarke M, Ghersi D, Liberati A, Petticrew M, Shekelle P, Stewart L, PRISMA-P Group. Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015: elaboration and explanation. BMJ. 2015 Jan 2;349(jan02 1):g7647. [[doi: 10.1186/2046-4053-4-1|https://doi.org/10.1186/2046-4053-4-1]]"
+  ];
+
+  const STORE = "prisma-p-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => typeof r === "string" ? `<tr class="sec"><td colspan="4">${r}</td></tr>`
+    : r[0] === "T" ? `<tr class="sub"><td colspan="4">${r[1]}</td></tr>`
+    : `<tr><td class="topic">${r[0]}</td><td class="item">${r[1]}</td><td class="txt">${r[2]}</td>` +
+      `<td class="pg"><input type="text" data-key="p${r[1]}" placeholder="page no." aria-label="Page, item ${r[1]}"></td></tr>`).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA-P checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the protocol title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, title, subtitle, foot) {
+    const F = "Arial", SZ = 17, W = [1900, 700, 6366, 1500], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, color: o.color });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined,
+      verticalAlign: D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "156082", color: "FFFFFF", bold: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section & Topic", hd), cell(1, "Item No.", { ...hd, center: true }),
+      cell(2, "Checklist Item", hd), cell(3, "Reported on page no.", hd)] });
+    const body = ROWS.map(r => new D.TableRow({ cantSplit: true, children: typeof r === "string"
+      ? [cell(0, r, { span: true, fill: "83CAEB", bold: true, keepNext: true })]
+      : r[0] === "T" ? [cell(0, r[1], { span: true, fill: "E8E8E8", bold: true, keepNext: true })]
+      : [cell(0, r[0]), cell(1, r[1], { center: true }), cell(2, r[2]), cell(3, vals["p" + r[1]] || "", { center: true })] }));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    return new D.Document({
+      title: "PRISMA-P checklist", creator: "PRISMA-P checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [
+          para([run(title, { bold: true, size: 24 })], { spacing: { after: 60 } }),
+          para([run(subtitle, { size: 18 })], { spacing: { after: 100 } }),
+          para([run("Protocol title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para(runs(foot[0], { size: 15 }), { spacing: { before: 120 } }),
+          para(runs(foot[1], { size: 15 }), { spacing: { before: 60 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, SUBTITLE, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "PRISMA-P-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
