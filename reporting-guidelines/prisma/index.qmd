@@ -125,7 +125,7 @@ search-priority: 1
 downloads: |-
   Download the PRISMA 2020 checklist [Word](PRISMA_2020_checklist.docx) / [PDF](PRISMA_2020_checklist.pdf) \
 
-  Download the [PRISMA 2020 expanded checklist (PDF)](PRISMA_2020_expanded_checklist.pdf) \
+  Download the PRISMA 2020 expanded checklist  [PDF](PRISMA_2020_expanded_checklist.pdf) \
   
   Complete an interactive [PRISMA 2020 checklist](prisma-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 
