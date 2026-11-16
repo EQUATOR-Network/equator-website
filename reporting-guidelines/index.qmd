@@ -10,7 +10,8 @@ listing:
         - "!under-development/index.qmd"
     type: table
     table-striped: true
-    filter-ui: [keyword, title, acronym, study-type, clinical-specialty, study-design, report-section]
+#    filter-ui: [keyword, title, acronym, study-type, clinical-specialty, study-design, report-section]
+    filter-ui: true
     sort:
         - "search-priority asc"
         - "sticky desc"
