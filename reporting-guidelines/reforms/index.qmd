@@ -3,7 +3,7 @@
 title: 'REFORMS : Consensus-based Recommendations for Machine-learning-based Science'
 aliases:
   - /reporting-guidelines/reforms-consensus-based-recommendations-for-machine-learning-based-science/
-acronym: ''
+acronym: 'REFORMS'
 provided-for: Reporting machine learning (ML) based science.
 rg-doi: ''
 pmid-id: '[38691601](https://pubmed.ncbi.nlm.nih.gov/38691601/)'
