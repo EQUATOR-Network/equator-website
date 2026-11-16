@@ -21,6 +21,7 @@ listing:
         - study-design
         - clinical-specialty
         - report-section
+        - keyword
     field-display-names: 
       title: "Title"
       acronym: "Acronym"
