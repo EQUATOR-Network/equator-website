@@ -8,6 +8,11 @@
 [data-content^='?'] {
     display: none;
 }
+/* Hide the keyword column in the database table */
+.quarto-listing-table th:nth-child(6),
+.quarto-listing-table td:nth-child(6) {
+    display: none;
+}
 
 .reporting-guideline-key-info-box {
     background-color: var(--green-very-light);
