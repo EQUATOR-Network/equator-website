@@ -60,9 +60,3 @@ section {
 .quarto-listing-filter .form-control {
     border: 1px solid var(--green-primary);
 }
-
-/* Hide the keyword column in the database table */
-.quarto-listing-table th:nth-child(6),
-.quarto-listing-table td:nth-child(6) {
-    display: none;
-}
