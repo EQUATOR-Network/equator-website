@@ -1,18 +1,13 @@
 ---
 # REQUIRED FIELDS
-title: 'STARD for Abstracts: essential items for reporting diagnostic accuracy studies
-  in journal or conference abstracts'
-acronym: ''
+title: 'STARD for Abstracts: essential items for reporting diagnostic accuracy studies in journal or conference abstracts'
+acronym: 'STARD for Abstracts'
 provided-for: Reporting diagnostic accuracy studies in journal or conference abstracts.
-rg-doi: ''
+rg-doi: '10.1136/bmj.j3751'
 pmid-id: '[28819063]( https://www.ncbi.nlm.nih.gov/pubmed/28819063)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/28819063
-relevant-urls: The full-text of the STARD for Abstracts reporting guideline for diagnostic
-  accuracy studies is available to download as a [PDF file](STARD-for-Abstracts-online-manuscript.pdf).
-full-bibliographic-reference: 'Cohen JF, Korevaar DA, Gatsonis CA, Glasziou PP, Hooft
-  L, Moher D, Reitsma JB, de Vet HC, Bossuyt PM; STARD Group. STARD for Abstracts:
-  essential items for reporting diagnostic accuracy studies in journal or conference
-  abstracts. BMJ. 2017;358:j3751.'
+relevant-urls: The full-text of the STARD for Abstracts reporting guideline for diagnostic accuracy studies is available to download as a [PDF file](STARD-for-Abstracts-online-manuscript.pdf).
+full-bibliographic-reference: 'Cohen JF, Korevaar DA, Gatsonis CA, Glasziou PP, Hooft L, Moher D, Reitsma JB, de Vet HC, Bossuyt PM; STARD Group. STARD for Abstracts: essential items for reporting diagnostic accuracy studies in journal or conference abstracts. BMJ. 2017;358:j3751. PMID: [28819063]( https://www.ncbi.nlm.nih.gov/pubmed/28819063) [full text](https://doi.org/10.1136/bmj.j3751)'
 
 
 # OPTIONAL FIELDS

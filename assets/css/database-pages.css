@@ -9,12 +9,6 @@
     display: none;
 }
 
-/* Hide the 6th column (keyword) in the Quarto listing table */
-table.quarto-listing-table th:nth-child(6),
-table.quarto-listing-table td:nth-child(6) {
-    display: none;
-}
-
 .reporting-guideline-key-info-box {
     background-color: var(--green-very-light);
     padding-left: 30px;
