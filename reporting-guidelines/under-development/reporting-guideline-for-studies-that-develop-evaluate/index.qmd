@@ -1,0 +1,38 @@
+---
+title: "Reporting guideline for studies that develop, evaluate or deploy AI agents in medicine: operational identification, autonomy classification and classdependent requirements"
+contact-name: "Jenestin Anthonipillai"
+contact-email: "janthonipill@ethz.ch"
+date-registered: "17 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+# - Animal pre-clinical research
+- Artificial intelligence/machine learning
+# - Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+AI agents are provisionally understood as AI-based systems that pursue specified goals through decisionmaking and action, potentially interacting with tools, data sources, external environments or other agents, with varying degrees of autonomy and human oversight. Such systems may employ rule-based, machine-learning-based, foundation-model-based or hybrid architectures. Studies of such systems are increasing rapidly across medicine, but two things that readers, reviewers and regulators need are not reported in a comparable way: whether the system under study is an agent at all, and how autonomously it acts.
+
+Reviews of the field report that the term “agent” is used inconsistently and that systems labelled as agentic often follow fixed workflows. TRIPOD-LLM asks authors of evaluation studies to state the level of autonomy and human oversight as part of the intended use (item 19d), but does not provide operational criteria for assigning an autonomy class. Existing autonomy frameworks, including those proposed for healthcare AI agents, offer useful conceptual classifications but have not, to our knowledge, been integrated into a consensusdeveloped reporting guideline with reproducible classification criteria and class-dependent reporting requirements. CLARITY, registered with EQUATOR in October 2026, provides a 29-item checklist for studies of agentic AI and covers reporting of tools, permissions, operating environment and human oversight. Its registration record does not describe criteria to determine whether a system is an agent or a classification of its autonomy.
+
+This reporting guideline will have three parts: (1) an operational definition of a medical AI agent, expressed as explicit criteria that authors report against and reviewers can check; (2) a classification of autonomy that authors assign from documented properties of the system rather than from their own description, including the scope of permitted actions, decisionmaking authority, human approval requirements and oversight mechanisms; and (3) a short set of reporting requirements that depend on the assigned class, so that systems acting with less human control or with wider scope of action are reported in more detail. The criteria, classification and reporting requirements will be established through formal consensus and assessed for reproducibility during piloting.
+
+The guideline applies to studies that develop, evaluate or deploy AI agents for clinical, research or administrative tasks in any area of medicine. It is intended to be used alongside TRIPOD-LLM and CLARITY, and a cross-walk to both will be provided to avoid duplication.
+
+A key contribution of this work is the consensus itself:
+existing definitions of AI agents and levels of autonomy
+have each been proposed by single research groups,
+whereas the definition, classification and reporting
+requirements in this guideline will be agreed by an
+international, multidisciplinary panel of clinicians, AI
+developers, methodologists, journal editors and
+regulators.
+{{< include ../_template.qmd >}}
