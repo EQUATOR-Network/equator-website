@@ -3,9 +3,9 @@ pagetitle: "AGReMA checklist"
 page-layout: full
 toc: false
 resources:
-  - agrema-logo.png
-  - equator_logo.png
-  - cc-by-nc-nd.png
+  - /assets/logos/agrema-logo.png
+  - /assets/logos/equator_logo.png
+  - /assets/logos/cc-by-nc-nd.png
   - docx.min.js
 ---
 
@@ -69,8 +69,8 @@ resources:
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-top"><img src="agrema-logo.png" alt="AGReMA: A Guideline for Reporting Mediation Analyses" id="tp-logo">
-    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  <div class="tp-top"><img src="/assets/logos/agrema-logo.png" alt="AGReMA: A Guideline for Reporting Mediation Analyses" id="tp-logo">
+    <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
   </div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -90,7 +90,7 @@ resources:
   </table>
   <p class="tp-cite"><em>From:</em> Lee H, Cashin AG, Lamb SE, Hopewell S, Vansteelandt S, VanderWeele TJ, et al. A Guideline for Reporting Mediation Analyses of Randomized Trials and Observational Studies. The AGReMA Statement. JAMA. 2021;326(11):1045–1056. <a href="https://doi.org/10.1001/jama.2021.14075" target="_blank" rel="noopener">doi:10.1001/jama.2021.14075</a></p>
   <p class="tp-more">AGReMA is designed for articles that report mediation analyses of randomized trials or observational studies.<br>For more information, visit: <a href="https://agrema-statement.org/" target="_blank" rel="noopener">agrema-statement.org</a></p>
-  <div class="tp-lic"><span>AGReMA Checklist</span><img src="cc-by-nc-nd.png" alt="Creative Commons BY-NC-ND licence"></div>
+  <div class="tp-lic"><span>AGReMA Checklist</span><img src="/assets/logos/cc-by-nc-nd.png" alt="Creative Commons BY-NC-ND licence"></div>
 </div>
 
 <script>
@@ -239,8 +239,8 @@ resources:
     btn.disabled = true; btn.textContent = "Preparing…";
     try {
       await loadDocx();
-      const logo = await getImage("agrema-logo.png"), badge = await getImage("cc-by-nc-nd.png");
-      const eqLogo = await getImage("equator_logo.png");
+      const logo = await getImage("/assets/logos/agrema-logo.png"), badge = await getImage("/assets/logos/cc-by-nc-nd.png");
+      const eqLogo = await getImage("/assets/logos/equator_logo.png");
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, badge, FOOT, eqLogo));
       const a = document.createElement("a");

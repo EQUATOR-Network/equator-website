@@ -3,8 +3,8 @@ pagetitle: "PRISMA-DTA checklist"
 page-layout: full
 toc: false
 resources:
-  - prisma-logo.png
-  - equator_logo.png
+  - /assets/logos/prisma-logo.png
+  - /assets/logos/equator_logo.png
   - PRISMA-DTA-for-Abstracts-Checklist.pdf
   - docx.min.js
 ---
@@ -64,8 +64,8 @@ resources:
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-top"><img src="prisma-logo.png" alt="PRISMA" id="tp-logo"><div class="tp-title">PRISMA-DTA Checklist</div>
-    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  <div class="tp-top"><img src="/assets/logos/prisma-logo.png" alt="PRISMA" id="tp-logo"><div class="tp-title">PRISMA-DTA Checklist</div>
+    <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
     <button type="button" id="tp-doc" class="alt">Save as Word</button>
@@ -228,7 +228,7 @@ resources:
       let logo = null;
       try { logo = new Uint8Array(await (await fetch(new URL("prisma-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       let eqLogo = null;
-      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       // a relative link would break once the file is downloaded, so use the full web address
       const rows = ROWS.map(r => typeof r === "string" ? r : [r[0], r[1].map(([c, t]) => [c, t.replace(/\|([^|\]]*)\]\]/g, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")])]);

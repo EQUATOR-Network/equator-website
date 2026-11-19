@@ -3,8 +3,8 @@ pagetitle: "ACCORD checklist"
 page-layout: full
 toc: false
 resources:
-  - accord-logo.png
-  - equator_logo.png
+  - /assets/logos/accord-logo.png
+  - /assets/logos/equator_logo.png
   - docx.min.js
 ---
 
@@ -63,8 +63,8 @@ resources:
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-top"><img src="accord-logo.png" alt="ACCORD: Accurate Consensus Reporting Document" id="tp-logo">
-    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  <div class="tp-top"><img src="/assets/logos/accord-logo.png" alt="ACCORD: Accurate Consensus Reporting Document" id="tp-logo">
+    <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
   </div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -205,9 +205,9 @@ resources:
     try {
       await loadDocx();
       let logo = null;
-      try { logo = new Uint8Array(await (await fetch(new URL("accord-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/accord-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       let eqLogo = null;
-      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, FOOT, eqLogo));
       const a = document.createElement("a");
