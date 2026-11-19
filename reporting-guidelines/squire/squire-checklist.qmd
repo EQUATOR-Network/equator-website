@@ -3,7 +3,7 @@ pagetitle: "SQUIRE 2.0 checklist"
 page-layout: full
 toc: false
 resources:
-  - equator_logo.png
+  - /assets/logos/equator_logo.png
   - docx.min.js
 ---
 
@@ -63,7 +63,7 @@ resources:
 
 <div id="tp-wrap">
   <div class="tp-top"><div class="tp-title">SQUIRE 2.0 Checklist</div>
-    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+    <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
     <button type="button" id="tp-doc" class="alt">Save as Word</button>
@@ -218,7 +218,7 @@ resources:
       let logo = null;
       // (no left-hand logo for this checklist)
       let eqLogo = null;
-      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       // a relative link would break once the file is downloaded, so use the full web address
       const rows = ROWS.map(r => typeof r === "string" ? r : [r[0], r[1].map(([c, t]) => [c, t.replace(/\|([^|\]]*)\]\]/g, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")])]);

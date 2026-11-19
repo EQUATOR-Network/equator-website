@@ -3,7 +3,7 @@ pagetitle: "DECIDE-AI checklist"
 page-layout: full
 toc: false
 resources:
-  - decide-ai-logo.png
+  - /assets/logos/decide-ai-logo.png
   - docx.min.js
 ---
 
@@ -66,7 +66,7 @@ resources:
 <div id="tp-wrap">
   <div class="tp-run"><span>DECIDE-AI</span><span>Checklist</span><span>2022</span></div>
   <div class="tp-top">
-    <img src="decide-ai-logo.png" alt="DECIDE-AI" id="tp-logo">
+    <img src="/assets/logos/decide-ai-logo.png" alt="DECIDE-AI" id="tp-logo">
     <div class="tp-title">Reporting item checklist</div>
   </div>
   <div class="tp-actions">
@@ -254,7 +254,7 @@ resources:
     try {
       await loadDocx();
       let logo = null;
-      try { logo = new Uint8Array(await (await fetch(new URL("decide-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/decide-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT));
       const a = document.createElement("a");

@@ -3,8 +3,8 @@ pagetitle: "TRIPOD-SRMA checklist"
 page-layout: full
 toc: false
 resources:
-  - tripod-logo.png
-  - equator_logo.png
+  - /assets/logos/tripod-logo.png
+  - /assets/logos/equator_logo.png
   - docx.min.js
   - TRIPOD-SRMA-Checklist-Abstract.pdf
 ---
@@ -66,8 +66,8 @@ resources:
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-top"><img src="tripod-logo.png" alt="TRIPOD" id="tp-logo">
-    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  <div class="tp-top"><img src="/assets/logos/tripod-logo.png" alt="TRIPOD" id="tp-logo">
+    <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   <div class="tp-title">TRIPOD-SRMA Checklist for reporting systematic reviews of prediction model studies</div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -235,9 +235,9 @@ resources:
     try {
       await loadDocx();
       let logo = null;
-      try { logo = new Uint8Array(await (await fetch(new URL("tripod-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/tripod-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       let eqLogo = null;
-      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS.map(r => typeof r === "string" ? r : [r[0], r[1], r[2].replace(/\|([^|\]]*)\]\]/, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")]), vals, logo, TITLE, eqLogo));
       const a = document.createElement("a");

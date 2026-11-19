@@ -3,8 +3,8 @@ pagetitle: "SPIRIT 2025 checklist"
 page-layout: full
 toc: false
 resources:
-  - spirit-consort-logo.png
-  - equator_logo.png
+  - /assets/logos/spirit-consort-logo.png
+  - /assets/logos/equator_logo.png
   - docx.min.js
 ---
 
@@ -69,8 +69,8 @@ resources:
 
 <div id="tp-wrap">
   <div class="tp-top">
-    <img src="spirit-consort-logo.png" alt="SPIRIT CONSORT" id="tp-logo">
-    <div class="tp-right"><img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+    <img src="/assets/logos/spirit-consort-logo.png" alt="SPIRIT CONSORT" id="tp-logo">
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   </div>
   <div class="tp-title">SPIRIT 2025 checklist of items to address in a randomized trial protocol<sup>*</sup></div>
   <div class="tp-actions">
@@ -261,9 +261,9 @@ resources:
     try {
       await loadDocx();
       let logo = null;
-      try { logo = new Uint8Array(await (await fetch(new URL("spirit-consort-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/spirit-consort-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       let eqLogo = null;
-      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT, eqLogo));
       const a = document.createElement("a");
