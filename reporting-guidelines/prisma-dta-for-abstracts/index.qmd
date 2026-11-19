@@ -6,18 +6,11 @@ title: 'Preferred reporting items for journal and conference abstracts of system
 acronym: PRISMA-DTA for Abstracts
 provided-for: Reporting of journal and conference abstracts of systematic reviews
   of diagnostic test accuracy (DTA) studies.
-rg-doi: ''
+rg-doi: '10.1136/bmj.n265'
 pmid-id: '[33722791](https://pubmed.ncbi.nlm.nih.gov/33722791/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/33722791/
-relevant-urls: 'The full-text of the PRISMA-DTA for Abstracts reporting guideline
-  is freely available at: <https://www.bmj.com/content/372/bmj.n265>'
-full-bibliographic-reference: 'Cohen JF, Deeks JJ, Hooft L, Salameh JP, Korevaar DA,
-  Gatsonis C, Hopewell S, Hunt HA, Hyde CJ, Leeflang MM, Macaskill P, McGrath TA,
-  Moher D, Reitsma JB, Rutjes AWS, Takwoingi Y, Tonelli M, Whiting P, Willis BH, Thombs
-  B, Bossuyt PM, McInnes MDF. Preferred reporting items for journal and conference
-  abstracts of systematic reviews and meta-analyses of diagnostic test accuracy studies
-  (PRISMA-DTA for Abstracts): checklist, explanation, and elaboration. BMJ. 2021;372:n265.'
-
+relevant-urls: 'Read the [full-text](https://doi.org/10.1136/bmj.n265) of the PRISMA-DTA for Abstracts'
+full-bibliographic-reference: 'Cohen JF, Deeks JJ, Hooft L, Salameh JP, Korevaar DA, Gatsonis C, Hopewell S, Hunt HA, Hyde CJ, Leeflang MM, Macaskill P, McGrath TA, Moher D, Reitsma JB, Rutjes AWS, Takwoingi Y, Tonelli M, Whiting P, Willis BH, Thombs B, Bossuyt PM, McInnes MDF. Preferred reporting items for journal and conference abstracts of systematic reviews and meta-analyses of diagnostic test accuracy studies (PRISMA-DTA for Abstracts): checklist, explanation, and elaboration. BMJ. 2021;372:n265. PMID: [33722791](https://pubmed.ncbi.nlm.nih.gov/33722791/) [full-text](https://doi.org/10.1136/bmj.n265)'
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -97,8 +90,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
-
+downloads: |-
+  Download the PRISMA-DTA for Abstracts [PDF](PRISMA-DTA-for-Abstracts-Checklist.pdf) / [Word](PRISMA-DTA-for-Abstracts-Checklist.docx)
 
 # LIST FIELDS
 study-design:

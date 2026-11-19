@@ -3,19 +3,17 @@
 title: 'Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic
   Test Accuracy Studies: The PRISMA-DTA Statement'
 acronym: PRISMA-DTA
-provided-for: Reporting systematic reviews and meta-analyses of diagnostic test accuracy
-  studies.
-rg-doi: ''
+provided-for: Reporting systematic reviews and meta-analyses of diagnostic test accuracy studies.
+rg-doi: '10.1001/jama.2017.19163'
 pmid-id: '[29362800](https://www.ncbi.nlm.nih.gov/pubmed/29362800)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/29362800
 relevant-urls: ''
 full-bibliographic-reference: |-
-  McInnes MDF, Moher D, Thombs BD, McGrath TA, Bossuyt PM; and the PRISMA-DTA Group; Clifford T, Cohen JF, Deeks JJ, Gatsonis C, Hooft L, Hunt HA, Hyde CJ, Korevaar DA, Leeflang MMG, Macaskill P, Reitsma JB, Rodin R, Rutjes AWS, Salameh JP, Stevens A, Takwoingi Y, Tonelli M, Weeks L, Whiting P, Willis BH. Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies: The PRISMA-DTA Statement. JAMA. 2018;319(4):388-396.\
+  McInnes MDF, Moher D, Thombs BD, McGrath TA, Bossuyt PM; and the PRISMA-DTA Group; Clifford T, Cohen JF, Deeks JJ, Gatsonis C, Hooft L, Hunt HA, Hyde CJ, Korevaar DA, Leeflang MMG, Macaskill P, Reitsma JB, Rodin R, Rutjes AWS, Salameh JP, Stevens A, Takwoingi Y, Tonelli M, Weeks L, Whiting P, Willis BH. Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies: The PRISMA-DTA Statement. JAMA. 2018;319(4):388-396.PMID: [29362800](https://www.ncbi.nlm.nih.gov/pubmed/29362800) [full text](https://doi.org/10.1001/jama.2017.19163\
   
   **Explanation and Elaboration**
   
-  Salameh JP, Bossuyt PM, McGrath TA, Thombs BD, Hyde CJ, Macaskill P, Deeks JJ, Leeflang M, Korevaar DA, Whiting P, Takwoingi Y, Reitsma JB, Cohen JF, Frank RA, Hunt HA, Hooft L, Rutjes AWS, Willis BH, Gatsonis C, Levis B, Moher D, McInnes MDF. Preferred reporting items for systematic review and meta-analysis of diagnostic test accuracy studies (PRISMA-DTA): explanation, elaboration, and checklist. BMJ. 2020;370:m2632. PMID: [32816740](https://pubmed.ncbi.nlm.nih.gov/32816740/)
-
+  Salameh JP, Bossuyt PM, McGrath TA, Thombs BD, Hyde CJ, Macaskill P, Deeks JJ, Leeflang M, Korevaar DA, Whiting P, Takwoingi Y, Reitsma JB, Cohen JF, Frank RA, Hunt HA, Hooft L, Rutjes AWS, Willis BH, Gatsonis C, Levis B, Moher D, McInnes MDF. Preferred reporting items for systematic review and meta-analysis of diagnostic test accuracy studies (PRISMA-DTA): explanation, elaboration, and checklist. BMJ. 2020;370:m2632. PMID: [32816740](https://pubmed.ncbi.nlm.nih.gov/32816740/) [full text](https://doi.org/10.1136/bmj.m2632)
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -24,7 +22,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.
+  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. \
 
   PLoS Med. 2021;18(3):e1003583. PMID: [33780438](https://pubmed.ncbi.nlm.nih.gov/33780438/)
 
@@ -99,9 +97,9 @@ other: ''
 other-relevant-research: ''
 sticky: true
 downloads: |-
-  PRISMA-DTA checklist [Word](https://www.prisma-statement.org/s/PRISMA-DTA-Checklist-wx4t.docx) / [PDF](https://www.prisma-statement.org/s/PRISMA-DTA-Checklist-xh5j.pdf)
+  PRISMA-DTA checklist [Word](PRISMA-DTA-Checklist.docx) / [PDF](PRISMA-DTA-Checklist.pdf)
 
-  PRISMA-DTA checklist for abstracts [Word](https://www.prisma-statement.org/s/PRISMA-DTA-for-Abstracts-Checklist-g623.docx) / [PDF](https://www.prisma-statement.org/s/PRISMA-DTA-for-Abstracts-Checklist-jlfm.pdf)
+  PRISMA-DTA checklist for abstracts [Word](PRISMA-DTA-for-Abstracts-Checklist.docx) / [PDF](PRISMA-DTA-for-Abstracts-Checklist.pdf)
 
 
 # LIST FIELDS
