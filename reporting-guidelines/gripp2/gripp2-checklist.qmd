@@ -3,6 +3,7 @@ pagetitle: "GRIPP2 checklist"
 page-layout: full
 toc: false
 resources:
+  - equator_logo.png
   - docx.min.js
 ---
 
@@ -10,7 +11,10 @@ resources:
 <style>
   #tp-wrap { --accent:#2c6cbe; --band:#f4f4f4; --head:#eaeaea; --line:#231f20; --box:#eef4fb; --boxline:#9db9dc;
     font-family:Arial,Helvetica,sans-serif; color:#231f20; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; gap:1.2rem; }
   #tp-wrap .tp-title { font-size:20px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; flex:none; margin-left:auto; }
   #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
   #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
   #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
@@ -45,6 +49,7 @@ resources:
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
     #tp-wrap table { font-size:10.5px; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
@@ -59,7 +64,10 @@ resources:
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-title">GRIPP2: Reporting patient and public involvement in health and social care research</div>
+  <div class="tp-top">
+    <div class="tp-title">GRIPP2: Reporting patient and public involvement in health and social care research</div>
+    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  </div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
     <button type="button" id="tp-doc" class="alt">Save as Word</button>
@@ -161,7 +169,7 @@ resources:
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, title, foot) {
+  function buildDocx(D, ROWS, vals, title, foot, eqLogo) {
     const F = "Arial", SZ = 17, W = [3000, 6266, 1200], TOTAL = W.reduce((a, b) => a + b);
     const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "231F20" };
     const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
@@ -192,13 +200,27 @@ resources:
       : [cell(0, r[0] + ": " + r[1], { fill: "F4F4F4", indent: 240 }), cell(1, r[2], { fill: "F4F4F4" }),
          cell(2, vals["p" + r[0]] || "", { fill: "F4F4F4", center: true })] }));
     const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const nb = { top: none, bottom: none, left: none, right: none };
+    const EQ = 2300;
+    const headTable = new D.Table({
+      width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: [TOTAL - EQ, EQ],
+      borders: { ...nb, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [
+        new D.TableCell({ width: { size: TOTAL - EQ, type: D.WidthType.DXA }, borders: nb, verticalAlign: D.VerticalAlign.CENTER,
+          margins: { top: 0, bottom: 0, left: 0, right: 0 },
+          children: [para([run(title, { bold: true, size: 26 })], { spacing: { after: 0 } })] }),
+        new D.TableCell({ width: { size: EQ, type: D.WidthType.DXA }, borders: nb, verticalAlign: D.VerticalAlign.CENTER,
+          margins: { top: 0, bottom: 0, left: 0, right: 0 },
+          children: [para(eqLogo ? [new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })] : [],
+            { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })] })] })]
+    });
     return new D.Document({
       title: "GRIPP2 checklist", creator: "GRIPP2 checklist",
       sections: [{
         properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
         children: [
-          para([run(title, { bold: true, size: 26 })], { spacing: { after: 120 } }),
-          para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
+          headTable,
+          para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { before: 160, after: 120 } }),
           new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W,
             borders: { top: ln, bottom: ln, left: none, right: none, insideHorizontal: none, insideVertical: none }, rows: [head, ...body] }),
           para(runs(foot[0], { size: 15 }), { spacing: { before: 80 } }),
@@ -220,8 +242,10 @@ resources:
     btn.disabled = true; btn.textContent = "Preparing…";
     try {
       await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, FOOT));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, FOOT, eqLogo));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "GRIPP2-checklist.docx";
