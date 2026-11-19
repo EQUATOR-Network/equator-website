@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-800ec43143743b4546fe40ab5749fe04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-c465692383c2ecc872d3b8b135dfdb1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -227,7 +227,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   #tp-wrap { --accent:#137a74; --box:#eef6f5; --boxline:#9ccfca; --line:#000; --bar:#bfbfbf; --sub:#d9d9d9;
     font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
   #tp-wrap .tp-top { display:flex; align-items:center; gap:1.2rem; margin-bottom:.8rem; }
-  #tp-wrap .tp-top img { width:min(190px,32%); height:auto; flex:none; }
+  #tp-wrap #tp-logo { width:min(190px,32%); height:auto; flex:none; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; flex:none; margin-left:auto; }
   #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; }
   #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
   #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
@@ -263,6 +265,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
     #tp-wrap table { font-size:10.5px; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
@@ -280,6 +283,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="tp-top">
     <img src="gather-logo.png" alt="GATHER: Guidelines for Accurate and Transparent Health Estimates Reporting" id="tp-logo">
     <div class="tp-title">Checklist of information that should be included in new reports of global health estimates</div>
+    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
   </div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -368,7 +372,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, logo, title, foot) {
+  function buildDocx(D, ROWS, vals, logo, title, foot, eqLogo) {
     const F = "Arial", SZ = 18, W = [900, 8366, 1200], TOTAL = W.reduce((a, b) => a + b);
     const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
     const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
@@ -401,14 +405,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       : [cell(0, k, { bold: true, center: true, top: true }), cell(1, text), cell(2, vals["p" + k] || "", { center: true })] }));
     const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
     const nb = { top: none, bottom: none, left: none, right: none };
+    const EQ = 2300;
     const topTable = new D.Table({
-      width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: [2600, TOTAL - 2600],
+      width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: [2600, TOTAL - 2600 - EQ, EQ],
       borders: { ...nb, insideHorizontal: none, insideVertical: none },
       rows: [new D.TableRow({ children: [
         new D.TableCell({ width: { size: 2600, type: D.WidthType.DXA }, borders: nb,
           children: [para(logo ? [new D.ImageRun({ data: logo, type: "png", transformation: { width: 150, height: 112 } })] : [])] }),
-        new D.TableCell({ width: { size: TOTAL - 2600, type: D.WidthType.DXA }, borders: nb, verticalAlign: D.VerticalAlign.CENTER,
-          children: [para([run(title, { bold: true, size: 26 })])] })] })]
+        new D.TableCell({ width: { size: TOTAL - 2600 - EQ, type: D.WidthType.DXA }, borders: nb, verticalAlign: D.VerticalAlign.CENTER,
+          children: [para([run(title, { bold: true, size: 26 })])] }),
+        new D.TableCell({ width: { size: EQ, type: D.WidthType.DXA }, borders: nb, verticalAlign: D.VerticalAlign.CENTER,
+          children: [para(eqLogo ? [new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })] : [],
+            { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })] })] })]
     });
     return new D.Document({
       title: "GATHER checklist", creator: "GATHER checklist",
@@ -437,8 +445,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       await loadDocx();
       let logo = null;
       try { logo = new Uint8Array(await (await fetch(new URL("gather-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT, eqLogo));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "GATHER-checklist.docx";

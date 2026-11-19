@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-800ec43143743b4546fe40ab5749fe04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-c465692383c2ecc872d3b8b135dfdb1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -226,7 +226,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <style>
   #tp-wrap { --accent:#2f4f9a; --head:#8eaadb; --sect:#b4c6e7; --box:#eef3fb; --boxline:#8eaadb; --line:#000;
     font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
-  #tp-wrap .tp-top img { width:min(300px,60%); height:auto; display:block; margin-bottom:.8rem; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap #tp-logo { width:min(300px,60%); height:auto; display:block; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; flex:none; margin-left:auto; }
   #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
   #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
   #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
@@ -264,6 +267,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
     #tp-wrap table { font-size:10.5px; }
     #tp-wrap td, #tp-wrap th { padding:4px 6px; }
     #tp-wrap tr { break-inside:avoid; }
@@ -278,7 +282,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-top"><img src="agrema-logo.png" alt="AGReMA: A Guideline for Reporting Mediation Analyses" id="tp-logo"></div>
+  <div class="tp-top"><img src="agrema-logo.png" alt="AGReMA: A Guideline for Reporting Mediation Analyses" id="tp-logo">
+    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  </div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
     <button type="button" id="tp-doc" class="alt">Save as Word</button>
@@ -376,7 +382,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, logo, badge, foot) {
+  function buildDocx(D, ROWS, vals, logo, badge, foot, eqLogo) {
     const F = "Arial", SZ = 17, W = [1700, 900, 6666, 1200], TOTAL = W.reduce((a, b) => a + b);
     const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
     const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics });
@@ -414,8 +420,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       children: [run("AGReMA Checklist", { size: 16, italics: true }),
         ...(badge ? [new D.TextRun({ children: [new D.Tab()] }), new D.ImageRun({ data: badge, type: "png", transformation: { width: 80, height: 15 } })] : [])] })] });
     const top = [];
-    if (logo) top.push(para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 260, height: Math.round(260 * 330 / 1605) } })], { spacing: { after: 160 } }));
-    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [6200, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = para(logo ? [new D.ImageRun({ data: logo, type: "png", transformation: { width: 260, height: Math.round(260 * 330 / 1605) } })] : [], { spacing: { after: 0 } });
+    const right = para(eqLogo ? [new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })] : [],
+      { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } });
+    top.push(new D.Table({ width: { size: HW[0] + HW[1], type: D.WidthType.DXA }, columnWidths: HW,
+      borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, [left]), hcell(1, [right])] })] }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { before: 160, after: 120 } }));
     return new D.Document({
       title: "AGReMA checklist", creator: "AGReMA checklist",
       sections: [{
@@ -443,8 +460,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     try {
       await loadDocx();
       const logo = await getImage("agrema-logo.png"), badge = await getImage("cc-by-nc-nd.png");
+      const eqLogo = await getImage("equator_logo.png");
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, badge, FOOT));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, badge, FOOT, eqLogo));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "AGReMA-checklist.docx";
