@@ -89,7 +89,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="../../assets/css/main.css">
 <link rel="stylesheet" href="../../assets/css/database-pages.css">
 <meta property="og:title" content="ACCORD checklist">
-<meta property="og:image" content="https://equator-network.org/reporting-guidelines/accord/accord-logo.png">
+<meta property="og:image" content="https://equator-network.org/assets/logos/accord-logo.png">
 <meta property="og:site_name" content="EQUATOR Network">
 <meta property="og:image:alt" content="ACCORD: Accurate Consensus Reporting Document">
 <meta property="og:image:height" content="186">
@@ -277,8 +277,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-top"><img src="accord-logo.png" alt="ACCORD: Accurate Consensus Reporting Document" id="tp-logo">
-    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  <div class="tp-top"><img src="../../assets/logos/accord-logo.png" alt="ACCORD: Accurate Consensus Reporting Document" id="tp-logo">
+    <img src="../../assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
   </div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -426,9 +426,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     try {
       await loadDocx();
       let logo = null;
-      try { logo = new Uint8Array(await (await fetch(new URL("accord-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/accord-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       let eqLogo = null;
-      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, FOOT, eqLogo));
       const a = document.createElement("a");
