@@ -8,14 +8,8 @@ provided-for: Reporting of telehealth interventions.
 rg-doi: ''
 pmid-id: '[35655144](https://pubmed.ncbi.nlm.nih.gov/35655144/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/35655144/
-relevant-urls: '[Read the full-text](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01640-7)
-  of TIDieR-Telehealth.'
-full-bibliographic-reference: 'Rhon DI, Fritz JM, Kerns RD, McGeary DD, Coleman BC,
-  Farrokhi S, Burgess DJ, Goertz CM, Taylor SL, Hoffmann T. TIDieR-telehealth: precision
-  in reporting of telehealth interventions used in clinical trials - unique considerations
-  for the Template for the Intervention Description and Replication (TIDieR) checklist.
-  BMC Med Res Methodol. 2022;22(1):161.'
-
+relevant-urls: 'Read the [full-text](https://doi.org/10.1186/s12874-022-01640-7) of TIDieR-Telehealth.'
+full-bibliographic-reference: 'Rhon DI, Fritz JM, Kerns RD, McGeary DD, Coleman BC, Farrokhi S, Burgess DJ, Goertz CM, Taylor SL, Hoffmann T. TIDieR-telehealth: precision in reporting of telehealth interventions used in clinical trials - unique considerations for the Template for the Intervention Description and Replication (TIDieR) checklist. BMC Med Res Methodol. 2022; 22(1): 161. PMID: [35655144](https://pubmed.ncbi.nlm.nih.gov/35655144/) [full text](https://doi.org/10.1186/s12874-022-01640-7)'
 
 # OPTIONAL FIELDS
 rg-language: English

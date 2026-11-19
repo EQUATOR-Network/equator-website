@@ -4,9 +4,8 @@ title: 'TIDieR-PHP : a reporting guideline for population health and policy inte
 aliases:
   - /reporting-guidelines/tidier-php-a-reporting-guideline-for-population-health-and-policy-interventions/
 acronym: TIDieR-PHP
-provided-for: Reporting public health, health systems, and social and environmental
-  policy interventions.
-rg-doi: ''
+provided-for: Reporting public health, health systems, and social and environmental policy interventions.
+rg-doi: '10.1136/bmj.k1079'
 pmid-id: '[29769210](https://www.ncbi.nlm.nih.gov/pubmed/29769210)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/29769210
 relevant-urls: |-
@@ -30,7 +29,9 @@ relevant-more: |-
 
   [**TIDieR-Rehab**](/reporting-guideines/tidier-rehab): Signal N, Olsen S, Gomes E, McGeorge C, Taylor D, Alder G. Developing the TIDieR-Rehab checklist: a modified Delphi process to extend the Template for Intervention Description and Replication (TIDieR) for rehabilitation intervention reporting. BMJ Open. 2024;14(11):e084319. PMID: [39609016](https://pubmed.ncbi.nlm.nih.gov/39609016) \
 
-  [**TIDieR-C**](/reporting-guidelines/tidier-c/): Goren K, Lai VKW, Baba A, Smith M, Allegaert K, Butcher NJ, Fernandes R, Gill PJ, Hartling L, Juszczak E, Longmuir PE, Macarthur C, Mehta K, Metz D, Nguyen KA, Odermarsky M, Poluru R, Purper-Ouakil D, Reggiardo G, Stratton C, Szatmari P, Trivedi A, Upton J, Hoffmann T, Offringa M. Transparent Reporting of Pediatric Clinical Trial Interventions: TIDieR-Children and Adolescents. Pediatrics. 2025 Nov 1;156(5):e2025072867. PMID: [41087014](https://pubmed.ncbi.nlm.nih.gov/41087014/)
+  [**TIDieR-C**](/reporting-guidelines/tidier-c/): Goren K, Lai VKW, Baba A, Smith M, Allegaert K, Butcher NJ, Fernandes R, Gill PJ, Hartling L, Juszczak E, Longmuir PE, Macarthur C, Mehta K, Metz D, Nguyen KA, Odermarsky M, Poluru R, Purper-Ouakil D, Reggiardo G, Stratton C, Szatmari P, Trivedi A, Upton J, Hoffmann T, Offringa M. Transparent Reporting of Pediatric Clinical Trial Interventions: TIDieR-Children and Adolescents. Pediatrics. 2025 Nov 1;156(5):e2025072867. PMID: [41087014](https://pubmed.ncbi.nlm.nih.gov/41087014/) \
+  
+  [**TIDieR-telehealth**](/reporting-guidelines/tidier-telehealth): Rhon DI, Fritz JM, Kerns RD, McGeary DD, Coleman BC, Farrokhi S, Burgess DJ, Goertz CM, Taylor SL, Hoffmann T. TIDieR-telehealth: precision in reporting of telehealth interventions used in clinical trials - unique considerations for the Template for the Intervention Description and Replication (TIDieR) checklist. BMC Med Res Methodol. 2022; 22(1): 161. PMID: [35655144](https://pubmed.ncbi.nlm.nih.gov/35655144/)
 website-url: ''
 additional-languages: ''
 additional-information: ''

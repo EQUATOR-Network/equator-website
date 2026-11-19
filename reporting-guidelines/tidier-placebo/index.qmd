@@ -25,7 +25,9 @@ relevant-more: |-
   
   [**TIDieR-PHP**](/reporting-guidelines/tidier-php-a-reporting-guideline-for-population-health-and-policy-interventions/): Campbell M, Katikireddi SV, Hoffmann T, Armstrong R, Waters E, Craig P. TIDieR-PHP: a reporting guideline for population health and policy interventions. BMJ. 2018;361:k1079. PMID: [29769210](https://www.ncbi.nlm.nih.gov/pubmed/29769210) \
 
-  [**TIDieR-C**](/reporting-guidelines/tidier-c/): Goren K, Lai VKW, Baba A, Smith M, Allegaert K, Butcher NJ, Fernandes R, Gill PJ, Hartling L, Juszczak E, Longmuir PE, Macarthur C, Mehta K, Metz D, Nguyen KA, Odermarsky M, Poluru R, Purper-Ouakil D, Reggiardo G, Stratton C, Szatmari P, Trivedi A, Upton J, Hoffmann T, Offringa M. Transparent Reporting of Pediatric Clinical Trial Interventions: TIDieR-Children and Adolescents. Pediatrics. 2025 Nov 1;156(5):e2025072867. PMID: [41087014](https://pubmed.ncbi.nlm.nih.gov/41087014/)
+  [**TIDieR-C**](/reporting-guidelines/tidier-c/): Goren K, Lai VKW, Baba A, Smith M, Allegaert K, Butcher NJ, Fernandes R, Gill PJ, Hartling L, Juszczak E, Longmuir PE, Macarthur C, Mehta K, Metz D, Nguyen KA, Odermarsky M, Poluru R, Purper-Ouakil D, Reggiardo G, Stratton C, Szatmari P, Trivedi A, Upton J, Hoffmann T, Offringa M. Transparent Reporting of Pediatric Clinical Trial Interventions: TIDieR-Children and Adolescents. Pediatrics. 2025 Nov 1;156(5):e2025072867. PMID: [41087014](https://pubmed.ncbi.nlm.nih.gov/41087014/) \
+  
+  [**TIDieR-telehealth**](/reporting-guidelines/tidier-telehealth): Rhon DI, Fritz JM, Kerns RD, McGeary DD, Coleman BC, Farrokhi S, Burgess DJ, Goertz CM, Taylor SL, Hoffmann T. TIDieR-telehealth: precision in reporting of telehealth interventions used in clinical trials - unique considerations for the Template for the Intervention Description and Replication (TIDieR) checklist. BMC Med Res Methodol. 2022; 22(1): 161. PMID: [35655144](https://pubmed.ncbi.nlm.nih.gov/35655144/)
 website-url: <http://www.tidierguide.org/>
 additional-languages: ''
 additional-information: |-
