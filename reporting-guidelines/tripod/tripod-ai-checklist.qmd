@@ -4,7 +4,7 @@ page-layout: full
 toc: false
 resources:
   - tripod-ai-logo.png
-  - /assets/logos/equator_logo.png
+  - equator_logo.png
   - docx.min.js
   - TRIPOD-abstracts.pdf
 ---

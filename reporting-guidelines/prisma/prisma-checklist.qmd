@@ -4,7 +4,7 @@ page-layout: full
 toc: false
 resources:
   - prisma-logo.png
-  - /assets/logos/equator_logo.png
+  - equator_logo.png
   - PRISMA_2020_abstract_checklist.pdf
   - docx.min.js
 ---

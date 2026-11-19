@@ -3,7 +3,7 @@ pagetitle: "STROBE checklist"
 page-layout: full
 toc: false
 resources:
-  - /assets/logos/equator_logo.png
+  - equator_logo.png
   - docx.min.js
 ---
 
