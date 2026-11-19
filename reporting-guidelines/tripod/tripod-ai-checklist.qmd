@@ -3,8 +3,8 @@ pagetitle: "TRIPOD+AI checklist"
 page-layout: full
 toc: false
 resources:
-  - tripod-ai-logo.png
-  - equator_logo.png
+  - /assets/logo/tripod-ai-logo.png
+  - /assets/logos/equator_logo.png
   - docx.min.js
   - TRIPOD-abstracts.pdf
 ---
@@ -68,9 +68,9 @@ resources:
 
 <div id="tp-wrap">
   <div class="tp-top">
-    <img src="tripod-ai-logo.png" alt="TRIPOD+AI" id="tp-logo">
+    <img src="/assets/logos/tripod-ai-logo.png" alt="TRIPOD+AI" id="tp-logo">
     <div class="tp-right">
-      <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+      <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
     </div>
   </div>
   <div class="tp-actions">
@@ -297,9 +297,9 @@ resources:
     try {
       await loadDocx();
       let logo = null;
-      try { logo = new Uint8Array(await (await fetch(new URL("tripod-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/tripod-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       let eqLogo = null;
-      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, eqLogo));
       const a = document.createElement("a");
