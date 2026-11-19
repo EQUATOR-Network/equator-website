@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-12d43ec8d95cdefc4801af88843906a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-800ec43143743b4546fe40ab5749fe04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -226,7 +226,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <style>
   #tp-wrap { --accent:#4a7662; --head:#4a7662; --sect:#93bba9; --box:#eef6f1; --boxline:#93bba9; --line:#272727;
     font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; }
   #tp-wrap .tp-top img { width:min(300px,60%); height:auto; display:block; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-top .tp-eq { display:none; width:150px; flex:none; margin-left:auto; }
   #tp-wrap .tp-title { font-size:22px; line-height:1.25; margin:.7rem 0 .2rem; }
   #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
   #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
@@ -261,6 +264,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
+    #tp-wrap .tp-top .tp-eq { display:block; }
     #tp-wrap table { font-size:9.5px; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
@@ -275,7 +279,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-top"><img src="tripod-logo.png" alt="TRIPOD" id="tp-logo"></div>
+  <div class="tp-top"><img src="tripod-logo.png" alt="TRIPOD" id="tp-logo">
+    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   <div class="tp-title">TRIPOD-SRMA Checklist for reporting systematic reviews of prediction model studies</div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -387,7 +392,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, logo, title) {
+  function buildDocx(D, ROWS, vals, logo, title, eqLogo) {
     const F = "Arial", SZ = 17, W = [1500, 700, 7066, 1200], TOTAL = W.reduce((a, b) => a + b);
     const line = { style: D.BorderStyle.SINGLE, size: 6, color: "272727" };
     const borders = { top: line, bottom: line, left: line, right: line };
@@ -420,7 +425,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           cell(3, vals["p" + r[1]] || "", { center: true })] }));
     const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
     const top = [];
-    if (logo) top.push(para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 240, height: Math.round(240 * 68 / 316) } })]));
+    if (logo || eqLogo) top.push(para([
+      ...(logo ? [new D.ImageRun({ data: logo, type: "png", transformation: { width: 240, height: Math.round(240 * 68 / 316) } })] : []),
+      ...(eqLogo ? [new D.TextRun({ children: [new D.Tab()] }), new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 120, height: Math.round(120 * 90 / 310) } })] : [])],
+      { tabStops: [{ type: D.TabStopType.RIGHT, position: 10466 }] }));
     top.push(para([new D.TextRun({ text: title, font: F, size: 28 })], { spacing: { before: 60, after: 120 } }));
     top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
     return new D.Document({
@@ -448,8 +456,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       await loadDocx();
       let logo = null;
       try { logo = new Uint8Array(await (await fetch(new URL("tripod-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS.map(r => typeof r === "string" ? r : [r[0], r[1], r[2].replace(/\|([^|\]]*)\]\]/, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")]), vals, logo, TITLE));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS.map(r => typeof r === "string" ? r : [r[0], r[1], r[2].replace(/\|([^|\]]*)\]\]/, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")]), vals, logo, TITLE, eqLogo));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "TRIPOD-SRMA-checklist.docx";
