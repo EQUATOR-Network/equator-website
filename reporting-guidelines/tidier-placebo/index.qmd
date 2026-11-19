@@ -21,7 +21,7 @@ relevant-more: |-
 
   **Specialisd**
 
-  [**TIDieR-Rehab](/reporting-guidelines/tidier-rehab): Signal N, Olsen S, Gomes E, McGeorge C, Taylor D, Alder G. Developing the TIDieR-Rehab checklist: a modified Delphi process to extend the Template for Intervention Description and Replication (TIDieR) for rehabilitation intervention reporting. BMJ Open. 2024;14(11):e084319. PMID: [39609016](https://pubmed.ncbi.nlm.nih.gov/39609016) \
+  [**TIDieR-Rehab**](/reporting-guidelines/tidier-rehab): Signal N, Olsen S, Gomes E, McGeorge C, Taylor D, Alder G. Developing the TIDieR-Rehab checklist: a modified Delphi process to extend the Template for Intervention Description and Replication (TIDieR) for rehabilitation intervention reporting. BMJ Open. 2024;14(11):e084319. PMID: [39609016](https://pubmed.ncbi.nlm.nih.gov/39609016) \
   
   [**TIDieR-PHP**](/reporting-guidelines/tidier-php-a-reporting-guideline-for-population-health-and-policy-interventions/): Campbell M, Katikireddi SV, Hoffmann T, Armstrong R, Waters E, Craig P. TIDieR-PHP: a reporting guideline for population health and policy interventions. BMJ. 2018;361:k1079. PMID: [29769210](https://www.ncbi.nlm.nih.gov/pubmed/29769210) \
 

@@ -15,7 +15,20 @@ full-bibliographic-reference: 'Rhon DI, Fritz JM, Kerns RD, McGeary DD, Coleman 
 rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
-relevant-more: ''
+relevant-more: |-
+  **Generic**
+
+  [**TIDieR**](/reporting-guidelines/tidier/): Hoffmann T, Glasziou P, Boutron I, Milne R, Perera R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M, McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. BMJ. 2014;348:g1687. PMID:[24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)
+
+  **Specialisd**
+
+  [**TIDieR-Rehab**](/reporting-guidelines/tidier-rehab): Signal N, Olsen S, Gomes E, McGeorge C, Taylor D, Alder G. Developing the TIDieR-Rehab checklist: a modified Delphi process to extend the Template for Intervention Description and Replication (TIDieR) for rehabilitation intervention reporting. BMJ Open. 2024;14(11):e084319. PMID: [39609016](https://pubmed.ncbi.nlm.nih.gov/39609016) \
+  
+  [**TIDieR-PHP**](/reporting-guidelines/tidier-php-a-reporting-guideline-for-population-health-and-policy-interventions/): Campbell M, Katikireddi SV, Hoffmann T, Armstrong R, Waters E, Craig P. TIDieR-PHP: a reporting guideline for population health and policy interventions. BMJ. 2018;361:k1079. PMID: [29769210](https://www.ncbi.nlm.nih.gov/pubmed/29769210) \
+  
+  [**TIDieR-telehealth**](/reporting-guidelines/tidier-telehealth): Rhon DI, Fritz JM, Kerns RD, McGeary DD, Coleman BC, Farrokhi S, Burgess DJ, Goertz CM, Taylor SL, Hoffmann T. TIDieR-telehealth: precision in reporting of telehealth interventions used in clinical trials - unique considerations for the Template for the Intervention Description and Replication (TIDieR) checklist. BMC Med Res Methodol. 2022; 22(1): 161. PMID: [35655144](https://pubmed.ncbi.nlm.nih.gov/35655144/)
+  
+  [**TIDieR-placebo**](/reporting-guidelines/tidier-placebo): Howick J, Webster RK, Rees J, Turner R, Macdonald H, Price A, Evers WMA, Bishop FL, Collins GS, Bokelmann K, Hopewell S, Knottnerus A, Lamb S, Madigan C, Napadow V, Papanikitas A, Hoffmann T. TIDieR-Placebo: a guide and checklist for reporting placebo and sham controls. PLoS Med. 2020;17(9):e1003294. PMID: [32956344](https://pubmed.ncbi.nlm.nih.gov/32956344/) \
 website-url: ''
 additional-languages: ''
 additional-information: ''
