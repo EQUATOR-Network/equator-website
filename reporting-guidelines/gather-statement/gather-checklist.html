@@ -89,7 +89,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="../../assets/css/main.css">
 <link rel="stylesheet" href="../../assets/css/database-pages.css">
 <meta property="og:title" content="GATHER checklist">
-<meta property="og:image" content="https://equator-network.org/reporting-guidelines/gather-statement/gather-logo.png">
+<meta property="og:image" content="https://equator-network.org/assets/logos/gather-logo.png">
 <meta property="og:site_name" content="EQUATOR Network">
 <meta property="og:image:alt" content="GATHER: Guidelines for Accurate and Transparent Health Estimates Reporting">
 <meta property="og:image:height" content="149">
@@ -281,9 +281,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div id="tp-wrap">
   <div class="tp-top">
-    <img src="gather-logo.png" alt="GATHER: Guidelines for Accurate and Transparent Health Estimates Reporting" id="tp-logo">
+    <img src="../../assets/logos/gather-logo.png" alt="GATHER: Guidelines for Accurate and Transparent Health Estimates Reporting" id="tp-logo">
     <div class="tp-title">Checklist of information that should be included in new reports of global health estimates</div>
-    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+    <img src="../../assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
   </div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -444,9 +444,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     try {
       await loadDocx();
       let logo = null;
-      try { logo = new Uint8Array(await (await fetch(new URL("gather-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/gather-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       let eqLogo = null;
-      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT, eqLogo));
       const a = document.createElement("a");

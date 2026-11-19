@@ -89,7 +89,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="../../assets/css/main.css">
 <link rel="stylesheet" href="../../assets/css/database-pages.css">
 <meta property="og:title" content="CARE checklist">
-<meta property="og:image" content="https://equator-network.org/reporting-guidelines/care/equator_logo.png">
+<meta property="og:image" content="https://equator-network.org/assets/logos/equator_logo.png">
 <meta property="og:site_name" content="EQUATOR Network">
 <meta property="og:image:alt" content="EQUATOR Network">
 <meta property="og:image:height" content="90">
@@ -283,11 +283,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-eqrow"><img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  <div class="tp-eqrow"><img src="../../assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   <div class="tp-top">
-    <img class="logo" src="care-logo.png" alt="CARE: case report guidelines" id="tp-logo">
+    <img class="logo" src="../../assets/logos/care-logo.png" alt="CARE: case report guidelines" id="tp-logo">
     <div class="tp-title">CARE Checklist of information to include when writing a case report</div>
-    <div class="tp-badges"><img class="cc" src="cc-by-nc-nd.png" alt="Creative Commons BY-NC-ND licence"><img class="chk" src="care-check.png" alt=""></div>
+    <div class="tp-badges"><img class="cc" src="../../assets/logos/cc-by-nc-nd.png" alt="Creative Commons BY-NC-ND licence"><img class="chk" src="../../assets/logos/care-check.png" alt=""></div>
   </div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -447,7 +447,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     btn.disabled = true; btn.textContent = "Preparing…";
     try {
       await loadDocx();
-      const imgs = { logo: await getImage("care-logo.png"), cc: await getImage("cc-by-nc-nd.png"), chk: await getImage("care-check.png"), eq: await getImage("equator_logo.png") };
+      const imgs = { logo: await getImage("/assets/logos/care-logo.png"), cc: await getImage("/assets/logos/cc-by-nc-nd.png"), chk: await getImage("/assets/logos/care-check.png"), eq: await getImage("/assets/logos/equator_logo.png") };
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = getV(i));
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, imgs, TITLE));
       const a = document.createElement("a");
