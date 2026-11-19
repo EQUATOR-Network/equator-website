@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c465692383c2ecc872d3b8b135dfdb1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-800ec43143743b4546fe40ab5749fe04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -227,7 +227,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   #tp-wrap { --accent:#63639a; --sect:#ffffcc; --box:#f1f1f8; --boxline:#a9a9cf; --line:#000;
     font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
   #tp-wrap .tp-top { display:flex; align-items:center; gap:1rem; margin-bottom:.8rem; }
-  #tp-wrap .tp-top img { width:72px; height:auto; flex:none; }
+  #tp-wrap #tp-logo { width:72px; height:auto; flex:none; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; flex:none; margin-left:auto; }
   #tp-wrap .tp-title { font-size:20px; font-weight:bold; }
   #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
   #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
@@ -261,6 +263,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
     #tp-wrap table { font-size:10.5px; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
@@ -274,7 +277,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-top"><img src="prisma-logo.png" alt="PRISMA" id="tp-logo"><div class="tp-title">PRISMA 2020 Checklist</div></div>
+  <div class="tp-top"><img src="prisma-logo.png" alt="PRISMA" id="tp-logo"><div class="tp-title">PRISMA 2020 Checklist</div>
+    <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
     <button type="button" id="tp-doc" class="alt">Save as Word</button>
@@ -402,7 +406,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, logo, title, foot) {
+  function buildDocx(D, ROWS, vals, logo, title, foot, eqLogo) {
     const F = "Arial", SZ = 17, W = [1800, 650, 6616, 1400], TOTAL = W.reduce((a, b) => a + b);
     const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
     const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, color: o.color });
@@ -435,7 +439,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
     const header = new D.Header({ children: [para([
       ...(logo ? [new D.ImageRun({ data: logo, type: "png", transformation: { width: 48, height: 44 } })] : []),
-      run("   " + title, { bold: true, size: 26 })])] });
+      run("   " + title, { bold: true, size: 26 }),
+      ...(eqLogo ? [new D.TextRun({ children: [new D.Tab()] }), new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 120, height: Math.round(120 * 90 / 310) } })] : [])],
+      { tabStops: [{ type: D.TabStopType.RIGHT, position: 10466 }] })] });
     return new D.Document({
       title: "PRISMA 2020 checklist", creator: "PRISMA 2020 checklist",
       sections: [{
@@ -463,10 +469,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       await loadDocx();
       let logo = null;
       try { logo = new Uint8Array(await (await fetch(new URL("prisma-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       // a relative link would break once the file is downloaded, so use the full web address
       const rows = ROWS.map(r => typeof r === "string" ? r : [r[0], r[1].map(([c, t]) => [c, t.replace(/\|([^|\]]*)\]\]/g, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")])]);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, rows, vals, logo, TITLE, FOOT));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, rows, vals, logo, TITLE, FOOT, eqLogo));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "PRISMA-2020-checklist.docx";

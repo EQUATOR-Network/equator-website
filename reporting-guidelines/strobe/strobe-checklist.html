@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c465692383c2ecc872d3b8b135dfdb1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-800ec43143743b4546fe40ab5749fe04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -89,8 +89,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="../../assets/css/main.css">
 <link rel="stylesheet" href="../../assets/css/database-pages.css">
 <meta property="og:title" content="STROBE checklist">
-<meta property="og:image" content="https://equator-network.org/assets/logos/equator_logo.png">
+<meta property="og:image" content="https://equator-network.org/reporting-guidelines/strobe/equator_logo.png">
 <meta property="og:site_name" content="EQUATOR Network">
+<meta property="og:image:alt" content="EQUATOR Network">
 <meta property="og:image:height" content="90">
 <meta property="og:image:width" content="310">
 </head>
@@ -248,6 +249,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
   #tp-wrap .tp-foot { font-size:12.5px; margin-top:1rem; }
   #tp-wrap .tp-foot p { margin:.35rem 0; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eqrow { display:none; }
+  #tp-wrap .tp-eq { width:150px; height:auto; }
   .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
   .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
     border:2px solid #333; background:#333; color:#fff; }
@@ -261,6 +265,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
+    #tp-wrap .tp-eqrow { display:block; text-align:right; margin-bottom:.5rem; }
     #tp-wrap table { font-size:10px; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
@@ -274,6 +279,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 
 <div id="tp-wrap">
+  <div class="tp-eqrow"><img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   <div class="tp-title">STROBE Statement—checklist of items that should be included in reports of observational studies</div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -394,7 +400,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, title, foot) {
+  function buildDocx(D, ROWS, vals, title, foot, eqLogo) {
     const F = "Arial", SZ = 17, W = [1650, 650, 6666, 1500], TOTAL = W.reduce((a, b) => a + b);
     const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
     const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
@@ -433,6 +439,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       sections: [{
         properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
         children: [
+          ...(eqLogo ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 60 } })] : []),
           para([new D.TextRun({ text: title, font: F, size: 26 })], { spacing: { after: 120 } }),
           para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
           new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
@@ -454,8 +461,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     btn.disabled = true; btn.textContent = "Preparing…";
     try {
       await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, FOOT));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, FOOT, eqLogo));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "STROBE-checklist.docx";
