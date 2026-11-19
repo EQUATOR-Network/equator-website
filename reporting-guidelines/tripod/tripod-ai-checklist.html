@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-800ec43143743b4546fe40ab5749fe04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-c465692383c2ecc872d3b8b135dfdb1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -89,7 +89,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="../../assets/css/main.css">
 <link rel="stylesheet" href="../../assets/css/database-pages.css">
 <meta property="og:title" content="TRIPOD+AI checklist">
-<meta property="og:image" content="https://equator-network.org/reporting-guidelines/tripod/tripod-ai-logo.png">
+<meta property="og:image" content="https://equator-network.org/assets/logos/tripod-ai-logo.png">
 <meta property="og:site_name" content="EQUATOR Network">
 <meta property="og:image:alt" content="TRIPOD+AI">
 <meta property="og:image:height" content="182">
@@ -281,9 +281,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div id="tp-wrap">
   <div class="tp-top">
-    <img src="tripod-ai-logo.png" alt="TRIPOD+AI" id="tp-logo">
+    <img src="../../assets/logos/tripod-ai-logo.png" alt="TRIPOD+AI" id="tp-logo">
     <div class="tp-right">
-      <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+      <img src="../../assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
     </div>
   </div>
   <div class="tp-actions">
@@ -518,9 +518,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     try {
       await loadDocx();
       let logo = null;
-      try { logo = new Uint8Array(await (await fetch(new URL("tripod-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/tripod-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       let eqLogo = null;
-      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
       const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, eqLogo));
       const a = document.createElement("a");
