@@ -3,12 +3,12 @@
 title: 'TIDieR-Placebo : a guide and checklist for reporting placebo and sham controls'
 acronym: TIDieR-Placebo
 provided-for: Reporting placebo or sham interventions.
-rg-doi: ''
+rg-doi: '10.1371/journal.pmed.1003294'
 pmid-id: '[32956344](https://pubmed.ncbi.nlm.nih.gov/32956344/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/32956344/
-relevant-urls: 'The full-text of the TIDieR-Placebo reporting guideline can be accessed at: <https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003294>'
-full-bibliographic-reference: 'Howick J, Webster RK, Rees J, Turner R, Macdonald H, Price A, Evers WMA, Bishop FL, Collins GS, Bokelmann K, Hopewell S, Knottnerus A, Lamb S, Madigan C, Napadow V, Papanikitas A, Hoffmann T. TIDieR-Placebo: a guide and checklist for reporting placebo and sham controls. PLoS Med. 2020;17(9):e1003294.'
-
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1371/journal.pmed.1003294) of TIDieR-Placebo 
+full-bibliographic-reference: 'Howick J, Webster RK, Rees J, Turner R, Macdonald H, Price A, Evers WMA, Bishop FL, Collins GS, Bokelmann K, Hopewell S, Knottnerus A, Lamb S, Madigan C, Napadow V, Papanikitas A, Hoffmann T. TIDieR-Placebo: a guide and checklist for reporting placebo and sham controls. PLoS Med. 2020;17(9):e1003294. PMID: [32956344](https://pubmed.ncbi.nlm.nih.gov/32956344/) [full text](https://doi.org/10.1371/journal.pmed.1003294)'
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -21,13 +21,15 @@ relevant-more: |-
 
   **Specialisd**
 
+  [**TIDieR-Rehab](/reporting-guideines/tidier-rehab): Signal N, Olsen S, Gomes E, McGeorge C, Taylor D, Alder G. Developing the TIDieR-Rehab checklist: a modified Delphi process to extend the Template for Intervention Description and Replication (TIDieR) for rehabilitation intervention reporting. BMJ Open. 2024;14(11):e084319. PMID: [39609016](https://pubmed.ncbi.nlm.nih.gov/39609016) \
+  
   [**TIDieR-PHP**](/reporting-guidelines/tidier-php-a-reporting-guideline-for-population-health-and-policy-interventions/): Campbell M, Katikireddi SV, Hoffmann T, Armstrong R, Waters E, Craig P. TIDieR-PHP: a reporting guideline for population health and policy interventions. BMJ. 2018;361:k1079. PMID: [29769210](https://www.ncbi.nlm.nih.gov/pubmed/29769210) \
 
   [**TIDieR-C**](/reporting-guidelines/tidier-c/): Goren K, Lai VKW, Baba A, Smith M, Allegaert K, Butcher NJ, Fernandes R, Gill PJ, Hartling L, Juszczak E, Longmuir PE, Macarthur C, Mehta K, Metz D, Nguyen KA, Odermarsky M, Poluru R, Purper-Ouakil D, Reggiardo G, Stratton C, Szatmari P, Trivedi A, Upton J, Hoffmann T, Offringa M. Transparent Reporting of Pediatric Clinical Trial Interventions: TIDieR-Children and Adolescents. Pediatrics. 2025 Nov 1;156(5):e2025072867. PMID: [41087014](https://pubmed.ncbi.nlm.nih.gov/41087014/)
 website-url: <http://www.tidierguide.org/>
 additional-languages: ''
 additional-information: |-
-  Read the [TIDieR Placebo Protocol (PDF)](TIDieR-Placebo-Protocol-v11.pdf).
+  Read the [TIDieR Placebo Protocol (PDF)](TIDieR-Placebo-Protocol-v11.pdf).\
 
   Read a background paper: Howick J, Hoffmann T. How placebo characteristics can influence estimates of intervention effects in trials. CMAJ. 2018;190(30):E908-E911. PMID: [30061325](https://pubmed.ncbi.nlm.nih.gov/30061325/)
 relevant-editorials: ''
@@ -36,8 +38,8 @@ other: ''
 other-relevant-research: ''
 sticky: true
 search-priority: 1
-downloads: ''
-
+downloads: |-
+  Download the TIDieR-placebo checklist ([Word](TIDieR-placebo-checklist.docx))
 
 # LIST FIELDS
 study-design:

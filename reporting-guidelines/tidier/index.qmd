@@ -1,22 +1,19 @@
 ---
 # REQUIRED FIELDS
-title: 'Better reporting of interventions: template for intervention description and
-  replication (TIDieR) checklist and guide'
+title: 'Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide'
 acronym: TIDieR
 provided-for: Describing interventions in sufficient detail to allow their replication.
 rg-doi: ''
 pmid-id: '[24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/24609605
 relevant-urls: |-
-  The TIDieR Checklist is available to download as a[PDF](TIDieR-Checklist-PDF.pdf) and a[Word](TIDieR-Checklist-Word.docx) file.
+  Read the [full text](https://doi.org/10.1136/bmj.g1687) of the TIDieR recommendations \
+  
+  Download the TIDieR Checklist [PDF](TIDieR-Checklist-PDF.pdf) / [Word](TIDieR-Checklist-Word.docx). \
+  
+  Complete an interactive [TIDieR checklist](https://tidierguide.org/#/author-tool), which you can save and upload when submitting your paper to a journal.
 
-  Full text is available at <http://www.bmj.com/content/348/bmj.g1687>
-full-bibliographic-reference: 'Hoffmann T, Glasziou P, Boutron I, Milne R, Perera
-  R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M,
-  McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template
-  for intervention description and replication (TIDieR) checklist and guide. BMJ.
-  2014;348:g1687.'
-
+full-bibliographic-reference: 'Hoffmann T, Glasziou P, Boutron I, Milne R, Perera R, Moher D, Altman D, Barbour V, Macdonald H, Johnston M, Lamb S, Dixon-Woods M, McCulloch P, Wyatt J, Chan A, Michie S. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. BMJ. 2014; 348: g1687. PMID: [24609605](http://www.ncbi.nlm.nih.gov/pubmed/24609605) [full text](https://doi.org/10.1136/bmj.g1687)'
 
 # OPTIONAL FIELDS
 rg-language: English
