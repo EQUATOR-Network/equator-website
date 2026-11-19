@@ -4,13 +4,12 @@ title: 'Enhancing transparency in reporting the synthesis of qualitative researc
   ENTREQ'
 acronym: ENTREQ
 provided-for: Synthesis of qualitative research
-rg-doi: ''
+rg-doi: '10.1186/1471-2288-12-181'
 pmid-id: '[23185978](http://www.ncbi.nlm.nih.gov/pubmed/23185978)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/23185978
-relevant-urls: ''
-full-bibliographic-reference: 'Tong A, Flemming K, McInnes E, Oliver S, Craig J. Enhancing
-  transparency in reporting the synthesis of qualitative research: ENTREQ. BMC Med
-  Res Methodol. 2012;12(1):181.'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1186/1471-2288-12-181) of ENTREQ.
+full-bibliographic-reference: 'Tong A, Flemming K, McInnes E, Oliver S, Craig J. Enhancing transparency in reporting the synthesis of qualitative research: ENTREQ. BMC Med Res Methodol. 2012;12(1):181. PMID: [23185978](http://www.ncbi.nlm.nih.gov/pubmed/23185978) [full text](https://doi.org/10.1186/1471-2288-12-181)'
 
 
 # OPTIONAL FIELDS
@@ -27,7 +26,8 @@ other: ''
 other-relevant-research: ''
 sticky: true
 search-priority: 1
-downloads: ''
+downloads: |-
+  Download the ENTREQ checlist [PDF](ENTREQ-checklist.pdf) / [Word](ENTREQ-checklist.docx)
 
 
 # LIST FIELDS
