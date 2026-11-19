@@ -3,6 +3,7 @@ pagetitle: "PRISMA-P checklist"
 page-layout: full
 toc: false
 resources:
+  - /assets/logos/equator_logo.png
   - docx.min.js
 ---
 
@@ -32,6 +33,9 @@ resources:
   #tp-wrap input::placeholder { color:#5f8296; font-size:12px; }
   #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
   #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:12.5px; margin:.7rem 0 0; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eqrow { display:none; }
+  #tp-wrap .tp-eq { width:150px; height:auto; }
   .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
   .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
     border:2px solid #156082; background:#156082; color:#fff; }
@@ -45,6 +49,7 @@ resources:
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
+    #tp-wrap .tp-eqrow { display:block; text-align:right; margin-bottom:.5rem; }
     #tp-wrap table { font-size:10.5px; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
@@ -59,6 +64,7 @@ resources:
 </style>
 
 <div id="tp-wrap">
+  <div class="tp-eqrow"><img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   <div class="tp-title">PRISMA-P (Preferred Reporting Items for Systematic review and Meta-Analysis Protocols) 2015 Checklist</div>
   <div class="tp-sub">Recommended items to address in a systematic review protocol*</div>
   <div class="tp-actions">
@@ -168,7 +174,7 @@ resources:
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, title, subtitle, foot) {
+  function buildDocx(D, ROWS, vals, title, subtitle, foot, eqLogo) {
     const F = "Arial", SZ = 17, W = [1900, 700, 6366, 1500], TOTAL = W.reduce((a, b) => a + b);
     const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
     const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, color: o.color });
@@ -203,6 +209,7 @@ resources:
       sections: [{
         properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
         children: [
+          ...(eqLogo ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 60 } })] : []),
           para([run(title, { bold: true, size: 24 })], { spacing: { after: 60 } }),
           para([run(subtitle, { size: 18 })], { spacing: { after: 100 } }),
           para([run("Protocol title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
@@ -226,8 +233,10 @@ resources:
     btn.disabled = true; btn.textContent = "Preparing…";
     try {
       await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, SUBTITLE, FOOT));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, SUBTITLE, FOOT, eqLogo));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "PRISMA-P-checklist.docx";
