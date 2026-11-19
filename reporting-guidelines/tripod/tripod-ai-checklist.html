@@ -227,8 +227,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   #tp-wrap { --blue:#4a72b0; --head:#f3dc8f; --sect:#fbefc4; --line:#222;
     font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
   #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:.6rem; }
-  #tp-wrap .tp-top img { width:min(380px,60%); height:auto; }
-  #tp-wrap .tp-ver { font:12px Arial,sans-serif; }
+  #tp-wrap #tp-logo { width:min(380px,60%); height:auto; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin:0 0 .4rem auto; }
   #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
   #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
   #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem; border:1.5px solid #8fb0e0; background:#eef4ff; border-radius:3px; }
@@ -265,6 +267,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
     #tp-wrap table { font-size:9.5px; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
@@ -279,7 +282,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="tp-wrap">
   <div class="tp-top">
     <img src="tripod-ai-logo.png" alt="TRIPOD+AI" id="tp-logo">
-    <span class="tp-ver">Version: 11-January-2024</span>
+    <div class="tp-right">
+      <img src="equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+    </div>
   </div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
@@ -422,7 +427,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, logo) {
+  function buildDocx(D, ROWS, vals, logo, eqLogo) {
     const F = "Arial", SZ = 17, W = [1250, 560, 1100, 6256, 1300];
     const line = { style: D.BorderStyle.SINGLE, size: 8, color: "222222" };
     const borders = { top: line, bottom: line, left: line, right: line };
@@ -472,8 +477,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       "<sup>5</sup> This relates to the code to implement the model to get estimates of risk for a new individual."
     ].map(t => para(runs(t, { size: 15 })));
     const top = [];
-    if (logo) top.push(para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 330, height: Math.round(330 * 182 / 1337) } })]));
-    top.push(para(runs("Version: 11-January-2024", { size: 16 }), { alignment: D.AlignmentType.RIGHT }));
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [6200, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.BOTTOM, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 330, height: Math.round(330 * 182 / 1337) } })])] : [para([])];
+    const right = [];
+    if (eqLogo) right.push(para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT }));
+    if (!right.length) right.push(para([]));
+    top.push(new D.Table({ width: { size: HW[0] + HW[1], type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
     top.push(para([new D.TextRun({ text: "Manuscript title: ", bold: true, font: F, size: 20 }), new D.TextRun({ text: vals.title || "", font: F, size: 20 })], { spacing: { after: 120 } }));
     return new D.Document({
       title: "TRIPOD+AI checklist",
@@ -503,8 +519,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       await loadDocx();
       let logo = null;
       try { logo = new Uint8Array(await (await fetch(new URL("tripod-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, eqLogo));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "TRIPOD-AI-checklist.docx";
