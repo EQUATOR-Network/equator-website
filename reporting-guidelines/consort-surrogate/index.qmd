@@ -8,17 +8,11 @@ rg-doi: ''
 pmid-id: '[38981645](https://pubmed.ncbi.nlm.nih.gov/38981645/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38981645/
 relevant-urls: |-
-  [Read the full-text](https://www.bmj.com/content/386/bmj-2023-078524.long) of the CONSORT-Surrogate guideline.
+  Read the [full-text](https://doi.org/10.1136/bmj-2023-078524) of CONSORT-Surrogate.\
+  
+  Complete an interactive [CONSORT-Surrogate](consort-surrogate-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
 
-  Access the [CONSORT-Surrogate checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/07/09/bmj-2023-078524.DC1/mana078524.ww3.pdf).
-full-bibliographic-reference: 'Manyara AM, Davies P, Stewart D, Weir CJ, Young AE,
-  Blazeby J, Butcher NJ, Bujkiewicz S, Chan AW, Dawoud D, Offringa M, Ouwens M, Hróbjartssson
-  A, Amstutz A, Bertolaccini L, Bruno VD, Devane D, Faria CDCM, Gilbert PB, Harris
-  R, Lassere M, Marinelli L, Markham S, Powers JH 3rd, Rezaei Y, Richert L, Schwendicke
-  F, Tereshchenko LG, Thoma A, Turan A, Worrall A, Christensen R, Collins GS, Ross
-  JS, Taylor RS, Ciani O. Reporting of surrogate endpoints in randomised controlled
-  trial reports (CONSORT-Surrogate): extension checklist with explanation and elaboration.
-  BMJ. 2024;386:e078524.'
+full-bibliographic-reference: 'Manyara AM, Davies P, Stewart D, Weir CJ, Young AE, Blazeby J, Butcher NJ, Bujkiewicz S, Chan AW, Dawoud D, Offringa M, Ouwens M, Hróbjartssson A, Amstutz A, Bertolaccini L, Bruno VD, Devane D, Faria CDCM, Gilbert PB, Harris R, Lassere M, Marinelli L, Markham S, Powers JH 3rd, Rezaei Y, Richert L, Schwendicke F, Tereshchenko LG, Thoma A, Turan A, Worrall A, Christensen R, Collins GS, Ross JS, Taylor RS, Ciani O. Reporting of surrogate endpoints in randomised controlled trial reports (CONSORT-Surrogate): extension checklist with explanation and elaboration. BMJ. 2024;386:e078524. PMID: [38981645](https://pubmed.ncbi.nlm.nih.gov/38981645/) [full-text](https://doi.org/10.1136/bmj-2023-078524)'
 
 
 # OPTIONAL FIELDS
@@ -130,7 +124,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the [CONSORT-Surrogate](CONSORT-surrogate-checklist.pdf) checklist
 
 
 # LIST FIELDS

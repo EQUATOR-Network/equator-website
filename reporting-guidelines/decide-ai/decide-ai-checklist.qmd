@@ -4,6 +4,7 @@ page-layout: full
 toc: false
 resources:
   - /assets/logos/decide-ai-logo.png
+  - /assets/logos/equator_logo.png
   - docx.min.js
 ---
 
@@ -12,8 +13,10 @@ resources:
   #tp-wrap { --accent:#a30000; --red:#c00000; --grey:#d9d9d9; --box:#fdf1f1; --boxline:#e3a6a6; --line:#000;
     font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
   #tp-wrap .tp-run { display:flex; justify-content:space-between; font-size:13px; color:#333; margin-bottom:.4rem; }
-  #tp-wrap .tp-top { text-align:center; margin-bottom:.8rem; }
-  #tp-wrap .tp-top img { width:min(340px,70%); height:auto; }
+  #tp-wrap .tp-top { position:relative; text-align:center; margin-bottom:.8rem; }
+  #tp-wrap #tp-logo { width:min(340px,70%); height:auto; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) and Word file */
+  #tp-wrap .tp-top .tp-eq { display:none; width:150px; height:auto; }
   #tp-wrap .tp-title { font-size:24px; margin-top:.2rem; }
   #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
   #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
@@ -50,6 +53,7 @@ resources:
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
+    #tp-wrap .tp-top .tp-eq { display:block; position:absolute; top:0; right:0; }
     #tp-wrap table { font-size:10px; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
@@ -67,6 +71,7 @@ resources:
   <div class="tp-run"><span>DECIDE-AI</span><span>Checklist</span><span>2022</span></div>
   <div class="tp-top">
     <img src="/assets/logos/decide-ai-logo.png" alt="DECIDE-AI" id="tp-logo">
+    <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
     <div class="tp-title">Reporting item checklist</div>
   </div>
   <div class="tp-actions">
@@ -186,7 +191,7 @@ resources:
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, logo, title, foot) {
+  function buildDocx(D, ROWS, vals, logo, eqLogo, title, foot) {
     const F = "Arial", SZ = 17, W = [800, 1700, 6666, 1300], TOTAL = W.reduce((a, b) => a + b);
     const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
     const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, color: o.color });
@@ -226,7 +231,18 @@ resources:
       children: [run("DECIDE-AI", { size: 18 }), new D.TextRun({ children: [new D.Tab(), "Checklist"], font: F, size: 18 }),
                  new D.TextRun({ children: [new D.Tab(), "2022"], font: F, size: 18 })] })] });
     const top = [];
-    if (logo) top.push(para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 260, height: Math.round(260 * 121 / 641) } })], { alignment: D.AlignmentType.CENTER }));
+    if (logo || eqLogo) {
+      const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+      const noBorders = { top: none, bottom: none, left: none, right: none };
+      const HW = [2400, TOTAL - 4800, 2400];
+      const hcell = (i, children) => new D.TableCell({
+        width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+        verticalAlign: D.VerticalAlign.TOP, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+      const mid = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 260, height: Math.round(260 * 121 / 641) } })], { alignment: D.AlignmentType.CENTER })] : [para([])];
+      const right = eqLogo ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT })] : [para([])];
+      top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+        rows: [new D.TableRow({ children: [hcell(0, [para([])]), hcell(1, mid), hcell(2, right)] })] }));
+    }
     top.push(para([run(title, { size: 32 })], { alignment: D.AlignmentType.CENTER, spacing: { after: 160 } }));
     top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
     return new D.Document({
@@ -255,8 +271,10 @@ resources:
       await loadDocx();
       let logo = null;
       try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/decide-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, eqLogo, TITLE, FOOT));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "DECIDE-AI-checklist.docx";
