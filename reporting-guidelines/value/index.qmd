@@ -1,19 +1,23 @@
 ---
 # REQUIRED FIELDS
 title: 'The VAccine cLinical study reporting gUidEline: the VALUE checklist with explanation and elaboration'
+aliases: 
+  - /reporting-guidelines/the-vaccine-clinical-study-reporting-guideline-the-value-checklist-with-explanation-and-elaboration/
 acronym: 'VALUE'
 provided-for: 'Reporting guideline specifically for vaccine clinical research'
   
 rg-doi: 10.1016/j.ebiom.2026.106439
 pmid-id: '[42623954](https://pubmed.ncbi.nlm.nih.gov/42623954)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/42623954
-relevant-urls: Read the [full-text of this reporting guideline](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(26)00323-3/fulltext)
+relevant-urls: |-
+  Read the [full-text](https://doi.org/10.1016/j.ebiom.2026.106439) of VALUE
   
 full-bibliographic-reference: |-
-  Duan Y, Ma Y, Shi L, Xu Z, Luo J, Moher D, Rodewald L, Shao R, Yu L, Li Y, Bian Z. The vaccine clinical study reporting guideline: the VALUE checklist with explanation and elaboration. eBioMedicine 2026; 131: 106439.
+  Duan Y, Ma Y, Shi L, Xu Z, Luo J, Moher D, Rodewald L, Shao R, Yu L, Li Y, Bian Z. The vaccine clinical study reporting guideline: the VALUE checklist with explanation and elaboration. eBioMedicine 2026; 131: 106439. PMID: [42623954](https://pubmed.ncbi.nlm.nih.gov/42623954) [full text](https://doi.org/10.1016/j.ebiom.2026.106439)
 
 # OPTIONAL FIELDS
-downloads: ''
+downloads: |-
+  Download the VALUE checklist ([PDF](VALUE-checklist.pdf)) / ([word](VALUE-checklist.docx))
 rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
