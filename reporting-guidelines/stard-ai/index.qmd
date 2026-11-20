@@ -9,7 +9,7 @@ rg-doi: 10.1038/s41591-025-03953-8
 pmid-id: '[40954311](https://pubmed.ncbi.nlm.nih.gov/40954311/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40954311/
 relevant-urls: Read the STARD-AI guidance [here](https://doi.org/10.1038/s41591-025-03953-8).
-full-bibliographic-reference: 'Sounderajah V, Guni A, Liu X, Collins GS, Karthikesalingam A, Markar SR, Golub RM, Denniston AK, Shetty S, Moher D, Bossuyt PM, Darzi A, Ashrafian H; STARD-AI Steering Committee. The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence. Nat Med. 2025 Sep 15. PMID: [40954311](https://pubmed.ncbi.nlm.nih.gov/40954311/) [full text](https://doi.org/10.1038/s41591-025-03953-8)'
+full-bibliographic-reference: 'Sounderajah V, Guni A, Liu X, Collins GS, Karthikesalingam A, Markar SR, Golub RM, Denniston AK, Shetty S, Moher D, Bossuyt PM, Darzi A, Ashrafian H; STARD-AI Steering Committee. The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence. Nat Med. 2025; 31: 3283-3289 PMID: [40954311](https://pubmed.ncbi.nlm.nih.gov/40954311/) [full text](https://doi.org/10.1038/s41591-025-03953-8)'
 
 
 # OPTIONAL FIELDS

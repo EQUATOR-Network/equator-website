@@ -1,20 +1,13 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting standards for studies of diagnostic test accuracy in dementia: The
-  STARDdem Initiative.'
+title: 'Reporting standards for studies of diagnostic test accuracy in dementia: The STARDdem Initiative.'
 acronym: STARDdem
 provided-for: Reporting studies of diagnostic test accuracy for dementia disorders.
 rg-doi: ''
 pmid-id: '[24944261](http://www.ncbi.nlm.nih.gov/pubmed/24944261)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/24944261
-relevant-urls: 'The STARDdem guideline can also be accessed at: [STARDdem](http://www.neurology.org/content/early/2014/06/13/WNL.0000000000000621.short)'
-full-bibliographic-reference: 'Noel-Storr AH, McCleery JM, Richard E, Ritchie CW,
-  Flicker L, Cullum SJ, Davis D, Quinn TJ, Hyde C, Rutjes AW, Smailagic N, Marcus
-  S, Black S, Blennow K, Brayne C, Fiorivanti M, Johnson JK, Köpke S, Schneider LS,
-  Simmons A, Mattsson N, Zetterberg H, Bossuyt PM, Wilcock G, McShane R. Reporting
-  standards for studies of diagnostic test accuracy in dementia: The STARDdem Initiative.
-  Neurology. 2014;83(4):364-373.'
-
+relevant-urls: 'Read the [full text](https://doi.org/10.1212/WNL.0000000000000621) of STARDdem'
+full-bibliographic-reference: 'Noel-Storr AH, McCleery JM, Richard E, Ritchie CW, Flicker L, Cullum SJ, Davis D, Quinn TJ, Hyde C, Rutjes AW, Smailagic N, Marcus S, Black S, Blennow K, Brayne C, Fiorivanti M, Johnson JK, Köpke S, Schneider LS, Simmons A, Mattsson N, Zetterberg H, Bossuyt PM, Wilcock G, McShane R. Reporting standards for studies of diagnostic test accuracy in dementia: The STARDdem Initiative. Neurology. 2014;83(4):364-373. PMID: [24944261](http://www.ncbi.nlm.nih.gov/pubmed/24944261) [full text](https://doi.org/10.1212/WNL.0000000000000621)'
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -39,9 +32,9 @@ relevant-more: |-
 
   [**STARD for Abstracts**](/reporting-guidelines/stard-abstracts/): Cohen JF, Korevaar DA, Gatsonis CA, Glasziou PP, Hooft L, Moher D, Reitsma JB, de Vet HC, Bossuyt PM; STARD Group. STARD for Abstracts: essential items for reporting diagnostic accuracy studies in journal or conference abstracts. BMJ. 2017;358:j3751. PMID: [28819063](https://www.ncbi.nlm.nih.gov/pubmed/28819063) \
   
-    [**STARD-AI**](/reporting-guidelines/stard-ai/): Sounderajah V, Guni A, Liu X, Collins GS, Karthikesalingam A, Markar SR, Golub RM, Denniston AK, Shetty S, Moher D, Bossuyt PM, Darzi A, Ashrafian H; STARD-AI Steering Committee. The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence. Nat Med. 2025 Sep 15. PMID: [40954311](https://pubmed.ncbi.nlm.nih.gov/40954311/) \
+  [**STARD-AI**](/reporting-guidelines/stard-ai/): Sounderajah V, Guni A, Liu X, Collins GS, Karthikesalingam A, Markar SR, Golub RM, Denniston AK, Shetty S, Moher D, Bossuyt PM, Darzi A, Ashrafian H; STARD-AI Steering Committee. The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence. Nat Med. 2025; 31: 3283-3289 PMID: [40954311](https://pubmed.ncbi.nlm.nih.gov/40954311/) \
     
-      [**STARD-IONM**](/reporting-guidelines/stard-ionm/index.qmd): Thirumala PD, Balzer JR, Szelenyi A, Seidel K, Husain AM, Bossuyt PM, Drost G,  STARD-IONM Working Group. Standards for reporting diagnostic accuracy studies using intraoperative neurophysiological monitoring. Clin Neurophysiol 2025; 191: 2112364. [42594672](http://www.ncbi.nlm.nih.gov/pubmed/42594672)
+  [**STARD-IONM**](/reporting-guidelines/stard-ionm/index.qmd): Thirumala PD, Balzer JR, Szelenyi A, Seidel K, Husain AM, Bossuyt PM, Drost G,  STARD-IONM Working Group. Standards for reporting diagnostic accuracy studies using intraoperative neurophysiological monitoring. Clin Neurophysiol 2025; 191: 2112364. [42594672](http://www.ncbi.nlm.nih.gov/pubmed/42594672)
 website-url: ''
 additional-languages: ''
 additional-information: ''
