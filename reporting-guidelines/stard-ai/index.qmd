@@ -38,7 +38,7 @@ relevant-more: |-
 
   [**STARD -AI**](/reporting-guidelines/the-stard-ai-reporting-guideline-for-diagnostic-accuracy-studies-using-artificial-intelligence/): Sounderajah V, Guni A, Liu X, Collins GS, Karthikesalingam A, Markar SR, Golub RM, Denniston AK, Shetty S, Moher D, Bossuyt PM, Darzi A, Ashrafian H; STARD-AI Steering Committee. The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence. Nat Med. 2025 Sep 15. doi: 10.1038/s41591-025-03953-8PMID: [40954311](https://www.ncbi.nlm.nih.gov/pubmed/28819063) \
   
-  [**STARD-IONM**](/reporting-guidelines/stard-ionm/index.qmd): Thirumala PD, Balzer JR, Szelenyi A, Seidel K, Husain AM, Bossuyt PM, Drost G,  STARD-IONM Working Group. Standards for reporting diagnostic accuracy studies using intraoperative neurophysiological monitoring. Clin Neurophysiol 2025; 191: 2112364. [42594672](http://www.ncbi.nlm.nih.gov/pubmed/42594672)
+  [**STARD-IONM**](/reporting-guidelines/stard-ionm/): Thirumala PD, Balzer JR, Szelenyi A, Seidel K, Husain AM, Bossuyt PM, Drost G,  STARD-IONM Working Group. Standards for reporting diagnostic accuracy studies using intraoperative neurophysiological monitoring. Clin Neurophysiol 2025; 191: 2112364. [42594672](http://www.ncbi.nlm.nih.gov/pubmed/42594672)
 website-url: ''
 additional-languages: ''
 additional-information: ''
