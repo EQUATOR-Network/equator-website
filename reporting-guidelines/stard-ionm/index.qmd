@@ -18,7 +18,7 @@ full-bibliographic-reference: |-
 
 # OPTIONAL FIELDS
 downloads: |-
-  Download the [STARD-IONM checklist](STARD_IONM_checklist.docx)
+  Download the STARD-IONM checklist [PDF](STARD_IONM_checklist.pdf) / [Word](STARD_IONM_checklist.docx)
 rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
