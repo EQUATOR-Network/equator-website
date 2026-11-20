@@ -1,22 +1,5 @@
 [
   {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-11-20-david-moher-award/index.html",
-      "/news/posts/2026-01-11-BMJ-spirit/index.html",
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
-    ]
-  },
-  {
     "listing": "/reporting-guidelines/index.html",
     "items": [
       "/reporting-guidelines/right-statement/index.html",
@@ -750,6 +733,16 @@
     ]
   },
   {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
+    ]
+  },
+  {
     "listing": "/about/uk-equator-centre.html",
     "items": [
       "/about/people/gcollins.html",
@@ -760,13 +753,20 @@
     ]
   },
   {
-    "listing": "/about/international-equator-centres.html",
+    "listing": "/news/index.html",
     "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
+      "/news/posts/2026-11-20-david-moher-award/index.html",
+      "/news/posts/2026-01-11-BMJ-spirit/index.html",
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
     ]
   },
   {
