@@ -1,24 +1,23 @@
 ---
 # REQUIRED FIELDS
-title: 'PRISMA-S : an extension to the PRISMA Statement for Reporting Literature Searches
-  in Systematic Reviews'
+title: 'PRISMA-S : an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews'
 acronym: PRISMA-S
 provided-for: Reporting literature searches in systematic reviews.
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
-relevant-urls: Read the full-text of the PRISMA-S reporting guideline in [Systematic
-  Reviews](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-020-01542-z)
-  or the [Journal of the Medical Library Association](https://jmla.mlanet.org/ojs/jmla/article/view/962).
+rg-doi: '10.1186/s13643-020-01542-z'
+pmid-id: '[33499930](https://pubmed.ncbi.nlm.nih.gov/33499930/)'
+pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/33499930/'
+relevant-urls: |-
+  Read the [full-text](https://doi.org/10.1186/s13643-020-01542-z) of PRISMA-S \
+
+  Complete an interactive [PRISMA-S](prisma-s-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Rethlefsen ML, Kirtley S, Waffenschmidt S, Ayala AP, Moher D, Page MJ, Koffel JB; PRISMA-S Group. PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews.
 
   This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
 
-  Syst Rev. 2021;10(1):39. PMID: [33499930](https://pubmed.ncbi.nlm.nih.gov/33499930/)
+  Syst Rev. 2021;10(1):39. PMID: [33499930](https://pubmed.ncbi.nlm.nih.gov/33499930/) [full text](https://doi.org/10.1186/s13643-020-01542-z)
 
-  J Med Libr Assoc. 2021;109(2):174-200. PMID: [34285662](https://pubmed.ncbi.nlm.nih.gov/34285662/)
-
+  J Med Libr Assoc. 2021;109(2):174-200. PMID: [34285662](https://pubmed.ncbi.nlm.nih.gov/34285662/) [full text](http://dx.doi.org/10.5195/jmla.2021.962)
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -95,9 +94,11 @@ relevant-more: |-
 website-url: <https://www.prisma-statement.org/prisma-search>
 additional-languages: ''
 additional-information: |-
-  For terminology and reporting of citation searching use the TARCiS Checklist
+  For terminology and reporting of citation searching use the [TARCiS Checklist](/reporting-guidelines/tarcis)
 
-  [Word](https://ub.unibas.ch/fileadmin/user_upload/universitaetsbibliothek/Universitaetsbibliothek/5_Standorte/UB_Medizin/TARCiS/TARCiS_Checklist_for_Terminology_and_Reporting_of_Citation_Searching.docx) | [PDF](https://ub.unibas.ch/fileadmin/user_upload/universitaetsbibliothek/Universitaetsbibliothek/5_Standorte/UB_Medizin/TARCiS/TARCiS_Checklist_for_Terminology_and_Reporting_of_Citation_Searching.pdf) | [TARCiS website](https://ub.unibas.ch/de/ub-medizin/tarcis/)
+  [TARCiS website](https://ub.unibas.ch/de/ub-medizin/tarcis/)
+
+  [Word](TARCiS_Checklist_for_Terminology_and_Reporting_of_Citation_Searching.docx) | [PDF](TARCiS_Checklist_for_Terminology_and_Reporting_of_Citation_Searching.pdf)
 relevant-editorials: ''
 primary-guideline: ''
 other: |-
@@ -107,10 +108,7 @@ other: |-
 other-relevant-research: ''
 sticky: true
 downloads: |-
-  [PRISMA-S Checklist (Word)](https://osf.io/sfgvq/) [PRISMA-S Checklist (PDF)](https://osf.io/y765x/)
-
-  [PRISMA-S Checklist (Excel)](https://osf.io/4gnq2/)
-
+  Download the PRISMA-S Checklist [(PDF)](PRISMA-S-checklist.pdf) / [(Word)](PRISMA-S-checklist.docx) / [(Excel)](PRISMA-S-checklist.xlsx)
 
 # LIST FIELDS
 study-design:

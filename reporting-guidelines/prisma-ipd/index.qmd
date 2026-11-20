@@ -1,19 +1,13 @@
 ---
 # REQUIRED FIELDS
-title: 'Preferred Reporting Items for Systematic Review and Meta -Analyses of individual
-  participant data: the PRISMA-IPD Statement'
+title: 'Preferred Reporting Items for Systematic Review and Meta -Analyses of individual participant data: the PRISMA-IPD Statement'
 acronym: PRISMA-IPD
-provided-for: Reporting systematic reviews and meta-analyses of individual participant
-  data (IPD).
-rg-doi: ''
+provided-for: Reporting systematic reviews and meta-analyses of individual participant data (IPD).
+rg-doi: '10.1001/jama.2015.3656'
 pmid-id: '[25919529](http://www.ncbi.nlm.nih.gov/pubmed/25919529)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/25919529
 relevant-urls: ''
-full-bibliographic-reference: 'Stewart LA, Clarke M, Rovers M, Riley RD, Simmonds
-  M, Stewart G, Tierney JF; PRISMA-IPD Development Group. Preferred Reporting Items
-  for Systematic Review and Meta-Analyses of individual participant data: the PRISMA-IPD
-  Statement. JAMA. 2015;313(16):1657-1665.'
-
+full-bibliographic-reference: 'Stewart LA, Clarke M, Rovers M, Riley RD, Simmonds M, Stewart G, Tierney JF; PRISMA-IPD Development Group. Preferred Reporting Items for Systematic Review and Meta-Analyses of individual participant data: the PRISMA-IPD Statement. JAMA. 2015;313(16):1657-1665. PMID: [25919529](http://www.ncbi.nlm.nih.gov/pubmed/25919529) [full text](https://doi.org/10.1001/jama.2015.3656)'
 
 # OPTIONAL FIELDS
 rg-language: English

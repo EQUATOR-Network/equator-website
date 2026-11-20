@@ -1,7 +1,6 @@
 ---
 # REQUIRED FIELDS
-title: 'PRISMA 2020 for Abstracts: Reporting Systematic Reviews in Journal and Conference
-  Abstracts'
+title: 'PRISMA 2020 for Abstracts: Reporting Systematic Reviews in Journal and Conference Abstracts'
 acronym: PRISMA 2020 for Abstracts
 provided-for: Reporting systematic reviews in journal and conference abstracts.
 rg-doi: ''

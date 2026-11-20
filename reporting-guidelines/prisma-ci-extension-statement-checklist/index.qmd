@@ -1,14 +1,13 @@
 ---
 # REQUIRED FIELDS
-title: 'AHRQ Series on Complex Intervention Systematic Reviews – Paper 6: PRISMA-CI
-  Extension Statement & Checklist'
+title: 'AHRQ Series on Complex Intervention Systematic Reviews – Paper 6: PRISMA-CI Extension Statement & Checklist'
 acronym: PRISMA-CI
 provided-for: Reporting of systematic reviews and meta-analyses of complex interventions.
-rg-doi: ''
+rg-doi: '10.1016/j.jclinepi.2017.06.016'
 pmid-id: '[28720516](https://www.ncbi.nlm.nih.gov/pubmed/28720516)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/28720516
 relevant-urls: ''
-full-bibliographic-reference: 'Guise JM, Butler ME, Chang C, Viswanathan M, Pigott T, Tugwell P; Complex Interventions Workgroup. AHRQ Series on Complex Intervention Systematic Reviews - Paper 6: PRISMA-CI Extension Statement & Checklist. J Clin Epidemiol. 2017;90:43-50.'
+full-bibliographic-reference: 'Guise JM, Butler ME, Chang C, Viswanathan M, Pigott T, Tugwell P; Complex Interventions Workgroup. AHRQ Series on Complex Intervention Systematic Reviews - Paper 6: PRISMA-CI Extension Statement & Checklist. J Clin Epidemiol. 2017;90:43-50. PMID: [28720516](https://www.ncbi.nlm.nih.gov/pubmed/28720516) [full text](https://doi.org/10.1016/j.jclinepi.2017.06.016)'
 
 
 # OPTIONAL FIELDS

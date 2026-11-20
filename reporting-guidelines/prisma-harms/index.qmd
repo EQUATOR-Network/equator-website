@@ -1,19 +1,16 @@
 ---
 # REQUIRED FIELDS
 title: 'PRISMA harms checklist: improving harms reporting in systematic reviews'
-acronym: PRISMA harms
-provided-for: Reporting harms in systematic reviews, whether harms are a primary or
-  secondary outcome.
+acronym: PRISMA-harms
+provided-for: Reporting harms in systematic reviews, whether harms are a primary or secondary outcome.
 rg-doi: ''
 pmid-id: '[26830668](http://www.ncbi.nlm.nih.gov/pubmed/26830668)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/26830668
 relevant-urls: |-
-  The full-text of this reporting guideline is freely available at: <http://www.bmj.com/content/352/bmj.i157>
+  Read the [full text](https://doi.org/10.1136/bmj.i157) of PRISMA-harms
 
   Please note that a correction has been made to the text in table 1 of this reporting guideline. Further details can be found on the BMJ website at: <http://www.bmj.com/content/353/bmj.i2229?etoc>
-full-bibliographic-reference: 'Zorzela L, Loke YK, Ioannidis JP, Golder S, Santaguida
-  P, Altman DG, Moher D, Vohra S; PRISMA harms group. PRISMA harms checklist: improving
-  harms reporting in systematic reviews. BMJ. 2016;352:i157.'
+full-bibliographic-reference: 'Zorzela L, Loke YK, Ioannidis JP, Golder S, Santaguida P, Altman DG, Moher D, Vohra S; PRISMA harms group. PRISMA harms checklist: improving harms reporting in systematic reviews. BMJ. 2016;352:i157. PMID: [26830668](http://www.ncbi.nlm.nih.gov/pubmed/26830668) [full text](https://doi.org/10.1136/bmj.i157)'
 
 
 # OPTIONAL FIELDS

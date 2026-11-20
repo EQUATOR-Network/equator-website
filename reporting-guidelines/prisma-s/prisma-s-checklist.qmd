@@ -1,0 +1,239 @@
+---
+pagetitle: "PRISMA-S checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#1f6f6b; --head:#1f6f6b; --sect:#d4ebe8; --box:#eef8f7; --boxline:#8cc3bd; --line:#222;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) and Word file */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin:0 0 .6rem auto; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; margin:.2rem 0 .4rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1.5px solid var(--line); padding:3px 6px; vertical-align:middle; }
+  #tp-wrap td.txt { border-top:1px dotted #444; border-bottom:1px dotted #444; }
+  #tp-wrap thead th { background:var(--head); color:#fff; font-weight:bold; text-align:left; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:18%; vertical-align:top; }
+  #tp-wrap td.item { width:5%; text-align:center; }
+  #tp-wrap td.pg { width:17%; padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#5f9a95; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { margin-top:.8rem; font-size:12.5px; line-height:1.4; }
+  #tp-wrap .tp-foot p { margin:0 0 .3rem; }
+  #tp-wrap .tp-foot p.cite { margin-top:.6rem; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #1f6f6b; background:#1f6f6b; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#1f6f6b; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap .tp-foot { font-size:9px; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  <div class="tp-title">PRISMA-S: An Extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the location(s) where each item is reported (e.g., section and/or page number) in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Review title: <input type="text" id="tp-title" data-key="title" placeholder="Type your review title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section/topic</th><th class="c">#</th><th>Checklist item</th>
+      <th class="c">Location(s) Reported<span class="tp-hint">type location(s) in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="tp-foot" id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // ["Section/topic", "#", "text"]; plain strings = section bars.
+  const ROWS = [
+    "INFORMATION SOURCES AND METHODS",
+    ["Database name", "1", "Name each individual database searched, stating the platform for each."],
+    ["Multi-database searching", "2", "If databases were searched simultaneously on a single platform, state the name of the platform, listing all of the databases searched."],
+    ["Study registries", "3", "List any study registries searched."],
+    ["Online resources and browsing", "4", "Describe any online or print source purposefully searched or browsed (e.g., tables of contents, print conference proceedings, web sites), and how this was done."],
+    ["Citation searching", "5", "Indicate whether cited references or citing references were examined, and describe any methods used for locating cited/citing references (e.g., browsing reference lists, using a citation index, setting up email alerts for references citing included studies)."],
+    ["Contacts", "6", "Indicate whether additional studies or data were sought by contacting authors, experts, manufacturers, or others."],
+    ["Other methods", "7", "Describe any additional information sources or search methods used."],
+    "SEARCH STRATEGIES",
+    ["Full search strategies", "8", "Include the search strategies for each database and information source, copied and pasted exactly as run."],
+    ["Limits and restrictions", "9", "Specify that no limits were used, or describe any limits or restrictions applied to a search (e.g., date or time period, language, study design) and provide justification for their use."],
+    ["Search filters", "10", "Indicate whether published search filters were used (as originally designed or modified), and if so, cite the filter(s) used."],
+    ["Prior work", "11", "Indicate when search strategies from other literature reviews were adapted or reused for a substantive part or all of the search, citing the previous review(s)."],
+    ["Updates", "12", "Report the methods used to update the search(es) (e.g., rerunning searches, email alerts)."],
+    ["Dates of searches", "13", "For each search strategy, provide the date when the last search occurred."],
+    "PEER REVIEW",
+    ["Peer review", "14", "Describe any search peer review process."],
+    "MANAGING RECORDS",
+    ["Total Records", "15", "Document the total number of records identified from each database and other information sources."],
+    ["Deduplication", "16", "Describe the processes and any software used to deduplicate records from multiple database searches and other information sources."]
+  ];
+  const TITLE = "PRISMA-S: An Extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews";
+  const NOTES = [];
+  const CITE = "Rethlefsen ML, Kirtley S, Waffenschmidt S, Ayala AP, Moher D, Page MJ, Koffel JB, PRISMA-S Group. Last updated February 27, 2020.";
+
+  const STORE = "prisma-s-checklist-v1";
+  const html = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    const [topic, item, text] = r;
+    return `<tr><td class="topic">${topic}</td><td class="item">${item}</td><td class="txt">${text}</td>` +
+      `<td class="pg"><input type="text" data-key="p${item}" placeholder="location(s)" aria-label="Location reported, item ${item}"></td></tr>`;
+  }).join("");
+  document.getElementById("tp-foot").innerHTML =
+    NOTES.map(n => `<p>${html(n)}</p>`).join("") + `<p class="cite">${html(CITE)}</p>`;
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA-S checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all locations and the review title?")) {
+      fields().forEach(i => i.value = ""); save();
+    }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, eqLogo, title, notes, cite) {
+    const F = "Arial", SZ = 18, W = [1900, 600, 6166, 1800], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 8, color: "222222" };
+    const borders = { top: ln, bottom: ln, left: ln, right: ln };
+    const dotted = { style: D.BorderStyle.DOTTED, size: 4, color: "444444" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, color: o.color });
+    // "text <em>italic</em> [[label|url]]" -> runs (italics + hyperlinks)
+    const runs = (text, o = {}) => text.split(/(\[\[.*?\|.*?\]\]|<em>.*?<\/em>)/g).filter(Boolean).map(part => {
+      let m;
+      if ((m = part.match(/^\[\[(.*?)\|(.*?)\]\]$/)))
+        return new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] });
+      if ((m = part.match(/^<em>(.*?)<\/em>$/))) return run(m[1], { ...o, italics: true });
+      return run(part, o);
+    });
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? W.slice(i, i + o.span).reduce((a, b) => a + b) : W[i], type: D.WidthType.DXA },
+      columnSpan: o.span, verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 },
+      borders: o.dotted ? { ...borders, top: dotted, bottom: dotted } : borders,
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "1F6F6B", color: "FFFFFF", bold: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section/topic", hd), cell(1, "#", { ...hd, center: true }),
+      cell(2, "Checklist item", hd), cell(3, "Location(s) Reported", { ...hd, center: true })] });
+    const body = ROWS.map(r => {
+      if (typeof r === "string") return new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: 4, fill: "D4EBE8", bold: true, keepNext: true })] });
+      return new D.TableRow({ cantSplit: true, children: [
+        cell(0, r[0], { top: true }),
+        cell(1, r[1], { center: true }),
+        cell(2, r[2], { dotted: true }),
+        cell(3, vals["p" + r[1]] || "", { center: true })] });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 60 }, ...o, children });
+    // read a PNG's pixel size from its header so the logo keeps its true aspect ratio
+    const img = (data, w) => {
+      let h = Math.round(w / 3);
+      try { const dv = new DataView(data.buffer, data.byteOffset, data.byteLength); h = Math.round(w * dv.getUint32(20) / dv.getUint32(16)); } catch (e) {}
+      return new D.ImageRun({ data, type: "png", transformation: { width: w, height: h } });
+    };
+    const top = [];
+    if (eqLogo) top.push(para([img(eqLogo, 140)], { alignment: D.AlignmentType.RIGHT }));
+    top.push(para([run(title, { size: 22, bold: true })], { spacing: { after: 80 } }));
+    top.push(para([run("Review title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    const foot = [...notes.map(n => para(runs(n, { size: 16 }), { spacing: { after: 40 } })),
+                  para(runs(cite, { size: 16 }), { spacing: { before: 140 } })];
+    return new D.Document({
+      title: "PRISMA-S checklist", creator: "PRISMA-S checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top,
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para([], { spacing: { after: 60 } }), ...foot]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, eqLogo, TITLE, NOTES, CITE));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "PRISMA-S-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

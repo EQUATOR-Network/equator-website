@@ -1,21 +1,15 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting items for systematic reviews and meta-analyses of acupuncture: the
-  PRISMA for acupuncture checklist'
+title: 'Reporting items for systematic reviews and meta-analyses of acupuncture: the PRISMA for acupuncture checklist'
 acronym: PRISMA-A
 provided-for: Reporting of systematic reviews of acupuncture interventions.
 rg-doi: ''
 pmid-id: '[31405367](https://www.ncbi.nlm.nih.gov/pubmed/31405367)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/31405367
 relevant-urls: |-
-  The full-text of this reporting guideline is available at:
+  Read the [full text](https://doi.org/10.1186/s12906-019-2624-3) of PRISMA-A
 
-  <https://bmccomplementalternmed.biomedcentral.com/articles/10.1186/s12906-019-2624-3>
-full-bibliographic-reference: 'Wang X, Chen Y, Liu Y, Yao L, Estill J, Bian Z, Wu
-  T, Shang H, Lee MS, Wei D, Tian J, Ma B, Wang Y, Tian G, Yang K. Reporting items
-  for systematic reviews and meta-analyses of acupuncture: the PRISMA for acupuncture
-  checklist. BMC Complement Altern Med. 2019;19(1):208.'
-
+full-bibliographic-reference: 'Wang X, Chen Y, Liu Y, Yao L, Estill J, Bian Z, Wu T, Shang H, Lee MS, Wei D, Tian J, Ma B, Wang Y, Tian G, Yang K. Reporting items for systematic reviews and meta-analyses of acupuncture: the PRISMA for acupuncture checklist. BMC Complement Altern Med. 2019;19(1):208. PMID: [31405367](https://www.ncbi.nlm.nih.gov/pubmed/31405367) [full text](https://doi.org/10.1186/s12906-019-2624-3)'
 
 # OPTIONAL FIELDS
 rg-language: English

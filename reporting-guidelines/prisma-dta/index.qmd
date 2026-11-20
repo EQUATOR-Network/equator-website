@@ -1,7 +1,6 @@
 ---
 # REQUIRED FIELDS
-title: 'Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic
-  Test Accuracy Studies: The PRISMA-DTA Statement'
+title: 'Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies: The PRISMA-DTA Statement'
 acronym: PRISMA-DTA
 provided-for: Reporting systematic reviews and meta-analyses of diagnostic test accuracy studies.
 rg-doi: '10.1001/jama.2017.19163'

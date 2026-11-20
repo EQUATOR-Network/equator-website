@@ -1,19 +1,14 @@
 ---
 # REQUIRED FIELDS
-title: PRISMA  (Preferred Reporting Items for Systematic Reviews and Meta -Analyses)
-  Extension for Chinese Herbal Medicines 2020 (PRISMA-CHM 2020)
+title: PRISMA  (Preferred Reporting Items for Systematic Reviews and Meta -Analyses) Extension for Chinese Herbal Medicines 2020 (PRISMA-CHM 2020)
 acronym: PRISMA-CHM 2020
-provided-for: Reporting of systematic reviews of studies testing Chinese Herbal Medicines
-  (CHM) interventions.
-rg-doi: ''
+provided-for: Reporting of systematic reviews of studies testing Chinese Herbal Medicines (CHM) interventions.
+rg-doi: '10.1142/s0192415x20500639'
 pmid-id: '[32907365](https://pubmed.ncbi.nlm.nih.gov/32907365/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/32907365/
 relevant-urls: ''
-full-bibliographic-reference: Zhang X, Tan R, Lam WC, Yao L, Wang X, Cheng CW, Liu
-  F, Chan JC, Aixinjueluo Q, Lau CT, Chen Y, Yang K, Wu T, Lyu A, Bian Z. PRISMA (Preferred
-  Reporting Items for Systematic Reviews and Meta-Analyses) Extension for Chinese
-  Herbal Medicines 2020 (PRISMA-CHM 2020). Am J Chin Med. 2020;48(6):1279-1313.
-
+full-bibliographic-reference: |-
+  Zhang X, Tan R, Lam WC, Yao L, Wang X, Cheng CW, Liu F, Chan JC, Aixinjueluo Q, Lau CT, Chen Y, Yang K, Wu T, Lyu A, Bian Z. PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) Extension for Chinese Herbal Medicines 2020 (PRISMA-CHM 2020). Am J Chin Med. 2020;48(6):1279-1313. PMID: [32907365](https://pubmed.ncbi.nlm.nih.gov/32907365/) [full text](https://doi.org/10.1142/s0192415x20500639)
 
 # OPTIONAL FIELDS
 rg-language: English

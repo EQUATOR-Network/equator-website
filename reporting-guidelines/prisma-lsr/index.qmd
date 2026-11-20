@@ -1,7 +1,6 @@
 ---
 # REQUIRED FIELDS
-title: 'Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR)
-  : checklist and explanation'
+title: 'Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR) : checklist and explanation'
 acronym: PRISMA-LSR
 provided-for: Reporting living systematic reviews (LSRs).
 rg-doi: ''
@@ -9,10 +8,7 @@ pmid-id: '[39562017](https://pubmed.ncbi.nlm.nih.gov/39562017/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39562017/
 relevant-urls: '[Read the full-text](https://www.bmj.com/content/387/bmj-2024-079183)
   of the PRISMA-LSR reporting guideline.'
-full-bibliographic-reference: 'Akl EA, Khabsa J, Iannizzi C, Piechotta V, Kahale LA,
-  Barker JM, McKenzie JE, Page MJ, Skoetz N; PRISMA-LSR Group. Extension of the PRISMA
-  2020 statement for living systematic reviews (PRISMA-LSR): checklist and explanation.
-  BMJ. 2024;387:e079183.'
+full-bibliographic-reference: 'Akl EA, Khabsa J, Iannizzi C, Piechotta V, Kahale LA, Barker JM, McKenzie JE, Page MJ, Skoetz N; PRISMA-LSR Group. Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR): checklist and explanation. BMJ. 2024;387:e079183.'
 
 
 # OPTIONAL FIELDS

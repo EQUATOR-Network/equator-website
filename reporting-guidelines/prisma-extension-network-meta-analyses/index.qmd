@@ -1,18 +1,13 @@
 ---
 # REQUIRED FIELDS
-title: 'The PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating
-  Network Meta-analyses of Health Care Interventions: Checklist and Explanations'
+title: 'The PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses of Health Care Interventions: Checklist and Explanations'
 acronym: ''
 provided-for: Reporting systematic reviews that incorporate network meta-analyses.
-rg-doi: ''
+rg-doi: '10.7326/m14-2385'
 pmid-id: '[26030634](http://www.ncbi.nlm.nih.gov/pubmed/26030634)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/26030634
 relevant-urls: ''
-full-bibliographic-reference: 'Hutton B, Salanti G, Caldwell DM, Chaimani A, Schmid
-  CH, Cameron C, Ioannidis JP, Straus S, Thorlund K, Jansen JP, Mulrow C, Catalá-López
-  F, Gøtzsche PC, Dickersin K, Boutron I, Altman DG, Moher D. The PRISMA Extension
-  Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses
-  of Health Care Interventions: Checklist and Explanations. Ann Intern Med. 2015;162(11):777-784.'
+full-bibliographic-reference: 'Hutton B, Salanti G, Caldwell DM, Chaimani A, Schmid CH, Cameron C, Ioannidis JP, Straus S, Thorlund K, Jansen JP, Mulrow C, Catalá-López F, Gøtzsche PC, Dickersin K, Boutron I, Altman DG, Moher D. The PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses of Health Care Interventions: Checklist and Explanations. Ann Intern Med. 2015;162(11):777-784. PMID: [26030634](http://www.ncbi.nlm.nih.gov/pubmed/26030634) [full text](https://doi.org/10.7326/m14-2385)'
 
 
 # OPTIONAL FIELDS

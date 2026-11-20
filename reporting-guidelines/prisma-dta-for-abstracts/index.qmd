@@ -1,8 +1,6 @@
 ---
 # REQUIRED FIELDS
-title: 'Preferred reporting items for journal and conference abstracts of systematic
-  reviews and meta-analyses of diagnostic test accuracy studies (PRISMA-DTA for Abstracts):
-  checklist, explanation, and elaboration'
+title: 'Preferred reporting items for journal and conference abstracts of systematic reviews and meta-analyses of diagnostic test accuracy studies (PRISMA-DTA for Abstracts): checklist, explanation, and elaboration'
 acronym: PRISMA-DTA for Abstracts
 provided-for: Reporting of journal and conference abstracts of systematic reviews
   of diagnostic test accuracy (DTA) studies.
