@@ -1,0 +1,255 @@
+---
+pagetitle: "PRISMA-ScR checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2f5f98; --head:#2f5f98; --sect:#d3e0f0; --box:#eef4fb; --boxline:#8fb0d6; --line:#222;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) and Word file */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin:0 0 .6rem auto; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; margin:.2rem 0 .4rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1.5px solid var(--line); padding:3px 6px; vertical-align:middle; }
+  #tp-wrap td.txt { border-top:1px dotted #444; border-bottom:1px dotted #444; }
+  #tp-wrap thead th { background:var(--head); color:#fff; font-weight:bold; text-align:left; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:19%; vertical-align:top; }
+  #tp-wrap td.item { width:6%; text-align:center; }
+  #tp-wrap td.pg { width:11%; padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6f8fb5; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { margin-top:.8rem; font-size:12.5px; line-height:1.4; }
+  #tp-wrap .tp-foot p { margin:0 0 .3rem; }
+  #tp-wrap .tp-foot p.cite { margin-top:.9rem; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2f5f98; background:#2f5f98; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2f5f98; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap .tp-foot { font-size:9px; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  <div class="tp-title">Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) Checklist</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Review title: <input type="text" id="tp-title" data-key="title" placeholder="Type your review title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>SECTION</th><th class="c">ITEM</th><th>PRISMA-ScR CHECKLIST ITEM</th>
+      <th class="c">REPORTED ON PAGE #<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="tp-foot" id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // ["Section", "item", "text"]; plain strings = section bars.
+  const ROWS = [
+    "TITLE",
+    ["Title","1","Identify the report as a scoping review."],
+    "ABSTRACT",
+    ["Structured summary","2","Provide a structured summary that includes (as applicable): background, objectives, eligibility criteria, sources of evidence, charting methods, results, and conclusions that relate to the review questions and objectives."],
+    "INTRODUCTION",
+    ["Rationale","3","Describe the rationale for the review in the context of what is already known. Explain why the review questions/objectives lend themselves to a scoping review approach."],
+    ["Objectives","4","Provide an explicit statement of the questions and objectives being addressed with reference to their key elements (e.g., population or participants, concepts, and context) or other relevant key elements used to conceptualize the review questions and/or objectives."],
+    "METHODS",
+    ["Protocol and registration","5","Indicate whether a review protocol exists; state if and where it can be accessed (e.g., a Web address); and if available, provide registration information, including the registration number."],
+    ["Eligibility criteria","6","Specify characteristics of the sources of evidence used as eligibility criteria (e.g., years considered, language, and publication status), and provide a rationale."],
+    ["Information sources*","7","Describe all information sources in the search (e.g., databases with dates of coverage and contact with authors to identify additional sources), as well as the date the most recent search was executed."],
+    ["Search","8","Present the full electronic search strategy for at least 1 database, including any limits used, such that it could be repeated."],
+    ["Selection of sources of evidence†","9","State the process for selecting sources of evidence (i.e., screening and eligibility) included in the scoping review."],
+    ["Data charting process‡","10","Describe the methods of charting data from the included sources of evidence (e.g., calibrated forms or forms that have been tested by the team before their use, and whether data charting was done independently or in duplicate) and any processes for obtaining and confirming data from investigators."],
+    ["Data items","11","List and define all variables for which data were sought and any assumptions and simplifications made."],
+    ["Critical appraisal of individual sources of evidence§","12","If done, provide a rationale for conducting a critical appraisal of included sources of evidence; describe the methods used and how this information was used in any data synthesis (if appropriate)."],
+    ["Synthesis of results","13","Describe the methods of handling and summarizing the data that were charted."],
+    "RESULTS",
+    ["Selection of sources of evidence","14","Give numbers of sources of evidence screened, assessed for eligibility, and included in the review, with reasons for exclusions at each stage, ideally using a flow diagram."],
+    ["Characteristics of sources of evidence","15","For each source of evidence, present characteristics for which data were charted and provide the citations."],
+    ["Critical appraisal within sources of evidence","16","If done, present data on critical appraisal of included sources of evidence (see item 12)."],
+    ["Results of individual sources of evidence","17","For each included source of evidence, present the relevant data that were charted that relate to the review questions and objectives."],
+    ["Synthesis of results","18","Summarize and/or present the charting results as they relate to the review questions and objectives."],
+    "DISCUSSION",
+    ["Summary of evidence","19","Summarize the main results (including an overview of concepts, themes, and types of evidence available), link to the review questions and objectives, and consider the relevance to key groups."],
+    ["Limitations","20","Discuss the limitations of the scoping review process."],
+    ["Conclusions","21","Provide a general interpretation of the results with respect to the review questions and objectives, as well as potential implications and/or next steps."],
+    "FUNDING",
+    ["Funding","22","Describe sources of funding for the included sources of evidence, as well as sources of funding for the scoping review. Describe the role of the funders of the scoping review."]
+  ];
+  // Footnotes: <em>…</em> = italics, [[label|url]] = link
+  const TITLE = "Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) Checklist";
+  const NOTES = [
+    "JBI = Joanna Briggs Institute; PRISMA-ScR = Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Scoping Reviews.",
+    "* Where <em>sources of evidence</em> (see second footnote) are compiled from, such as bibliographic databases, social media platforms, and Web sites.",
+    "† A more inclusive/heterogeneous term used to account for the different types of evidence or data sources (e.g., quantitative and/or qualitative research, expert opinion, and policy documents) that may be eligible in a scoping review as opposed to only studies. This is not to be confused with <em>information sources</em> (see first footnote).",
+    "‡ The frameworks by Arksey and O’Malley (6) and Levac and colleagues (7) and the JBI guidance (4, 5) refer to the process of data extraction in a scoping review as data charting.",
+    "§ The process of systematically examining research evidence to assess its validity, results, and relevance before using it to inform a decision. This term is used for items 12 and 19 instead of “risk of bias” (which is more applicable to systematic reviews of interventions) to include and acknowledge the various sources of evidence that may be used in a scoping review (e.g., quantitative and/or qualitative research, expert opinion, and policy document)."
+  ];
+  const CITE = "<em>From:</em> Tricco AC, Lillie E, Zarin W, O’Brien KK, Colquhoun H, Levac D, et al. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Ann Intern Med. 2018;169:467–473. [[doi: 10.7326/M18-0850|https://doi.org/10.7326/M18-0850]]";
+
+  const STORE = "prisma-scr-checklist-v1";
+  const html = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    const [topic, item, text] = r;
+    return `<tr><td class="topic">${topic}</td><td class="item">${item}</td><td class="txt">${text}</td>` +
+      `<td class="pg"><input type="text" data-key="p${item}" placeholder="page no." aria-label="Reported on page, item ${item}"></td></tr>`;
+  }).join("");
+  document.getElementById("tp-foot").innerHTML =
+    NOTES.map(n => `<p>${html(n)}</p>`).join("") + `<p class="cite">${html(CITE)}</p>`;
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA-ScR checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the review title?")) {
+      fields().forEach(i => i.value = ""); save();
+    }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, eqLogo, title, notes, cite) {
+    const F = "Arial", SZ = 18, W = [2000, 700, 6466, 1300], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 8, color: "222222" };
+    const borders = { top: ln, bottom: ln, left: ln, right: ln };
+    const dotted = { style: D.BorderStyle.DOTTED, size: 4, color: "444444" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, color: o.color });
+    // "text <em>italic</em> [[label|url]]" -> runs (italics + hyperlinks)
+    const runs = (text, o = {}) => text.split(/(\[\[.*?\|.*?\]\]|<em>.*?<\/em>)/g).filter(Boolean).map(part => {
+      let m;
+      if ((m = part.match(/^\[\[(.*?)\|(.*?)\]\]$/)))
+        return new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] });
+      if ((m = part.match(/^<em>(.*?)<\/em>$/))) return run(m[1], { ...o, italics: true });
+      return run(part, o);
+    });
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? W.slice(i, i + o.span).reduce((a, b) => a + b) : W[i], type: D.WidthType.DXA },
+      columnSpan: o.span, verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 },
+      borders: o.dotted ? { ...borders, top: dotted, bottom: dotted } : borders,
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "2F5F98", color: "FFFFFF", bold: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "SECTION", hd), cell(1, "ITEM", { ...hd, center: true }),
+      cell(2, "PRISMA-ScR CHECKLIST ITEM", hd), cell(3, "REPORTED ON PAGE #", { ...hd, center: true })] });
+    const body = ROWS.map(r => {
+      if (typeof r === "string") return new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: 4, fill: "D3E0F0", bold: true, keepNext: true })] });
+      return new D.TableRow({ cantSplit: true, children: [
+        cell(0, r[0], { top: true }),
+        cell(1, r[1], { center: true }),
+        cell(2, r[2], { dotted: true }),
+        cell(3, vals["p" + r[1]] || "", { center: true })] });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 60 }, ...o, children });
+    // read a PNG's pixel size from its header so the logo keeps its true aspect ratio
+    const img = (data, w) => {
+      let h = Math.round(w / 3);
+      try { const dv = new DataView(data.buffer, data.byteOffset, data.byteLength); h = Math.round(w * dv.getUint32(20) / dv.getUint32(16)); } catch (e) {}
+      return new D.ImageRun({ data, type: "png", transformation: { width: w, height: h } });
+    };
+    const top = [];
+    if (eqLogo) top.push(para([img(eqLogo, 140)], { alignment: D.AlignmentType.RIGHT }));
+    top.push(para([run(title, { size: 22, bold: true })], { spacing: { after: 80 } }));
+    top.push(para([run("Review title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    const foot = [...notes.map(n => para(runs(n, { size: 16 }), { spacing: { after: 40 } })),
+                  para(runs(cite, { size: 16 }), { spacing: { before: 140 } })];
+    return new D.Document({
+      title: "PRISMA-ScR checklist", creator: "PRISMA-ScR checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top,
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para([], { spacing: { after: 60 } }), ...foot]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, eqLogo, TITLE, NOTES, CITE));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "PRISMA-ScR-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
