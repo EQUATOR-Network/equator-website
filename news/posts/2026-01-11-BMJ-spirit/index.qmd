@@ -5,7 +5,7 @@ date: 2026-11-01
 categories: [Research, SPIRIT, Peer review, Reporting guidelines, UK EQUATOR Centre]
 ---
 
-A new randomised controlled trial published in *The BMJ* on 20 October 2026 has found that asking authors to use a manuscript template based on [SPIRIT](/reporting-guidelines/spirit/) (Standard Protocol Items: Recommendations for Interventional Trials) 2025 modestly improved the completeness of reporting in randomised trial protocols. Led by Dr David Blanco (Universitat Internacional de Catalunya) and Dr Sara Schroter (BMJ), with co-authors including [UK EQUATOR Centre](/about/uk-equator-centre/) Director Professor [Gary Collins](/about/people/gcollins.qmd) and Dr [James Harwood](/about/people/jharwood.qmd), the study was carried out within the peer review process of *BMJ Open* and did not extend the time authors took to revise their manuscripts.
+A new randomised controlled trial published in *The BMJ* on 20 October 2026 has found that asking authors to use a manuscript template based on [SPIRIT](/reporting-guidelines/spirit/) (Standard Protocol Items: Recommendations for Interventional Trials) 2025 modestly improved the completeness of reporting in randomised trial protocols. Led by Dr David Blanco (Universitat Internacional de Catalunya) and Dr Sara Schroter (BMJ), with co-authors including [UK EQUATOR Centre](/about/uk-equator-centre.qmd) Director Professor [Gary Collins](/about/people/gcollins.qmd) and Dr [James Harwood](/about/people/jharwood.qmd), the study was carried out within the peer review process of *BMJ Open* and did not extend the time authors took to revise their manuscripts.
 
 ## About the study
 
