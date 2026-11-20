@@ -7,13 +7,18 @@ listing:
     contents: "*/index.qmd"
     type: table
     table-striped: true
-    filter-ui: [title, acronym, study-type, clinical-specialty, report-section]
+    filter-ui: [title, date-registered]
+    #sort-ui: [title, date-registered, data-updated]
     sort:
         - title
-        - acronym
     fields: 
         - title
-        - year-registered
+        #- year-registered
+        - date-registered
         - date-updated
+    field-display-names: 
+      title: "Title"
+      date-registered: "Date registered"
+      date-updated: "Date updated"
     categories: true
 ---
