@@ -1,0 +1,254 @@
+---
+pagetitle: "SWiM checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#b5541c; --head:#b5541c; --sect:#f7e1d3; --box:#fdf3ec; --boxline:#e3b697; --line:#222;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) and Word file */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin:0 0 .6rem auto; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; margin:.2rem 0 .4rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap .tp-intro { font-size:13px; line-height:1.4; margin:0 0 .8rem; }
+  #tp-wrap .tp-intro p { margin:0 0 .35rem; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1.5px solid var(--line); padding:3px 6px; vertical-align:middle; }
+  #tp-wrap td.txt { border-top:1px dotted #444; border-bottom:1px dotted #444; }
+  #tp-wrap td.txt p { margin:0 0 .4em; }
+  #tp-wrap td.txt > :last-child { margin-bottom:0; }
+  #tp-wrap thead th { background:var(--head); color:#fff; font-weight:bold; text-align:left; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:19%; vertical-align:top; }
+  #tp-wrap td.pg { width:14%; padding:3px; }
+  #tp-wrap td.ot { width:18%; padding:3px; }
+  #tp-wrap td.pg input, #tp-wrap td.ot input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover, #tp-wrap td.ot input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus, #tp-wrap td.ot input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#a57657; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { margin-top:.8rem; font-size:12.5px; line-height:1.4; }
+  #tp-wrap .tp-foot p { margin:0 0 .3rem; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #b5541c; background:#b5541c; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#b5541c; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-intro { font-size:10px; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap td.pg input, #tp-wrap td.ot input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap .tp-foot { font-size:9px; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  <div class="tp-title">Synthesis Without Meta-analysis (SWiM) reporting items</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the “Page in manuscript” column. If the information is not in the review itself, use the “Other*” column to say where it can be found. Then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Review title: <input type="text" id="tp-title" data-key="title" placeholder="Type your review title here"></label></div>
+  <div class="tp-intro">
+    <p>The citation for the Synthesis Without Meta-analysis explanation and elaboration article is: Campbell M, McKenzie JE, Sowden A, Katikireddi SV, Brennan SE, Ellis S, Hartmann-Boyce J, Ryan R, Shepperd S, Thomas J, Welch V, Thomson H. Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline. <em>BMJ</em> 2020;368:l6890. <a href="https://doi.org/10.1136/bmj.l6890" target="_blank" rel="noopener">doi:10.1136/bmj.l6890</a></p>
+    <p>SWiM is intended to complement and be used as an extension to PRISMA</p>
+  </div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>SWiM reporting item</th><th>Item description</th>
+      <th class="c">Page in manuscript where item is reported<span class="tp-hint">type page no. in the boxes below</span></th>
+      <th class="c">Other*<span class="tp-hint">where else it is available</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="tp-foot" id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // [item label, key, description]; label "" = continuation row; plain strings = section bars.
+  // description = string, or a list of paragraphs. <b>…</b> = bold.
+  const ROWS = [
+    "Methods",
+    ["<b>1</b> Grouping studies for synthesis", "1a", "1a) Provide a description of, and rationale for, the groups used in the synthesis (e.g., groupings of populations, interventions, outcomes, study design)"],
+    ["", "1b", "1b) Detail and provide rationale for any changes made subsequent to the protocol in the groups used in the synthesis"],
+    ["<b>2</b> Describe the standardised metric and transformation methods used", "2", "Describe the standardised metric for each outcome. Explain why the metric(s) was chosen, and describe any methods used to transform the intervention effects, as reported in the study, to the standardised metric, citing any methodological guidance consulted"],
+    ["<b>3</b> Describe the synthesis methods", "3", "Describe and justify the methods used to synthesise the effects for each outcome when it was not possible to undertake a meta-analysis of effect estimates"],
+    ["<b>4</b> Criteria used to prioritise results for summary and synthesis", "4", "Where applicable, provide the criteria used, with supporting justification, to select the particular studies, or a particular study, for the main synthesis or to draw conclusions from the synthesis (e.g., based on study design, risk of bias assessments, directness in relation to the review question)"],
+    ["<b>5</b> Investigation of heterogeneity in reported effects", "5", "State the method(s) used to examine heterogeneity in reported effects when it was not possible to undertake a meta-analysis of effect estimates and its extensions to investigate heterogeneity"],
+    ["<b>6</b> Certainty of evidence", "6", "Describe the methods used to assess certainty of the synthesis findings"],
+    ["<b>7</b> Data presentation methods", "7", ["Describe the graphical and tabular methods used to present the effects (e.g., tables, forest plots, harvest plots).", "Specify key study characteristics (e.g., study design, risk of bias) used to order the studies, in the text and any tables or graphs, clearly referencing the studies included"]],
+    "Results",
+    ["<b>8</b> Reporting results", "8", "For each comparison and outcome, provide a description of the synthesised findings, and the certainty of the findings. Describe the result in language that is consistent with the question the synthesis addresses, and indicate which studies contribute to the synthesis"],
+    "Discussion",
+    ["<b>9</b> Limitations of the synthesis", "9", "Report the limitations of the synthesis methods used and/or the groupings used in the synthesis, and how these affect the conclusions that can be drawn in relation to the original review question"]
+  ];
+  const TITLE = "Synthesis Without Meta-analysis (SWiM) reporting items";
+  const CITE_PRE = "The citation for the Synthesis Without Meta-analysis explanation and elaboration article is: Campbell M, McKenzie JE, Sowden A, Katikireddi SV, Brennan SE, Ellis S, Hartmann-Boyce J, Ryan R, Shepperd S, Thomas J, Welch V, Thomson H. Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline. BMJ 2020;368:l6890. ";
+  const CITE_LINK = { label: "doi:10.1136/bmj.l6890", url: "https://doi.org/10.1136/bmj.l6890" };
+  const INTRO2 = "SWiM is intended to complement and be used as an extension to PRISMA";
+  const NOTES = [
+    "PRISMA=Preferred Reporting Items for Systematic Reviews and Meta-Analyses.",
+    "*If the information is not provided in the systematic review, give details of where this information is available (e.g., protocol, other published papers (provide citation details), or website (provide the URL))."
+  ];
+
+  const STORE = "swim-checklist-v1";
+  const blocks = c => (Array.isArray(c) ? c : [c]).map(b => "<p>" + b + "</p>").join("");
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    const [label, key, content] = r;
+    return `<tr><td class="topic">${label}</td><td class="txt">${blocks(content)}</td>` +
+      `<td class="pg"><input type="text" data-key="p${key}" placeholder="page no." aria-label="Page in manuscript, item ${key}"></td>` +
+      `<td class="ot"><input type="text" data-key="o${key}" placeholder="if elsewhere" aria-label="Other location, item ${key}"></td></tr>`;
+  }).join("");
+  const foot = document.getElementById("tp-foot");
+  NOTES.forEach(n => { const p = document.createElement("p"); p.textContent = n; foot.appendChild(p); });
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "SWiM checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all entries and the review title?")) {
+      fields().forEach(i => i.value = ""); save();
+    }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, eqLogo, title, citePre, citeLink, intro2, notes) {
+    const F = "Arial", SZ = 17, W = [1900, 5266, 1650, 1650], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 8, color: "222222" };
+    const borders = { top: ln, bottom: ln, left: ln, right: ln };
+    const dotted = { style: D.BorderStyle.DOTTED, size: 4, color: "444444" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, color: o.color });
+    // "text <b>bold</b> text" -> runs
+    const runs = (text, o = {}) => text.split(/(<b>.*?<\/b>)/g).filter(Boolean).map(part => {
+      const m = part.match(/^<b>(.*?)<\/b>$/);
+      return m ? run(m[1], { ...o, bold: true }) : run(part, o);
+    });
+    const lines = c => (Array.isArray(c) ? c : [c]).map(t => ({ t }));
+    const one = t => [{ t }];
+    const cell = (i, ls, o = {}) => new D.TableCell({
+      width: { size: o.span ? W.slice(i, i + o.span).reduce((a, b) => a + b) : W[i], type: D.WidthType.DXA },
+      columnSpan: o.span, verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      ...(o.fill ? { shading: { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } } : {}),
+      margins: { top: 40, bottom: 40, left: 90, right: 90 },
+      borders: o.dotted ? { ...borders, top: dotted, bottom: dotted } : borders,
+      children: ls.map((l, k) => new D.Paragraph({
+        keepNext: o.keepNext, spacing: { after: k < ls.length - 1 ? 60 : 0 },
+        alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT,
+        children: runs(l.t, o) }))
+    });
+    const hd = { fill: "B5541C", color: "FFFFFF", bold: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, one("SWiM reporting item"), hd), cell(1, one("Item description"), hd),
+      cell(2, one("Page in manuscript where item is reported"), { ...hd, center: true }),
+      cell(3, one("Other*"), { ...hd, center: true })] });
+    const body = ROWS.map(r => {
+      if (typeof r === "string") return new D.TableRow({ cantSplit: true, children: [cell(0, one(r), { span: 4, fill: "F7E1D3", bold: true, keepNext: true })] });
+      const [label, key, content] = r;
+      return new D.TableRow({ cantSplit: true, children: [
+        cell(0, one(label), { top: true }),
+        cell(1, lines(content), { dotted: true }),
+        cell(2, one(vals["p" + key] || ""), { center: true }),
+        cell(3, one(vals["o" + key] || ""), { center: true })] });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 60 }, ...o, children });
+    // read a PNG's pixel size from its header so the logo keeps its true aspect ratio
+    const img = (data, w) => {
+      let h = Math.round(w / 3);
+      try { const dv = new DataView(data.buffer, data.byteOffset, data.byteLength); h = Math.round(w * dv.getUint32(20) / dv.getUint32(16)); } catch (e) {}
+      return new D.ImageRun({ data, type: "png", transformation: { width: w, height: h } });
+    };
+    const top = [];
+    if (eqLogo) top.push(para([img(eqLogo, 140)], { alignment: D.AlignmentType.RIGHT }));
+    top.push(para([run(title, { size: 22, bold: true })], { spacing: { after: 80 } }));
+    top.push(para([run("Review title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    top.push(para([run(citePre, { size: 16 }),
+      new D.ExternalHyperlink({ link: citeLink.url, children: [new D.TextRun({ text: citeLink.label, font: F, size: 16, color: "0563C1", underline: {} })] })]));
+    top.push(para([run(intro2, { size: 16 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "SWiM checklist", creator: "SWiM checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top,
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para([], { spacing: { after: 60 } }),
+          ...notes.map(n => para([run(n, { size: 16 })], { spacing: { after: 40 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, eqLogo, TITLE, CITE_PRE, CITE_LINK, INTRO2, NOTES));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "SWiM-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

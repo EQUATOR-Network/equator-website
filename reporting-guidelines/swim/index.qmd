@@ -1,20 +1,18 @@
 ---
 # REQUIRED FIELDS
 title: 'Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline'
+aliases:
+  - /reporting-guidelines/synthesis-without-meta-analysis-swim-in-systematic-reviews-reporting-guideline
 acronym: SWiM
 provided-for: Reporting synthesis without meta-analysis in systematic reviews of interventions.
 rg-doi: ''
 pmid-id: '[31948937](https://www.ncbi.nlm.nih.gov/pubmed/31948937)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/31948937
 relevant-urls: |-
-  The full-text of the SWiM guideline is freely available at:
-
-  <https://www.bmj.com/content/368/bmj.l6890>
-full-bibliographic-reference: 'Campbell M, McKenzie JE, Sowden A, Katikireddi SV,
-  Brennan SE, Ellis S, Hartmann-Boyce J, Ryan R, Shepperd S, Thomas J, Welch V, Thomson
-  H. Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline.
-  BMJ 2020;368:l6890.'
-
+  Read the [full text](https://doi.org/10.1136/bmj.l6890) of SWiM \
+  
+  Complete an interactive [SWiM checklist](swim-checklist.qmd), which you can save and upload when submitting your paper to a journal.
+full-bibliographic-reference: 'Campbell M, McKenzie JE, Sowden A, Katikireddi SV, Brennan SE, Ellis S, Hartmann-Boyce J, Ryan R, Shepperd S, Thomas J, Welch V, Thomson H. Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline. BMJ 2020;368:l6890. PMID: [31948937](https://www.ncbi.nlm.nih.gov/pubmed/31948937) [full text](https://doi.org/10.1136/bmj.l6890)'
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -31,7 +29,6 @@ other-relevant-research: ''
 sticky: false
 downloads: '[SWiM checklist (Word)](Synthesis-without-Meta-analysis-SWiM-Checklist.docx)  [SWiM
   checklist (PDF)](Synthesis-without-Meta-analysis-SWiM-Checklist.pdf)'
-
 
 # LIST FIELDS
 study-design:
