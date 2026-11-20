@@ -1,0 +1,267 @@
+---
+pagetitle: "PRISMA-IPD checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#7b3f8f; --head:#7b3f8f; --sect:#eadcf0; --box:#f6eefa; --boxline:#c3a0d3; --line:#222;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) and Word file */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin:0 0 .6rem auto; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; margin:.2rem 0 .4rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1.5px solid var(--line); padding:3px 6px; vertical-align:middle; }
+  #tp-wrap td.txt { border-top:1px dotted #444; border-bottom:1px dotted #444; }
+  #tp-wrap td.txt p { margin:0 0 .4em; }
+  #tp-wrap td.txt ul { margin:.1em 0 .3em; padding-left:1.2em; }
+  #tp-wrap td.txt li { margin:0 0 .15em; }
+  #tp-wrap td.txt > :last-child { margin-bottom:0; }
+  #tp-wrap thead th { background:var(--head); color:#fff; font-weight:bold; text-align:left; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:17%; vertical-align:top; }
+  #tp-wrap td.item { width:6%; text-align:center; }
+  #tp-wrap td.pg { width:11%; padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#9a73aa; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { margin-top:.8rem; font-size:12.5px; line-height:1.4; }
+  #tp-wrap .tp-foot p { margin:0 0 .3rem; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #7b3f8f; background:#7b3f8f; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#7b3f8f; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap .tp-title { font-size:14px; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap .tp-foot { font-size:9px; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  <div class="tp-title">PRISMA-IPD Checklist of items to include when reporting a systematic review and meta-analysis of individual participant data (IPD)</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Review title: <input type="text" id="tp-title" data-key="title" placeholder="Type your review title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section/topic</th><th class="c">Item No</th><th>Checklist item</th>
+      <th class="c">Reported on page<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="tp-foot" id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // [topic, item, content]; topic "" = continuation row; plain strings = section bars.
+  // content = string, or a list of blocks: a string is a paragraph, a nested list is a bulleted list. <b>…</b> = bold.
+  const ROWS = [
+    "Title",
+    ["Title", "1", "Identify the report as a systematic review and meta-analysis of individual participant data."],
+    "Abstract",
+    ["Structured summary", "2", ["Provide a structured summary including as applicable:", "<b>Background:</b> state research question and main objectives, with information on participants, interventions, comparators and outcomes.", "<b>Methods:</b> report eligibility criteria; data sources including dates of last bibliographic search or elicitation, noting that IPD were sought; methods of assessing risk of bias.", "<b>Results:</b> provide number and type of studies and participants identified and number (%) obtained; summary effect estimates for main outcomes (benefits and harms) with confidence intervals and measures of statistical heterogeneity. Describe the direction and size of summary effects in terms meaningful to those who would put findings into practice.", "<b>Discussion:</b> state main strengths and limitations of the evidence, general interpretation of the results and any important implications.", "<b>Other:</b> report primary funding source, registration number and registry name for the systematic review and IPD meta-analysis."]],
+    "Introduction",
+    ["Rationale", "3", "Describe the rationale for the review in the context of what is already known."],
+    ["Objectives", "4", "Provide an explicit statement of the questions being addressed with reference, as applicable, to participants, interventions, comparisons, outcomes and study design (PICOS). Include any hypotheses that relate to particular types of participant-level subgroups."],
+    "Methods",
+    ["Protocol and registration", "5", "Indicate if a protocol exists and where it can be accessed. If available, provide registration information including registration number and registry name. Provide publication details, if applicable."],
+    ["Eligibility criteria", "6", "Specify inclusion and exclusion criteria including those relating to participants, interventions, comparisons, outcomes, study design and characteristics (e.g. years when conducted, required minimum follow-up). Note whether these were applied at the study or individual level i.e. whether eligible participants were included (and ineligible participants excluded) from a study that included a wider population than specified by the review inclusion criteria. The rationale for criteria should be stated."],
+    ["Identifying studies - information sources", "7", "Describe all methods of identifying published and unpublished studies including, as applicable: which bibliographic databases were searched with dates of coverage; details of any hand searching including of conference proceedings; use of study registers and agency or company databases; contact with the original research team and experts in the field; open adverts and surveys. Give the date of last search or elicitation."],
+    ["Identifying studies - search", "8", "Present the full electronic search strategy for at least one database, including any limits used, such that it could be repeated."],
+    ["Study selection processes", "9", "State the process for determining which studies were eligible for inclusion."],
+    ["Data collection processes", "10", ["Describe how IPD were requested, collected and managed, including any processes for querying and confirming data with investigators. If IPD were not sought from any eligible study, the reason for this should be stated (for each such study).", "If applicable, describe how any studies for which IPD were not available were dealt with. This should include whether, how and what aggregate data were sought or extracted from study reports and publications (such as extracting data independently in duplicate) and any processes for obtaining and confirming these data with investigators."]],
+    ["Data items", "11", "Describe how the information and variables to be collected were chosen. List and define all study level and participant level data that were sought, including baseline and follow-up information. If applicable, describe methods of standardising or translating variables within the IPD datasets to ensure common scales or measurements across studies."],
+    ["IPD integrity", "A1", "Describe what aspects of IPD were subject to data checking (such as sequence generation, data consistency and completeness, baseline imbalance) and how this was done."],
+    ["Risk of bias assessment in individual studies", "12", "Describe methods used to assess risk of bias in the individual studies and whether this was applied separately for each outcome. If applicable, describe how findings of IPD checking were used to inform the assessment. Report if and how risk of bias assessment was used in any data synthesis."],
+    ["Specification of outcomes and effect measures", "13", "State all treatment comparisons of interests. State all outcomes addressed and define them in detail. State whether they were pre-specified for the review and, if applicable, whether they were primary/main or secondary/additional outcomes. Give the principal measures of effect (such as risk ratio, hazard ratio, difference in means) used for each outcome."],
+    ["Synthesis methods", "14", ["Describe the meta-analysis methods used to synthesise IPD. Specify any statistical methods and models used. Issues should include (but are not restricted to):", ["Use of a one-stage or two-stage approach.", "How effect estimates were generated separately within each study and combined across studies (where applicable).", "Specification of one-stage models (where applicable) including how clustering of patients within studies was accounted for.", "Use of fixed or random effects models and any other model assumptions, such as proportional hazards.", "How (summary) survival curves were generated (where applicable).", "Methods for quantifying statistical heterogeneity (such as I² and τ²).", "How studies providing IPD and not providing IPD were analysed together (where applicable).", "How missing data within the IPD were dealt with (where applicable)."]]],
+    ["Exploration of variation in effects", "A2", "If applicable, describe any methods used to explore variation in effects by study or participant level characteristics (such as estimation of interactions between effect and covariates). State all participant-level characteristics that were analysed as potential effect modifiers, and whether these were pre-specified."],
+    ["Risk of bias across studies", "15", "Specify any assessment of risk of bias relating to the accumulated body of evidence, including any pertaining to not obtaining IPD for particular studies, outcomes or other variables."],
+    ["Additional analyses", "16", "Describe methods of any additional analyses, including sensitivity analyses. State which of these were pre-specified."],
+    "Results",
+    ["Study selection and IPD obtained", "17", "Give numbers of studies screened, assessed for eligibility, and included in the systematic review with reasons for exclusions at each stage. Indicate the number of studies and participants for which IPD were sought and for which IPD were obtained. For those studies where IPD were not available, give the numbers of studies and participants for which aggregate data were available. Report reasons for non-availability of IPD. Include a flow diagram."],
+    ["Study characteristics", "18", "For each study, present information on key study and participant characteristics (such as description of interventions, numbers of participants, demographic data, unavailability of outcomes, funding source, and if applicable duration of follow-up). Provide (main) citations for each study. Where applicable, also report similar study characteristics for any studies not providing IPD."],
+    ["IPD integrity", "A3", "Report any important issues identified in checking IPD or state that there were none."],
+    ["Risk of bias within studies", "19", "Present data on risk of bias assessments. If applicable, describe whether data checking led to the up-weighting or downweighting of these assessments. Consider how any potential bias impacts on the robustness of meta-analysis conclusions."],
+    ["Results of individual studies", "20", "For each comparison and for each main outcome (benefit or harm), for each individual study report the number of eligible participants for which data were obtained and show simple summary data for each intervention group (including, where applicable, the number of events), effect estimates and confidence intervals. These may be tabulated or included on a forest plot."],
+    ["Results of syntheses", "21", ["Present summary effects for each meta-analysis undertaken, including confidence intervals and measures of statistical heterogeneity. State whether the analysis was pre-specified, and report the numbers of studies and participants and, where applicable, the number of events on which it is based.", "When exploring variation in effects due to patient or study characteristics, present summary interaction estimates for each characteristic examined, including confidence intervals and measures of statistical heterogeneity. State whether the analysis was pre-specified. State whether any interaction is consistent across trials.", "Provide a description of the direction and size of effect in terms meaningful to those who would put findings into practice."]],
+    ["Risk of bias across studies", "22", "Present results of any assessment of risk of bias relating to the accumulated body of evidence, including any pertaining to the availability and representativeness of available studies, outcomes or other variables."],
+    ["Additional analyses", "23", "Give results of any additional analyses (e.g. sensitivity analyses). If applicable, this should also include any analyses that incorporate aggregate data for studies that do not have IPD. If applicable, summarise the main meta-analysis results following the inclusion or exclusion of studies for which IPD were not available."],
+    "Discussion",
+    ["Summary of evidence", "24", "Summarise the main findings, including the strength of evidence for each main outcome."],
+    ["Strengths and limitations", "25", "Discuss any important strengths and limitations of the evidence including the benefits of access to IPD and any limitations arising from IPD that were not available."],
+    ["Conclusions", "26", "Provide a general interpretation of the findings in the context of other evidence."],
+    ["Implications", "A4", "Consider relevance to key groups (such as policy makers, service providers and service users). Consider implications for future research."],
+    "Funding",
+    ["Funding", "27", "Describe sources of funding and other support (such as supply of IPD), and the role in the systematic review of those providing such support."]
+  ];
+  const TITLE = "PRISMA-IPD Checklist of items to include when reporting a systematic review and meta-analysis of individual participant data (IPD)";
+  const NOTES = [
+    "A1 – A3 denote new items that are additional to standard PRISMA items. A4 has been created as a result of re-arranging content of the standard PRISMA statement to suit the way that systematic review IPD meta-analyses are reported.",
+    "© Reproduced with permission of the PRISMA IPD Group, which encourages sharing and reuse for non-commercial purposes"
+  ];
+
+  const STORE = "prisma-ipd-checklist-v1";
+  const blocks = c => (Array.isArray(c) ? c : [c]).map(b =>
+    Array.isArray(b) ? "<ul>" + b.map(x => "<li>" + x + "</li>").join("") + "</ul>" : "<p>" + b + "</p>").join("");
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    const [topic, item, content] = r;
+    return `<tr><td class="topic">${topic}</td><td class="item">${item}</td><td class="txt">${blocks(content)}</td>` +
+      `<td class="pg"><input type="text" data-key="p${item}" placeholder="page no." aria-label="Reported on page, item ${item}"></td></tr>`;
+  }).join("");
+  const foot = document.getElementById("tp-foot");
+  NOTES.forEach(n => { const p = document.createElement("p"); p.textContent = n; foot.appendChild(p); });
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA-IPD checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the review title?")) {
+      fields().forEach(i => i.value = ""); save();
+    }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, eqLogo, title, notes) {
+    const F = "Arial", SZ = 17, W = [1700, 650, 6816, 1300], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 8, color: "222222" };
+    const borders = { top: ln, bottom: ln, left: ln, right: ln };
+    const dotted = { style: D.BorderStyle.DOTTED, size: 4, color: "444444" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, color: o.color });
+    // "text <b>bold</b> text" -> runs
+    const runs = (text, o = {}) => text.split(/(<b>.*?<\/b>)/g).filter(Boolean).map(part => {
+      const m = part.match(/^<b>(.*?)<\/b>$/);
+      return m ? run(m[1], { ...o, bold: true }) : run(part, o);
+    });
+    // flatten content into lines: a string is a paragraph, a nested list becomes bullets
+    const lines = c => (Array.isArray(c) ? c : [c]).flatMap(b => Array.isArray(b) ? b.map(t => ({ t, bullet: true })) : [{ t: b }]);
+    const cell = (i, ls, o = {}) => new D.TableCell({
+      width: { size: o.span ? W.slice(i, i + o.span).reduce((a, b) => a + b) : W[i], type: D.WidthType.DXA },
+      columnSpan: o.span, verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      ...(o.fill ? { shading: { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } } : {}),
+      margins: { top: 40, bottom: 40, left: 90, right: 90 },
+      borders: o.dotted ? { ...borders, top: dotted, bottom: dotted } : borders,
+      children: ls.map((l, k) => new D.Paragraph({
+        keepNext: o.keepNext, spacing: { after: k < ls.length - 1 ? 60 : 0 },
+        alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT,
+        ...(l.bullet ? { indent: { left: 260, hanging: 200 } } : {}),
+        children: runs((l.bullet ? "• " : "") + l.t, o) }))
+    });
+    const one = t => [{ t }];
+    const hd = { fill: "7B3F8F", color: "FFFFFF", bold: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, one("Section/topic"), hd), cell(1, one("Item No"), { ...hd, center: true }),
+      cell(2, one("Checklist item"), hd), cell(3, one("Reported on page"), { ...hd, center: true })] });
+    const body = ROWS.map(r => {
+      if (typeof r === "string") return new D.TableRow({ cantSplit: true, children: [cell(0, one(r), { span: 4, fill: "EADCF0", bold: true, keepNext: true })] });
+      return new D.TableRow({ cantSplit: true, children: [
+        cell(0, one(r[0]), { top: true }),
+        cell(1, one(r[1]), { center: true }),
+        cell(2, lines(r[2]), { dotted: true }),
+        cell(3, one(vals["p" + r[1]] || ""), { center: true })] });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 60 }, ...o, children });
+    // read a PNG's pixel size from its header so the logo keeps its true aspect ratio
+    const img = (data, w) => {
+      let h = Math.round(w / 3);
+      try { const dv = new DataView(data.buffer, data.byteOffset, data.byteLength); h = Math.round(w * dv.getUint32(20) / dv.getUint32(16)); } catch (e) {}
+      return new D.ImageRun({ data, type: "png", transformation: { width: w, height: h } });
+    };
+    const top = [];
+    if (eqLogo) top.push(para([img(eqLogo, 140)], { alignment: D.AlignmentType.RIGHT }));
+    top.push(para([run(title, { size: 22, bold: true })], { spacing: { after: 80 } }));
+    top.push(para([run("Review title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "PRISMA-IPD checklist", creator: "PRISMA-IPD checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top,
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para([], { spacing: { after: 60 } }),
+          ...notes.map(n => para([run(n, { size: 16 })], { spacing: { after: 40 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, eqLogo, TITLE, NOTES));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "PRISMA-IPD-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
