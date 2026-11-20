@@ -3,13 +3,15 @@
 title: 'Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR) : checklist and explanation'
 acronym: PRISMA-LSR
 provided-for: Reporting living systematic reviews (LSRs).
-rg-doi: ''
+rg-doi: '10.1136/bmj-2024-079183'
 pmid-id: '[39562017](https://pubmed.ncbi.nlm.nih.gov/39562017/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39562017/
-relevant-urls: '[Read the full-text](https://www.bmj.com/content/387/bmj-2024-079183)
-  of the PRISMA-LSR reporting guideline.'
-full-bibliographic-reference: 'Akl EA, Khabsa J, Iannizzi C, Piechotta V, Kahale LA, Barker JM, McKenzie JE, Page MJ, Skoetz N; PRISMA-LSR Group. Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR): checklist and explanation. BMJ. 2024;387:e079183.'
-
+relevant-urls: |-
+  Read the [full-text](https://doi.org/10.1136/bmj-2024-079183)
+  of PRISMA-LSR.\
+  
+  Complete an interactive [PRISMA-LSR](prisma-lsr-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
+full-bibliographic-reference: 'Akl EA, Khabsa J, Iannizzi C, Piechotta V, Kahale LA, Barker JM, McKenzie JE, Page MJ, Skoetz N; PRISMA-LSR Group. Extension of the PRISMA 2020 statement for living systematic reviews (PRISMA-LSR): checklist and explanation. BMJ. 2024;387:e079183. PMID: [39562017](https://pubmed.ncbi.nlm.nih.gov/39562017/) [full-text](https://doi.org/10.1136/bmj-2024-079183)'
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -93,10 +95,9 @@ other: ''
 other-relevant-research: ''
 sticky: true
 downloads: |-
-  [PRISMA-LSR checklist (Word)](https://www.prisma-statement.org/s/PRISMA-LSR-checklist.docx) [PRISMA-LSR checklist (PDF)](https://www.prisma-statement.org/s/PRISMA-LSR-checklist.pdf)
+  Download the PRISMA-LSR checklist [(PDF)](PRISMA-LSR-checklist.pdf) / [(Word)](PRISMA-LSR-checklist.docx) \
 
   [PRISMA-LSR tailored flow diagram (ShinyApp)](https://estech.shinyapps.io/livingprismaflow)
-
 
 # LIST FIELDS
 study-design:

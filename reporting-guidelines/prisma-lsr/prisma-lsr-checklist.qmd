@@ -1,0 +1,277 @@
+---
+pagetitle: "PRISMA-LSR checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2e7d4f; --head:#2e7d4f; --sect:#d6ebdd; --box:#eef8f1; --boxline:#8fc5a0; --line:#222;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1200px; margin:0 auto; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) and Word file */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin:0 0 .6rem auto; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; margin:.2rem 0 .4rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1.5px solid var(--line); padding:3px 6px; vertical-align:top; }
+  #tp-wrap thead th { background:var(--head); color:#fff; font-weight:bold; text-align:left; vertical-align:middle; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:11%; }
+  #tp-wrap td.pr { width:30%; }
+  #tp-wrap td.lsr { width:12%; }
+  #tp-wrap td.el { width:34%; }
+  #tp-wrap td.el ul { margin:0; padding-left:1.1em; }
+  #tp-wrap td.el li { margin:0 0 .25em; }
+  #tp-wrap td.pg { width:10%; padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#5f9a76; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { margin-top:.8rem; font-size:12.5px; line-height:1.4; }
+  #tp-wrap .tp-foot p { margin:0 0 .3rem; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2e7d4f; background:#2e7d4f; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2e7d4f; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap .tp-title { font-size:14px; }
+    #tp-wrap table { font-size:9.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap .tp-foot { font-size:8.5px; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  <div class="tp-title">Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Living Systematic Reviews (PRISMA-LSR) Checklist</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column (one box per row), then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Review title: <input type="text" id="tp-title" data-key="title" placeholder="Type your review title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section and topic</th><th>PRISMA 2020 checklist items*</th><th>PRISMA-LSR checklist items</th><th>PRISMA-LSR checklist elements</th>
+      <th class="c">Reported on page #<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div class="tp-foot" id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // [topic, PRISMA 2020 item, PRISMA-LSR item, [PRISMA-LSR elements], key]; plain strings = section bars.
+  const ROWS = [
+    "Title",
+    ["Title", "1. Identify the report as a systematic review", "", ["Identify the report as “living” in the title†", "Provide the version number"], "1"],
+    "Abstract",
+    ["Abstract", "2. See PRISMA 2020 for abstracts checklist", "", ["Indicate whether the LSR is being retired from the living mode after the publication of the current version, if applicable"], "2"],
+    "Introduction",
+    ["Rationale", "3. Describe the rationale for the review in the context of existing knowledge", "", ["Justify the use of the living mode", "Cite the preceding version of the LSR, if applicable"], "3"],
+    ["Objectives", "4. Provide an explicit statement of the objective(s) or question(s) the review addresses", "", ["Describe and justify any changes since the preceding version to the review’s objective(s) or question(s)"], "4"],
+    "Methods",
+    ["Living mode parameters", "", "L1. Specify the living mode parameters", ["Specify the planned schedule of the search for each source (eg, at a prespecified interval, following predefined triggers)", "Specify the planned schedules for the remaining steps of the systematic review (eg, at a prespecified interval, following predefined triggers), if applicable. The remaining steps include screening, data collection, risk of bias assessment, analysis, certainty of evidence assessment, publication", "Specify the plan for retirement from the living mode (eg, based on a prespecified timeline, following predefined triggers), if there is one. If there is no such plan, indicate so"], "L1"],
+    ["Eligibility criteria", "5. Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses", "", [], "5"],
+    ["Information sources", "6. Specify all databases, registers, websites, organisations, reference lists, and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted", "", [], "6"],
+    ["Search strategy", "7. Present the full search strategies for all databases, registers and websites, including any filters and limits used", "", [], "7"],
+    ["Selection process", "8. Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and if applicable, details of automation tools used in the process", "", [], "8"],
+    ["Data collection process", "9. Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process", "", ["Describe whether the review team updated or planned to update collected data for a previously included study when relevant"], "9"],
+    ["Data items", "10a. List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought (eg, for all measures, time points, analyses), and if not, the methods used to decide which results to collect", "", [], "10a"],
+    ["", "10b. List and define all other variables for which data were sought (eg, participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information", "", [], "10b"],
+    ["Study risk of bias assessment", "11. Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and if applicable, details of automation tools used in the process", "", ["Describe whether the review team updated or planned to update risk of bias information for a previously included study when relevant"], "11"],
+    ["Effect measures", "12. Specify for each outcome the effect measure(s) (eg, risk ratio, mean difference) used in the synthesis or presentation of results", "", [], "12"],
+    ["Synthesis methods", "13a. Describe the processes used to decide which studies were eligible for each synthesis (eg, tabulating the study intervention characteristics and comparing against the planned groups for each synthesis—item 5)", "", [], "13a"],
+    ["", "13b. Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions", "", [], "13b"],
+    ["", "13c. Describe any methods used to tabulate or visually display results of individual studies and syntheses", "", [], "13c"],
+    ["", "13d. Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used", "", ["Report any analytical methods applied specifically because of the living mode"], "13d"],
+    ["", "13e. Describe any methods used to explore possible causes of heterogeneity among study results (eg, subgroup analysis, meta-regression)", "", [], "13e"],
+    ["", "13f. Describe any sensitivity analyses conducted to assess robustness of the synthesised results", "", [], "13f"],
+    ["Reporting bias assessment", "14. Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases)", "", [], "14"],
+    ["Certainty assessment", "15. Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome", "", [], "15"],
+    ["Changes to the methods", "", "L2. Describe changes to the methods", ["Describe and justify any changes since the preceding version to the methods (items L1, 5-15)", "If there are no changes to the methods, indicate so", "Indicate whether the changes to the methods were applied to previously included studies"], "L2"],
+    "Results",
+    ["Study selection", "16a. Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram", "", ["Describe what triggered the current version, if applicable", "Ideally, use a flow diagram to illustrate the results of the search and selection processes in the different versions of the review using one of the LSR tailored flow diagrams"], "16a"],
+    ["", "16b. Cite studies that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded", "", [], "16b"],
+    ["Study characteristics", "17. Cite each included study and present its characteristics", "", [], "17"],
+    ["Risk of bias in studies", "18. Present assessments of risk of bias for each included study", "", [], "18"],
+    ["Results of individual studies", "19. For all outcomes, present, for each study: (a) summary statistics for each group (if appropriate) and (b) an effect estimate and its precision (eg, confidence or credible interval), ideally using structured tables or plots", "", [], "19"],
+    ["Results of syntheses", "20a. For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies", "", [], "20a"],
+    ["", "20b. Present results of all statistical syntheses conducted. If meta-analysis was done, present for each the summary estimate and its precision (eg, confidence or credible interval) and measures of statistical heterogeneity. If comparing groups, describe the direction of the effect", "", ["Report results of any analytical methods applied specifically because of the living mode"], "20b"],
+    ["", "20c. Present results of all investigations of possible causes of heterogeneity among study results", "", [], "20c"],
+    ["", "20d. Present results of all sensitivity analyses conducted to assess the robustness of the synthesised results", "", [], "20d"],
+    ["Reporting biases", "21. Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed", "", [], "21"],
+    ["Certainty of evidence", "22. Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed", "", [], "22"],
+    ["Changes to the results", "", "L3. Describe changes to the results", ["Indicate the studies that were included since the preceding version (related to PRISMA 2020 item 17)", "Describe and justify the changes since the preceding version in the eligibility status of any study (ie, excluding a previously included study, including a previously excluded study; related to PRISMA 2020 item 16)", "Describe any other consequential changes since the preceding version to the results", "If there are no changes to the results, indicate so"], "L3"],
+    "Discussion",
+    ["Discussion", "23a. Provide a general interpretation of the results in the context of other evidence", "", [], "23a"],
+    ["", "23b. Discuss any limitations of the evidence included in the review", "", [], "23b"],
+    ["", "23c. Discuss any limitations of the review processes used", "", ["Discuss any limitations related to the living mode"], "23c"],
+    ["", "23d. Discuss implications of the results for practice, policy, and future research", "", ["Describe any changes since the preceding version to the implications of the results for practice, policy, and future research", "Describe and justify any planned changes to review methods in upcoming review versions", "Indicate and justify whether the LSR is being retired from the living mode following the publication of the current version, if applicable"], "23d"],
+    "Other information",
+    ["Registration and protocol", "24a. Provide registration information for the review, including register name and registration number, or state that the review was not registered", "", [], "24a"],
+    ["", "24b. Indicate where the review protocol can be accessed, or state that a protocol was not prepared", "", [], "24b"],
+    ["", "24c. Describe and explain any amendments to information provided at registration or in the protocol‡", "", [], "24c"],
+    ["Support", "25. Describe sources of financial or nonfinancial support for the review, and the role of the funders or sponsors in the review", "", ["Describe the sources of financial or nonfinancial support and the roles of funders or sponsors in each of the versions of the LSR"], "25"],
+    ["Competing interests", "26. Declare any competing interests of review authors", "", ["Describe the competing interests of review authors and how they were managed for each of the versions of the LSR"], "26"],
+    ["Availability of data, code and other materials", "27. Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review", "", ["Describe any changes since the preceding version to the accessibility of data, code and materials"], "27"],
+    ["Authors and their roles for each version of the LSR", "", "L4. Provide the list of authors and their roles for each version of the LSR", [], "L4"]
+  ];
+  const TITLE = "Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Living Systematic Reviews (PRISMA-LSR) Checklist";
+  const NOTES = [
+    "*Elements of the PRISMA 2020 checklist are not listed here. However, they should also be reported if applicable.",
+    "†While PRISMA 2020 item 1 included an additional (ie, non-essential) element to report whether “the review is a continually updated (‘living’) systematic review,” in PRISMA-LSR, this is an essential element.",
+    "‡Item 24c of the PRISMA 2020 checklist is replaced by item L2 of the PRISMA-LSR checklist."
+  ];
+
+  const STORE = "prisma-lsr-checklist-v1";
+  const dash = '<span class="dash">—</span>';
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="5">${r}</td></tr>`;
+    const [topic, pr, lsr, els, key] = r;
+    const elHtml = els.length ? `<ul>${els.map(e => `<li>${e}</li>`).join("")}</ul>` : dash;
+    return `<tr><td class="topic">${topic}</td>` +
+      `<td class="pr${pr ? "" : " c"}">${pr || dash}</td>` +
+      `<td class="lsr${lsr ? "" : " c"}">${lsr || dash}</td>` +
+      `<td class="el${els.length ? "" : " c"}">${elHtml}</td>` +
+      `<td class="pg"><input type="text" data-key="p${key}" placeholder="page no." aria-label="Reported on page, item ${key}"></td></tr>`;
+  }).join("");
+  document.getElementById("tp-foot").innerHTML = NOTES.map(n => `<p>${n}</p>`).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA-LSR checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the review title?")) {
+      fields().forEach(i => i.value = ""); save();
+    }
+  };
+
+  // ---- Word (.docx) export (A4 landscape) -----------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, eqLogo, title, notes) {
+    const F = "Arial", SZ = 16, W = [1500, 4400, 1900, 6098, 1500], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 8, color: "222222" };
+    const borders = { top: ln, bottom: ln, left: ln, right: ln };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, color: o.color });
+    // cell content = array of lines; o.bullets puts a bullet with a hanging indent on each line
+    const cell = (i, lines, o = {}) => new D.TableCell({
+      width: { size: o.span ? W.slice(i, i + o.span).reduce((a, b) => a + b) : W[i], type: D.WidthType.DXA },
+      columnSpan: o.span, verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders,
+      children: lines.map(t => new D.Paragraph({
+        keepNext: o.keepNext, spacing: { after: o.bullets ? 40 : 0 },
+        alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT,
+        indent: o.bullets ? { left: 200, hanging: 200 } : undefined,
+        children: [run((o.bullets ? "• " : "") + t, o)] }))
+    });
+    const hd = { fill: "2E7D4F", color: "FFFFFF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, ["Section and topic"], hd), cell(1, ["PRISMA 2020 checklist items*"], hd),
+      cell(2, ["PRISMA-LSR checklist items"], hd), cell(3, ["PRISMA-LSR checklist elements"], hd),
+      cell(4, ["Reported on page #"], { ...hd, center: true })] });
+    const body = ROWS.map(r => {
+      if (typeof r === "string") return new D.TableRow({ cantSplit: true, children: [cell(0, [r], { span: 5, fill: "D6EBDD", bold: true, keepNext: true })] });
+      const [topic, pr, lsr, els, key] = r;
+      return new D.TableRow({ cantSplit: true, children: [
+        cell(0, [topic]),
+        cell(1, [pr || "—"], { center: !pr }),
+        cell(2, [lsr || "—"], { center: !lsr }),
+        els.length ? cell(3, els, { bullets: true }) : cell(3, ["—"], { center: true }),
+        cell(4, [vals["p" + key] || ""], { center: true, mid: true })] });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 60 }, ...o, children });
+    // read a PNG's pixel size from its header so the logo keeps its true aspect ratio
+    const img = (data, w) => {
+      let h = Math.round(w / 3);
+      try { const dv = new DataView(data.buffer, data.byteOffset, data.byteLength); h = Math.round(w * dv.getUint32(20) / dv.getUint32(16)); } catch (e) {}
+      return new D.ImageRun({ data, type: "png", transformation: { width: w, height: h } });
+    };
+    const top = [];
+    if (eqLogo) top.push(para([img(eqLogo, 140)], { alignment: D.AlignmentType.RIGHT }));
+    top.push(para([run(title, { size: 22, bold: true })], { spacing: { after: 80 } }));
+    top.push(para([run("Review title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "PRISMA-LSR checklist", creator: "PRISMA-LSR checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top,
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para([], { spacing: { after: 60 } }),
+          ...notes.map(n => para([run(n, { size: 15 })], { spacing: { after: 40 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, eqLogo, TITLE, NOTES));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "PRISMA-LSR-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
