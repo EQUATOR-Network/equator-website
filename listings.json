@@ -1,5 +1,20 @@
 [
   {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
+    ]
+  },
+  {
     "listing": "/reporting-guidelines/index.html",
     "items": [
       "/reporting-guidelines/right-statement/index.html",
@@ -36,6 +51,7 @@
       "/reporting-guidelines/spirit-routine/index.html",
       "/reporting-guidelines/succeed/index.html",
       "/reporting-guidelines/spur/index.html",
+      "/reporting-guidelines/stard-ionm/index.html",
       "/reporting-guidelines/strobe-epic/index.html",
       "/reporting-guidelines/tram-ai/index.html",
       "/reporting-guidelines/the-image-statement/index.html",
@@ -732,16 +748,6 @@
     ]
   },
   {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
-    ]
-  },
-  {
     "listing": "/about/uk-equator-centre.html",
     "items": [
       "/about/people/gcollins.html",
@@ -752,18 +758,13 @@
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/about/international-equator-centres.html",
     "items": [
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
     ]
   },
   {
