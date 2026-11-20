@@ -1,4 +1,6 @@
 ---
+css: 
+    - "/assets/css/rg-table.css" 
 title: "Search all Reporting Guidelines"
 aliases:
   - /library
@@ -10,7 +12,7 @@ listing:
         - "!under-development/index.qmd"
     type: table
     table-striped: true
-    filter-ui: [keyword, title, acronym, study-type, clinical-specialty, study-design, report-section]
+    filter-ui: [keyword, title, acronym, clinical-specialty, study-design, report-section]
     sort:
         - "search-priority asc"
         - "sticky desc"
@@ -21,7 +23,11 @@ listing:
         - study-design
         - clinical-specialty
         - report-section
+        # NB. only the first 5 columns will be shown. To add more visible columns,
+        # change "n+6" in assets/css/rg-table.css 
         - keyword
+        - search-priority
+        - sticky
     field-display-names: 
       title: "Title"
       acronym: "Acronym"
