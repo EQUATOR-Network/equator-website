@@ -1,0 +1,29 @@
+---
+title: "BMJ trial finds SPIRIT-based template modestly improves completeness of trial protocol reporting"
+description: "A randomised trial within BMJ Open found that asking authors to use a SPIRIT 2025 manuscript template at revision improved the reporting of randomised trial protocols without delaying revisions."
+date: 2026-11-01
+categories: [Research, SPIRIT, Peer review, Reporting guidelines]
+---
+
+A new randomised controlled trial published in *The BMJ* on 20 October 2026 has found that asking authors to use a manuscript template based on [SPIRIT](/reporting-guidelines/spirit/) (Standard Protocol Items: Recommendations for Interventional Trials) 2025 modestly improved the completeness of reporting in randomised trial protocols. Led by Dr David Blanco (Universitat Internacional de Catalunya) and Dr Sara Schroter (BMJ), with co-authors including [UK EQUATOR Centre](/about/uk-equator-centre/) Director Professor [Gary Collins](/about/people/gcollins.qmd) and Dr [James Harwood](/about/people/jharwood.qmd), the study was carried out within the peer review process of *BMJ Open* and did not extend the time authors took to revise their manuscripts.
+
+## About the study
+
+Adherence to SPIRIT remains suboptimal despite wide journal endorsement, and many common editorial strategies, such as requiring a completed checklist, have shown little effect. Approaches that involve reporting guideline experts work better but are difficult to scale. This study tested a lower-cost alternative in a real-world editorial setting.
+
+Seventy randomised controlled trial protocols that received a minor or major revision decision after the first round of peer review were randomly allocated to an intervention or control group (35 in each). In the intervention group, handling editors asked authors to use a template when preparing their first revision. The template contained subheadings matching SPIRIT 2025 items, along with brief guidance on what to report. Use of the template was optional, and editorial decisions did not depend on it. Control group manuscripts underwent standard peer review.
+
+## Key findings
+
+- Completeness of reporting (scored 0–10 across 11 frequently under-reported SPIRIT items) was 0.61 points higher in the intervention group than in the control group (95% CI 0.20 to 1.01).
+- The largest improvements were seen for recruitment, data collection methods and access to data. There was no benefit for statistical methods.
+- Median time to submit the revision was similar in both groups (27.1 days with the template versus 29.9 days without).
+- Most of the 13 authors who completed the survey and used the template found it easy to use (10/13) and helpful (9/13), and all said it reassured them they had adhered to SPIRIT. However, 8 of 13 found it time-consuming.
+
+The authors describe the effect as modest, and smaller than the improvement they had anticipated based on an earlier non-randomised study. They note several limitations, including that the study was conducted at a single journal, that the template was introduced after manuscripts had already been written, and that only 40% of intervention group authors responded to the survey. They suggest that offering templates earlier, for example at submission or through author instructions, and combining them with expert review or automated tools could improve their impact.
+
+The anonymised dataset and analysis code are openly available on [Zenodo](https://doi.org/10.5281/zenodo.19134976), and the trial was preregistered on the [Open Science Framework](https://osf.io/s79jz/registrations).
+
+## Read the paper
+
+Blanco D, Chen D, Cadellans-Arróniz A, et al. [Effectiveness of a structured template to improve completeness of reporting randomised trial protocols: randomised controlled trial](https://doi.org/10.1136/bmj-2026-100917). BMJ 2026;395:e100917.
