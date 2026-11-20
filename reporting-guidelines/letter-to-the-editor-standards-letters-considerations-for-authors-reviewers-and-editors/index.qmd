@@ -8,10 +8,7 @@ rg-doi: ''
 pmid-id: '[39355953](https://pubmed.ncbi.nlm.nih.gov/39355953/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39355953/
 relevant-urls: ''
-full-bibliographic-reference: 'Coskun Benlidayi I, Gupta L. LETter To the EditoR Standards
-  (LETTERS): Considerations for Authors, Reviewers, and Editors. J Korean Med Sci.
-  2024;39(37):e296.'
-
+full-bibliographic-reference: 'Coskun Benlidayi I, Gupta L. LETter To the EditoR Standards (LETTERS): Considerations for Authors, Reviewers, and Editors. J Korean Med Sci. 2024;39(37):e296.'
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -38,10 +35,10 @@ categories:
 # - Diagnostic and prognostic studies
 # - Economic evaluations
 # - Experimental studies
-- Letters to the editor/Correspondence
+# - Letters to the editor/Correspondence
 # - Mixed methods studies
 # - Observational studies
-# - Other
+- Other
 # - Patent landscapes
 # - Qualitative research
 # - Quality improvement studies

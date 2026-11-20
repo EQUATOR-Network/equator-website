@@ -44,8 +44,8 @@ categories:
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
 # - Observational studies
-# - Other
-- Patent landscapes
+- Other
+# - Patent landscapes
 # - Qualitative research
 # - Quality improvement studies
 # - Reliability and agreement studies
