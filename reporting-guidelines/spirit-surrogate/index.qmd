@@ -1,25 +1,17 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting of surrogate endpoints in randomised controlled trial protocols
-  (SPIRIT-Surrogate) : extension checklist with explanation and elaboration'
+title: 'Reporting of surrogate endpoints in randomised controlled trial protocols (SPIRIT-Surrogate) : extension checklist with explanation and elaboration'
 acronym: SPIRIT-Surrogate
-provided-for: Reporting of trial protocols using surrogate endpoints as the primary
-  outcome(s).
+provided-for: Reporting of trial protocols using surrogate endpoints as the primary outcome(s).
 rg-doi: ''
 pmid-id: '[38981624](https://pubmed.ncbi.nlm.nih.gov/38981624/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38981624/
 relevant-urls: |-
-  [Read the full-text](https://www.bmj.com/content/386/bmj-2023-078525) of the SPIRIT-Surrogate guideline.
+  Read the [full-text](https://doi.org/10.1136/bmj-2023-078525) of  SPIRIT-Surrogate.\
+  
+  Complete an interactive [SPIRIT-Surrogate](spirit-surrogate-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
 
-  Access the [SPIRIT-Surrogate checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2024/07/09/bmj-2023-078525.DC1/mana078525.ww2.pdf).
-full-bibliographic-reference: 'Manyara AM, Davies P, Stewart D, Weir CJ, Young AE,
-  Blazeby J, Butcher NJ, Bujkiewicz S, Chan AW, Dawoud D, Offringa M, Ouwens M, Hróbjartssson
-  A, Amstutz A, Bertolaccini L, Bruno VD, Devane D, Faria CDCM, Gilbert PB, Harris
-  R, Lassere M, Marinelli L, Markham S, Powers JH 3rd, Rezaei Y, Richert L, Schwendicke
-  F, Tereshchenko LG, Thoma A, Turan A, Worrall A, Christensen R, Collins GS, Ross
-  JS, Taylor RS, Ciani O. Reporting of surrogate endpoints in randomised controlled
-  trial protocols (SPIRIT-Surrogate): extension checklist with explanation and elaboration.
-  BMJ. 2024;386:e078525.'
+full-bibliographic-reference: 'Manyara AM, Davies P, Stewart D, Weir CJ, Young AE, Blazeby J, Butcher NJ, Bujkiewicz S, Chan AW, Dawoud D, Offringa M, Ouwens M, Hróbjartssson A, Amstutz A, Bertolaccini L, Bruno VD, Devane D, Faria CDCM, Gilbert PB, Harris R, Lassere M, Marinelli L, Markham S, Powers JH 3rd, Rezaei Y, Richert L, Schwendicke F, Tereshchenko LG, Thoma A, Turan A, Worrall A, Christensen R, Collins GS, Ross JS, Taylor RS, Ciani O. Reporting of surrogate endpoints in randomised controlled trial protocols (SPIRIT-Surrogate): extension checklist with explanation and elaboration. BMJ. 2024;386:e078525. PMID: [38981624](https://pubmed.ncbi.nlm.nih.gov/38981624/) [full text](https://doi.org/10.1136/bmj-2023-078525)'
 
 
 # OPTIONAL FIELDS
@@ -29,7 +21,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  **[SPIRIT 2025 Statement](/reporting-guidelines/spirit/):** Chan AW, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Hróbjartsson A.  SPIRIT 20205 statement: updated guideline for protocols of randomized trials. \
+  **[SPIRIT 2025 Statement](/reporting-guidelines/spirit/):** Chan AW, Boutron I, Hopewell S, Moher D, Schulz KF, Collins GS, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne DR, Farmer AJ, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson DJ, Vohra S, White IR, Hróbjartsson A. SPIRIT 20205 statement: updated guideline for protocols of randomized trials. \
 
   BMJ. 2025; 388:e081660. [PMID:40294956](https://pubmed.ncbi.nlm.nih.gov/40294956/)
 
@@ -77,7 +69,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the [SPIRIT-Surrogate](SPIRIT-Surrogate-checklist.pdf) checklist.
 
 
 # LIST FIELDS

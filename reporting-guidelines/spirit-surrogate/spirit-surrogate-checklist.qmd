@@ -1,0 +1,309 @@
+---
+pagetitle: "SPIRIT-Surrogate checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/consort-surrogate-logo.png
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#3a3f9e; --head:#3a3f9e; --sect:#dde1f5; --sub:#eef0fa; --box:#eef0ff; --boxline:#9aa3e0; --line:#222;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:.6rem; }
+  #tp-wrap #tp-logo { width:min(300px,55%); height:auto; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) and Word file */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin:0 0 .4rem auto; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; margin:.2rem 0 .4rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1.5px solid var(--line); padding:3px 6px; vertical-align:middle; }
+  #tp-wrap td.txt { border-top:1px dotted #444; border-bottom:1px dotted #444; }
+  #tp-wrap thead th { background:var(--head); color:#fff; font-weight:bold; text-align:left; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.sub td { background:var(--sub); font-weight:bold; font-style:italic; padding:2px 6px; }
+  #tp-wrap td.topic { width:17%; vertical-align:top; }
+  #tp-wrap td.item { width:6%; text-align:center; }
+  #tp-wrap td.pg { width:11%; padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#7f86b8; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-cite { margin-top:1rem; font-size:13px; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #3a3f9e; background:#3a3f9e; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#3a3f9e; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap .tp-cite { font-size:9.5px; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td, #tp-wrap tr.sub td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <img src="/assets/logos/consort-surrogate-logo.png" alt="SPIRIT-CONSORT Surrogate: Reporting Guidelines for Surrogate Endpoints" id="tp-logo">
+    <div class="tp-right">
+      <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+    </div>
+  </div>
+  <div class="tp-title">The combined SPIRIT-Surrogate extension checklist</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section/item</th><th class="c">Item No</th><th>SPIRIT-Surrogate items</th>
+      <th class="c">Reported on page No<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-cite">Please cite as: Manyara AM, Davies P, Stewart D, et al. Reporting of surrogate endpoints in randomised controlled trial protocols (SPIRIT-Surrogate): extension checklist with explanation and elaboration. <em>BMJ</em> 2024;386:e078525. <a href="https://doi.org/10.1136/bmj-2023-078525" target="_blank" rel="noopener">doi:10.1136/bmj-2023-078525</a></p>
+</div>
+
+<script>
+(function () {
+  // ["Topic", "item", "text"]; topic "" = continuation row.
+  // Plain strings = section bars; ["#", "label"] = sub-section bar.
+  const ROWS = [
+    "Administrative information",
+    ["Title", "1", "Descriptive title identifying the study design, population, interventions, and, if applicable, trial acronym"],
+    ["Trial registration", "2a", "Trial identifier and registry name. If not yet registered, name of intended registry"],
+    ["", "2b", "All items from the World Health Organization Trial Registration Data Set"],
+    ["Protocol version", "3", "Date and version identifier"],
+    ["Funding", "4", "Sources and types of financial, material, and other support"],
+    ["Roles and responsibilities", "5a", "Names, affiliations, and roles of protocol contributors"],
+    ["", "5b", "Name and contact information for the trial sponsor"],
+    ["", "5c", "Role of study sponsor and funders, if any, in study design; collection, management, analysis, and interpretation of data; writing of the report; and the decision to submit the report for publication, including whether they will have ultimate authority over any of these activities"],
+    ["", "5d", "Composition, roles, and responsibilities of the coordinating centre, steering committee, endpoint adjudication committee, data management team, and other individuals or groups overseeing the trial, if applicable (see Item 21a for data monitoring committee)"],
+    "Introduction",
+    ["Background and rationale", "6a", "Description of research question and justification for undertaking the trial, including summary of relevant studies (published and unpublished) examining benefits and harms for each intervention"],
+    ["", "6b", "Explanation for choice of comparators"],
+    ["Objectives", "7", "Specific objectives or hypotheses"],
+    ["Trial design", "8", "Description of trial design including type of trial (e.g., parallel group, crossover, factorial, single group), allocation ratio, and framework (e.g., superiority, equivalence, noninferiority, exploratory)"],
+    ["", "6.1", "State a) that the primary outcome is a surrogate endpoint, and b) the target outcome(s) whose intervention effect is being substituted for (can also be reported under item 6a, 7, or 8)"],
+    "Methods: Participants, interventions, and outcomes",
+    ["Study setting", "9", "Description of study settings (e.g., community clinic, academic hospital) and list of countries where data will be collected. Reference to where list of study sites can be obtained"],
+    ["Eligibility criteria", "10", "Inclusion and exclusion criteria for participants. If applicable, eligibility criteria for study centres and individuals who will perform the interventions (e.g., surgeons, psychotherapists)"],
+    ["Interventions", "11a", "Interventions for each group with sufficient detail to allow replication, including how and when they will be administered"],
+    ["", "11b", "Criteria for discontinuing or modifying allocated interventions for a given trial participant (e.g., drug dose change in response to harms, participant request, or improving/worsening disease)"],
+    ["", "11c", "Strategies to improve adherence to intervention protocols, and any procedures for monitoring adherence (e.g., drug tablet return, laboratory tests)"],
+    ["", "11d", "Relevant concomitant care and interventions that are permitted or prohibited during the trial"],
+    ["Outcomes", "12", "Primary, secondary, and other outcomes, including the specific measurement variable (e.g., systolic blood pressure), analysis metric (e.g., change from baseline, final value, time to event), method of aggregation (e.g., median, proportion), and time point for each outcome. Explanation of the clinical relevance of chosen efficacy and harm outcomes is strongly recommended"],
+    ["", "12.1", "State the practical or scientific reason(s) for using a surrogate endpoint as a primary outcome."],
+    ["", "12.2", "State what other surrogate endpoints were considered and why the current one(s) were chosen."],
+    ["", "12.3", "Justification for selected surrogate endpoint: a) evidence (or lack thereof) of surrogate endpoint validation; and b) evidence (or lack thereof) of validity being specific to the context used, e.g., intervention; disease; population."],
+    ["Participant timeline", "13", "Time schedule of enrolment, interventions (including any run-ins and washouts), assessments, and visits for participants. A schematic diagram is highly recommended (see Figure)"],
+    ["Sample size", "14", "Estimated number of participants needed to achieve study objectives and how it was determined, including clinical and statistical assumptions supporting any sample size calculations"],
+    ["", "14.1", "Clarify if the sample size will be estimated to demonstrate that a minimum effect on the surrogate endpoint would be predictive of a benefit on the target outcome(s)."],
+    ["Recruitment", "15", "Strategies for achieving adequate participant enrolment to reach target sample size"],
+    "Methods: Assignment of interventions (for controlled trials)",
+    ["#", "Allocation:"],
+    ["Sequence generation", "16a", "Method of generating the allocation sequence (e.g., computer-generated random numbers), and list of any factors for stratification. To reduce predictability of a random sequence, details of any planned restriction (e.g., blocking) should be provided in a separate document that is unavailable to those who enrol participants or assign interventions"],
+    ["Allocation concealment mechanism", "16b", "Mechanism of implementing the allocation sequence (e.g., central telephone; sequentially numbered, opaque, sealed envelopes), describing any steps to conceal the sequence until interventions are assigned"],
+    ["Implementation", "16c", "Who will generate the allocation sequence, who will enrol participants, and who will assign participants to interventions"],
+    ["Blinding (masking)", "17a", "Who will be blinded after assignment to interventions (e.g., trial participants, care providers, outcome assessors, data analysts), and how"],
+    ["", "17b", "If blinded, circumstances under which unblinding is permissible, and procedure for revealing a participant’s allocated intervention during the trial"],
+    "Methods: Data collection, management, and analysis",
+    ["Data collection methods", "18a", "Plans for assessment and collection of outcome, baseline, and other trial data, including any related processes to promote data quality (e.g., duplicate measurements, training of assessors) and a description of study instruments (e.g., questionnaires, laboratory tests) along with their reliability and validity, if known. Reference to where data collection forms can be found, if not in the protocol"],
+    ["", "18b", "Plans to promote participant retention and complete follow-up, including list of any outcome data to be collected for participants who discontinue or deviate from intervention protocols"],
+    ["Data management", "19", "Plans for data entry, coding, security, and storage, including any related processes to promote data quality (e.g., double data entry; range checks for data values). Reference to where details of data management procedures can be found, if not in the protocol"],
+    ["Statistical methods", "20a", "Statistical methods for analysing primary and secondary outcomes. Reference to where other details of the statistical analysis plan can be found, if not in the protocol"],
+    ["", "20b", "Methods for any additional analyses (e.g., subgroup and adjusted analyses)"],
+    ["", "20b.1", "State what the plans are to conduct subsequent analyses/studies to verify current findings on the target outcome(s)."],
+    ["", "20c", "Definition of analysis population relating to protocol non-adherence (e.g., as randomised analysis), and any statistical methods to handle missing data (e.g., multiple imputation)"],
+    "Methods: Monitoring",
+    ["Data monitoring", "21a", "Composition of data monitoring committee (DMC); summary of its role and reporting structure; statement of whether it is independent from the sponsor and competing interests; and reference to where further details about its charter can be found, if not in the protocol. Alternatively, an explanation of why a DMC is not needed"],
+    ["", "21b", "Description of any interim analyses and stopping guidelines, including who will have access to these interim results and make the final decision to terminate the trial"],
+    ["Harms", "22", "Plans for collecting, assessing, reporting, and managing solicited and spontaneously reported adverse events and other unintended effects of trial interventions or trial conduct"],
+    ["", "22.1", "Comment on whether the trial design (including sample size and follow-up period), given the use of a surrogate endpoint, adequately captures the potential harms of the intervention being tested."],
+    ["Auditing", "23", "Frequency and procedures for auditing trial conduct, if any, and whether the process will be independent from investigators and the sponsor"],
+    "Ethics and dissemination",
+    ["Research ethics approval", "24", "Plans for seeking research ethics committee/institutional review board (REC/IRB) approval"],
+    ["Protocol amendments", "25", "Plans for communicating important protocol modifications (e.g., changes to eligibility criteria, outcomes, analyses) to relevant parties (e.g., investigators, REC/IRBs, trial participants, trial registries, journals, regulators)"],
+    ["Consent or assent", "26a", "Who will obtain informed consent or assent from potential trial participants or authorised surrogates, and how (see Item 32)"],
+    ["", "26a.1", "State whether and how trial participants will be engaged and informed before enrolment that the trial was designed to evaluate an intervention’s effect using a surrogate endpoint."],
+    ["", "26b", "Additional consent provisions for collection and use of participant data and biological specimens in ancillary studies, if applicable"],
+    ["Confidentiality", "27", "How personal information about potential and enrolled participants will be collected, shared, and maintained in order to protect confidentiality before, during, and after the trial"],
+    ["Declaration of interests", "28", "Financial and other competing interests for principal investigators for the overall trial and each study site"],
+    ["Access to data", "29", "Statement of who will have access to the final trial dataset, and disclosure of contractual agreements that limit such access for investigators"],
+    ["Ancillary and post-trial care", "30", "Provisions, if any, for ancillary and post-trial care, and for compensation to those who suffer harm from trial participation"],
+    ["Dissemination policy", "31a", "Plans for investigators and sponsor to communicate trial results to participants, healthcare professionals, the public, and other relevant groups (e.g., via publication, reporting in results databases, or other data sharing arrangements), including any publication restrictions"],
+    ["", "31b", "Authorship eligibility guidelines and any intended use of professional writers"],
+    ["", "31c", "Plans, if any, for granting public access to the full protocol, participant-level dataset, and statistical code"],
+    ["", "31c.1", "If surrogate and target outcome data will be collected in the trial, state the open access arrangements for the data for future secondary research."],
+    "Appendices",
+    ["Informed consent materials", "32", "Model consent form and other related documentation given to participants and authorised surrogates"],
+    ["Biological specimens", "33", "Plans for collection, laboratory evaluation, and storage of biological specimens for genetic or molecular analysis in the current trial and for future use in ancillary studies, if applicable"]
+  ];
+  const TITLE = "The combined SPIRIT-Surrogate extension checklist";
+  const FOOT = "Please cite as: Manyara AM, Davies P, Stewart D, et al. Reporting of surrogate endpoints in randomised controlled trial protocols (SPIRIT-Surrogate): extension checklist with explanation and elaboration. BMJ 2024;386:e078525. [[doi:10.1136/bmj-2023-078525|https://doi.org/10.1136/bmj-2023-078525]]";
+
+  const STORE = "spirit-surrogate-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    if (r[0] === "#") return `<tr class="sub"><td colspan="4">${r[1]}</td></tr>`;
+    const [topic, item, text] = r;
+    return `<tr><td class="topic">${topic}</td><td class="item">${item}</td><td class="txt">${text}</td>` +
+      `<td class="pg"><input type="text" data-key="p${item}" placeholder="page no." aria-label="Reported on page, item ${item}"></td></tr>`;
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "SPIRIT-Surrogate checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) {
+      fields().forEach(i => i.value = ""); save();
+    }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, eqLogo, title, foot) {
+    const F = "Arial", SZ = 17, W = [1500, 700, 6966, 1300], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 8, color: "222222" };
+    const borders = { top: ln, bottom: ln, left: ln, right: ln };
+    const dotted = { style: D.BorderStyle.DOTTED, size: 4, color: "444444" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, color: o.color });
+    // turn "text [[label|url]]" into runs with hyperlinks
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? W.slice(i, i + o.span).reduce((a, b) => a + b) : W[i], type: D.WidthType.DXA },
+      columnSpan: o.span, verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 },
+      borders: o.dotted ? { ...borders, top: dotted, bottom: dotted } : borders,
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "3A3F9E", color: "FFFFFF", bold: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section/item", hd), cell(1, "Item No", { ...hd, center: true }),
+      cell(2, "SPIRIT-Surrogate items", hd), cell(3, "Reported on page No", { ...hd, center: true })] });
+    const body = ROWS.map(r => {
+      if (typeof r === "string") return new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: 4, fill: "DDE1F5", bold: true, keepNext: true })] });
+      if (r[0] === "#") return new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { span: 4, fill: "EEF0FA", bold: true, italics: true, keepNext: true })] });
+      return new D.TableRow({ cantSplit: true, children: [
+        cell(0, r[0], { top: true }),
+        cell(1, r[1], { center: true }),
+        cell(2, r[2], { dotted: true }),
+        cell(3, vals["p" + r[1]] || "", { center: true })] });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 60 }, ...o, children });
+    // read a PNG's pixel size from its header so logos keep their true aspect ratio
+    const img = (data, w) => {
+      let h = Math.round(w / 3);
+      try { const dv = new DataView(data.buffer, data.byteOffset, data.byteLength); h = Math.round(w * dv.getUint32(20) / dv.getUint32(16)); } catch (e) {}
+      return new D.ImageRun({ data, type: "png", transformation: { width: w, height: h } });
+    };
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [6200, TOTAL - 6200];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.BOTTOM, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = logo ? [para([img(logo, 260)])] : [para([])];
+    const right = eqLogo ? [para([img(eqLogo, 140)], { alignment: D.AlignmentType.RIGHT })] : [para([])];
+    const top = [
+      new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+        rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }),
+      para([], { spacing: { after: 60 } }),
+      para([run(title, { size: 22, bold: true })], { spacing: { after: 80 } }),
+      para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } })
+    ];
+    return new D.Document({
+      title: "SPIRIT-Surrogate checklist", creator: "SPIRIT-Surrogate checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top,
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para(runs(foot, { size: 16 }), { spacing: { before: 140 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/consort-surrogate-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, eqLogo, TITLE, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "SPIRIT-Surrogate-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
