@@ -75,7 +75,7 @@ downloads: '[CRISP Checklist (Word)](CRISP-Reporting-Checklist-Version-1.0.docx)
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

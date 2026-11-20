@@ -40,7 +40,7 @@ downloads: '[ACCORD checklist (Word)](https://www.ismpp.org/assets/ACCORD/ACCORD
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 - Clinical practice guidelines

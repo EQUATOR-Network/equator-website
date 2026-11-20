@@ -35,7 +35,7 @@ downloads: '[Statistical Analysis Plan (SAP) Checklist (Word)](http://lctc.org.u
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

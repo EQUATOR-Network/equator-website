@@ -81,7 +81,7 @@ downloads: |-
   Download the [SPIRIT 2025 expanded checklist](SPIRIT-2025-expanded-checklist.pdf)
   
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

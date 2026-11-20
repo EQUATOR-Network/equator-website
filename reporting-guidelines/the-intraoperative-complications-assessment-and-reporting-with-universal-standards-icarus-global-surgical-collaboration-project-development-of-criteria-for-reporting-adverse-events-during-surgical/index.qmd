@@ -40,7 +40,7 @@ downloads: '[ICARUS checklist (Word)](ICARUS-checklist.docx)  [ICARUS checklist 
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

@@ -111,7 +111,7 @@ downloads: |-
   [STARD 2015 checklist (Word)](STARD-2015-Checklist.docx)
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

@@ -114,7 +114,7 @@ downloads: '[RECORD Checklist (PDF)](http://www.record-statement.org/Files/check
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

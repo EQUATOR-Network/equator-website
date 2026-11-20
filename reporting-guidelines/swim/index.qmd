@@ -31,7 +31,7 @@ downloads: '[SWiM checklist (Word)](Synthesis-without-Meta-analysis-SWiM-Checkli
   checklist (PDF)](Synthesis-without-Meta-analysis-SWiM-Checklist.pdf)'
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

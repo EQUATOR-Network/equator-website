@@ -30,7 +30,7 @@ downloads: '[MMR-RHS checklist (PDF)](MMR-RHS-checklist.pdf)'
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

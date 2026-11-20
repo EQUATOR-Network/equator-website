@@ -116,7 +116,7 @@ downloads: |-
   [CHEERS 2022 checklist (PDF)](CHEERS-2022-checklist-1.pdf)
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

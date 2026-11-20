@@ -130,7 +130,7 @@ downloads: |-
   Complete an interactive [PRISMA 2020 checklist](prisma-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

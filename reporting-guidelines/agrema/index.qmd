@@ -37,7 +37,7 @@ downloads: |-
   Download the AGReMA Checklist [PDF](AGReMA_Checklist.pdf) / [Word](AGReMA_Checklist.docx)
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

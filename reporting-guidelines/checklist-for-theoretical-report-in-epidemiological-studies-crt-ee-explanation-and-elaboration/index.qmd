@@ -35,7 +35,7 @@ downloads: '[CRT-EE checklist](https://crt-statement.org/elementor-1356/)'
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

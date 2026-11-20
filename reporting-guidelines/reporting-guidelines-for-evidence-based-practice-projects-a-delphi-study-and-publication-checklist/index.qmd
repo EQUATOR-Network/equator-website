@@ -30,7 +30,7 @@ downloads: '[EBP project checklist (PDF)](Evidence-based-practice-project-checkl
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

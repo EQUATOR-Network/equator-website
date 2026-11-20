@@ -43,7 +43,7 @@ downloads: '[StaRI checklist (Word)](StaRI-checklist-for-author-completion.docx)
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

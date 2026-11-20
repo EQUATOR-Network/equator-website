@@ -131,7 +131,7 @@ downloads: |-
   Download the [TRIPOD+AI for Abstracts checklist](TRIPOD-abstracts.pdf)
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

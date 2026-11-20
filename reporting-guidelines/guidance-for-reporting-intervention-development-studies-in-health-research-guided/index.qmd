@@ -32,7 +32,7 @@ downloads: '[GUIDED checklist (PDF)](https://bmjopen.bmj.com/content/bmjopen/10/
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

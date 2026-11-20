@@ -98,7 +98,7 @@ downloads: PRISMA-M 2020 checklist [Word](https://www.prisma-statement.org/s/PRI
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

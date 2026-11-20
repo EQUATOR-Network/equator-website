@@ -41,7 +41,7 @@ downloads: '[PRIRATE 2020 Checklist (Word)](PRIRATE-2020-checklist.docx)  [PRIRA
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

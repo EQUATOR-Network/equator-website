@@ -73,7 +73,7 @@ downloads: '[SQUIRE 2.0 checklist (PDF)](SQUIRE-2.0-checklist.pdf) - 2015 update
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

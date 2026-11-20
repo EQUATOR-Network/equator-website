@@ -32,7 +32,7 @@ downloads: '[MICRO Checklist (Word)](MICRO_checklist_V1.docx)  [MICRO Checklist 
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

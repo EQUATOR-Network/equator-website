@@ -33,7 +33,7 @@ downloads: '[SCOBe checklist (Word)](SCOBe-checklist.docx)  [SCOBe checklist (PD
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

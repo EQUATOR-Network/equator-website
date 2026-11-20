@@ -34,7 +34,7 @@ downloads: '[BePRECISE Checklist (Word)](BePRECISE-Checklist.docx)  [BePRECISE C
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

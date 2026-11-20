@@ -98,7 +98,7 @@ downloads: |-
   PRISMA-IPD flow diagram [Word](PRISMA-IPD-flow-diagram.docx) / [PDF](PRISMA-IPD-flow-diagram.pdf)
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

@@ -96,7 +96,7 @@ downloads: '[STROBE conference abstracts checklist (PDF)](https://www.strobe-sta
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

@@ -94,7 +94,7 @@ downloads: |-
   Download the PRISMA-DTA for Abstracts [PDF](PRISMA-DTA-for-Abstracts-Checklist.pdf) / [Word](PRISMA-DTA-for-Abstracts-Checklist.docx)
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

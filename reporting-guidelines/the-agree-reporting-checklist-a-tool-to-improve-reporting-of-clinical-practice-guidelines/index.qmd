@@ -35,7 +35,7 @@ downloads: '[AGREE Reporting Checklist (PDF)](AGREE-Reporting-Checklist.pdf) [AG
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 - Clinical practice guidelines

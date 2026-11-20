@@ -41,7 +41,7 @@ downloads: '[CONSERVE-CONSORT & CONSERVE-SPIRIT Checklists (Word)](CONSERVE-Chec
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

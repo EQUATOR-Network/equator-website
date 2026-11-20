@@ -43,7 +43,7 @@ sticky: false # or true
 search-priority: 100 # lower number = higher priority
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

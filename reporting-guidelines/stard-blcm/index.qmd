@@ -48,7 +48,7 @@ downloads: '[STARD-BLCM Checklist (Word)](STARD-BLCM-Checklist.docx)'
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

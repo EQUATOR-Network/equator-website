@@ -34,7 +34,7 @@ downloads: 'DEAL-B: Tailored for more straightforward applications utilizing pre
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

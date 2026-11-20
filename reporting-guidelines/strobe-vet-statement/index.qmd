@@ -52,7 +52,7 @@ downloads: '[STROBE-Vet Checklist (PDF)](https://strobevetstatement.files.wordpr
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

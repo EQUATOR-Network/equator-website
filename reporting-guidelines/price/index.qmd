@@ -39,7 +39,7 @@ downloads: '[PRICE 2020 Checklist (Word)](PRICE-2020-Checklist.docx) [PRICE 2020
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

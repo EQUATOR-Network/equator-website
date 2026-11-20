@@ -99,7 +99,7 @@ downloads: PRISMA 2020 for abstracts checklist [PDF](https://www.prisma-statemen
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

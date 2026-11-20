@@ -32,7 +32,7 @@ downloads: An editable version of the checklist is available [here](https://www.
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

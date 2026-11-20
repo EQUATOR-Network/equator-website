@@ -44,7 +44,7 @@ downloads: |-
   Download the TIDieR-placebo checklist ([Word](TIDieR-placebo-checklist.docx))
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

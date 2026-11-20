@@ -30,7 +30,7 @@ downloads: '[BIBLIO Checklist (Word)](BIBLIO-Checklist.docx)  [BIBLIO Checklist 
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

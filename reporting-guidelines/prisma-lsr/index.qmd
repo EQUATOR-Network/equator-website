@@ -100,7 +100,7 @@ downloads: |-
   [PRISMA-LSR tailored flow diagram (ShinyApp)](https://estech.shinyapps.io/livingprismaflow)
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

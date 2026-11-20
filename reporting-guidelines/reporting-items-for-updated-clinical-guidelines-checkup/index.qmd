@@ -33,7 +33,7 @@ downloads: '[CheckUp 2017 Checklist (PDF)](CheckUp2017Checklist.pdf)'
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 - Clinical practice guidelines

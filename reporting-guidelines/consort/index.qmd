@@ -140,7 +140,7 @@ downloads: |-
   
   Download the [CONSORT 2025 expanded checklist](CONSORT_2025_expanded.pdf)
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

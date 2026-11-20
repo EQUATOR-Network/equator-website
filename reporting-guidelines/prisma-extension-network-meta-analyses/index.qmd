@@ -95,7 +95,7 @@ downloads: PRISMA-NMA checklist [Word](https://www.prisma-statement.org/s/PRISMA
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

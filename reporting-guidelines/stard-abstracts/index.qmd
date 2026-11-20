@@ -45,7 +45,7 @@ downloads: '[STARD for Abstracts checklist (Word)](STARD-for-Abstracts-checklist
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

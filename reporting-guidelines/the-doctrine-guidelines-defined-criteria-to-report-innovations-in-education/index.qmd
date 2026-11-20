@@ -29,7 +29,7 @@ downloads: '[DoCTRINE Checklist (Word)](DoCTRINE-Guideline-Checklist.docx)'
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

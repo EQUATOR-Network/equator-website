@@ -40,7 +40,7 @@ downloads: DELPHISTAR checklist ([Word](RG_DELPHISTAR_engl-2.docx))        �
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 - Clinical practice guidelines

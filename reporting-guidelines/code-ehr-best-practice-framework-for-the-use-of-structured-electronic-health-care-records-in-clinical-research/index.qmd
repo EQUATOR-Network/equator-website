@@ -38,7 +38,7 @@ downloads: '[CODE-EHR checklist (Word)](CODE-EHR-checklist.docx)  [CODE-EHR chec
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

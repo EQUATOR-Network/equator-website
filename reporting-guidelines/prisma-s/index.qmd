@@ -111,7 +111,7 @@ downloads: |-
   Download the PRISMA-S Checklist [(PDF)](PRISMA-S-checklist.pdf) / [(Word)](PRISMA-S-checklist.docx) / [(Excel)](PRISMA-S-checklist.xlsx)
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

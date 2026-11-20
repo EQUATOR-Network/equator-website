@@ -136,7 +136,7 @@ downloads: '[CONSORT extension Pilot and Feasibility Trials Checklist (Word)](CO
 
 
 # LIST FIELDS
-study-design:
+categories:
 # - Animal pre-clinical research
 # - Artificial intelligence/Machine learning studies
 # - Clinical practice guidelines

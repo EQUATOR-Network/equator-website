@@ -41,7 +41,7 @@ sticky: false
 downloads: ''
 
 # LIST FIELDS
-study-design:
+categories:
 - Clinical trials
 - Observational studies
 # - No study design specified
