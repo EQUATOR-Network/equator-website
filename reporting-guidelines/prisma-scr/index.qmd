@@ -7,7 +7,7 @@ rg-doi: '10.7326/M18-0850'
 pmid-id: '[30178033](https://www.ncbi.nlm.nih.gov/pubmed/30178033)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/30178033
 relevant-urls: |-
-  Read the full-text of [PRISMA-ScR](https://doi.org/10.7326/M18-0850)
+  Read the full-text of [PRISMA-ScR](https://doi.org/10.7326/M18-0850)\
   
   Complete an interactive [SPIRIT-ScR](prisma-scr-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
   
@@ -95,7 +95,7 @@ other: ''
 other-relevant-research: ''
 sticky: true
 downloads: PRISMA-ScR Checklist [PDF](PRISMA-ScR-checklist.pdf)
-  | [Word](PRISMA-ScR-checklist.docx)
+  / [Word](PRISMA-ScR-checklist.docx)
 
 
 # LIST FIELDS
