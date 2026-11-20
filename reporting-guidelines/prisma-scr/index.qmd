@@ -7,9 +7,9 @@ rg-doi: '10.7326/M18-0850'
 pmid-id: '[30178033](https://www.ncbi.nlm.nih.gov/pubmed/30178033)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/30178033
 relevant-urls: |-
-  Read the full-text of [PRISMA-ScR](https://doi.org/10.7326/M18-0850)\
+  Read the full-text of [PRISMA-ScR](https://doi.org/10.7326/M18-0850)
   
-#  Complete an interactive [SPIRIT-ScR](prisma-scr-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
+  Complete an interactive [SPIRIT-ScR](prisma-scr-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
   
 full-bibliographic-reference: 'Tricco AC, Lillie E, Zarin W, O''Brien KK, Colquhoun H, Levac D, Moher D, Peters MDJ, Horsley T, Weeks L, Hempel S, Akl EA, Chang C, McGowan J, Stewart L, Hartling L, Aldcroft A, Wilson MG, Garritty C, Lewin S, Godfrey CM, Macdonald MT, Langlois EV, Soares-Weiser K, Moriarty J, Clifford T, Tunçalp Ö, Straus SE. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Ann Intern Med. 2018; 169: 467-473. PMID: [30178033](https://www.ncbi.nlm.nih.gov/pubmed/30178033) [full text](https://doi.org/10.7326/M18-0850)'
 

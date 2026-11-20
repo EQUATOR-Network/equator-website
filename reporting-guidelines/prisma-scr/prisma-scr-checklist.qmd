@@ -131,7 +131,8 @@ resources:
   const CITE = "<em>From:</em> Tricco AC, Lillie E, Zarin W, O’Brien KK, Colquhoun H, Levac D, et al. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Ann Intern Med. 2018;169:467–473. [[doi: 10.7326/M18-0850|https://doi.org/10.7326/M18-0850]]";
 
   const STORE = "prisma-scr-checklist-v1";
-  const html = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  // [[label|url]] -> <a class="tp-link" data-url="url">; the real href is set through the DOM below
+  const html = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, (m, label, url) => '<a class="tp-link" data-url="' + url + '">' + label + '</a>');
   const tbody = document.querySelector("#tp-table tbody");
   tbody.innerHTML = ROWS.map(r => {
     if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
@@ -141,6 +142,9 @@ resources:
   }).join("");
   document.getElementById("tp-foot").innerHTML =
     NOTES.map(n => `<p>${html(n)}</p>`).join("") + `<p class="cite">${html(CITE)}</p>`;
+  document.querySelectorAll("#tp-foot a.tp-link").forEach(a => {
+    a.href = a.dataset.url; a.target = "_blank"; a.rel = "noopener";
+  });
 
   const fields = () => [...document.querySelectorAll("#tp-wrap input")];
   const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");

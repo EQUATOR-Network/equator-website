@@ -7,9 +7,9 @@ rg-doi: '10.1186/s13643-020-01542-z'
 pmid-id: '[33499930](https://pubmed.ncbi.nlm.nih.gov/33499930/)'
 pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/33499930/'
 relevant-urls: |-
-  Read the [full-text](https://doi.org/10.1186/s13643-020-01542-z) of PRISMA-S \
+  Read the [full-text](https://doi.org/10.1186/s13643-020-01542-z) of PRISMA-S
 
-#  Complete an interactive [PRISMA-S](prisma-s-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
+  Complete an interactive [PRISMA-S](prisma-s-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Rethlefsen ML, Kirtley S, Waffenschmidt S, Ayala AP, Moher D, Page MJ, Koffel JB; PRISMA-S Group. PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews.
 
