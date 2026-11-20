@@ -77,7 +77,7 @@ categories:
 # - Quality improvement studies
 # - Reliability/Agreement studies
 # - Study protocols
-# - Systematic reviews/Meta-analyses/Reviews/
+# - Systematic reviews/Meta-analyses/Reviews
 - No study design specified
 clinical-specialty:
 # - Allergy
