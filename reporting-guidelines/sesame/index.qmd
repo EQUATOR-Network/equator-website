@@ -46,9 +46,9 @@ categories:
 - Observational studies
 # - No study design specified
 # - Animal pre-clinical research
-# - Artificial intelligence/Machine learning studies
+# - Artificial intelligence/Machine learning
 # - Clinical practice guidelines
-# - Diagnostic and prognostic studies
+# - Diagnosis/Prognosis/Prediction
 # - Economic evaluations
 # - Experimental studies
 # - Letters to the editor/Correspondence
@@ -57,9 +57,9 @@ categories:
 # - Patent landscapes
 # - Qualitative research
 # - Quality improvement studies
-# - Reliability and agreement studies
+# - Reliability/Agreement studies
 # - Study protocols
-#- Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+#- Systematic reviews/Meta-analyses/Reviews/
 
 clinical-specialty:
 - No clinical specialty specified

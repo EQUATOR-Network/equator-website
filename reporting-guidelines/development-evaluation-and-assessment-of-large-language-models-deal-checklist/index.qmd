@@ -36,10 +36,10 @@ downloads: 'DEAL-B: Tailored for more straightforward applications utilizing pre
 # LIST FIELDS
 categories:
 # - Animal pre-clinical research
-- Artificial intelligence/Machine learning studies
+- Artificial intelligence/Machine learning
 # - Clinical practice guidelines
 # - Clinical trials
-- Diagnostic and prognostic studies
+- Diagnosis/Prognosis/Prediction
 # - Economic evaluations
 # - Experimental studies
 # - Letters to the editor/Correspondence
@@ -49,9 +49,9 @@ categories:
 # - Patent landscapes
 # - Qualitative research
 # - Quality improvement studies
-# - Reliability and agreement studies
+# - Reliability/Agreement studies
 # - Study protocols
-# - Systematic reviews/Meta-analyses/Reviews/HTA/Overviews
+# - Systematic reviews/Meta-analyses/Reviews/
 # - No study design specified
 clinical-specialty:
 # - Allergy

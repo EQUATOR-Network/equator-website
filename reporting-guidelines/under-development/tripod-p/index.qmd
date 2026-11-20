@@ -11,7 +11,7 @@ categories:
 # - literature reviews
 # - Observational studies & Case reports
 # - Other
-- Diagnostic/prognostic research
+- Diagnosis/Prognosis/Prediction
 - Study protocols
 ---
 
