@@ -1,5 +1,22 @@
 [
   {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-11-20-david-moher-award/index.html",
+      "/news/posts/2026-01-11-BMJ-spirit/index.html",
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
+    ]
+  },
+  {
     "listing": "/reporting-guidelines/index.html",
     "items": [
       "/reporting-guidelines/right-statement/index.html",
@@ -41,7 +58,7 @@
       "/reporting-guidelines/strobe-epic/index.html",
       "/reporting-guidelines/tram-ai/index.html",
       "/reporting-guidelines/the-image-statement/index.html",
-      "/reporting-guidelines/the-vaccine-clinical-study-reporting-guideline-the-value-checklist-with-explanation-and-elaboration/index.html",
+      "/reporting-guidelines/value/index.html",
       "/reporting-guidelines/strobe-metepi/index.html",
       "/reporting-guidelines/a-reporting-tool-for-adapted-guidelines-in-health-care-the-right-adapt-checklist/index.html",
       "/reporting-guidelines/prisma-ci-extension-statement-checklist/index.html",
@@ -724,6 +741,36 @@
     ]
   },
   {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
+    ]
+  },
+  {
     "listing": "/reporting-guidelines/under-development/index.html",
     "items": [
       "/reporting-guidelines/under-development/consort-precis/index.html",
@@ -961,53 +1008,6 @@
       "/reporting-guidelines/under-development/vhc-test/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
-    ]
-  },
-  {
-    "listing": "/about/equator-network.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
-    ]
-  },
-  {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
-    ]
-  },
-  {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-11-20-david-moher-award/index.html",
-      "/news/posts/2026-01-11-BMJ-spirit/index.html",
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
     ]
   }
 ]
