@@ -10,7 +10,7 @@ pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/42594672
 relevant-urls: |-
   Read the [full text](https://doi.org/10.1016/j.clinph.2026.2112364) of the STARD-IONM recommendations.\
   
-  STARD-IONM is an application of STARD-2015 with item-by-item guidance on reporting diagnostic accuracy studies esing intraoperative neurophysiological monitoring. \
+  STARD-IONM is an application of STARD-2015 with item-by-item guidance on reporting diagnostic accuracy studies using intraoperative neurophysiological monitoring. \
   
   Complete an interactive [STARD-2015 checklist](/reporting-guidelines/stard/stard-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
