@@ -8,6 +8,8 @@ We recommend assessing the impact of reporting guidelines. An external evaluatio
 
 Many guidelines are translated to aid dissemination and uptake. Ensuring that the specific meaning of reporting items in the guideline remains the same after its translation is crucial. It is good translation practice to use a two-stage process (translation and back-translation) and include a member of the original guideline development team to check the back-translation. Your guideline could include an explicit translation policy, such as those in the [SPIRIT Statement](http://www.spirit-statement.org/spirit-statement/translations/) and [CONSORT Statement](http://www.consort-statement.org/consort-statement/translation-policy).
 
+The Checklist for Translating and Adapting Questionnaires ([CTAQ](https://doi.org/10.1186/s41182-025-00798-2)) is a consensus-based methodological checklist for translating and culturally adapting healthcare questionnaires. Some of its translation-process recommendations may be useful when translating reporting guidelines, with appropriate adaptation.
+
 ## Extend your guideline
 
 Other groups may wish to extend your guideline to consider a different clinical area or a particularly problematic reporting issue. Consider developing an explicit policy on extensions to your guideline, including how these can be recognised as an official extension and nominating a contact liaison person for your guideline.
