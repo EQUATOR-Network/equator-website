@@ -1,22 +1,5 @@
 [
   {
-    "listing": "/news/index.html",
-    "items": [
-      "/news/posts/2026-11-20-david-moher-award/index.html",
-      "/news/posts/2026-01-11-BMJ-spirit/index.html",
-      "/news/posts/2026-10-22-website-redesign/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html"
-    ]
-  },
-  {
     "listing": "/about/equator-network.html",
     "items": [
       "/about/people/gcollins.html",
@@ -24,16 +7,6 @@
       "/about/people/pravaud.html",
       "/about/people/thoffman.html",
       "/about/people/zbian.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
     ]
   },
   {
@@ -697,7 +670,7 @@
       "/reporting-guidelines/structural-brain-development-a-review-of-methodological-approaches-and-best-practices/index.html",
       "/reporting-guidelines/suggestions-for-improving-the-reporting-of-clinical-research-the-role-of-narrative/index.html",
       "/reporting-guidelines/supporting-best-practice-in-reflexive-thematic-analysis-reporting-in-palliative-medicine-a-review-of-published-research-and-introduction-to-the-reflexive-thematic-analysis-reporting-guidelines-rtarg/index.html",
-      "/reporting-guidelines/synthesis-without-meta-analysis-swim-in-systematic-reviews-reporting-guideline/index.html",
+      "/reporting-guidelines/swim/index.html",
       "/reporting-guidelines/systematic-development-of-standards-for-mixed-methods-reporting-in-rehabilitation-health-sciences-research/index.html",
       "/reporting-guidelines/systematic-review-and-meta-analysis-of-outcomes-after-operative-treatment-of-aberrant-subclavian-artery-pathologies-and-suggested-reporting-items/index.html",
       "/reporting-guidelines/systematic-prioritization-of-the-stare-hi-reporting-items-an-application-to-short-conference-papers-on-health-informatics-evaluation/index.html",
@@ -1008,6 +981,33 @@
       "/reporting-guidelines/under-development/vhc-test/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/posts/2026-11-20-david-moher-award/index.html",
+      "/news/posts/2026-01-11-BMJ-spirit/index.html",
+      "/news/posts/2026-10-22-website-redesign/index.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
     ]
   }
 ]
