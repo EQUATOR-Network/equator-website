@@ -66,6 +66,51 @@
   <media:content url="https://equator-network.org/news/posts/2026-11-20-david-moher-award/thumbnail.jpg" medium="image" type="image/jpeg" height="81" width="144"/>
 </item>
 <item>
+  <title>BMJ trial finds SPIRIT-based template modestly improves completeness of trial protocol reporting</title>
+  <dc:creator>UK EQUATOR Centre</dc:creator>
+  <link>https://equator-network.org/news/posts/2026-01-11-BMJ-spirit/</link>
+  <description><![CDATA[ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6ZTFP7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+<p>A new randomised controlled trial published in <em>The BMJ</em> on 20 October 2026 has found that asking authors to use a manuscript template based on <a href="../../../reporting-guidelines/spirit/">SPIRIT</a> (Standard Protocol Items: Recommendations for Interventional Trials) 2025 modestly improved the completeness of reporting in randomised trial protocols. Led by Dr David Blanco (Universitat Internacional de Catalunya) and Dr Sara Schroter (BMJ), with co-authors including <a href="../../../about/uk-equator-centre.html">UK EQUATOR Centre</a> Director Professor <a href="../../../about/people/gcollins.html">Gary Collins</a> and Dr <a href="../../../about/people/jharwood.html">James Harwood</a>, the study was carried out within the peer review process of <em>BMJ Open</em> and did not extend the time authors took to revise their manuscripts.</p>
+<section id="about-the-study" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-study">About the study</h2>
+<p>Adherence to SPIRIT remains suboptimal despite wide journal endorsement, and many common editorial strategies, such as requiring a completed checklist, have shown little effect. Approaches that involve reporting guideline experts work better but are difficult to scale. This study tested a lower-cost alternative in a real-world editorial setting.</p>
+<p>Seventy randomised controlled trial protocols that received a minor or major revision decision after the first round of peer review were randomly allocated to an intervention or control group (35 in each). In the intervention group, handling editors asked authors to use a template when preparing their first revision. The template contained subheadings matching SPIRIT 2025 items, along with brief guidance on what to report. Use of the template was optional, and editorial decisions did not depend on it. Control group manuscripts underwent standard peer review.</p>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>Completeness of reporting (scored 0–10 across 11 frequently under-reported SPIRIT items) was 0.61 points higher in the intervention group than in the control group (95% CI 0.20 to 1.01).</li>
+<li>The largest improvements were seen for recruitment, data collection methods and access to data. There was no benefit for statistical methods.</li>
+<li>Median time to submit the revision was similar in both groups (27.1 days with the template versus 29.9 days without).</li>
+<li>Most of the 13 authors who completed the survey and used the template found it easy to use (10/13) and helpful (9/13), and all said it reassured them they had adhered to SPIRIT. However, 8 of 13 found it time-consuming.</li>
+</ul>
+<p>The authors describe the effect as modest, and smaller than the improvement they had anticipated based on an earlier non-randomised study. They note several limitations, including that the study was conducted at a single journal, that the template was introduced after manuscripts had already been written, and that only 40% of intervention group authors responded to the survey. They suggest that offering templates earlier, for example at submission or through author instructions, and combining them with expert review or automated tools could improve their impact.</p>
+<p>The anonymised dataset and analysis code are openly available on <a href="https://doi.org/10.5281/zenodo.19134976">Zenodo</a>, and the trial was preregistered on the <a href="https://osf.io/s79jz/registrations">Open Science Framework</a>.</p>
+</section>
+<section id="read-the-paper" class="level2">
+<h2 class="anchored" data-anchor-id="read-the-paper">Read the paper</h2>
+<p>Blanco D, Chen D, Cadellans-Arróniz A, et al.&nbsp;<a href="https://doi.org/10.1136/bmj-2026-100917">Effectiveness of a structured template to improve completeness of reporting randomised trial protocols: randomised controlled trial</a>. BMJ 2026;395:e100917.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Research</category>
+  <category>SPIRIT</category>
+  <category>Peer review</category>
+  <category>Reporting guidelines</category>
+  <category>UK EQUATOR Centre</category>
+  <guid>https://equator-network.org/news/posts/2026-01-11-BMJ-spirit/</guid>
+  <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Welcome to the new EQUATOR Network website</title>
   <dc:creator>UK EQUATOR Centre</dc:creator>
   <link>https://equator-network.org/news/posts/2026-10-22-website-redesign/</link>
