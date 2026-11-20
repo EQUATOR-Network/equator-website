@@ -1,0 +1,29 @@
+---
+title: "MAnual Therapy Treatment mEchanisms Research (MATTER) Reporting Guidelines"
+contact-name: "Damian Keter"
+contact-email: "Damian.Keter@va.gov"
+date-registered: "20 November 2026"
+year-registered: 2026
+date-updated: null
+categories:
+- Animal pre-clinical research
+# - Artificial intelligence/machine learning
+- Clinical trials
+# - Diagnostic/prognostic research
+# - Health Economic evaluations
+# - Systematic reviews
+# - Observational studies
+# - Other
+# - Qualitative research
+# - Study protocols
+---
+
+<!-- Add Description Below -->
+Manual therapy (MT) includes the application of force (massage, thrust and non-thrust manipulation, light touch) with therapeutic intent. Treatment mechanisms that occur with the application of MT have been widely studied however heterogeneity in how these studies are completed and reported question the generalizability, reproducibility, and clinical relevance of these results. An interprofessional effort funded by the United States National Institute of Health (NIH) has attempted to better understand this area of study and promote high quality interdisciplinary research in this field. These efforts have 1) defined terminology critical to the understanding of manual therapy treatment mechanism, 2.) identified gaps in the literature, 3) synthesized findings from other primary and secondary studies, 4.) outlined force, structure and function, and contextual factors to be considered during mechanistic study design, 5.) outlined appropriate design types for studying the translation value of mechanistic research  and 6.) highlighted the challenges and opportunities in performing MT mechanisms research. While significant efforts have been made to improve the quality of research within this field, no efforts to date have attempted to consolidate these constructs into a reporting guideline to improve the quality and consistency of reporting in this field of study. 
+
+Reporting guidelines are typically developed through consensus measures such as Delphi’s or Nominal Group Techniques. Recommendations for this process have been outlined previously. This consensus based process begins with identifying the need for a reporting guideline in this area of study through thorough literature review. This process then identifies a steering committee with expertise in the field of study to develop potential checklist items then meet to discuss and develop the reporting checklist based on these items. Reporting guidelines are then recommended to be externally validated, piloted and shared via publication. The aim of the current project is to develop and gain consensus on a reporting guideline for MT mechanisms research.
+
+OSF Project Registration: [https://osf.io/m5v46/overview](https://osf.io/m5v46/overview) 
+
+
+{{< include ../_template.qmd >}}
