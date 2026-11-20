@@ -1,17 +1,16 @@
 ---
 # REQUIRED FIELDS
-title: 'Development of GROVE : A Guideline for RepOrting Vignette Experiments conducted
-  in a healthcare context'
+title: 'Development of GROVE: A Guideline for RepOrting Vignette Experiments conducted in a healthcare context'
+aliases:
+  - /reporting-guidelines/development-of-grove-a-guideline-for-reporting-vignette-experiments-conducted-in-a-healthcare-context/
 acronym: GROVE
 provided-for: Reporting experimental vignette studies.
-rg-doi: ''
+rg-doi: '10.1016/j.pec.2025.108750'
 pmid-id: '[40107182](https://pubmed.ncbi.nlm.nih.gov/40107182/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40107182/
-relevant-urls: ''
-full-bibliographic-reference: 'Hillen MA, Visser LNC, Labrie NHM, van Vliet LM, Saha
-  S, Blanch-Hartigan D, Smets EMA; GROVE Working group. Development of GROVE: A Guideline
-  for RepOrting Vignette Experiments conducted in a healthcare context. Patient Educ
-  Couns. 2025;136:108750.'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1016/j.pec.2025.108750) of GROVE
+full-bibliographic-reference: 'Hillen MA, Visser LNC, Labrie NHM, van Vliet LM, Saha S, Blanch-Hartigan D, Smets EMA; GROVE Working group. Development of GROVE: A Guideline for RepOrting Vignette Experiments conducted in a healthcare context. Patient Educ Couns. 2025;136:108750. PMID: [40107182](https://pubmed.ncbi.nlm.nih.gov/40107182/) [full text](https://doi.org/10.1016/j.pec.2025.108750)'
 
 
 # OPTIONAL FIELDS
@@ -27,7 +26,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: '[GROVE Checklist (Word)](GROVE-Checklist.docx)'
+downloads: 'Download the GROVE Checklist [(PDF)](GROVE-Checklist.pdf) / [(Word)](GROVE-Checklist.docx)'
 
 
 # LIST FIELDS
