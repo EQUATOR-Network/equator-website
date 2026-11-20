@@ -28,21 +28,9 @@ guideline-history: ''
 relevant-more: ''
 website-url: <http://gather-statement.org/>
 additional-languages: |-
-  The GATHER Statement has been translated into [French (PDF)](http://gather-statement.org/download/gather-statement-french-pdf/), [Spanish (PDF)](http://gather-statement.org/download/gather-statement-spanish-pdf/). \
+  The GATHER checklist has been translated into the following languages:\
 
-  The GATHER checklist has been translated into the following languages:
-
-  Arabic [PDF](http://gather-statement.org/download/gather-checklist-arabic-pdf/) / [Word](http://gather-statement.org/download/gather-checklist-arabic-docx/)
-
-  Chinese [PDF](http://gather-statement.org/download/gather-checklist-chinese-pdf/) / [Word](http://gather-statement.org/download/gather-checklist-chinese-docx/)
-
-  French [PDF](http://gather-statement.org/download/gather-checklist-french-pdf/) / [Word](http://gather-statement.org/download/gather-checklist-french-docx/)
-
-  Portuguese [PDF](http://gather-statement.org/download/gather-checklist-portuguese-pdf/) / [Word](http://gather-statement.org/download/gather-checklist-portuguese-docx/)
-
-  Russian [PDF](http://gather-statement.org/download/gather-checklist-russian-pdf/) / [Word](http://gather-statement.org/download/gather-checklist-russian-docx/)
-
-  Spanish [PDF](http://gather-statement.org/download/gather-checklist-spanish-pdf/) / [Word](http://gather-statement.org/download/gather-checklist-spanish-docx/)
+  Arabic [PDF](gather_checklist_arabic.pdf) / Chinese [PDF](gather_checklist_chinese.pdf) / French [PDF](gather_checklist_french.pdf) / Portuguese [PDF](gather_statement_portuguese.pdf) / Russian [PDF](gather_checklist_russian.pdf) / Spanish [PDF](gather_statement_spanish.pdf) 
 additional-information: |-
   Read the [report (PDF)](GATHER-meeting-report.pdf) from the guideline development working group meeting held in 2015. \
   
