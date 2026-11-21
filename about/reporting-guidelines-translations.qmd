@@ -10,7 +10,7 @@ Many of the translations listed below are hosted on an external website, such as
 
 We only list translations to the most recent reporting guidelines. So if a reporting guideline has been updated (i.e., PRISMA-2009 -> PRISMA-2020), we only list translations for the updated reporting guideline.
 
-If are have translated a reporting guideline or are aware of one that we have not listed here please [let us know](/about/contact.qmd)
+If you have translated a reporting guideline or are aware of one that we have not listed here please [let us know](/about/contact.qmd). The EQUATOR Network does not translate reporting guidelines.
 
 Translations are grouped by language. For each one you can see whether it is available as a:
 
