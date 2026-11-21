@@ -257,36 +257,6 @@
     ]
   },
   {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
-    ]
-  },
-  {
-    "listing": "/about/equator-network.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
-    ]
-  },
-  {
     "listing": "/reporting-guidelines/index.html",
     "items": [
       "/reporting-guidelines/right-statement/index.html",
@@ -299,7 +269,7 @@
       "/reporting-guidelines/stard/index.html",
       "/reporting-guidelines/srqr/index.html",
       "/reporting-guidelines/tidier-placebo/index.html",
-      "/reporting-guidelines/the-agree-reporting-checklist-a-tool-to-improve-reporting-of-clinical-practice-guidelines/index.html",
+      "/reporting-guidelines/agree/index.html",
       "/reporting-guidelines/arrive/index.html",
       "/reporting-guidelines/care/index.html",
       "/reporting-guidelines/prisma/index.html",
@@ -566,7 +536,7 @@
       "/reporting-guidelines/development-of-a-reporting-guideline-for-systematic-reviews-of-animal-experiments-in-the-field-of-traditional-chinese-medicine/index.html",
       "/reporting-guidelines/development-of-guidelines-to-reduce-handle-and-report-missing-data-in-palliative-care-trials-a-multi-stakeholder-modified-nominal-group-technique/index.html",
       "/reporting-guidelines/development-of-the-assess-tool-a-comprehensive-tool-to-support-reporting-and-critical-appraisal-of-qualitative-quantitative-and-mixed-methods-implementation-research-outcomes/index.html",
-      "/reporting-guidelines/development-of-the-anatomical-quality-assurance-aqua-checklist-guidelines-for-reporting-original-anatomical-studies/index.html",
+      "/reporting-guidelines/aqua/index.html",
       "/reporting-guidelines/clarify/index.html",
       "/reporting-guidelines/riva-c/index.html",
       "/reporting-guidelines/development-of-the-standards-of-reporting-of-neurological-disorders-strond-checklist-a-guideline-for-the-reporting-of-incidence-and-prevalence-studies-in-neuroepidemiology/index.html",
@@ -1008,6 +978,36 @@
       "/reporting-guidelines/what-should-be-done-to-tackle-ghostwriting-in-the-medical-literature/index.html",
       "/reporting-guidelines/icheck-dh-guidelines-and-checklist-for-the-reporting-on-digital-health-implementations/index.html",
       "/reporting-guidelines/brimful-of-starlite-toward-standards-for-reporting-literature-searches/index.html"
+    ]
+  },
+  {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   }
 ]
