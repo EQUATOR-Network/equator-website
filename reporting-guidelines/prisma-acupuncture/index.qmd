@@ -3,7 +3,7 @@
 title: 'Reporting items for systematic reviews and meta-analyses of acupuncture: the PRISMA for acupuncture checklist'
 acronym: PRISMA-A
 provided-for: Reporting of systematic reviews of acupuncture interventions.
-rg-doi: ''
+rg-doi: '10.1186/s12906-019-2624-3'
 pmid-id: '[31405367](https://www.ncbi.nlm.nih.gov/pubmed/31405367)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/31405367
 relevant-urls: |-

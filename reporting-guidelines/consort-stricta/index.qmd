@@ -4,15 +4,12 @@ title: 'Revised STandards for Reporting Interventions in Clinical Trials of Acup
   (STRICTA) : extending the CONSORT statement'
 acronym: STRICTA
 provided-for: Interventions in clinical trials of acupuncture
-rg-doi: ''
+rg-doi: '10.1371/journal.pmed.1000261'
 pmid-id: '[20543992](http://www.ncbi.nlm.nih.gov/pubmed/20543992)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/20543992
-relevant-urls: The [STRICTA checklist](https://stricta.info/checklist/) is available
-  from the STRICTA website.
-full-bibliographic-reference: 'MacPherson H, Altman DG, Hammerschlag R, Youping L,
-  Taixiang W, White A, Moher D; STRICTA Revision Group. Revised STandards for Reporting
-  Interventions in Clinical Trials of Acupuncture (STRICTA): extending the CONSORT
-  statement. PLoS Med. 2010;7(6):e1000261.'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1371/journal.pmed.1000261) of STRICTA
+full-bibliographic-reference: 'MacPherson H, Altman DG, Hammerschlag R, Youping L, Taixiang W, White A, Moher D; STRICTA Revision Group. Revised STandards for Reporting Interventions in Clinical Trials of Acupuncture (STRICTA): extending the CONSORT statement. PLoS Med. 2010;7(6):e1000261. PMID: [20543992](http://www.ncbi.nlm.nih.gov/pubmed/20543992) [full text](https://doi.org/10.1371/journal.pmed.1000261)'
 
 
 # OPTIONAL FIELDS
@@ -114,10 +111,8 @@ relevant-more: |-
   [**CONSORT-iNeurostim**](/reporting-guidelines/reporting-guidelines-for-randomised-controlled-trial-reports-of-implantable-neurostimulation-devices-the-consort-ineurostim-extension/): Duarte RV, Bresnahan R, Copley S, Eldabe S, Thomson S, North RB, Baranidharan G, Levy RM, Collins GS, Taylor RS. Reporting guidelines for randomised controlled trial reports of implantable neurostimulation devices: the CONSORT-iNeurostim extension. EClinicalMedicine. 2024;78:102932. PMID: [39606687](https://pubmed.ncbi.nlm.nih.gov/39606687/) \
 
   [**CONSORT CRXO**](/reporting-guidelines/reporting-of-cluster-randomised-crossover-trials-extension-of-the-consort-2010-statement-with-explanation-and-elaboration/): McKenzie JE, Taljaard M, Hemming K, Arnup SJ, Giraudeau B, Eldridge S, Hooper R, Kahan BC, Li T, Moher D, Turner EL, Grimshaw JM, Forbes AB. Reporting of cluster randomised crossover trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2025;388:e080472. PMID: [39761979](https://pubmed.ncbi.nlm.nih.gov/39761979/)
-website-url: <http://www.stricta.info/>
+website-url: 
 additional-languages: |-
-  The STRICTA statement has been translated into the following languages: Chinese; Japanese; Korean; Russian.
-  Please visit the following URL for more information and full-text downloads: <http://www.stricta.info/translations.htm>
   
 additional-information: ''
 relevant-editorials: ''

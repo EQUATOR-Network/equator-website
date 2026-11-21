@@ -11,7 +11,9 @@ pmid-url: ''
 relevant-urls: |-
   All versions (including a Shiny App) of the PRISMA 2020 flow diagram are available (for both new and updated systematic reviews) at: <https://www.prisma-statement.org/prisma-2020-flow-diagram> \
   
-  Go to the [PRISMA website](http://www.prisma-statement.org/) for a history and development of PRISMA. See here for a list of [PRISMA endorsed extensions](https://www.prisma-statement.org/extensions) \  
+  Go to the [PRISMA website](http://www.prisma-statement.org/) for a history and development of PRISMA. \
+  
+  See here for a list of [PRISMA endorsed extensions](https://www.prisma-statement.org/extensions) \  
   
   If you are interested in developing a new PRISMA 2020 extension, then please read the [PRISMA criteria](https://www.prisma-statement.org/extensions) for their approval.
 full-bibliographic-reference: |-

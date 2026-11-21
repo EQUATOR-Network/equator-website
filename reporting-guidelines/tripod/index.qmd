@@ -81,7 +81,9 @@ additional-languages: |-
   
   TRIPOD+AI Checklist (Croatian) [PDF](TRIPOD-AI-Croatian.pdf)
   
-  TRIPOD+AI Checklist (Japanese) [PDF](TRIPOD-AI-Japanese.pdf) \
+  TRIPOD+AI Checklist (Japanese) [PDF](TRIPOD-AI-Japanese.pdf) 
+  
+  TRIPOD+AI Statement [Korean](https://pubmed.ncbi.nlm.nih.gov/40739973/) \
   
   **TRIPOD 2015**
 

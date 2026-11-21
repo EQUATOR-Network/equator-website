@@ -1,13 +1,16 @@
 ---
 # REQUIRED FIELDS
 title: 'Development of the Anatomical Quality Assurance (AQUA) Checklist: guidelines for reporting original anatomical studies'
+aliases:
+  - /reporting-guidelines/development-of-the-anatomical-quality-assurance-aqua-checklist-guidelines-for-reporting-original-anatomical-studies/
 acronym: AQUA
 provided-for: Reporting original anatomical studies
 rg-doi: '10.1002/ca.22800'
 pmid-id: '[27801507](https://www.ncbi.nlm.nih.gov/pubmed/27801507)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/27801507
-relevant-urls: 'The AQUA checklist is freely available from: <http://www.eba.cm.uj.edu.pl/about-aqua>'
-full-bibliographic-reference: 'Tomaszewski KA, Henry BM, Ramakrishnan PK, Roy J, Vikse J, Loukas M, Tubbs RS, Walocha JA. Development of the Anatomical Quality Assurance (AQUA) Checklist: guidelines for reporting original anatomical studies. Clin Anat. 2016.'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1002/ca.22800) of AQUA
+full-bibliographic-reference: 'Tomaszewski KA, Henry BM, Ramakrishnan PK, Roy J, Vikse J, Loukas M, Tubbs RS, Walocha JA. Development of the Anatomical Quality Assurance (AQUA) Checklist: guidelines for reporting original anatomical studies. Clin Anat. 2017; 30: 14-20. PMID: [27801507](https://www.ncbi.nlm.nih.gov/pubmed/27801507) [full text](https://doi.org/10.1002/ca.22800)'
 
 
 # OPTIONAL FIELDS
@@ -16,17 +19,19 @@ explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
 website-url: 
-additional-languages: 
+additional-languages: |-
+  AQUA has been translated into [Spanish](https://eurjanat.com/v1/data/pdf/eja.170263bh.pdf), [Polish](https://pubmed.ncbi.nlm.nih.gov/29121042/)
 additional-information: |-
-  The AQUA reporting guideline development team have also produced consensus guidelines specifically for reporting study ethics in anatomical research within the framework of the AQUA checklist (relating to checklist items 6, 16 and 17):
+  The AQUA reporting guideline development team have also produced consensus guidelines specifically for reporting study ethics in anatomical research within the framework of the AQUA checklist (relating to checklist items 6, 16 and 17):\
 
-  Henry BM, Vikse J, Pekala P, Loukas M, Tubbs RS, Walocha JA, Jones DG, Tomaszewski KA. Consensus guidelines for the uniform reporting of study ethics in anatomical research within the framework of the anatomical quality assurance (AQUA) checklist. Clin Anat. 2018;31(4):521-524. PMID: [29532521](https://www.ncbi.nlm.nih.gov/pubmed/29532521)
+  Henry BM, Vikse J, Pekala P, Loukas M, Tubbs RS, Walocha JA, Jones DG, Tomaszewski KA. Consensus guidelines for the uniform reporting of study ethics in anatomical research within the framework of the anatomical quality assurance (AQUA) checklist. Clin Anat. 2018;31(4):521-524. PMID: [29532521](https://www.ncbi.nlm.nih.gov/pubmed/29532521)
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: 
+downloads: |-
+  Downlad the [AQUA checklist](AQUA-checklist.pdf)
 
 # LIST FIELDS
 categories:

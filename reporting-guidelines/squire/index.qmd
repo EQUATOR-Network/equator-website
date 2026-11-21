@@ -8,30 +8,30 @@ provided-for: Quality improvement in health care
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
-relevant-urls: 'The full-text of the SQUIRE 2.0 update, published in 2015, is available
-  from: [SQUIRE 2.0](http://www.squire-statement.org/index.cfm?fuseaction=page.viewPage&pageID=471)'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1136/bmjqs-2015-004411) of SQUIRE 2.0
 full-bibliographic-reference: |-
   Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process. \
 
   This guideline was published simultaneously in 7 journals. You can read the guideline in any of these journals using the links below.
 
-  BMJ Qual Saf. 2015. PMID: [26369893](http://www.ncbi.nlm.nih.gov/pubmed/26369893)
+  BMJ Qual Saf. 2016; 25: 986-992. PMID: [26369893](http://www.ncbi.nlm.nih.gov/pubmed/26369893) [full text](https://doi.org/10.1136/bmjqs-2015-004411)
 
-  J Nurs Care Qual. 2015. PMID: [26429125](http://www.ncbi.nlm.nih.gov/pubmed/26429125)
+  J Nurs Care Qual. 2016; 31: 1-8. PMID: [26429125](http://www.ncbi.nlm.nih.gov/pubmed/26429125) [full text](https://doi.org/10.1097/ncq.0000000000000153)
 
-  Am J Crit Care. 2015. PMID: [26523003](http://www.ncbi.nlm.nih.gov/pubmed/26523003)
+  Am J Crit Care. 2015; 24: 466-473. PMID: [26523003](http://www.ncbi.nlm.nih.gov/pubmed/26523003) [full text](https://doi.org/10.4037/ajcc2015455)
 
-  Perm J. 2015. PMID: [26517437](http://www.ncbi.nlm.nih.gov/pubmed/26517437)
+  Perm J. 2015; 19: 65-70. PMID: [26517437](http://www.ncbi.nlm.nih.gov/pubmed/26517437) [full text](https://doi.org/10.7812/tpp/15-141)
 
-  J Surg Res. 2015. PMID: [26515734](http://www.ncbi.nlm.nih.gov/pubmed/26515734)
+  J Surg Res. 2016; 200: 676-682. PMID: [26515734](http://www.ncbi.nlm.nih.gov/pubmed/26515734) [full text](https://doi.org/10.1016/j.jss.2015.09.015)
 
-  J Contin Educ Nurs. 2015. PMID: [26509402](http://www.ncbi.nlm.nih.gov/pubmed/26509402)
+  J Contin Educ Nurs. 2015; 46: 501-507. PMID: [26509402](http://www.ncbi.nlm.nih.gov/pubmed/26509402) [full text](https://doi.org/10.3928/00220124-20151020-02)
 
-  J Am Coll Surg. 2016;222(3):317-323. PMID: [26385723](http://www.ncbi.nlm.nih.gov/pubmed/26385723) \ 
+  J Am Coll Surg. 2016; 222: 317-323. PMID: [26385723](http://www.ncbi.nlm.nih.gov/pubmed/26385723) [full text](https://doi.org/10.1016/j.jamcollsurg.2015.07.456)\ 
 
   **Explanation and Elaboration**
   
-  Goodman D, Ogrinc G, Davies L, Baker GR, Barnsteiner J, Foster TC, Gali K, Hilden J, Horwitz L, Kaplan HC, Leis J, Matulis JC, Michie S, Miltner R, Neily J, Nelson WA, Niedner M, Oliver B, Rutman L, Thomson R, Thor J. Explanation and elaboration of the SQUIRE (Standards for Quality Improvement Reporting Excellence) Guidelines, V.2.0: examples of SQUIRE elements in the healthcare improvement literature. BMJ Qual Saf. 2016;25(12):e7. PMID: [27076505](https://pubmed.ncbi.nlm.nih.gov/27076505/)
+  Goodman D, Ogrinc G, Davies L, Baker GR, Barnsteiner J, Foster TC, Gali K, Hilden J, Horwitz L, Kaplan HC, Leis J, Matulis JC, Michie S, Miltner R, Neily J, Nelson WA, Niedner M, Oliver B, Rutman L, Thomson R, Thor J. Explanation and elaboration of the SQUIRE (Standards for Quality Improvement Reporting Excellence) Guidelines, V.2.0: examples of SQUIRE elements in the healthcare improvement literature. BMJ Qual Saf. 2016;25(12):e7. PMID: [27076505](https://pubmed.ncbi.nlm.nih.gov/27076505/) [full text](https://doi.org/10.1136/bmjqs-2015-004480)
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -60,7 +60,7 @@ relevant-more: |-
   [**SQUIRE-EDU**](/reporting-guidelines/squire-edu-standards-for-quality-improvement-reporting-excellence-in-education-publication-guidelines-for-educational-improvement/): Ogrinc G, Armstrong GE, Dolansky MA, Singh MK, Davies L. SQUIRE-EDU (Standards for QUality Improvement Reporting Excellence in Education): Publication Guidelines for Educational Improvement. Acad Med. 2019 Oct;94(10):1461-1470. PMID: [30998575](https://pubmed.ncbi.nlm.nih.gov/30998575/) \
 
   [**SQUIRE-SIM**](/reporting-guidelines/squire-sim-standards-for-quality-improvement-reporting-excellence-for-simulation-publication-guidelines-for-simulation-based-quality-improvement-projects/): Stone KP, Rutman L, Calhoun AW, Reid J, Maa T, Bajaj K, Auerbach MA, Cheng A, Davies L, Deutsch E, Harwayne-Gidansky I, Kessler DO, Ogrinc G, Patterson M, Thomas A, Doughty C; And for the International Network in Simulation-Based Innovation, Research and Education (INSPIRE) SQUIRE-SIM Reporting Guidelines Investigators. SQUIRE-SIM (Standards for Quality Improvement Reporting Excellence for SIMulation): Publication Guidelines for Simulation-Based Quality Improvement Projects. Simul Healthc. 2024. PMID: [39162794](https://pubmed.ncbi.nlm.nih.gov/39162794/)
-website-url: <http://www.squire-statement.org/>
+website-url: 
 additional-languages: The SQUIRE 2.0 guideline is available in [Italian](http://www.evidence.it/articolodettaglio/209/it/470/squire-20-standard-per-leccellenza-nel-reporting-degli-stud/articolo).
 additional-information: ''
 relevant-editorials: ''
