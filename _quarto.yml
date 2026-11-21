@@ -40,6 +40,8 @@ website:
             href: reporting-guidelines/index.qmd
           - text: Search reporting guidelines under development
             href: reporting-guidelines/under-development/index.qmd
+          - text: Reporting guideline translations
+            href: about/reporting-guidelines-translations.qmd
       - text: Toolkits
         menu: 
           - text: For authors
