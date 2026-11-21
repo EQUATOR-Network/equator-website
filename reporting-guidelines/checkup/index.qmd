@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting Items for Updated Clinical Guidelines: Checklist for the Reporting
-  of Updated Guidelines (CheckUp)'
+title: 'Reporting Items for Updated Clinical Guidelines: Checklist for the Reporting of Updated Guidelines (CheckUp)'
+aliases:
+  - /reporting-guidelines/reporting-items-for-updated-clinical-guidelines-checkup/
 acronym: CheckUp
 provided-for: Reporting of updated clinical guidelines.
 rg-doi: ''

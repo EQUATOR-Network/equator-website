@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: 'Consensus on Exercise Reporting Template (CERT) : Modified Delphi Study'
+aliases:
+  - /reporting-guidelines/consensus-on-exercise-reporting-template-cert/
 acronym: CERT
 provided-for: Reporting exercise programs in clinical trials
 rg-doi: ''

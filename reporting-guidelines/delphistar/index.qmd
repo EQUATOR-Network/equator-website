@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: Delphi studies in social and health sciences -Recommendations for an interdisciplinary
-  standardized reporting (DELPHISTAR) . Results of a Delphi study
+title: Delphi studies in social and health sciences -Recommendations for an interdisciplinary standardized reporting (DELPHISTAR) . Results of a Delphi study
+aliases:
+  - /reporting-guidelines/delphi-studies-in-social-and-health-sciences-recommendations-for-an-interdisciplinary-standardized-reporting-delphistar-results-of-a-delphi-study/
 acronym: DELPHISTAR
 provided-for: Reporting Delphi studies in the health and social sciences
 rg-doi: ''

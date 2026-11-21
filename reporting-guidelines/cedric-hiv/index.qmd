@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Checklist for studies of HIV drug resistance prevalence or incidence: rationale
-  and recommended use'
+title: 'Checklist for studies of HIV drug resistance prevalence or incidence: rationale and recommended use'
+aliases:
+  - /reporting-guidelines/checklist-for-studies-of-hiv-drug-resistance-prevalence-or-incidence-rationale-and-recommended-use/
 acronym: CEDRIC-HIV
 provided-for: Reporting of HIV drug resistance (HIVDR) prevalence or incidence studies.
 rg-doi: ''

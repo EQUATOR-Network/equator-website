@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Improving the Reporting of Primary Care Research: Consensus Reporting Items
-  for Studies in Primary Care-the CRISP Statement'
+title: 'Improving the Reporting of Primary Care Research: Consensus Reporting Items for Studies in Primary Care-the CRISP Statement'
+aliases:
+  - /reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/
 acronym: CRISP
 provided-for: Reporting primary care research.
 rg-doi: ''
