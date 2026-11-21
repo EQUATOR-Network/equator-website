@@ -23,7 +23,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the [COREQ checklist](https://onlinelibrary.wiley.com/pb-assets/assets/17416612/COREQ_Checklist-1556513515737.pdf)
 
 # LIST FIELDS
 categories:
