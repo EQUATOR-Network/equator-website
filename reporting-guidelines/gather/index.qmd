@@ -1,7 +1,8 @@
 ---
 # REQUIRED FIELDS
-title: 'Guidelines for Accurate and Transparent Health Estimates Reporting: the GATHER
-  statement'
+title: 'Guidelines for Accurate and Transparent Health Estimates Reporting: the GATHER statement'
+aliases:
+  - /reporting-guidelines/gather-statement/
 acronym: GATHER
 provided-for: Reporting practices for studies that calculate health estimates for
   multiple populations (in time or space) using multiple information sources.
