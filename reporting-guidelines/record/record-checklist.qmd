@@ -1,0 +1,281 @@
+---
+pagetitle: "RECORD checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1200px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:17px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:11%; }
+  #tp-wrap td.item { width:4%; text-align:center; }
+  #tp-wrap td.strobe { width:28%; }
+  #tp-wrap td.rec { width:32%; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:10.5%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:12.5px; margin:.6rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:9.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:13px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div></div>
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">The RECORD statement – checklist of items, extended from the STROBE statement, that should be reported in observational studies using routinely collected health data.</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the location in your manuscript (e.g. page number) where each STROBE and RECORD item is reported in the boxes provided, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th></th><th>Item No.</th><th>STROBE items</th>
+      <th class="pgh">Location in manuscript where items are reported<span class="tp-hint">type in the boxes below</span></th>
+      <th>RECORD items</th>
+      <th class="pgh">Location in manuscript where items are reported<span class="tp-hint">type in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-cite">*Reference: Benchimol EI, Smeeth L, Guttmann A, Harron K, Moher D, Petersen I, Sørensen HT, von Elm E, Langan SM, the RECORD Working Committee. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement. PLoS Medicine 2015;12(10):e1001885. <a href="https://doi.org/10.1371/journal.pmed.1001885" target="_blank" rel="noopener">https://doi.org/10.1371/journal.pmed.1001885</a></p>
+  <p class="tp-foot">*Checklist is protected under Creative Commons Attribution (CC BY) license.</p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings; otherwise [topic, item no, STROBE text ("" if none), [[RECORD code, RECORD text], ...]]
+  const ROWS = [
+    "Title and abstract",
+    ["", "1", "(a) Indicate the study’s design with a commonly used term in the title or the abstract\n(b) Provide in the abstract an informative and balanced summary of what was done and what was found", [
+      ["1.1", "RECORD 1.1: The type of data used should be specified in the title or abstract. When possible, the name of the databases used should be included."],
+      ["1.2", "RECORD 1.2: If applicable, the geographic region and timeframe within which the study took place should be reported in the title or abstract."],
+      ["1.3", "RECORD 1.3: If linkage between databases was conducted for the study, this should be clearly stated in the title or abstract."]]],
+    "Introduction",
+    ["Background rationale", "2", "Explain the scientific background and rationale for the investigation being reported", []],
+    ["Objectives", "3", "State specific objectives, including any prespecified hypotheses", []],
+    "Methods",
+    ["Study Design", "4", "Present key elements of study design early in the paper", []],
+    ["Setting", "5", "Describe the setting, locations, and relevant dates, including periods of recruitment, exposure, follow-up, and data collection", []],
+    ["Participants", "6", "(a) Cohort study- Give the eligibility criteria, and the sources and methods of selection of participants. Describe methods of follow-up\nCase-control study- Give the eligibility criteria, and the sources and methods of case ascertainment and control selection. Give the rationale for the choice of cases and controls\nCross-sectional study- Give the eligibility criteria, and the sources and methods of selection of participants\n(b) Cohort study- For matched studies, give matching criteria and number of exposed and unexposed\nCase-control study- For matched studies, give matching criteria and the number of controls per case", [
+      ["6.1", "RECORD 6.1: The methods of study population selection (such as codes or algorithms used to identify subjects) should be listed in detail. If this is not possible, an explanation should be provided."],
+      ["6.2", "RECORD 6.2: Any validation studies of the codes or algorithms used to select the population should be referenced. If validation was conducted for this study and not published elsewhere, detailed methods and results should be provided."],
+      ["6.3", "RECORD 6.3: If the study involved linkage of databases, consider use of a flow diagram or other graphical display to demonstrate the data linkage process, including the number of individuals with linked data at each stage."]]],
+    ["Variables", "7", "Clearly define all outcomes, exposures, predictors, potential confounders, and effect modifiers. Give diagnostic criteria, if applicable.", [
+      ["7.1", "RECORD 7.1: A complete list of codes and algorithms used to classify exposures, outcomes, confounders, and effect modifiers should be provided. If these cannot be reported, an explanation should be provided."]]],
+    ["Data sources/ measurement", "8", "For each variable of interest, give sources of data and details of methods of assessment (measurement).\nDescribe comparability of assessment methods if there is more than one group", []],
+    ["Bias", "9", "Describe any efforts to address potential sources of bias", []],
+    ["Study size", "10", "Explain how the study size was arrived at", []],
+    ["Quantitative variables", "11", "Explain how quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen, and why", []],
+    ["Statistical methods", "12", "(a) Describe all statistical methods, including those used to control for confounding\n(b) Describe any methods used to examine subgroups and interactions\n(c) Explain how missing data were addressed\n(d) Cohort study- If applicable, explain how loss to follow-up was addressed\nCase-control study- If applicable, explain how matching of cases and controls was addressed\nCross-sectional study- If applicable, describe analytical methods taking account of sampling strategy\n(e) Describe any sensitivity analyses", []],
+    ["Data access and cleaning methods", "..", "", [
+      ["12.1", "RECORD 12.1: Authors should describe the extent to which the investigators had access to the database population used to create the study population."],
+      ["12.2", "RECORD 12.2: Authors should provide information on the data cleaning methods used in the study."]]],
+    ["Linkage", "..", "", [
+      ["12.3", "RECORD 12.3: State whether the study included person-level, institutional-level, or other data linkage across two or more databases. The methods of linkage and methods of linkage quality evaluation should be provided."]]],
+    "Results",
+    ["Participants", "13", "(a) Report the numbers of individuals at each stage of the study (e.g., numbers potentially eligible, examined for eligibility, confirmed eligible, included in the study, completing follow-up, and analysed)\n(b) Give reasons for non-participation at each stage.\n(c) Consider use of a flow diagram", [
+      ["13.1", "RECORD 13.1: Describe in detail the selection of the persons included in the study (i.e., study population selection) including filtering based on data quality, data availability and linkage. The selection of included persons can be described in the text and/or by means of the study flow diagram."]]],
+    ["Descriptive data", "14", "(a) Give characteristics of study participants (e.g., demographic, clinical, social) and information on exposures and potential confounders\n(b) Indicate the number of participants with missing data for each variable of interest\n(c) Cohort study- summarise follow-up time (e.g., average and total amount)", []],
+    ["Outcome data", "15", "Cohort study- Report numbers of outcome events or summary measures over time\nCase-control study- Report numbers in each exposure category, or summary measures of exposure\nCross-sectional study- Report numbers of outcome events or summary measures", []],
+    ["Main results", "16", "(a) Give unadjusted estimates and, if applicable, confounder-adjusted estimates and their precision (e.g., 95% confidence interval). Make clear which confounders were adjusted for and why they were included\n(b) Report category boundaries when continuous variables were categorized\n(c) If relevant, consider translating estimates of relative risk into absolute risk for a meaningful time period", []],
+    ["Other analyses", "17", "Report other analyses done—e.g., analyses of subgroups and interactions, and sensitivity analyses", []],
+    "Discussion",
+    ["Key results", "18", "Summarise key results with reference to study objectives", []],
+    ["Limitations", "19", "Discuss limitations of the study, taking into account sources of potential bias or imprecision. Discuss both direction and magnitude of any potential bias", [
+      ["19.1", "RECORD 19.1: Discuss the implications of using data that were not created or collected to answer the specific research question(s). Include discussion of misclassification bias, unmeasured confounding, missing data, and changing eligibility over time, as they pertain to the study being reported."]]],
+    ["Interpretation", "20", "Give a cautious overall interpretation of results considering objectives, limitations, multiplicity of analyses, results from similar studies, and other relevant evidence", []],
+    ["Generalisability", "21", "Discuss the generalisability (external validity) of the study results", []],
+    "Other Information",
+    ["Funding", "22", "Give the source of funding and the role of the funders for the present study and, if applicable, for the original study on which the present article is based", []],
+    ["Accessibility of protocol, raw data, and programming code", "..", "", [
+      ["22.1", "RECORD 22.1: Authors should provide information on how to access any supplemental information such as the study protocol, raw data, or programming code."]]]
+  ];
+  const TITLE = "The RECORD statement – checklist of items, extended from the STROBE statement, that should be reported in observational studies using routinely collected health data.";
+  const FOOT = [
+    "*Reference: Benchimol EI, Smeeth L, Guttmann A, Harron K, Moher D, Petersen I, Sørensen HT, von Elm E, Langan SM, the RECORD Working Committee. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement. PLoS Medicine 2015;12(10):e1001885. [[https://doi.org/10.1371/journal.pmed.1001885|https://doi.org/10.1371/journal.pmed.1001885]]",
+    "*Checklist is protected under Creative Commons Attribution (CC BY) license."
+  ];
+
+  const input = (key, label) => `<td class="pg"><input type="text" data-key="${key}" placeholder="location" aria-label="${label}"></td>`;
+  const esc = t => t.replace(/\n/g, "<br>");
+  const STORE = "record-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="6">${r}</td></tr>`;
+    const [topic, no, strobe, rec] = r, n = Math.max(1, rec.length);
+    return Array.from({ length: n }, (_, i) => {
+      const first = i === 0;
+      const left = first
+        ? `<td class="topic" rowspan="${n}">${topic}</td><td class="item" rowspan="${n}">${no}</td><td class="strobe" rowspan="${n}">${esc(strobe)}</td>` +
+          (strobe ? input("s" + no, "Location, STROBE item " + no).replace('<td class="pg">', `<td class="pg" rowspan="${n}">`) : `<td class="pg" rowspan="${n}"></td>`)
+        : "";
+      const right = rec[i]
+        ? `<td class="rec">${rec[i][1]}</td>` + input("r" + rec[i][0], "Location, RECORD item " + rec[i][0])
+        : `<td class="rec"></td><td class="pg"></td>`;
+      return `<tr>${left}${right}</tr>`;
+    }).join("");
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "RECORD checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all locations and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export (landscape A4) -----------------------------------
+  function buildDocx(D, ROWS, vals, title, foot, eqLogo) {
+    const F = "Arial", SZ = 16, W = [1500, 600, 4300, 1300, 6200, 1498], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 6 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "", hd), cell(1, "Item No.", { ...hd, center: true }), cell(2, "STROBE items", hd),
+      cell(3, "Location in manuscript where items are reported", hd), cell(4, "RECORD items", hd),
+      cell(5, "Location in manuscript where items are reported", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] })];
+      const [topic, no, strobe, rec] = r, n = Math.max(1, rec.length);
+      return Array.from({ length: n }, (_, i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: n }), cell(1, no, { rowSpan: n, center: true }), cell(2, strobe, { rowSpan: n }),
+          cell(3, strobe ? (vals["s" + no] || "") : "", { rowSpan: n, center: true, mid: true })]),
+        cell(4, rec[i] ? rec[i][1] : ""), cell(5, rec[i] ? (vals["r" + rec[i][0]] || "") : "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [10898, 4500];
+    const hcell = (i, children) => new D.TableCell({ width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const empty = () => [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : empty();
+    const topTable = new D.Table({ width: { size: HW[0] + HW[1], type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, empty()), hcell(1, right)] })] });
+    return new D.Document({
+      title: "RECORD checklist", creator: "RECORD checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [topTable, para([], { spacing: { after: 60 } }),
+          para([run(title, { bold: true, size: 22 })], { spacing: { after: 100 } }),
+          para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 15 }), { spacing: { before: i ? 40 : 140 } }))]
+      }]
+    });
+  }
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, FOOT, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "RECORD-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

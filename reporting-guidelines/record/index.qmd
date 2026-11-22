@@ -1,18 +1,17 @@
 ---
 # REQUIRED FIELDS
-title: The REporting of studies Conducted using Observational Routinely-collected
-  health Data (RECORD) Statement
+title: The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement
 acronym: RECORD
-provided-for: Reporting items specific to observational studies using routinely collected
-  health data.
-rg-doi: ''
+provided-for: Reporting items specific to observational studies using routinely collected health data.
+rg-doi: '10.1371/journal.pmed.1001885'
 pmid-id: '[26440803](http://www.ncbi.nlm.nih.gov/pubmed/26440803)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/26440803
-relevant-urls: 'The full-text of this reporting guideline can be accessed at: <http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001885>'
-full-bibliographic-reference: Benchimol EI, Smeeth L, Guttmann A, Harron K, Moher
-  D, Petersen I, Sørensen HT, von Elm E, Langan SM; RECORD Working Committee. The
-  REporting of studies Conducted using Observational Routinely-collected health Data
-  (RECORD) Statement. PLoS Med. 2015;12(10):e1001885.
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1371/journal.pmed.1001885) of RECORD \
+  
+  Complete an interactive [RECORD](record-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
+
+full-bibliographic-reference: Benchimol EI, Smeeth L, Guttmann A, Harron K, Moher D, Petersen I, Sørensen HT, von Elm E, Langan SM; RECORD Working Committee. The REporting of studies Conducted using Observational Routinely-collected health Data (RECORD) Statement. PLoS Med. 2015;12(10):e1001885 [full text](https://doi.org/10.1371/journal.pmed.1001885).
 
 
 # OPTIONAL FIELDS
@@ -22,7 +21,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  **[STROBE Statement](/reporting-guidelines/strobe/)**: von Elm E, Altman DG, Egger M, Pocock SJ, Gotzsche PC, Vandenbroucke JP. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: guidelines for reporting observational studies.
+  **[STROBE Statement](/reporting-guidelines/strobe/)**: von Elm E, Altman DG, Egger M, Pocock SJ, Gotzsche PC, Vandenbroucke JP. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: guidelines for reporting observational studies. \
 
   Ann Intern Med. 2007;147(8):573-577. PMID: [17938396](http://www.ncbi.nlm.nih.gov/pubmed/17938396)
 
