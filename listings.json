@@ -1,25 +1,5 @@
 [
   {
-    "listing": "/about/equator-network.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
-    ]
-  },
-  {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
-    ]
-  },
-  {
     "listing": "/news/index.html",
     "items": [
       "/news/posts/2026-11-20-david-moher-award/index.html",
@@ -534,7 +514,7 @@
       "/reporting-guidelines/repcan-guideline-for-reporting-population-based-cancer-registry-data/index.html",
       "/reporting-guidelines/report-pfp-a-consensus-from-the-international-patellofemoral-research-network-to-improve-reporting-of-quantitative-patellofemoral-pain-studies/index.html",
       "/reporting-guidelines/report-scs-minimum-reporting-standards-for-spinal-cord-stimulation-studies-in-spinal-cord-injury/index.html",
-      "/reporting-guidelines/remark/index.html",
+      "/reporting-guidelines/reporting-recommendations-for-tumour-marker-prognostic-studies-remark/index.html",
       "/reporting-guidelines/rightcare-pr-reporting-guidelines-for-human-rights-in-child-and-adolescent-psychiatry/index.html",
       "/reporting-guidelines/ruler/index.html",
       "/reporting-guidelines/recommendations-and-publication-guidelines-for-studies-using-frequency-domain-and-time-frequency-domain-analyses-of-neural-time-series/index.html",
@@ -758,6 +738,36 @@
       "/reporting-guidelines/what-should-be-done-to-tackle-ghostwriting-in-the-medical-literature/index.html",
       "/reporting-guidelines/icheck-dh-guidelines-and-checklist-for-the-reporting-on-digital-health-implementations/index.html",
       "/reporting-guidelines/brimful-of-starlite-toward-standards-for-reporting-literature-searches/index.html"
+    ]
+  },
+  {
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
     ]
   },
   {
@@ -998,16 +1008,6 @@
       "/reporting-guidelines/under-development/vhc-test/index.html",
       "/reporting-guidelines/under-development/water-guideline-for-wastewater-analysis-and-tracking-in-epidemiological-reporting/index.html",
       "/reporting-guidelines/under-development/who-trial-registration-data-set-trds-extension-for-organoid-studies/index.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
     ]
   }
 ]
