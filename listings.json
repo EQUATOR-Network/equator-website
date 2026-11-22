@@ -564,7 +564,7 @@
       "/reporting-guidelines/reporting-genetic-results-in-research-studies-summary-and-recommendations-of-an-nhlbi-working-group/index.html",
       "/reporting-guidelines/reporting-guidance-for-violence-risk-assessment-predictive-validity-studies-the-ragee-statement/index.html",
       "/reporting-guidelines/chart/index.html",
-      "/reporting-guidelines/reporting-guideline-for-overviews-of-reviews-of-healthcare-interventions-development-of-the-prior-statement/index.html",
+      "/reporting-guidelines/prior/index.html",
       "/reporting-guidelines/decide-ai/index.html",
       "/reporting-guidelines/gamer/index.html",
       "/reporting-guidelines/reporting-guidelines-for-allergy-and-immunology-survey-research/index.html",
@@ -741,13 +741,13 @@
     ]
   },
   {
-    "listing": "/about/international-equator-centres.html",
+    "listing": "/about/equator-network.html",
     "items": [
+      "/about/people/gcollins.html",
       "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
       "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   },
   {
@@ -761,13 +761,13 @@
     ]
   },
   {
-    "listing": "/about/equator-network.html",
+    "listing": "/about/international-equator-centres.html",
     "items": [
-      "/about/people/gcollins.html",
       "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
       "/about/people/thoffman.html",
-      "/about/people/zbian.html"
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
     ]
   },
   {
