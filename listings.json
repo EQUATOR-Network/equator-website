@@ -17,36 +17,6 @@
     ]
   },
   {
-    "listing": "/about/international-equator-centres.html",
-    "items": [
-      "/about/people/dmoher.html",
-      "/about/people/thoffman.html",
-      "/about/people/pravaud.html",
-      "/about/people/zbian.html",
-      "/about/people/jioannidis.html"
-    ]
-  },
-  {
-    "listing": "/about/uk-equator-centre.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/jharwood.html",
-      "/about/people/jdebeyer.html",
-      "/about/people/pdhiman.html",
-      "/about/people/daltman.html"
-    ]
-  },
-  {
-    "listing": "/about/equator-network.html",
-    "items": [
-      "/about/people/gcollins.html",
-      "/about/people/dmoher.html",
-      "/about/people/pravaud.html",
-      "/about/people/thoffman.html",
-      "/about/people/zbian.html"
-    ]
-  },
-  {
     "listing": "/reporting-guidelines/index.html",
     "items": [
       "/reporting-guidelines/right-statement/index.html",
@@ -417,7 +387,7 @@
       "/reporting-guidelines/guidelines-for-reporting-non-randomised-studies/index.html",
       "/reporting-guidelines/guidelines-for-reporting-of-health-interventions-using-mobile-phones-mobile-health-mhealth-evidence-reporting-and-assessment-mera-checklist/index.html",
       "/reporting-guidelines/guidelines-for-reporting-on-animal-fecal-transplantation-graft-studies-recommendations-from-a-systematic-review-of-murine-transplantation-protocols/index.html",
-      "/reporting-guidelines/guidelines-for-reporting-reliability-and-agreement-studies-grras-were-proposed/index.html",
+      "/reporting-guidelines/grras/index.html",
       "/reporting-guidelines/guidelines-for-reporting-research-using-systematic-coding-of-observed-human-behaviour-scobe/index.html",
       "/reporting-guidelines/guidelines-for-reporting-results-of-quality-of-life-assessments-in-clinical-trials/index.html",
       "/reporting-guidelines/guidelines-for-submitting-adverse-event-reports-for-publication/index.html",
@@ -593,7 +563,7 @@
       "/reporting-guidelines/reporting-gaps-in-immunization-costing-studies-recommendations-for-improving-the-practice/index.html",
       "/reporting-guidelines/reporting-genetic-results-in-research-studies-summary-and-recommendations-of-an-nhlbi-working-group/index.html",
       "/reporting-guidelines/reporting-guidance-for-violence-risk-assessment-predictive-validity-studies-the-ragee-statement/index.html",
-      "/reporting-guidelines/reporting-guideline-for-chatbot-health-advice-studies-the-chart-statement/index.html",
+      "/reporting-guidelines/chart/index.html",
       "/reporting-guidelines/reporting-guideline-for-overviews-of-reviews-of-healthcare-interventions-development-of-the-prior-statement/index.html",
       "/reporting-guidelines/decide-ai/index.html",
       "/reporting-guidelines/reporting-guideline-for-the-use-of-generative-artificial-intelligence-tools-in-medical-research-the-gamer-statement/index.html",
@@ -768,6 +738,36 @@
       "/reporting-guidelines/what-should-be-done-to-tackle-ghostwriting-in-the-medical-literature/index.html",
       "/reporting-guidelines/icheck-dh-guidelines-and-checklist-for-the-reporting-on-digital-health-implementations/index.html",
       "/reporting-guidelines/brimful-of-starlite-toward-standards-for-reporting-literature-searches/index.html"
+    ]
+  },
+  {
+    "listing": "/about/international-equator-centres.html",
+    "items": [
+      "/about/people/dmoher.html",
+      "/about/people/thoffman.html",
+      "/about/people/pravaud.html",
+      "/about/people/zbian.html",
+      "/about/people/jioannidis.html"
+    ]
+  },
+  {
+    "listing": "/about/uk-equator-centre.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/jharwood.html",
+      "/about/people/jdebeyer.html",
+      "/about/people/pdhiman.html",
+      "/about/people/daltman.html"
+    ]
+  },
+  {
+    "listing": "/about/equator-network.html",
+    "items": [
+      "/about/people/gcollins.html",
+      "/about/people/dmoher.html",
+      "/about/people/pravaud.html",
+      "/about/people/thoffman.html",
+      "/about/people/zbian.html"
     ]
   },
   {
