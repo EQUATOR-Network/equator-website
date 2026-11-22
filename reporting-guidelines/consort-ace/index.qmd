@@ -9,11 +9,8 @@ rg-doi: '10.1136/bmj.m115'
 pmid-id: '[32554564](https://pubmed.ncbi.nlm.nih.gov/32554564/)'
 pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/32554564/'
 relevant-urls: |-
-  Read the [full text](https://doi.org/10.1136/bmj.m115) of ACE \
+  Read the [full text](https://doi.org/10.1136/bmj.m115) of ACE 
 
-  Complete an interactive [CONSORT-ACE](consort-ace-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.\
-  
-  Complete an interactive [CONSORT-ACE for abstracts](ace-abstract-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Dimairo M, Pallmann P, Wason J, Todd S, Jaki T, Julious SA, Mander AP, Weir CJ, Koenig F, Walton MK, Nicholl JP, Coates E, Biggs K, Hamasaki T, Proschan MA, Scott JA, Ando Y, Hind D, Altman DG; ACE Consensus Group. The adaptive designs CONSORT extension (ACE) statement: a checklist with explanation and elaboration guideline for reporting randomised trials that use an adaptive design.
 
