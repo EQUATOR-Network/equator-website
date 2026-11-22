@@ -26,23 +26,24 @@ full-bibliographic-reference: |-
 
   J Natl Cancer Inst.2005; 97: 1180-1184. PMID: [16106022](https://pubmed.ncbi.nlm.nih.gov/16106022/) [full text](https://doi.org/10.1093/jnci/dji237)
 
-  Eur J Cancer. 2005; 41: 1690-1696. PMID: [16043346](https://pubmed.ncbi.nlm.nih.gov/16043346/) [full text](https://doi.org/10.1016/j.ejca.2005.03.032)
+  Eur J Cancer. 2005; 41: 1690-1696. PMID: [16043346](https://pubmed.ncbi.nlm.nih.gov/16043346/) [full text](https://doi.org/10.1016/j.ejca.2005.03.032) \
 
-# OPTIONAL FIELDS
-rg-language: English
-explanation-and-elaboration-papers: |-
-  **Abridged explanation and elaboration**
+  **Abridged explanation and elaboration** \
 
-  Sauerbrei W, Taube SE, McShane LM, Cavenagh MM, Altman DG. Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK): An Abridged Explanation and Elaboration. J Natl Cancer Inst. 2018. PMID: [29873743](https://www.ncbi.nlm.nih.gov/pubmed/29873743) [full text](https://doi.org/10.1093/jnci/djy088)
+  Sauerbrei W, Taube SE, McShane LM, Cavenagh MM, Altman DG. Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK): An Abridged Explanation and Elaboration. J Natl Cancer Inst. 2018. PMID: [29873743](https://www.ncbi.nlm.nih.gov/pubmed/29873743) [full text](https://doi.org/10.1093/jnci/djy088) \
 
-  **Detailed explanation and elaboration**
+  **Detailed explanation and elaboration** \
 
-  Altman DG, McShane LM, Sauerbrei W, Taube SE. Reporting recommendations for tumor marker prognostic studies (REMARK): explanation and elaboration.
+  Altman DG, McShane LM, Sauerbrei W, Taube SE. Reporting recommendations for tumor marker prognostic studies (REMARK): explanation and elaboration. \
 
   BMC Med. 2012;10:51. PMID: [22642691](http://www.ncbi.nlm.nih.gov/pubmed/22642691) [full text](https://doi.org/10.1186/1741-7015-10-51)
 
   PLoS Med. 9: e1001216. PMID: [22675273](https://pubmed.ncbi.nlm.nih.gov/22675273/) [full-text](https://doi.org/10.1371/journal.pmed.1001216)
 guideline-history: ''
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: |-
 relevant-more: |-
   **REMARK profile to aid structured reporting**
 
