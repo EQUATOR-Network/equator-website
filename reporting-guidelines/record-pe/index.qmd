@@ -1,19 +1,17 @@
 ---
 # REQUIRED FIELDS
-title: The reporting of studies conducted using observational routinely collected
-  health data statement for pharmacoepidemiology (RECORD-PE)
+title: The reporting of studies conducted using observational routinely collected health data statement for pharmacoepidemiology (RECORD-PE)
 acronym: RECORD-PE
-provided-for: Reporting of pharmacoepidemiological research undertaken using routinely
-  collected data.
-rg-doi: ''
+provided-for: Reporting of pharmacoepidemiological research undertaken using routinely collected data.
+rg-doi: '10.1136/bmj.k3532'
 pmid-id: '[30429167](https://pubmed.ncbi.nlm.nih.gov/30429167/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/30429167/
-relevant-urls: The full-text of the RECORD-PE statement is freely available at:<https://www.bmj.com/content/363/bmj.k3532.full>
-full-bibliographic-reference: Langan SM, Schmidt SAJ, Wing K, Ehrenstein V, Nicholls
-  SG, Filion KB, Klungel O, Petersen I, Sorensen HT, Dixon WG, Guttmann A, Harron
-  K, Hemkens LG, Moher D, Schneeweiss S, Smeeth L, Sturkenboom M, von Elm E, Wang
-  SV, Benchimol EI. The reporting of studies conducted using observational routinely
-  collected health data statement for pharmacoepidemiology (RECORD-PE). BMJ 2018;363:k3532.
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1136/bmj.k3532) of RECORD-PE. \ 
+  
+  Complete an interactive [RECORD-PE](record-pe-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
+full-bibliographic-reference: |-
+  Langan SM, Schmidt SAJ, Wing K, Ehrenstein V, Nicholls SG, Filion KB, Klungel O, Petersen I, Sorensen HT, Dixon WG, Guttmann A, Harron K, Hemkens LG, Moher D, Schneeweiss S, Smeeth L, Sturkenboom M, von Elm E, Wang SV, Benchimol EI. The reporting of studies conducted using observational routinely collected health data statement for pharmacoepidemiology (RECORD-PE). BMJ 2018;363:k3532. PMID: [30429167](https://pubmed.ncbi.nlm.nih.gov/30429167/) [full text](https://doi.org/10.1136/bmj.k3532)
 
 
 # OPTIONAL FIELDS
@@ -39,7 +37,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the [RECORD-PE checklist](https://www.bmj.com/content/bmj/suppl/2018/11/14/bmj.k3532.DC1/lans044971.ww2.pdf)
 
 
 # LIST FIELDS
