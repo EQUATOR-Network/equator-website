@@ -9,7 +9,9 @@ rg-doi: '10.1038/sj.bjc.6602678'
 pmid-id: '[16106245](http://www.ncbi.nlm.nih.gov/pubmed/16106245)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/16106245
 relevant-urls: |-
-  Read the [full text](https://doi.org/10.1038/sj.bjc.6602678) of REMARK
+  Read the [full text](https://doi.org/10.1038/sj.bjc.6602678) of REMARK \
+  
+  Complete an interactive [REMARK](remark-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
 
   McShane LM, Altman DG, Sauerbrei W, Taube SE, Gion M, Clark GM. REporting recommendations for tumour MARKer prognostic studies (REMARK).\
