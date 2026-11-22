@@ -37,7 +37,7 @@ rg-language: English
 explanation-and-elaboration-papers: 'CHART Collaborative. Reporting guidelines for chatbot health advice studies: explanation and elaboration for the Chatbot Assessment Reporting Tool (CHART). BMJ. 2025; 390: e083305. PMID: [40750271](https://pubmed.ncbi.nlm.nih.gov/40750271/) [full text](https://doi.org/10.1136/bmj-2024-083305)'
 guideline-history: ''
 relevant-more: ''
-website-url: ''
+website-url: https://chartguideline.org/
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''
