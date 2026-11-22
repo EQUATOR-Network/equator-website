@@ -99,7 +99,7 @@ resources:
   // Section bars are plain strings; otherwise [topic, indented?, [[item no (key), text, displayed label (optional)], ...]]
   const ROWS = [
     "Title and abstract",
-    ["Title and abstract", false, [["1a", "Identification as a randomised trial in the title"], ["1b", "Structured summary of trial design, methods, results, and conclusions (for specific guidance see [[ACE checklist for abstracts|ace-abstract-checklist.html]])"]]],
+    ["Title and abstract", false, [["1a", "Identification as a randomised trial in the title"], ["1b", "Structured summary of trial design, methods, results, and conclusions"]]],
     "Introduction",
     ["Background and objectives", false, [["2a", "Scientific background and explanation of rationale"], ["2b", "Specific objectives or hypotheses"]]],
     "Methods",
