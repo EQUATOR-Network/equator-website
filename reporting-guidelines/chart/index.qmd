@@ -1,14 +1,18 @@
 ---
 # REQUIRED FIELDS
 title: 'Reporting guideline for Chatbot Health Advice studies: the CHART statement'
+aliases:
+  - /reporting-guidelines/reporting-guideline-for-chatbot-health-advice-studies-the-chart-statement/
 acronym: CHART
-provided-for: Reporting recommendations for studies evaluating the performance of
-  generative artificial intelligence (AI)-driven chatbots when summarizing clinical
-  evidence and providing health advice.
+provided-for: Reporting recommendations for studies evaluating the performance of generative artificial intelligence (AI)-driven chatbots when summarizing clinical evidence and providing health advice.
 rg-doi: ''
 pmid-id: ''
 pmid-url: ''
-relevant-urls: ''
+relevant-urls: |-
+  Complete an interactive [CHART](chart-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.\
+  
+  Complete an interactive [CHART for Abstracts](chart-abstract-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
+  
 full-bibliographic-reference: |-
   Huo B, Collins G, Chartash D, Thirunavukarasu A, Flanagin A, Iorio A, Cacciamani G, Chen X, Liu N, Mathur P, Chan AW, Laine C, Pacella D, Berkwits M, Antoniou SA, Camaradou JC, Canfield C, Mittelman M, Feeney T, Loder E, Agha R, Saha A, Mayol J, Sunjaya A, Harvey H, Ng JY, McKechnie T, Lee Y, Verma N, Stiglic G, McCradden M, Ramji K, Boudreau V, Ortenzi M, Meerpohl J, Vandvik PO, Agoritsas T, Samuel D, Frankish H, Anderson M, Yao X, Loeb S, Lokker C, Liu X, Guallar E, Guyatt G. Reporting guideline for Chatbot Health Advice studies: the CHART statement.\
 
@@ -30,9 +34,7 @@ full-bibliographic-reference: |-
   
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'CHART Collaborative. Reporting guidelines for
-  chatbot health advice studies: explanation and elaboration for the Chatbot Assessment
-  Reporting Tool (CHART). BMJ. 2025; 390: e083305. PMID: [40750271](https://pubmed.ncbi.nlm.nih.gov/40750271/)'
+explanation-and-elaboration-papers: 'CHART Collaborative. Reporting guidelines for chatbot health advice studies: explanation and elaboration for the Chatbot Assessment Reporting Tool (CHART). BMJ. 2025; 390: e083305. PMID: [40750271](https://pubmed.ncbi.nlm.nih.gov/40750271/) [full text](https://doi.org/10.1136/bmj-2024-083305)'
 guideline-history: ''
 relevant-more: ''
 website-url: ''
@@ -43,8 +45,12 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: ''
+downloads: |-
+  Download the [CHART checklist](CHART_checklist.docx)\
+  
+  Download the [CHART for Abstracts checklist](CHART_abstracts_checklist.docx)\
 
+  Download the [CHART flow duagram](CHART_flow_diagram.docx)
 
 # LIST FIELDS
 categories:
@@ -141,6 +147,8 @@ keyword:
 - chatbots
 - artificial intelligence
 - health advice
+- large language models
+- generative AI
 ---
 
 {{< include ../_template.qmd >}}

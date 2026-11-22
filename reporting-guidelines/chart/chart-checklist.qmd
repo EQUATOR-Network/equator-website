@@ -1,0 +1,478 @@
+---
+pagetitle: "CHART checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-top { text-align:right; }
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:21px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:17%; font-weight:bold; }
+  #tp-wrap td.item { width:7%; text-align:center; font-weight:bold; }
+  #tp-wrap td.txt.sub { padding-left:22px; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:13%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:12.5px; margin:.6rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:16px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  <div class="tp-title">The CHART Checklist</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column (or “supp” and the appendix number if it is in a supplementary appendix), then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>HEADING</th><th class="c">#</th><th>CHART CHECKLIST ITEM</th>
+      <th class="pgh">Page #<sup>*</sup><span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-foot"><sup>*</sup>If in supplementary appendix, indicate “supp” and appendix #, if applicable.</p>
+  <p class="tp-cite">Citation: The CHART Collaborative. Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement. BMJ Med. 2025; 4(1):e001632. <a href="https://doi.org/10.1136/bmjmed-2025-001632" target="_blank" rel="noopener">https://doi.org/10.1136/bmjmed-2025-001632</a>. Explanation and elaboration: The CHART Collaborative. BMJ. 2025; 390:e083305.</p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings; otherwise [topic, indented?, [[item no, text], ...]]
+  const ROWS = [
+ "Title & Abstract",
+ [
+  "Title",
+  false,
+  [
+   [
+    "1a",
+    "State that the study is assessing one or more generative AI-driven chatbots for clinical evidence or health advice."
+   ]
+  ]
+ ],
+ [
+  "Abstract/Summary",
+  false,
+  [
+   [
+    "1b",
+    "Apply a structured format, if applicable."
+   ]
+  ]
+ ],
+ "Introduction",
+ [
+  "Background",
+  false,
+  [
+   [
+    "2a",
+    "State the scientific background, rationale, and healthcare context for evaluating the generative AI-driven chatbot(s), referencing relevant literature when applicable."
+   ],
+   [
+    "2b",
+    "State the aims and research questions including the target audience, intervention, comparator(s), and outcome(s)."
+   ]
+  ]
+ ],
+ "Methods",
+ [
+  "Model Identifiers",
+  false,
+  [
+   [
+    "3a",
+    "State the name and version identifier(s) of the generative AI model(s) and chatbot(s) under evaluation, as well as their date of release or last update."
+   ],
+   [
+    "3b",
+    "State whether the generative AI model(s) and chatbot(s) are open-source or closed-source/proprietary."
+   ]
+  ]
+ ],
+ [
+  "Model Details",
+  false,
+  [
+   [
+    "4a",
+    "State whether the generative AI model was a base model or a novel base model, tuned model, or fine-tuned model."
+   ],
+   [
+    "4b",
+    "If a base model is used, cite its development in sufficient detail to identify the model."
+   ],
+   [
+    "4c",
+    "If a novel base model, tuned model, or fine-tuned model is used, describe the pre- and/or post-implementation/deployment data and parameters."
+   ]
+  ]
+ ],
+ [
+  "Prompt Engineering",
+  false,
+  [
+   [
+    "5a",
+    "Describe the evolution of study prompt development."
+   ],
+   [
+    "5ai",
+    "Describe the sources of prompts."
+   ],
+   [
+    "5aii",
+    "State the number and characteristics of the individual(s) involved in prompt engineering."
+   ],
+   [
+    "5aiii",
+    "Provide details of any patient and public involvement during prompt engineering."
+   ],
+   [
+    "5b",
+    "Provide study prompts."
+   ]
+  ]
+ ],
+ [
+  "Query Strategy",
+  false,
+  [
+   [
+    "6a",
+    "State route of access to generative AI model."
+   ],
+   [
+    "6b",
+    "State the date(s) and location(s) of queries for the generative AI-driven chatbot(s) including the day, month, and year as well as city and country."
+   ],
+   [
+    "6c",
+    "Describe whether prompts were input into separate chat session(s)."
+   ],
+   [
+    "6d",
+    "Provide all generative AI-driven chatbot output/responses."
+   ]
+  ]
+ ],
+ [
+  "Performance Evaluation",
+  false,
+  [
+   [
+    "7a",
+    "Define the ground truth or reference standard used to define successful generative AI-driven chatbot performance."
+   ],
+   [
+    "7b",
+    "Describe the process undertaken for generative AI-driven chatbot performance evaluation."
+   ],
+   [
+    "7bi",
+    "State the number and characteristics of team members involved in performance evaluation."
+   ],
+   [
+    "7bii",
+    "Provide details of any patients and public involvement during the evaluation process."
+   ],
+   [
+    "7biii",
+    "State whether evaluators were masked to the identity of the generative AI-driven chatbot(s) under assessment."
+   ]
+  ]
+ ],
+ [
+  "Sample Size",
+  false,
+  [
+   [
+    "8",
+    "Report how the sample size was determined."
+   ]
+  ]
+ ],
+ [
+  "Data Analysis",
+  false,
+  [
+   [
+    "9a",
+    "Describe statistical analysis methods, including any evaluation of reproducibility of generative AI-driven chatbot responses."
+   ],
+   [
+    "9ai",
+    "Report the measures used for performance evaluation."
+   ]
+  ]
+ ],
+ "Results",
+ [
+  "",
+  false,
+  [
+   [
+    "10a",
+    "Report the alignment between generative AI-driven chatbot output and ground truth or reference standard using quantitative or mixed methods approaches as applicable."
+   ],
+   [
+    "10b",
+    "For responses deviating from the ground truth or reference standard, state the nature of the difference(s)."
+   ],
+   [
+    "10c",
+    "Report the assessment for potentially harmful, biased, or misleading responses."
+   ]
+  ]
+ ],
+ "Discussion",
+ [
+  "",
+  false,
+  [
+   [
+    "11a",
+    "Interpret study findings in the context of relevant evidence."
+   ],
+   [
+    "11b",
+    "Describe the strengths and limitations of the study."
+   ],
+   [
+    "11c",
+    "Describe the potential implications for practice, education, policy, regulation, and research."
+   ]
+  ]
+ ],
+ "Open Science",
+ [
+  "Disclosures",
+  false,
+  [
+   [
+    "12a",
+    "Report any relevant conflicts of interest for all authors."
+   ]
+  ]
+ ],
+ [
+  "Funding",
+  false,
+  [
+   [
+    "12b",
+    "Report sources of funding and their role in the conduct and reporting of the study."
+   ]
+  ]
+ ],
+ [
+  "Ethics",
+  false,
+  [
+   [
+    "12c",
+    "Describe the process undertaken for ethical approval."
+   ],
+   [
+    "12ci",
+    "Describe the measures taken to safeguard data privacy of patient health information, as applicable."
+   ],
+   [
+    "12cii",
+    "State whether permission/licensing was obtained for the use of original, copyrighted data."
+   ]
+  ]
+ ],
+ [
+  "Protocol",
+  false,
+  [
+   [
+    "12d",
+    "Provide a study protocol."
+   ]
+  ]
+ ],
+ [
+  "Data availability",
+  false,
+  [
+   [
+    "12e",
+    "State where study data, code repository, and model parameters can be accessed."
+   ]
+  ]
+ ]
+];
+  const TITLE = "The CHART Checklist";
+  const HEAD = ["HEADING", "#", "CHART CHECKLIST ITEM", "Page #*"];
+  const FOOT = ["*If in supplementary appendix, indicate “supp” and appendix #, if applicable.", "Citation: The CHART Collaborative. Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement. BMJ Med. 2025; 4(1):e001632. [[https://doi.org/10.1136/bmjmed-2025-001632|https://doi.org/10.1136/bmjmed-2025-001632]]. Explanation and elaboration: The CHART Collaborative. BMJ. 2025; 390:e083305."];
+  const WIDTHS = [1900, 750, 6616, 1200];
+
+  // Sub-items such as 5ai, 7biii, 12cii (digits + one letter + i/ii/iii) are indented
+  const isSub = code => /^\d+[a-z]i+$/.test(code);
+
+  const STORE = "chart-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    const [topic, , items] = r, n = items.length;
+    return items.map(([code, text], i) =>
+      `<tr>` + (i ? "" : `<td class="topic" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${code}</td><td class="txt${isSub(code) ? " sub" : ""}">${text}</td>` +
+      `<td class="pg"><input type="text" data-key="p${code}" placeholder="page no. / supp" aria-label="Page, item ${code}"></td></tr>`).join("");
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "CHART checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, title, head, foot, widths, eqLogo) {
+    const F = "Arial", SZ = 17, W = widths, TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const header = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, head[0], hd), cell(1, head[1], { ...hd, center: true }), cell(2, head[2], hd), cell(3, head[3], { ...hd, center: true })] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] })];
+      const [topic, , items] = r;
+      return items.map(([code, text], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length, bold: true })]),
+        cell(1, code, { center: true, bold: true }), cell(2, text, { indent: isSub(code) ? 330 : 90 }),
+        cell(3, vals["p" + code] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [
+      ...(eqLogo ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 60 } })] : []),
+      para([run(title, { bold: true, size: 26 })], { spacing: { after: 100 } }),
+      para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } })
+    ];
+    return new D.Document({
+      title: title, creator: title,
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [header, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, HEAD, FOOT, WIDTHS, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "CHART-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

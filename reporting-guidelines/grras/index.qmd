@@ -1,6 +1,8 @@
 ---
 # REQUIRED FIELDS
 title: Guidelines for reporting reliability and agreement studies (GRRAS) were proposed
+aliases: 
+  - /reporting-guidelines/guidelines-for-reporting-reliability-and-agreement-studies-grras-were-proposed/
 acronym: GRRAS
 provided-for: Reliability/Agreement studies.
 rg-doi: ''
@@ -10,9 +12,9 @@ relevant-urls: ''
 full-bibliographic-reference: |-
   Kottner J, Audigé L, Brorson S, Donner A, Gajeweski BJ, Hróbjartsson A, Robersts C, Shoukri M, Streiner DL. Guidelines for reporting reliability and agreement studies (GRRAS) were proposed.
 
-  J Clin Epidemiol.  2011;64(1):96-106 PMID: [21130355](http://www.ncbi.nlm.nih.gov/pubmed/21130355)
+  J Clin Epidemiol.2011; 64: 96-106 PMID: [21130355](http://www.ncbi.nlm.nih.gov/pubmed/21130355) [full text](https://doi.org/10.1016/j.jclinepi.2010.03.002)
 
-  Int J Nurs Stud. 2011;48(6):661-671. PMID: [21514934](http://www.ncbi.nlm.nih.gov/pubmed?term=21514934)
+  Int J Nurs Stud. 2011; 48: 661-671. PMID: [21514934](https://pubmed.ncbi.nlm.nih.gov/21514934/) [full text](https://doi.org/10.1016/j.ijnurstu.2011.01.016)
 
 
 # OPTIONAL FIELDS
