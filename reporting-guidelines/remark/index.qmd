@@ -5,7 +5,7 @@ aliases:
   - /reporting-guidelines/reporting-recommendations-for-tumour-marker-prognostic-studies-remark/
 acronym: REMARK
 provided-for: Tumour marker prognostic studies
-rg-doi: ''
+rg-doi: '10.1038/sj.bjc.6602678'
 pmid-id: '[16106245](http://www.ncbi.nlm.nih.gov/pubmed/16106245)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/16106245
 relevant-urls: |-
