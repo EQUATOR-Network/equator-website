@@ -3,12 +3,12 @@
 title: 'Consolidated criteria for reporting qualitative research (COREQ) : a 32-item checklist for interviews and focus groups'
 acronym: COREQ
 provided-for: Qualitative research interviews and focus groups
-rg-doi: ''
+rg-doi: '10.1093/intqhc/mzm042'
 pmid-id: '[17872937](http://www.ncbi.nlm.nih.gov/Pubmed/17872937)'
 pmid-url: http://www.ncbi.nlm.nih.gov/Pubmed/17872937
-relevant-urls: 'Read the [full-text](<http://intqhc.oxfordjournals.org/content/19/6/349.long>) of COREQ (behind paywall/subscription)'
+relevant-urls: 'Read the [full-text](https://doi.org/10.1093/intqhc/mzm042) of COREQ'
 full-bibliographic-reference: |-
-  Tong A, Sainsbury P, Craig J. Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups. Int J Qual Health Care. 2007;19(6):349-357. [17872937](http://www.ncbi.nlm.nih.gov/Pubmed/17872937) [full-text](<http://intqhc.oxfordjournals.org/content/19/6/349.long>)
+  Tong A, Sainsbury P, Craig J. Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups. Int J Qual Health Care. 2007;19(6):349-357. [17872937](http://www.ncbi.nlm.nih.gov/Pubmed/17872937) [full-text](https://doi.org/10.1093/intqhc/mzm042)
 
 # OPTIONAL FIELDS
 rg-language: English
