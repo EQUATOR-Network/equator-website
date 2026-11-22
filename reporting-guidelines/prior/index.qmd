@@ -1,23 +1,21 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting guideline for overviews of reviews of healthcare interventions:
-  development of the PRIOR statement'
+title: 'Reporting guideline for overviews of reviews of healthcare interventions: development of the PRIOR statement'
+aliases:
+  - /reporting-guidelines/reporting-guideline-for-overviews-of-reviews-of-healthcare-interventions-development-of-the-prior-statement/
 acronym: PRIOR
 provided-for: Reporting overviews of reviews of healthcare interventions.
-rg-doi: ''
+rg-doi: '10.1136/bmj-2022-070849 '
 pmid-id: '[35944924](https://pubmed.ncbi.nlm.nih.gov/35944924/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/35944924/
 relevant-urls: |-
-  [Read the full-text](https://www.bmj.com/content/378/bmj-2022-070849.long) of the PRIOR Statement.
+  Read the [full-text](https://doi.org/10.1136/bmj-2022-070849) of PRIOR. \
 
-  [Read the Prior Statement Explanation and Elaboration document (PDF)](https://www.bmj.com/highwire/filestream/1072600/field_highwire_adjunct_files/1/gatm070849.ww2.pdf).
+  Read the Prior Statement [Explanation and Elaboration](PRIOR-checklist.pdf).\
+  
+  Complete an interactive [PRIOR](prior-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
 
-  [Access the PRIOR Checklist (PDF)](https://www.bmj.com/content/bmj/suppl/2022/08/09/bmj-2022-070849.DC1/gatm070849.ww3.pdf).
-full-bibliographic-reference: 'Gates M, Gates A, Pieper D, Fernandes RM, Tricco AC,
-  Moher D, Brennan SE, Li T, Pollock M, Lunny C, Sepúlveda D, McKenzie JE, Scott SD,
-  Robinson KA, Matthias K, Bougioukas KI, Fusar-Poli P, Whiting P, Moss SJ, Hartling
-  L. Reporting guideline for overviews of reviews of healthcare interventions: development
-  of the PRIOR statement. BMJ. 2022.'
+full-bibliographic-reference: 'Gates M, Gates A, Pieper D, Fernandes RM, Tricco AC, Moher D, Brennan SE, Li T, Pollock M, Lunny C, Sepúlveda D, McKenzie JE, Scott SD, Robinson KA, Matthias K, Bougioukas KI, Fusar-Poli P, Whiting P, Moss SJ, Hartling L. Reporting guideline for overviews of reviews of healthcare interventions: development of the PRIOR statement. BMJ. 2022; 378: e070849. PMID: [35944924](https://pubmed.ncbi.nlm.nih.gov/35944924/) [full-text](https://doi.org/10.1136/bmj-2022-070849)'
 
 
 # OPTIONAL FIELDS
@@ -27,8 +25,7 @@ guideline-history: ''
 relevant-more: ''
 website-url: ''
 additional-languages: ''
-additional-information: '[Read the protocol](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-019-1252-9)
-  for the development of the PRIOR Statement.'
+additional-information: 'Read the [protocol](https://doi.org/10.1186/s13643-019-1252-9) for the development of the PRIOR Statement.'
 relevant-editorials: ''
 primary-guideline: ''
 other: ''

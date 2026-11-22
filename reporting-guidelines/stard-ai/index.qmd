@@ -8,7 +8,7 @@ provided-for: ''
 rg-doi: 10.1038/s41591-025-03953-8
 pmid-id: '[40954311](https://pubmed.ncbi.nlm.nih.gov/40954311/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40954311/
-relevant-urls: Read the STARD-AI guidance [here](https://doi.org/10.1038/s41591-025-03953-8).
+relevant-urls: Read the [full text](https://doi.org/10.1038/s41591-025-03953-8) of STARD-AI.
 full-bibliographic-reference: 'Sounderajah V, Guni A, Liu X, Collins GS, Karthikesalingam A, Markar SR, Golub RM, Denniston AK, Shetty S, Moher D, Bossuyt PM, Darzi A, Ashrafian H; STARD-AI Steering Committee. The STARD-AI reporting guideline for diagnostic accuracy studies using artificial intelligence. Nat Med. 2025; 31: 3283-3289 PMID: [40954311](https://pubmed.ncbi.nlm.nih.gov/40954311/) [full text](https://doi.org/10.1038/s41591-025-03953-8)'
 
 
@@ -47,7 +47,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: ''
+downloads: |-
+  Download the [STARD-AI](https://static-content.springer.com/esm/art%3A10.1038%2Fs41591-025-03953-8/MediaObjects/41591_2025_3953_MOESM3_ESM.pdf) checklist.
 
 
 # LIST FIELDS
