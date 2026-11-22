@@ -1,20 +1,19 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting of stepped wedge cluster randomised trials: extension of the CONSORT
-  2010 statement with explanation and elaboration'
-acronym: SW-CRT
+title: 'Reporting of stepped wedge cluster randomised trials: extension of the CONSORT 2010 statement with explanation and elaboration'
+aliases:
+  - /reporting-guidelines/reporting-of-stepped-wedge-cluster-randomised-trials-extension-of-the-consort-2010-statement-with-explanation-and-elaboration/
+acronym: CONSORT-SW-CRT
 provided-for: Reporting of stepped wedge cluster randomised trials.
-rg-doi: ''
+rg-doi: '10.1136/bmj.k1614'
 pmid-id: '[30413417](https://www.ncbi.nlm.nih.gov/pubmed/30413417)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/30413417
-relevant-urls: The full-text of this reporting guideline is freely available to access
-  at:<https://www.bmj.com/content/363/bmj.k1614.long>
-full-bibliographic-reference: 'Hemming K, Taljaard M, McKenzie JE, Hooper R, Copas
-  A, Thompson JA, Dixon-Woods M, Aldcroft A, Doussau A, Grayling M, Kristunas C, Goldstein
-  CE, Campbell MK, Girling A, Eldridge S, Campbell MJ, Lilford RJ, Weijer C, Forbes
-  AB, Grimshaw JM. Reporting of stepped wedge cluster randomised trials: extension
-  of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2018;363:k1614.'
-
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1136/bmj.k1614) of CONSORT-stepped wedge cluster randomised trial \
+  
+  Complete an interactive [CONSORT-SW-CRT](consort-sw-crt-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
+  
+full-bibliographic-reference: 'Hemming K, Taljaard M, McKenzie JE, Hooper R, Copas A, Thompson JA, Dixon-Woods M, Aldcroft A, Doussau A, Grayling M, Kristunas C, Goldstein CE, Campbell MK, Girling A, Eldridge S, Campbell MJ, Lilford RJ, Weijer C, Forbes AB, Grimshaw JM. Reporting of stepped wedge cluster randomised trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2018;363:k1614. PMID: [30413417](https://www.ncbi.nlm.nih.gov/pubmed/30413417) [full text](https://doi.org/10.1136/bmj.k1614)'
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -132,7 +131,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the [CONSORT-SW-CRT checklist](consort-sw-crt-checklist.pdf)
 
 
 # LIST FIELDS

@@ -1,30 +1,27 @@
 ---
 # REQUIRED FIELDS
-title: 'The adaptive designs CONSORT extension (ACE) statement: a checklist with explanation
-  and elaboration guideline for reporting randomised trials that use an adaptive design'
+title: 'The adaptive designs CONSORT extension (ACE) statement: a checklist with explanation and elaboration guideline for reporting randomised trials that use an adaptive design'
+aliases:
+  - /reporting-guidelines/the-adaptive-designs-consort-extension-ace-statement/
 acronym: ACE Statement
 provided-for: Reporting of randomised adaptive design (AD) clinical trials.
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
+rg-doi: '10.1136/bmj.m115'
+pmid-id: '[32554564](https://pubmed.ncbi.nlm.nih.gov/32554564/)'
+pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/32554564/'
 relevant-urls: |-
-  The ACE reporting guideline and checklist are freely available to download from:
+  Read the [full text](https://doi.org/10.1136/bmj.m115) of ACE \
 
-  BMJ. 2020 Jun 17;369:m115.
-
-  <https://www.bmj.com/content/369/bmj.m115>
-
-  Trials. 2020 Jun 17;21(1):528.
-
-  <https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-020-04334-x>
+  Complete an interactive [CONSORT-ACE](consort-ace-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.\
+  
+  Complete an interactive [CONSORT-ACE for abstracts](ace-abstract-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Dimairo M, Pallmann P, Wason J, Todd S, Jaki T, Julious SA, Mander AP, Weir CJ, Koenig F, Walton MK, Nicholl JP, Coates E, Biggs K, Hamasaki T, Proschan MA, Scott JA, Ando Y, Hind D, Altman DG; ACE Consensus Group. The adaptive designs CONSORT extension (ACE) statement: a checklist with explanation and elaboration guideline for reporting randomised trials that use an adaptive design.
 
   This guideline was published simultaneously in 2 journals. You can read the guideline in either of these journals using the links below.
 
-  BMJ. 2020;369:m115. PMID: [32554564](https://pubmed.ncbi.nlm.nih.gov/32554564/)
+  BMJ. 2020; 369: m115. PMID: [32554564](https://pubmed.ncbi.nlm.nih.gov/32554564/) [full text](https://doi.org/10.1136/bmj.m115)
 
-  Trials. 2020;21(1):528. PMID: [32546273](https://pubmed.ncbi.nlm.nih.gov/32546273/)
+  Trials. 2020;21(1):528. PMID: [32546273](https://pubmed.ncbi.nlm.nih.gov/32546273/) [full text](https://doi.org/10.1186/s13063-020-04334-x)
 
 
 # OPTIONAL FIELDS
@@ -132,8 +129,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
-
+downloads: |-
+  Dowmload the [CONSORT-ACE](CONSORT-ACE.pdf) checklist.
 
 # LIST FIELDS
 categories:

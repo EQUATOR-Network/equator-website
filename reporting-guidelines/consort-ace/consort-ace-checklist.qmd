@@ -1,0 +1,270 @@
+---
+pagetitle: "CONSORT ACE checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap #tp-logo { width:min(220px,50%); height:auto; display:block; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.lab td { padding:2px 6px; }
+  #tp-wrap td.topic { width:17%; } #tp-wrap td.topic.ind { padding-left:16px; }
+  #tp-wrap td.item { width:9%; text-align:center; white-space:nowrap; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:13%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite, #tp-wrap .tp-lic { font-size:12.5px; margin:.6rem 0 0; }
+  #tp-wrap .tp-lic { font-size:11.5px; color:#333; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9.5px; } #tp-wrap .tp-lic { font-size:8.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div></div>
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">Checklist of information to include when reporting a randomised trial using an adaptive design (CONSORT ACE)</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the “Page no.” column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section/Topic</th><th class="c">Item no</th><th>Checklist item</th>
+      <th class="pgh">Page no.<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-foot">SAP, statistical analysis plan; ACE, Adaptive designs CONSORT Extension;<br>
+  “X« Y” means original CONSORT 2010 item Y has been renumbered to X; “X«” means item reordering resulted in new item X replacing the number of the original CONSORT 2010 item X.<br>
+  ǂ New items that should only be applied in reference to the ACE; ‡ Modified items that require reference to both CONSORT 2010 and ACE; ‡‡ Replacement (modified) item that only requires reference to the ACE; † Item wording remains unchanged in reference to CONSORT 2010 but we expanded the ACE explanatory text to clarify additional considerations for certain adaptive designs. These unchanged items require reference to CONSORT 2010 except item 14b.</p>
+  <p class="tp-cite">Citation: Dimairo M, Pallmann P, Wason J, Todd S, Jaki T, Julious SA, et al. The Adaptive designs CONSORT Extension (ACE) statement: a checklist with explanation and elaboration guideline for reporting randomised trials that use an adaptive design. BMJ. 2020;369:m115. <a href="https://doi.org/10.1136/bmj.m115" target="_blank" rel="noopener">https://doi.org/10.1136/bmj.m115</a>.</p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings; otherwise [topic, indented?, [[item no (key), text, displayed label (optional)], ...]]
+  const ROWS = [
+    "Title and abstract",
+    ["Title and abstract", false, [["1a", "Identification as a randomised trial in the title"], ["1b", "Structured summary of trial design, methods, results, and conclusions (for specific guidance see [[ACE checklist for abstracts|ace-abstract-checklist.html]])"]]],
+    "Introduction",
+    ["Background and objectives", false, [["2a", "Scientific background and explanation of rationale"], ["2b", "Specific objectives or hypotheses"]]],
+    "Methods",
+    ["Trial design", false, [["3a", "Description of trial design (such as parallel, factorial) including allocation ratio"], ["3b", "Type of adaptive design used, with details of the pre-planned trial adaptations and the statistical information informing the adaptations", "3b« ǂ"], ["3c", "Important changes to the design or methods after trial commencement (such as eligibility criteria) outside the scope of the pre-planned adaptive design features, with reasons", "3c«3b ‡"]]],
+    ["Participants", false, [["4a", "Eligibility criteria for participants"], ["4b", "Settings and locations where the data were collected"]]],
+    ["Interventions", false, [["5", "The interventions for each group with sufficient details to allow replication, including how and when they were actually administered"]]],
+    ["Outcomes", false, [["6a", "Completely define pre-specified primary and secondary outcome measures, including how and when they were assessed. Any other outcome measures used to inform pre-planned adaptations should be described with the rationale", "6a ‡"], ["6b", "Any unplanned changes to trial outcomes after the trial commenced, with reasons", "6b ‡"]]],
+    ["Sample size and operating characteristics", false, [["7a", "How sample size and operating characteristics were determined", "7a ‡"], ["7b", "Pre-planned interim decision-making criteria to guide the trial adaptation process; whether decision-making criteria were binding or non-binding; pre-planned and actual timing and frequency of interim data looks to inform trial adaptations", "7b ‡‡"]]],
+    "Randomisation",
+    ["Sequence generation", false, [["8a", "Method used to generate the random allocation sequence"], ["8b", "Type of randomisation; details of any restriction (such as blocking and block size); any changes to the allocation rule after trial adaptation decisions; any pre-planned allocation rule or algorithm to update randomisation with timing and frequency of updates", "8b ‡"]]],
+    ["Allocation concealment mechanism", false, [["9", "Mechanism used to implement the random allocation sequence (such as sequentially numbered containers), describing any steps taken to conceal the sequence until interventions were assigned"]]],
+    ["Implementation", false, [["10", "Who generated the random allocation sequence, who enrolled participants, and who assigned participants to interventions"]]],
+    ["Blinding", false, [["11a", "If done, who was blinded after assignment to interventions (for example, participants, care providers, those assessing outcomes) and how"], ["11b", "If relevant, description of the similarity of interventions"], ["11c", "Measures to safeguard the confidentiality of interim information and minimise potential operational bias during the trial", "11c ǂ"]]],
+    ["Statistical methods", false, [["12a", "Statistical methods used to compare groups for primary and secondary outcomes, and any other outcomes used to make preplanned adaptations", "12a ‡"], ["12b", "For the implemented adaptive design features, statistical methods used to estimate treatment effects for key endpoints and to make inferences", "12b« ǂ"], ["12c", "Methods for additional analyses, such as subgroup analyses and adjusted analyses", "12c«2b"]]],
+    "Results",
+    ["Participant flow (a diagram is strongly recommended)", false, [["13a", "For each group, the numbers of participants who were randomly assigned, received intended treatment, and were analysed for the primary outcome and any other outcomes used to inform pre-planned adaptations, if applicable", "13a ‡"], ["13b", "For each group, losses and exclusions after randomisation, together with reasons"]]],
+    ["Recruitment and adaptations", false, [["14a", "Dates defining the periods of recruitment and follow-up, for each group", "14a ‡"], ["14b", "Why the trial ended or was stopped", "14b †"], ["14c", "Specify what trial adaptation decisions were made in light of the pre-planned decision-making criteria and observed accrued data", "14c ǂ"]]],
+    ["Baseline data", false, [["15a", "A table showing baseline demographic and clinical characteristics for each group", "15a«15 †"], ["15b", "Summary of data to enable the assessment of similarity in the trial population between interim stages", "15b ǂ"]]],
+    ["Numbers analysed", false, [["16", "For each group, number of participants (denominator) included in each analysis and whether the analysis was by original assigned groups", "16 †"]]],
+    ["Outcomes and estimation", false, [["17a", "For each primary and secondary outcome, results for each group, and the estimated effect size and its precision (such as 95% confidence interval)", "17a †"], ["17b", "For binary outcomes, presentation of both absolute and relative effect sizes is recommended"], ["17c", "Report interim results used to inform interim decision-making", "17c ǂ"]]],
+    ["Ancillary analyses", false, [["18", "Results of any other analyses performed, including subgroup analyses and adjusted analyses, distinguishing pre-specified from exploratory"]]],
+    ["Harms", false, [["19", "All important harms or unintended effects in each group (for specific guidance see CONSORT for harms)"]]],
+    "Discussion",
+    ["Limitations", false, [["20", "Trial limitations, addressing sources of potential bias, imprecision, and, if relevant, multiplicity of analyses", "20 †"]]],
+    ["Generalisability", false, [["21", "Generalisability (external validity, applicability) of the trial findings", "21 †"]]],
+    ["Interpretation", false, [["22", "Interpretation consistent with results, balancing benefits and harms, and considering other relevant evidence"]]],
+    "Other information",
+    ["Registration", false, [["23", "Registration number and name of trial registry"]]],
+    ["Protocol", false, [["24a", "Where the full trial protocol can be accessed", "24a«24"]]],
+    ["SAP and other relevant trial documents", false, [["24b", "Where the full statistical analysis plan and other relevant trial documents can be accessed", "24b ǂ"]]],
+    ["Funding", false, [["25", "Sources of funding and other support (such as supply of drugs), role of funders"]]]
+  ];
+  const TITLE = "Checklist of information to include when reporting a randomised trial using an adaptive design (CONSORT ACE)";
+  const FOOT = [
+    "SAP, statistical analysis plan; ACE, Adaptive designs CONSORT Extension;",
+    "“X« Y” means original CONSORT 2010 item Y has been renumbered to X; “X«” means item reordering resulted in new item X replacing the number of the original CONSORT 2010 item X.",
+    "ǂ New items that should only be applied in reference to the ACE; ‡ Modified items that require reference to both CONSORT 2010 and ACE; ‡‡ Replacement (modified) item that only requires reference to the ACE; † Item wording remains unchanged in reference to CONSORT 2010 but we expanded the ACE explanatory text to clarify additional considerations for certain adaptive designs. These unchanged items require reference to CONSORT 2010 except item 14b.",
+    "Citation: Dimairo M, Pallmann P, Wason J, Todd S, Jaki T, Julious SA, et al. The Adaptive designs CONSORT Extension (ACE) statement: a checklist with explanation and elaboration guideline for reporting randomised trials that use an adaptive design. BMJ. 2020;369:m115. [[https://doi.org/10.1136/bmj.m115|https://doi.org/10.1136/bmj.m115]]."
+  ];
+
+  const STORE = "consort-ace-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    if (r[0] === "L") return `<tr class="lab"><td colspan="4">${r[1]}</td></tr>`;
+    const [topic, ind, items] = r, n = items.length;
+    return items.map(([code, text, label], i) =>
+      `<tr>` + (i ? "" : `<td class="topic${ind ? " ind" : ""}" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${label || code}</td><td class="txt">${text.replace(/\n/g, "<br>").replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')}</td>` +
+      `<td class="pg"><input type="text" data-key="p${code}" placeholder="page no." aria-label="Page, item ${code}"></td></tr>`).join("");
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "CONSORT ACE checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, foot, eqLogo) {
+    const F = "Arial", SZ = 17, W = [1800, 1000, 6466, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: new URL(m[2], document.baseURI).href, children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section/Topic", hd), cell(1, "Item no", { ...hd, center: true }),
+      cell(2, "Checklist item", hd), cell(3, "Page no.", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] })];
+      if (r[0] === "L") return [new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { span: true, keepNext: true })] })];
+      const [topic, ind, items] = r;
+      return items.map(([code, text, label], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length, indent: ind ? 260 : 90 })]),
+        cell(1, label || code, { center: true }), cell(2, text), cell(3, vals["p" + code] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [6200, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { spacing: { after: 0 } })];
+    top.push(new D.Table({ width: { size: HW[0] + HW[1], type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(title, { bold: true, size: 24 })], { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "CONSORT ACE checklist", creator: "CONSORT ACE checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: i === 2 ? 14 : 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      const logo = null;
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "CONSORT-ACE-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

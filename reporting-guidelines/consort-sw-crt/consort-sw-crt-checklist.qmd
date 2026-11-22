@@ -1,0 +1,266 @@
+---
+pagetitle: "SW-CRT CONSORT checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap #tp-logo { width:min(220px,50%); height:auto; display:block; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.lab td { padding:2px 6px; }
+  #tp-wrap td.topic { width:19%; } #tp-wrap td.topic.ind { padding-left:16px; }
+  #tp-wrap td.item { width:6%; text-align:center; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:13%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite, #tp-wrap .tp-lic { font-size:12.5px; margin:.6rem 0 0; }
+  #tp-wrap .tp-lic { font-size:11.5px; color:#333; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9.5px; } #tp-wrap .tp-lic { font-size:8.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div></div>
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">Checklist of information to include when reporting a stepped wedge cluster randomised trial (SW-CRT)</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the “Page no.” column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Topic</th><th class="c">Item no</th><th>Checklist item</th>
+      <th class="pgh">Page no.<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-foot">This checklist has been taken from table 3 in <em>BMJ</em> 2018;363:k1614, as a standalone document for readers to print out or fill in electronically.</p>
+  <p class="tp-cite">Citation: Hemming K, Taljaard M, McKenzie JE, Hooper R, Copas A, Thompson JA, et al. Reporting of stepped wedge cluster randomised trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2018;363:k1614. <a href="https://doi.org/10.1136/bmj.k1614" target="_blank" rel="noopener">https://doi.org/10.1136/bmj.k1614</a>.</p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings; ["L", text] = label row; otherwise [topic, indented?, [[item no, text], ...]]
+  const ROWS = [
+    "Title and abstract",
+    ["", false, [["1a", "Identification as a SW-CRT in the title."], ["1b", "Structured summary of trial design, methods, results, and conclusions (see separate SW-CRT checklist for abstracts)."]]],
+    "Introduction",
+    ["Background and objectives", false, [["2a", "Scientific background. Rationale for using a cluster design and rationale for using a stepped wedge design."], ["2b", "Specific objectives or hypotheses."]]],
+    "Methods",
+    ["Trial design", false, [["3a", "Description and diagram of trial design including definition of cluster, number of sequences, number of clusters randomised to each sequence, number of periods, duration of time between each step, and whether the participants assessed in different periods are the same people, different people, or a mixture."], ["3b", "Important changes to methods after trial commencement (such as eligibility criteria), with reasons."]]],
+    ["Participants", false, [["4a", "Eligibility criteria for clusters and participants."], ["4b", "Settings and locations where the data were collected."]]],
+    ["Interventions", false, [["5", "The intervention and control conditions with sufficient details to allow replication, including whether the intervention was maintained or repeated, and whether it was delivered at the cluster level, the individual participant level, or both."]]],
+    ["Outcomes", false, [["6a", "Completely defined prespecified primary and secondary outcome measures, including how and when they were assessed."], ["6b", "Any changes to trial outcomes after the trial commenced, with reasons."]]],
+    ["Sample size", false, [["7a", "How sample size was determined. Method of calculation and relevant parameters with sufficient detail so the calculation can be replicated. Assumptions made about correlations between outcomes of participants from the same cluster. (see separate checklist for SW-CRT sample size items)."], ["7b", "When applicable, explanation of any interim analyses and stopping guidelines."]]],
+    "Randomisation",
+    ["Sequence generation", false, [["8a", "Method used to generate the random allocation to the sequences of treatments."], ["8b", "Type of randomisation; details of any constrained randomisation or stratification, if used."]]],
+    ["Allocation concealment mechanism", false, [["9", "Specification that allocation was based on clusters; description of any methods used to conceal the allocation from the clusters until after recruitment."]]],
+    ["Implementation", false, [["10a", "Who generated the randomisation schedule, who enrolled clusters, and who assigned clusters to sequences."], ["10b", "Mechanism by which individual participants were included in clusters for the purposes of the trial (such as complete enumeration, random sampling; continuous recruitment or ascertainment; or recruitment at a fixed point in time), including who recruited or identified participants."], ["10c", "Whether, from whom and when consent was sought and for what; whether this differed between treatment conditions."]]],
+    ["Blinding", false, [["11a", "If done, who was blinded after assignment to sequences (eg, cluster level participants, individual level participants, those assessing outcomes) and how."], ["11b", "If relevant, description of the similarity of treatments."]]],
+    ["Statistical methods", false, [["12a", "Statistical methods used to compare treatment conditions for primary and secondary outcomes including how time effects, clustering and repeated measures were taken into account."], ["12b", "Methods for additional analyses, such as subgroup analyses, sensitivity analyses, and adjusted analyses."]]],
+    "Results",
+    ["Participant flow (a diagram is strongly recommended)", false, [["13a", "For each treatment condition or allocated sequence, the numbers of clusters and participants who were assessed for eligibility, were randomly assigned, received intended treatments, and were analysed for the primary outcome (see separate SW-CRT flow chart)."], ["13b", "For each treatment condition or allocated sequence, losses and exclusions for both clusters and participants with reasons."]]],
+    ["Recruitment", false, [["14a", "Dates defining the steps, initiation of intervention, and deviations from planned dates. Dates defining recruitment and follow-up for participants."], ["14b", "Why the trial ended or was stopped."]]],
+    ["Baseline data", false, [["15", "Baseline characteristics for the individual and cluster levels as applicable for each treatment condition or allocated sequence."]]],
+    ["Numbers analysed", false, [["16", "The number of observations and clusters included in each analysis for each treatment condition and whether the analysis was according to the allocated schedule."]]],
+    ["Outcomes and estimation", false, [["17a", "For each primary and secondary outcome, results for each treatment condition, and the estimated effect size and its precision (such as 95% confidence interval); any correlations (or covariances) and time effects estimated in the analysis."], ["17b", "For binary outcomes, presentation of both absolute and relative effect sizes is recommended."]]],
+    ["Ancillary analyses", false, [["18", "Results of any other analyses performed, including subgroup analyses and adjusted analyses, distinguishing prespecified from exploratory."]]],
+    ["Harms", false, [["19", "Important harms or unintended effects in each treatment condition (for specific guidance see CONSORT for harms)."]]],
+    "Discussion",
+    ["Limitations", false, [["20", "Trial limitations, addressing sources of potential bias, imprecision, and, if relevant, multiplicity of analyses."]]],
+    ["Generalisability", false, [["21", "Generalisability (external validity, applicability) of the trial findings. Generalisability to clusters or individual participants, or both (as relevant)."]]],
+    ["Interpretation", false, [["22", "Interpretation consistent with results, balancing benefits and harms, and considering other relevant evidence."]]],
+    "Other information",
+    ["Registration", false, [["23", "Registration number and name of trial registry."]]],
+    ["Protocol", false, [["24", "Where the full trial protocol can be accessed, if available."]]],
+    ["Funding", false, [["25", "Sources of funding and other support (such as supply of drugs), and the role of funders."]]],
+    ["Research ethics review", false, [["26", "Whether the study was approved by a research ethics committee, with identification of the review committee(s). Justification for any waiver or modification of informed consent requirements."]]]
+  ];
+  const TITLE = "Checklist of information to include when reporting a stepped wedge cluster randomised trial (SW-CRT)";
+  const FOOT = [
+    "This checklist has been taken from table 3 in BMJ 2018;363:k1614, as a standalone document for readers to print out or fill in electronically.",
+    "Citation: Hemming K, Taljaard M, McKenzie JE, Hooper R, Copas A, Thompson JA, et al. Reporting of stepped wedge cluster randomised trials: extension of the CONSORT 2010 statement with explanation and elaboration. BMJ. 2018;363:k1614. [[https://doi.org/10.1136/bmj.k1614|https://doi.org/10.1136/bmj.k1614]]."
+  ];
+
+  const STORE = "consort-swcrt-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    if (r[0] === "L") return `<tr class="lab"><td colspan="4">${r[1]}</td></tr>`;
+    const [topic, ind, items] = r, n = items.length;
+    return items.map(([code, text], i) =>
+      `<tr>` + (i ? "" : `<td class="topic${ind ? " ind" : ""}" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${code}</td><td class="txt">${text.replace(/\n/g, "<br>")}</td>` +
+      `<td class="pg"><input type="text" data-key="p${code}" placeholder="page no." aria-label="Page, item ${code}"></td></tr>`).join("");
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "SW-CRT CONSORT checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, foot, eqLogo) {
+    const F = "Arial", SZ = 17, W = [2000, 650, 6616, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Topic", hd), cell(1, "Item no", { ...hd, center: true }),
+      cell(2, "Checklist item", hd), cell(3, "Page no.", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] })];
+      if (r[0] === "L") return [new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { span: true, keepNext: true })] })];
+      const [topic, ind, items] = r;
+      return items.map(([code, text], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length, indent: ind ? 260 : 90 })]),
+        cell(1, code, { center: true }), cell(2, text), cell(3, vals["p" + code] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [6200, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { spacing: { after: 0 } })];
+    top.push(new D.Table({ width: { size: HW[0] + HW[1], type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(title, { bold: true, size: 24 })], { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "SW-CRT CONSORT checklist", creator: "SW-CRT CONSORT checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: i === 1 ? 16 : 14 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      const logo = null;
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "SW-CRT-CONSORT-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

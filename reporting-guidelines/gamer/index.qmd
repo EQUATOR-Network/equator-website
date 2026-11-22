@@ -1,19 +1,19 @@
 ---
 # REQUIRED FIELDS
-title: 'Reporting guideline for the use of Generative Artificial intelligence tools
-  in MEdical Research: the GAMER Statement'
+title: 'Reporting guideline for the use of Generative Artificial intelligence tools in MEdical Research: the GAMER Statement'
+aliases:
+  - /reporting-guidlines/reporting-guideline-for-the-use-of-generative-artificial-intelligence-tools-in-medical-research-the-gamer-statement/
 acronym: GAMER
-provided-for: Standardised guideline for generative artificial intelligence use in
-  medical research
+provided-for: Standardised guideline for generative artificial intelligence use in medical research
 rg-doi: 10.1136/bmjebm-2025-113825
 pmid-id: '[40360239](https://pubmed.ncbi.nlm.nih.gov/40360239/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/40360239/
-relevant-urls: ''
-full-bibliographic-reference: 'Luo X, Tham YC, Giuffrè M, Ranisch R, Daher M, Lam
-  K, Eriksen AV, Hsu CW, Ozaki A, Moraes FY, Khanna S, Su KP, Begagić E, Bian Z, Chen
-  Y, Estill J; GAMER Working Group. Reporting guideline for the use of Generative
-  Artificial intelligence tools in MEdical Research: the GAMER Statement. BMJ Evid
-  Based Med. 2025 May 13:bmjebm-2025-113825.'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1136/bmjebm-2025-113825) of GAMER \
+  
+  Complete an interactive [GAMER](gamer-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
+  
+full-bibliographic-reference: 'Luo X, Tham YC, Giuffrè M, Ranisch R, Daher M, Lam K, Eriksen AV, Hsu CW, Ozaki A, Moraes FY, Khanna S, Su KP, Begagić E, Bian Z, Chen Y, Estill J; GAMER Working Group. Reporting guideline for the use of Generative Artificial intelligence tools in MEdical Research: the GAMER Statement. BMJ Evid Based Med. 2025; 30: 390-400. PMID: [40360239](https://pubmed.ncbi.nlm.nih.gov/40360239/) [full text](https://doi.org/10.1136/bmjebm-2025-113825)'
 
 
 # OPTIONAL FIELDS

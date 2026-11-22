@@ -1,0 +1,239 @@
+---
+pagetitle: "ACE checklist for abstracts"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:4px 6px; vertical-align:middle; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:20%; }
+  #tp-wrap td.std { width:34%; text-align:center; }
+  #tp-wrap td.ext { width:34%; text-align:center; }
+  #tp-wrap th.rh, #tp-wrap td.rep { width:12%; text-align:center; }
+  #tp-wrap td.rep input { width:18px; height:18px; accent-color:var(--accent); cursor:pointer; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:12.5px; margin:.6rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9.5px; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div></div>
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">CONSORT ACE checklist for abstracts: information to include when reporting an abstract of an adaptive design randomised trial</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Tick the box for each item that is reported in your abstract, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.
+    See also the <a href="consort-ace-checklist.html">full CONSORT ACE checklist</a>.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section/Topic</th><th>Standard checklist description</th><th>Extension for adaptive design randomised trials</th>
+      <th class="rh">Reported<span class="tp-hint">tick the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-cite">Citation: Dimairo M, Pallmann P, Wason J, Todd S, Jaki T, Julious SA, et al. The Adaptive designs CONSORT Extension (ACE) statement: a checklist with explanation and elaboration guideline for reporting randomised trials that use an adaptive design. BMJ. 2020;369:m115. <a href="https://doi.org/10.1136/bmj.m115" target="_blank" rel="noopener">https://doi.org/10.1136/bmj.m115</a>.</p>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings; otherwise [topic, standard description, extension for adaptive designs]
+  const ROWS = [
+    ["Title", "Identification of study as randomised", ""],
+    ["Authors", "Contact details for the corresponding author", ""],
+    ["Trial design*", "Description of the trial design (for example, parallel, cluster, non-inferiority)", "Description of the trial design (for example, parallel, cluster, non-inferiority); include the word “adaptive” in the content or at least as a keyword"],
+    "Methods",
+    ["Participants", "Eligibility criteria for participants and the settings where the data were collected", ""],
+    ["Interventions", "Interventions intended for each group", ""],
+    ["Objective", "Specific objective or hypothesis", ""],
+    ["Outcome†", "Clearly defined primary outcome for this report", "See expanded E&E text for clarification"],
+    ["Randomisation", "How participants were allocated to interventions", ""],
+    ["Blinding (masking)", "Whether or not participants, care givers, and those assessing the outcomes were blinded to group assignment", ""],
+    "Results",
+    ["Numbers randomised", "Number of participants randomised to each group", ""],
+    ["Recruitment", "Trial status", ""],
+    ["Adaptation decisions made‡", "", "Specify what trial adaptation decisions were made in light of the pre-planned decision-making criteria and observed accrued data"],
+    ["Numbers analysed", "Number of participants analysed in each group", ""],
+    ["Outcome", "For the primary outcome, a result for each group and the estimated effect size and its precision", ""],
+    ["Harms", "Important adverse events or side effects", ""],
+    ["Conclusions", "General interpretation of the results", ""],
+    ["Trial registration", "Registration number and name of trial register", ""],
+    ["Funding", "Source of funding", ""]
+  ];
+  const TITLE = "CONSORT ACE checklist for abstracts: information to include when reporting an abstract of an adaptive design randomised trial";
+  const FOOT = ["Citation: Dimairo M, Pallmann P, Wason J, Todd S, Jaki T, Julious SA, et al. The Adaptive designs CONSORT Extension (ACE) statement: a checklist with explanation and elaboration guideline for reporting randomised trials that use an adaptive design. BMJ. 2020;369:m115. [[https://doi.org/10.1136/bmj.m115|https://doi.org/10.1136/bmj.m115]]."];
+
+  const STORE = "consort-ace-abstract-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map((r, n) => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="4">${r}</td></tr>`;
+    const [topic, std, ext] = r;
+    return `<tr><td class="topic">${topic}</td><td class="std">${std}</td><td class="ext">${ext}</td>` +
+      `<td class="rep"><input type="checkbox" data-key="r${n}" aria-label="Reported: ${topic.replace(/"/g, "")}"></td></tr>`;
+  }).join("");
+
+  const texts = () => [...document.querySelectorAll("#tp-wrap input[type=text]")];
+  const boxes = () => [...document.querySelectorAll("#tp-wrap input[type=checkbox]")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    texts().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; });
+    boxes().forEach(b => { if (d[b.dataset.key]) b.checked = true; }); } catch (e) {} };
+  const save = () => { try { const d = {};
+    texts().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    boxes().forEach(b => { if (b.checked) d[b.dataset.key] = 1; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+  document.getElementById("tp-wrap").addEventListener("change", save);
+
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "CONSORT ACE checklist for abstracts";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all ticks and the manuscript title?")) { texts().forEach(i => i.value = ""); boxes().forEach(b => b.checked = false); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  function buildDocx(D, ROWS, vals, eqLogo) {
+    const F = "Arial", SZ = 17, W = [2100, 3300, 3466, 1600], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: o.font || F, size: o.size || SZ, bold: o.bold });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: new URL(m[2], document.baseURI).href, children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined,
+      verticalAlign: D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 50, bottom: 50, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT,
+        children: o.raw || runs(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, center: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section/Topic", hd), cell(1, "Standard checklist description", hd),
+      cell(2, "Extension for adaptive design randomised trials", hd), cell(3, "Reported", hd)] });
+    const body = ROWS.map((r, n) => {
+      if (typeof r === "string") return new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] });
+      const [topic, std, ext] = r;
+      return new D.TableRow({ cantSplit: true, children: [cell(0, topic), cell(1, std, { center: true }), cell(2, ext, { center: true }),
+        cell(3, "", { center: true, raw: [run(vals["r" + n] ? "\u2612" : "\u2610", { font: "Segoe UI Symbol", size: 22 })] })] });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [6200, 4266];
+    const hcell = (i, children) => new D.TableCell({ width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const empty = () => [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : empty();
+    const topTable = new D.Table({ width: { size: HW[0] + HW[1], type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, empty()), hcell(1, right)] })] });
+    return new D.Document({
+      title: "CONSORT ACE checklist for abstracts", creator: "CONSORT ACE checklist for abstracts",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [topTable, para([], { spacing: { after: 60 } }),
+          para([run(TITLE, { bold: true, size: 24 })], { spacing: { after: 100 } }),
+          para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...FOOT.map(t => para(runs(t, { size: 16 }), { spacing: { before: 140 } }))]
+      }]
+    });
+  }
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {};
+      texts().forEach(i => vals[i.dataset.key] = i.value);
+      boxes().forEach(b => { if (b.checked) vals[b.dataset.key] = 1; });
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "CONSORT-ACE-abstract-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

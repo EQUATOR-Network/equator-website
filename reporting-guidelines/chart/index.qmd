@@ -50,7 +50,7 @@ downloads: |-
   
   Download the [CHART for Abstracts checklist](CHART_abstracts_checklist.docx)\
 
-  Download the [CHART flow duagram](CHART_flow_diagram.docx)
+  Download the [CHART flow diagram](CHART_flow_diagram.docx)
 
 # LIST FIELDS
 categories:
