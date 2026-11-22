@@ -1,34 +1,52 @@
 ---
 # REQUIRED FIELDS
 title: REporting recommendations for tumour MARKer prognostic studies (REMARK)
+aliases:
+  - /reporting-guidelines/reporting-recommendations-for-tumour-marker-prognostic-studies-remark/
 acronym: REMARK
 provided-for: Tumour marker prognostic studies
 rg-doi: ''
 pmid-id: '[16106245](http://www.ncbi.nlm.nih.gov/pubmed/16106245)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/16106245
-relevant-urls: Download the [REMARK checklist (Word)](REMARK-checklist-for-EQUATOR-website-002.docx)
-  for tumour marker prognostic studies.
-full-bibliographic-reference: McShane LM, Altman DG, Sauerbrei W, Taube SE, Gion M,
-  Clark GM. REporting recommendations for tumour MARKer prognostic studies (REMARK).
-  Br J Cancer. 2005;93(4):387-391.
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1038/sj.bjc.6602678) of REMARK
+full-bibliographic-reference: |-
 
+  McShane LM, Altman DG, Sauerbrei W, Taube SE, Gion M, Clark GM. REporting recommendations for tumour MARKer prognostic studies (REMARK).\
+
+  This guideline was published simultaneously in 6 journals. You can read the guideline in any of these journals using the links below. \
+
+  Br J Cancer. 2005; 93: 387-391 PMID: [16106245](http://www.ncbi.nlm.nih.gov/pubmed/16106245) [full text](https://doi.org/10.1038/sj.bjc.6602678).
+
+  Breast Cancer Res Treat. 2006; 100: 229-235. PMID: [16932852](https://pubmed.ncbi.nlm.nih.gov/16932852/) [full text](https://doi.org/10.1007/s10549-006-9242-8)
+
+  Exp Oncol. 2006; 28: 99-105. PMID: [16837898](https://pubmed.ncbi.nlm.nih.gov/16837898/) 
+
+  Nat Clin Pract Urol. 2005; 2: 416-422. PMID: [16482653](https://pubmed.ncbi.nlm.nih.gov/16482653/)
+
+  J Natl Cancer Inst.2005; 97: 1180-1184. PMID: [16106022](https://pubmed.ncbi.nlm.nih.gov/16106022/) [full text](https://doi.org/10.1093/jnci/dji237)
+
+  Eur J Cancer. 2005; 41: 1690-1696. PMID: [16043346](https://pubmed.ncbi.nlm.nih.gov/16043346/) [full text](https://doi.org/10.1016/j.ejca.2005.03.032)
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: |-
   **Abridged explanation and elaboration**
 
-  Sauerbrei W, Taube SE, McShane LM, Cavenagh MM, Altman DG. Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK): An Abridged Explanation and Elaboration. J Natl Cancer Inst. 2018. PMID: [29873743](https://www.ncbi.nlm.nih.gov/pubmed/29873743)
+  Sauerbrei W, Taube SE, McShane LM, Cavenagh MM, Altman DG. Reporting Recommendations for Tumor Marker Prognostic Studies (REMARK): An Abridged Explanation and Elaboration. J Natl Cancer Inst. 2018. PMID: [29873743](https://www.ncbi.nlm.nih.gov/pubmed/29873743) [full text](https://doi.org/10.1093/jnci/djy088)
 
   **Detailed explanation and elaboration**
 
   Altman DG, McShane LM, Sauerbrei W, Taube SE. Reporting recommendations for tumor marker prognostic studies (REMARK): explanation and elaboration.
 
-  BMC Med. 2012;10:51. PMID: [22642691](http://www.ncbi.nlm.nih.gov/pubmed/22642691)
+  BMC Med. 2012;10:51. PMID: [22642691](http://www.ncbi.nlm.nih.gov/pubmed/22642691) [full text](https://doi.org/10.1186/1741-7015-10-51)
 
-  PLoS Med. 9(5):e1001216. [Link to full-text](http://www.plosmedicine.org/article/info%3Adoi%2F10.1371%2Fjournal.pmed.1001216)
+  PLoS Med. 9: e1001216. PMID: [22675273](https://pubmed.ncbi.nlm.nih.gov/22675273/) [full-text](https://doi.org/10.1371/journal.pmed.1001216)
 guideline-history: ''
-relevant-more: ''
+relevant-more: |-
+  **REMARK profile to aid structured reporting**
+
+  Sauerbrei W, Haeussler T, Balmford J, Huebner M. Structured reporting to improve transparency of analyses in prognostic marker studies. BMC Med. 2022;20(1):184. PMID: [35546237](https://pubmed.ncbi.nlm.nih.gov/35546237/) [full text](https://doi.org/10.1186/s12916-022-02304-5)
 website-url: ''
 additional-languages: ''
 additional-information: ''
@@ -36,11 +54,10 @@ relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: |-
-  **REMARK profile to aid structured reporting**
 
-  Sauerbrei W, Haeussler T, Balmford J, Huebner M. Structured reporting to improve transparency of analyses in prognostic marker studies. BMC Med. 2022;20(1):184. PMID: [35546237](https://pubmed.ncbi.nlm.nih.gov/35546237/)
 sticky: false
-downloads: ''
+downloads: |-
+  Download the [REMARK checklist](REMARK-checklist-for-EQUATOR-website-002.docx).
 
 
 # LIST FIELDS
