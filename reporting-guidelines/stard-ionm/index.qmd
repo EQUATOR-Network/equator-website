@@ -173,6 +173,11 @@ keyword:
 - STARD statement
 - statement
 - intraoperative neurophysiological monitoring
+- STARD-IONM
+- continuous monitoring
+- surgery
+- electroencephalography
+- electroencephalography
 ---
 
 {{< include ../_template.qmd >}}
