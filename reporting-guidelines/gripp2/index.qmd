@@ -9,7 +9,7 @@ rg-doi: ''
 pmid-id: ''
 pmid-url: ''
 relevant-urls: |-
-  Complete an interactive [GRIPP2 checklist long form](gripp2-checklist-long.qmd), which you can save and upload when submitting your paper to a journal.
+  Complete an interactive [GRIPP2 checklist long form](gripp2-checklist-long.qmd), which you can save and upload when submitting your paper to a journal.\
   
   Complete an interactive [GRIPP2 checklist short form](gripp2-checklist-short.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
@@ -37,9 +37,9 @@ additional-languages: |-
 
   Download a Spanish translation of the GRIPP2 short form checklist [PDF](GRIPP2-Spanish-short.pdf) / [Word](GRIPP2-Spanish-short.docx) \
   
-    Complete an interactive Spanish version of the [GRIPP2 checklist long form](gripp2-spanish-long.qmd), which you can save and upload when submitting your paper to a journal.\
+  Complete an interactive Spanish version of the [GRIPP2 checklist long form](gripp2-spanish-long.qmd), which you can save and upload when submitting your paper to a journal.\
   
-  Complete an interactive Spanish version of the Complete an interactive [GRIPP2 checklist short form](gripp2-spanish-short.qmd), which you can save and upload when submitting your paper to a journal.
+  Complete an interactive Spanish version of the [GRIPP2 checklist short form](gripp2-spanish-short.qmd), which you can save and upload when submitting your paper to a journal.
   
 additional-information: Read the project [summary (PDF)](3869_Guidelines-for-reporting-the-impact-of-patient-involvement.pdf)
   (December 2010)

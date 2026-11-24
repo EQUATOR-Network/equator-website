@@ -126,9 +126,9 @@ other: '[Read the protocol](https://pubmed.ncbi.nlm.nih.gov/34244270/) for the d
 other-relevant-research: ''
 sticky: true
 downloads: |-
-  Download the TRIPOD+AI checklist [(PDF)](TRIPOD+AI_checklist.pdf) / [Word](TRIPOD+AI_checklist.docx). \
+  Download the TRIPOD+AI checklist [PDF](TRIPOD+AI_checklist.pdf) / [Word](TRIPOD+AI_checklist.docx). \
 
-  Download the [TRIPOD+AI Expanded Checklist (PDF)](TRIPOD+AI_Expanded_checklist.pdf) (Explanation & Elaboration Light) \
+  Download the [TRIPOD+AI Expanded Checklist [PDF](TRIPOD+AI_Expanded_checklist.pdf) (Explanation & Elaboration Light) \
 
   Download the [TRIPOD+AI for Abstracts checklist](TRIPOD-abstracts.pdf)
 
