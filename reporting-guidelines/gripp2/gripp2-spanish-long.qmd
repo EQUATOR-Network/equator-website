@@ -1,0 +1,260 @@
+---
+pagetitle: "Lista de comprobación GRIPP2 (formulario largo)"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2c6cbe; --band:#f4f4f4; --head:#eaeaea; --line:#231f20; --box:#eef4fb; --boxline:#9db9dc;
+    font-family:Arial,Helvetica,sans-serif; color:#231f20; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; gap:1.2rem; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; flex:none; margin-left:auto; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  #tp-wrap th, #tp-wrap td { border:0; padding:3px 7px; vertical-align:middle; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; border-bottom:1px solid var(--line); padding:5px 7px; }
+  #tp-wrap tr.sec td { background:#fff; padding:5px 7px 3px; }
+  #tp-wrap tr.row td { background:var(--band); }
+  #tp-wrap td.topic { width:30%; padding-left:20px; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:13%; }
+  #tp-wrap td.pg { padding:3px; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:#fff;
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); }
+  #tp-wrap input::placeholder { color:#6b7f99; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12px; margin-top:.4rem; }
+  #tp-wrap .tp-cite { font-size:13px; margin-top:.8rem; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2c6cbe; background:#2c6cbe; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2c6cbe; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:16px; }
+    #tp-wrap .tp-foot { font-size:9.5px; } #tp-wrap .tp-cite { font-size:10px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.row td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div class="tp-title">GRIPP2 formulario largo. Lista de comprobación de los ítems para incluir en la publicación de estudios en los que la participación de pacientes y ciudadanos es el foco principal</div>
+    <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq">
+  </div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Guardar como PDF</button>
+    <button type="button" id="tp-doc" class="alt">Guardar como Word</button>
+    <button type="button" id="tp-reset" class="alt">Borrar todo</button>
+    <p class="tp-note">Escriba el número o números de página donde se presenta cada ítem en las casillas de la columna derecha y, a continuación, guarde su copia como archivo PDF o Word (.docx).
+    «Guardar como PDF» abre el cuadro de impresión del navegador: elija <em>Guardar como PDF</em> como destino.
+    Sus datos permanecen en este navegador hasta que los borre.</p>
+  </div>
+  <div class="tp-meta"><label>Título del manuscrito: <input type="text" id="tp-title" data-key="title" placeholder="Escriba aquí el título de su manuscrito"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Sección y tema</th><th>Ítem</th>
+      <th class="pgh">Presentado en página n.°<span class="tp-hint">escriba el n.° de página en las casillas</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-foot">*El término «desenlace» (outcome en inglés) se refiere a los resultados específicos o las consecuencias observadas en el estudio.</p>
+  <p class="tp-cite">Catalá-López et al. Gaceta Sanitaria 2026 <a href="[https://doi.org/10.1016/j.gaceta.2026.102564](https://doi.org/10.1016/j.gaceta.2026.102564)" target="_blank" rel="noopener">doi: 10.1016/j.gaceta.2026.102564</a></p>
+</div>
+
+<script>
+(function () {
+  // Section lines are plain strings. Items: [code, topic, text]
+  const ROWS = [
+    "Sección 1. Resumen",
+    ["1a","Objetivo","Presentar el objetivo del estudio"],
+    ["1b","Métodos","Describir los métodos utilizados para involucrar a pacientes y ciudadanos"],
+    ["1c","Resultados","Presentar los impactos y desenlaces* de la participación de pacientes y ciudadanos en el estudio"],
+    ["1d","Conclusiones","Resumir las principales conclusiones del estudio"],
+    ["1e","Palabras clave","Incluir «participación de pacientes y ciudadanos» (PPI en inglés) u otros términos equivalentes como palabras clave"],
+    "Sección 2. Antecedentes",
+    ["2a","Definición","Presentar la definición utilizada de participación de pacientes y ciudadanos, y cómo se relaciona con estudios comparables"],
+    ["2b","Fundamentos teóricos","Presentar la justificación y cualquier influencia teórica relacionada con la participación de pacientes y ciudadanos"],
+    ["2c","Conceptos y desarrollo teórico","Presentar los modelos conceptuales o influencias teóricas utilizados en el estudio"],
+    "Sección 3. Objetivos",
+    ["3","Objetivo","Presentar el objetivo del estudio"],
+    "Sección 4. Métodos",
+    ["4a","Diseño","Describir claramente los métodos utilizados para involucrar a pacientes, cuidadores y ciudadanos"],
+    ["4b","Personas involucradas","Describir a los pacientes, cuidadores y ciudadanos involucrados en la actividad de participación en el estudio"],
+    ["4c","Etapas de participación","Presentar cómo se incorporó la participación de pacientes, cuidadores y ciudadanos en las distintas etapas del estudio"],
+    ["4d","Nivel o naturaleza de la participación","Presentar el nivel o naturaleza de la participación de pacientes, cuidadores y ciudadanos en las distintas etapas del estudio"],
+    "Sección 5. Captura o medición del impacto de la participación de pacientes y ciudadanos",
+    ["5a","Evidencia cualitativa del impacto","Si aplica, presentar los métodos cualitativos utilizados para explorar el impacto de la participación de pacientes y ciudadanos"],
+    ["5b","Evidencia cuantitativa del impacto","Si aplica, presentar los métodos cuantitativos utilizados para medir o evaluar el impacto de la participación de pacientes y ciudadanos"],
+    ["5c","Robustez de la medición","Si aplica, presentar el rigor del método utilizado para captar o medir el impacto de la participación de pacientes y ciudadanos"],
+    "Sección 6. Evaluación económica",
+    ["6","Evaluación económica","Si aplica, presentar el método utilizado para realizar una evaluación económica de la participación de pacientes y ciudadanos"],
+    "Sección 7. Resultados del estudio",
+    ["7a","Desenlaces* de la participación","Presentar los resultados de la participación de pacientes y ciudadanos en el estudio, incluidos los desenlaces positivos y negativos"],
+    ["7b","Impactos de la participación","Presentar los impactos positivos y negativos de la participación de pacientes y ciudadanos, tanto en la investigación como en las personas involucradas (pacientes, familiares, cuidadores e investigadores), incluyendo también cualquier impacto más amplio (p. ej., en políticas, comunidades o prácticas)"],
+    ["7c","Contexto de la participación","Presentar la influencia de los factores contextuales que facilitaron o dificultaron el proceso o el impacto de la participación de pacientes y ciudadanos"],
+    ["7d","Proceso de la participación","Presentar la influencia de los factores del proceso que facilitaron o dificultaron el impacto de la participación de pacientes y ciudadanos"],
+    ["7ei","Desarrollo teórico","Presentar cualquier desarrollo conceptual o teórico que haya surgido en la participación de pacientes y ciudadanos"],
+    ["7eii","Desarrollo teórico","Presentar la evaluación de modelos teóricos, si la hay"],
+    ["7f","Medición","Si aplica, presentar todos los aspectos del desarrollo y prueba de instrumentos (p. ej., validez, fiabilidad, viabilidad, aceptabilidad, capacidad de respuesta, interpretabilidad, adecuación, precisión)"],
+    ["7g","Evaluación económica","Presentar cualquier información sobre los costes o beneficios de la participación de pacientes y ciudadanos"],
+    "Sección 8. Discusión y conclusiones",
+    ["8a","Desenlaces*","Comentar cómo influyó la participación de pacientes y ciudadanos en el estudio en general, describir efectos positivos y negativos"],
+    ["8b","Impactos","Comentar los distintos impactos de la participación de pacientes y ciudadanos identificados en el estudio y cómo contribuyen al nuevo conocimiento"],
+    ["8c","Definición","Comentar la definición utilizada de participación de pacientes y ciudadanos (presentada en la sección Antecedentes) y si se sugiere realizar cambios"],
+    ["8d","Fundamentos teóricos","Comentar cualquier forma en la que el estudio contribuye al desarrollo teórico de la participación de pacientes y ciudadanos"],
+    ["8e","Contexto","Comentar cómo los factores contextuales influyeron en la participación de pacientes y ciudadanos en el estudio"],
+    ["8f","Proceso","Comentar cómo los factores del proceso influyeron en la participación de pacientes y ciudadanos en el estudio"],
+    ["8g","Medición y captura del impacto de la participación","Si aplica, comentar la calidad de la evaluación o la medición del impacto de la participación de pacientes y ciudadanos en el estudio"],
+    ["8h","Evaluación económica","Si aplica, discutir cualquier aspecto del coste económico o del beneficio de la participación de pacientes y ciudadanos, en especial cualquier sugerencia para futuros modelos económicos"],
+    ["8i","Reflexiones y perspectiva crítica","Analizar críticamente el estudio, reflexionando sobre lo que funcionó y lo que no, de manera que otros puedan aprender de este estudio"]
+  ];
+  const TITLE = "GRIPP2 formulario largo. Lista de comprobación de los ítems para incluir en la publicación de estudios en los que la participación de pacientes y ciudadanos es el foco principal";
+  const FOOT = [
+    "*El término «desenlace» (outcome en inglés) se refiere a los resultados específicos o las consecuencias observadas en el estudio.",
+    "Catalá-López et al. Gaceta Sanitaria 2026 [[doi: 10.1016/j.gaceta.2026.102564|[https://doi.org/10.1016/j.gaceta.2026.102564](https://doi.org/10.1016/j.gaceta.2026.102564)]]"
+  ];
+
+  const STORE = "gripp2-spanish-long-checklist-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => typeof r === "string" ? `<tr class="sec"><td colspan="3">${r}</td></tr>`
+    : `<tr class="row"><td class="topic">${r[0]}: ${r[1]}</td><td class="txt">${r[2]}</td>` +
+      `<td class="pg"><input type="text" data-key="p${r[0]}" placeholder="n.° pág." aria-label="Página, ítem ${r[0]}"></td></tr>`).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "Lista de comprobación GRIPP2 (formulario largo)";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("¿Borrar todos los números de página y el título del manuscrito?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, title, foot, eqLogo) {
+    const F = "Arial", SZ = 17, W = [3000, 6266, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "231F20" };
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 3 : undefined,
+      verticalAlign: D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 45, bottom: 45, left: o.indent || 100, right: 100 },
+      borders: { top: o.rule ? ln : none, bottom: o.rule ? ln : none, left: none, right: none },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "EAEAEA", bold: true, rule: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Sección y tema", hd), cell(1, "Ítem", hd), cell(2, "Presentado en página n.°", { ...hd, center: true })] });
+    const body = ROWS.map(r => new D.TableRow({ cantSplit: true, children: typeof r === "string"
+      ? [cell(0, r, { span: true, keepNext: true })]
+      : [cell(0, r[0] + ": " + r[1], { fill: "F4F4F4", indent: 240 }), cell(1, r[2], { fill: "F4F4F4" }),
+         cell(2, vals["p" + r[0]] || "", { fill: "F4F4F4", center: true })] }));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const nb = { top: none, bottom: none, left: none, right: none };
+    const EQ = 2300;
+    const headTable = new D.Table({
+      width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: [TOTAL - EQ, EQ],
+      borders: { ...nb, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [
+        new D.TableCell({ width: { size: TOTAL - EQ, type: D.WidthType.DXA }, borders: nb, verticalAlign: D.VerticalAlign.CENTER,
+          margins: { top: 0, bottom: 0, left: 0, right: 0 },
+          children: [para([run(title, { bold: true, size: 24 })], { spacing: { after: 0 } })] }),
+        new D.TableCell({ width: { size: EQ, type: D.WidthType.DXA }, borders: nb, verticalAlign: D.VerticalAlign.CENTER,
+          margins: { top: 0, bottom: 0, left: 0, right: 0 },
+          children: [para(eqLogo ? [new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })] : [],
+            { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })] })] })]
+    });
+    return new D.Document({
+      title: "Lista de comprobación GRIPP2 (formulario largo)", creator: "GRIPP2 formulario largo",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [
+          headTable,
+          para([run("Título del manuscrito: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { before: 160, after: 120 } }),
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W,
+            borders: { top: ln, bottom: ln, left: none, right: none, insideHorizontal: none, insideVertical: none }, rows: [head, ...body] }),
+          para(runs(foot[0], { size: 15 }), { spacing: { before: 80 } }),
+          para(runs(foot[1], { size: 16 }), { spacing: { before: 120 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("No se pudo cargar docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparando…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, FOOT, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "GRIPP2-formulario-largo-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Lo sentimos, no se pudo crear el archivo de Word. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
