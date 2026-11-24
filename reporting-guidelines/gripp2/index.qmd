@@ -9,7 +9,9 @@ rg-doi: ''
 pmid-id: ''
 pmid-url: ''
 relevant-urls: |-
-  Complete an interactive [GRIPP2 checklist](gripp2-checklist.qmd), which you can save and upload when submitting your paper to a journal.
+  Complete an interactive [GRIPP2 checklist long form](gripp2-checklist-long.qmd), which you can save and upload when submitting your paper to a journal.\
+  
+  Complete an interactive [GRIPP2 checklist short form](gripp2-checklist-short.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Staniszewska S, Simera I, Seers K, Mockford C, Goodlad S, Altman DG, Moher D, Barber R, Denegri S, Entwistle A, Littlejohns P, Morris C, Suleman R. GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research.\
 
@@ -27,8 +29,18 @@ guideline-history: 'Staniszewska S, Brett J, Mockford C, Barber R. The GRIPP che
 relevant-more: ''
 website-url: ''
 additional-languages: |-
-  A Japanese translation of the GRIPP2 short and long form can be found [here](GRIPP2_Japanese.pdf).
+  A Japanese translation of the GRIPP2 short and long form can be found [here](GRIPP2_Japanese.pdf). \
+  
+  Read the [full text](https://doi.org/10.1016/j.gaceta.2026.102564) of the Spanish translation of GRIPP2. \
+  
+  Download a Spanish translation of the GRIPP2 long form checklist [PDF](GRIPP2-Spanish-long.pdf) / [Word](GRIPP2-Spanish-long.docx) \
 
+  Download a Spanish translation of the GRIPP2 short form checklist [PDF](GRIPP2-Spanish-short.pdf) / [Word](GRIPP2-Spanish-short.docx) \
+  
+    Complete an interactive Spanish version of the [GRIPP2 checklist long form](gripp2-es-largo.qmd), which you can save and upload when submitting your paper to a journal.\
+  
+  Complete an interactive Spanish version of the Complete an interactive [GRIPP2 checklist short form](gripp2-es-corto.qmd), which you can save and upload when submitting your paper to a journal.
+  
 additional-information: Read the project [summary (PDF)](3869_Guidelines-for-reporting-the-impact-of-patient-involvement.pdf)
   (December 2010)
 relevant-editorials: ''
@@ -36,7 +48,7 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: ''
+downloads: 
 
 
 # LIST FIELDS
