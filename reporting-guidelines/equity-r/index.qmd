@@ -33,23 +33,23 @@ search-priority: 100 # lower number = higher priority
 # LIST FIELDS
 categories:
 # - Animal pre-clinical research
-- Artificial intelligence/Machine learning
-- Clinical practice guidelines
-- Clinical trials
-- Diagnosis/Prognosis/Prediction
-- Economic evaluations
-- Experimental studies
+# - Artificial intelligence/Machine learning
+# - Clinical practice guidelines
+# - Clinical trials
+# - Diagnosis/Prognosis/Prediction
+# - Economic evaluations
+# - Experimental studies
 # - Letters to the editor/Correspondence
 # - Mixed methods studies
-- Observational studies
+# - Observational studies
 # - Other
 # - Patent landscapes
 # - Qualitative research
-- Quality improvement studies
-- Reliability/Agreement studies
-- Study protocols
-- Systematic reviews/Meta-analyses/Reviews
-# - No study design specified
+# - Quality improvement studies
+# - Reliability/Agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews
+- No study design specified
 
 clinical-specialty:
 # - Allergy
