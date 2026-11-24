@@ -35,7 +35,7 @@ additional-languages: |-
   
   Download a Spanish translation of the GRIPP2 long form checklist [PDF](GRIPP2-Spanish-long.pdf) / [Word](GRIPP2-Spanish-long.docx) \
 
-  Download a Spanish translation of the GRIPP2 short form checklist [PDF](GRIPP2-Spanish-short.pdf) / [Word](GRIPP2-Spanish-short.docx)
+  Download a Spanish translation of the GRIPP2 short form checklist [PDF](GRIPP2-Spanish-short.pdf) / [Word](GRIPP2-Spanish-short.docx) \
   
     Complete an interactive Spanish version of the [GRIPP2 checklist long form](gripp2-spanish-long.qmd), which you can save and upload when submitting your paper to a journal.\
   
