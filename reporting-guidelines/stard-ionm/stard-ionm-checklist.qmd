@@ -47,7 +47,7 @@ resources:
   .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
 
   @media print {
-    @page { size:A4 landscape; margin:10mm; }
+    @page { size:A4 portrait; margin:10mm; }
     body * { visibility:hidden; }
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
@@ -55,7 +55,12 @@ resources:
     #tp-wrap .tp-top { display:flex; }
     #tp-wrap .tp-eq { display:block; }
     #tp-wrap table { font-size:9.5px; }
-    #tp-wrap td.cm { font-size:8.5px; }
+    /* IONM-specific commentary column is screen-only: omit it from the saved PDF */
+    #tp-wrap th.cm, #tp-wrap td.cm { display:none; }
+    #tp-wrap td.topic { width:16%; }
+    #tp-wrap td.item { width:6%; }
+    #tp-wrap td.txt { width:64%; }
+    #tp-wrap th.pgh, #tp-wrap td.pg { width:14%; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
     #tp-wrap .tp-title { font-size:15px; }
@@ -78,13 +83,13 @@ resources:
     <button type="button" id="tp-doc" class="alt">Save as Word</button>
     <button type="button" id="tp-reset" class="alt">Clear all</button>
     <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
-    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination (landscape A4 is set automatically).
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination (portrait A4 is set automatically).
     Your entries stay in this browser until you clear them.</p>
   </div>
   <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
   <table id="tp-table">
     <thead><tr>
-      <th>Section / Topic</th><th class="c">No</th><th>STARD item description</th><th>IONM-specific commentary</th>
+      <th>Section / Topic</th><th class="c">No</th><th>STARD item description</th><th class="cm">IONM-specific commentary</th>
       <th class="pgh">Reported on page no.<span class="tp-hint">type page no. in the boxes below</span></th>
     </tr></thead>
     <tbody></tbody>
@@ -493,6 +498,11 @@ resources:
   load();
   document.getElementById("tp-wrap").addEventListener("input", save);
 
+  // Section/label rows span all visible columns: 5 on screen, 4 in print (commentary column hidden)
+  const setSpan = n => document.querySelectorAll("#tp-wrap tr.sec td, #tp-wrap tr.lab td").forEach(td => td.colSpan = n);
+  window.addEventListener("beforeprint", () => setSpan(4));
+  window.addEventListener("afterprint", () => setSpan(5));
+
   // Save as PDF via the browser print dialog (print CSS shows only the checklist)
   document.getElementById("tp-pdf").onclick = () => {
     const old = document.title;
@@ -505,9 +515,9 @@ resources:
     if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
   };
 
-  // ---- Word (.docx) export (A4 landscape) ----------------------------------
+  // ---- Word (.docx) export (A4 portrait) ----------------------------------
   function buildDocx(D, ROWS, vals, title, foot, eqLogo) {
-    const F = "Arial", SZ = 17, W = [1800, 600, 3500, 7498, 2000], TOTAL = W.reduce((a, b) => a + b), NC = W.length;
+    const F = "Arial", SZ = 17, W = [1500, 500, 6966, 1500], TOTAL = W.reduce((a, b) => a + b), NC = W.length;
     const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
     const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italic, superScript: o.sup });
     const runs = (text, o = {}) => {
@@ -531,14 +541,14 @@ resources:
     const hd = { fill: "BFBFBF", bold: true, mid: true };
     const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
       cell(0, "Section / Topic", hd), cell(1, "No", { ...hd, center: true }),
-      cell(2, "STARD item description", hd), cell(3, "IONM-specific commentary", hd), cell(4, "Reported on page no.", hd)] });
+      cell(2, "STARD item description", hd), cell(3, "Reported on page no.", hd)] });
     const body = ROWS.flatMap(r => {
       if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] })];
       if (r[0] === "L") return [new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { span: true, bold: true, italic: true, keepNext: true })] })];
       const [topic, ind, items] = r;
-      return items.map(([code, text, comm], i) => new D.TableRow({ cantSplit: false, children: [
+      return items.map(([code, text], i) => new D.TableRow({ cantSplit: false, children: [
         ...(i ? [] : [cell(0, topic, { rowSpan: items.length, indent: ind ? 260 : 90 })]),
-        cell(1, code, { center: true }), cell(2, text), cell(3, comm, { size: 16 }), cell(4, vals["p" + code] || "", { center: true, mid: true })] }));
+        cell(1, code, { center: true }), cell(2, text), cell(3, vals["p" + code] || "", { center: true, mid: true })] }));
     });
     const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
     const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
@@ -553,7 +563,7 @@ resources:
       title: "STARD-IONM checklist", creator: "STARD-IONM checklist",
       sections: [{
         footers: { default: footer },
-        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.PORTRAIT }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
         children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
           ...foot.map((t, i) => para(runs(t, { size: 16 }), { spacing: { before: i ? 60 : 140 } }))]
       }]
