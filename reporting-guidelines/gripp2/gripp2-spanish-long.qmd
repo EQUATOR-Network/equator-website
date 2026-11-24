@@ -85,7 +85,7 @@ resources:
     <tbody></tbody>
   </table>
   <p class="tp-foot">*El término «desenlace» (outcome en inglés) se refiere a los resultados específicos o las consecuencias observadas en el estudio.</p>
-  <p class="tp-cite">Catalá-López et al. Gaceta Sanitaria 2026 <a href="[https://doi.org/10.1016/j.gaceta.2026.102564](https://doi.org/10.1016/j.gaceta.2026.102564)" target="_blank" rel="noopener">doi: 10.1016/j.gaceta.2026.102564</a></p>
+  <p class="tp-cite">Catalá-López et al. Gaceta Sanitaria 2026 <a href="https://doi.org/10.1016/j.gaceta.2026.102564 target="_blank" rel="noopener">doi: 10.1016/j.gaceta.2026.102564</a></p>
 </div>
 
 <script>

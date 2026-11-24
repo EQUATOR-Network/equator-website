@@ -85,7 +85,7 @@ resources:
     <tbody></tbody>
   </table>
   <p class="tp-foot">PPI=patient and public involvement</p>
-  <p class="tp-cite">Staniszewska S, Brett J, Simera I, et al. BMJ 2017;358:j3453. <a href="[http://dx.doi.org/10.1136/bmj.j3453](http://dx.doi.org/10.1136/bmj.j3453)" target="_blank" rel="noopener">doi: 10.1136/bmj.j3453</a></p>
+  <p class="tp-cite">Staniszewska S, Brett J, Simera I, et al. BMJ 2017;358:j3453. <a href="http://dx.doi.org/10.1136/bmj.j3453" target="_blank" rel="noopener">doi: 10.1136/bmj.j3453</a></p>
 </div>
 
 <script>
