@@ -1,0 +1,230 @@
+---
+pagetitle: "Lista de comprobación GRIPP2 - Formulario corto"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1100px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap .tp-right { text-align:right; }
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:22%; } #tp-wrap td.topic.ind { padding-left:16px; }
+  #tp-wrap td.item { width:7%; text-align:center; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:13%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite, #tp-wrap .tp-lic { font-size:12.5px; margin:.6rem 0 0; }
+  #tp-wrap .tp-lic { font-size:11.5px; color:#333; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9.5px; } #tp-wrap .tp-lic { font-size:8.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div></div>
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">GRIPP2 formulario corto. Lista de comprobación de los ítems para incluir en la publicación de estudios en los que la participación de pacientes y ciudadanos es un componente secundario</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Guardar como PDF</button>
+    <button type="button" id="tp-doc" class="alt">Guardar como Word</button>
+    <button type="button" id="tp-reset" class="alt">Borrar todo</button>
+    <p class="tp-note">Escriba el/los número(s) de página donde se informa cada ítem en las casillas de la columna derecha y guarde su copia como PDF o Word (.docx).
+    «Guardar como PDF» abre el diálogo de impresión del navegador: elija <em>Guardar como PDF</em> como destino.
+    Sus entradas permanecen en este navegador hasta que las borre.</p>
+  </div>
+  <div class="tp-meta"><label>Título del manuscrito: <input type="text" id="tp-title" data-key="title" placeholder="Escriba aquí el título del manuscrito"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Sección y tema</th><th class="c">Ítem</th><th>Descripción del ítem GRIPP2</th>
+      <th class="pgh">Presentado en página n.º<span class="tp-hint">escriba el n.º de página abajo</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="tp-foot">El término «desenlace» (outcome en inglés) se refiere a los resultados específicos o las consecuencias observadas en el estudio.</p>
+  <p class="tp-cite">Citación: Catalá-López F, et al. GRIPP2-Spanish. <em>Gaceta Sanitaria</em> 2026. doi: 10.1016/j.gaceta.2026.102564.</p>
+  <p class="tp-lic">© 2026 Catalá-López et al. Artículo Open Access distribuido bajo los términos de la licencia Creative Commons Attribution (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">https://creativecommons.org/licenses/by/4.0/</a>), que permite el uso, distribución y reproducción sin restricciones en cualquier medio, siempre que se cite adecuadamente el original.</p>
+</div>
+
+<script>
+(function () {
+  const ROWS = [
+    ["1: Objetivo", false, [["1", "Presentar el objetivo de la participación de pacientes y ciudadanos en el estudio"]]],
+    ["2: Métodos", false, [["2", "Describir claramente los métodos utilizados para la participación de pacientes, cuidadores y ciudadanos en el estudio"]]],
+    ["3: Resultados del estudio", false, [["3", "Desenlaces*: presentar los resultados de la participación de pacientes y ciudadanos en el estudio, incluidos los desenlaces positivos y negativos"]]],
+    ["4: Discusión y conclusiones", false, [["4", "Desenlaces*: comentar en qué medida la participación de pacientes y ciudadanos influyó en el estudio en general, describir los efectos positivos y negativos"]]],
+    ["5: Reflexiones y perspectiva crítica", false, [["5", "Analizar críticamente el estudio, reflexionando sobre lo que funcionó y lo que no, de manera que otros puedan aprender de esta experiencia"]]]
+  ];
+  const TITLE = "GRIPP2 formulario corto. Lista de comprobación de los ítems para incluir en la publicación de estudios en los que la participación de pacientes y ciudadanos es un componente secundario";
+  const FOOT = [
+    "El término «desenlace» (outcome en inglés) se refiere a los resultados específicos o las consecuencias observadas en el estudio.",
+    "Citación: Catalá-López F, et al. GRIPP2-Spanish. [[https://doi.org/10.1016/j.gaceta.2026.102564|Gaceta Sanitaria 2026. doi: 10.1016/j.gaceta.2026.102564]]."
+  ];
+
+  const STORE = "gripp2-short-es-v1";
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    const [topic, ind, items] = r, n = items.length;
+    return items.map(([code, text], i) =>
+      `<tr>` + (i ? "" : `<td class="topic${ind ? " ind" : ""}" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${code}</td><td class="txt">${text.replace(/\n/g, "<br>")}</td>` +
+      `<td class="pg"><input type="text" data-key="p${code}" placeholder="n.º pág." aria-label="Página, ítem ${code}"></td></tr>`).join("");
+  }).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "GRIPP2 formulario corto";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("¿Borrar todos los números de página y el título del manuscrito?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  function buildDocx(D, ROWS, vals, title, foot, eqLogo) {
+    const F = "Arial", SZ = 17, W = [2600, 700, 5916, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Sección y tema", hd), cell(1, "Ítem", { ...hd, center: true }),
+      cell(2, "Descripción del ítem GRIPP2", hd), cell(3, "Presentado en página n.º", hd)] });
+    const body = ROWS.flatMap(r => {
+      const [topic, ind, items] = r;
+      return items.map(([code, text], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length, indent: ind ? 260 : 90 })]),
+        cell(1, code, { center: true }), cell(2, text), cell(3, vals["p" + code] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Página ", D.PageNumber.CURRENT, " de ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [6200, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { spacing: { after: 0 } })];
+    top.push(new D.Table({ width: { size: HW[0] + HW[1], type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(title, { bold: true, size: 24 })], { spacing: { after: 100 } }));
+    top.push(para([run("Título del manuscrito: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "GRIPP2 formulario corto", creator: "GRIPP2 formulario corto",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("No se pudo cargar docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  async function fetchLogo(url) {
+    try { return new Uint8Array(await (await fetch(new URL(url, document.baseURI))).arrayBuffer()); } catch (e) { return null; }
+  }
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparando…";
+    try {
+      await loadDocx();
+      const eqLogo = await fetchLogo("/assets/logos/equator_logo.png");
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, TITLE, FOOT, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "GRIPP2-corto-es.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Lo sentimos, no se pudo crear el archivo Word. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
