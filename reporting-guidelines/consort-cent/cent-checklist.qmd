@@ -1003,18 +1003,40 @@ resources:
 
   const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   const nl2br = s => esc(s).replace(/\n/g, "<br>");
-  const linkify = s => esc(s).replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/^([*†])/, "<sup>$1</sup>");
+  // Build rich text with DOM calls (no literal href/src attributes in the script source)
+  const addRich = (el, text) => {
+    const lead = text.match(/^[*†]/);
+    if (lead) { const s = document.createElement("sup"); s.textContent = lead[0]; el.appendChild(s); text = text.slice(1); }
+    const re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+    while ((m = re.exec(text))) {
+      if (m.index > last) el.appendChild(document.createTextNode(text.slice(last, m.index)));
+      const a = document.createElement("a");
+      a.setAttribute("href", m[2]); a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener");
+      a.textContent = m[1]; el.appendChild(a);
+      last = re.lastIndex;
+    }
+    if (last < text.length) el.appendChild(document.createTextNode(text.slice(last)));
+  };
   const $ = id => document.getElementById(id);
   const COLS = CFG.cols, NC = COLS.length, TOTAL = COLS.reduce((a, c) => a + c.w, 0);
   const INPUT = COLS.find(c => c.input);
   const ROWS = CFG.rows;
 
   // ---- static parts ----
-  if (CFG.logoLeft) $("tp-left").innerHTML = `<img src="${CFG.logoLeft}" alt="" id="tp-logo">`;
+  if (CFG.logoLeft) {
+    const im = document.createElement("img");
+    im.setAttribute("src", CFG.logoLeft); im.setAttribute("alt", ""); im.id = "tp-logo";
+    $("tp-left").appendChild(im);
+  }
   $("tp-ttl").innerHTML = esc(CFG.title) + (CFG.star ? "<sup>*</sup>" : "");
   if (CFG.subtitle) $("tp-sub").textContent = CFG.subtitle; else $("tp-sub").remove();
   $("tp-note").textContent = CFG.note;
-  $("tp-foots").innerHTML = CFG.foot.map(f => `<p class="tp-foot${f.lic ? " lic" : ""}">${linkify(f.t)}</p>`).join("");
+  CFG.foot.forEach(f => {
+    const p = document.createElement("p");
+    p.className = "tp-foot" + (f.lic ? " lic" : "");
+    addRich(p, f.t);
+    $("tp-foots").appendChild(p);
+  });
 
   // ---- table ----
   const table = $("tp-table");
