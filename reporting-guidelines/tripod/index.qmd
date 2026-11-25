@@ -52,7 +52,7 @@ guideline-history: |-
 
   BJOG. 2015;122(3):434-443. PMID: [25623578](http://www.ncbi.nlm.nih.gov/pubmed/25623578) [full text](http://www.doi.org/10.1111/1471-0528.13244)
   
-  Diabet Med. 2015;32(2):146-154. PMID: [25600898](http://www.ncbi.nlm.nih.gov/pubmed/25600898) [full text](http://www.doi.org/10.1111/dme.12654) \
+  Diabet Med. 2015;32(2):146-154. PMID: [25600898](http://www.ncbi.nlm.nih.gov/pubmed/25600898) [full text](http://www.doi.org/10.1111/dme.12654) 
 
 relevant-more: |-
   **Specialised**
@@ -93,7 +93,7 @@ additional-languages: |-
 
   TRIPOD 2015 E&E (Japanese) [Word](160404TRIPOD_EandE_Japanese.docx)
 
-  TRIPOD 2015 Checklist (Japanese) [Word](160404TRIPOD_Checklist_Japanese.docx)| [PDF](primarycarevol2no4TRIPOD.pdf)
+  TRIPOD 2015 Checklist (Japanese) [Word](160404TRIPOD_Checklist_Japanese.docx) / [PDF](primarycarevol2no4TRIPOD.pdf)
 
   TRIPOD 2015 E&E (Russian) [PDF](Russian-TRIPOD-EE.pdf)
 additional-information: |-
