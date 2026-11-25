@@ -5,12 +5,14 @@ aliases:
   - /reporting-guidelines/the-agree-reporting-checklist-a-tool-to-improve-reporting-of-clinical-practice-guidelines/
 acronym: AGREE Reporting Guideline Checklist
 provided-for: Reporting of clinical practice guidelines.
-rg-doi: '/10.1136/bmj.i1152'
+rg-doi: '10.1136/bmj.i1152'
 pmid-id: '[26957104](https://www.ncbi.nlm.nih.gov/pubmed/26957104)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/26957104
 relevant-urls: |-
-  Read the [full text](https://doi.org/10.1136/bmj.i1152) of AGREE
-full-bibliographic-reference: 'Brouwers MC, Kerkvliet K, Spithoff K, AGREE Next Steps Consortium. The AGREE Reporting Checklist: a tool to improve reporting of clinical practice guidelines. BMJ. 2016;352:i1152. PMID: [26957104](https://www.ncbi.nlm.nih.gov/pubmed/26957104) [full text](https://doi.org/10.1136/bmj.i1152)'
+  Read the [full text](https://doi.org/10.1136/bmj.i1152) of AGREE \
+  
+  Complete an interactive [AGREE checklist](agree-checklist.qmd), which you can save and upload when submitting your paper to a journal.
+full-bibliographic-reference: 'Brouwers MC, Kerkvliet K, Spithoff K, AGREE Next Steps Consortium. The AGREE Reporting Checklist: a tool to improve reporting of clinical practice guidelines. BMJ. 2016; 352: i1152. PMID: [26957104](https://www.ncbi.nlm.nih.gov/pubmed/26957104) [full text](https://doi.org/10.1136/bmj.i1152)'
 
 
 # OPTIONAL FIELDS
@@ -31,7 +33,7 @@ other-relevant-research: ''
 sticky: true
 search-priority: 1
 downloads: |-
-  Download the AGREE Checklist [(PDF)](AGREE-Reporting-Checklist.pdf) / [(Word)](AGREE-Reporting-Guideline-Checklist.docx)'
+  Download the AGREE Checklist [PDF](AGREE-Reporting-Checklist.pdf) / [Word](AGREE-Reporting-Guideline-Checklist.docx)
 
 
 # LIST FIELDS

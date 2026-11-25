@@ -1,0 +1,794 @@
+---
+pagetitle: "AGREE Reporting Checklist 2016"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1400px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; min-height:4px; }
+  #tp-wrap #tp-logo { width:min(220px,50%); height:auto; display:block; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-sub { font-size:13px; margin:.2rem 0 0; color:#333; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; table-layout:fixed; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; overflow-wrap:anywhere; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.lab td { padding:2px 6px; }
+  #tp-wrap td.ind { padding-left:16px; }
+  #tp-wrap td.muted { color:#666; font-style:italic; }
+  #tp-wrap td.accent { color:#1f5f8b; }
+  #tp-wrap td.small { font-size:12px; color:#222; }
+  #tp-wrap label.chk { display:flex; gap:6px; align-items:flex-start; margin:1px 0; cursor:pointer; }
+  #tp-wrap label.chk input { margin:2px 0 0; flex:0 0 auto; width:14px; height:14px; accent-color:var(--accent); }
+  #tp-wrap div.sub { margin:1px 0 1px 26px; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12.5px; margin:.6rem 0 0; }
+  #tp-wrap .tp-foot.lic { font-size:11.5px; color:#333; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:9.5px; }
+    #tp-wrap td.small { font-size:9px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-sub { font-size:10px; }
+    #tp-wrap .tp-foot { font-size:9px; } #tp-wrap .tp-foot.lic { font-size:8px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+    #tp-wrap .noexp { display:none !important; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div id="tp-left"></div>
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title" id="tp-ttl"></div>
+  <p class="tp-sub" id="tp-sub"></p>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note" id="tp-note"></p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table"><colgroup></colgroup><thead></thead><tbody></tbody></table>
+  <div id="tp-foots"></div>
+</div>
+
+<script>
+(function () {
+  // Checklist content (generated). Row types:
+  //   {sec: "Section bar"}  |  {lab: "Label row"}  |  {cells: [...], key, label}
+  // `cells` holds one entry per non-input column, in column order: {t, rs?, ind?, muted?, cls?} or null (covered by a rowspan above).
+  const CFG = {
+ "store": "agree-reporting-checklist-2016-v1",
+ "docName": "AGREE Reporting Checklist 2016",
+ "fileName": "AGREE-Reporting-Checklist-2016",
+ "title": "AGREE Reporting Checklist 2016",
+ "star": false,
+ "orient": "portrait",
+ "subtitle": "This checklist is intended to guide the reporting of clinical practice guidelines.",
+ "note": "Tick each reporting criterion you have covered and type the page number(s) where the item is reported in the right-hand column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose Save as PDF as the destination. Your entries stay in this browser until you clear them.",
+ "logoLeft": null,
+ "cols": [
+  {
+   "h": "CHECKLIST ITEM AND DESCRIPTION",
+   "w": 3500
+  },
+  {
+   "h": "REPORTING CRITERIA",
+   "w": 5866
+  },
+  {
+   "h": "Page #",
+   "w": 1100,
+   "input": true,
+   "ph": "page"
+  }
+ ],
+ "rows": [
+  {
+   "sec": "DOMAIN 1: SCOPE AND PURPOSE"
+  },
+  {
+   "key": "p1",
+   "label": "Page, item 1",
+   "cells": [
+    {
+     "t": "1. OBJECTIVES",
+     "d": "Report the overall objective(s) of the guideline. The expected health benefits from the guideline are to be specific to the clinical problem or health topic."
+    },
+    {
+     "chk": [
+      "Health intent(s) (i.e., prevention, screening, diagnosis, treatment, etc.)",
+      "Expected benefit(s) or outcome(s)",
+      "Target(s) (e.g., patient population, society)"
+     ],
+     "k": "c1"
+    }
+   ]
+  },
+  {
+   "key": "p2",
+   "label": "Page, item 2",
+   "cells": [
+    {
+     "t": "2. QUESTIONS",
+     "d": "Report the health question(s) covered by the guideline, particularly for the key recommendations."
+    },
+    {
+     "chk": [
+      "Target population",
+      "Intervention(s) or exposure(s)",
+      "Comparisons (if appropriate)",
+      "Outcome(s)",
+      "Health care setting or context"
+     ],
+     "k": "c2"
+    }
+   ]
+  },
+  {
+   "key": "p3",
+   "label": "Page, item 3",
+   "cells": [
+    {
+     "t": "3. POPULATION",
+     "d": "Describe the population (i.e., patients, public, etc.) to whom the guideline is meant to apply."
+    },
+    {
+     "chk": [
+      "Target population, sex and age",
+      "Clinical condition (if relevant)",
+      "Severity/stage of disease (if relevant)",
+      "Comorbidities (if relevant)",
+      "Excluded populations (if relevant)"
+     ],
+     "k": "c3"
+    }
+   ]
+  },
+  {
+   "sec": "DOMAIN 2: STAKEHOLDER INVOLVEMENT"
+  },
+  {
+   "key": "p4",
+   "label": "Page, item 4",
+   "cells": [
+    {
+     "t": "4. GROUP MEMBERSHIP",
+     "d": "Report all individuals who were involved in the development process. This may include members of the steering group, the research team involved in selecting and reviewing/rating the evidence and individuals involved in formulating the final recommendations."
+    },
+    {
+     "chk": [
+      "Name of participant",
+      "Discipline/content expertise (e.g., neurosurgeon, methodologist)",
+      "Institution (e.g., St. Peter’s hospital)",
+      "Geographical location (e.g., Seattle, WA)",
+      "A description of the member’s role in the guideline development group"
+     ],
+     "k": "c4"
+    }
+   ]
+  },
+  {
+   "key": "p5",
+   "label": "Page, item 5",
+   "cells": [
+    {
+     "t": "5. TARGET POPULATION PREFERENCES AND VIEWS",
+     "d": "Report how the views and preferences of the target population were sought/considered and what the resulting outcomes were."
+    },
+    {
+     "chk": [
+      "Statement of type of strategy used to capture patients’/publics’ views and preferences (e.g., participation in the guideline development group, literature review of values and preferences)",
+      "Methods by which preferences and views were sought (e.g., evidence from literature, surveys, focus groups)",
+      "Outcomes/information gathered on patient/public information",
+      "How the information gathered was used to inform the guideline development process and/or formation of the recommendations"
+     ],
+     "k": "c5"
+    }
+   ]
+  },
+  {
+   "key": "p6",
+   "label": "Page, item 6",
+   "cells": [
+    {
+     "t": "6. TARGET USERS",
+     "d": "Report the target (or intended) users of the guideline."
+    },
+    {
+     "chk": [
+      "The intended guideline audience (e.g. specialists, family physicians, patients, clinical or institutional leaders/administrators)",
+      "How the guideline may be used by its target audience (e.g., to inform clinical decisions, to inform policy, to inform standards of care)"
+     ],
+     "k": "c6"
+    }
+   ]
+  },
+  {
+   "sec": "DOMAIN 3: RIGOUR OF DEVELOPMENT"
+  },
+  {
+   "key": "p7",
+   "label": "Page, item 7",
+   "cells": [
+    {
+     "t": "7. SEARCH METHODS",
+     "d": "Report details of the strategy used to search for evidence."
+    },
+    {
+     "chk": [
+      "Named electronic database(s) or evidence source(s) where the search was performed (e.g., MEDLINE, EMBASE, PsychINFO, CINAHL)",
+      "Time periods searched (e.g., January 1, 2004 to March 31, 2008)",
+      "Search terms used (e.g., text words, indexing terms, subheadings)",
+      "Full search strategy included (e.g., possibly located in appendix)"
+     ],
+     "k": "c7"
+    }
+   ]
+  },
+  {
+   "key": "p8",
+   "label": "Page, item 8",
+   "cells": [
+    {
+     "t": "8. EVIDENCE SELECTION CRITERIA",
+     "d": "Report the criteria used to select (i.e., include and exclude) the evidence. Provide rationale, where appropriate."
+    },
+    {
+     "chk": [
+      "Target population (patient, public, etc.) characteristics",
+      "Study design",
+      "Comparisons (if relevant)",
+      "Outcomes",
+      "Language (if relevant)",
+      "Context (if relevant)"
+     ],
+     "k": "c8"
+    }
+   ]
+  },
+  {
+   "key": "p9",
+   "label": "Page, item 9",
+   "cells": [
+    {
+     "t": "9. STRENGTHS & LIMITATIONS OF THE EVIDENCE",
+     "d": "Describe the strengths and limitations of the evidence. Consider from the perspective of the individual studies and the body of evidence aggregated across all the studies. Tools exist that can facilitate the reporting of this concept."
+    },
+    {
+     "chk": [
+      "Study design(s) included in body of evidence",
+      "Study methodology limitations (sampling, blinding, allocation concealment, analytical methods)",
+      "Appropriateness/relevance of primary and secondary outcomes considered",
+      "Consistency of results across studies",
+      "Direction of results across studies",
+      "Magnitude of benefit versus magnitude of harm",
+      "Applicability to practice context"
+     ],
+     "k": "c9"
+    }
+   ]
+  },
+  {
+   "key": "p10",
+   "label": "Page, item 10",
+   "cells": [
+    {
+     "t": "10. FORMULATION OF RECOMMENDATIONS",
+     "d": "Describe the methods used to formulate the recommendations and how final decisions were reached. Specify any areas of disagreement and the methods used to resolve them."
+    },
+    {
+     "chk": [
+      "Recommendation development process (e.g., steps used in modified Delphi technique, voting procedures that were considered)",
+      "Outcomes of the recommendation development process (e.g., extent to which consensus was reached using modified Delphi technique, outcome of voting procedures)",
+      "How the process influenced the recommendations (e.g., results of Delphi technique influence final recommendation, alignment with recommendations and the final vote)"
+     ],
+     "k": "c10"
+    }
+   ]
+  },
+  {
+   "key": "p11",
+   "label": "Page, item 11",
+   "cells": [
+    {
+     "t": "11. CONSIDERATION OF BENEFITS AND HARMS",
+     "d": "Report the health benefits, side effects, and risks that were considered when formulating the recommendations."
+    },
+    {
+     "chk": [
+      "Supporting data and report of benefits",
+      "Supporting data and report of harms/side effects/risks",
+      "Reporting of the balance/trade-off between benefits and harms/side effects/risks",
+      "Recommendations reflect considerations of both benefits and harms/side effects/risks"
+     ],
+     "k": "c11"
+    }
+   ]
+  },
+  {
+   "key": "p12",
+   "label": "Page, item 12",
+   "cells": [
+    {
+     "t": "12. LINK BETWEEN RECOMMENDATIONS AND EVIDENCE",
+     "d": "Describe the explicit link between the recommendations and the evidence on which they are based."
+    },
+    {
+     "chk": [
+      "How the guideline development group linked and used the evidence to inform recommendations",
+      "Link between each recommendation and key evidence (text description and/or reference list)",
+      "Link between recommendations and evidence summaries and/or evidence tables in the results section of the guideline"
+     ],
+     "k": "c12"
+    }
+   ]
+  },
+  {
+   "key": "p13",
+   "label": "Page, item 13",
+   "cells": [
+    {
+     "t": "13. EXTERNAL REVIEW",
+     "d": "Report the methodology used to conduct the external review."
+    },
+    {
+     "chk": [
+      "Purpose and intent of the external review (e.g., to improve quality, gather feedback on draft recommendations, assess applicability and feasibility, disseminate evidence)",
+      "Methods taken to undertake the external review (e.g., rating scale, open-ended questions)",
+      "Description of the external reviewers (e.g., number, type of reviewers, affiliations)",
+      "Outcomes/information gathered from the external review (e.g., summary of key findings)",
+      "How the information gathered was used to inform the guideline development process and/or formation of the recommendations (e.g., guideline panel considered results of review in forming final recommendations)"
+     ],
+     "k": "c13"
+    }
+   ]
+  },
+  {
+   "key": "p14",
+   "label": "Page, item 14",
+   "cells": [
+    {
+     "t": "14. UPDATING PROCEDURE",
+     "d": "Describe the procedure for updating the guideline."
+    },
+    {
+     "chk": [
+      "A statement that the guideline will be updated",
+      "Explicit time interval or explicit criteria to guide decisions about when an update will occur",
+      "Methodology for the updating procedure"
+     ],
+     "k": "c14"
+    }
+   ]
+  },
+  {
+   "sec": "DOMAIN 4: CLARITY OF PRESENTATION"
+  },
+  {
+   "key": "p15",
+   "label": "Page, item 15",
+   "cells": [
+    {
+     "t": "15. SPECIFIC AND UNAMBIGUOUS RECOMMENDATIONS",
+     "d": "Describe which options are appropriate in which situations and in which population groups, as informed by the body of evidence."
+    },
+    {
+     "chk": [
+      "A statement of the recommended action",
+      "Intent or purpose of the recommended action (e.g., to improve quality of life, to decrease side effects)",
+      "Relevant population (e.g., patients, public)",
+      "Caveats or qualifying statements, if relevant (e.g., patients or conditions for whom the recommendations would not apply)",
+      "If there is uncertainty about the best care option(s), the uncertainty should be stated in the guideline"
+     ],
+     "k": "c15"
+    }
+   ]
+  },
+  {
+   "key": "p16",
+   "label": "Page, item 16",
+   "cells": [
+    {
+     "t": "16. MANAGEMENT OPTIONS",
+     "d": "Describe the different options for managing the condition or health issue."
+    },
+    {
+     "chk": [
+      "Description of management options",
+      "Population or clinical situation most appropriate to each option"
+     ],
+     "k": "c16"
+    }
+   ]
+  },
+  {
+   "key": "p17",
+   "label": "Page, item 17",
+   "cells": [
+    {
+     "t": "17. IDENTIFIABLE KEY RECOMMENDATIONS",
+     "d": "Present the key recommendations so that they are easy to identify."
+    },
+    {
+     "chk": [
+      "Recommendations in a summarized box, typed in bold, underlined, or presented as flow charts or algorithms",
+      "Specific recommendations grouped together in one section"
+     ],
+     "k": "c17"
+    }
+   ]
+  },
+  {
+   "sec": "DOMAIN 5: APPLICABILITY"
+  },
+  {
+   "key": "p18",
+   "label": "Page, item 18",
+   "cells": [
+    {
+     "t": "18. FACILITATORS AND BARRIERS TO APPLICATION",
+     "d": "Describe the facilitators and barriers to the guideline’s application."
+    },
+    {
+     "chk": [
+      "Types of facilitators and barriers that were considered",
+      "Methods by which information regarding the facilitators and barriers to implementing recommendations were sought (e.g., feedback from key stakeholders, pilot testing of guidelines before widespread implementation)",
+      "Information/description of the types of facilitators and barriers that emerged from the inquiry (e.g., practitioners have the skills to deliver the recommended care, sufficient equipment is not available to ensure all eligible members of the population receive mammography)",
+      "How the information influenced the guideline development process and/or formation of the recommendations"
+     ],
+     "k": "c18"
+    }
+   ]
+  },
+  {
+   "key": "p19",
+   "label": "Page, item 19",
+   "cells": [
+    {
+     "t": "19. IMPLEMENTATION ADVICE/TOOLS",
+     "d": "Provide advice and/or tools on how the recommendations can be applied in practice."
+    },
+    {
+     "chk": [
+      "Additional materials to support the implementation of the guideline in practice. For example:",
+      ">Guideline summary documents",
+      ">Links to check lists, algorithms",
+      ">Links to how-to manuals",
+      ">Solutions linked to barrier analysis (see Item 18)",
+      ">Tools to capitalize on guideline facilitators (see Item 18)",
+      ">Outcome of pilot test and lessons learned"
+     ],
+     "k": "c19"
+    }
+   ]
+  },
+  {
+   "key": "p20",
+   "label": "Page, item 20",
+   "cells": [
+    {
+     "t": "20. RESOURCE IMPLICATIONS",
+     "d": "Describe any potential resource implications of applying the recommendations."
+    },
+    {
+     "chk": [
+      "Types of cost information that were considered (e.g., economic evaluations, drug acquisition costs)",
+      "Methods by which the cost information was sought (e.g., a health economist was part of the guideline development panel, use of health technology assessments for specific drugs, etc.)",
+      "Information/description of the cost information that emerged from the inquiry (e.g., specific drug acquisition costs per treatment course)",
+      "How the information gathered was used to inform the guideline development process and/or formation of the recommendations"
+     ],
+     "k": "c20"
+    }
+   ]
+  },
+  {
+   "key": "p21",
+   "label": "Page, item 21",
+   "cells": [
+    {
+     "t": "21. MONITORING/ AUDITING CRITERIA",
+     "d": "Provide monitoring and/or auditing criteria to measure the application of guideline recommendations."
+    },
+    {
+     "chk": [
+      "Criteria to assess guideline implementation or adherence to recommendations",
+      "Criteria for assessing impact of implementing the recommendations",
+      "Advice on the frequency and interval of measurement",
+      "Operational definitions of how the criteria should be measured"
+     ],
+     "k": "c21"
+    }
+   ]
+  },
+  {
+   "sec": "DOMAIN 6: EDITORIAL INDEPENDENCE"
+  },
+  {
+   "key": "p22",
+   "label": "Page, item 22",
+   "cells": [
+    {
+     "t": "22. FUNDING BODY",
+     "d": "Report the funding body’s influence on the content of the guideline."
+    },
+    {
+     "chk": [
+      "The name of the funding body or source of funding (or explicit statement of no funding)",
+      "A statement that the funding body did not influence the content of the guideline"
+     ],
+     "k": "c22"
+    }
+   ]
+  },
+  {
+   "key": "p23",
+   "label": "Page, item 23",
+   "cells": [
+    {
+     "t": "23. COMPETING INTERESTS",
+     "d": "Provide an explicit statement that all group members have declared whether they have any competing interests."
+    },
+    {
+     "chk": [
+      "Types of competing interests considered",
+      "Methods by which potential competing interests were sought",
+      "A description of the competing interests",
+      "How the competing interests influenced the guideline process and development of recommendations"
+     ],
+     "k": "c23"
+    }
+   ]
+  }
+ ],
+ "foot": [
+  {
+   "t": "From: Brouwers MC, Kerkvliet K, Spithoff K, on behalf of the AGREE Next Steps Consortium. The AGREE Reporting Checklist: a tool to improve reporting of clinical practice guidelines. BMJ 2016;352:i1152. [[https://doi.org/10.1136/bmj.i1152|https://doi.org/10.1136/bmj.i1152]]."
+  },
+  {
+   "t": "For more information about the AGREE Reporting Checklist, please visit the AGREE Enterprise website at [[www.agreetrust.org|https://www.agreetrust.org]]."
+  }
+ ]
+};
+
+  const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const nl2br = s => esc(s).replace(/\n/g, "<br>");
+  // Build rich text with DOM calls (no literal href/src attributes in the script source)
+  const addRich = (el, text) => {
+    const lead = text.match(/^[*†]/);
+    if (lead) { const s = document.createElement("sup"); s.textContent = lead[0]; el.appendChild(s); text = text.slice(1); }
+    const re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+    while ((m = re.exec(text))) {
+      if (m.index > last) el.appendChild(document.createTextNode(text.slice(last, m.index)));
+      const a = document.createElement("a");
+      a.setAttribute("href", m[2]); a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener");
+      a.textContent = m[1]; el.appendChild(a);
+      last = re.lastIndex;
+    }
+    if (last < text.length) el.appendChild(document.createTextNode(text.slice(last)));
+  };
+  const $ = id => document.getElementById(id);
+  const COLS = CFG.cols, NC = COLS.length, TOTAL = COLS.reduce((a, c) => a + c.w, 0);
+  const INPUT = COLS.find(c => c.input);
+  const ROWS = CFG.rows;
+
+  // ---- static parts ----
+  if (CFG.logoLeft) {
+    const im = document.createElement("img");
+    im.setAttribute("src", CFG.logoLeft); im.setAttribute("alt", ""); im.id = "tp-logo";
+    $("tp-left").appendChild(im);
+  }
+  $("tp-ttl").innerHTML = esc(CFG.title) + (CFG.star ? "<sup>*</sup>" : "");
+  if (CFG.subtitle) $("tp-sub").textContent = CFG.subtitle; else $("tp-sub").remove();
+  $("tp-note").textContent = CFG.note;
+  CFG.foot.forEach(f => {
+    const p = document.createElement("p");
+    p.className = "tp-foot" + (f.lic ? " lic" : "");
+    addRich(p, f.t);
+    $("tp-foots").appendChild(p);
+  });
+
+  // ---- table ----
+  const table = $("tp-table");
+  table.querySelector("colgroup").innerHTML = COLS.map(c => `<col${c.noExport ? ' class="noexp"' : ""} style="width:${(c.w / TOTAL * 100).toFixed(2)}%">`).join("");
+  table.querySelector("thead").innerHTML = "<tr>" + COLS.map(c =>
+    `<th class="${[c.center ? "c" : "", c.noExport ? "noexp" : ""].filter(Boolean).join(" ")}">${esc(c.h)}${c.hint ? `<span class="tp-hint">${esc(c.hint)}</span>` : ""}</th>`).join("") + "</tr>";
+
+  table.querySelector("tbody").innerHTML = ROWS.map(r => {
+    if (r.sec !== undefined) return `<tr class="sec"><td colspan="${NC}">${esc(r.sec)}</td></tr>`;
+    if (r.lab !== undefined) return `<tr class="lab"><td colspan="${NC}">${esc(r.lab)}</td></tr>`;
+    let k = 0;
+    return "<tr>" + COLS.map(c => {
+      if (c.input) return `<td class="pg"><input type="text" data-key="${r.key}" placeholder="${esc(c.ph || "page no.")}" aria-label="${esc(r.label)}"></td>`;
+      const x = r.cells[k++];
+      if (!x) return "";
+      const cls = [c.center ? "c" : "", x.ind ? "ind" : "", x.muted ? "muted" : "", c.cls || "", x.cls || "", c.noExport ? "noexp" : ""].filter(Boolean).join(" ");
+      let inner;
+      if (x.chk) inner = x.chk.map((t, n) => t[0] === ">"
+        ? `<div class="sub">o&nbsp; ${esc(t.slice(1).trim())}</div>`
+        : `<label class="chk"><input type="checkbox" data-key="${x.k}_${n}" aria-label="${esc(r.label.replace("Page, ", "") + ", criterion " + (n + 1))}"><span>${esc(t)}</span></label>`).join("");
+      else if (x.d) inner = `<b>${esc(x.t)}</b><br><i>${nl2br(x.d)}</i>`;
+      else inner = nl2br(x.t);
+      return `<td${cls ? ` class="${cls}"` : ""}${x.rs ? ` rowspan="${x.rs}"` : ""}>${inner}</td>`;
+    }).join("") + "</tr>";
+  }).join("");
+
+  // ---- persistence (localStorage, this browser only) ----
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const val = i => i.type === "checkbox" ? (i.checked ? "1" : "") : i.value;
+  const clear = i => { if (i.type === "checkbox") i.checked = false; else i.value = ""; };
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(CFG.store) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) { if (i.type === "checkbox") i.checked = true; else i.value = d[i.dataset.key]; } }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (val(i)) d[i.dataset.key] = val(i); });
+    localStorage.setItem(CFG.store, JSON.stringify(d)); } catch (e) {} };
+  load();
+  $("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  $("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = CFG.docName;
+    window.print();
+    document.title = old;
+  };
+
+  $("tp-reset").onclick = () => {
+    if (confirm("Clear all entries and the manuscript title?")) { fields().forEach(clear); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, CFG, vals, logo, eqLogo) {
+    const F = "Arial", SZ = 17;
+    // Columns flagged noExport are left out; remaining widths are scaled to fill the page
+    const keep = CFG.cols.map(c => !c.noExport);
+    const fullW = CFG.cols.reduce((a, c) => a + c.w, 0), keptW = CFG.cols.reduce((a, c, i) => a + (keep[i] ? c.w : 0), 0);
+    const W = CFG.cols.map((c, i) => keep[i] ? Math.round(c.w * fullW / keptW) : 0);
+    const lastKept = keep.lastIndexOf(true);
+    W[lastKept] += fullW - W.reduce((a, b) => a + b, 0);
+    const TOTAL = fullW, NC = keep.filter(Boolean).length;
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.it, color: o.color, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? NC : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: o.children || [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const tab = () => new D.TextRun({ children: [new D.Tab()], font: F, size: SZ });
+    const rich = x => x.chk
+      ? x.chk.map((t, n) => t[0] === ">"
+          ? new D.Paragraph({ indent: { left: 560, hanging: 280 }, spacing: { after: 20 }, children: [run("o"), tab(), run(t.slice(1).trim())] })
+          : new D.Paragraph({ indent: { left: 300, hanging: 300 }, spacing: { after: 20 },
+              children: [new D.TextRun({ text: vals[x.k + "_" + n] ? "\u2612" : "\u2610", font: "Segoe UI Symbol", size: SZ }), tab(), run(t)] }))
+      : [new D.Paragraph({ children: [run(x.t, { bold: true }), new D.TextRun({ break: 1 }), run(x.d, { it: true })] })];
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: CFG.cols.map((c, i) => keep[i] ? cell(i, c.h, { ...hd, center: c.center }) : null).filter(Boolean) });
+    const body = CFG.rows.map(r => {
+      if (r.sec !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.sec, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] });
+      if (r.lab !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.lab, { span: true, keepNext: true })] });
+      let k = 0;
+      const kids = [];
+      CFG.cols.forEach((c, i) => {
+        if (c.input) { if (keep[i]) kids.push(cell(i, vals[r.key] || "", { center: true, mid: true })); return; }
+        const x = r.cells[k++];
+        if (!x || !keep[i]) return;
+        kids.push(cell(i, x.t || "", { children: (x.chk || x.d) ? rich(x) : undefined, rowSpan: x.rs, indent: x.ind ? 260 : 90, center: c.center, it: x.muted, color: x.muted ? "666666" : (c.cls === "accent" ? "1F5F8B" : undefined) }));
+      });
+      return new D.TableRow({ cantSplit: true, children: kids });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [TOTAL - 4300, 4300];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })];
+    const top = [];
+    top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(CFG.title, { bold: true, size: 24 }), ...(CFG.star ? [run("*", { bold: true, size: 24, sup: true })] : [])], { spacing: { after: 100 } }));
+    if (CFG.subtitle) top.push(para([run(CFG.subtitle, { size: 18 })], { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: CFG.docName, creator: CFG.docName,
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: CFG.orient === "portrait" ? D.PageOrientation.PORTRAIT : D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W.filter((w, i) => keep[i]), rows: [head, ...body] }),
+          ...CFG.foot.map((f, i) => para(runs(f.t, { size: f.lic ? 14 : 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  $("tp-doc").onclick = async () => {
+    const btn = $("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      if (CFG.logoLeft) { try { logo = new Uint8Array(await (await fetch(new URL(CFG.logoLeft, document.baseURI))).arrayBuffer()); } catch (e) {} }
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = val(i));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, CFG, vals, logo, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = CFG.fileName + ".docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
