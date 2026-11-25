@@ -49,9 +49,9 @@ other: ''
 other-relevant-research: ''
 sticky: false
 downloads: |-
-  Download the GRIPP2 checklist long form [PDF](GRIPP2-long.pdf) / [Word](GRIPP2-long.docx) \
+  Download the GRIPP2 checklist long form [PDF](GRIPP2_long.pdf) / [Word](GRIPP2_long.docx) \
   
-  Download the GRIPP2 checklist short form [PDF](GRIPP2-short.pdf) / [Word](GRIPP2-short.docx) \
+  Download the GRIPP2 checklist short form [PDF](GRIPP2_short.pdf) / [Word](GRIPP2_short.docx) \
 
 # LIST FIELDS
 categories:
