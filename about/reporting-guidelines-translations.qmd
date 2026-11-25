@@ -69,7 +69,7 @@ checklist and an explanation paper), each is listed separately.
 | [CheckUp](/reporting-guidelines/checkup/) checklist | [PDF](https://equator-network.org/reporting-guidelines/reporting-items-for-updated-clinical-guidelines-checkup/CheckUp_Chinese.pdf) | – | – |
 | [CONSORT for Chinese Herbal Medicine](/reporting-guidelines/consort-chm/) (Traditional Chinese) | – | – | [Web page](https://www.ncbi.nlm.nih.gov/pubmed/28654988) |
 | [CONSORT for Chinese Herbal Medicine](/reporting-guidelines/consort-chm/) (Simplified Chinese) | – | – | [Web page](https://www.ncbi.nlm.nih.gov/pubmed/28654957) |
-| [COSMIN](/reporting-guideines/cosmin/) | [PDF](https://www.cosmin.nl/wp-content/uploads/Chinese-version3.1-COSMIN-Reporting-Guideline-202207.pdf) |  |  |
+| [COSMIN](/reporting-guidelines/cosmin/) | [PDF](https://www.cosmin.nl/wp-content/uploads/Chinese-version3.1-COSMIN-Reporting-Guideline-202207.pdf) |  |  |
 | [CRISP](/reporting-guidelines/crisp/) checklist | [PDF](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP-Checklist-Chinese-Version.pdf) | – | – |
 | [CRISP](/reporting-guidelines/crisp/) checklist explanation & examples | – | – | [Web page](https://www.chinagp.net/CN/10.12114/j.issn.1007-9572.2024.A0025) |
 | [GATHER](/reporting-guidelines/gather/) statement checklist | [PDF](http://gather-statement.org/download/gather-checklist-chinese-pdf/) | [Word](http://gather-statement.org/download/gather-checklist-chinese-docx/) | – |

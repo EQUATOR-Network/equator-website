@@ -1,26 +1,26 @@
 ---
 # REQUIRED FIELDS
-title: 'Guideline for reporting systematic reviews of outcome measurement instruments (OMIs) : PRISMA-COSMIN for OMIs 2024'
+title: 'Guideline for reporting systematic reviews of outcome measurement instruments (OMIs) : PRISMA-COSMIN for outcome measurement instruments'
 aliases:
   - /reporting-guidelines/guideline-for-reporting-systematic-reviews-of-outcome-measurement-instruments-omis-prisma-cosmin-for-omis-2024/
-acronym: PRISMA-COSMIN for OMIs
+acronym: PRISMA-COSMIN
 provided-for: Reporting of systematic reviews of outcome measurement instruments (OMIs).
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
+rg-doi: '10.1016/j.jclinepi.2024.111422'
+pmid-id: '[38849061](https://pubmed.ncbi.nlm.nih.gov/38849061/)'
+pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/38849061/'
 relevant-urls: ''
 full-bibliographic-reference: |-
   Elsman EBM, Mokkink LB, Terwee CB, Beaton D, Gagnier JJ, Tricco AC, Baba A, Butcher NJ, Smith M, Hofstetter C, Lee Aiyegbusi O, Berardi A, Farmer J, Haywood KL, Krause KR, Markham S, Mayo-Wilson E, Mehdipour A, Ricketts J, Szatmari P, Touma Z, Moher D, Offringa M. Guideline for reporting systematic reviews of outcome measurement instruments (OMIs): PRISMA-COSMIN for OMIs 2024. \
 
   This guideline was published simultaneously in 4 journals. You can read the guideline in any of these journals using the links below. \
 
-  J Clin Epidemiol. 2024:111422. PMID: [38849061](https://pubmed.ncbi.nlm.nih.gov/38849061/)
+  J Clin Epidemiol. 2024:111422. PMID: [38849061](https://pubmed.ncbi.nlm.nih.gov/38849061/) [full text](https://doi.org/10.1016/j.jclinepi.2024.111422)
 
-  Qual Life Res. 2024. PMID: [38980635](https://pubmed.ncbi.nlm.nih.gov/38980635/)
+  Qual Life Res. 2024. PMID: [38980635](https://pubmed.ncbi.nlm.nih.gov/38980635/) [full text](https://doi.org/10.1007/s11136-024-03634-y)
 
-  Health Qual Life Outcomes. 2024;22(1):48. PMID: [38978063](https://pubmed.ncbi.nlm.nih.gov/38978063/)
+  Health Qual Life Outcomes. 2024;22(1):48. PMID: [38978063](https://pubmed.ncbi.nlm.nih.gov/38978063/) [full text](https://doi.org/10.1186/s12955-024-02256-9)
 
-  J Patient Rep Outcomes. 2024;8(1):64. PMID: [38977535](https://pubmed.ncbi.nlm.nih.gov/38977535/)
+  J Patient Rep Outcomes. 2024;8(1):64. PMID: [38977535](https://pubmed.ncbi.nlm.nih.gov/38977535/) [full text](https://doi.org/10.1186/s41687-024-00727-7)
 
 
 # OPTIONAL FIELDS
@@ -30,7 +30,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.
+  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. \
 
   PLoS Med. 2021; 18: e1003583. PMID: [33780438](https://pubmed.ncbi.nlm.nih.gov/33780438/)
 
@@ -97,14 +97,16 @@ relevant-more: |-
     [**PRISMA-Children and Adolsecents**](/reporting-guidelines/prisma-children-and-adolescents/): Baba A, Farid-Kapadia M, Smith M, Hartling L, Moher D, Hooft L, Offringa M. PRISMA-Children and Adolescents (PRISMA-C) 2026 extension statement and explanation: enhancing the reporting and utility of systematic reviews of interventions in paediatrics. BMJ 2026; 39: e088561.PMID: [42055583](https://pubmed.ncbi.nlm.nih.gov/42055583/)
 website-url: <http://www.prisma-cosmin.ca/>
 additional-languages: ''
-additional-information: '[Read the protocol](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-022-01994-5)
-  for the development of PRISMA-COSMIN.'
+additional-information: 'Read the [protocol](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-022-01994-5) for the development of PRISMA-COSMIN.'
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the PRISMA-COSMIN checklist [PDF](https://www.prisma-statement.org/s/PRISMA-COSMIN-Reporting-checklist-Full-reports-version-January-2024.pdf) / [Word](https://www.prisma-statement.org/s/PRISMA-COSMIN-Reporting-checklist-Full-reports-version-January-2024.docx) \
+  
+  Download the [PRISMA-COSMIN Explanation & Elaboration](https://www.prisma-statement.org/s/PRISMA-COSMIN-EE-Full-reports-version-June-2024.pdf) paper
 
 
 # LIST FIELDS
