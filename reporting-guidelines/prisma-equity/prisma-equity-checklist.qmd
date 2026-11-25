@@ -4,6 +4,7 @@ page-layout: full
 toc: false
 resources:
   - /assets/logos/equator_logo.png
+  - /assets/logos/prisma_logo.png
   - docx.min.js
 ---
 
