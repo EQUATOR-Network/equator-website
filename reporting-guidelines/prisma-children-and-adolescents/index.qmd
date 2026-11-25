@@ -3,18 +3,19 @@
 title: 'PRISMA-Children and Adolescents (PRISMA-C) 2026 extension statement and explanation: enhancing the reporting and utility of systematic reviews of interventions in paediatrics'
 acronym: 'PRISMA-Children and Adolsecents'
 provided-for: 'Reporting of systematic reviews focused on evaluating the effects of interventions for children and adolescents (ages 0-19 years)'
-  
 rg-doi: '10.1136/bmj-2025-088561'
 pmid-id: '[42055583](https://www.ncbi.nlm.nih.gov/pubmed/42055583)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/42055583
 relevant-urls: |- 
-  <https://lab.research.sickkids.ca/enrich/reporting-standards/prisma-c-prisma-pc/>
+  Read the [full text](https://doi.org/10.1136/bmj-2025-088561)OF PRISMA-C. \
   
+  Complete an interactive [PRISMA-C checklist](prisma-c-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Baba A, Farid-Kapadia M, Smith M, Hartling L, Moher D, Hooft L, Offringa M. PRISMA-Children and Adolescents (PRISMA-C) 2026 extension statement and explanation: enhancing the reporting and utility of systematic reviews of interventions in paediatrics. BMJ 2026; 39: e088561. PMID: [42055583](https://www.ncbi.nlm.nih.gov/pubmed/42055583) [full text](https://doi.org/10.1136/bmj-2025-088561)
   
 # OPTIONAL FIELDS
-downloads: ''
+downloads: |-
+  Download the [PRISMA-C](https://doi.org/10.1136/bmj-2025-088561) checklist.
 rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
@@ -87,7 +88,7 @@ relevant-more: |-
   
     [**PRISMA-Children and Adolsecents**](/reporting-guidelines/prisma-children-and-adolescents/): Baba A, Farid-Kapadia M, Smith M, Hartling L, Moher D, Hooft L, Offringa M. PRISMA-Children and Adolescents (PRISMA-C) 2026 extension statement and explanation: enhancing the reporting and utility of systematic reviews of interventions in paediatrics. BMJ 2026; 39: e088561.PMID: [42055583](https://pubmed.ncbi.nlm.nih.gov/42055583/)
   
-website-url: ''
+website-url: 'https://lab.research.sickkids.ca/enrich/reporting-standards/prisma-c-prisma-pc/'
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''

@@ -2,38 +2,29 @@
 # REQUIRED FIELDS
 title: SPIRIT-Children and Adolescents
 acronym: SPIRIT-Children and Adolescents
-provided-for: Reporting of paediatric randomised controlled trial protocols involving
-  participants aged 0-19 years.
+provided-for: Reporting of paediatric randomised controlled trial protocols involving participants aged 0-19 years.
 rg-doi: 10.1136/bmj-2025-085062
 pmid-id: '[41734969](https://pubmed.ncbi.nlm.nih.gov/41734969/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/41734969/
 relevant-urls: |-
-  Fillable checklists (PDF) and tip sheets for both extensions are available on
-
-  <https://lab.research.sickkids.ca/enrich/reporting-standards/spirit-consort-c/>
+    Read the [full text](https://doi.org/10.1136/bmj-2025-085062) of SPIRIT-C \
+  
+  Complete an interactive [SPIRIT-C checklist](spirit-c-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Baba A, Smith M, Potter BK, Chan AW, Moher D, Toulany A, Doherty-Kirby A, Nafria Escalera B, Stratton C, Gale C, Macarthur C, Purper-Ouakil D, Juszczak E, Cohen E, Reggiardo G, Preston J, Cohen JF, Upton J, Allegaert K, Boerner K, Mehta K, Nguyen KA, Courtney K, Hartling L, Konstantinidis M, Odermarsky M, Butcher NJ, Kolehmainen N, Longmuir PE, Gill PJ, Leroy P, Feneberg R, Poluru R, Morris SK, Friedrichsdorf SJ, Chute Nagy T, Klassen TP, Lacaze-Masmonteil T, Onland W, Offringa M. SPIRIT-Children and Adolescents (SPIRIT-C) 2026 extension statement: enhancing the reporting and usefulness of paediatric randomised trial protocols.
 
   This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.
 
-  BMJ 2026; 392: e085062. PMID: [41734969](https://pubmed.ncbi.nlm.nih.gov/41734969/)
+  BMJ 2026; 392: e085062. PMID: [41734969](https://pubmed.ncbi.nlm.nih.gov/41734969/) [full text](https://doi.org/10.1136/bmj-2025-085062)
 
-  JAMA Pediatrics 2026; 180: 426-439. PMID: [41734892](https://pubmed.ncbi.nlm.nih.gov/41734892/)
+  JAMA Pediatrics 2026; 180: 426-439. PMID: [41734892](https://pubmed.ncbi.nlm.nih.gov/41734892/) [full text](https://doi.org/10.1001/jamapediatrics.2026.0113)
 
-  Lancet Child and Adolescent Health 2026; 10: [284-296](https://doi.org/10.1016/S2352-4642(26)00005-2).
+  Lancet Child and Adolescent Health 2026; 10: 284-296. PMID: [42283642](https://pubmed.ncbi.nlm.nih.gov/42283642/) [full text](https://doi.org/10.1016/S2352-4642(26)00005-2).
 
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Baba A, Smith M, Potter BK, Chan AW, Moher D,
-  Toulany A, Doherty-Kirby A, Escalera BN, Stratton C, Gale C, Macarthur C, Purper-Ouakil
-  D, Juszczak E, Cohen E, Reggiardo G, Preston J, Cohen JF, Upton J, Allegaert K,
-  Boerner K, Mehta K, Nguyen KA, Courtney K, Hartling L, Konstantinidis M, Odermarsky
-  M, Butcher NJ, Kolehmainen N, Longmuir PE, Gill PJ, Leroy P, Feneberg R, Poluru
-  R, Morris SK, Friedrichsdorf SJ, Nagy TC, Klassen TP, Lacaze-Masmonteil T, Onland
-  W, Offringa M. SPIRIT-C 2026 explanation and elaboration: recommendations for enhancing
-  the reporting and usefulness of paediatric randomised trial protocols. BMJ 2026;
-  392: e085064. PMID: [41734970](https://pubmed.ncbi.nlm.nih.gov/41734970/)'
+explanation-and-elaboration-papers: 'Baba A, Smith M, Potter BK, Chan AW, Moher D, Toulany A, Doherty-Kirby A, Escalera BN, Stratton C, Gale C, Macarthur C, Purper-Ouakil D, Juszczak E, Cohen E, Reggiardo G, Preston J, Cohen JF, Upton J, Allegaert K, Boerner K, Mehta K, Nguyen KA, Courtney K, Hartling L, Konstantinidis M, Odermarsky M, Butcher NJ, Kolehmainen N, Longmuir PE, Gill PJ, Leroy P, Feneberg R, Poluru R, Morris SK, Friedrichsdorf SJ, Nagy TC, Klassen TP, Lacaze-Masmonteil T, Onland W, Offringa M. SPIRIT-C 2026 explanation and elaboration: recommendations for enhancing the reporting and usefulness of paediatric randomised trial protocols. BMJ 2026; 392: e085064. PMID: [41734970](https://pubmed.ncbi.nlm.nih.gov/41734970/) [full text](https://doi.org/10.1136/bmj-2025-085064)'
 guideline-history: ''
 relevant-more: |-
   **Specialised**
@@ -71,8 +62,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: ''
-
+downloads: |-
+  Download the [SPIRIT-C](SPIRIT-C-checklist.pdf) checklist.
 
 # LIST FIELDS
 categories:

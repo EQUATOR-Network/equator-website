@@ -6,11 +6,7 @@ aliases:
 acronym: PRISMA-COSMIN
 provided-for: Reporting of systematic reviews of outcome measurement instruments (OMIs).
 rg-doi: '10.1016/j.jclinepi.2024.111422'
-pmid-id: |-
-  [38849061](https://pubmed.ncbi.nlm.nih.gov/38849061/)\
-  [38980635](https://pubmed.ncbi.nlm.nih.gov/38980635/)\
-  [38978063](https://pubmed.ncbi.nlm.nih.gov/38978063/)\
-  [38977535](https://pubmed.ncbi.nlm.nih.gov/38977535/)
+pmid-id: '[38849061](https://pubmed.ncbi.nlm.nih.gov/38849061/)'
 pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/38849061/'
 relevant-urls: |-
   Read the [full text](https://doi.org/10.1016/j.jclinepi.2024.111422) of PRISMA-COSMIN \

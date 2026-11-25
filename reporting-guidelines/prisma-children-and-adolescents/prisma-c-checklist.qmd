@@ -1,0 +1,321 @@
+---
+pagetitle: "PRISMA-C 2026 checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2e5fa3; --head:#dbe9f7; --sect:#f0e6d2; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1250px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap .tp-right { margin-left:auto; text-align:right; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  /* Optional logo: hidden unless LOGO is set in the script below */
+  #tp-wrap #tp-logo { display:none; width:min(220px,50%); height:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-sub { font-size:13px; margin:0 0 .4rem; color:#333; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:13%; }
+  #tp-wrap td.item { width:5%; }
+  #tp-wrap td.std, #tp-wrap td.ext { width:29%; }
+  #tp-wrap td.ont { color:var(--accent); }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:19%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12px; margin:.5rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2e5fa3; background:#2e5fa3; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2e5fa3; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-sub { font-size:9.5px; }
+    #tp-wrap .tp-foot { font-size:9px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap td, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img id="tp-logo" alt="PRISMA-C">
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">PRISMA-Children and Adolescents (PRISMA-C) 2026 checklist</div>
+  <p class="tp-sub" id="tp-sub"></p>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) or section where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section and Topic</th><th>#</th><th>PRISMA 2020 items</th><th>#</th><th>PRISMA-C 2026 extension items<sup>‡</sup></th>
+      <th class="pgh">Location reported<span class="tp-hint">type page no. or section in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  const ONT = "Ontogeny statement item";
+  // ROWS entries:
+  //   "Text"  -> section bar
+  //   [topic, [[std no., PRISMA 2020 text, ext no., PRISMA-C extension text], ...]]
+  //   Use "" for any empty cell. Each inner row gets one "Location reported" box.
+  const ROWS = [
+    "TITLE",
+    ["TITLE", [["1", "Identify the report as a systematic review.", "1a", "Identify that it is a paediatric systematic review"]]],
+    "ABSTRACT",
+    ["ABSTRACT", [["2", "See the PRISMA 2020<sup>1</sup> for Abstracts checklist. (Table 2)", "2a", "See Abstract items for PRISMA-C 2026 (Table 2)"]]],
+    "INTRODUCTION",
+    ["RATIONALE", [
+      ["3", "Describe the rationale for the review in the context of existing knowledge.", "3a*", "Provide justification for included age groups, ranges, or developmental stages"],
+      ["", "", "3b*", "Describe potential differences and similarities in treatment effects related to age or development"]]],
+    ["OBJECTIVES", [["4<sup>§</sup>", "Provide an explicit statement of the objective(s) or question(s) the review addresses.", "", ONT]]],
+    "METHODS",
+    ["ELIGIBILITY CRITERIA", [
+      ["5<sup>§</sup>", "Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses.", "", ONT],
+      ["", "", "5a*", "If multiple age groups or ranges are eligible and require variable delivery of interventions, comparators, or the choice of outcomes or measurement methods differ, detail these"]]],
+    ["INFORMATION SOURCES", [["6", "Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted.", "", ""]]],
+    ["SEARCH STRATEGY", [["7", "Present the full search strategies for all databases, registers and websites, including any filters and limits used.", "", ""]]],
+    ["SELECTION PROCESS", [["8", "Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and if applicable, details of automation tools used in the process.", "", ""]]],
+    ["DATA COLLECTION PROCESS", [["9", "Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process.", "", ""]]],
+    ["DATA ITEMS", [
+      ["10a<sup>§</sup>", "List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought (e.g. for all measures, time points, analyses), and if not, the methods used to decide which results to collect.", "", ONT],
+      ["10b", "List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information.", "", ""]]],
+    ["STUDY RISK OF BIAS ASSESSMENT", [["11", "Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and if applicable, details of automation tools used in the process.", "", ""]]],
+    ["EFFECT MEASURES", [["12", "Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results.", "", ""]]],
+    ["SYNTHESIS METHODS", [
+      ["13a", "Describe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5)).", "", ""],
+      ["13b", "Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions.", "", ""],
+      ["13c", "Describe any methods used to tabulate or visually display results of individual studies and syntheses.", "", ""],
+      ["13d", "Describe any methods used to synthesise results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used.", "13d.a", "Describe how data was synthesised separately by relevant age groups or ranges. If not feasible, provide an explanation"],
+      ["13e<sup>§</sup>", "Describe any methods used to explore possible causes of heterogeneity among study results (e.g. subgroup analysis, meta-regression).", "", ONT],
+      ["13f", "Describe any sensitivity analyses conducted to assess robustness of the synthesised results.", "", ""]]],
+    ["REPORTING BIAS ASSESSMENT", [["14", "Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases).", "", ""]]],
+    ["CERTAINTY ASSESSMENT", [["15", "Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome.", "", ""]]],
+    "RESULTS",
+    ["STUDY SELECTION", [
+      ["16a", "Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram (see Fig 1 in PRISMA 2020<sup>1</sup>).", "", ""],
+      ["16b", "Cite studies that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded.", "", ""]]],
+    ["STUDY CHARACTERISTICS", [["17", "Cite each included study and present its characteristics.", "17a", "Report number of children/adolescents by age groups or ranges"]]],
+    ["RISK OF BIAS IN STUDIES", [["18", "Present assessments of risk of bias for each included study.", "", ""]]],
+    ["RESULTS OF INDIVIDUAL STUDIES", [["19<sup>§</sup>", "For all outcomes, present, for each study: (a) summary statistics for each group (where appropriate) and (b) an effect estimate and its precision (e.g. confidence/credible interval), ideally using structured tables or plots.", "", ONT]]],
+    ["RESULTS OF SYNTHESES", [
+      ["20a", "For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies.", "", ""],
+      ["20b<sup>§</sup>", "Present results of all statistical syntheses conducted. If meta-analysis was done, present for each the summary estimate and its precision (e.g. confidence/credible interval) and measures of statistical heterogeneity. If comparing groups, describe the direction of the effect.", "", ONT],
+      ["20c<sup>§</sup>", "Present results of all investigations of possible causes of heterogeneity among study results.", "", ONT],
+      ["20d", "Present results of all sensitivity analyses conducted to assess the robustness of the synthesised results.", "", ""]]],
+    ["REPORTING BIASES", [["21", "Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed.", "", ""]]],
+    ["CERTAINTY OF EVIDENCE", [["22<sup>§</sup>", "Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed.", "", ONT]]],
+    "DISCUSSION",
+    ["DISCUSSION", [
+      ["23a<sup>§</sup>", "Provide a general interpretation of the results in the context of other evidence.", "", ONT],
+      ["23b", "Discuss any limitations of the evidence included in the review.", "23b.a*", "Comment on the appropriateness of outcome measurement, including aspects such as validity, feasibility, reliability, and responsiveness of measurement instruments, for each age groups or ranges"],
+      ["23c", "Discuss any limitations of the review processes used.", "", ""],
+      ["23d<sup>§</sup>", "Discuss implications of the results for practice, policy, and future research.", "", ONT]]],
+    "OTHER INFORMATION",
+    ["REGISTRATION AND PROTOCOL", [
+      ["24a", "Provide registration information for the review, including register name and registration number, or state that the review was not registered.", "", ""],
+      ["24b", "Indicate where the review protocol can be accessed, or state that a protocol was not prepared.", "", ""],
+      ["24c", "Describe and explain any amendments to information provided at registration or in the protocol.", "", ""]]],
+    ["SUPPORT", [["25", "Describe sources of financial or non-financial support for the review, and the role of the funders or sponsors in the review.", "", ""]]],
+    ["COMPETING INTERESTS", [["26", "Declare any competing interests of review authors.", "", ""]]],
+    ["AVAILABILITY OF DATA, CODE, AND OTHER MATERIALS", [["27", "Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review.", "", ""]]]
+  ];
+  const TITLE = "PRISMA-Children and Adolescents (PRISMA-C) 2026 checklist";
+  // Text under the title. [[text|url]] = hyperlink, <sup>x</sup> = superscript.
+  const SUBTITLE = "From: Baba A, Farid-Kapadia M, Smith M, Hartling L, Moher D, Hooft L, Offringa M. PRISMA-Children and Adolescents (PRISMA-C) 2026 extension statement and explanation: enhancing the reporting and utility of systematic reviews of interventions in paediatrics. BMJ 2026;393:e088561. doi: [[https://doi.org/10.1136/bmj-2025-088561|10.1136/bmj-2025-088561]]";
+  const FOOT = [
+    "<sup>‡</sup> Elements for each reporting item can be found in the PRISMA-C 2026 Statement and Supplementary Materials (eAppendix 7).",
+    "*Report item if applicable/done, or state explicitly that it is not applicable/done.",
+    "<sup>§</sup> Ontogeny statement: For PRISMA 2020 items with §, authors should consider reporting the information separately for all included paediatric age group(s) or range(s) where applicable and relevant as determined by the investigators.",
+    "1. Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71. doi: [[https://doi.org/10.1136/bmj.n71|10.1136/bmj.n71]]"
+  ];
+  // Optional logo (path relative to the site root, e.g. "/assets/logos/prisma-c-logo.png"). Leave "" for none.
+  const LOGO = "";
+  const FILENAME = "PRISMA-C-2026-checklist";
+
+  const STORE = "prisma-c-2026-checklist-v1";
+  const NCOL = 6;
+  const link = s => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, (m, text, url) => {
+    const a = document.createElement("a");
+    a.setAttribute("href", url); a.target = "_blank"; a.rel = "noopener"; a.textContent = text;
+    return a.outerHTML;
+  });
+  // Unique storage key for each row, built from its PRISMA 2020 and PRISMA-C item numbers
+  function keyOf(std, ext) { return "p" + [std, ext].map(x => x.replace(/<[^>]*>|[^\w.]/g, "")).join("_"); }
+
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="${NCOL}">${r}</td></tr>`;
+    const [topic, items] = r, n = items.length;
+    return items.map(([std, stdText, ext, extText], i) =>
+      `<tr>` + (i ? "" : `<td class="topic" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${std}</td><td class="std">${stdText}</td>` +
+      `<td class="item">${ext}</td><td class="ext${extText === ONT ? " ont" : ""}">${extText}</td>` +
+      `<td class="pg"><input type="text" data-key="${keyOf(std, ext)}" placeholder="location" aria-label="Location, item ${(std + " " + ext).replace(/<[^>]*>/g, "").trim()}"></td></tr>`).join("");
+  }).join("");
+  document.getElementById("tp-sub").innerHTML = link(SUBTITLE);
+  document.getElementById("tp-foot").innerHTML = FOOT.map(t => `<p class="tp-foot">${link(t)}</p>`).join("");
+  if (LOGO) { const l = document.getElementById("tp-logo"); l.src = LOGO; l.style.display = "block"; }
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA-C 2026 checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all locations and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export (A4 landscape) ----------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, subtitle, foot, eqLogo, ONT, keyOf) {
+    const F = "Arial", SZ = 17, W = [1900, 700, 4600, 800, 4700, 2698], TOTAL = W.reduce((a, b) => a + b), NCOL = W.length;
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup, color: o.color });
+    // Inline markup: [[text|url]] hyperlink, <sup>x</sup> superscript
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]|<sup>(.*?)<\/sup>/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        if (m[3] !== undefined) out.push(run(m[3], { ...o, sup: true }));
+        else out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? NCOL : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "DBE9F7", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section and Topic", hd), cell(1, "#", hd), cell(2, "PRISMA 2020 items", hd),
+      cell(3, "#", hd), cell(4, "PRISMA-C 2026 extension items<sup>‡</sup>", hd), cell(5, "Location reported", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "F0E6D2", bold: true, keepNext: true })] })];
+      const [topic, items] = r;
+      return items.map(([std, stdText, ext, extText], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length })]),
+        cell(1, std), cell(2, stdText), cell(3, ext),
+        cell(4, extText, extText === ONT ? { color: "2E5FA3" } : {}),
+        cell(5, vals[keyOf(std, ext)] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [TOTAL - 4266, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const hleft = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const hright = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { spacing: { after: 0 } })];
+    top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, hleft), hcell(1, hright)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(title, { bold: true, size: 24 })], { spacing: { after: 60 } }));
+    top.push(para(runs(subtitle, { size: 16 }), { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "PRISMA-C 2026 checklist", creator: "PRISMA-C 2026 checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      if (LOGO) { try { logo = new Uint8Array(await (await fetch(new URL(LOGO, document.baseURI))).arrayBuffer()); } catch (e) {} }
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, SUBTITLE, FOOT, eqLogo, ONT, keyOf));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = FILENAME + ".docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

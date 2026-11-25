@@ -1,0 +1,303 @@
+---
+pagetitle: "SPIRIT-C 2026 checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2e5fa3; --head:#9dc3e6; --sect:#d9d9d9; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1250px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap .tp-right { margin-left:auto; text-align:right; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  /* Optional logo: hidden unless LOGO is set in the script below */
+  #tp-wrap #tp-logo { display:none; width:min(220px,50%); height:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-sub { font-size:13px; margin:0 0 .4rem; color:#333; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:12%; font-weight:bold; }
+  #tp-wrap td.item { width:6%; }
+  #tp-wrap td.std, #tp-wrap td.ext { width:28%; }
+  #tp-wrap tr.lab td { font-weight:normal; padding:2px 6px; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:20%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12px; margin:.5rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2e5fa3; background:#2e5fa3; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2e5fa3; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-sub { font-size:9.5px; }
+    #tp-wrap .tp-foot { font-size:9px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap td, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img id="tp-logo" alt="SPIRIT-C">
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">SPIRIT-Children and Adolescents (SPIRIT-C) 2026 checklist</div>
+  <p class="tp-sub" id="tp-sub"></p>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) or section where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section/Topic</th><th>Item No.</th><th>SPIRIT 2025 Statement</th><th>Item No.</th><th>SPIRIT-Children and Adolescents (SPIRIT-C) 2026 extension</th>
+      <th class="pgh">Location reported<span class="tp-hint">type page no. or section in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // ROWS entries:
+  //   "Text"           -> section bar
+  //   ["L", "Text"]    -> label row (e.g. "Randomisation:")
+  //   [topic, [[std no., standard-statement text, ext no., extension text], ...]]
+  //   Use "" for any empty cell. Each inner row gets one "Location reported" box.
+  //   In text: <br> = line break, <sup>x</sup> = superscript, [[text|url]] = hyperlink.
+  const ROWS = [
+    "Administrative information",
+    ["Title and structured summary", [["1a", "Title stating the trial design, population, and interventions, with identification as a protocol", "1a.1*", "Identify that it is a paediatric trial protocol, and include age group(s)/range(s), interventions, and, if applicable, trial acronym"], ["1b", "Structured summary of trial design and methods, including items from the World Health Organization Trial Registration Data Set", "", ""]]],
+    ["Protocol version", [["2", "Version date and identifier", "", ""]]],
+    ["Roles and responsibilities", [["3a", "Names, affiliations, and roles of protocol contributors", "", ""], ["3b", "Name and contact information for the trial sponsor", "", ""], ["3c", "Role of trial sponsor and funders in design, conduct, analysis, and reporting of trial; including any authority over these activities", "", ""], ["3d", "Composition, roles, and responsibilities of the coordinating site, steering committee, endpoint adjudication committee, data management team, and other individuals or groups overseeing the trial, if applicable", "", ""]]],
+    "Open science",
+    ["Trial registration", [["4", "Name of trial registry, identifying number (with URL), and date of registration. If not yet registered, name of intended registry", "", ""]]],
+    ["Protocol and statistical analysis plan", [["5", "Where the trial protocol and statistical analysis plan can be accessed", "", ""]]],
+    ["Data sharing", [["6", "Where and how the individual de-identified participant data (including data dictionary), statistical code, and any other materials will be accessible", "6.1", "Describe whether individual participant data will be shared with others not directly involved in the trial, and how the child/adolescent’s and/or family’s confidentiality will be respected within the study"]]],
+    ["Funding and conflicts of interest", [["7a", "Sources of funding and other support (eg, supply of drugs)", "", ""], ["7b", "Financial and other conflicts of interest for principal investigators and steering committee members", "", ""]]],
+    ["Dissemination policy", [["8", "Plans to communicate trial results to participants, healthcare professionals, the public, and other relevant groups (eg, reporting in trial registry, plain language summary, publication)", "", ""]]],
+    "Introduction",
+    ["Background and rationale", [["9a", "Scientific background and rationale, including summary of relevant studies (published and unpublished) examining benefits and harms for each intervention", "9a.1*†", "Describe the prevalence/incidence of the disease or condition in children/adolescents"], ["", "", "9a.2†", "Describe the potential for extrapolation from other paediatric populations or adult data, or why extrapolation is not considered appropriate"], ["", "", "9a.3*", "Include a description of the research question or aim with a justification for undertaking the trial in children/adolescents"], ["9b", "Explanation for choice of comparator", "", ""]]],
+    ["Objectives", [["10", "Specific objectives related to benefits and harms", "", ""]]],
+    "Methods: Patient and public involvement, trial design",
+    ["Patient and public involvement", [["11", "Details of, or plans for, patient or public involvement in the design, conduct, and reporting of the trial", "", ""]]],
+    ["Trial design", [["12", "Description of trial design including type of trial (eg, parallel group, crossover), allocation ratio, and framework (eg, superiority, equivalence, non-inferiority, exploratory)", "", ""]]],
+    "Methods: Participants, interventions, and outcomes",
+    ["Trial setting", [["13", "Settings (eg, community, hospital) and locations (eg, countries, sites) where the trial will be conducted", "13.1†", "Describe any adaptations put in place to support inclusion and participation of children/adolescents"]]],
+    ["Eligibility criteria", [["14a", "Eligibility criteria for participants", "14a.1*†", "Provide a justification for including multiple age groups or children/adolescents at different developmental stages, and address potential age or development-related differences in treatment effects"], ["14b", "If applicable, eligibility criteria for sites and for individuals who will deliver the interventions (eg, surgeons, physiotherapists)", "", ""]]],
+    ["Intervention and comparator", [["15a", "Intervention and comparator with sufficient details to allow replication including how, when, and by whom they will be administered. If relevant, where additional materials describing the intervention and comparator (eg, intervention manual) can be accessed", "15a.1*†", "Describe whether there is an intervention dose and/or formulation appropriate for the trial population, and if there are any adjustments made based on age, weight, or body surface area"], ["", "", "15a.2†", "Give rationale for adapting interventions used in other paediatric populations or adults for the present trial"], ["", "", "15a.3*†", "Describe whether the trial interventions will be delivered with help from a support person"], ["15b", "Criteria for discontinuing or modifying allocated intervention/comparator for a trial participant (eg, drug dose change in response to harms, participant request, or improving/worsening disease)", "", ""], ["15c", "Strategies to improve adherence to intervention/comparator protocols, if applicable, and any procedures for monitoring adherence (eg, drug tablet return, sessions attended)", "", ""], ["15d", "Concomitant care that is permitted or prohibited during the trial", "", ""]]],
+    ["Outcomes", [["16", "Primary and secondary outcomes, including the specific measurement variable (eg, systolic blood pressure), analysis metric (eg, change from baseline, final value, time to event), method of aggregation (eg, median, proportion), and time point for each outcome", "16.1*", "Explanation of the validity, reliability, feasibility, and responsiveness of the outcome measurement instruments for the prespecified age groups"]]],
+    ["Harms", [["17", "How harms are defined and will be assessed (eg, systematically, non-systematically)", "17.1*†", "Describe whether trial interventions and/or procedures will induce fear, pain, distress, or are invasive, and what measures are taken to mitigate this"], ["", "", "17.2", "Describe all efforts to reduce the child/adolescent’s risk associated with trial participation"]]],
+    ["Participant timeline", [["18", "Time schedule of enrolment, interventions (including any run-ins and washouts), assessments, and visits for participants. A schematic diagram is highly recommended (see Fig 1 in SPIRIT 2025)", "", ""]]],
+    ["Sample size", [["19", "How sample size was determined, including all assumptions supporting the sample size calculation", "", ""]]],
+    ["Recruitment", [["20", "Strategies for achieving adequate participant enrolment to reach target sample size", "20.1", "Describe the anticipated impact of trial participation on the child/adolescent’s daily life"], ["", "", "20.2", "Describe how participating children/adolescents will be given recognition for trial participation"]]],
+    "Methods: Assignment of interventions",
+    ["L", "Randomisation:"],
+    ["Sequence generation", [["21a", "Who will generate the random allocation sequence and the method used", "", ""], ["21b", "Type of randomisation (simple or restricted) and details of any factors for stratification. To reduce predictability of a random sequence, other details of any planned restriction (eg, blocking) should be provided in a separate document that is unavailable to those who enroll participants or assign interventions", "", ""]]],
+    ["Allocation concealment mechanism", [["22", "Mechanism used to implement the random allocation sequence (eg, central computer/telephone; sequentially numbered, opaque, sealed containers), describing any steps to conceal the sequence until interventions are assigned", "", ""]]],
+    ["Implementation", [["23", "Whether the personnel who will enrol and those who will assign participants to the interventions will have access to the random allocation sequence", "", ""]]],
+    ["Blinding", [["24a", "Who will be blinded after assignment to interventions (eg, participants, care providers, outcome assessors, data analysts)", "", ""], ["24b", "If blinded, how blinding will be achieved and description of the similarity of interventions", "", ""], ["24c", "If blinded, circumstances under which unblinding is permissible, and procedure for revealing a participant’s allocated intervention during the trial", "", ""]]],
+    "Methods: Data collection, management, and analysis",
+    ["Data collection methods", [["25a", "Plans for assessment and collection of trial data, including any related processes to promote data quality (eg, duplicate measurements, training of assessors) and a description of trial instruments (eg, questionnaires, laboratory tests) along with their reliability and validity, if known. Reference to where data collection forms can be accessed, if not in the protocol", "", ""], ["25b", "Plans to promote participant retention and complete follow-up, including list of any outcome data to be collected for participants who discontinue or deviate from intervention protocols", "", ""]]],
+    ["Data management", [["26", "Plans for data entry, coding, security, and storage, including any related processes to promote data quality (eg, double data entry; range checks for data values). Reference to where details of data management procedures can be accessed, if not in the protocol", "", ""]]],
+    ["Statistical methods", [["27a", "Statistical methods used to compare groups for primary and secondary outcomes, including harms", "", ""], ["27b", "Definition of who will be included in each analysis (eg, all randomised participants), and in which group", "", ""], ["27c", "How missing data will be handled in the analysis", "", ""], ["27d", "Methods for any additional analyses (eg, subgroup and sensitivity analyses)", "", ""]]],
+    "Methods: Monitoring",
+    ["Data monitoring committee", [["28a", "Composition of data monitoring committee (DMC); summary of its role and reporting structure; statement of whether it is independent from the sponsor and funder; conflicts of interest and reference to where further details about its charter can be found, if not in the protocol. Alternatively, an explanation of why a DMC is not needed", "", ""], ["28b", "Explanation of any interim analyses and stopping guidelines, including who will have access to these interim results and make the final decision to terminate the trial", "", ""]]],
+    ["Trial monitoring", [["29", "Frequency and procedures for monitoring trial conduct. If there is no monitoring, give explanation", "", ""]]],
+    "Ethics",
+    ["Research ethics approval", [["30", "Plans for seeking research ethics committee/institutional review board approval", "", ""]]],
+    ["Protocol amendments", [["31", "Plans for communicating important protocol modifications to relevant parties", "", ""]]],
+    ["Consent or assent", [["32a", "Who will obtain informed consent or assent from potential trial participants or authorised proxies, and how", "32a.1†", "Provide information on whether developmentally appropriate materials with understandable information on the trial process will be provided to participants in obtaining informed consent or assent, and state where materials can be found or if available on request"], ["32b", "Additional consent provisions for collection and use of participant data and biological specimens in ancillary studies, if applicable", "", ""]]],
+    ["Confidentiality", [["33", "How personal information about potential and enrolled participants will be collected, shared, and maintained in order to protect confidentiality before, during, and after the trial", "", ""]]],
+    ["Ancillary and post-trial care", [["34", "Provisions, if any, for ancillary and post-trial care, and for compensation to those who suffer harm from trial participation", "34.1†", "Describe plans for assessing outcomes and harms beyond the formal study completion date"]]]
+  ];
+  const TITLE = "SPIRIT-Children and Adolescents (SPIRIT-C) 2026 checklist";
+  const SUBTITLE = "From: Baba A, Smith M, Potter BK, et al. SPIRIT-Children and Adolescents (SPIRIT-C) 2026 Extension Statement: Enhancing the Reporting and Usefulness of Paediatric Randomised Trial Protocols. BMJ 2026;392:e085062";
+  const FOOT = ["For optimal use of the SPIRIT-Children and Adolescents (SPIRIT-C) 2026 checklist, refer to the SPIRIT-C 2026 Explanation and Elaboration (E&E) document.", "* New item pertains to both SPIRIT-C 2026 and CONSORT-C 2026; † Report item if applicable or state explicitly that it is not applicable"];
+  // Optional logo (path relative to the site root, e.g. "/assets/logos/spirit-c-logo.png"). Leave "" for none.
+  const LOGO = "";
+  const FILENAME = "SPIRIT-C-2026-checklist";
+
+  const STORE = "spirit-c-2026-checklist-v1";
+  const NCOL = 6;
+  const link = s => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, (m, text, url) => {
+    const a = document.createElement("a");
+    a.setAttribute("href", url); a.target = "_blank"; a.rel = "noopener"; a.textContent = text;
+    return a.outerHTML;
+  });
+  // Unique storage key for each row, built from its two item numbers
+  function keyOf(std, ext) { return "p" + [std, ext].map(x => x.replace(/<[^>]*>|[^\w.]/g, "")).join("_"); }
+
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="${NCOL}">${r}</td></tr>`;
+    if (r[0] === "L") return `<tr class="lab"><td colspan="${NCOL}">${r[1]}</td></tr>`;
+    const [topic, items] = r, n = items.length;
+    return items.map(([std, stdText, ext, extText], i) =>
+      `<tr>` + (i ? "" : `<td class="topic" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${std}</td><td class="std">${stdText}</td>` +
+      `<td class="item">${ext}</td><td class="ext">${extText}</td>` +
+      `<td class="pg"><input type="text" data-key="${keyOf(std, ext)}" placeholder="location" aria-label="Location, item ${(std + " " + ext).replace(/<[^>]*>/g, "").trim()}"></td></tr>`).join("");
+  }).join("");
+  document.getElementById("tp-sub").innerHTML = link(SUBTITLE);
+  document.getElementById("tp-foot").innerHTML = FOOT.map(t => `<p class="tp-foot">${link(t)}</p>`).join("");
+  if (LOGO) { const l = document.getElementById("tp-logo"); l.src = LOGO; l.style.display = "block"; }
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "SPIRIT-C 2026 checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all locations and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export (A4 landscape) ----------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, subtitle, foot, eqLogo, keyOf) {
+    const F = "Arial", SZ = 17, W = [1900, 800, 4500, 800, 4600, 2798], TOTAL = W.reduce((a, b) => a + b), NCOL = W.length;
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup, color: o.color });
+    // Inline markup: [[text|url]] hyperlink, <sup>x</sup> superscript
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]|<sup>(.*?)<\/sup>/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        if (m[3] !== undefined) out.push(run(m[3], { ...o, sup: true }));
+        else out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? NCOL : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: text.split("<br>").map(t => new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(t, o) }))
+    });
+    const hd = { fill: "9DC3E6", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section/Topic", hd), cell(1, "Item No.", hd), cell(2, "SPIRIT 2025 Statement", hd),
+      cell(3, "Item No.", hd), cell(4, "SPIRIT-Children and Adolescents (SPIRIT-C) 2026 extension", hd), cell(5, "Location reported", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "D9D9D9", bold: true, keepNext: true })] })];
+      if (r[0] === "L") return [new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { span: true, bold: false, keepNext: true })] })];
+      const [topic, items] = r;
+      return items.map(([std, stdText, ext, extText], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length, bold: true })]),
+        cell(1, std), cell(2, stdText), cell(3, ext),
+        cell(4, extText),
+        cell(5, vals[keyOf(std, ext)] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [TOTAL - 4266, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const hleft = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const hright = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { spacing: { after: 0 } })];
+    top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, hleft), hcell(1, hright)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(title, { bold: true, size: 24 })], { spacing: { after: 60 } }));
+    top.push(para(runs(subtitle, { size: 16 }), { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "SPIRIT-C 2026 checklist", creator: "SPIRIT-C 2026 checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      if (LOGO) { try { logo = new Uint8Array(await (await fetch(new URL(LOGO, document.baseURI))).arrayBuffer()); } catch (e) {} }
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, SUBTITLE, FOOT, eqLogo, keyOf));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = FILENAME + ".docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

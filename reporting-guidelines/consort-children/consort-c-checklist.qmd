@@ -1,0 +1,296 @@
+---
+pagetitle: "CONSORT-C 2026 checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#c55a11; --head:#f8cbad; --sect:#d9d9d9; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1250px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap .tp-right { margin-left:auto; text-align:right; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  /* Optional logo: hidden unless LOGO is set in the script below */
+  #tp-wrap #tp-logo { display:none; width:min(220px,50%); height:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-sub { font-size:13px; margin:0 0 .4rem; color:#333; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:12%; font-weight:bold; }
+  #tp-wrap td.item { width:6%; }
+  #tp-wrap td.std, #tp-wrap td.ext { width:28%; }
+  #tp-wrap tr.lab td { font-weight:bold; padding:2px 6px; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:20%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12px; margin:.5rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #c55a11; background:#c55a11; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#c55a11; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-sub { font-size:9.5px; }
+    #tp-wrap .tp-foot { font-size:9px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap td, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img id="tp-logo" alt="CONSORT-C">
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">CONSORT-Children and Adolescents (CONSORT-C) 2026 checklist</div>
+  <p class="tp-sub" id="tp-sub"></p>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) or section where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section/Topic</th><th>Item No.</th><th>CONSORT 2025 Statement</th><th>Item No.</th><th>CONSORT-Children and Adolescents (CONSORT-C) 2026 extension</th>
+      <th class="pgh">Location reported<span class="tp-hint">type page no. or section in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // ROWS entries:
+  //   "Text"           -> section bar
+  //   ["L", "Text"]    -> label row (e.g. "Randomisation:")
+  //   [topic, [[std no., standard-statement text, ext no., extension text], ...]]
+  //   Use "" for any empty cell. Each inner row gets one "Location reported" box.
+  //   In text: <br> = line break, <sup>x</sup> = superscript, [[text|url]] = hyperlink.
+  const ROWS = [
+    "Title and abstract",
+    ["Title and structured abstract", [["1a", "Identification as a randomised trial", "1a.1*", "Identify that it is a paediatric trial, and include age group(s)/range(s), interventions, and, if applicable, trial acronym"], ["1b", "Structured summary of the trial design, methods, results, and conclusions", "", ""]]],
+    "Open science",
+    ["Trial registration", [["2", "Name of trial registry, identifying number (with URL) and date of registration", "", ""]]],
+    ["Protocol and statistical analysis plan", [["3", "Where the trial protocol and statistical analysis plan can be accessed", "", ""]]],
+    ["Data sharing", [["4", "Where and how the individual de-identified participant data (including data dictionary), statistical code and any other materials can be accessed", "", ""]]],
+    ["Funding and conflicts of interest", [["5a", "Sources of funding and other support (eg, supply of drugs), and role of funders in the design, conduct, analysis and reporting of the trial", "", ""], ["5b", "Financial and other conflicts of interest of the manuscript authors", "", ""]]],
+    "Introduction",
+    ["Background and rationale", [["6", "Scientific background and rationale", "6.1*†", "Describe the prevalence/incidence of the disease or condition in children/adolescents"], ["", "", "6.2", "Describe available evidence on the efficacy/effectiveness of the intervention in children/adolescents"], ["", "", "6.3*", "Include a description of the research question or aim with a justification for undertaking the trial in children/adolescents"]]],
+    ["Objectives", [["7", "Specific objectives related to benefits and harms", "", ""]]],
+    "Methods",
+    ["Patient and public involvement", [["8", "Details of patient or public involvement in the design, conduct and reporting of the trial", "", ""]]],
+    ["Trial design", [["9", "Description of trial design including type of trial (eg, parallel group, crossover), allocation ratio, and framework (eg, superiority, equivalence, non-inferiority, exploratory)", "", ""]]],
+    ["Changes to trial protocol", [["10", "Important changes to the trial after it commenced including any outcomes or analyses that were not prespecified, with reason", "", ""]]],
+    ["Trial setting", [["11", "Settings (eg, community, hospital) and locations (eg, countries, sites) where the trial was conducted", "", ""]]],
+    ["Eligibility criteria", [["12a", "Eligibility criteria for participants", "12a.1*†", "Provide a justification for including multiple age groups or children/adolescents at different developmental stages, and address potential age or development-related differences in treatment effects"], ["", "", "12a.2", "Describe whether information about the trial was provided to participating children/adolescents and assent given/consent obtained, if appropriate for age"], ["12b", "If applicable, eligibility criteria for sites and for individuals delivering the interventions (eg, surgeons, physiotherapists)", "", ""]]],
+    ["Intervention and comparator", [["13", "Intervention and comparator with sufficient details to allow replication. If relevant, where additional materials describing the intervention and comparator (eg, intervention manual) can be accessed", "13.1*†", "Describe whether there is an intervention dose and/or formulation appropriate for the trial population, and if there were any adjustments made based on age, weight, or body surface area"], ["", "", "13.2*†", "Describe whether the trial interventions were delivered with help from a support person"]]],
+    ["Outcomes", [["14", "Prespecified primary and secondary outcomes, including the specific measurement variable (eg, systolic blood pressure), analysis metric (eg, change from baseline, final value, time to event), method of aggregation (eg, median, proportion), and time point for each outcome", "14.1*", "Explain evidence supporting validity of selected outcomes and outcome measurement instruments in age group(s) included"]]],
+    ["Harms", [["15", "How harms were defined and assessed (eg, systematically, non-systematically)", "15.1*†", "Describe whether trial interventions and/or procedures induced fear, pain, distress, or were invasive, and what measures were taken to mitigate this"]]],
+    ["Sample size", [["16a", "How sample size was determined, including all assumptions supporting the sample size calculation", "", ""], ["16b", "Explanation of any interim analyses and stopping guidelines", "", ""]]],
+    ["L", "Randomisation:"],
+    ["Sequence generation", [["17a", "Who generated the random allocation sequence and the method used", "", ""], ["17b", "Type of randomisation and details of any restriction (eg, stratification, blocking and block size)", "", ""]]],
+    ["Allocation concealment mechanism", [["18", "Mechanism used to implement the random allocation sequence (eg, central computer/telephone; sequentially numbered, opaque, sealed containers), describing any steps to conceal the sequence until interventions were assigned", "", ""]]],
+    ["Implementation", [["19", "Whether the personnel who enrolled and those who assigned participants to the interventions had access to the random allocation sequence", "", ""]]],
+    ["Blinding", [["20a", "Who was blinded after assignment to interventions (eg, participants, care providers, outcome assessors, data analysts)", "", ""], ["20b", "If blinded, how blinding was achieved and description of the similarity of interventions", "", ""]]],
+    ["Statistical methods", [["21a", "Statistical methods used to compare groups for primary and secondary outcomes, including harms", "", ""], ["21b", "Definition of who is included in each analysis (eg, all randomised participants), and in which group", "", ""], ["21c", "How missing data were handled in the analysis", "", ""], ["21d", "Methods for any additional analyses (eg, subgroup and sensitivity analyses), distinguishing prespecified from post hoc", "", ""]]],
+    "Results",
+    ["Participant flow, including flow diagram", [["22a", "For each group, the numbers of participants who were randomly assigned, received intended intervention, and were analysed for the primary outcome", "", ""], ["22b", "For each group, losses and exclusions after randomisation, together with reasons", "", ""]]],
+    ["Recruitment", [["23a", "Dates defining the periods of recruitment and follow-up for outcomes of benefits and harms", "", ""], ["23b", "If relevant, why the trial ended or was stopped", "", ""]]],
+    ["Intervention and comparator delivery", [["24a", "Intervention and comparator as they were actually administered (eg, where appropriate, who delivered the intervention/comparator, how participants adhered, whether they were delivered as intended (fidelity))", "", ""], ["24b", "Concomitant care received during the trial for each group", "", ""]]],
+    ["Baseline data", [["25", "A table showing baseline demographic and clinical characteristics for each group", "25.1†", "Report number of children/adolescents in the trial by prespecified age group(s)"]]],
+    ["Numbers analysed, outcomes and estimation", [["26", "For each primary and secondary outcome, by group:<br>• the number of participants included in the analysis<br>• the number of participants with available data at the outcome time point<br>• result for each group, and the estimated effect size and its precision (such as 95% confidence interval)<br>• for binary outcomes, presentation of both absolute and relative effect size", "", ""]]],
+    ["Harms", [["27", "All harms or unintended events in each group", "", ""]]],
+    ["Ancillary analyses", [["28", "Any other analyses performed, including subgroup and sensitivity analyses, distinguishing pre-specified from post hoc", "28.1†", "For each primary and secondary outcome, report results for each prespecified age group studied"]]],
+    "Discussion",
+    ["Interpretation", [["29", "Interpretation consistent with results, balancing benefits and harms, and considering other relevant evidence", "29.1", "Highlight unanswered and new questions, and discuss potential future research"]]],
+    ["Limitations", [["30", "Trial limitations, addressing sources of potential bias, imprecision, generalisability, and, if relevant, multiplicity of analyses", "", ""]]]
+  ];
+  const TITLE = "CONSORT-Children and Adolescents (CONSORT-C) 2026 checklist";
+  const SUBTITLE = "From: Baba A, Smith M, Potter BK, et al. CONSORT-Children and Adolescents (CONSORT-C) 2026 Extension Statement: Enhancing the Reporting and Impact of Paediatric Randomised Trials. BMJ 2026;392:e085061";
+  const FOOT = ["For optimal use of the CONSORT-Children and Adolescents (CONSORT-C) 2026 checklist, refer to the CONSORT-C 2026 Explanation and Elaboration (E&E) document.", "* New item pertains to both SPIRIT-C 2026 and CONSORT-C 2026; † Report item if applicable or state explicitly that it is not applicable"];
+  // Optional logo (path relative to the site root, e.g. "/assets/logos/consort-c-logo.png"). Leave "" for none.
+  const LOGO = "";
+  const FILENAME = "CONSORT-C-2026-checklist";
+
+  const STORE = "consort-c-2026-checklist-v1";
+  const NCOL = 6;
+  const link = s => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, (m, text, url) => {
+    const a = document.createElement("a");
+    a.setAttribute("href", url); a.target = "_blank"; a.rel = "noopener"; a.textContent = text;
+    return a.outerHTML;
+  });
+  // Unique storage key for each row, built from its two item numbers
+  function keyOf(std, ext) { return "p" + [std, ext].map(x => x.replace(/<[^>]*>|[^\w.]/g, "")).join("_"); }
+
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="${NCOL}">${r}</td></tr>`;
+    if (r[0] === "L") return `<tr class="lab"><td colspan="${NCOL}">${r[1]}</td></tr>`;
+    const [topic, items] = r, n = items.length;
+    return items.map(([std, stdText, ext, extText], i) =>
+      `<tr>` + (i ? "" : `<td class="topic" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${std}</td><td class="std">${stdText}</td>` +
+      `<td class="item">${ext}</td><td class="ext">${extText}</td>` +
+      `<td class="pg"><input type="text" data-key="${keyOf(std, ext)}" placeholder="location" aria-label="Location, item ${(std + " " + ext).replace(/<[^>]*>/g, "").trim()}"></td></tr>`).join("");
+  }).join("");
+  document.getElementById("tp-sub").innerHTML = link(SUBTITLE);
+  document.getElementById("tp-foot").innerHTML = FOOT.map(t => `<p class="tp-foot">${link(t)}</p>`).join("");
+  if (LOGO) { const l = document.getElementById("tp-logo"); l.src = LOGO; l.style.display = "block"; }
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "CONSORT-C 2026 checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all locations and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export (A4 landscape) ----------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, subtitle, foot, eqLogo, keyOf) {
+    const F = "Arial", SZ = 17, W = [1900, 800, 4500, 800, 4600, 2798], TOTAL = W.reduce((a, b) => a + b), NCOL = W.length;
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup, color: o.color });
+    // Inline markup: [[text|url]] hyperlink, <sup>x</sup> superscript
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]|<sup>(.*?)<\/sup>/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        if (m[3] !== undefined) out.push(run(m[3], { ...o, sup: true }));
+        else out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? NCOL : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: text.split("<br>").map(t => new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(t, o) }))
+    });
+    const hd = { fill: "F8CBAD", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section/Topic", hd), cell(1, "Item No.", hd), cell(2, "CONSORT 2025 Statement", hd),
+      cell(3, "Item No.", hd), cell(4, "CONSORT-Children and Adolescents (CONSORT-C) 2026 extension", hd), cell(5, "Location reported", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "D9D9D9", bold: true, keepNext: true })] })];
+      if (r[0] === "L") return [new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { span: true, bold: true, keepNext: true })] })];
+      const [topic, items] = r;
+      return items.map(([std, stdText, ext, extText], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length, bold: true })]),
+        cell(1, std), cell(2, stdText), cell(3, ext),
+        cell(4, extText),
+        cell(5, vals[keyOf(std, ext)] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [TOTAL - 4266, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const hleft = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const hright = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { spacing: { after: 0 } })];
+    top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, hleft), hcell(1, hright)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(title, { bold: true, size: 24 })], { spacing: { after: 60 } }));
+    top.push(para(runs(subtitle, { size: 16 }), { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "CONSORT-C 2026 checklist", creator: "CONSORT-C 2026 checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      if (LOGO) { try { logo = new Uint8Array(await (await fetch(new URL(LOGO, document.baseURI))).arrayBuffer()); } catch (e) {} }
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, SUBTITLE, FOOT, eqLogo, keyOf));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = FILENAME + ".docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
