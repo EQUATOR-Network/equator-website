@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-800ec43143743b4546fe40ab5749fe04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-12d43ec8d95cdefc4801af88843906a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -287,6 +287,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     #tp-wrap .tp-hint { display:none; }
     #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+    #tp-wrap .noexp { display:none !important; }
   }
 </style>
 
@@ -319,8 +320,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  "fileName": "DELPHISTAR-checklist",
  "title": "DELPHISTAR checklist: reporting of Delphi studies in social and health sciences",
  "star": false,
- "subtitle": "Delphi studies in social and health sciences – recommendations for an interdisciplinary standardized reporting (DELPHISTAR). Exemplary wording is shown for guidance only.",
- "note": "Type the page number(s) or section(s) where each item is reported in the boxes in the “Location” column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose Save as PDF as the destination. Your entries stay in this browser until you clear them.",
+ "subtitle": "Delphi studies in social and health sciences – recommendations for an interdisciplinary standardized reporting (DELPHISTAR).",
+ "note": "Type the page number(s) or section(s) where each item is reported in the boxes in the “Location” column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose Save as PDF as the destination. Your entries stay in this browser until you clear them. The exemplary-wording column is for guidance on screen only and is left out of the PDF and Word files.",
  "logoLeft": null,
  "cols": [
   {
@@ -349,7 +350,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   },
   {
    "h": "Exemplary wording",
-   "w": 6538
+   "w": 6538,
+   "noExport": true
   }
  ],
  "rows": [
@@ -1148,9 +1150,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   // ---- table ----
   const table = $("tp-table");
-  table.querySelector("colgroup").innerHTML = COLS.map(c => `<col style="width:${(c.w / TOTAL * 100).toFixed(2)}%">`).join("");
+  table.querySelector("colgroup").innerHTML = COLS.map(c => `<col${c.noExport ? ' class="noexp"' : ""} style="width:${(c.w / TOTAL * 100).toFixed(2)}%">`).join("");
   table.querySelector("thead").innerHTML = "<tr>" + COLS.map(c =>
-    `<th class="${c.center ? "c" : ""}">${esc(c.h)}${c.hint ? `<span class="tp-hint">${esc(c.hint)}</span>` : ""}</th>`).join("") + "</tr>";
+    `<th class="${[c.center ? "c" : "", c.noExport ? "noexp" : ""].filter(Boolean).join(" ")}">${esc(c.h)}${c.hint ? `<span class="tp-hint">${esc(c.hint)}</span>` : ""}</th>`).join("") + "</tr>";
 
   table.querySelector("tbody").innerHTML = ROWS.map(r => {
     if (r.sec !== undefined) return `<tr class="sec"><td colspan="${NC}">${esc(r.sec)}</td></tr>`;
@@ -1160,7 +1162,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       if (c.input) return `<td class="pg"><input type="text" data-key="${r.key}" placeholder="${esc(c.ph || "page no.")}" aria-label="${esc(r.label)}"></td>`;
       const x = r.cells[k++];
       if (!x) return "";
-      const cls = [c.center ? "c" : "", x.ind ? "ind" : "", x.muted ? "muted" : "", c.cls || "", x.cls || ""].filter(Boolean).join(" ");
+      const cls = [c.center ? "c" : "", x.ind ? "ind" : "", x.muted ? "muted" : "", c.cls || "", x.cls || "", c.noExport ? "noexp" : ""].filter(Boolean).join(" ");
       return `<td${cls ? ` class="${cls}"` : ""}${x.rs ? ` rowspan="${x.rs}"` : ""}>${nl2br(x.t)}</td>`;
     }).join("") + "</tr>";
   }).join("");
@@ -1189,7 +1191,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
   function buildDocx(D, CFG, vals, logo, eqLogo) {
-    const F = "Arial", SZ = 17, W = CFG.cols.map(c => c.w), TOTAL = W.reduce((a, b) => a + b), NC = W.length;
+    const F = "Arial", SZ = 17;
+    // Columns flagged noExport are left out; remaining widths are scaled to fill the page
+    const keep = CFG.cols.map(c => !c.noExport);
+    const fullW = CFG.cols.reduce((a, c) => a + c.w, 0), keptW = CFG.cols.reduce((a, c, i) => a + (keep[i] ? c.w : 0), 0);
+    const W = CFG.cols.map((c, i) => keep[i] ? Math.round(c.w * fullW / keptW) : 0);
+    const lastKept = keep.lastIndexOf(true);
+    W[lastKept] += fullW - W.reduce((a, b) => a + b, 0);
+    const TOTAL = fullW, NC = keep.filter(Boolean).length;
     const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
     const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.it, color: o.color, superScript: o.sup });
     const runs = (text, o = {}) => {
@@ -1211,16 +1220,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
     });
     const hd = { fill: "BFBFBF", bold: true, mid: true };
-    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: CFG.cols.map((c, i) => cell(i, c.h, { ...hd, center: c.center })) });
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: CFG.cols.map((c, i) => keep[i] ? cell(i, c.h, { ...hd, center: c.center }) : null).filter(Boolean) });
     const body = CFG.rows.map(r => {
       if (r.sec !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.sec, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] });
       if (r.lab !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.lab, { span: true, keepNext: true })] });
       let k = 0;
       const kids = [];
       CFG.cols.forEach((c, i) => {
-        if (c.input) { kids.push(cell(i, vals[r.key] || "", { center: true, mid: true })); return; }
+        if (c.input) { if (keep[i]) kids.push(cell(i, vals[r.key] || "", { center: true, mid: true })); return; }
         const x = r.cells[k++];
-        if (!x) return;
+        if (!x || !keep[i]) return;
         kids.push(cell(i, x.t, { rowSpan: x.rs, indent: x.ind ? 260 : 90, center: c.center, it: x.muted, color: x.muted ? "666666" : (c.cls === "accent" ? "1F5F8B" : undefined) }));
       });
       return new D.TableRow({ cantSplit: true, children: kids });
@@ -1250,7 +1259,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       sections: [{
         footers: { default: footer },
         properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
-        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W.filter((w, i) => keep[i]), rows: [head, ...body] }),
           ...CFG.foot.map((f, i) => para(runs(f.t, { size: f.lic ? 14 : 16 }), { spacing: { before: i ? 60 : 140 } }))]
       }]
     });
