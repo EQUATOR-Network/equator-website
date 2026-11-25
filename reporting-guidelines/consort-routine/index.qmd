@@ -1,22 +1,14 @@
 ---
 # REQUIRED FIELDS
-title: 'CONSORT extension for the reporting of randomised controlled trials conducted
-  using cohorts and routinely collected data (CONSORT-ROUTINE) : checklist with explanation
-  and elaboration'
+title: 'CONSORT extension for the reporting of randomised controlled trials conducted using cohorts and routinely collected data (CONSORT-ROUTINE) : checklist with explanation and elaboration'
 acronym: CONSORT-ROUTINE
-provided-for: Reporting of randomised controlled trials conducted using cohorts and
-  routinely collected data.
-rg-doi: ''
+provided-for: Reporting of randomised controlled trials conducted using cohorts and routinely collected data.
+rg-doi: '10.1136/bmj.n857'
 pmid-id: '[33926904](https://pubmed.ncbi.nlm.nih.gov/33926904/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/33926904/
-relevant-urls: 'The full-text of CONSORT-ROUTINE is freely available at: <https://www.bmj.com/content/373/bmj.n857>'
-full-bibliographic-reference: 'Kwakkenbos L, Imran M, McCall SJ, McCord KA, Fröbert
-  O, Hemkens LG, Zwarenstein M, Relton C, Rice DB, Langan SM, Benchimol EI, Thabane
-  L, Campbell MK, Sampson M, Erlinge D, Verkooijen HM, Moher D, Boutron I, Ravaud
-  P, Nicholl J, Uher R, Sauvé M, Fletcher J, Torgerson D, Gale C, Juszczak E, Thombs
-  BD. CONSORT extension for the reporting of randomised controlled trials conducted
-  using cohorts and routinely collected data (CONSORT-ROUTINE): checklist with explanation
-  and elaboration. BMJ. 2021;373:n857.'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1136/bmj.n857) of CONSORT-ROUTINE
+full-bibliographic-reference: 'Kwakkenbos L, Imran M, McCall SJ, McCord KA, Fröbert O, Hemkens LG, Zwarenstein M, Relton C, Rice DB, Langan SM, Benchimol EI, Thabane L, Campbell MK, Sampson M, Erlinge D, Verkooijen HM, Moher D, Boutron I, Ravaud P, Nicholl J, Uher R, Sauvé M, Fletcher J, Torgerson D, Gale C, Juszczak E, Thombs BD. CONSORT extension for the reporting of randomised controlled trials conducted using cohorts and routinely collected data (CONSORT-ROUTINE): checklist with explanation and elaboration. BMJ. 2021;373:n857. PMID: [33926904](https://pubmed.ncbi.nlm.nih.gov/33926904/) [full text](https://doi.org/10.1136/bmj.n857)'
 
 
 # OPTIONAL FIELDS
@@ -120,16 +112,16 @@ relevant-more: |-
 website-url: ''
 additional-languages: ''
 additional-information: |-
-  Read about the development of CONSORT-ROUTINE:
+  Read about the development of CONSORT-ROUTINE:\
 
-  Imran M, Kwakkenbos L, McCall SJ, McCord KA, Fröbert O, Hemkens LG, Zwarenstein M, Relton C, Rice DB, Langan SM, Benchimol EI, Thabane L, Campbell MK, Sampson M, Erlinge D, Verkooijen HM, Moher D, Boutron I, Ravaud P, Nicholl J, Uher R, Sauvé M, Fletcher J, Torgerson D, Gale C, Juszczak E, Thombs BD. Methods and results used in the development of a consensus-driven extension to the Consolidated Standards of Reporting Trials (CONSORT) statement for trials conducted using cohorts and routinely collected data (CONSORT-ROUTINE). BMJ Open. 2021;11(4):e049093. PMID: [33926985](https://pubmed.ncbi.nlm.nih.gov/33926985/)
+  Imran M, Kwakkenbos L, McCall SJ, McCord KA, Fröbert O, Hemkens LG, Zwarenstein M, Relton C, Rice DB, Langan SM, Benchimol EI, Thabane L, Campbell MK, Sampson M, Erlinge D, Verkooijen HM, Moher D, Boutron I, Ravaud P, Nicholl J, Uher R, Sauvé M, Fletcher J, Torgerson D, Gale C, Juszczak E, Thombs BD. Methods and results used in the development of a consensus-driven extension to the Consolidated Standards of Reporting Trials (CONSORT) statement for trials conducted using cohorts and routinely collected data (CONSORT-ROUTINE). BMJ Open. 2021;11(4):e049093. PMID: [33926985](https://pubmed.ncbi.nlm.nih.gov/33926985/) [full text](https://doi.org/10.1136/bmjopen-2021-049093)
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
-
+downloads: |-
+  Download the [CONSORT-ROUTINE](CONSORT-routine.pdf) checklist
 
 # LIST FIELDS
 categories:

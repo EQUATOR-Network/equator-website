@@ -7,7 +7,7 @@ rg-doi: 10.1136/bmj-2025-085062
 pmid-id: '[41734969](https://pubmed.ncbi.nlm.nih.gov/41734969/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/41734969/
 relevant-urls: |-
-    Read the [full text](https://doi.org/10.1136/bmj-2025-085062) of SPIRIT-C \
+  Read the [full text](https://doi.org/10.1136/bmj-2025-085062) of SPIRIT-C \
   
   Complete an interactive [SPIRIT-C checklist](spirit-c-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
@@ -24,7 +24,8 @@ full-bibliographic-reference: |-
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: 'Baba A, Smith M, Potter BK, Chan AW, Moher D, Toulany A, Doherty-Kirby A, Escalera BN, Stratton C, Gale C, Macarthur C, Purper-Ouakil D, Juszczak E, Cohen E, Reggiardo G, Preston J, Cohen JF, Upton J, Allegaert K, Boerner K, Mehta K, Nguyen KA, Courtney K, Hartling L, Konstantinidis M, Odermarsky M, Butcher NJ, Kolehmainen N, Longmuir PE, Gill PJ, Leroy P, Feneberg R, Poluru R, Morris SK, Friedrichsdorf SJ, Nagy TC, Klassen TP, Lacaze-Masmonteil T, Onland W, Offringa M. SPIRIT-C 2026 explanation and elaboration: recommendations for enhancing the reporting and usefulness of paediatric randomised trial protocols. BMJ 2026; 392: e085064. PMID: [41734970](https://pubmed.ncbi.nlm.nih.gov/41734970/) [full text](https://doi.org/10.1136/bmj-2025-085064)'
+explanation-and-elaboration-papers: |-
+  Baba A, Smith M, Potter BK, Chan AW, Moher D, Toulany A, Doherty-Kirby A, Escalera BN, Stratton C, Gale C, Macarthur C, Purper-Ouakil D, Juszczak E, Cohen E, Reggiardo G, Preston J, Cohen JF, Upton J, Allegaert K, Boerner K, Mehta K, Nguyen KA, Courtney K, Hartling L, Konstantinidis M, Odermarsky M, Butcher NJ, Kolehmainen N, Longmuir PE, Gill PJ, Leroy P, Feneberg R, Poluru R, Morris SK, Friedrichsdorf SJ, Nagy TC, Klassen TP, Lacaze-Masmonteil T, Onland W, Offringa M. SPIRIT-C 2026 explanation and elaboration: recommendations for enhancing the reporting and usefulness of paediatric randomised trial protocols. BMJ 2026; 392: e085064. PMID: [41734970](https://pubmed.ncbi.nlm.nih.gov/41734970/) [full text](https://doi.org/10.1136/bmj-2025-085064)
 guideline-history: ''
 relevant-more: |-
   **Specialised**
