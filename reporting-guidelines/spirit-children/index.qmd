@@ -11,9 +11,9 @@ relevant-urls: |-
   
   Complete an interactive [SPIRIT-C checklist](spirit-c-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
-  Baba A, Smith M, Potter BK, Chan AW, Moher D, Toulany A, Doherty-Kirby A, Nafria Escalera B, Stratton C, Gale C, Macarthur C, Purper-Ouakil D, Juszczak E, Cohen E, Reggiardo G, Preston J, Cohen JF, Upton J, Allegaert K, Boerner K, Mehta K, Nguyen KA, Courtney K, Hartling L, Konstantinidis M, Odermarsky M, Butcher NJ, Kolehmainen N, Longmuir PE, Gill PJ, Leroy P, Feneberg R, Poluru R, Morris SK, Friedrichsdorf SJ, Chute Nagy T, Klassen TP, Lacaze-Masmonteil T, Onland W, Offringa M. SPIRIT-Children and Adolescents (SPIRIT-C) 2026 extension statement: enhancing the reporting and usefulness of paediatric randomised trial protocols.
+  Baba A, Smith M, Potter BK, Chan AW, Moher D, Toulany A, Doherty-Kirby A, Nafria Escalera B, Stratton C, Gale C, Macarthur C, Purper-Ouakil D, Juszczak E, Cohen E, Reggiardo G, Preston J, Cohen JF, Upton J, Allegaert K, Boerner K, Mehta K, Nguyen KA, Courtney K, Hartling L, Konstantinidis M, Odermarsky M, Butcher NJ, Kolehmainen N, Longmuir PE, Gill PJ, Leroy P, Feneberg R, Poluru R, Morris SK, Friedrichsdorf SJ, Chute Nagy T, Klassen TP, Lacaze-Masmonteil T, Onland W, Offringa M. SPIRIT-Children and Adolescents (SPIRIT-C) 2026 extension statement: enhancing the reporting and usefulness of paediatric randomised trial protocols. \
 
-  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.
+  This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below. \
 
   BMJ 2026; 392: e085062. PMID: [41734969](https://pubmed.ncbi.nlm.nih.gov/41734969/) [full text](https://doi.org/10.1136/bmj-2025-085062)
 
@@ -29,13 +29,13 @@ guideline-history: ''
 relevant-more: |-
   **Specialised**
 
-  [**SPIRIT-PRO**](/reporting-guidelines/spirit-pro/): Calvert M, Kyte D, Mercieca-Bebber R, Slade A, Chan A-W, King MT; and the SPIRIT-PRO Group. Guidelines for Inclusion of Patient-Reported Outcomes in Clinical Trial Protocols: The SPIRIT-PRO Extension. JAMA. 2018;319(5):483-494. [Link to abstract](https://jamanetwork.com/journals/jama/article-abstract/2671472) \
+  [**SPIRIT-PRO**](/reporting-guidelines/spirit-pro/): Calvert M, Kyte D, Mercieca-Bebber R, Slade A, Chan A-W, King MT; and the SPIRIT-PRO Group. Guidelines for Inclusion of Patient-Reported Outcomes in Clinical Trial Protocols: The SPIRIT-PRO Extension. JAMA. 2018;319(5):483-494. PMID: [29411037](https://pubmed.ncbi.nlm.nih.gov/29411037/) \
 
   [**SPIRIT-TCM**](/reporting-guidelines/standard-protocol-items-for-clinical-trials-with-traditional-chinese-medicine-spirit-tcm-extension-2018/): Dai L, Cheng CW, Tian R, Zhong LL, Li YP, Lyu AP, Chan AW, Shang HC, Bian ZX. Standard Protocol Items for Clinical Trials with Traditional Chinese Medicine 2018: Recommendations, Explanation and Elaboration (SPIRIT-TCM Extension 2018). Chin J Integr Med. 2019;25(1):71-79. PMID: [30484022](https://www.ncbi.nlm.nih.gov/pubmed/30484022) \
 
   [**SPENT 2019**](/reporting-guidelines/spirit-extension-n-of-1-trials-spent-2019/): Porcino AJ, Shamseer L, Chan A-W, Kravitz RL, Orkin A, Punja S, Ravaud P, Schmid CH, Vohra S; on behalf of the SPENT group. SPIRIT extension and elaboration for n-of-1 trials: SPENT 2019 checklist. BMJ 2020; 368. [Link to full-text](https://www.bmj.com/content/368/bmj.m122).
 
-  [**SPIRIT-AI**](/reporting-guidelines/spirit-artificial-intelligence/): Rivera SC, Liu X, Chan A-W, Denniston AK, Calvert MJ; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension.
+  [**SPIRIT-AI**](/reporting-guidelines/spirit-artificial-intelligence/): Rivera SC, Liu X, Chan A-W, Denniston AK, Calvert MJ; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension.\
 
   BMJ. 2020;370:m3210. PMID: [32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/)
 
