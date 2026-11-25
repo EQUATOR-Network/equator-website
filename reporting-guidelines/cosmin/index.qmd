@@ -10,7 +10,8 @@ pmid-id: '[40153128](https://pubmed.ncbi.nlm.nih.gov/40153128/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/33818733/
 relevant-urls: |-
   Read the [full text](https://doi.org/10.1007/s11136-025-03950-x) of COSMIN
-full-bibliographic-reference: Gagnier JJ, Tavares de Arruda G, Terwee CB, Mokkink LB. COSMIN reporting guideline for studies on measurement properties of patient‑reported outcome measures: version 2.0. Qual Life Res. 2025; 34: 1901-1911. PMID: [40153128](https://pubmed.ncbi.nlm.nih.gov/40153128/) [full text](https://doi.org/10.1007/s11136-025-03950-x)
+full-bibliographic-reference: |-
+  'Gagnier JJ, Tavares de Arruda G, Terwee CB, Mokkink LB. COSMIN reporting guideline for studies on measurement properties of patient‑reported outcome measures: version 2.0. Qual Life Res. 2025; 34: 1901-1911. PMID: [40153128](https://pubmed.ncbi.nlm.nih.gov/40153128/) [full text](https://doi.org/10.1007/s11136-025-03950-x)'
 
 
 # OPTIONAL FIELDS
