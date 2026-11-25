@@ -6,9 +6,14 @@ aliases:
 acronym: PRISMA-COSMIN
 provided-for: Reporting of systematic reviews of outcome measurement instruments (OMIs).
 rg-doi: '10.1016/j.jclinepi.2024.111422'
-pmid-id: '[38849061](https://pubmed.ncbi.nlm.nih.gov/38849061/)'
+pmid-id: |-
+  [38849061](https://pubmed.ncbi.nlm.nih.gov/38849061/)\
+  [38980635](https://pubmed.ncbi.nlm.nih.gov/38980635/)\
+  [38978063](https://pubmed.ncbi.nlm.nih.gov/38978063/)\
+  [38977535](https://pubmed.ncbi.nlm.nih.gov/38977535/)
 pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/38849061/'
-relevant-urls: ''
+relevant-urls: |-
+  Complete an interactive [PRISMA-Cosmin checklist](prisma-cosmin-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Elsman EBM, Mokkink LB, Terwee CB, Beaton D, Gagnier JJ, Tricco AC, Baba A, Butcher NJ, Smith M, Hofstetter C, Lee Aiyegbusi O, Berardi A, Farmer J, Haywood KL, Krause KR, Markham S, Mayo-Wilson E, Mehdipour A, Ricketts J, Szatmari P, Touma Z, Moher D, Offringa M. Guideline for reporting systematic reviews of outcome measurement instruments (OMIs): PRISMA-COSMIN for OMIs 2024. \
 
@@ -104,7 +109,7 @@ other: ''
 other-relevant-research: ''
 sticky: true
 downloads: |-
-  Download the PRISMA-COSMIN checklist [PDF](https://www.prisma-statement.org/s/PRISMA-COSMIN-Reporting-checklist-Full-reports-version-January-2024.pdf) / [Word](https://www.prisma-statement.org/s/PRISMA-COSMIN-Reporting-checklist-Full-reports-version-January-2024.docx) \
+  Download the PRISMA-COSMIN checklist [PDF](PRISMA-COSMIN-checklist.pdf) / [Word](PRISMA-COSMIN-checklist.docx) \
   
   Download the [PRISMA-COSMIN Explanation & Elaboration](https://www.prisma-statement.org/s/PRISMA-COSMIN-EE-Full-reports-version-June-2024.pdf) paper
 

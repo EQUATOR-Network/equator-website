@@ -1,0 +1,295 @@
+---
+pagetitle: "PRISMA-Equity 2012 checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --ext:#e3ecf9; --empty:#f2f2f2; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1200px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  /* Optional logo: hidden unless LOGO is set in the script below */
+  #tp-wrap .tp-right { margin-left:auto; text-align:right; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap #tp-logo { display:none; width:min(220px,50%); height:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap thead th.exth { background:var(--sect); }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap td.topic { width:13%; }
+  #tp-wrap td.item { width:5%; text-align:center; }
+  #tp-wrap td.std, #tp-wrap td.ext { width:33%; }
+  #tp-wrap td.ext { background:var(--ext); }
+  #tp-wrap td.empty { background:var(--empty); }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:11%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12.5px; margin:.6rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-foot { font-size:9.5px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap td, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img id="tp-logo" alt="PRISMA-Equity">
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">PRISMA-E 2012 checklist of items for reporting equity-focused systematic reviews</div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    Shaded grey cells mean there is no standard PRISMA item or no equity extension for that row.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section / Topic</th><th class="c">Item</th><th>Standard PRISMA item</th><th class="exth">Extension for equity-focused reviews</th>
+      <th class="pgh">Pg #<span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // ROWS entries:
+  //   "Text"  -> section bar
+  //   [topic, [[item no, standard PRISMA text, equity extension text], ...]]
+  //   Use "" for an empty standard or extension cell.
+  const ROWS = [
+    "Title",
+    ["Title", [["1", "Identify the report as a systematic review, meta-analysis, or both.", "Identify equity as a focus of the review, if relevant, using the term equity."]]],
+    "Abstract",
+    ["Structured summary", [
+      ["2", "Provide a structured summary including, as applicable: background; objectives; data sources; study eligibility criteria, participants, and interventions; study appraisal and synthesis methods; results; limitations; conclusions and implications of key findings; systematic review registration number.", "State research question(s) related to health equity."],
+      ["2A", "", "Present results of health equity analyses (e.g. subgroup analyses or meta-regression)."],
+      ["2B", "", "Describe extent and limits of applicability to disadvantaged populations of interest."]]],
+    "Introduction",
+    ["Rationale", [
+      ["3", "Describe the rationale for the review in the context of what is already known.", "Describe assumptions about mechanism(s) by which the intervention is assumed to have an impact on health equity."],
+      ["3A", "", "Provide the logic model/analytical framework, if done, to show the pathways through which the intervention is assumed to affect health equity and how it was developed."]]],
+    ["Objectives", [
+      ["4", "Provide an explicit statement of questions being addressed with reference to participants, interventions, comparisons, outcomes, and study design (PICOS).", "Describe how disadvantage was defined if used as criterion in the review (e.g. for selecting studies, conducting analyses or judging applicability)."],
+      ["4A", "", "State the research questions being addressed with reference to health equity."]]],
+    "Methods",
+    ["Protocol and registration", [["5", "Indicate if a review protocol exists, if and where it can be accessed (e.g., Web address), and, if available, provide registration information including registration number.", ""]]],
+    ["Eligibility criteria", [
+      ["6", "Specify study characteristics (e.g., PICOS, length of follow-up) and report characteristics (e.g., years considered, language, publication status) used as criteria for eligibility, giving rationale.", "Describe the rationale for including particular study designs related to equity research questions."],
+      ["6A", "", "Describe the rationale for including the outcomes - e.g. how these are relevant to reducing inequity."]]],
+    ["Information sources", [["7", "Describe all information sources (e.g., databases with dates of coverage, contact with study authors to identify additional studies) in the search and date last searched.", "Describe information sources (e.g. health, non-health, and grey literature sources) that were searched that are of specific relevance to address the equity questions of the review."]]],
+    ["Search", [["8", "Present full electronic search strategy for at least one database, including any limits used, such that it could be repeated.", "Describe the broad search strategy and terms used to address equity questions of the review."]]],
+    ["Study selection", [["9", "State the process for selecting studies (i.e., screening, eligibility, included in systematic review, and, if applicable, included in the meta-analysis).", ""]]],
+    ["Data collection process", [["10", "Describe method of data extraction from reports (e.g., piloted forms, independently, in duplicate) and any processes for obtaining and confirming data from investigators.", ""]]],
+    ["Data items", [["11", "List and define all variables for which data were sought (e.g., PICOS, funding sources) and any assumptions and simplifications made.", "List and define data items related to equity, where such data were sought (e.g. using PROGRESS-Plus or other criteria, context)."]]],
+    ["Risk of bias in individual studies", [["12", "Describe methods used for assessing risk of bias of individual studies (including specification of whether this was done at the study or outcome level), and how this information is to be used in any data synthesis.", ""]]],
+    ["Summary measures", [["13", "State the principal summary measures (e.g., risk ratio, difference in means).", ""]]],
+    ["Synthesis of results", [["14", "Describe the methods of handling data and combining results of studies, if done, including measures of consistency (e.g., I²) for each meta-analysis.", "Describe methods of synthesizing findings on health inequities (e.g. presenting both relative and absolute differences between groups)."]]],
+    ["Risk of bias across studies", [["15", "Specify any assessment of risk of bias that may affect the cumulative evidence across studies (e.g., publication bias, selective reporting within studies).", ""]]],
+    ["Additional analyses", [["16", "Describe methods of additional analyses (e.g., sensitivity or subgroup analyses, meta-regression), if done, indicating which were pre-specified.", "Describe methods of additional synthesis approaches related to equity questions, if done, indicating which were pre-specified."]]],
+    "Results",
+    ["Study selection", [["17", "Give numbers of studies screened, assessed for eligibility, and included in the review, with reasons for exclusions at each stage, ideally with a flow diagram.", ""]]],
+    ["Study characteristics", [["18", "For each study, present characteristics for which data were extracted (e.g., study size, PICOS, follow-up period) and provide the citations.", "Present the population characteristics that relate to the equity questions across the relevant PROGRESS-Plus or other factors of interest."]]],
+    ["Risk of bias within studies", [["19", "Present data on risk of bias of each study and, if available, any outcome level assessment (see item 12).", ""]]],
+    ["Results of individual studies", [["20", "For all outcomes considered (benefits or harms), present, for each study: (a) simple summary data for each intervention group (b) effect estimates and confidence intervals, ideally with a forest plot.", ""]]],
+    ["Synthesis of results", [["21", "Present results of each meta-analysis done, including confidence intervals and measures of consistency.", "Present the results of synthesizing findings on inequities (see 14)."]]],
+    ["Risk of bias across studies", [["22", "Present results of any assessment of risk of bias across studies (see Item 15).", ""]]],
+    ["Additional analysis", [["23", "Give results of additional analyses, if done (e.g., sensitivity or subgroup analyses, meta-regression [see Item 16]).", "Give the results of additional synthesis approaches related to equity objectives, if done, (see 16)."]]],
+    "Discussion",
+    ["Summary of evidence", [["24", "Summarize the main findings including the strength of evidence for each main outcome; consider their relevance to key groups (e.g., healthcare providers, users, and policy makers).", ""]]],
+    ["Limitations", [["25", "Discuss limitations at study and outcome level (e.g., risk of bias), and at review-level (e.g., incomplete retrieval of identified research, reporting bias).", ""]]],
+    ["Conclusions", [
+      ["26", "Provide a general interpretation of the results in the context of other evidence, and implications for future research.", "Present extent and limits of applicability to disadvantaged populations of interest and describe the evidence and logic underlying those judgments."],
+      ["26A", "", "Provide implications for research, practice or policy related to equity where relevant (e.g. types of research needed to address unanswered questions)."]]],
+    "Funding",
+    ["Funding", [["27", "Describe sources of funding for the systematic review and other support (e.g., supply of data); role of funders for the systematic review.", ""]]]
+  ];
+  const TITLE = "PRISMA-E 2012 checklist of items for reporting equity-focused systematic reviews";
+  // Footer paragraphs. [[text|url]] = hyperlink.
+  const FOOT = [
+    "From: Welch V, Petticrew M, Tugwell P, Moher D, O’Neill J, Waters E, White H, and the PRISMA-Equity Bellagio Group. (2012) PRISMA-Equity 2012 Extension: Reporting Guidelines for Systematic Reviews with a Focus on Health Equity. PLoS Med 9(10): e1001333. doi: [[https://doi.org/10.1371/journal.pmed.1001333|https://doi.org/10.1371/journal.pmed.1001333]]",
+    "For more information: [[http://equity.cochrane.org/equity-extension-prisma|http://equity.cochrane.org/equity-extension-prisma]]"
+  ];
+  // Optional logo (path relative to the site root, e.g. "/assets/logos/prisma-logo.png"). Leave "" for none.
+  const LOGO = "";
+  const FILENAME = "PRISMA-Equity-2012-checklist";
+
+  const STORE = "prisma-equity-2012-checklist-v1";
+  const NCOL = 5;
+  const link = s => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="${NCOL}">${r}</td></tr>`;
+    const [topic, items] = r, n = items.length;
+    return items.map(([code, std, ext], i) =>
+      `<tr>` + (i ? "" : `<td class="topic" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${code}</td>` +
+      `<td class="std${std ? "" : " empty"}">${std}</td>` +
+      `<td class="ext${ext ? "" : " empty"}">${ext}</td>` +
+      `<td class="pg"><input type="text" data-key="p${code}" placeholder="page no." aria-label="Page, item ${code}"></td></tr>`).join("");
+  }).join("");
+  document.getElementById("tp-foot").innerHTML = FOOT.map(t => `<p class="tp-foot">${link(t)}</p>`).join("");
+  if (LOGO) { const l = document.getElementById("tp-logo"); l.src = LOGO; l.style.display = "block"; }
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA-Equity 2012 checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export (A4 landscape) ----------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, foot, eqLogo) {
+    const F = "Arial", SZ = 17, W = [2000, 700, 5500, 5500, 1698], TOTAL = W.reduce((a, b) => a + b), NCOL = W.length;
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? NCOL : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section / Topic", hd), cell(1, "Item", { ...hd, center: true }),
+      cell(2, "Standard PRISMA item", hd), cell(3, "Extension for equity-focused reviews", { ...hd, fill: "B4C6E7" }),
+      cell(4, "Pg #", { ...hd, center: true })] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] })];
+      const [topic, items] = r;
+      return items.map(([code, std, ext], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length })]),
+        cell(1, code, { center: true }),
+        cell(2, std, { fill: std ? undefined : "F2F2F2" }),
+        cell(3, ext, { fill: ext ? "E3ECF9" : "F2F2F2" }),
+        cell(4, vals["p" + code] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [TOTAL - 4266, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const hleft = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const hright = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { spacing: { after: 0 } })];
+    top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, hleft), hcell(1, hright)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(title, { bold: true, size: 24 })], { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "PRISMA-E 2012 checklist", creator: "PRISMA-E 2012 checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      if (LOGO) { try { logo = new Uint8Array(await (await fetch(new URL(LOGO, document.baseURI))).arrayBuffer()); } catch (e) {} }
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = FILENAME + ".docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

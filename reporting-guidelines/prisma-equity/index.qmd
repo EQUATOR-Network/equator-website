@@ -1,25 +1,24 @@
 ---
 # REQUIRED FIELDS
-title: 'PRISMA-Equity 2012 Extension: Reporting Guidelines for Systematic Reviews
-  with a Focus on Health Equity'
-acronym: PRISMA-Equity 2012 or PRISMA-E 2012
+title: 'PRISMA-Equity 2012 Extension: Reporting Guidelines for Systematic Reviews with a Focus on Health Equity'
+acronym: PRISMA-Equity 2012
 provided-for: Systematic reviews with a focus on health equity.
-rg-doi: ''
+rg-doi: '10.1371/journal.pmed.1001333'
 pmid-id: '[23222917](http://www.ncbi.nlm.nih.gov/pubmed/23222917)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/23222917
-relevant-urls: ''
-full-bibliographic-reference: 'Welch V, Petticrew M, Tugwell P, Moher D, O''Neill
-  J, Waters E, White H; PRISMA-Equity Bellagio group. PRISMA-Equity 2012 Extension:
-  Reporting Guidelines for Systematic Reviews with a Focus on Health Equity. PLoS
-  Med. 2012;9(10): e1001333.'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1371/journal.pmed.1001333) of PRISMA-Equity \
+  
+  Complete an interactive [PRISMA-Equity checklist](prisma-equity-checklist.qmd), which you can save and upload when submitting your paper to a journal.
+full-bibliographic-reference: 'Welch V, Petticrew M, Tugwell P, Moher D, O''Neill J, Waters E, White H; PRISMA-Equity Bellagio group. PRISMA-Equity 2012 Extension: Reporting Guidelines for Systematic Reviews with a Focus on Health Equity. PLoS Med. 2012;9(10): e1001333. PMID: [23222917](http://www.ncbi.nlm.nih.gov/pubmed/23222917) [full text](https://doi.org/10.1371/journal.pmed.1001333)'
 
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: |-
-  Welch V, Petticrew M, Petkovic J, Moher D, Waters E, White H, Tugwell P; PRISMA-Equity Bellagio group. Extending the PRISMA statement to equity-focused systematic reviews (PRISMA-E 2012): explanation and elaboration.
+  Welch V, Petticrew M, Petkovic J, Moher D, Waters E, White H, Tugwell P; PRISMA-Equity Bellagio group. Extending the PRISMA statement to equity-focused systematic reviews (PRISMA-E 2012): explanation and elaboration.\
 
-  The explanation and elaboration paper for this guideline was published simultaneously in 2 journals. You can read the explanation and elaboration paper in either of these journals using the links below.
+  The explanation and elaboration paper for this guideline was published simultaneously in 2 journals. You can read the explanation and elaboration paper in either of these journals using the links below.\
 
   Int J Equity Health. 2015;14(1):92. PMID: [26450828](http://www.ncbi.nlm.nih.gov/pubmed/26450828)
 
@@ -28,7 +27,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.
+  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.\
 
   PLoS Med. 2021; 18: e1003583. PMID: [33780438](https://pubmed.ncbi.nlm.nih.gov/33780438/)
 
@@ -44,7 +43,7 @@ relevant-more: |-
 
   [**PRISMA-Equity**](/reporting-guidelines/prisma-equity/): Welch V, Petticrew M, Tugwell P, Moher D, O'Neill J, Waters E, White H; PRISMA-Equity Bellagio group. PRISMA-Equity 2012 Extension: Reporting Guidelines for Systematic Reviews with a Focus on Health Equity. PLoS Med. 2012; 9: e1001333. PMID: [23222917](http://www.ncbi.nlm.nih.gov/pubmed/23222917) \
 
-  Welch V, Petticrew M, Petkovic J, Moher D, Waters E, White H, Tugwell P; PRISMA-Equity Bellagio group. Extending the PRISMA statement to equity-focused systematic reviews (PRISMA-E 2012): explanation and elaboration.
+  Welch V, Petticrew M, Petkovic J, Moher D, Waters E, White H, Tugwell P; PRISMA-Equity Bellagio group. Extending the PRISMA statement to equity-focused systematic reviews (PRISMA-E 2012): explanation and elaboration.\
 
   Int J Equity Health. 2015;14(1):92. PMID: [26450828](http://www.ncbi.nlm.nih.gov/pubmed/26450828)
 
@@ -95,15 +94,15 @@ relevant-more: |-
     [**PRISMA-Children and Adolsecents**](/reporting-guidelines/prisma-children-and-adolescents/): Baba A, Farid-Kapadia M, Smith M, Hartling L, Moher D, Hooft L, Offringa M. PRISMA-Children and Adolescents (PRISMA-C) 2026 extension statement and explanation: enhancing the reporting and utility of systematic reviews of interventions in paediatrics. BMJ 2026; 39: e088561.PMID: [42055583](https://pubmed.ncbi.nlm.nih.gov/42055583/)
 website-url: <https://www.prisma-statement.org/equity>
 additional-languages: |-
-additional-information: 'Guidance for developing protocols for systematic reviews and meta-analyses is provided in the PRISMA-P Statement. For further details please visit: [PRISMA-P Statement](/reporting-guidelines/prisma-protocols/)'
+additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: PRISMA-Equity checklist [Word](https://www.prisma-statement.org/s/PRISMA-Equity-Checklist.docx)
-  / [PDF](https://www.prisma-statement.org/s/PRISMA-Equity-Checklist.docx)
-
+downloads: |-
+  Download the PRISMA-Equity checklist [PDF](PRISMA-Equity-Checklist.pdf)
+  / [Word](PRISMA-Equity-Checklist.docx)
 
 # LIST FIELDS
 categories:

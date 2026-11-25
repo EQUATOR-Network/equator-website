@@ -1,0 +1,324 @@
+---
+pagetitle: "PRISMA-COSMIN for OMIs 2024 checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#6a67ce; --head:#6a67ce; --sect:#009acd; --sub:#c9f0ff; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  /* Optional logo: hidden unless LOGO is set in the script below */
+  #tp-wrap .tp-right { margin-left:auto; text-align:right; }
+  /* EQUATOR logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap #tp-logo { display:none; width:min(220px,50%); height:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-sub { font-size:14px; margin:0 0 .4rem; color:#333; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); color:#fff; font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); color:#fff; font-weight:normal; padding:2px 6px; }
+  #tp-wrap tr.sub td { background:var(--sub); padding:2px 6px 2px 16px; }
+  #tp-wrap td.topic { width:19%; } #tp-wrap td.topic.ind { padding-left:16px; }
+  #tp-wrap td.item { width:6%; text-align:center; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:13%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12px; margin:.5rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #6a67ce; background:#6a67ce; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#6a67ce; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-sub { font-size:11px; }
+    #tp-wrap .tp-foot { font-size:9px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td, #tp-wrap tr.sub td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top"><img id="tp-logo" alt="PRISMA-COSMIN">
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">PRISMA-COSMIN for OMIs 2024 checklist: reporting systematic reviews of outcome measurement instruments (OMIs)</div>
+  <p class="tp-sub">Full reports</p>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) or section where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section and Topic</th><th class="c">#</th><th>Checklist item<sup>a</sup></th>
+      <th class="pgh">Location<span class="tp-hint">type page no. or section in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // ROWS entries:
+  //   "Text"            -> main section bar
+  //   ["S", "Text"]     -> sub-section bar (used inside the abstract)
+  //   [topic, indented?, [[item no, text], ...]] -> topic with one or more items
+  const ROWS = [
+    "TITLE",
+    ["Title", false, [["1", "Identify the report as a systematic review and include as applicable the following (in any order): outcome domain of interest, population of interest, name/type of OMIs of interest, and measurement properties of interest."]]],
+    "ABSTRACT",
+    ["S", "OPEN SCIENCE"],
+    ["Funding<sup>b</sup>", true, [["2.2", "Specify the primary source of funding for the review."]]],
+    ["Registration", true, [["2.3", "Provide the register name and registration number."]]],
+    ["S", "BACKGROUND"],
+    ["Objectives", true, [["2.4", "Provide an explicit statement of the main objective(s) or question(s) the review addresses."]]],
+    ["S", "METHODS"],
+    ["Eligibility criteria", true, [["2.5", "Specify the inclusion and exclusion criteria for the review."]]],
+    ["Information sources", true, [["2.6", "Specify the information sources (e.g., databases, registers) used to identify studies and the date when each was last searched."]]],
+    ["Risk of bias", true, [["2.7", "Specify the methods used to assess risk of bias in the included studies."]]],
+    ["Measurement properties", true, [["2.8", "Specify the methods used to rate the results of a measurement property."]]],
+    ["Synthesis methods", true, [["2.9", "Specify the methods used to present and synthesize results."]]],
+    ["S", "RESULTS"],
+    ["Included studies", true, [["2.10", "Give the total number of included OMIs and study reports."]]],
+    ["Synthesis of results", true, [["2.11", "Present the syntheses of results of OMIs, indicating the certainty of the evidence."]]],
+    ["S", "DISCUSSION"],
+    ["Limitations of evidence", true, [["2.12", "Provide a brief summary of the limitations of the evidence included in the review (e.g., study risk of bias, inconsistency, and imprecision)."]]],
+    ["Interpretation", true, [["2.13", "Provide a general interpretation of the results and important implications."]]],
+    "PLAIN LANGUAGE SUMMARY",
+    ["Plain language summary", false, [["3", "If allowed by the journal, provide a plain language summary with background information and key findings."]]],
+    "OPEN SCIENCE",
+    ["Registration and protocol", false, [
+      ["4a", "Provide registration information for the review, including register name and registration number, or state that the review was not registered."],
+      ["4b", "Indicate where the review protocol can be accessed, or state that a protocol was not prepared."],
+      ["4c", "Describe and explain any amendments to information provided at registration or in the protocol."]]],
+    ["Support", false, [["5", "Describe sources of financial or non-financial support for the review, and the role of the funders in the review."]]],
+    ["Competing interests", false, [["6", "Declare any competing interests of review authors."]]],
+    ["Availability of data, code, and other materials", false, [["7", "Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review."]]],
+    "INTRODUCTION",
+    ["Rationale", false, [["8", "Describe the rationale for the review in the context of existing knowledge."]]],
+    ["Objectives", false, [["9", "Provide an explicit statement of the objective(s) or question(s) the review addresses and include as applicable the following (in any order): outcome domain of interest, population of interest, name/type of OMIs of interest, and measurement properties of interest."]]],
+    "METHODS",
+    ["Followed guidelines", false, [["10", "Specify, with references, the methodology and/or guidelines used to conduct the systematic review."]]],
+    ["Eligibility criteria", false, [["11", "Specify the inclusion and exclusion criteria for the review."]]],
+    ["Information sources", false, [["12", "Specify all databases, registers, preprint servers, websites, organizations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted."]]],
+    ["Search strategy", false, [["13", "Present the full search strategies for all databases, registers, and websites, including any filters and limits used."]]],
+    ["Selection process", false, [["14", "Specify the methods used to decide whether a study met the inclusion criteria of the review, e.g., including how many reviewers screened each record and each report retrieved, whether they worked independently, and if applicable, details of automation tools/AI used in the process."]]],
+    ["Data collection process", false, [["15", "Specify the methods used to collect data from reports, e.g., including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools/AI used in the process."]]],
+    ["Data items", false, [["16", "List and define which data were extracted (e.g., characteristics of study populations and OMIs, measurement properties’ results, and aspects of feasibility and interpretability). Describe methods used to deal with any missing or unclear information."]]],
+    ["Study risk of bias assessment", false, [["17", "Specify the methods used to assess risk of bias in the included studies, e.g., including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and if applicable, details of automation tools/AI used in the process."]]],
+    ["Measurement properties", false, [["18", "Specify the methods used to rate the results of a measurement property for each individual study and for the summarized or pooled results, e.g., including how many reviewers rated each study and whether they worked independently."]]],
+    ["Synthesis methods", false, [
+      ["19a", "Describe the processes used to decide which studies were eligible for each synthesis."],
+      ["19b", "Describe any methods used to synthesize results."],
+      ["19c", "If applicable, describe any methods used to explore possible causes of inconsistency among study results (e.g., subgroup analysis)."],
+      ["19d", "If applicable, describe any sensitivity analyses conducted to assess robustness of the synthesized results."]]],
+    ["Certainty assessment", false, [["20", "Describe any methods used to assess certainty (or confidence) in the body of evidence."]]],
+    ["Formulating recommendations", false, [["21", "If appropriate, describe any methods used to formulate recommendations regarding the suitability of OMIs for a particular use."]]],
+    "RESULTS",
+    ["Study selection", false, [
+      ["22a", "Describe the results of the search and selection process, from the number of records identified in the search to the number of study reports included in the review, ideally using a flow diagram. If applicable, also report the final number of OMIs included and the number of study reports relevant to each OMI. [T]"],
+      ["22b", "Cite study reports that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded."]]],
+    ["OMI characteristics", false, [
+      ["23a", "Present characteristics of each included OMI, with appropriate references. [T]"],
+      ["23b", "If applicable, present interpretability aspects for each included OMI. [T]"],
+      ["23c", "If applicable, present feasibility aspects for each included OMI. [T]"]]],
+    ["Study characteristics", false, [["24", "Cite each included study report evaluating one or more measurement properties and present its characteristics. [T]"]]],
+    ["Risk of bias in studies", false, [["25", "Present assessments of risk of bias for each included study. [T]"]]],
+    ["Results of individual studies", false, [["26", "For all measurement properties, present for each study: (a) the reported result and (b) the rating against quality criteria, ideally using structured tables or plots. [T]"]]],
+    ["Results of syntheses", false, [
+      ["27a", "Present results of all syntheses conducted. For each measurement property of an OMI, present: (a) the summarized or pooled result and (b) the overall rating against quality criteria. [T]"],
+      ["27b", "If applicable, present results of all investigations of possible causes of inconsistency among study results."],
+      ["27c", "If applicable, present results of all sensitivity analyses conducted to assess the robustness of the synthesized results."]]],
+    ["Certainty of evidence", false, [["28", "Present assessments of certainty (or confidence) in the body of evidence for each measurement property of an OMI assessed. [T]"]]],
+    ["Recommendations", false, [["29", "If appropriate, make recommendations for suitable OMIs for a particular use."]]],
+    "DISCUSSION",
+    ["Discussion", false, [
+      ["30a", "Provide a general interpretation of the results in the context of other evidence."],
+      ["30b", "Discuss any limitations of the evidence included in the review."],
+      ["30c", "Discuss any limitations of the review processes used."],
+      ["30d", "Discuss implications of the results for practice, policy, and future research."]]]
+  ];
+  const TITLE = "PRISMA-COSMIN for OMIs 2024 checklist: reporting systematic reviews of outcome measurement instruments (OMIs)";
+  const SUBTITLE = "Full reports";
+  // Footer paragraphs. [[text|url]] = hyperlink, <sup>x</sup> = superscript.
+  const FOOT = [
+    "It is strongly recommended that this checklist is used in conjunction with the PRISMA-COSMIN for OMIs 2024 Explanation and Elaboration (E&E) document for important clarification on the checklist items. The PRISMA-COSMIN for OMIs 2024 statement checklist is distributed under the terms of the Creative Commons license.",
+    "<sup>a</sup> If an item is marked with [T], a template for data visualization is available. These templates can be downloaded from [[www.prisma-cosmin.ca|https://www.prisma-cosmin.ca]].",
+    "<sup>b</sup> Item #2.1 in the PRISMA-COSMIN for OMIs 2024 Abstracts checklist refers to the title. Item #2.1 in the Abstracts checklist is identical to item #1 in the Full Report checklist.",
+    "From: Elsman EBM, Mokkink LB, Terwee CB, Beaton D, Gagnier JJ, Tricco AC, et al. Guideline for reporting systematic reviews of outcome measurement instruments (OMIs): PRISMA-COSMIN for OMIs 2024. Quality of Life Research (2024), doi: [[https://doi.org/10.1007/s11136-024-03634-y|https://doi.org/10.1007/s11136-024-03634-y]]."
+  ];
+  // Optional logo (path relative to the site root, e.g. "/assets/logos/prisma-cosmin-logo.png"). Leave "" for none.
+  const LOGO = "";
+  const FILENAME = "PRISMA-COSMIN-2024-checklist";
+
+  const STORE = "prisma-cosmin-2024-checklist-v1";
+  const NCOL = 4;
+  const link = s => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="${NCOL}">${r}</td></tr>`;
+    if (r[0] === "S") return `<tr class="sub"><td colspan="${NCOL}">${r[1]}</td></tr>`;
+    const [topic, ind, items] = r, n = items.length;
+    return items.map(([code, text], i) =>
+      `<tr>` + (i ? "" : `<td class="topic${ind ? " ind" : ""}" rowspan="${n}">${topic}</td>`) +
+      `<td class="item">${code}</td><td class="txt">${text}</td>` +
+      `<td class="pg"><input type="text" data-key="p${code}" placeholder="location" aria-label="Location, item ${code}"></td></tr>`).join("");
+  }).join("");
+  document.getElementById("tp-foot").innerHTML = FOOT.map(t => `<p class="tp-foot">${link(t)}</p>`).join("");
+  if (LOGO) { const l = document.getElementById("tp-logo"); l.src = LOGO; l.style.display = "block"; }
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA-COSMIN for OMIs 2024 checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all locations and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, subtitle, foot, eqLogo) {
+    const F = "Arial", SZ = 17, W = [2000, 650, 6616, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup, color: o.color });
+    // Inline markup: [[text|url]] hyperlink, <sup>x</sup> superscript
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]|<sup>(.*?)<\/sup>/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        if (m[3] !== undefined) out.push(run(m[3], { ...o, sup: true }));
+        else out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+    });
+    const hd = { fill: "6A67CE", bold: true, mid: true, color: "FFFFFF" };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, "Section and Topic", hd), cell(1, "#", { ...hd, center: true }),
+      cell(2, "Checklist item<sup>a</sup>", hd), cell(3, "Location", hd)] });
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "009ACD", color: "FFFFFF", keepNext: true })] })];
+      if (r[0] === "S") return [new D.TableRow({ cantSplit: true, children: [cell(0, r[1], { span: true, fill: "C9F0FF", indent: 260, keepNext: true })] })];
+      const [topic, ind, items] = r;
+      return items.map(([code, text], i) => new D.TableRow({ cantSplit: true, children: [
+        ...(i ? [] : [cell(0, topic, { rowSpan: items.length, indent: ind ? 260 : 90 })]),
+        cell(1, code, { center: true }), cell(2, text), cell(3, vals["p" + code] || "", { center: true, mid: true })] }));
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [TOTAL - 4266, 4266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const hleft = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const hright = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { spacing: { after: 0 } })];
+    top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, hleft), hcell(1, hright)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(title, { bold: true, size: 24 })], { spacing: { after: 60 } }));
+    top.push(para([run(subtitle, { size: 20 })], { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "PRISMA-COSMIN for OMIs 2024 checklist", creator: "PRISMA-COSMIN for OMIs 2024 checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      if (LOGO) { try { logo = new Uint8Array(await (await fetch(new URL(LOGO, document.baseURI))).arrayBuffer()); } catch (e) {} }
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, SUBTITLE, FOOT, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = FILENAME + ".docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
