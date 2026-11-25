@@ -33,7 +33,7 @@ additional-languages: |-
   
   A Chinese translation of GRIPP2 can be found [here](https://www.doi.org/10.7507/1672-2531.201709138)\
   
-  Read the [full text](https://doi.org/10.1016/j.gaceta.2026.102564) of the Spanish translation of GRIPP2. \
+  Read the [full text](https://doi.org/10.1016/j.gaceta.2026.102564) of the [Spanish translation](https://digital.csic.es/cris/project/pj00418) of GRIPP2. \
   
   Download a Spanish translation of the GRIPP2 long form checklist [PDF](GRIPP2-Spanish-long.pdf) / [Word](GRIPP2-Spanish-long.docx) \
 
@@ -41,7 +41,7 @@ additional-languages: |-
   
   Complete an interactive Spanish version of the [GRIPP2 checklist long form](gripp2-spanish-long.qmd), which you can save and upload when submitting your paper to a journal.\
   
-  Complete an interactive Spanish version of the [GRIPP2 checklist short form](gripp2-spanish-short.qmd), which you can save and upload when submitting your paper to a journal.
+  Complete an interactive Spanish version of the [GRIPP2 checklist short form](gripp2-spanish-short.qmd), which you can save and upload when submitting your paper to a journal. 
   
 additional-information: Read the project [summary (PDF)](3869_Guidelines-for-reporting-the-impact-of-patient-involvement.pdf)
   (December 2010)
