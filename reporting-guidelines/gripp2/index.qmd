@@ -31,6 +31,8 @@ website-url: ''
 additional-languages: |-
   A Japanese translation of the GRIPP2 short and long form can be found [here](GRIPP2_Japanese.pdf). \
   
+  A Chinese translation of GRIPP2 can be found [here](https://www.doi.org/10.7507/1672-2531.201709138)\
+  
   Read the [full text](https://doi.org/10.1016/j.gaceta.2026.102564) of the Spanish translation of GRIPP2. \
   
   Download a Spanish translation of the GRIPP2 long form checklist [PDF](GRIPP2-Spanish-long.pdf) / [Word](GRIPP2-Spanish-long.docx) \

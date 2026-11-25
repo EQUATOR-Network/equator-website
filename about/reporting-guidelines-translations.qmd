@@ -36,7 +36,7 @@ checklist and an explanation paper), each is listed separately.
 **Jump to a language:**
 
 [Arabic](#arabic) (2) · [Bulgarian](#bulgarian) (1) · [Chinese](#chinese)
-(21) · [Croatian](#croatian) (3) · [Dutch](#dutch) (4) ·
+(22) · [Croatian](#croatian) (3) · [Dutch](#dutch) (4) ·
 [Finnish](#finnish) (1) · [French](#french) (15) · [French
 (Canadian)](#french-canadian) (1) · [German](#german) (7) · [Greek](#greek)
 (2) · [Italian](#italian) (13) · [Japanese](#japanese) (17) ·
@@ -49,20 +49,20 @@ checklist and an explanation paper), each is listed separately.
 ## Arabic {#arabic}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [GATHER](/reporting-guidelines/gather/) statement checklist | [PDF](http://gather-statement.org/download/gather-checklist-arabic-pdf/) | [Word](http://gather-statement.org/download/gather-checklist-arabic-docx/) | – |
 | [PRISMA 2020](/reporting-guidelines/prisma/) statement paper | [PDF](https://www.prisma-statement.org/s/PRISMA_2020_Arabic_Translation.pdf) | – | – |
 
 ## Bulgarian {#bulgarian}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [PRISMA 2020](/reporting-guidelines/prisma/) checklist | – | [Word](https://www.prisma-statement.org/s/PRISMA_2020_checklist-BG-778f.docx) | – |
 
 ## Chinese {#chinese}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Chinese_0.pdf) | – | – |
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-Chinese-2013.pdf) | – | – |
 | [CEDRIC-HIV](/reporting-guidelines/cedric-hiv/) | [PDF](http://cedric-hiv.com/wp-content/uploads/2023/08/CEDRIC-HIV_Chinese_v2.pdf) | [Word](http://cedric-hiv.com/wp-content/uploads/2023/08/CEDRIC-HIV_Chinese_v2.docx) | – |
@@ -72,6 +72,7 @@ checklist and an explanation paper), each is listed separately.
 | [CRISP](/reporting-guidelines/crisp/) checklist | [PDF](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP-Checklist-Chinese-Version.pdf) | – | – |
 | [CRISP](/reporting-guidelines/crisp/) checklist explanation & examples | – | – | [Web page](https://www.chinagp.net/CN/10.12114/j.issn.1007-9572.2024.A0025) |
 | [GATHER](/reporting-guidelines/gather/) statement checklist | [PDF](http://gather-statement.org/download/gather-checklist-chinese-pdf/) | [Word](http://gather-statement.org/download/gather-checklist-chinese-docx/) | – |
+| [GRIPP2](/reporting-guidelines/gripp2/) |  |  | [Web page](https://www.doi.org/10.7507/1672-2531.201709138) |
 | [PRISMA 2020](/reporting-guidelines/prisma/) checklist | – | [Word](https://www.prisma-statement.org/s/PRISMA_2020_checklist_Chinese.docx) | – |
 | [PRISMA 2020](/reporting-guidelines/prisma/) for abstracts checklist | – | [Word](https://www.prisma-statement.org/s/PRISMA_2020_abstract_checklist_Chinese.docx) | – |
 | [PRISMA for Acupuncture](/reporting-guidelines/prisma-acupuncture/) | [PDF](https://equator-network.org/reporting-guidelines/prisma-acupuncture/PRISMA-A-checklist-Chinese.pdf) | [Word](https://equator-network.org/reporting-guidelines/prisma-acupuncture/PRISMA-A-checklist-Chinese.docx) | – |
@@ -88,7 +89,7 @@ checklist and an explanation paper), each is listed separately.
 ## Croatian {#croatian}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-Croatian-2013.pdf) | – | – |
 | [PRISMA 2020](/reporting-guidelines/prisma/) statement | [PDF](https://www.prisma-statement.org/s/PRISMA_2020_statement_Croatian.pdf) | – | – |
 | [TRIPOD+AI](/reporting-guidelines/tripod/) | [PDF](https://www.tripod-statement.org/wp-content/uploads/2025/03/Checklist_TRIPODAI_Croatian.pdf) | – | – |
@@ -96,7 +97,7 @@ checklist and an explanation paper), each is listed separately.
 ## Dutch {#dutch}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Dutch.pdf) | – | – |
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-Dutch-2013.pdf) | – | – |
 | [CheckUp](/reporting-guidelines/checkup/) checklist | [PDF](https://equator-network.org/reporting-guidelines/reporting-items-for-updated-clinical-guidelines-checkup/CheckUp2017_Dutch.pdf) | – | – |
@@ -105,13 +106,13 @@ checklist and an explanation paper), each is listed separately.
 ## Finnish {#finnish}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [TIDieR](/reporting-guidelines/tidier/) checklist | – | [Word](http://www.tidierguide.org/assets/docs/tidier-checklist--finish.docx) | – |
 
 ## French {#french}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20French.pdf) | – | – |
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-French-2013.pdf) | – | – |
 | [CEDRIC-HIV](/reporting-guidelines/cedric-hiv/) | [PDF](http://cedric-hiv.com/wp-content/uploads/2023/08/CEDRIC-HIV_FR_v2.pdf) | [Word](http://cedric-hiv.com/wp-content/uploads/2023/08/CEDRIC-HIV_FR_v2.docx) | – |
@@ -131,13 +132,13 @@ checklist and an explanation paper), each is listed separately.
 ## French (Canadian) {#french-canadian}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [PRISMA 2020](/reporting-guidelines/prisma/) checklist | – | [Word](https://www.prisma-statement.org/s/PRISMA_2020_liste_de_controle.docx) | – |
 
 ## German {#german}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20German.pdf) | – | – |
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-German-2013.pdf) | – | – |
 | [CRISP](/reporting-guidelines/crisp/) checklist | [PDF](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP_Checklist_German_Deutsch.pdf) | [Word](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP_Checklist_German_Deutsch.docx) | – |
@@ -149,14 +150,14 @@ checklist and an explanation paper), each is listed separately.
 ## Greek {#greek}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [PRISMA 2020](/reporting-guidelines/prisma/) checklist | [PDF](https://www.prisma-statement.org/s/PRISMA_2020_checklist_Greek.pdf) | – | – |
 | [STROBE](/reporting-guidelines/strobe/) statement | – | – | [Web page](https://www.strobe-statement.org/download/greek-translation-of-strobe-statement) |
 
 ## Italian {#italian}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [AGREE](/reporting-guidelines/agree/) | – | [Word](https://equator-network.org/reporting-guidelines/the-agree-reporting-checklist-a-tool-to-improve-reporting-of-clinical-practice-guidelines/Italian-AGREE-Reporting-Checklist.doc) | – |
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Italian.pdf) | – | – |
 | [CARE](/reporting-guidelines/care/) 2013 | [PDF](http://www.evidence.it/articoli/pdf/e1000147.pdf) | – | – |
@@ -174,7 +175,7 @@ checklist and an explanation paper), each is listed separately.
 ## Japanese {#japanese}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202010%20-%20Japanese.pdf) | – | – |
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-Japanese-2013.pdf) | – | – |
 | [CHEERS](/reporting-guidelines/cheers/) 2022 | – | – | [Web page](https://www.jstage.jst.go.jp/article/jniph/72/4/72_344/_article/-char/en) |
@@ -196,7 +197,7 @@ checklist and an explanation paper), each is listed separately.
 ## Korean {#korean}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202010%20-%20Korean.pdf) | – | – |
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-Korean-2013.pdf) | – | – |
 | [CONSORT 2025](/reporting-guidelines/consort/) statement paper | – | – | [Web page](https://e-emj.org/journal/view.php?doi=10.12771/emj.2025.00409) |
@@ -209,13 +210,13 @@ checklist and an explanation paper), each is listed separately.
 ## Macedonian {#macedonian}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [SAGER](/reporting-guidelines/sager-guidelines/) guidelines | [PDF](https://ease.org.uk/wp-content/uploads/2026/05/SAGER-guidelines-Macedonian-translation.pdf) | – | – |
 
 ## Persian {#persian}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [PRISMA 2020](/reporting-guidelines/prisma/) checklist | [PDF](https://www.prisma-statement.org/s/PRISMA_2020_checklist_Persian.pdf) | – | – |
 | [PRISMA 2020](/reporting-guidelines/prisma/) for abstracts checklist | [PDF](https://www.prisma-statement.org/s/PRISMA_2020_abstract_checklist_Persian.pdf) | – | – |
 | [PRISMA 2020](/reporting-guidelines/prisma/) statement paper | [PDF](https://www.prisma-statement.org/s/PRISMA_2020_statement_Persian.pdf) | – | – |
@@ -225,13 +226,13 @@ checklist and an explanation paper), each is listed separately.
 ## Polish {#polish}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [AQUA](/reporting-guidelines/aqua/) checklist | – | – | [Web page](https://pubmed.ncbi.nlm.nih.gov/29121042/) |
 
 ## Portuguese {#portuguese}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Portuguese.pdf) | – | – |
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-Portuguese-2013.pdf) | – | – |
 | [CEDRIC-HIV](/reporting-guidelines/cedric-hiv/) | [PDF](http://cedric-hiv.com/wp-content/uploads/2023/08/CEDRIC-HIV_Portuguese_v2.pdf) | [Word](http://cedric-hiv.com/wp-content/uploads/2023/08/CEDRIC-HIV_Portuguese_v2.docx) | – |
@@ -254,7 +255,7 @@ checklist and an explanation paper), each is listed separately.
 ## Portuguese (Brazilian) {#portuguese-brazilian}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [COREQ](/reporting-guidelines/coreq/) | – | – | [Web page](https://www.scielo.br/j/ape/a/sprbhNSRB86SB7gQsrNnH7n/?lang=en) |
 | [CRISP](/reporting-guidelines/crisp/) checklist | [PDF](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP_Checklist_Brazilian_Portuguese.pdf) | [Word](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP_Checklist_Brazilian_Portuguese.docx) | – |
 | [PRISMA-COSMIN](/reporting-guidelines/prisma-cosmin/) checklist | [PDF](https://www.prisma-statement.org/s/PRISMA-COSMIN-checklist_Brasil.pdf) | – | – |
@@ -264,7 +265,7 @@ checklist and an explanation paper), each is listed separately.
 ## Russian {#russian}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-Russian-2019.pdf) | – | – |
 | [GATHER](/reporting-guidelines/gather/) statement checklist | – | – | [Web page](https://www.who.int/ru/publications/m/item/gather-checklist) |
 | [RIGHT](/reporting-guidelines/right-statement/) statement | [PDF](https://www.right-statement.org/country/russia_checklist.pdf) | – | – |
@@ -272,7 +273,7 @@ checklist and an explanation paper), each is listed separately.
 ## Spanish {#spanish}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [AQUA](/reporting-guidelines/aqua/) checklist | [PDF](https://eurjanat.com/v1/data/pdf/eja.170263bh.pdf) | – | – |
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%20guidelines%202.0%20-%20Spanish.pdf) | – | – |
 | [CARE](/reporting-guidelines/care/) | [PDF](https://equator-network.org/reporting-guidelines/care/CARE-checklist-Spanish-2013.pdf) | – | – |
@@ -301,7 +302,7 @@ checklist and an explanation paper), each is listed separately.
 ## Turkish {#turkish}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [ARRIVE](/reporting-guidelines/arrive/) guideline 2.0 | [PDF](https://arriveguidelines.org/sites/arrive/files/documents/ARRIVE%202.0%20Z-card%20inside%20%28Turkish%29%20-%20Website%20FINAL_0.pdf) | – | – |
 | [CHEERS](/reporting-guidelines/cheers/) 2022 | – | – | [Web page](https://www.turkiyeklinikleri.com/inpress_article/tr-konsolide-saglik-ekonomisi-degerlendirme-raporlama-standartlari-turkce-saglik-hizmetlerinin-ekonomikdegerlendirmesinde-raporlama-standartlarinin-turkiye-uyarlamasi-104015.html) |
 | [CRISP](/reporting-guidelines/crisp/) checklist | [PDF](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP-Checklist-Turkish-final-2024.10.1-1.pdf) | [Word](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP-Checklist-Turkish-final-2024.10.1.docx) | – |
@@ -317,14 +318,14 @@ checklist and an explanation paper), each is listed separately.
 ## Ukrainian {#ukrainian}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [PRISMA 2020](/reporting-guidelines/prisma/) checklist | – | [Word](https://www.prisma-statement.org/s/PRISMA_2020_checklist_Ukrainian.docx) | – |
 | [SAGER](/reporting-guidelines/sager-guidelines/) guidelines | [PDF](https://ease.org.uk/wp-content/uploads/2026/09/SAGER-Guidelines_Springer_Ukr.pdf) | – | – |
 
 ## Vietnamese {#vietnamese}
 
 | Reporting guideline | PDF | Word | Web page |
-|:-------------------------------|:-------------:|:-------------:|:-------------:|
+|:---------------------------|:--------------:|:--------------:|:--------------:|
 | [PRISMA 2020](/reporting-guidelines/prisma/) checklist | – | [Word](https://www.prisma-statement.org/s/PRISMA_2020_checklist_Vietnamese.docx) | – |
 | [PRISMA 2020](/reporting-guidelines/prisma/) for abstracts checklist | – | [Word](https://www.prisma-statement.org/s/PRISMA_2020_abstract_checklist_Vietnamese-jwgs.docx) | – |
 | [PRISMA-S](/reporting-guidelines/prisma-s/) checklist | – | [Word](https://www.prisma-statement.org/s/PRISMA-S-Checklist_Vietnamese.docx) | – |
