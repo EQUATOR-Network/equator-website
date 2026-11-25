@@ -5,16 +5,15 @@ aliases:
   - /reporting-guidelines/delphi-studies-in-social-and-health-sciences-recommendations-for-an-interdisciplinary-standardized-reporting-delphistar-results-of-a-delphi-study/
 acronym: DELPHISTAR
 provided-for: Reporting Delphi studies in the health and social sciences
-rg-doi: ''
+rg-doi: '10.1371/journal.pone.0304651'
 pmid-id: '[39186713](https://pubmed.ncbi.nlm.nih.gov/39186713/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/39186713/
-relevant-urls: '[Read the full-text](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0304651)
-  of the DELPHISTAR guideline.'
-full-bibliographic-reference: Niederberger M, Schifano J, Deckert S, Hirt J, Homberg
-  A, Köberich S, Kuhn R, Rommel A, Sonnberger M; DEWISS network. Delphi studies in
-  social and health sciences-Recommendations for an interdisciplinary standardized
-  reporting (DELPHISTAR). Results of a Delphi study. PLoS One. 2024;19(8):e0304651.
-
+relevant-urls: |-
+  Read the [full-text](https://doi.org/10.1371/journal.pone.0304651) of the DELPHISTAR \
+  
+  Complete an interactive [DELPHISTAR checklist](delphistar-checklist.qmd), which you can save and upload when submitting your paper to a journal.
+full-bibliographic-reference: |-
+  Niederberger M, Schifano J, Deckert S, Hirt J, Homberg A, Köberich S, Kuhn R, Rommel A, Sonnberger M; DEWISS network. Delphi studies in social and health sciences-Recommendations for an interdisciplinary standardized reporting (DELPHISTAR). Results of a Delphi study. PLoS One. 2024;19(8):e0304651. PMID: [39186713](https://pubmed.ncbi.nlm.nih.gov/39186713/) [full-text](https://doi.org/10.1371/journal.pone.0304651)
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -22,8 +21,8 @@ explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
 website-url: <https://delphi.ph-gmuend.de/>
-additional-languages: The DELPHISTAR Statement has been translated into German in
-  [Word](RG_DELPHISTAR_ger.docx) | [PDF](RG_DELPHISTAR_ger.pdf).
+additional-languages: |-
+  The DELPHISTAR Statement has been translated into German in [Word](RG_DELPHISTAR_ger.docx) / [PDF](RG_DELPHISTAR_ger.pdf).
 additional-information: |-
   Read the reviews that informed the development of DELPHISTAR:
 
@@ -32,12 +31,11 @@ additional-information: |-
   Niederberger M, Spranger J. Delphi Technique in Health Sciences: A Map. Front Public Health. 2020;8:457. PMID: [33072683](https://pubmed.ncbi.nlm.nih.gov/33072683/)
 relevant-editorials: ''
 primary-guideline: ''
-other: 'The DELPHISTAR project was registered at the OSF platform and can be assessed
-  on this page: <https://osf.io/gc4jk>'
+other: 'The DELPHISTAR project was registered at the [OSF platform](https://osf.io/gc4jk) and can be assessed on this page'
 other-relevant-research: ''
 sticky: false
-downloads: DELPHISTAR checklist ([Word](RG_DELPHISTAR_engl-2.docx))         DELPHISTAR
-  checklist [(PDF](RG_DELPHISTAR_engl-1.pdf))
+downloads: |-
+  Download the DELPHISTAR checklist [PDF](RG_DELPHISTAR_engl-1.pdf) / [Word](RG_DELPHISTAR_engl-2.docx)
 
 
 # LIST FIELDS

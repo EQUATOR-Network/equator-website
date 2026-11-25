@@ -1,0 +1,732 @@
+---
+pagetitle: "STROBE-Equity checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1400px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; min-height:4px; }
+  #tp-wrap #tp-logo { width:min(220px,50%); height:auto; display:block; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-sub { font-size:13px; margin:.2rem 0 0; color:#333; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; table-layout:fixed; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; overflow-wrap:anywhere; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.lab td { padding:2px 6px; }
+  #tp-wrap td.ind { padding-left:16px; }
+  #tp-wrap td.muted { color:#666; font-style:italic; }
+  #tp-wrap td.accent { color:#1f5f8b; }
+  #tp-wrap td.small { font-size:12px; color:#222; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12.5px; margin:.6rem 0 0; }
+  #tp-wrap .tp-foot.lic { font-size:11.5px; color:#333; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:9.5px; }
+    #tp-wrap td.small { font-size:9px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-sub { font-size:10px; }
+    #tp-wrap .tp-foot { font-size:9px; } #tp-wrap .tp-foot.lic { font-size:8px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div id="tp-left"></div>
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title" id="tp-ttl"></div>
+  <p class="tp-sub" id="tp-sub"></p>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note" id="tp-note"></p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table"><colgroup></colgroup><thead></thead><tbody></tbody></table>
+  <div id="tp-foots"></div>
+</div>
+
+<script>
+(function () {
+  // Checklist content (generated). Row types:
+  //   {sec: "Section bar"}  |  {lab: "Label row"}  |  {cells: [...], key, label}
+  // `cells` holds one entry per non-input column, in column order: {t, rs?, ind?, muted?, cls?} or null (covered by a rowspan above).
+  const CFG = {
+ "store": "strobe-equity-checklist-v1",
+ "docName": "STROBE-Equity checklist",
+ "fileName": "STROBE-Equity-checklist",
+ "title": "STROBE-Equity extension checklist for reporting observational studies",
+ "star": false,
+ "subtitle": "Equity extension items (blue) are added to the corresponding STROBE items. STROBE items with no equity extension item are unchanged.",
+ "note": "Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose Save as PDF as the destination. Your entries stay in this browser until you clear them.",
+ "logoLeft": null,
+ "cols": [
+  {
+   "h": "STROBE item",
+   "w": 1800
+  },
+  {
+   "h": "Item No",
+   "w": 650,
+   "center": true
+  },
+  {
+   "h": "Recommendation",
+   "w": 6200
+  },
+  {
+   "h": "Equity extension item",
+   "w": 4850,
+   "cls": "accent"
+  },
+  {
+   "h": "Page",
+   "w": 1898,
+   "input": true,
+   "hint": "type page no. in the boxes below"
+  }
+ ],
+ "rows": [
+  {
+   "key": "p1_1.1",
+   "label": "Page, equity item 1.1",
+   "cells": [
+    {
+     "t": "Title and abstract"
+    },
+    {
+     "t": "1"
+    },
+    {
+     "t": "(a) Indicate the study’s design with a commonly used term in the title or the abstract\n(b) Provide in the abstract an informative and balanced summary of what was done and what was found"
+    },
+    {
+     "t": "1.1  Highlight in the title or the abstract the relevance of equity to the study objective.",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "sec": "Introduction"
+  },
+  {
+   "key": "p2_2.1",
+   "label": "Page, equity item 2.1",
+   "cells": [
+    {
+     "t": "Background/rationale"
+    },
+    {
+     "t": "2"
+    },
+    {
+     "t": "Explain the scientific background and rationale for the investigation being reported"
+    },
+    {
+     "t": "2.1  Describe the relevance of equity to the study rationale and motivation.",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "key": "p3",
+   "label": "Page, item 3",
+   "cells": [
+    {
+     "t": "Objectives"
+    },
+    {
+     "t": "3"
+    },
+    {
+     "t": "State specific objectives, including any prespecified hypotheses"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "sec": "Methods"
+  },
+  {
+   "key": "p4_4.1",
+   "label": "Page, equity item 4.1",
+   "cells": [
+    {
+     "t": "Study design",
+     "rs": 2
+    },
+    {
+     "t": "4",
+     "rs": 2
+    },
+    {
+     "t": "Present key elements of study design early in the paper",
+     "rs": 2
+    },
+    {
+     "t": "4.1  Report on whether and how individuals with lived experiences of inequities were engaged in the study conceptualisation, design, conduct, or dissemination.",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "key": "p4_4.2",
+   "label": "Page, equity item 4.2",
+   "cells": [
+    null,
+    null,
+    null,
+    {
+     "t": "4.2  Report whether and how the research team composition includes individuals with lived experience of inequities.",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "key": "p5_5.1",
+   "label": "Page, equity item 5.1",
+   "cells": [
+    {
+     "t": "Setting"
+    },
+    {
+     "t": "5"
+    },
+    {
+     "t": "Describe the setting, locations, and relevant dates, including periods of recruitment, exposure, follow-up, and data collection"
+    },
+    {
+     "t": "5.1  Report whether methods of sampling and recruitment were tailored to populations with lived experience of inequities.",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "key": "p6_6.1",
+   "label": "Page, equity item 6.1",
+   "cells": [
+    {
+     "t": "Participants"
+    },
+    {
+     "t": "6"
+    },
+    {
+     "t": "(a) Cohort study—Give the eligibility criteria, and the sources and methods of selection of participants. Describe methods of follow-up\nCase-control study—Give the eligibility criteria, and the sources and methods of case ascertainment and control selection. Give the rationale for the choice of cases and controls\nCross-sectional study—Give the eligibility criteria, and the sources and methods of selection of participants\n(b) Cohort study—For matched studies, give matching criteria and number of exposed and unexposed\nCase-control study—For matched studies, give matching criteria and the number of controls per case"
+    },
+    {
+     "t": "6.1  Describe whether characteristics associated with inequities were considered in the participant selection process (e.g., eligibility criteria, matching).",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "key": "p7",
+   "label": "Page, item 7",
+   "cells": [
+    {
+     "t": "Variables"
+    },
+    {
+     "t": "7"
+    },
+    {
+     "t": "Clearly define all outcomes, exposures, predictors, potential confounders, and effect modifiers. Give diagnostic criteria, if applicable"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "key": "p8",
+   "label": "Page, item 8",
+   "cells": [
+    {
+     "t": "Data sources/ measurement"
+    },
+    {
+     "t": "8"
+    },
+    {
+     "t": "For each variable of interest, give sources of data and details of methods of assessment (measurement). Describe comparability of assessment methods if there is more than one group"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "key": "p9",
+   "label": "Page, item 9",
+   "cells": [
+    {
+     "t": "Bias"
+    },
+    {
+     "t": "9"
+    },
+    {
+     "t": "Describe any efforts to address potential sources of bias"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "key": "p10",
+   "label": "Page, item 10",
+   "cells": [
+    {
+     "t": "Study size"
+    },
+    {
+     "t": "10"
+    },
+    {
+     "t": "Explain how the study size was arrived at"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "key": "p11",
+   "label": "Page, item 11",
+   "cells": [
+    {
+     "t": "Quantitative variables"
+    },
+    {
+     "t": "11"
+    },
+    {
+     "t": "Explain how quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen and why"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "key": "p12_12.1",
+   "label": "Page, equity item 12.1",
+   "cells": [
+    {
+     "t": "Statistical methods"
+    },
+    {
+     "t": "12"
+    },
+    {
+     "t": "(a) Describe all statistical methods, including those used to control for confounding\n(b) Describe any methods used to examine subgroups and interactions\n(c) Explain how missing data were addressed\n(d) Cohort study—If applicable, explain how loss to follow-up was addressed\nCase-control study—If applicable, explain how matching of cases and controls was addressed\nCross-sectional study—If applicable, describe analytical methods taking account of sampling strategy\n(e) Describe any sensitivity analyses"
+    },
+    {
+     "t": "12.1  Describe all analytical methods related to equity objectives (e.g., subgroups, sensitivity).",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "sec": "Results"
+  },
+  {
+   "key": "p13_13.1",
+   "label": "Page, equity item 13.1",
+   "cells": [
+    {
+     "t": "Participants"
+    },
+    {
+     "t": "13"
+    },
+    {
+     "t": "(a) Report numbers of individuals at each stage of study—e.g. numbers potentially eligible, examined for eligibility, confirmed eligible, included in the study, completing follow-up, and analysed\n(b) Give reasons for non-participation at each stage\n(c) Consider use of a flow diagram"
+    },
+    {
+     "t": "13.1  Describe participant flow including losses, exclusions, non-responses and unplanned pauses according to characteristics associated with inequities.",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "key": "p14_14.1",
+   "label": "Page, equity item 14.1",
+   "cells": [
+    {
+     "t": "Descriptive data"
+    },
+    {
+     "t": "14"
+    },
+    {
+     "t": "(a) Give characteristics of study participants (e.g. demographic, clinical, social) and information on exposures and potential confounders\n(b) Indicate number of participants with missing data for each variable of interest\n(c) Cohort study—Summarise follow-up time (e.g., average and total amount)"
+    },
+    {
+     "t": "14.1  Report characteristics of study participants, missing data and follow-up time across characteristics associated with inequities.",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "key": "p15",
+   "label": "Page, item 15",
+   "cells": [
+    {
+     "t": "Outcome data"
+    },
+    {
+     "t": "15"
+    },
+    {
+     "t": "Cohort study—Report numbers of outcome events or summary measures over time\nCase-control study—Report numbers in each exposure category, or summary measures of exposure\nCross-sectional study—Report numbers of outcome events or summary measures"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "key": "p16",
+   "label": "Page, item 16",
+   "cells": [
+    {
+     "t": "Main results"
+    },
+    {
+     "t": "16"
+    },
+    {
+     "t": "(a) Give unadjusted estimates and, if applicable, confounder-adjusted estimates and their precision (e.g., 95% confidence interval). Make clear which confounders were adjusted for and why they were included\n(b) Report category boundaries when continuous variables were categorized\n(c) If relevant, consider translating estimates of relative risk into absolute risk for a meaningful time period"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "key": "p17",
+   "label": "Page, item 17",
+   "cells": [
+    {
+     "t": "Other analyses"
+    },
+    {
+     "t": "17"
+    },
+    {
+     "t": "Report other analyses done—e.g., analyses of subgroups and interactions, and sensitivity analyses"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "sec": "Discussion"
+  },
+  {
+   "key": "p18_18.1",
+   "label": "Page, equity item 18.1",
+   "cells": [
+    {
+     "t": "Key results"
+    },
+    {
+     "t": "18"
+    },
+    {
+     "t": "Summarise key results with reference to study objectives"
+    },
+    {
+     "t": "18.1  Interpret the results while considering the representativeness of the study sample and the implications of the findings on health equity.",
+     "cls": "accent"
+    }
+   ]
+  },
+  {
+   "key": "p19",
+   "label": "Page, item 19",
+   "cells": [
+    {
+     "t": "Limitations"
+    },
+    {
+     "t": "19"
+    },
+    {
+     "t": "Discuss limitations of the study, taking into account sources of potential bias or imprecision. Discuss both direction and magnitude of any potential bias"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "key": "p20",
+   "label": "Page, item 20",
+   "cells": [
+    {
+     "t": "Interpretation"
+    },
+    {
+     "t": "20"
+    },
+    {
+     "t": "Give a cautious overall interpretation of results considering objectives, limitations, multiplicity of analyses, results from similar studies, and other relevant evidence"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "key": "p21",
+   "label": "Page, item 21",
+   "cells": [
+    {
+     "t": "Generalisability"
+    },
+    {
+     "t": "21"
+    },
+    {
+     "t": "Discuss the generalisability (external validity) of the study results"
+    },
+    {
+     "t": ""
+    }
+   ]
+  },
+  {
+   "sec": "Other information"
+  },
+  {
+   "key": "p22",
+   "label": "Page, item 22",
+   "cells": [
+    {
+     "t": "Funding"
+    },
+    {
+     "t": "22"
+    },
+    {
+     "t": "Give the source of funding and the role of the funders for the present study and, if applicable, for the original study on which the present article is based"
+    },
+    {
+     "t": ""
+    }
+   ]
+  }
+ ],
+ "foot": [
+  {
+   "t": "Based on the STROBE statement: von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies. Lancet. 2007;370:1453–7."
+  }
+ ]
+};
+
+  const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const nl2br = s => esc(s).replace(/\n/g, "<br>");
+  const linkify = s => esc(s).replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/^([*†])/, "<sup>$1</sup>");
+  const $ = id => document.getElementById(id);
+  const COLS = CFG.cols, NC = COLS.length, TOTAL = COLS.reduce((a, c) => a + c.w, 0);
+  const INPUT = COLS.find(c => c.input);
+  const ROWS = CFG.rows;
+
+  // ---- static parts ----
+  if (CFG.logoLeft) $("tp-left").innerHTML = `<img src="${CFG.logoLeft}" alt="" id="tp-logo">`;
+  $("tp-ttl").innerHTML = esc(CFG.title) + (CFG.star ? "<sup>*</sup>" : "");
+  if (CFG.subtitle) $("tp-sub").textContent = CFG.subtitle; else $("tp-sub").remove();
+  $("tp-note").textContent = CFG.note;
+  $("tp-foots").innerHTML = CFG.foot.map(f => `<p class="tp-foot${f.lic ? " lic" : ""}">${linkify(f.t)}</p>`).join("");
+
+  // ---- table ----
+  const table = $("tp-table");
+  table.querySelector("colgroup").innerHTML = COLS.map(c => `<col style="width:${(c.w / TOTAL * 100).toFixed(2)}%">`).join("");
+  table.querySelector("thead").innerHTML = "<tr>" + COLS.map(c =>
+    `<th class="${c.center ? "c" : ""}">${esc(c.h)}${c.hint ? `<span class="tp-hint">${esc(c.hint)}</span>` : ""}</th>`).join("") + "</tr>";
+
+  table.querySelector("tbody").innerHTML = ROWS.map(r => {
+    if (r.sec !== undefined) return `<tr class="sec"><td colspan="${NC}">${esc(r.sec)}</td></tr>`;
+    if (r.lab !== undefined) return `<tr class="lab"><td colspan="${NC}">${esc(r.lab)}</td></tr>`;
+    let k = 0;
+    return "<tr>" + COLS.map(c => {
+      if (c.input) return `<td class="pg"><input type="text" data-key="${r.key}" placeholder="${esc(c.ph || "page no.")}" aria-label="${esc(r.label)}"></td>`;
+      const x = r.cells[k++];
+      if (!x) return "";
+      const cls = [c.center ? "c" : "", x.ind ? "ind" : "", x.muted ? "muted" : "", c.cls || "", x.cls || ""].filter(Boolean).join(" ");
+      return `<td${cls ? ` class="${cls}"` : ""}${x.rs ? ` rowspan="${x.rs}"` : ""}>${nl2br(x.t)}</td>`;
+    }).join("") + "</tr>";
+  }).join("");
+
+  // ---- persistence (localStorage, this browser only) ----
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(CFG.store) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(CFG.store, JSON.stringify(d)); } catch (e) {} };
+  load();
+  $("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  $("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = CFG.docName;
+    window.print();
+    document.title = old;
+  };
+
+  $("tp-reset").onclick = () => {
+    if (confirm("Clear all entries and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, CFG, vals, logo, eqLogo) {
+    const F = "Arial", SZ = 17, W = CFG.cols.map(c => c.w), TOTAL = W.reduce((a, b) => a + b), NC = W.length;
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.it, color: o.color, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? NC : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: CFG.cols.map((c, i) => cell(i, c.h, { ...hd, center: c.center })) });
+    const body = CFG.rows.map(r => {
+      if (r.sec !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.sec, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] });
+      if (r.lab !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.lab, { span: true, keepNext: true })] });
+      let k = 0;
+      const kids = [];
+      CFG.cols.forEach((c, i) => {
+        if (c.input) { kids.push(cell(i, vals[r.key] || "", { center: true, mid: true })); return; }
+        const x = r.cells[k++];
+        if (!x) return;
+        kids.push(cell(i, x.t, { rowSpan: x.rs, indent: x.ind ? 260 : 90, center: c.center, it: x.muted, color: x.muted ? "666666" : (c.cls === "accent" ? "1F5F8B" : undefined) }));
+      });
+      return new D.TableRow({ cantSplit: true, children: kids });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [TOTAL - 4300, 4300];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })];
+    const top = [];
+    top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(CFG.title, { bold: true, size: 24 }), ...(CFG.star ? [run("*", { bold: true, size: 24, sup: true })] : [])], { spacing: { after: 100 } }));
+    if (CFG.subtitle) top.push(para([run(CFG.subtitle, { size: 18 })], { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: CFG.docName, creator: CFG.docName,
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...CFG.foot.map((f, i) => para(runs(f.t, { size: f.lic ? 14 : 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  $("tp-doc").onclick = async () => {
+    const btn = $("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      if (CFG.logoLeft) { try { logo = new Uint8Array(await (await fetch(new URL(CFG.logoLeft, document.baseURI))).arrayBuffer()); } catch (e) {} }
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, CFG, vals, logo, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = CFG.fileName + ".docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

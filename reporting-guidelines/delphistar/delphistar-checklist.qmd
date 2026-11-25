@@ -1,0 +1,1048 @@
+---
+pagetitle: "DELPHISTAR checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1400px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; min-height:4px; }
+  #tp-wrap #tp-logo { width:min(220px,50%); height:auto; display:block; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-sub { font-size:13px; margin:.2rem 0 0; color:#333; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; table-layout:fixed; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; overflow-wrap:anywhere; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.lab td { padding:2px 6px; }
+  #tp-wrap td.ind { padding-left:16px; }
+  #tp-wrap td.muted { color:#666; font-style:italic; }
+  #tp-wrap td.accent { color:#1f5f8b; }
+  #tp-wrap td.small { font-size:12px; color:#222; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12.5px; margin:.6rem 0 0; }
+  #tp-wrap .tp-foot.lic { font-size:11.5px; color:#333; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:9.5px; }
+    #tp-wrap td.small { font-size:9px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-sub { font-size:10px; }
+    #tp-wrap .tp-foot { font-size:9px; } #tp-wrap .tp-foot.lic { font-size:8px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div id="tp-left"></div>
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title" id="tp-ttl"></div>
+  <p class="tp-sub" id="tp-sub"></p>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note" id="tp-note"></p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table"><colgroup></colgroup><thead></thead><tbody></tbody></table>
+  <div id="tp-foots"></div>
+</div>
+
+<script>
+(function () {
+  // Checklist content (generated). Row types:
+  //   {sec: "Section bar"}  |  {lab: "Label row"}  |  {cells: [...], key, label}
+  // `cells` holds one entry per non-input column, in column order: {t, rs?, ind?, muted?, cls?} or null (covered by a rowspan above).
+  const CFG = {
+ "store": "delphistar-checklist-v1",
+ "docName": "DELPHISTAR checklist",
+ "fileName": "DELPHISTAR-checklist",
+ "title": "DELPHISTAR checklist: reporting of Delphi studies in social and health sciences",
+ "star": false,
+ "subtitle": "Delphi studies in social and health sciences – recommendations for an interdisciplinary standardized reporting (DELPHISTAR). Exemplary wording is shown for guidance only.",
+ "note": "Type the page number(s) or section(s) where each item is reported in the boxes in the “Location” column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose Save as PDF as the destination. Your entries stay in this browser until you clear them.",
+ "logoLeft": null,
+ "cols": [
+  {
+   "h": "Topic",
+   "w": 1000
+  },
+  {
+   "h": "Section",
+   "w": 1500
+  },
+  {
+   "h": "No",
+   "w": 560,
+   "center": true
+  },
+  {
+   "h": "Checklist item",
+   "w": 4300
+  },
+  {
+   "h": "Location where item is reported",
+   "w": 1500,
+   "input": true,
+   "hint": "page no. or section",
+   "ph": "page / section"
+  },
+  {
+   "h": "Exemplary wording",
+   "w": 6538
+  }
+ ],
+ "rows": [
+  {
+   "key": "p1",
+   "label": "Location, item 1",
+   "cells": [
+    {
+     "t": "I\nTitle and Abstract",
+     "rs": 3,
+     "cls": ""
+    },
+    {
+     "t": "",
+     "rs": 3
+    },
+    {
+     "t": "1"
+    },
+    {
+     "t": "Identification as a Delphi study in the title"
+    },
+    {
+     "t": "What is a public health intervention? Results of a Delphi study.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p2",
+   "label": "Location, item 2",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "2"
+    },
+    {
+     "t": "Identification as a Delphi study in the abstract"
+    },
+    {
+     "t": "A Delphi study was selected to answer the research question.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p3",
+   "label": "Location, item 3",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "3"
+    },
+    {
+     "t": "Structured abstract"
+    },
+    {
+     "t": "e.g., background, method, results and discussion",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p4",
+   "label": "Location, item 4",
+   "cells": [
+    {
+     "t": "II\nContext",
+     "rs": 7,
+     "cls": ""
+    },
+    {
+     "t": "Formal",
+     "rs": 5
+    },
+    {
+     "t": "4"
+    },
+    {
+     "t": "Information about the sources of funding"
+    },
+    {
+     "t": "The Delphi study was funded by [SOURCE].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p5",
+   "label": "Location, item 5",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "5"
+    },
+    {
+     "t": "Information about the team of authors and/or researchers (e.g., discipline, institution)"
+    },
+    {
+     "t": "The Delphi study was conducted by an interdisciplinary team with representatives from medicine, public health, and health promotion.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p6",
+   "label": "Location, item 6",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "6"
+    },
+    {
+     "t": "Information about method consulting"
+    },
+    {
+     "t": "The study group was advised by experts from [INSTITUTION] regarding statistics.\nOr: No consulting in regard to method took place.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p7",
+   "label": "Location, item 7",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "7"
+    },
+    {
+     "t": "Information about the project background"
+    },
+    {
+     "t": "The Delphi study was part of a mixed-methods study on [AIM].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p8",
+   "label": "Location, item 8",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "8"
+    },
+    {
+     "t": "Information about the study protocol"
+    },
+    {
+     "t": "The study protocol is available at [LINK].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p9",
+   "label": "Location, item 9",
+   "cells": [
+    null,
+    {
+     "t": "Content",
+     "rs": 2
+    },
+    {
+     "t": "9"
+    },
+    {
+     "t": "Justification of the chosen method (Delphi) to answer the research question"
+    },
+    {
+     "t": "The Delphi method is suitable for answering the research question because it systematically gathers the judgments of different expert groups and can identify agreement and disagreement.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p10",
+   "label": "Location, item 10",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "10"
+    },
+    {
+     "t": "Aim of the Delphi study (e.g., consensus, forecasting)"
+    },
+    {
+     "t": "The aim of the Delphi study is to find consensus on criteria to define a public health intervention.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p11",
+   "label": "Location, item 11",
+   "cells": [
+    {
+     "t": "III\nMethod",
+     "rs": 20,
+     "cls": ""
+    },
+    {
+     "t": "Body & Integration of knowledge",
+     "rs": 3
+    },
+    {
+     "t": "11"
+    },
+    {
+     "t": "Identification and elucidation of relevant expertise, spheres of experience, and perspectives (e.g., theory, practice, affected groups, disciplines)"
+    },
+    {
+     "t": "The experts represent the sciences and clinical practice because [REASON].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p12",
+   "label": "Location, item 12",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "12"
+    },
+    {
+     "t": "Handling of knowledge, expertise and perspectives which are missing or have been deliberately not integrated"
+    },
+    {
+     "t": "If it is not possible to recruit experts specialized in [AREA], this will be openly communicated to the other experts during the Delphi study.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p13",
+   "label": "Location, item 13",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "13"
+    },
+    {
+     "t": "Basic definition of expert¹"
+    },
+    {
+     "t": "A person who has been active in the area for at least [NUMBER] years is considered to be an expert.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p14",
+   "label": "Location, item 14",
+   "cells": [
+    null,
+    {
+     "t": "Delphi variant and modifications",
+     "rs": 2
+    },
+    {
+     "t": "14"
+    },
+    {
+     "t": "Identification of the type of Delphi variant and potential modifications (e.g., classic Delphi, real-time Delphi, group Delphi)"
+    },
+    {
+     "t": "A classic Delphi study was used [LITERATURE REFERENCE].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p15",
+   "label": "Location, item 15",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "15"
+    },
+    {
+     "t": "Justification of the Delphi variant and modifications, including during the Delphi study, if applicable"
+    },
+    {
+     "t": "If the willingness to participate clearly decreases between the first and second round, a third round will not be held.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p16",
+   "label": "Location, item 16",
+   "cells": [
+    null,
+    {
+     "t": "Sample of experts",
+     "rs": 3
+    },
+    {
+     "t": "16"
+    },
+    {
+     "t": "Selection criteria for the experts (per round, per expert group if applicable)"
+    },
+    {
+     "t": "All of the experts who met the definition were invited to the first round. All of the experts who completed the previous round were invited to participate in the subsequent round.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p17",
+   "label": "Location, item 17",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "17"
+    },
+    {
+     "t": "Identification of the experts"
+    },
+    {
+     "t": "The experts were identified based on publications in [DATABASE].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p18",
+   "label": "Location, item 18",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "18"
+    },
+    {
+     "t": "Information about recruiting and any subsequent recruiting of experts"
+    },
+    {
+     "t": "The experts were informed about the Delphi study and invited to participate.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p19",
+   "label": "Location, item 19",
+   "cells": [
+    null,
+    {
+     "t": "Survey",
+     "rs": 2
+    },
+    {
+     "t": "19"
+    },
+    {
+     "t": "Elucidation of the content development for the questionnaire²"
+    },
+    {
+     "t": "The questionnaire was developed based on the results of systematic reviews [LITERATURE REFERENCE].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p20",
+   "label": "Location, item 20",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "20"
+    },
+    {
+     "t": "Description of the questionnaire (content and structure)"
+    },
+    {
+     "t": "The questionnaire was divided into three segments on [TOPICS]. The statements made in the questionnaire were evaluated using standardized items, with the option to comment in free-text boxes.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p21",
+   "label": "Location, item 21",
+   "cells": [
+    null,
+    {
+     "t": "Delphi rounds",
+     "rs": 3
+    },
+    {
+     "t": "21"
+    },
+    {
+     "t": "Number of Delphi rounds"
+    },
+    {
+     "t": "Three Delphi rounds were held.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p22",
+   "label": "Location, item 22",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "22"
+    },
+    {
+     "t": "Information about the aims of the individual Delphi rounds"
+    },
+    {
+     "t": "The first Delphi round focused on exploring relevant aspects. These aspects were then presented to the experts in the second Delphi round for standardized evaluation.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p23",
+   "label": "Location, item 23",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "23"
+    },
+    {
+     "t": "Disclosure and justification of the criterion for discontinuation"
+    },
+    {
+     "t": "The number of rounds was defined in advance to be a maximum of three rounds.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p24",
+   "label": "Location, item 24",
+   "cells": [
+    null,
+    {
+     "t": "Feedback",
+     "rs": 4
+    },
+    {
+     "t": "24"
+    },
+    {
+     "t": "Information about what data was reported back per round"
+    },
+    {
+     "t": "In terms of feedback, we shared the statistical results plus the summary of the open responses.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p25",
+   "label": "Location, item 25",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "25"
+    },
+    {
+     "t": "Information on how the results of the previous Delphi round were fed back to the experts surveyed (e.g., via frequencies, mean values, measures of dispersion, listing of comments)"
+    },
+    {
+     "t": "Mean values, standard deviations and percentage frequency distributions were reported.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p26",
+   "label": "Location, item 26",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "26"
+    },
+    {
+     "t": "Information on whether feedback was differentiated by specific groups (e.g., by field of expertise, institutional affiliation)"
+    },
+    {
+     "t": "The feedback was aggregated across all expert groups.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p27",
+   "label": "Location, item 27",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "27"
+    },
+    {
+     "t": "Information about how dissent and unclear results were handled"
+    },
+    {
+     "t": "The results showing dissent were presented again for evaluation in the next Delphi round.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p28",
+   "label": "Location, item 28",
+   "cells": [
+    null,
+    {
+     "t": "Data analysis",
+     "rs": 3
+    },
+    {
+     "t": "28"
+    },
+    {
+     "t": "Disclosure of the quantitative and qualitative analytical strategy"
+    },
+    {
+     "t": "The quantitative items were descriptively analyzed. The open-ended items were analyzed using thematic analysis [LITERATURE REFERENCE].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p29",
+   "label": "Location, item 29",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "29"
+    },
+    {
+     "t": "Definition and measurement of consensus"
+    },
+    {
+     "t": "Consensus was defined as percentage agreement, meaning that agreement was assumed if at least 80% of the respondents agreed on an item.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p30",
+   "label": "Location, item 30",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "30"
+    },
+    {
+     "t": "Information on group-specific analysis or weighting of experts (e.g., theory vs. practice, discipline-specific analysis)"
+    },
+    {
+     "t": "In the analysis, the mean values for percent agreement are weighted for each expert group in terms of the number of group members.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p31",
+   "label": "Location, item 31",
+   "cells": [
+    {
+     "t": "IV\nResults",
+     "rs": 4,
+     "cls": ""
+    },
+    {
+     "t": "Delphi process",
+     "rs": 3
+    },
+    {
+     "t": "31"
+    },
+    {
+     "t": "Illustration of the Delphi study (e.g., in a flow chart)"
+    },
+    {
+     "t": "A summary of the Delphi study is illustrated in a flow chart (Figure 1).",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p32",
+   "label": "Location, item 32",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "32"
+    },
+    {
+     "t": "Information about special aspects during the Delphi study (e.g., deviations from the intended approach with justification)"
+    },
+    {
+     "t": "During the Delphi study the political discussion mentioned climate change and the effects on health. It is possible that this influenced the experts' responses.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p33",
+   "label": "Location, item 33",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "33"
+    },
+    {
+     "t": "Number of experts per round (both invited and participating)"
+    },
+    {
+     "t": "The number of experts participating in the first Delphi round was [NUMBER], and the number of experts in the second round was [NUMBER]. This corresponds to a response rate of [NUMBER]% in the first round and [NUMBER]% in the second round.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p34",
+   "label": "Location, item 34",
+   "cells": [
+    null,
+    {
+     "t": "Results"
+    },
+    {
+     "t": "34"
+    },
+    {
+     "t": "Presentation of the results for each Delphi round and the final results"
+    },
+    {
+     "t": "In the first Delphi round [NUMBER]% of the experts agreed, in the second [NUMBER]%, and in the third [NUMBER]%.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p35",
+   "label": "Location, item 35",
+   "cells": [
+    {
+     "t": "V\nDiscussion",
+     "rs": 4,
+     "cls": ""
+    },
+    {
+     "t": "Quality of findings",
+     "rs": 4
+    },
+    {
+     "t": "35"
+    },
+    {
+     "t": "Highlighting the findings from the Delphi study"
+    },
+    {
+     "t": "The central findings can be summarized as follows: [STATE FINDINGS].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p36",
+   "label": "Location, item 36",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "36"
+    },
+    {
+     "t": "Validity of the results (e.g., transferability of the findings)"
+    },
+    {
+     "t": "The results are not transferable to other countries due to different legal regulations.",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p37",
+   "label": "Location, item 37",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "37"
+    },
+    {
+     "t": "Reliability of the results (e.g., split half, inter-rater reliability)"
+    },
+    {
+     "t": "The responses in the free-text comments were analyzed by two independent reviewers [SPECIFY].",
+     "cls": "small"
+    }
+   ]
+  },
+  {
+   "key": "p38",
+   "label": "Location, item 38",
+   "cells": [
+    null,
+    null,
+    {
+     "t": "38"
+    },
+    {
+     "t": "Reflection on potential limitations (e.g., number of experts, response bias)"
+    },
+    {
+     "t": "The results are to be viewed critically with regard to the composition of the panel because [REASONS].",
+     "cls": "small"
+    }
+   ]
+  }
+ ],
+ "foot": [
+  {
+   "t": "¹ “Experts” are the participants; these can be people from academia, practice, or representatives of lived experience (e.g., patients, family members)."
+  },
+  {
+   "t": "² The term “questionnaire” stands for the survey instrument regardless of whether quantitative or qualitative items are integrated or weighted."
+  },
+  {
+   "t": "Citation: Niederberger M, Schifano J, Deckert S, Hirt J, Homberg A, Köberich S, Kuhn R, Rommel A, Sonnberger M & the DEWISS network. Delphi studies in social and health sciences—Recommendations for an interdisciplinary standardized reporting (DELPHISTAR). Results of a Delphi study. PLoS ONE. 2024;19(8):e0304651. [[https://doi.org/10.1371/journal.pone.0304651|https://doi.org/10.1371/journal.pone.0304651]]. More information: [[https://osf.io/gc4jk|OSF]] and [[https://delphi.ph-gmuend.de/|DEWISS]]."
+  }
+ ]
+};
+
+  const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const nl2br = s => esc(s).replace(/\n/g, "<br>");
+  const linkify = s => esc(s).replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/^([*†])/, "<sup>$1</sup>");
+  const $ = id => document.getElementById(id);
+  const COLS = CFG.cols, NC = COLS.length, TOTAL = COLS.reduce((a, c) => a + c.w, 0);
+  const INPUT = COLS.find(c => c.input);
+  const ROWS = CFG.rows;
+
+  // ---- static parts ----
+  if (CFG.logoLeft) $("tp-left").innerHTML = `<img src="${CFG.logoLeft}" alt="" id="tp-logo">`;
+  $("tp-ttl").innerHTML = esc(CFG.title) + (CFG.star ? "<sup>*</sup>" : "");
+  if (CFG.subtitle) $("tp-sub").textContent = CFG.subtitle; else $("tp-sub").remove();
+  $("tp-note").textContent = CFG.note;
+  $("tp-foots").innerHTML = CFG.foot.map(f => `<p class="tp-foot${f.lic ? " lic" : ""}">${linkify(f.t)}</p>`).join("");
+
+  // ---- table ----
+  const table = $("tp-table");
+  table.querySelector("colgroup").innerHTML = COLS.map(c => `<col style="width:${(c.w / TOTAL * 100).toFixed(2)}%">`).join("");
+  table.querySelector("thead").innerHTML = "<tr>" + COLS.map(c =>
+    `<th class="${c.center ? "c" : ""}">${esc(c.h)}${c.hint ? `<span class="tp-hint">${esc(c.hint)}</span>` : ""}</th>`).join("") + "</tr>";
+
+  table.querySelector("tbody").innerHTML = ROWS.map(r => {
+    if (r.sec !== undefined) return `<tr class="sec"><td colspan="${NC}">${esc(r.sec)}</td></tr>`;
+    if (r.lab !== undefined) return `<tr class="lab"><td colspan="${NC}">${esc(r.lab)}</td></tr>`;
+    let k = 0;
+    return "<tr>" + COLS.map(c => {
+      if (c.input) return `<td class="pg"><input type="text" data-key="${r.key}" placeholder="${esc(c.ph || "page no.")}" aria-label="${esc(r.label)}"></td>`;
+      const x = r.cells[k++];
+      if (!x) return "";
+      const cls = [c.center ? "c" : "", x.ind ? "ind" : "", x.muted ? "muted" : "", c.cls || "", x.cls || ""].filter(Boolean).join(" ");
+      return `<td${cls ? ` class="${cls}"` : ""}${x.rs ? ` rowspan="${x.rs}"` : ""}>${nl2br(x.t)}</td>`;
+    }).join("") + "</tr>";
+  }).join("");
+
+  // ---- persistence (localStorage, this browser only) ----
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(CFG.store) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(CFG.store, JSON.stringify(d)); } catch (e) {} };
+  load();
+  $("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  $("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = CFG.docName;
+    window.print();
+    document.title = old;
+  };
+
+  $("tp-reset").onclick = () => {
+    if (confirm("Clear all entries and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, CFG, vals, logo, eqLogo) {
+    const F = "Arial", SZ = 17, W = CFG.cols.map(c => c.w), TOTAL = W.reduce((a, b) => a + b), NC = W.length;
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.it, color: o.color, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? NC : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: CFG.cols.map((c, i) => cell(i, c.h, { ...hd, center: c.center })) });
+    const body = CFG.rows.map(r => {
+      if (r.sec !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.sec, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] });
+      if (r.lab !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.lab, { span: true, keepNext: true })] });
+      let k = 0;
+      const kids = [];
+      CFG.cols.forEach((c, i) => {
+        if (c.input) { kids.push(cell(i, vals[r.key] || "", { center: true, mid: true })); return; }
+        const x = r.cells[k++];
+        if (!x) return;
+        kids.push(cell(i, x.t, { rowSpan: x.rs, indent: x.ind ? 260 : 90, center: c.center, it: x.muted, color: x.muted ? "666666" : (c.cls === "accent" ? "1F5F8B" : undefined) }));
+      });
+      return new D.TableRow({ cantSplit: true, children: kids });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [TOTAL - 4300, 4300];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })];
+    const top = [];
+    top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(CFG.title, { bold: true, size: 24 }), ...(CFG.star ? [run("*", { bold: true, size: 24, sup: true })] : [])], { spacing: { after: 100 } }));
+    if (CFG.subtitle) top.push(para([run(CFG.subtitle, { size: 18 })], { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: CFG.docName, creator: CFG.docName,
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...CFG.foot.map((f, i) => para(runs(f.t, { size: f.lic ? 14 : 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  $("tp-doc").onclick = async () => {
+    const btn = $("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      if (CFG.logoLeft) { try { logo = new Uint8Array(await (await fetch(new URL(CFG.logoLeft, document.baseURI))).arrayBuffer()); } catch (e) {} }
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, CFG, vals, logo, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = CFG.fileName + ".docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

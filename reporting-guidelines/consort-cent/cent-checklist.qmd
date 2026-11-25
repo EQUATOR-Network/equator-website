@@ -1,0 +1,1159 @@
+---
+pagetitle: "CENT 2015 checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1400px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; min-height:4px; }
+  #tp-wrap #tp-logo { width:min(220px,50%); height:auto; display:block; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-sub { font-size:13px; margin:.2rem 0 0; color:#333; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; table-layout:fixed; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; overflow-wrap:anywhere; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap th.c, #tp-wrap td.c { text-align:center; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.lab td { padding:2px 6px; }
+  #tp-wrap td.ind { padding-left:16px; }
+  #tp-wrap td.muted { color:#666; font-style:italic; }
+  #tp-wrap td.accent { color:#1f5f8b; }
+  #tp-wrap td.small { font-size:12px; color:#222; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot { font-size:12.5px; margin:.6rem 0 0; }
+  #tp-wrap .tp-foot.lic { font-size:11.5px; color:#333; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:9.5px; }
+    #tp-wrap td.small { font-size:9px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-sub { font-size:10px; }
+    #tp-wrap .tp-foot { font-size:9px; } #tp-wrap .tp-foot.lic { font-size:8px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <div id="tp-left"></div>
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title" id="tp-ttl"></div>
+  <p class="tp-sub" id="tp-sub"></p>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note" id="tp-note"></p>
+  </div>
+  <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="tp-table"><colgroup></colgroup><thead></thead><tbody></tbody></table>
+  <div id="tp-foots"></div>
+</div>
+
+<script>
+(function () {
+  // Checklist content (generated). Row types:
+  //   {sec: "Section bar"}  |  {lab: "Label row"}  |  {cells: [...], key, label}
+  // `cells` holds one entry per non-input column, in column order: {t, rs?, ind?, muted?, cls?} or null (covered by a rowspan above).
+  const CFG = {
+ "store": "cent-2015-checklist-v1",
+ "docName": "CENT 2015 checklist",
+ "fileName": "CENT-2015-checklist",
+ "title": "CENT 2015 checklist of information to include when reporting an N-of-1 trial or a series of N-of-1 trials",
+ "star": true,
+ "subtitle": "CONSORT 2010 checklist items with modifications or additions for individual or series of N-of-1 trials. Items marked “No modification” are unchanged from the CONSORT 2010 item.",
+ "note": "Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose Save as PDF as the destination. Your entries stay in this browser until you clear them.",
+ "logoLeft": null,
+ "cols": [
+  {
+   "h": "Section / Topic",
+   "w": 1900
+  },
+  {
+   "h": "CENT No",
+   "w": 800,
+   "center": true
+  },
+  {
+   "h": "CONSORT 2010 item description",
+   "w": 5300
+  },
+  {
+   "h": "CENT 2015 item description",
+   "w": 5900
+  },
+  {
+   "h": "Reported on page no.",
+   "w": 1498,
+   "input": true,
+   "hint": "type page no. in the boxes below"
+  }
+ ],
+ "rows": [
+  {
+   "sec": "Title and abstract"
+  },
+  {
+   "key": "p1a",
+   "label": "Page, item 1a",
+   "cells": [
+    {
+     "t": "Title and abstract",
+     "rs": 2,
+     "ind": false
+    },
+    {
+     "t": "1a"
+    },
+    {
+     "t": "Identification as a randomised trial in the title"
+    },
+    {
+     "t": "Identify as an “N-of-1 trial” in the title\nFor series: Identify as “a series of N-of-1 trials” in the title"
+    }
+   ]
+  },
+  {
+   "key": "p1b",
+   "label": "Page, item 1b",
+   "cells": [
+    null,
+    {
+     "t": "1b"
+    },
+    {
+     "t": "Structured summary of trial design, methods, results, and conclusions (for specific guidance see CONSORT for abstracts)"
+    },
+    {
+     "t": "For specific guidance, see CENT guidance for abstracts (table 2)"
+    }
+   ]
+  },
+  {
+   "sec": "Introduction"
+  },
+  {
+   "key": "p2a.1",
+   "label": "Page, item 2a.1",
+   "cells": [
+    {
+     "t": "Background and objectives",
+     "rs": 3,
+     "ind": false
+    },
+    {
+     "t": "2a.1"
+    },
+    {
+     "t": "Scientific background and explanation of rationale"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p2a.2",
+   "label": "Page, item 2a.2",
+   "cells": [
+    null,
+    {
+     "t": "2a.2"
+    },
+    {
+     "t": "New item added in CENT 2015",
+     "muted": true
+    },
+    {
+     "t": "Rationale for using N-of-1 approach"
+    }
+   ]
+  },
+  {
+   "key": "p2b",
+   "label": "Page, item 2b",
+   "cells": [
+    null,
+    {
+     "t": "2b"
+    },
+    {
+     "t": "Specific objectives or hypotheses"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "sec": "Methods"
+  },
+  {
+   "key": "p3a",
+   "label": "Page, item 3a",
+   "cells": [
+    {
+     "t": "Trial design",
+     "rs": 2,
+     "ind": false
+    },
+    {
+     "t": "3a"
+    },
+    {
+     "t": "Description of trial design (such as parallel, factorial) including allocation ratio"
+    },
+    {
+     "t": "Describe trial design, planned number of periods, and duration of each period (including run-in and wash out, if applicable)\nIn addition for series: Whether and how the design was individualized to each participant, and explain the series design"
+    }
+   ]
+  },
+  {
+   "key": "p3b",
+   "label": "Page, item 3b",
+   "cells": [
+    null,
+    {
+     "t": "3b"
+    },
+    {
+     "t": "Important changes to methods after trial start (such as eligibility criteria), with reasons"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p4a",
+   "label": "Page, item 4a",
+   "cells": [
+    {
+     "t": "Participant(s)",
+     "rs": 3,
+     "ind": false
+    },
+    {
+     "t": "4a†"
+    },
+    {
+     "t": "Eligibility criteria for participants"
+    },
+    {
+     "t": "Diagnosis or disorder, diagnostic criteria, comorbid conditions, and concurrent therapies.\nFor series: Same as CONSORT item 4a"
+    }
+   ]
+  },
+  {
+   "key": "p4b",
+   "label": "Page, item 4b",
+   "cells": [
+    null,
+    {
+     "t": "4b†"
+    },
+    {
+     "t": "Settings and locations where the data were collected"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p4c",
+   "label": "Page, item 4c",
+   "cells": [
+    null,
+    {
+     "t": "4c"
+    },
+    {
+     "t": "New item added in CENT 2015",
+     "muted": true
+    },
+    {
+     "t": "Whether the trial(s) represents a research study and if so, whether institutional ethics approval was obtained"
+    }
+   ]
+  },
+  {
+   "key": "p5",
+   "label": "Page, item 5",
+   "cells": [
+    {
+     "t": "Interventions",
+     "ind": false
+    },
+    {
+     "t": "5"
+    },
+    {
+     "t": "The interventions for each group with sufficient details to allow replication, including how and when they were actually administered"
+    },
+    {
+     "t": "The interventions for each period with sufficient details to allow replication, including how and when they were actually administered"
+    }
+   ]
+  },
+  {
+   "key": "p6a.1",
+   "label": "Page, item 6a.1",
+   "cells": [
+    {
+     "t": "Outcomes",
+     "rs": 3,
+     "ind": false
+    },
+    {
+     "t": "6a.1"
+    },
+    {
+     "t": "Completely defined pre-specified primary and secondary outcome measures, including how and when they were assessed"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p6a.2",
+   "label": "Page, item 6a.2",
+   "cells": [
+    null,
+    {
+     "t": "6a.2"
+    },
+    {
+     "t": "New item added in CENT 2015",
+     "muted": true
+    },
+    {
+     "t": "Description and measurement properties (validity and reliability) of outcome assessment tools"
+    }
+   ]
+  },
+  {
+   "key": "p6b",
+   "label": "Page, item 6b",
+   "cells": [
+    null,
+    {
+     "t": "6b"
+    },
+    {
+     "t": "Any changes to trial outcomes after the trial commenced, with reasons"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p7a",
+   "label": "Page, item 7a",
+   "cells": [
+    {
+     "t": "Sample size",
+     "rs": 2,
+     "ind": false
+    },
+    {
+     "t": "7a"
+    },
+    {
+     "t": "How sample size was determined"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p7b",
+   "label": "Page, item 7b",
+   "cells": [
+    null,
+    {
+     "t": "7b"
+    },
+    {
+     "t": "When applicable, explanation of any interim analyses and stopping guidelines"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "lab": "Randomisation:"
+  },
+  {
+   "key": "p8a",
+   "label": "Page, item 8a",
+   "cells": [
+    {
+     "t": "Sequence generation",
+     "rs": 3,
+     "ind": true
+    },
+    {
+     "t": "8a"
+    },
+    {
+     "t": "Method used to generate the random allocation sequence"
+    },
+    {
+     "t": "Whether the order of treatment periods was randomised, with rationale, and method used to generate allocation sequence"
+    }
+   ]
+  },
+  {
+   "key": "p8b",
+   "label": "Page, item 8b",
+   "cells": [
+    null,
+    {
+     "t": "8b"
+    },
+    {
+     "t": "Type of randomisation; details of any restriction (such as blocking and block size)"
+    },
+    {
+     "t": "When applicable, type of randomisation; details of any restrictions (such as pairs, blocking)"
+    }
+   ]
+  },
+  {
+   "key": "p8c",
+   "label": "Page, item 8c",
+   "cells": [
+    null,
+    {
+     "t": "8c"
+    },
+    {
+     "t": "New item added in CENT 2015",
+     "muted": true
+    },
+    {
+     "t": "Full, intended sequence of periods"
+    }
+   ]
+  },
+  {
+   "key": "p9",
+   "label": "Page, item 9",
+   "cells": [
+    {
+     "t": "Allocation concealment mechanism",
+     "ind": true
+    },
+    {
+     "t": "9"
+    },
+    {
+     "t": "Mechanism used to implement the random allocation sequence (such as sequentially numbered containers), describing any steps taken to conceal the sequence until interventions were assigned"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p10",
+   "label": "Page, item 10",
+   "cells": [
+    {
+     "t": "Implementation",
+     "ind": true
+    },
+    {
+     "t": "10"
+    },
+    {
+     "t": "Who generated the random allocation sequence, who enrolled participants, and who assigned participants to interventions"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p11a",
+   "label": "Page, item 11a",
+   "cells": [
+    {
+     "t": "Blinding",
+     "rs": 2,
+     "ind": false
+    },
+    {
+     "t": "11a"
+    },
+    {
+     "t": "If done, who was blinded after assignment to interventions (for example, participants, care providers, those assessing outcomes) and how"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p11b",
+   "label": "Page, item 11b",
+   "cells": [
+    null,
+    {
+     "t": "11b"
+    },
+    {
+     "t": "If relevant, description of the similarity of interventions"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p12a",
+   "label": "Page, item 12a",
+   "cells": [
+    {
+     "t": "Statistical methods",
+     "rs": 3,
+     "ind": false
+    },
+    {
+     "t": "12a"
+    },
+    {
+     "t": "Statistical methods used to compare groups for primary and secondary outcomes"
+    },
+    {
+     "t": "Methods used to summarize data and compare interventions for primary and secondary outcomes"
+    }
+   ]
+  },
+  {
+   "key": "p12b",
+   "label": "Page, item 12b",
+   "cells": [
+    null,
+    {
+     "t": "12b"
+    },
+    {
+     "t": "Methods for additional analyses, such as subgroup analyses and adjusted analyses"
+    },
+    {
+     "t": "For series: If done, methods of quantitative synthesis of individual trial data, including subgroup analyses, adjusted analyses, and how heterogeneity between participants was assessed, (for specific guidance on reporting syntheses of multiple trials, please consult the PRISMA Statement)"
+    }
+   ]
+  },
+  {
+   "key": "p12c",
+   "label": "Page, item 12c",
+   "cells": [
+    null,
+    {
+     "t": "12c"
+    },
+    {
+     "t": "New item added in CENT 2015",
+     "muted": true
+    },
+    {
+     "t": "Statistical methods used to account for carryover effect, period effects, and intra-subject correlation"
+    }
+   ]
+  },
+  {
+   "sec": "Results"
+  },
+  {
+   "key": "p13a.1",
+   "label": "Page, item 13a.1",
+   "cells": [
+    {
+     "t": "Participant flow (a diagram is strongly recommended)",
+     "rs": 4,
+     "ind": false
+    },
+    {
+     "t": "13a.1"
+    },
+    {
+     "t": "For each group, the numbers of participants who were randomly assigned, received intended treatment, and were analysed for the primary outcome"
+    },
+    {
+     "t": "Number and sequence of periods completed, and any changes from original plan with reasons"
+    }
+   ]
+  },
+  {
+   "key": "p13a.2",
+   "label": "Page, item 13a.2",
+   "cells": [
+    null,
+    {
+     "t": "13a.2"
+    },
+    {
+     "t": "New item added in CENT 2015",
+     "muted": true
+    },
+    {
+     "t": "For series: The number of participants who were enrolled, assigned to interventions, and analysed for the primary outcome"
+    }
+   ]
+  },
+  {
+   "key": "p13b",
+   "label": "Page, item 13b",
+   "cells": [
+    null,
+    {
+     "t": "13b"
+    },
+    {
+     "t": "For each group, losses and exclusions after randomisation, together with reasons"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p13c",
+   "label": "Page, item 13c",
+   "cells": [
+    null,
+    {
+     "t": "13c"
+    },
+    {
+     "t": "New item added in CENT 2015",
+     "muted": true
+    },
+    {
+     "t": "For series: losses or exclusions of participants after treatment assignment, with reasons, and period in which this occurred, if applicable"
+    }
+   ]
+  },
+  {
+   "key": "p14a",
+   "label": "Page, item 14a",
+   "cells": [
+    {
+     "t": "Recruitment",
+     "rs": 2,
+     "ind": false
+    },
+    {
+     "t": "14a†"
+    },
+    {
+     "t": "Dates defining the periods of recruitment and follow-up"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p14b",
+   "label": "Page, item 14b",
+   "cells": [
+    null,
+    {
+     "t": "14b"
+    },
+    {
+     "t": "Why the trial ended or was stopped"
+    },
+    {
+     "t": "Whether any periods were stopped early and/or whether trial was stopped early, with reason(s)."
+    }
+   ]
+  },
+  {
+   "key": "p15",
+   "label": "Page, item 15",
+   "cells": [
+    {
+     "t": "Baseline data",
+     "ind": false
+    },
+    {
+     "t": "15†"
+    },
+    {
+     "t": "A table showing baseline demographic and clinical characteristics for each group"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p16",
+   "label": "Page, item 16",
+   "cells": [
+    {
+     "t": "Numbers analysed",
+     "ind": false
+    },
+    {
+     "t": "16"
+    },
+    {
+     "t": "For each group, number of participants (denominator) included in each analysis and whether the analysis was by original assigned groups"
+    },
+    {
+     "t": "For each intervention, number of periods analysed.\nIn addition for series: if quantitative synthesis was performed, number of trials for which data were synthesized"
+    }
+   ]
+  },
+  {
+   "key": "p17a.1",
+   "label": "Page, item 17a.1",
+   "cells": [
+    {
+     "t": "Outcomes and estimation",
+     "rs": 3,
+     "ind": false
+    },
+    {
+     "t": "17a.1"
+    },
+    {
+     "t": "For each primary and secondary outcome, results for each group, and the estimated effect size and its precision (such as 95% confidence interval)"
+    },
+    {
+     "t": "For each primary and secondary outcome, results for each period; an accompanying figure displaying the trial data is recommended."
+    }
+   ]
+  },
+  {
+   "key": "p17a.2",
+   "label": "Page, item 17a.2",
+   "cells": [
+    null,
+    {
+     "t": "17a.2"
+    },
+    {
+     "t": "New item added in CENT 2015",
+     "muted": true
+    },
+    {
+     "t": "For each primary and secondary outcome, the estimated effect size and its precision (such as 95% confidence interval)\nIn addition for series: if quantitative synthesis was performed, group estimates of effect and precision for each primary and secondary outcome"
+    }
+   ]
+  },
+  {
+   "key": "p17b",
+   "label": "Page, item 17b",
+   "cells": [
+    null,
+    {
+     "t": "17b"
+    },
+    {
+     "t": "For binary outcomes, presentation of both absolute and relative effect sizes is recommended"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p18",
+   "label": "Page, item 18",
+   "cells": [
+    {
+     "t": "Ancillary analyses",
+     "ind": false
+    },
+    {
+     "t": "18"
+    },
+    {
+     "t": "Results of any other analyses performed, including subgroup analyses and adjusted analyses, distinguishing pre-specified from exploratory"
+    },
+    {
+     "t": "Results of any other analyses performed, including assessment of carryover effects, period effects, intra-subject correlation\nIn addition for series: If done, results of subgroup or sensitivity analyses"
+    }
+   ]
+  },
+  {
+   "key": "p19",
+   "label": "Page, item 19",
+   "cells": [
+    {
+     "t": "Harms",
+     "ind": false
+    },
+    {
+     "t": "19"
+    },
+    {
+     "t": "All important harms or unintended effects in each group (for specific guidance see CONSORT for harms)"
+    },
+    {
+     "t": "All harms or unintended effects for each intervention. (for specific guidance see CONSORT for harms)"
+    }
+   ]
+  },
+  {
+   "sec": "Discussion"
+  },
+  {
+   "key": "p20",
+   "label": "Page, item 20",
+   "cells": [
+    {
+     "t": "Limitations",
+     "ind": false
+    },
+    {
+     "t": "20"
+    },
+    {
+     "t": "Trial limitations, addressing sources of potential bias, imprecision, and, if relevant, multiplicity of analyses"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p21",
+   "label": "Page, item 21",
+   "cells": [
+    {
+     "t": "Generalisability",
+     "ind": false
+    },
+    {
+     "t": "21"
+    },
+    {
+     "t": "Generalisability (external validity, applicability) of the trial findings"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p22",
+   "label": "Page, item 22",
+   "cells": [
+    {
+     "t": "Interpretation",
+     "ind": false
+    },
+    {
+     "t": "22"
+    },
+    {
+     "t": "Interpretation consistent with results, balancing benefits and harms, and considering other relevant evidence"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "sec": "Other information"
+  },
+  {
+   "key": "p23",
+   "label": "Page, item 23",
+   "cells": [
+    {
+     "t": "Registration",
+     "ind": false
+    },
+    {
+     "t": "23"
+    },
+    {
+     "t": "Registration number and name of trial registry"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p24",
+   "label": "Page, item 24",
+   "cells": [
+    {
+     "t": "Protocol",
+     "ind": false
+    },
+    {
+     "t": "24"
+    },
+    {
+     "t": "Where the full trial protocol can be accessed, if available"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  },
+  {
+   "key": "p25",
+   "label": "Page, item 25",
+   "cells": [
+    {
+     "t": "Funding",
+     "ind": false
+    },
+    {
+     "t": "25"
+    },
+    {
+     "t": "Sources of funding and other support (such as supply of drugs), role of funders"
+    },
+    {
+     "t": "No modification from CONSORT 2010 item",
+     "muted": true
+    }
+   ]
+  }
+ ],
+ "foot": [
+  {
+   "t": "*It is strongly recommended that this checklist be read in conjunction with the CENT 2015 Explanation and Elaboration for important clarification on the items. The copyright for CENT (including checklist) is held by the CENT Group and is distributed under a Creative Commons Attribution (CC-BY 4.0) license."
+  },
+  {
+   "t": "†Caution should be taken when reporting potentially identifying information pertaining to CENT items 4a, 4b, 14a, and 15."
+  },
+  {
+   "t": "Citation: Vohra S, Shamseer L, Sampson M, Bukutu C, Schmid CH, Tate R, et al. CONSORT extension for reporting N-of-1 trials (CENT) 2015 Statement. BMJ. 2015;350:h1738. [[https://doi.org/10.1136/bmj.h1738|https://doi.org/10.1136/bmj.h1738]]."
+  }
+ ]
+};
+
+  const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const nl2br = s => esc(s).replace(/\n/g, "<br>");
+  const linkify = s => esc(s).replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/^([*†])/, "<sup>$1</sup>");
+  const $ = id => document.getElementById(id);
+  const COLS = CFG.cols, NC = COLS.length, TOTAL = COLS.reduce((a, c) => a + c.w, 0);
+  const INPUT = COLS.find(c => c.input);
+  const ROWS = CFG.rows;
+
+  // ---- static parts ----
+  if (CFG.logoLeft) $("tp-left").innerHTML = `<img src="${CFG.logoLeft}" alt="" id="tp-logo">`;
+  $("tp-ttl").innerHTML = esc(CFG.title) + (CFG.star ? "<sup>*</sup>" : "");
+  if (CFG.subtitle) $("tp-sub").textContent = CFG.subtitle; else $("tp-sub").remove();
+  $("tp-note").textContent = CFG.note;
+  $("tp-foots").innerHTML = CFG.foot.map(f => `<p class="tp-foot${f.lic ? " lic" : ""}">${linkify(f.t)}</p>`).join("");
+
+  // ---- table ----
+  const table = $("tp-table");
+  table.querySelector("colgroup").innerHTML = COLS.map(c => `<col style="width:${(c.w / TOTAL * 100).toFixed(2)}%">`).join("");
+  table.querySelector("thead").innerHTML = "<tr>" + COLS.map(c =>
+    `<th class="${c.center ? "c" : ""}">${esc(c.h)}${c.hint ? `<span class="tp-hint">${esc(c.hint)}</span>` : ""}</th>`).join("") + "</tr>";
+
+  table.querySelector("tbody").innerHTML = ROWS.map(r => {
+    if (r.sec !== undefined) return `<tr class="sec"><td colspan="${NC}">${esc(r.sec)}</td></tr>`;
+    if (r.lab !== undefined) return `<tr class="lab"><td colspan="${NC}">${esc(r.lab)}</td></tr>`;
+    let k = 0;
+    return "<tr>" + COLS.map(c => {
+      if (c.input) return `<td class="pg"><input type="text" data-key="${r.key}" placeholder="${esc(c.ph || "page no.")}" aria-label="${esc(r.label)}"></td>`;
+      const x = r.cells[k++];
+      if (!x) return "";
+      const cls = [c.center ? "c" : "", x.ind ? "ind" : "", x.muted ? "muted" : "", c.cls || "", x.cls || ""].filter(Boolean).join(" ");
+      return `<td${cls ? ` class="${cls}"` : ""}${x.rs ? ` rowspan="${x.rs}"` : ""}>${nl2br(x.t)}</td>`;
+    }).join("") + "</tr>";
+  }).join("");
+
+  // ---- persistence (localStorage, this browser only) ----
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(CFG.store) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(CFG.store, JSON.stringify(d)); } catch (e) {} };
+  load();
+  $("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  $("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = CFG.docName;
+    window.print();
+    document.title = old;
+  };
+
+  $("tp-reset").onclick = () => {
+    if (confirm("Clear all entries and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, CFG, vals, logo, eqLogo) {
+    const F = "Arial", SZ = 17, W = CFG.cols.map(c => c.w), TOTAL = W.reduce((a, b) => a + b), NC = W.length;
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.it, color: o.color, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const cell = (i, text, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? NC : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: lines(text, o) })]
+    });
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: CFG.cols.map((c, i) => cell(i, c.h, { ...hd, center: c.center })) });
+    const body = CFG.rows.map(r => {
+      if (r.sec !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.sec, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] });
+      if (r.lab !== undefined) return new D.TableRow({ cantSplit: true, children: [cell(0, r.lab, { span: true, keepNext: true })] });
+      let k = 0;
+      const kids = [];
+      CFG.cols.forEach((c, i) => {
+        if (c.input) { kids.push(cell(i, vals[r.key] || "", { center: true, mid: true })); return; }
+        const x = r.cells[k++];
+        if (!x) return;
+        kids.push(cell(i, x.t, { rowSpan: x.rs, indent: x.ind ? 260 : 90, center: c.center, it: x.muted, color: x.muted ? "666666" : (c.cls === "accent" ? "1F5F8B" : undefined) }));
+      });
+      return new D.TableRow({ cantSplit: true, children: kids });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [TOTAL - 4300, 4300];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })];
+    const top = [];
+    top.push(new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(CFG.title, { bold: true, size: 24 }), ...(CFG.star ? [run("*", { bold: true, size: 24, sup: true })] : [])], { spacing: { after: 100 } }));
+    if (CFG.subtitle) top.push(para([run(CFG.subtitle, { size: 18 })], { spacing: { after: 100 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: CFG.docName, creator: CFG.docName,
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...CFG.foot.map((f, i) => para(runs(f.t, { size: f.lic ? 14 : 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  $("tp-doc").onclick = async () => {
+    const btn = $("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      if (CFG.logoLeft) { try { logo = new Uint8Array(await (await fetch(new URL(CFG.logoLeft, document.baseURI))).arrayBuffer()); } catch (e) {} }
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, CFG, vals, logo, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = CFG.fileName + ".docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

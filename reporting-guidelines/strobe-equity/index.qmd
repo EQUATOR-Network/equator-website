@@ -1,20 +1,23 @@
 ---
 # REQUIRED FIELDS
-title: STROBE-EQUITY
+title: Improving the Reporting on Health Equity in Observational Research (STROBE-Equity)
 acronym: STROBE-EQUITY
-provided-for: ''
+provided-for: 'Reporting health equity data and considerations'
 rg-doi: 10.1136/bmj-2024-083882
-pmid-id: ''
-pmid-url: ''
-relevant-urls: ''
+pmid-id: '[40903054](https://pubmed.ncbi.nlm.nih.gov/40903054/)'
+pmid-url: https://pubmed.ncbi.nlm.nih.gov/40903054/
+relevant-urls: |-
+  Download the [full text](https://doi.org/10.1136/bmj-2024-083882) of STROBE-Equity \
+  
+  Complete an interactive [STROBE-Equity checklist](strobe-equity-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
-  Dewidar O, Shamseer L, Melendez-Torres GJ, Akl EA, Ramke J, Wang X, Oloyede O, Young T, Nicholls SG, Marshall Z, Kennedy M, Hardy BJ, Rizvi A, Ghogomu E, Rader T, Waddington HS, Shea B, Nkangu M, Ellingwood H, Wolfenden L, Tufte J, Horsley T, Pottie K, Cuervo LG, Juando-Prats C, Feng C, Sharp MK, Little J, Owusu-Addo E, Francis D, Kredo T, Mahande MJ, Chamberlain C, Pantoja T, von Elm E, Bhutta ZA, Tugwell P, Wiysonge CS, Funnell S, Jull J, Mbuagbaw L, Welch V. Improving the reporting on health equity in observational research (STROBE-Equity): extension checklist and elaboration.
+  Dewidar O, Shamseer L, Melendez-Torres GJ, Akl EA, Ramke J, Wang X, Oloyede O, Young T, Nicholls SG, Marshall Z, Kennedy M, Hardy BJ, Rizvi A, Ghogomu E, Rader T, Waddington HS, Shea B, Nkangu M, Ellingwood H, Wolfenden L, Tufte J, Horsley T, Pottie K, Cuervo LG, Juando-Prats C, Feng C, Sharp MK, Little J, Owusu-Addo E, Francis D, Kredo T, Mahande MJ, Chamberlain C, Pantoja T, von Elm E, Bhutta ZA, Tugwell P, Wiysonge CS, Funnell S, Jull J, Mbuagbaw L, Welch V. Improving the reporting on health equity in observational research (STROBE-Equity): extension checklist and elaboration.\
 
-  This guideline was published simultaneously in 2 journals. You can read the guideline in any of these journals using the links below.
+  This guideline was published simultaneously in 2 journals. You can read the guideline in any of these journals using the links below.\
 
-  BMJ. 2025; 390:e083882. [PMID: 40903054](https://pubmed.ncbi.nlm.nih.gov/40903054/)
+  BMJ. 2025; 390:e083882. PMID: [40903054](https://pubmed.ncbi.nlm.nih.gov/40903054/) [full text](https://doi.org/10.1136/bmj-2024-083882)
 
-  JAMA Netw Open. 2025;8:e2532512. [PMID 40899932](https://pubmed.ncbi.nlm.nih.gov/40899932/)
+  JAMA Netw Open. 2025;8:e2532512. [PMID 40899932](https://pubmed.ncbi.nlm.nih.gov/40899932/) [full text](https://doi.org/10.1001/jamanetworkopen.2025.32512)
 
 
 # OPTIONAL FIELDS
@@ -23,15 +26,16 @@ explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
 website-url: ''
-additional-languages: 'STROBE-Equity has been translated in [Spanish](https://iris.paho.org/items/c08ed115-9228-4e84-ab25-6dca38ba4fef) and [Portugese](https://iris.paho.org/items/0f65030a-03e2-48f2-bee6-5707aa7afeb4)'
+additional-languages: |-
+  STROBE-Equity has been translated in [Spanish](https://iris.paho.org/items/c08ed115-9228-4e84-ab25-6dca38ba4fef) and [Portugese](https://iris.paho.org/items/0f65030a-03e2-48f2-bee6-5707aa7afeb4)
 additional-information: ''
 relevant-editorials: ''
-primary-guideline: Read the guidance [here](https://www.bmj.com/content/390/bmj-2024-083882)
+primary-guideline: 
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: ''
-
+downloads: |-
+  Download the STROBE-Equity checklist [PDF](STROBE-EQUITY-Checklist.pdf) / [Word](STROBE-EQUITY-Checklist.docx)
 
 # LIST FIELDS
 categories:
