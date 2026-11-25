@@ -3,7 +3,7 @@
 title: SPIRIT-Children and Adolescents
 acronym: SPIRIT-Children and Adolescents
 provided-for: Reporting of paediatric randomised controlled trial protocols involving participants aged 0-19 years.
-rg-doi: 10.1136/bmj-2025-085062
+rg-doi: '10.1136/bmj-2025-085062'
 pmid-id: '[41734969](https://pubmed.ncbi.nlm.nih.gov/41734969/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/41734969/
 relevant-urls: |-
