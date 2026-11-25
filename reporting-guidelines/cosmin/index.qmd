@@ -4,15 +4,13 @@ title: COSMIN reporting guideline for studies on measurement properties of patie
 aliases:
   - /reporting-guidelines/cosmin-reporting-guideline-for-studies-on-measurement-properties-of-patient-reported-outcome-measures/
 acronym: COSMIN
-provided-for: Reporting of primary studies of the measurement properties of patient-reported
-  outcome measures (PROMs).
-rg-doi: ''
-pmid-id: '[33818733](https://pubmed.ncbi.nlm.nih.gov/33818733/)'
+provided-for: Reporting of primary studies of the measurement properties of patient-reported outcome measures (PROMs).
+rg-doi: '10.1007/s11136-025-03950-x'
+pmid-id: '[40153128](https://pubmed.ncbi.nlm.nih.gov/40153128/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/33818733/
-relevant-urls: ''
-full-bibliographic-reference: Gagnier JJ, Lai J, Mokkink LB, Terwee CB. COSMIN reporting
-  guideline for studies on measurement properties of patient-reported outcome measures.
-  Qual Life Res. 2021.
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1007/s11136-025-03950-x) of COSMIN
+full-bibliographic-reference: Gagnier JJ, Tavares de Arruda G, Terwee CB, Mokkink LB. COSMIN reporting guideline for studies on measurement properties of patient‑reported outcome measures: version 2.0. Qual Life Res. 2025; 34: 1901-1911. PMID: [40153128](https://pubmed.ncbi.nlm.nih.gov/40153128/) [full text](https://doi.org/10.1007/s11136-025-03950-x)
 
 
 # OPTIONAL FIELDS
@@ -20,15 +18,21 @@ rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: ''
-website-url: ''
-additional-languages: ''
+website-url: https://www.cosmin.nl/
+additional-languages: |-
+  Download the [Chinese](https://www.cosmin.nl/wp-content/uploads/Chinese-version3.1-COSMIN-Reporting-Guideline-202207.pdf) translation of COSMIN \
+  
+  Download the [Bazillian Portugese](https://www.cosmin.nl/wp-content/uploads/RG_BRPt.pdf) translation of COSMIN 
 additional-information: ''
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: ''
+downloads: |-
+  Download the [COSMIN checklist](https://www.cosmin.nl/wp-content/uploads/Reporting-guideline-for-studies-on-measurement-properties_final.pdf) \
+  
+  Download the [COSMIN Explanation & Elaboration](https://www.cosmin.nl/wp-content/uploads/EE-document_version-1.1.pdf) document
 
 
 # LIST FIELDS

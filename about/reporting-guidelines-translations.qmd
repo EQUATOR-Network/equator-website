@@ -36,13 +36,13 @@ checklist and an explanation paper), each is listed separately.
 **Jump to a language:**
 
 [Arabic](#arabic) (2) · [Bulgarian](#bulgarian) (1) · [Chinese](#chinese)
-(22) · [Croatian](#croatian) (3) · [Dutch](#dutch) (4) ·
+(23) · [Croatian](#croatian) (3) · [Dutch](#dutch) (4) ·
 [Finnish](#finnish) (1) · [French](#french) (15) · [French
 (Canadian)](#french-canadian) (1) · [German](#german) (7) · [Greek](#greek)
 (2) · [Italian](#italian) (13) · [Japanese](#japanese) (17) ·
 [Korean](#korean) (8) · [Macedonian](#macedonian) (1) · [Persian](#persian)
 (5) · [Polish](#polish) (1) · [Portuguese](#portuguese) (18) · [Portuguese
-(Brazilian)](#portuguese-brazilian) (5) · [Russian](#russian) (3) ·
+(Brazilian)](#portuguese-brazilian) (6) · [Russian](#russian) (3) ·
 [Spanish](#spanish) (24) · [Turkish](#turkish) (11) ·
 [Ukrainian](#ukrainian) (2) · [Vietnamese](#vietnamese) (4)
 
@@ -69,6 +69,7 @@ checklist and an explanation paper), each is listed separately.
 | [CheckUp](/reporting-guidelines/checkup/) checklist | [PDF](https://equator-network.org/reporting-guidelines/reporting-items-for-updated-clinical-guidelines-checkup/CheckUp_Chinese.pdf) | – | – |
 | [CONSORT for Chinese Herbal Medicine](/reporting-guidelines/consort-chm/) (Traditional Chinese) | – | – | [Web page](https://www.ncbi.nlm.nih.gov/pubmed/28654988) |
 | [CONSORT for Chinese Herbal Medicine](/reporting-guidelines/consort-chm/) (Simplified Chinese) | – | – | [Web page](https://www.ncbi.nlm.nih.gov/pubmed/28654957) |
+| [COSMIN](/reporting-guideines/cosmin/) | [PDF](https://www.cosmin.nl/wp-content/uploads/Chinese-version3.1-COSMIN-Reporting-Guideline-202207.pdf) |  |  |
 | [CRISP](/reporting-guidelines/crisp/) checklist | [PDF](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP-Checklist-Chinese-Version.pdf) | – | – |
 | [CRISP](/reporting-guidelines/crisp/) checklist explanation & examples | – | – | [Web page](https://www.chinagp.net/CN/10.12114/j.issn.1007-9572.2024.A0025) |
 | [GATHER](/reporting-guidelines/gather/) statement checklist | [PDF](http://gather-statement.org/download/gather-checklist-chinese-pdf/) | [Word](http://gather-statement.org/download/gather-checklist-chinese-docx/) | – |
@@ -257,6 +258,7 @@ checklist and an explanation paper), each is listed separately.
 | Reporting guideline | PDF | Word | Web page |
 |:---------------------------|:--------------:|:--------------:|:--------------:|
 | [COREQ](/reporting-guidelines/coreq/) | – | – | [Web page](https://www.scielo.br/j/ape/a/sprbhNSRB86SB7gQsrNnH7n/?lang=en) |
+| [COSMIN](/reporting-guidelines/cosmin/) | [PDF](https://www.cosmin.nl/wp-content/uploads/RG_BRPt.pdf) |  |  |
 | [CRISP](/reporting-guidelines/crisp/) checklist | [PDF](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP_Checklist_Brazilian_Portuguese.pdf) | [Word](https://equator-network.org/reporting-guidelines/improving-the-reporting-of-primary-care-research-consensus-reporting-items-for-studies-in-primary-care-the-crisp-statement/CRISP_Checklist_Brazilian_Portuguese.docx) | – |
 | [PRISMA-COSMIN](/reporting-guidelines/prisma-cosmin/) checklist | [PDF](https://www.prisma-statement.org/s/PRISMA-COSMIN-checklist_Brasil.pdf) | – | – |
 | [PRISMA-COSMIN](/reporting-guidelines/prisma-cosmin/) explanation & elaboration | [PDF](https://www.prisma-statement.org/s/PRISMA-COSMIN_EE_Brasil.pdf) | – | – |
