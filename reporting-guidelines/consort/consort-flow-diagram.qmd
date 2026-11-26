@@ -1,0 +1,340 @@
+---
+pagetitle: "CONSORT 2025 flow diagram"
+page-layout: full
+toc: false
+resources:
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #fd-wrap { --accent:#2a5aa7; --pill:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000; --arrow:#2a5aa7;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #fd-wrap .fd-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #fd-wrap .fd-sub { font-size:14px; line-height:1.45; margin:0 0 .4rem; }
+  #fd-wrap .fd-meta { font:14px Arial,sans-serif; margin:.4rem 0 1rem; }
+  #fd-wrap .fd-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #fd-wrap .fd-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #fd-wrap .fd-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+
+  /* ---- diagram layout ---- */
+  #fd-wrap .trow { position:relative; display:flex; justify-content:center; }
+  #fd-wrap .trow > .box { width:40%; min-width:250px; }
+  #fd-wrap .trow .pl { position:absolute; left:0; top:0; }
+  #fd-wrap .trow.ex { justify-content:flex-end; }
+  #fd-wrap .trow.ex > .box { width:calc(50% - 50px); min-width:0; margin-right:12px; }
+  #fd-wrap .trow.ex::before { content:""; position:absolute; left:50%; top:0; bottom:0; width:2px; margin-left:-1px; background:var(--arrow); }
+  #fd-wrap .trow.ex .h { position:absolute; left:50%; top:50%; width:38px; height:2px; margin-top:-1px; background:var(--arrow); }
+  #fd-wrap .trow.ex .h::after { content:""; position:absolute; right:0; top:-5px; border:6px solid transparent; border-left:9px solid var(--arrow); border-right:0; }
+  #fd-wrap .arms { display:grid; grid-template-columns:1fr 1fr; align-items:stretch; }
+  #fd-wrap .arms > div { padding:0 12px; display:flex; }
+  #fd-wrap .arms > div > .box { width:100%; }
+  #fd-wrap .box { border:1.5px solid var(--line); background:#fff; padding:7px 9px; font-size:13px; line-height:1.4; box-sizing:border-box; }
+  #fd-wrap .ln { display:block; padding:2px 0; }
+  #fd-wrap .ln.ind, #fd-wrap textarea.ind { margin-left:16px; width:calc(100% - 16px); }
+  #fd-wrap .pill { display:inline-block; background:var(--pill); border:1.5px solid var(--accent); color:var(--accent);
+    border-radius:7px; font-weight:bold; font-size:14px; padding:7px 22px; text-align:center; }
+  #fd-wrap .echo { font-weight:bold; font-size:13px; padding-bottom:3px; margin-bottom:3px; border-bottom:1px solid #bbb; }
+  #fd-wrap .echo:empty { display:none; }
+
+  /* connectors */
+  #fd-wrap .sp { position:relative; min-height:30px; }
+  #fd-wrap .sp::before { content:""; position:absolute; left:50%; top:0; bottom:0; width:2px; margin-left:-1px; background:var(--arrow); }
+  #fd-wrap .sp.head::after, #fd-wrap .arr i::after { content:""; position:absolute; left:50%; bottom:-1px; margin-left:-6px;
+    border:6px solid transparent; border-top:9px solid var(--arrow); border-bottom:0; }
+  #fd-wrap .arr { position:relative; height:44px; }
+  #fd-wrap .arr.s { height:32px; }
+  #fd-wrap .arr i { position:absolute; top:0; bottom:0; width:2px; margin-left:-1px; background:var(--arrow); }
+  #fd-wrap .arr i.a { left:25%; } #fd-wrap .arr i.b { left:75%; }
+  #fd-wrap .arr i::after { left:1px; }
+  #fd-wrap .arr .pill { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); z-index:2; }
+  #fd-wrap .arr .hl { position:absolute; left:25%; right:25%; top:50%; height:2px; margin-top:-1px; background:var(--arrow); }
+  #fd-wrap .arr .vl { position:absolute; left:50%; top:0; height:50%; width:2px; margin-left:-1px; background:var(--arrow); }
+  #fd-wrap .arr.split i { top:50%; }
+
+  /* inputs */
+  #fd-wrap input.n { width:4.2em; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:13px Arial,sans-serif; padding:2px 3px; vertical-align:baseline; }
+  #fd-wrap input.gname { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    font:bold 13px Arial,sans-serif; padding:4px 6px; margin-bottom:4px; }
+  #fd-wrap textarea.why { display:block; width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    font:12.5px Arial,sans-serif; padding:3px 6px; resize:none; overflow:hidden; margin:1px 0 3px; }
+  #fd-wrap input:hover, #fd-wrap textarea:hover { border-color:var(--accent); }
+  #fd-wrap input:focus, #fd-wrap textarea:focus { outline:2px solid var(--accent); background:#fff; }
+  #fd-wrap ::placeholder { color:#6a7fa3; font-size:12px; font-weight:normal; }
+  #fd-wrap .fd-hint { font-size:12.5px; color:#444; margin:.7rem 0 0; }
+  #fd-wrap .fd-cite, #fd-wrap .fd-lic { font-size:12.5px; margin:.6rem 0 0; }
+  #fd-wrap .fd-lic { font-size:11.5px; color:#333; }
+  .fd-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .fd-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .fd-actions button.alt { background:#fff; color:#2a5aa7; }
+  .fd-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .fd-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media (max-width:640px) {
+    #fd-wrap .box { font-size:11.5px; padding:5px 6px; } #fd-wrap .arms > div { padding:0 4px; }
+    #fd-wrap .pill { font-size:12px; padding:5px 10px; } #fd-wrap input.n { width:3.4em; }
+  }
+
+  @media print {
+    @page { size:A4 portrait; margin:10mm; }
+    body * { visibility:hidden; }
+    #fd-wrap, #fd-wrap * { visibility:visible; }
+    #fd-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .fd-actions, #fd-wrap .fd-hint { display:none !important; }
+    #fd-wrap .fd-title { font-size:15px; } #fd-wrap .fd-sub { font-size:10.5px; } #fd-wrap .fd-meta { font-size:11px; margin-bottom:.5rem; }
+    #fd-wrap .box { font-size:11px; padding:5px 7px; } #fd-wrap .echo { font-size:11px; }
+    #fd-wrap .pill { font-size:11.5px; padding:4px 16px; }
+    #fd-wrap .arr { height:34px; } #fd-wrap .arr.s, #fd-wrap .sp { min-height:20px; }
+    #fd-wrap .box, #fd-wrap .arms, #fd-wrap .trow { break-inside:avoid; }
+    #fd-wrap .fd-cite { font-size:8.5px; } #fd-wrap .fd-lic { font-size:7.5px; }
+    /* Boxes print as plain text; an empty n= field prints as a blank line to write on */
+    #fd-wrap input.n, #fd-wrap input.gname, #fd-wrap textarea.why { border:0; background:none; padding:0; outline:none !important; }
+    #fd-wrap input.n { font-size:11px; width:3.6em; }
+    #fd-wrap input.n:placeholder-shown { border-bottom:1px solid #000; }
+    #fd-wrap input.gname { font-size:11px; margin:0; } #fd-wrap input.gname:placeholder-shown { display:none; }
+    #fd-wrap textarea.why { font-size:10.5px; margin:0; } #fd-wrap textarea.why:placeholder-shown { display:none; }
+    #fd-wrap ::placeholder { color:transparent; }
+    #fd-wrap .fd-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+    #fd-wrap, #fd-wrap .pill, #fd-wrap .arr *, #fd-wrap .sp, #fd-wrap .sp * { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  }
+</style>
+
+<div id="fd-wrap">
+  <div class="fd-title">CONSORT 2025 Flow Diagram</div>
+  <div class="fd-sub">Flow diagram of the progress through the phases of a randomised trial of two groups (that is, enrolment, intervention allocation, follow-up, and data analysis)</div>
+  <div class="fd-actions">
+    <button type="button" id="fd-pdf">Save as PDF</button>
+    <button type="button" id="fd-doc" class="alt">Save as Word</button>
+    <button type="button" id="fd-reset" class="alt">Clear all</button>
+    <p class="fd-note">Type the number of participants (n) in each box. Where a box says “give reasons”, add the reasons in the text box beneath it.
+    You can optionally name the two groups in the “Allocation” boxes. Then save your copy as a PDF or Word (.docx) file.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="fd-meta"><label>Trial / manuscript title: <input type="text" id="fd-title" data-key="title" placeholder="Type your trial or manuscript title here"></label></div>
+
+  <div id="fd-diagram">
+    <div class="trow"><span class="pill pl">Enrolment</span><div class="box" data-box="assessed"></div></div>
+    <div class="trow ex"><span class="h"></span><div class="box" data-box="excl"></div></div>
+    <div class="sp head"></div>
+    <div class="trow"><div class="box" data-box="rand"></div></div>
+
+    <div class="arr split"><span class="vl"></span><span class="hl"></span><i class="a"></i><i class="b"></i><span class="pill">Allocation</span></div>
+    <div class="arms"><div><div class="box" data-box="alloc1"></div></div><div><div class="box" data-box="alloc2"></div></div></div>
+
+    <div class="arr split"><i class="a" style="top:0"></i><i class="b" style="top:0"></i><span class="pill">Follow-Up</span></div>
+    <div class="arms"><div><div class="box" data-box="fu1"></div></div><div><div class="box" data-box="fu2"></div></div></div>
+
+    <div class="arr split"><i class="a" style="top:0"></i><i class="b" style="top:0"></i><span class="pill">Analysis</span></div>
+    <div class="arms"><div><div class="box" data-box="an1"></div></div><div><div class="box" data-box="an2"></div></div></div>
+  </div>
+
+  <p class="fd-cite">Citation: Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, et al. CONSORT 2025 Statement: updated guideline for reporting randomised trials. BMJ. 2025; 388:e081123. <a href="https://dx.doi.org/10.1136/bmj-2024-081123" target="_blank" rel="noopener">https://dx.doi.org/10.1136/bmj-2024-081123</a>.</p>
+  <p class="fd-lic">© 2025 Hopewell et al. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">https://creativecommons.org/licenses/by/4.0/</a>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+</div>
+
+<script>
+(function () {
+  // Each box is a list of items:
+  //   { t, k, ind?, why? }  = a line "text (n= [__])" stored under key k; ind = indented; why = reasons box (placeholder text)
+  //   { name }              = editable group-name field stored under that key
+  //   { echo }              = read-only copy of a group name (so every box in a column says which group it is)
+  const arm = a => ({
+    ["alloc" + a]: [{ name: "g" + a },
+      { t: "Allocated to intervention", k: "al" + a },
+      { t: "Received allocated intervention", k: "rc" + a, ind: true },
+      { t: "Did not receive allocated intervention (give reasons)", k: "nr" + a, ind: true, why: "Give reasons (optional)" }],
+    ["fu" + a]: [{ echo: "g" + a },
+      { t: "Discontinued intervention (give reasons)", k: "dc" + a, why: "Give reasons (optional)" },
+      { t: "Lost to follow-up for primary outcome (give reasons)", k: "lf" + a, why: "Give reasons (optional)" }],
+    ["an" + a]: [{ echo: "g" + a },
+      { t: "Analysed for primary outcome", k: "an" + a },
+      { t: "Excluded from analysis (give reasons)", k: "ex" + a, why: "Give reasons (optional)" }]
+  });
+  const BOXES = {
+    assessed: [{ t: "Assessed for eligibility", k: "elig" }],
+    excl: [{ t: "Excluded", k: "eT" },
+      { t: "Not meeting inclusion criteria", k: "eI", ind: true },
+      { t: "Declined to participate", k: "eD", ind: true },
+      { t: "Other reasons", k: "eO", ind: true, why: "Specify other reasons (optional)" }],
+    rand: [{ t: "Randomised", k: "rand" }],
+    ...arm(1), ...arm(2)
+  };
+  const TITLE = "CONSORT 2025 Flow Diagram";
+  const SUB = "Flow diagram of the progress through the phases of a randomised trial of two groups (that is, enrolment, intervention allocation, follow-up, and data analysis)";
+  const FOOT = [
+    "Citation: Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, et al. CONSORT 2025 Statement: updated guideline for reporting randomised trials. BMJ. 2025; 388:e081123. [[https://dx.doi.org/10.1136/bmj-2024-081123|https://dx.doi.org/10.1136/bmj-2024-081123]].",
+    "© 2025 Hopewell et al. This is an Open Access article distributed under the terms of the Creative Commons Attribution License ([[https://creativecommons.org/licenses/by/4.0/|https://creativecommons.org/licenses/by/4.0/]]), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited."
+  ];
+
+  const STORE = "consort-2025-flow-diagram-v1";
+  const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const wrap = document.getElementById("fd-wrap");
+
+  // Build the boxes
+  document.querySelectorAll("#fd-diagram [data-box]").forEach(el => {
+    el.innerHTML = BOXES[el.dataset.box].map(it => {
+      if (it.name) return `<input class="gname" type="text" data-key="${it.name}" placeholder="Group name (optional)" aria-label="Group name">`;
+      if (it.echo) return `<div class="echo" data-echo="${it.echo}"></div>`;
+      const label = esc(it.t);
+      return `<div class="ln${it.ind ? " ind" : ""}">${label} (n= <input class="n" type="text" inputmode="numeric" data-key="${it.k}" placeholder="n" aria-label="Number, ${label}">)</div>` +
+        (it.why ? `<textarea class="why${it.ind ? " ind" : ""}" rows="1" data-key="${it.k}r" placeholder="${esc(it.why)}" aria-label="Reasons, ${label}"></textarea>` : "");
+    }).join("");
+  });
+
+  const fields = () => [...wrap.querySelectorAll("input, textarea")];
+  const grow = t => { t.style.height = "auto"; t.style.height = t.scrollHeight + 2 + "px"; };
+  const growAll = () => wrap.querySelectorAll("textarea").forEach(grow);
+  const echo = () => wrap.querySelectorAll("[data-echo]").forEach(e => {
+    const f = wrap.querySelector(`[data-key="${e.dataset.echo}"]`); e.textContent = f ? f.value : "";
+  });
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load(); echo(); growAll();
+  wrap.addEventListener("input", e => { if (e.target.tagName === "TEXTAREA") grow(e.target); echo(); save(); });
+  window.addEventListener("resize", growAll);
+  window.addEventListener("beforeprint", growAll);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the diagram)
+  document.getElementById("fd-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "CONSORT 2025 flow diagram";
+    growAll();
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("fd-reset").onclick = () => {
+    if (confirm("Clear all numbers, reasons, group names and the title?")) { fields().forEach(i => i.value = ""); echo(); growAll(); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, BOXES, vals, title, sub, foot) {
+    const F = "Arial", SZ = 17, BLUE = "2A5AA7";
+    // 9-column layout grid: left arm = cols 1-4, spacer = col 5, right arm = cols 6-9
+    const W = [1225, 1225, 1225, 1225, 666, 1225, 1225, 1225, 1225], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 8, color: "000000" };
+    const pl = { style: D.BorderStyle.SINGLE, size: 8, color: BLUE };
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const sides = b => ({ top: b, bottom: b, left: b, right: b });
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.it, color: o.color, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const lines = (text, o) => text.split("\n").flatMap((l, i) => i ? [new D.TextRun({ break: 1 }), ...runs(l, o)] : runs(l, o));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+
+    // A layout cell covering grid columns from..to (1-based, inclusive). It is only a descriptor here; row() builds the real table cell.
+    const cell = (from, to, children, o = {}) => ({ from, to, children, o });
+    const build = (d, leftB, rightB) => {
+      const { from, to, children, o } = d;
+      // Layout-only cells repeat the facing edge of a neighbouring box, so no renderer lets their "none" border cancel the box edge
+      const borders = o.border ? sides(o.border) : (leftB || rightB) ? { top: none, bottom: none, left: leftB || none, right: rightB || none } : undefined;
+      return new D.TableCell({
+        width: { size: W.slice(from - 1, to).reduce((a, b) => a + b), type: D.WidthType.DXA }, columnSpan: to > from ? to - from + 1 : undefined,
+        verticalAlign: o.box ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+        shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+        margins: { top: o.box ? 60 : 0, bottom: o.box ? 60 : 0, left: 100, right: 100 },
+        borders, children });
+    };
+    const blank = (from, to) => cell(from, to, [para([], { spacing: { after: 0 } })]);
+    const arrow = (from, to, glyph) => cell(from, to, [para([run(glyph, { size: 26, bold: true, color: BLUE })], { alignment: D.AlignmentType.CENTER, spacing: { after: 0 } })]);
+    const pill = (from, to, text) => cell(from, to, [para([run(text, { bold: true, size: 20, color: BLUE })], { alignment: D.AlignmentType.CENTER, spacing: { before: 40, after: 40 } })], { fill: "B4C6E7", border: pl });
+
+    // A bordered box built from a BOXES entry
+    const nTxt = k => (vals[k] || "").trim() || "____";
+    const box = (from, to, items) => {
+      const ps = [];
+      items.forEach(it => {
+        const ind = it.ind ? { left: 300 } : undefined;
+        if (it.name) { if ((vals[it.name] || "").trim()) ps.push(para([run(vals[it.name].trim(), { bold: true })], { spacing: { after: 40 } })); return; }
+        if (it.echo) { if ((vals[it.echo] || "").trim()) ps.push(para([run(vals[it.echo].trim(), { bold: true })], { spacing: { after: 40 } })); return; }
+        ps.push(para([run(`${it.t} (n= ${nTxt(it.k)})`)], { indent: ind, spacing: { after: 40 } }));
+        const why = (vals[it.k + "r"] || "").trim();
+        if (why) ps.push(new D.Paragraph({ indent: ind, spacing: { after: 40 }, children: lines("Reasons: " + why, { it: true }) }));
+      });
+      return cell(from, to, ps, { border: ln, box: true });
+    };
+    const row = cells => new D.TableRow({ cantSplit: true, children: cells.map((d, i) => build(d, cells[i - 1] && cells[i - 1].o.border, cells[i + 1] && cells[i + 1].o.border)) });
+    const B = k => BOXES[k];
+
+    const rows = [
+      row([pill(1, 2, "Enrolment"), blank(3, 3), box(4, 6, B("assessed")), blank(7, 9)]),
+      new D.TableRow({ cantSplit: true, height: { value: 160, rule: D.HeightRule.EXACT }, children: [build(blank(1, 9), null, null)] }),
+      row([blank(1, 4), arrow(5, 5, "↓"), arrow(6, 6, "→"), box(7, 9, B("excl"))]),
+      row([blank(1, 4), arrow(5, 5, "↓"), blank(6, 9)]),
+      row([blank(1, 3), box(4, 6, B("rand")), blank(7, 9)]),
+      row([blank(1, 4), arrow(5, 5, "↓"), blank(6, 9)]),
+      row([blank(1, 3), pill(4, 6, "Allocation"), blank(7, 9)]),
+      row([arrow(1, 4, "↓"), blank(5, 5), arrow(6, 9, "↓")]),
+      row([box(1, 4, B("alloc1")), blank(5, 5), box(6, 9, B("alloc2"))]),
+      row([arrow(1, 4, "↓"), blank(5, 5), arrow(6, 9, "↓")]),
+      row([blank(1, 3), pill(4, 6, "Follow-Up"), blank(7, 9)]),
+      row([arrow(1, 4, "↓"), blank(5, 5), arrow(6, 9, "↓")]),
+      row([box(1, 4, B("fu1")), blank(5, 5), box(6, 9, B("fu2"))]),
+      row([arrow(1, 4, "↓"), blank(5, 5), arrow(6, 9, "↓")]),
+      row([blank(1, 3), pill(4, 6, "Analysis"), blank(7, 9)]),
+      row([arrow(1, 4, "↓"), blank(5, 5), arrow(6, 9, "↓")]),
+      row([box(1, 4, B("an1")), blank(5, 5), box(6, 9, B("an2"))])
+    ];
+
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const noBorders = sides(none);
+    const top = [
+      para([run(title, { bold: true, size: 24 })], { spacing: { after: 60 } }),
+      para([run(sub, { size: 18 })], { spacing: { after: 100 } }),
+      para([run("Trial / manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 160 } })
+    ];
+    return new D.Document({
+      title: "CONSORT 2025 flow diagram", creator: "CONSORT 2025 flow diagram",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top,
+          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, borders: { ...noBorders, insideHorizontal: none, insideVertical: none }, rows }),
+          ...foot.map((t, i) => para(runs(t, { size: i === 1 ? 14 : 16 }), { spacing: { before: i ? 60 : 200 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("fd-doc").onclick = async () => {
+    const btn = document.getElementById("fd-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, BOXES, vals, TITLE, SUB, FOOT));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "CONSORT-2025-flow-diagram.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

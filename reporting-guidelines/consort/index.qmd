@@ -11,7 +11,9 @@ pmid-url: '[40228833](https://pubmed.ncbi.nlm.nih.gov/40228833/)'
 relevant-urls: |-
   Read the [full-text](https://doi.org/10.1136/bmj-2024-081123) of CONSORT-2025\
   
-  Complete an interactive [CONSORT-2025](consort-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal.
+  Complete an interactive [CONSORT-2025](consort-checklist.qmd) checklist, which you can save and upload when submitting your paper to a journal. \
+  
+  Complete an interactive [CONSORT-2025 flow diagam](consort-flow-diagram.qmd), which you can save and and include in your paper
   
 full-bibliographic-reference: |-
   Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne D, Farmer A, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson D, Vohra S, White IR, Boutron I. CONSORT 2025 statement: updated guideline for reporting randomised trials. \
