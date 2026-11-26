@@ -7,7 +7,7 @@ rg-doi: ''
 pmid-id: '[24631223](http://www.ncbi.nlm.nih.gov/pubmed/24631223)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/24631223
 relevant-urls: |-
-  Read the [full text][full text](https://doi.org/10.1016/s1473-3099(13)70324-4) of STROME-ID
+  Read the [full text](https://doi.org/10.1016/s1473-3099(13)70324-4) of STROME-ID
 full-bibliographic-reference: 'Field N, Cohen T, Struelens MJ, Palm D, Cookson B, Glynn JR, Gallo V, Ramsay M, Sonnenberg P, MacCannell D, Charlett A, Egger M, Green J, Vineis P, Abubakar I. Strengthening the Reporting of Molecular Epidemiology for Infectious Diseases (STROME-ID): an extension of the STROBE statement. Lancet Infect Dis. 2014; 14: 341-352. PMID: [24631223](http://www.ncbi.nlm.nih.gov/pubmed/24631223) [full text](https://doi.org/10.1016/s1473-3099(13)70324-4)'
 
 
