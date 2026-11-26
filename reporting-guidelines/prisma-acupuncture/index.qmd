@@ -84,8 +84,7 @@ relevant-more: |-
   
     [**PRISMA-Children and Adolsecents**](/reporting-guidelines/prisma-children-and-adolescents/): Baba A, Farid-Kapadia M, Smith M, Hartling L, Moher D, Hooft L, Offringa M. PRISMA-Children and Adolescents (PRISMA-C) 2026 extension statement and explanation: enhancing the reporting and utility of systematic reviews of interventions in paediatrics. BMJ 2026; 39: e088561.PMID: [42055583](https://pubmed.ncbi.nlm.nih.gov/42055583/)
 website-url: <https://www.prisma-statement.org/acupuncture>
-additional-languages: The PRISMA for Acupuncture checklist is available in Chinese
-  ([PDF](PRISMA-A-checklist-Chinese.pdf) | [Word](PRISMA-A-checklist-Chinese.docx)).
+additional-languages: The PRISMA for Acupuncture checklist is available in Chinese [PDF](PRISMA-A-checklist-Chinese.pdf) / [Word](PRISMA-A-checklist-Chinese.docx).
 additional-information: '[Read additional information (PDF)](Appendix-1-Contributor-information-PRISMA-for-acupuncture.pdf)
   about PRISMA for Acupuncture development group participants.'
 relevant-editorials: ''
@@ -93,8 +92,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: '[PRISMA - A checklist (PDF)](https://www.prisma-statement.org/s/PRISMA-A-checklist-fmgd.pdf)  [PRISMA
-  - A checklist (Word)](https://www.prisma-statement.org/s/PRISMA-A-checklist-m2n3.docx)'
+downloads: |-
+  Download the PRISMA-A checklist [PDF](https://www.prisma-statement.org/s/PRISMA-A-checklist-fmgd.pdf) / [Word](https://www.prisma-statement.org/s/PRISMA-A-checklist-m2n3.docx)
 
 
 # LIST FIELDS

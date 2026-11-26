@@ -2,15 +2,13 @@
 # REQUIRED FIELDS
 title: 'PRISMA extension for moxibustion 2020: recommendations, explanation, and elaboration'
 acronym: PRISMA-M 2020
-provided-for: Reporting of systematic reviews focusing on moxibustion interventions
-  for specific conditions and/or patterns.
+provided-for: Reporting of systematic reviews focusing on moxibustion interventions for specific conditions and/or patterns.
 rg-doi: ''
 pmid-id: '[33100229](https://pubmed.ncbi.nlm.nih.gov/33100229/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/33100229/
-relevant-urls: 'The full-text of PRISMA-M 2020 is available at: <https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/s13643-020-01502-7>'
-full-bibliographic-reference: 'Zhang X, Tan R, Lam WC, Cheng CW, Yao L, Wang XQ, Li
-  SY, Aixinjueluo QY, Yang KH, Shang HC, Wu TX, Lyu AP, Bian ZX. PRISMA extension
-  for moxibustion 2020: recommendations, explanation, and elaboration. Syst Rev. 2020;9(1):247.'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1186/s13643-020-01502-7) of PRISMA-M 2020.
+full-bibliographic-reference: 'Zhang X, Tan R, Lam WC, Cheng CW, Yao L, Wang XQ, Li SY, Aixinjueluo QY, Yang KH, Shang HC, Wu TX, Lyu AP, Bian ZX. PRISMA extension for moxibustion 2020: recommendations, explanation, and elaboration. Syst Rev. 2020;9(1):247. PMID: [33100229](https://pubmed.ncbi.nlm.nih.gov/33100229/) [full text](https://doi.org/10.1186/s13643-020-01502-7)'
 
 
 # OPTIONAL FIELDS
@@ -20,7 +18,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.
+  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.\
 
   PLoS Med. 2021; 18: e1003583. PMID: [33780438](https://pubmed.ncbi.nlm.nih.gov/33780438/)
 

@@ -1,12 +1,13 @@
 ---
 # REQUIRED FIELDS
 title: 'The PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses of Health Care Interventions: Checklist and Explanations'
-acronym: ''
+acronym: 'PRISMA-NMA'
 provided-for: Reporting systematic reviews that incorporate network meta-analyses.
 rg-doi: '10.7326/m14-2385'
 pmid-id: '[26030634](http://www.ncbi.nlm.nih.gov/pubmed/26030634)'
 pmid-url: http://www.ncbi.nlm.nih.gov/pubmed/26030634
-relevant-urls: ''
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.7326/m14-2385) of PRISMA-NM.
 full-bibliographic-reference: 'Hutton B, Salanti G, Caldwell DM, Chaimani A, Schmid CH, Cameron C, Ioannidis JP, Straus S, Thorlund K, Jansen JP, Mulrow C, Catalá-López F, Gøtzsche PC, Dickersin K, Boutron I, Altman DG, Moher D. The PRISMA Extension Statement for Reporting of Systematic Reviews Incorporating Network Meta-analyses of Health Care Interventions: Checklist and Explanations. Ann Intern Med. 2015;162(11):777-784. PMID: [26030634](http://www.ncbi.nlm.nih.gov/pubmed/26030634) [full text](https://doi.org/10.7326/m14-2385)'
 
 
@@ -17,7 +18,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic**
 
-  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.
+  [**PRISMA 2020 Statement**](/reporting-guidelines/prisma/): Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews.\
 
   PLoS Med. 2021; 18: e1003583. PMID: [33780438](https://pubmed.ncbi.nlm.nih.gov/33780438/)
 
