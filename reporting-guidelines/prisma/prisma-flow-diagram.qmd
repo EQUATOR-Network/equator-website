@@ -1,0 +1,359 @@
+---
+pagetitle: "PRISMA 2020 flow diagram"
+page-layout: full
+toc: false
+resources:
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #pr-wrap { --pur:#6b52ae; --pbox:#ccc5e5; --pline:#8f84bf; --gry:#8a8a8a; --gbox:#d9d9d9; --ghd:#9a9a9a; --gline:#a0a0a0;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1200px; margin:0 auto; }
+  #pr-wrap .pr-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #pr-wrap .pr-sub { font-size:14px; line-height:1.45; margin:0 0 .4rem; }
+  .pr-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .pr-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #6b52ae; background:#6b52ae; color:#fff; }
+  .pr-actions button.alt { background:#fff; color:#6b52ae; }
+  .pr-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .pr-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  /* ---- diagram grid: 5 box columns (A to E) separated by connector columns ---- */
+  #pr-wrap #pr-scroll { overflow-x:auto; padding-bottom:6px; }
+  #pr-wrap #pr-diagram { display:grid; min-width:980px;
+    grid-template-columns:minmax(0,1fr) 22px minmax(0,1fr) 40px minmax(0,1fr) 22px minmax(0,1fr) 40px minmax(0,1fr);
+    grid-template-rows:auto 10px auto 30px auto 28px auto 28px auto 28px auto 28px auto; }
+  #pr-wrap .c { position:relative; display:flex; flex-direction:column; min-width:0; }
+  #pr-wrap .c.p { --cl:var(--pur); } #pr-wrap .c.g { --cl:var(--gry); }
+
+  #pr-wrap .hdr { align-items:center; justify-content:center; color:#fff; font-weight:bold; font-size:16px; text-align:center;
+    border-radius:8px; padding:7px 10px; line-height:1.3; }
+  #pr-wrap .hdr.p { background:var(--pur); } #pr-wrap .hdr.g { background:var(--ghd); }
+
+  #pr-wrap .box { flex:1; border-radius:10px; padding:8px 10px; font-size:13px; line-height:1.4; box-sizing:border-box; position:relative; }
+  #pr-wrap .c.tl .box { flex:0 0 auto; }
+  #pr-wrap .box.p { background:var(--pbox); } #pr-wrap .box.g { background:var(--gbox); }
+  #pr-wrap .ln { display:block; padding:2px 0; }
+  #pr-wrap .ln.ind { margin-left:14px; }
+  #pr-wrap .ln.hd { padding-bottom:1px; }
+
+  /* connectors */
+  #pr-wrap .tail { flex:1; position:relative; min-height:0; }
+  #pr-wrap .tail::before, #pr-wrap .vl::before { content:""; position:absolute; left:50%; top:0; bottom:0; width:2px; margin-left:-1px; background:var(--cl); }
+  #pr-wrap .vl.head::after { content:""; position:absolute; left:50%; bottom:-1px; margin-left:-6px;
+    border:6px solid transparent; border-top:9px solid var(--cl); border-bottom:0; }
+  #pr-wrap .box.rt::after { content:""; position:absolute; left:100%; top:50%; width:34px; height:2px; margin-top:-1px; background:var(--cl); }
+  #pr-wrap .box.rt::before { content:""; position:absolute; left:calc(100% + 34px); top:50%; margin-top:-6px;
+    border:6px solid transparent; border-left:9px solid var(--cl); border-right:0; z-index:1; }
+  #pr-wrap .lret::before { content:""; position:absolute; left:0; right:0; top:50%; height:2px; margin-top:-1px; background:var(--cl); }
+  #pr-wrap .lret::after { content:""; position:absolute; left:-1px; top:50%; margin-top:-6px;
+    border:6px solid transparent; border-right:9px solid var(--cl); border-left:0; }
+  #pr-wrap .corner2::before { content:""; position:absolute; left:50%; top:0; height:50%; width:2px; margin-left:-1px; background:var(--cl); }
+  #pr-wrap .corner2::after { content:""; position:absolute; left:0; width:50%; top:50%; height:2px; margin-top:-1px; background:var(--cl); }
+  #pr-wrap .corner::before { content:""; position:absolute; left:calc((100% - 22px) / 2); top:0; height:50%; width:2px; margin-left:-1px; background:var(--cl); }
+  #pr-wrap .corner::after { content:""; position:absolute; left:calc((100% - 22px) / 2); right:9px; top:50%; height:2px; margin-top:-1px; background:var(--cl); }
+  #pr-wrap .corner i { position:absolute; right:0; top:50%; margin-top:-6px;
+    border:6px solid transparent; border-left:9px solid var(--cl); border-right:0; }
+  #pr-wrap .foot { font-size:12px; line-height:1.4; padding:6px 0 0 4px; color:#222; }
+  #pr-wrap .foot p { margin:0 0 3px 0; }
+
+  /* inputs */
+  #pr-wrap input.n { width:4.2em; box-sizing:border-box; border:1.5px solid var(--pline); border-radius:3px; background:#fff;
+    text-align:center; font:13px Arial,sans-serif; padding:2px 3px; vertical-align:baseline; }
+  #pr-wrap .box.g input.n { border-color:var(--gline); }
+  #pr-wrap .rl { font-size:12px; font-weight:bold; margin:5px 0 3px; color:#3d2d7a; }
+  #pr-wrap .box.g .rl { color:#444; }
+  #pr-wrap .lbl-print { display:none; }
+  #pr-wrap textarea.why { display:block; width:100%; box-sizing:border-box; border:2px solid var(--pur); border-radius:4px; background:#fff;
+    font:12.5px/1.4 Arial,sans-serif; padding:5px 7px; resize:none; overflow:hidden; min-height:6.2em; }
+  #pr-wrap .box.g textarea.why { border-color:#777; }
+  #pr-wrap input:hover, #pr-wrap textarea:hover { border-color:#000; }
+  #pr-wrap input:focus, #pr-wrap textarea:focus { outline:2px solid #f3b800; background:#fff; }
+  #pr-wrap ::placeholder { color:#6a6a7a; font-size:12px; font-weight:normal; }
+
+  @media (max-width:640px) { #pr-wrap .pr-note { font-size:13px; } }
+
+  @media print {
+    /* Zero page margin stops the browser adding its own date, title, URL and page-number header/footer; the margin is re-created as padding below */
+    @page { size:A4 landscape; margin:0; }
+    body * { visibility:hidden; }
+    #pr-wrap, #pr-wrap * { visibility:visible; }
+    #pr-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; box-sizing:border-box; padding:8mm; }
+    .pr-actions, #pr-wrap .pr-title, #pr-wrap .pr-sub { display:none !important; }
+    #pr-wrap #pr-scroll { overflow:visible; }
+    #pr-wrap #pr-diagram { min-width:0; width:100%;
+      grid-template-rows:auto 8px auto 22px auto 20px auto 20px auto 20px auto 20px auto; }
+    #pr-wrap .hdr { font-size:13px; padding:5px 8px; }
+    #pr-wrap .box { font-size:11.5px; padding:6px 8px; line-height:1.35; }
+    #pr-wrap .ln { padding:1px 0; }
+    #pr-wrap .foot { font-size:10px; }
+    #pr-wrap .lbl-web { display:none; } #pr-wrap .lbl-print { display:inline; }
+    #pr-wrap .rl { font-size:10.5px; margin:3px 0 2px; }
+    /* Boxes print as plain text; an empty n= field prints as a blank line to write on */
+    #pr-wrap input.n, #pr-wrap textarea.why { border:0; background:none; padding:0; outline:none !important; }
+    #pr-wrap input.n { font-size:11.5px; width:3.4em; field-sizing:content; min-width:2.4em; text-align:left; }
+    #pr-wrap input.n:placeholder-shown { border-bottom:1px solid #000; }
+    #pr-wrap textarea.why { font-size:11px; min-height:0; }
+    #pr-wrap textarea.why:placeholder-shown { display:none; }
+    #pr-wrap ::placeholder { color:transparent; }
+    #pr-wrap, #pr-wrap .c, #pr-wrap .c * { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  }
+</style>
+
+<div id="pr-wrap">
+  <div class="pr-title">PRISMA 2020 Flow Diagram</div>
+  <div class="pr-sub">PRISMA 2020 flow diagram for updated systematic reviews which included searches of databases, registers and other sources</div>
+  <div class="pr-actions">
+    <button type="button" id="pr-pdf">Save as PDF</button>
+    <button type="button" id="pr-doc" class="alt">Save as Word</button>
+    <button type="button" id="pr-reset" class="alt">Clear all</button>
+    <p class="pr-note">Type the number of records, reports or studies (n) in each box. In the two “Reports excluded” boxes, use the white
+    text box to <strong>add your reasons for exclusion</strong>, with the number excluded for each reason (one reason per line).
+    Then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div id="pr-scroll"><div id="pr-diagram"></div></div>
+</div>
+
+<script>
+(function () {
+  // ---- Box contents ----------------------------------------------------------
+  // Each box is a list of items:
+  //   { h }                 = heading line, no number
+  //   { t, k, ind? }        = line "text (n= [__])" stored under key k; ind = indented
+  //   { free, label, why }  = free-text box for reasons, stored under key "free"
+  const REASONS = "Add each reason for exclusion and the number excluded for it, one per line. For example: Wrong population (n=12)";
+  const BOXES = {
+    prev: [{ t: "Studies included in previous version of review", k: "pv1" },
+           { t: "Reports of studies included in previous version of review", k: "pv2" }],
+    ident: [{ h: "Records identified from*:" },
+            { t: "Databases", k: "db", ind: true }, { t: "Registers", k: "reg", ind: true }],
+    removed: [{ h: "Records removed before screening:" },
+              { t: "Duplicate records removed", k: "dup", ind: true },
+              { t: "Records marked as ineligible by automation tools", k: "aut", ind: true },
+              { t: "Records removed for other reasons", k: "orr", ind: true }],
+    screened: [{ t: "Records screened", k: "scr" }],
+    rexc: [{ t: "Records excluded†", k: "rex" }],
+    sought: [{ t: "Reports sought for retrieval", k: "rsk" }],
+    notret: [{ t: "Reports not retrieved", k: "rnr" }],
+    assessed: [{ t: "Reports assessed for eligibility", k: "ras" }],
+    rexcl: [{ h: "Reports excluded:" }, { free: "rxr", why: REASONS }],
+    newinc: [{ t: "New studies included in review", k: "nsi" },
+             { t: "Reports of new included studies", k: "nri" }],
+    total: [{ t: "Total studies included in review", k: "tsi" },
+            { t: "Reports of total included studies", k: "tri" }],
+    other: [{ h: "Records identified from:" },
+            { t: "Websites", k: "web", ind: true }, { t: "Organisations", k: "org", ind: true },
+            { t: "Citation searching", k: "cit", ind: true }],
+    sought2: [{ t: "Reports sought for retrieval", k: "osk" }],
+    notret2: [{ t: "Reports not retrieved", k: "onr" }],
+    assessed2: [{ t: "Reports assessed for eligibility", k: "oas" }],
+    rexcl2: [{ h: "Reports excluded:" }, { free: "oxr", why: REASONS }]
+  };
+  const FOOT = [
+    "*Consider, if feasible to do so, reporting the number of records identified from each database or register searched (rather than the total number across all databases/registers)",
+    "†If automation tools were used, indicate how many records were excluded by a human and how many were excluded by automation tools"
+  ];
+
+  // ---- Layout: r = grid row, c = grid column (1-9), cs/rs = column/row span ----------
+  //   th: "p" purple, "g" grey.   tail: draw the connector line down the rest of the cell.
+  //   rt: right-pointing arrow leaves the box (web only).   w: connector also shown in the Word file.
+  //   only: "web" / "word" limits an entry to one output.
+  const L = [
+    { t: "hdr", r: 1, c: 1, th: "g", text: "Previous studies" },
+    { t: "hdr", r: 1, c: 3, cs: 3, th: "p", text: "Identification of new studies via databases and registers" },
+    { t: "hdr", r: 1, c: 7, cs: 3, th: "g", text: "Identification of new studies via other methods" },
+
+    { t: "box", r: 3, c: 1, th: "g", b: "prev", tail: 1 },
+    { t: "box", r: 3, c: 3, th: "p", b: "ident", rt: 1, tail: 1 },
+    { t: "box", r: 3, c: 5, rs: 2, th: "p", b: "removed" },
+    { t: "box", r: 3, c: 7, th: "g", b: "other", tail: 1 },
+    { t: "rt", r: 3, c: 4, th: "p", only: "word" },
+
+    { t: "vl", r: 4, c: 1, th: "g", w: 1 }, { t: "vl", r: 4, c: 3, th: "p", head: 1, w: 1 }, { t: "vl", r: 4, c: 7, th: "g", w: 1 },
+
+    { t: "vl", r: 5, c: 1, th: "g" },
+    { t: "box", r: 5, c: 3, th: "p", b: "screened", rt: 1 }, { t: "rt", r: 5, c: 4, th: "p", only: "word" },
+    { t: "box", r: 5, c: 5, th: "p", b: "rexc" },
+    { t: "vl", r: 5, c: 7, th: "g" },
+
+    { t: "vl", r: 6, c: 1, th: "g", w: 1 }, { t: "vl", r: 6, c: 3, th: "p", head: 1, w: 1 }, { t: "vl", r: 6, c: 7, th: "g", head: 1, w: 1 },
+
+    { t: "vl", r: 7, c: 1, th: "g" },
+    { t: "box", r: 7, c: 3, th: "p", b: "sought", rt: 1 }, { t: "rt", r: 7, c: 4, th: "p", only: "word" },
+    { t: "box", r: 7, c: 5, th: "p", b: "notret" },
+    { t: "box", r: 7, c: 7, th: "g", b: "sought2", rt: 1 }, { t: "rt", r: 7, c: 8, th: "g", only: "word" },
+    { t: "box", r: 7, c: 9, th: "g", b: "notret2" },
+
+    { t: "vl", r: 8, c: 1, th: "g", w: 1 }, { t: "vl", r: 8, c: 3, th: "p", head: 1, w: 1 }, { t: "vl", r: 8, c: 7, th: "g", head: 1, w: 1 },
+
+    { t: "vl", r: 9, c: 1, th: "g" },
+    { t: "box", r: 9, c: 3, th: "p", b: "assessed", rt: 1, tail: 1 }, { t: "rt", r: 9, c: 4, th: "p", only: "word" },
+    { t: "box", r: 9, c: 5, th: "p", b: "rexcl" },
+    { t: "box", r: 9, c: 7, th: "g", b: "assessed2", rt: 1, tail: 1 }, { t: "rt", r: 9, c: 8, th: "g", only: "word" },
+    { t: "box", r: 9, c: 9, th: "g", b: "rexcl2" },
+
+    { t: "vl", r: 10, c: 1, th: "g", w: 1 }, { t: "vl", r: 10, c: 3, th: "p", head: 1, w: 1 }, { t: "vl", r: 10, c: 7, th: "g", w: 1 },
+
+    { t: "vl", r: 11, c: 1, th: "g" },
+    { t: "box", r: 11, c: 3, th: "p", b: "newinc" },
+    { t: "lret", r: 11, c: 4, cs: 3, th: "g", only: "web" }, { t: "corner2", r: 11, c: 7, th: "g", only: "web" },
+    { t: "lret", r: 11, c: 4, cs: 4, th: "g", only: "word" },
+
+    { t: "vl", r: 12, c: 1, th: "g", w: 1 }, { t: "vl", r: 12, c: 3, th: "g", head: 1, w: 1 },
+    { t: "foot", r: 12, c: 5, cs: 5, rs: 2 },
+
+    { t: "corner", r: 13, c: 1, cs: 2, th: "g" },
+    { t: "box", r: 13, c: 3, th: "g", b: "total" }
+  ];
+
+  const STORE = "prisma-2020-flow-diagram-v1";
+  const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const wrap = document.getElementById("pr-wrap");
+  const grid = document.getElementById("pr-diagram");
+
+  // ---- Build the web diagram -------------------------------------------------
+  const itemsHtml = items => items.map(it => {
+    if (it.h) return `<div class="ln hd">${esc(it.h)}</div>`;
+    if (it.free) return `<div class="rl"><span class="lbl-web">✎ Add reasons for exclusion here (with the n for each reason):</span><span class="lbl-print">Reasons (with n for each):</span></div>` +
+      `<textarea class="why" rows="4" data-key="${it.free}" placeholder="${esc(it.why)}" aria-label="Reasons for exclusion, with the number for each reason"></textarea>`;
+    const label = esc(it.t);
+    return `<div class="ln${it.ind ? " ind" : ""}">${label} (n= <input class="n" type="text" inputmode="numeric" data-key="${it.k}" placeholder="n" aria-label="Number, ${label}">)</div>`;
+  }).join("");
+
+  L.filter(e => e.only !== "word").forEach(e => {
+    const d = document.createElement("div");
+    d.style.gridRow = e.r + (e.rs ? " / span " + e.rs : "");
+    d.style.gridColumn = e.c + (e.cs ? " / span " + e.cs : "");
+    d.className = "c " + (e.th || "") + " " + ({ box: "bx", foot: "ft" }[e.t] || e.t) + (e.tail ? " tl" : "") + (e.head ? " head" : "");
+    if (e.t === "hdr") d.textContent = e.text;
+    else if (e.t === "box") d.innerHTML = `<div class="box ${e.th}${e.rt ? " rt" : ""}">${itemsHtml(BOXES[e.b])}</div>` + (e.tail ? '<div class="tail"></div>' : "");
+    else if (e.t === "foot") d.innerHTML = `<div class="foot">${FOOT.map(t => `<p>${esc(t)}</p>`).join("")}</div>`;
+    else if (e.t === "corner") d.innerHTML = "<i></i>";
+    grid.appendChild(d);
+  });
+
+  const fields = () => [...wrap.querySelectorAll("input, textarea")];
+  const grow = t => { t.style.height = "auto"; t.style.height = t.scrollHeight + 2 + "px"; };
+  const growAll = () => wrap.querySelectorAll("textarea").forEach(grow);
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load(); growAll();
+  wrap.addEventListener("input", e => { if (e.target.tagName === "TEXTAREA") grow(e.target); save(); });
+  window.addEventListener("resize", growAll);
+  window.addEventListener("beforeprint", growAll);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the diagram)
+  document.getElementById("pr-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "PRISMA 2020 flow diagram";
+    growAll();
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("pr-reset").onclick = () => {
+    if (confirm("Clear all numbers and reasons?")) { fields().forEach(i => i.value = ""); growAll(); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, BOXES, L, FOOT, vals) {
+    const F = "Arial", SZ = 16;
+    const COL = { p: { fill: "CCC5E5", line: "6B52AE", head: "6B52AE" }, g: { fill: "D9D9D9", line: "808080", head: "9A9A9A" } };
+    // 9-column layout grid: boxes in cols 1, 3, 5, 7, 9; connector columns in 2, 4, 6, 8 (landscape A4)
+    const W = [2750, 300, 2750, 600, 2750, 300, 2750, 600, 2750], NROWS = 13;
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const sides = b => ({ top: b, bottom: b, left: b, right: b });
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.it, color: o.color });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 0 }, ...o, children });
+    const nTxt = k => (vals[k] || "").trim() || "____";
+
+    const boxParas = items => {
+      const ps = [];
+      items.forEach(it => {
+        if (it.h) { ps.push(para([run(it.h)], { spacing: { after: 30 } })); return; }
+        if (it.free) {
+          ps.push(para([run("Reasons (with n for each):", { it: true })], { spacing: { before: 20, after: 20 } }));
+          const txt = (vals[it.free] || "").trim();
+          if (txt) txt.split("\n").forEach(l => ps.push(para([run(l)], { indent: { left: 150 }, spacing: { after: 20 } })));
+          return;
+        }
+        ps.push(para([run(`${it.t} (n= ${nTxt(it.k)})`)], { indent: it.ind ? { left: 250 } : undefined, spacing: { after: 30 } }));
+      });
+      return ps;
+    };
+
+    const cell = (c, cs, rs, children, o = {}) => new D.TableCell({
+      width: { size: W.slice(c - 1, c - 1 + cs).reduce((a, b) => a + b), type: D.WidthType.DXA },
+      columnSpan: cs > 1 ? cs : undefined, rowSpan: rs > 1 ? rs : undefined,
+      verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: o.pad ? 60 : 0, bottom: o.pad ? 60 : 0, left: o.pad ? 100 : 40, right: o.pad ? 100 : 40 },
+      borders: sides(none), children });
+    const glyph = (g, th, align) => [para([run(g, { size: 28, bold: true, color: COL[th].line })], { alignment: align || D.AlignmentType.CENTER })];
+
+    const entries = L.filter(e => e.only !== "web" && !(e.t === "vl" && !e.w));
+    const at = {}; entries.forEach(e => { at[e.r + "," + e.c] = e; });
+    const taken = {};
+    const rows = [];
+    for (let r = 1; r <= NROWS; r++) {
+      const cells = [];
+      for (let c = 1; c <= 9; c++) {
+        if (taken[r + "," + c]) continue;
+        const e = at[r + "," + c], cs = e && e.cs || 1, rs = e && e.rs || 1;
+        for (let rr = r; rr < r + rs; rr++) for (let cc = c; cc < c + cs; cc++) if (rr !== r || cc !== c) taken[rr + "," + cc] = 1;
+        if (!e) { cells.push(cell(c, 1, 1, [para([])])); continue; }
+        let ch, o = {};
+        if (e.t === "hdr") { ch = [para([run(e.text, { bold: true, size: 20, color: "FFFFFF" })], { alignment: D.AlignmentType.CENTER, spacing: { before: 40, after: 40 } })]; o = { fill: COL[e.th].head }; }
+        else if (e.t === "box") { ch = boxParas(BOXES[e.b]); o = { fill: COL[e.th].fill, pad: 1, top: 1 }; }
+        else if (e.t === "vl") ch = glyph("↓", e.th);
+        else if (e.t === "rt") ch = glyph("→", e.th);
+        else if (e.t === "corner") ch = glyph("→", e.th, D.AlignmentType.RIGHT);
+        else if (e.t === "lret") ch = [para([run("◄", { size: 26, bold: true, color: COL[e.th].line })], { border: { bottom: { style: D.BorderStyle.SINGLE, size: 12, color: COL[e.th].line, space: 1 } } })];
+        else if (e.t === "foot") { ch = FOOT.map(t => para([run(t, { size: 15 })], { spacing: { after: 40 } })); o = { top: 1 }; }
+        else ch = [para([])];
+        cells.push(cell(c, cs, rs, ch, o));
+      }
+      rows.push(new D.TableRow(r === 2 ? { cantSplit: true, height: { value: 120, rule: D.HeightRule.EXACT }, children: cells } : { cantSplit: true, children: cells }));
+    }
+    return new D.Document({
+      title: "", creator: "",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 600, bottom: 600, left: 600, right: 600 } } },
+        children: [new D.Table({ width: { size: W.reduce((a, b) => a + b), type: D.WidthType.DXA }, columnWidths: W,
+          borders: { ...sides(none), insideHorizontal: none, insideVertical: none }, rows })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("pr-doc").onclick = async () => {
+    const btn = document.getElementById("pr-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, BOXES, L, FOOT, vals));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "PRISMA-2020-flow-diagram.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

@@ -5,17 +5,16 @@ aliases:
   - /reporting-guidelines/preferred-reporting-items-for-systematic-reviews-and-meta-analyses-the-prisma-statement/
 acronym: PRISMA 2020
 provided-for: Reporting systematic reviews and meta-analyses.
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
+rg-doi: '10.1136/bmj.n71'
+pmid-id: '[33782057](https://pubmed.ncbi.nlm.nih.gov/33782057/)'
+pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/33782057/'
 relevant-urls: |-
-  All versions (including a Shiny App) of the PRISMA 2020 flow diagram are available (for both new and updated systematic reviews) at: <https://www.prisma-statement.org/prisma-2020-flow-diagram> \
+  Read the [full text](https://doi.org/10.1136/bmj.n71) of PRISMA 2020. See below for other journals where PRISMA 2020 was also published.\
   
-  Go to the [PRISMA website](http://www.prisma-statement.org/) for a history and development of PRISMA. \
+  Complete an interactive [PRISMA 2020 checklist](prisma-checklist.qmd), which you can save and upload when submitting your paper to a journal. \
   
-  See here for a list of [PRISMA endorsed extensions](https://www.prisma-statement.org/extensions) \  
-  
-  If you are interested in developing a new PRISMA 2020 extension, then please read the [PRISMA criteria](https://www.prisma-statement.org/extensions) for their approval.
+  Complete an interactive [PRISMA-2020 flow diagam](prisma-flow-diagram.qmd), which you can save and and include in your paper
+
 full-bibliographic-reference: |-
   Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Akl EA, Brennan SE, Chou R, Glanville J, Grimshaw JM, Hróbjartsson A, Lalu MM, Li T, Loder EW, Mayo-Wilson E, McDonald S, McGuinness LA, Stewart LA, Thomas J, Tricco AC, Welch VA, Whiting P, Moher D. The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. \
 
@@ -116,8 +115,15 @@ additional-information: |-
   Read about the the processes used to update the PRISMA 2009 statement:\
 
   Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, Shamseer L, Tetzlaff JM, Moher D. Updating guidance for reporting systematic reviews: development of the PRISMA 2020 statement. J Clin Epidemiol. 2021;134:103-112. PMID: [33577987](https://pubmed.ncbi.nlm.nih.gov/33577987/)\
-
-  Guidance for developing protocols for systematic reviews and meta-analyses is provided in the PRISMA-P Statement. For further details please visit: [PRISMA-P Statement](/reporting-guidelines/prisma-protocols/)
+  
+  Go to the [PRISMA website](http://www.prisma-statement.org/) for a history and development of PRISMA. \
+  
+  See here for a list of [PRISMA endorsed extensions](https://www.prisma-statement.org/extensions) \  
+  
+  If you are interested in developing a new PRISMA 2020 extension, then please read the [PRISMA criteria](https://www.prisma-statement.org/extensions) for their approval. \
+  
+  Guidance for developing protocols for systematic reviews and meta-analyses is provided in the PRISMA-P Statement. For further details please visit: [PRISMA-P Statement](/reporting-guidelines/prisma-protocols/) \
+  
 relevant-editorials: ''
 primary-guideline: ''
 other: 
@@ -127,9 +133,8 @@ search-priority: 1
 downloads: |-
   Download the PRISMA 2020 checklist [Word](PRISMA_2020_checklist.docx) / [PDF](PRISMA_2020_checklist.pdf) \
 
-  Download the PRISMA 2020 expanded checklist  [PDF](PRISMA_2020_expanded_checklist.pdf) \
-  
-  Complete an interactive [PRISMA 2020 checklist](prisma-checklist.qmd), which you can save and upload when submitting your paper to a journal.
+  Download the PRISMA 2020 expanded checklist  [PDF](PRISMA_2020_expanded_checklist.pdf) 
+
 
 # LIST FIELDS
 categories:

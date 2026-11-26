@@ -1,0 +1,334 @@
+---
+pagetitle: "STARD 2015 flow diagram"
+page-layout: full
+toc: false
+resources:
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #st-wrap { --main:#c5d9f1; --mline:#385d8a; --thick:#1f3b63; --side:#e6edf7; --sline:#8a8a8a; --ink:#000;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #st-wrap .st-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #st-wrap .st-sub { font-size:14px; line-height:1.45; margin:0 0 .4rem; }
+  .st-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .st-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #385d8a; background:#385d8a; color:#fff; }
+  .st-actions button.alt { background:#fff; color:#385d8a; }
+  .st-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .st-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  /* ---- diagram grid: three columns (A, B, C), each made of two halves so the centre line sits on a column boundary ---- */
+  #st-wrap #st-scroll { overflow-x:auto; padding-bottom:6px; }
+  #st-wrap #st-diagram { display:grid; min-width:820px;
+    grid-template-columns:repeat(3, minmax(0,11fr) minmax(0,11fr) minmax(0,4fr)) minmax(0,11fr);
+    grid-template-rows:auto auto auto auto auto 30px auto auto auto 30px auto; }
+  #st-wrap .c { position:relative; display:flex; flex-direction:column; min-width:0; }
+
+  #st-wrap .bx { flex:1; box-sizing:border-box; padding:7px 9px; font-size:13px; line-height:1.4; text-align:center;
+    background:var(--main); border:1.5px solid var(--mline); }
+  #st-wrap .bx.thick { border:2.5px solid var(--thick); }
+  #st-wrap .bx.side { background:var(--side); border:1.5px solid var(--sline); border-radius:10px; }
+  #st-wrap .c.sidecell { margin:10px 24px 10px 38px; }
+  #st-wrap .c.topside { margin:0; }
+  #st-wrap .ln { display:block; padding:1px 0; }
+  #st-wrap .ln.hd { font-size:13.5px; }
+  #st-wrap .bx.thick .ln.t { font-size:12.5px; white-space:nowrap; }
+  #st-wrap .bx.thick .ln.t input.n { width:3.2em; font-size:12px; }
+  #st-wrap .bx.thick { padding:7px 5px; }
+
+  /* connectors (all black, as in the original STARD figure) */
+  #st-wrap .vl::before { content:""; position:absolute; left:50%; top:0; bottom:0; width:2px; margin-left:-1px; background:var(--ink); }
+  #st-wrap .vl.half::before { top:50%; }
+  #st-wrap .vl.head::after { content:""; position:absolute; left:50%; bottom:-1px; margin-left:-6px;
+    border:6px solid transparent; border-top:10px solid var(--ink); border-bottom:0; }
+  #st-wrap .vl i.h { position:absolute; left:50%; right:0; top:50%; height:2px; margin-top:-1px; background:var(--ink); }
+  #st-wrap .vl i.h38 { position:absolute; left:50%; width:38px; top:50%; height:2px; margin-top:-1px; background:var(--ink); }
+  #st-wrap .vl i.h38::after { content:""; position:absolute; right:-1px; top:-5px;
+    border:6px solid transparent; border-left:10px solid var(--ink); border-right:0; }
+  #st-wrap .ha::before { content:""; position:absolute; left:0; right:0; top:50%; height:2px; margin-top:-1px; background:var(--ink); }
+  #st-wrap .ha::after { content:""; position:absolute; right:-1px; top:50%; margin-top:-6px;
+    border:6px solid transparent; border-left:10px solid var(--ink); border-right:0; }
+  #st-wrap .hl::before { content:""; position:absolute; left:-1px; right:-1px; top:50%; height:2px; margin-top:-1px; background:var(--ink); }
+
+  /* inputs */
+  #st-wrap input.n { width:4.2em; box-sizing:border-box; border:1.5px solid #7f9cc6; border-radius:3px; background:#fff;
+    text-align:center; font:13px Arial,sans-serif; padding:2px 3px; vertical-align:baseline; }
+  #st-wrap .rl { font-size:12px; font-weight:bold; margin:6px 0 3px; color:#1f3b63; text-align:left; }
+  #st-wrap .lbl-print { display:none; }
+  #st-wrap textarea.why { display:block; width:100%; box-sizing:border-box; border:2px solid var(--mline); border-radius:4px; background:#fff;
+    font:12.5px/1.4 Arial,sans-serif; padding:5px 7px; resize:none; overflow:hidden; min-height:5.6em; text-align:left; }
+  #st-wrap input:hover, #st-wrap textarea:hover { border-color:#000; }
+  #st-wrap input:focus, #st-wrap textarea:focus { outline:2px solid #f3b800; background:#fff; }
+  #st-wrap ::placeholder { color:#6a6a7a; font-size:12px; font-weight:normal; }
+
+  @media (max-width:640px) { #st-wrap .st-note { font-size:13px; } }
+
+  @media print {
+    /* Zero page margin stops the browser adding its own date, title, URL and page-number header/footer; the margin is re-created as padding below */
+    @page { size:A4 portrait; margin:0; }
+    body * { visibility:hidden; }
+    #st-wrap, #st-wrap * { visibility:visible; }
+    #st-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; box-sizing:border-box; padding:8mm; }
+    .st-actions, #st-wrap .st-title, #st-wrap .st-sub { display:none !important; }
+    #st-wrap #st-scroll { overflow:visible; }
+    /* the diagram keeps the position it has in the original STARD page (title area left blank) */
+    #st-wrap #st-diagram { min-width:0; width:100%; margin-top:30mm; grid-template-rows:auto auto auto auto auto 22px auto auto auto 22px auto; }
+    #st-wrap .bx { font-size:11.5px; padding:5px 6px; }
+    #st-wrap .ln.hd { font-size:12px; }
+    #st-wrap .bx.thick .ln.t { font-size:10.5px; } #st-wrap .bx.thick .ln.t input.n { font-size:10.5px; width:2.4em; }
+    #st-wrap .c.sidecell { margin:6px 18px 6px 30px; }
+    #st-wrap .vl i.h38 { width:30px; }
+    #st-wrap .lbl-web { display:none; } #st-wrap .lbl-print { display:inline; }
+    #st-wrap .rl { font-size:10.5px; margin:3px 0 2px; }
+    /* Boxes print as plain text; an empty n= field prints as a blank line to write on */
+    #st-wrap input.n, #st-wrap textarea.why { border:0; background:none; padding:0; outline:none !important; }
+    #st-wrap input.n { font-size:11.5px; width:3.2em; field-sizing:content; min-width:2.4em; text-align:left; }
+    #st-wrap input.n:placeholder-shown { border-bottom:1px solid #000; }
+    #st-wrap textarea.why { font-size:11px; min-height:0; }
+    #st-wrap textarea.why:placeholder-shown { display:none; }
+    #st-wrap ::placeholder { color:transparent; }
+    #st-wrap, #st-wrap .c, #st-wrap .c * { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  }
+</style>
+
+<div id="st-wrap">
+  <div class="st-title">STARD 2015 Flow Diagram</div>
+  <div class="st-sub">Prototypical STARD diagram to report flow of participants through the study</div>
+  <div class="st-actions">
+    <button type="button" id="st-pdf">Save as PDF</button>
+    <button type="button" id="st-doc" class="alt">Save as Word</button>
+    <button type="button" id="st-reset" class="alt">Clear all</button>
+    <p class="st-note">Type the number of participants (n) in each box. In the “Excluded”, “No index test” and “No reference standard” boxes, use the white
+    text box to <strong>add your reasons</strong>, with the number of participants for each reason (one reason per line).
+    Then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div id="st-scroll"><div id="st-diagram"></div></div>
+</div>
+
+<script>
+(function () {
+  // ---- Box contents ----------------------------------------------------------
+  // Each box is a list of items:
+  //   { h }                 = heading line
+  //   { nline: key }        = line "n= [__]" stored under key
+  //   { t, k }              = line "text (n= [__])" stored under key k
+  //   { free, why }         = free-text box for reasons, stored under key "free"
+  const ARMS = ["negative", "positive", "inconclusive"];
+  const BOXES = {
+    pot:   [{ h: "Potentially eligible participants" }, { nline: "pe" }],
+    excl:  [{ h: "Excluded" }, { nline: "ex" }, { free: "exr", why: "Add each reason and the number excluded for it, one per line. For example: Did not meet inclusion criteria (n=12)" }],
+    elig:  [{ h: "Eligible participants" }, { nline: "el" }],
+    noidx: [{ h: "No index test" }, { nline: "ni" }, { free: "nir", why: "Add each reason and the number for it, one per line. For example: Test could not be performed (n=3)" }],
+    idx:   [{ h: "Index test" }, { nline: "ix" }]
+  };
+  ARMS.forEach((name, a) => {
+    BOXES["res" + a] = [{ h: "Index test " + name }, { nline: "in" + a }];
+    BOXES["nr" + a] = [{ h: "No reference standard" }, { nline: "nr" + a },
+      { free: "nrr" + a, why: "Add each reason and the number for it, one per line. For example: Lost to follow-up (n=4)" }];
+    BOXES["rf" + a] = [{ h: "Reference standard" }, { nline: "rs" + a }];
+    BOXES["fin" + a] = [{ h: "Final diagnosis" },
+      { t: "Target condition present", k: "fp" + a },
+      { t: "Target condition absent", k: "fa" + a },
+      { t: "Inconclusive", k: "fi" + a }];
+  });
+
+  // ---- Web layout: r = grid row, c..e = grid columns (start / end). Columns: A = 1-3, B = 4-6, C = 7-9 (+10) ----
+  //   k: box style (main / thick / side)   vl: vertical connector (head = arrowhead, half = lower half only,
+  //   hr = branch to the right, h38 = short arrow to a side box)   ha = long arrow   hl = horizontal bar
+  const MAIN = [[1, 3, 2, 5], [4, 6, 5, 8], [7, 9, 8, 11]];   // [main start, main end, side-box start, side-box end]
+  const L = [
+    { t: "box", r: 1, c: 4, e: 6, b: "pot", k: "main" },
+    { t: "vl", r: 2, c: 4, e: 6, head: 1, hr: 1 }, { t: "ha", r: 2, c: 6, e: 7 }, { t: "box", r: 2, c: 7, e: 9, b: "excl", k: "side", top: 1 },
+    { t: "box", r: 3, c: 4, e: 6, b: "elig", k: "main" },
+    { t: "vl", r: 4, c: 4, e: 6, head: 1, hr: 1 }, { t: "ha", r: 4, c: 6, e: 7 }, { t: "box", r: 4, c: 7, e: 9, b: "noidx", k: "side", top: 1 },
+    { t: "box", r: 5, c: 4, e: 6, b: "idx", k: "main" },
+    { t: "vl", r: 6, c: 4, e: 6, head: 1 }, { t: "vl", r: 6, c: 1, e: 3, head: 1, half: 1 }, { t: "vl", r: 6, c: 7, e: 9, head: 1, half: 1 },
+    { t: "hl", r: 6, c: 2, e: 8 }
+  ];
+  MAIN.forEach(([c, e, sc, se], a) => {
+    L.push({ t: "box", r: 7, c, e, b: "res" + a, k: "thick" });
+    L.push({ t: "vl", r: 8, c, e, head: 1, h38: 1 });
+    L.push({ t: "box", r: 8, c: sc, e: se, b: "nr" + a, k: "side" });
+    L.push({ t: "box", r: 9, c, e, b: "rf" + a, k: "main" });
+    L.push({ t: "vl", r: 10, c, e, head: 1 });
+    L.push({ t: "box", r: 11, c, e, b: "fin" + a, k: "thick" });
+  });
+
+  // ---- Word layout: 16 narrow columns so the centre lines, side boxes and arrows line up in a table ----
+  // Per column: [1100, 200, 300, 1000, 600]; the centre line sits between the 2nd and 3rd narrow columns. Last column = 1106.
+  const WCOLS = [1100, 200, 300, 1000, 600, 1100, 200, 300, 1000, 600, 1100, 200, 300, 1000, 600, 1106];
+  const bx = (c, cs, b, kind) => ({ t: "box", c, cs, b, kind });
+  const gl = (c, cs, g, al) => ({ t: "gl", c, cs, g, al });
+  const WROWS = [
+    [bx(6, 4, "pot", "main")],
+    [gl(7, 1, "↓", "r"), { t: "al", c: 8, cs: 3 }, bx(11, 4, "excl", "side")],
+    [bx(6, 4, "elig", "main")],
+    [gl(7, 1, "↓", "r"), { t: "al", c: 8, cs: 3 }, bx(11, 4, "noidx", "side")],
+    [bx(6, 4, "idx", "main")],
+    [gl(6, 4, "│", "c")],
+    [{ t: "bar", c: 3, cs: 10 }],
+    [gl(1, 4, "↓", "c"), gl(6, 4, "↓", "c"), gl(11, 4, "↓", "c")],
+    [bx(1, 4, "res0", "thick"), bx(6, 4, "res1", "thick"), bx(11, 4, "res2", "thick")],
+    [{ t: "sp", c: 2, cs: 1 }, { t: "sp", c: 7, cs: 1 }, { t: "sp", c: 12, cs: 1 }],
+    [gl(2, 1, "↓", "r"), gl(3, 1, "→", "c"), bx(4, 3, "nr0", "side"),
+     gl(7, 1, "↓", "r"), gl(8, 1, "→", "c"), bx(9, 3, "nr1", "side"),
+     gl(12, 1, "↓", "r"), gl(13, 1, "→", "c"), bx(14, 3, "nr2", "side")],
+    [{ t: "sp", c: 2, cs: 1 }, { t: "sp", c: 7, cs: 1 }, { t: "sp", c: 12, cs: 1 }],
+    [bx(1, 4, "rf0", "main"), bx(6, 4, "rf1", "main"), bx(11, 4, "rf2", "main")],
+    [gl(1, 4, "↓", "c"), gl(6, 4, "↓", "c"), gl(11, 4, "↓", "c")],
+    [bx(1, 4, "fin0", "thick"), bx(6, 4, "fin1", "thick"), bx(11, 4, "fin2", "thick")]
+  ];
+
+  const STORE = "stard-2015-flow-diagram-v1";
+  const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const wrap = document.getElementById("st-wrap");
+  const grid = document.getElementById("st-diagram");
+
+  // ---- Build the web diagram -------------------------------------------------
+  const nInput = (k, label) => `<input class="n" type="text" inputmode="numeric" data-key="${k}" placeholder="n" aria-label="Number, ${esc(label)}">`;
+  const itemsHtml = (items, name) => items.map(it => {
+    if (it.h) return `<div class="ln hd">${esc(it.h)}</div>`;
+    if (it.nline) return `<div class="ln">n= ${nInput(it.nline, name)}</div>`;
+    if (it.free) return `<div class="rl"><span class="lbl-web">✎ Add reasons here (with the n for each reason):</span><span class="lbl-print">Reasons (with n for each):</span></div>` +
+      `<textarea class="why" rows="3" data-key="${it.free}" placeholder="${esc(it.why)}" aria-label="Reasons for ${esc(name)}, with the number for each reason"></textarea>`;
+    return `<div class="ln t">${esc(it.t)} (n= ${nInput(it.k, it.t)})</div>`;
+  }).join("");
+
+  L.forEach(e => {
+    const d = document.createElement("div");
+    d.style.gridRow = String(e.r);
+    d.style.gridColumn = e.c + " / " + e.e;
+    d.className = "c " + e.t + (e.head ? " head" : "") + (e.half ? " half" : "") + (e.t === "box" && e.k === "side" && !e.top ? " sidecell" : "");
+    if (e.t === "box") {
+      const items = BOXES[e.b], name = items[0].h || "";
+      d.innerHTML = `<div class="bx ${e.k}">${itemsHtml(items, name)}</div>`;
+    } else if (e.t === "vl") d.innerHTML = (e.hr ? '<i class="h"></i>' : "") + (e.h38 ? '<i class="h38"></i>' : "");
+    grid.appendChild(d);
+  });
+
+  const fields = () => [...wrap.querySelectorAll("input, textarea")];
+  const grow = t => { t.style.height = "auto"; t.style.height = t.scrollHeight + 2 + "px"; };
+  const growAll = () => wrap.querySelectorAll("textarea").forEach(grow);
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load(); growAll();
+  wrap.addEventListener("input", e => { if (e.target.tagName === "TEXTAREA") grow(e.target); save(); });
+  window.addEventListener("resize", growAll);
+  window.addEventListener("beforeprint", growAll);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the diagram)
+  document.getElementById("st-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "STARD 2015 flow diagram";
+    growAll();
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("st-reset").onclick = () => {
+    if (confirm("Clear all numbers and reasons?")) { fields().forEach(i => i.value = ""); growAll(); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, BOXES, WCOLS, WROWS, vals) {
+    const F = "Arial", SZ = 17, NC = WCOLS.length;
+    const line = (size, color) => ({ style: D.BorderStyle.SINGLE, size, color });
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const KIND = { main: { fill: "C5D9F1", b: line(6, "385D8A") }, thick: { fill: "C5D9F1", b: line(18, "1F3B63") }, side: { fill: "E6EDF7", b: line(6, "808080") } };
+    const sides = b => ({ top: b, bottom: b, left: b, right: b });
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.it, color: o.color });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 0 }, ...o, children });
+    const nTxt = k => (vals[k] || "").trim() || "____";
+    const CEN = D.AlignmentType.CENTER;
+
+    const boxParas = items => {
+      const ps = [];
+      items.forEach(it => {
+        if (it.h) ps.push(para([run(it.h)], { alignment: CEN, spacing: { after: 20 } }));
+        else if (it.nline) ps.push(para([run(`n= ${nTxt(it.nline)}`)], { alignment: CEN, spacing: { after: 20 } }));
+        else if (it.free) {
+          ps.push(para([run("Reasons (with n for each):", { it: true })], { spacing: { before: 40, after: 20 } }));
+          const txt = (vals[it.free] || "").trim();
+          if (txt) txt.split("\n").forEach(l => ps.push(para([run(l)], { indent: { left: 120 }, spacing: { after: 20 } })));
+        } else ps.push(para([run(`${it.t} (n= ${nTxt(it.k)})`, { size: 15 })], { alignment: CEN, spacing: { after: 20 } }));
+      });
+      return ps;
+    };
+
+    const glyph = (g, al) => [para([run(g, { size: g === "│" ? 16 : 24, bold: true })],
+      { alignment: al === "r" ? D.AlignmentType.RIGHT : CEN })];
+
+    const rows = WROWS.map((ents, ri) => {
+      const at = {}; ents.forEach(e => { at[e.c] = e; });
+      const cells = [];
+      for (let c = 1; c <= NC;) { const e = at[c]; const cs = e ? (e.cs || 1) : 1; cells.push({ e, c, cs }); c += cs; }
+      const edge = d => d && d.e && d.e.t === "box" ? KIND[d.e.kind].b : undefined;
+      const tcells = cells.map((d, i) => {
+        const e = d.e, lb = edge(cells[i - 1]), rb = edge(cells[i + 1]);
+        let ch = [para([])], o = {};
+        if (e && e.t === "box") { ch = boxParas(BOXES[e.b]); o = { fill: KIND[e.kind].fill, border: KIND[e.kind].b, pad: 1 }; }
+        else if (e && e.t === "gl" && e.al === "r") { ch = [para([run("▼", { size: 14 })], { alignment: D.AlignmentType.RIGHT })]; o = { rline: line(8, "000000"), bottom: 1 }; }
+        else if (e && e.t === "gl") ch = glyph(e.g, e.al);
+        else if (e && e.t === "al") ch = [para([run("►", { size: 18 })], { alignment: D.AlignmentType.RIGHT, border: { bottom: { style: D.BorderStyle.SINGLE, size: 8, color: "000000", space: 1 } } })];
+        else if (e && e.t === "bar") o = { top: line(8, "000000") };
+        else if (e && e.t === "sp") o = { rline: line(8, "000000") };
+        const borders = o.border ? sides(o.border)
+          : o.rline ? { top: none, bottom: none, left: lb || none, right: o.rline }
+          : o.top ? { top: o.top, bottom: none, left: lb || none, right: rb || none }
+          : (lb || rb) ? { top: none, bottom: none, left: lb || none, right: rb || none } : undefined;
+        return new D.TableCell({
+          width: { size: WCOLS.slice(d.c - 1, d.c - 1 + d.cs).reduce((a, b) => a + b), type: D.WidthType.DXA },
+          columnSpan: d.cs > 1 ? d.cs : undefined,
+          verticalAlign: o.bottom ? D.VerticalAlign.BOTTOM : D.VerticalAlign.CENTER,
+          shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+          margins: { top: o.pad ? 70 : 0, bottom: o.pad ? 70 : 0, left: o.pad ? 60 : 0, right: o.pad ? 60 : 0 },
+          borders, children: ch });
+      });
+      const h = ents.every(e => e.t === "bar") ? 40 : ents.every(e => e.t === "sp") ? 110 : 0;
+      return new D.TableRow(h ? { cantSplit: true, height: { value: h, rule: D.HeightRule.EXACT }, children: tcells } : { cantSplit: true, children: tcells });
+    });
+
+    return new D.Document({
+      title: "", creator: "",
+      sections: [{
+        // the top margin keeps the diagram where it sits in the original STARD page (title area left blank)
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 2300, bottom: 600, left: 600, right: 600 } } },
+        children: [new D.Table({ width: { size: WCOLS.reduce((a, b) => a + b), type: D.WidthType.DXA }, columnWidths: WCOLS,
+          borders: { ...sides(none), insideHorizontal: none, insideVertical: none }, rows })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("st-doc").onclick = async () => {
+    const btn = document.getElementById("st-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, BOXES, WCOLS, WROWS, vals));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "STARD-2015-flow-diagram.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```
