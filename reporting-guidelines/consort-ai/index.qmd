@@ -4,22 +4,24 @@ title: 'Reporting guidelines for clinical trial reports for interventions involv
 aliases:
   - /reporting-guidelines/consort-artificial-intelligence/
 acronym: CONSORT-AI
-provided-for: Reporting of clinical trials evaluating interventions with an artificial
-  intelligence (AI) component.
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
-relevant-urls: ''
+provided-for: Reporting of clinical trials evaluating interventions with an artificial intelligence (AI) component.
+rg-doi: '10.1136/bmj.m3164'
+pmid-id: '[32909959](https://pubmed.ncbi.nlm.nih.gov/32909959/)'
+pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/32909959/'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1136/bmj.m3164) of CONSORT-AI. See below for other journals where CONSORT-AI was also published.\
+  
+  Complete an interactive [CONSORT-AI checklist](consort-ai-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Liu X, Rivera SC, Moher D, Calvert MJ, Denniston AK; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI Extension. \
 
   This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.\
 
-  BMJ 2020;370:m3164. PMID: [32909959](https://pubmed.ncbi.nlm.nih.gov/32909959/) [full text](https://www.bmj.com/content/370/bmj.m3164)
+  BMJ 2020;370:m3164. PMID: [32909959](https://pubmed.ncbi.nlm.nih.gov/32909959/) [full text](https://doi.org/10.1136/bmj.m3164)
 
-  Nat Med. 2020:26(9):1364–1374.PMID: [32908283](https://pubmed.ncbi.nlm.nih.gov/32908283/) [full text](https://www.nature.com/articles/s41591-020-1034-x)
+  Nat Med. 2020:26(9):1364–1374.PMID: [32908283](https://pubmed.ncbi.nlm.nih.gov/32908283/) [full text](https://pubmed.ncbi.nlm.nih.gov/32908283/)
 
-  Lancet Digital Health. 2020;2(10):e537-e548.PMID: [33328048](https://pubmed.ncbi.nlm.nih.gov/33328048/) [full text](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30218-1/fulltext)
+  Lancet Digital Health. 2020;2(10):e537-e548.PMID: [33328048](https://pubmed.ncbi.nlm.nih.gov/33328048/) [full text](https://doi.org/10.1016/s2589-7500(20)30218-1)
 
 
 # OPTIONAL FIELDS
@@ -123,7 +125,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the CONSORT-AI checklist [PDF](CONSORT-AI-checklist.pdf) / [Word](CONSORT-AI-checklist.docx)
 
 
 # LIST FIELDS
