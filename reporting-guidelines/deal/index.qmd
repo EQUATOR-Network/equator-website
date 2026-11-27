@@ -1,0 +1,150 @@
+---
+# REQUIRED FIELDS
+title: Development, Evaluation, and Assessment of Large Language Models (DEAL) Checklist
+aliases: 
+  - /reporting-guidelines/development-evaluation-and-assessment-of-large-language-models-deal-checklist/
+acronym: DEAL
+provided-for: 'DEAL-A: Intended for studies involving substantial LLM development, advanced techniques, or comprehensive fine-tuning'
+rg-doi: 10.1056/AIp2401106
+pmid-id: '[42932552](https://pubmed.ncbi.nlm.nih.gov/42932552/)'
+pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/42932552/'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1056/aip2401106) of DEAL.
+
+full-bibliographic-reference: |-
+  Tripathi S, Alkhulaifat D, Doo FX, Rajpurkar P, McBeth R, Daye D, Cook TS. Development, Evaluation, and Assessment of Large Language Models (DEAL) Checklist: A Technical Report. NEJM AI. 2025; 2: 6. PMID: [42932552](https://pubmed.ncbi.nlm.nih.gov/42932552/) [full text](https://doi.org/10.1056/aip2401106)
+
+# OPTIONAL FIELDS
+rg-language: English
+explanation-and-elaboration-papers: ''
+guideline-history: ''
+relevant-more: |-
+  [**TRIPOD-LLM**](/reporting-guidelines/tripod-llm): Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025. PMID: [39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/) \
+  
+  [**REFINE**](/reporting-guidelines/refine): Mese I, Akinci D'Antonoli T, Bluethgen C, Bressem K, Cuocolo R, Chaudhari A, Tejani AS, Isaac A, Ponsiglione A, Meddeb A, Khosravi B, Le Guellec B, Kahn CE Jr, Suh CH, Pinto Dos Santos D, Koh DM, Tzanis E, Kotter E, Colak E, Kitamura F, Busch F, Nensa F, Yang G, Müller H, Kather JN, Nawabi J, Kleesiek J, Zhong J, Santinha J, Haubold J, de Almeida JG, Lekadir K, Marias K, Reiner LN, Maier-Hein L, Moy L, Adams LC, Martí-Bonmatí L, Paschali M, Moassefi M, Dietzel M, Huisman M, Ingrisch M, Klontzas ME, Papanikolaou N, Diaz O, Kuriki P, Seeböck P, Rouzrokh P, Strotzer QD, Park SH, Faghani S, Tayebi Arasteh S, Kim SH, Venugopal VK, Kim W, Kocak B. Reporting checklist for foundation and large language models in medical research (REFINE): an international consensus guideline. Diagn Interv Radiol. 2026 Feb 26. PMID: [41742713](https://pubmed.ncbi.nlm.nih.gov/41742713/) \
+   
+  [**CHART**](/reporting-guidelines/chart): Huo B, Collins G, Chartash D, Thirunavukarasu A, Flanagin A, Iorio A, Cacciamani G, Chen X, Liu N, Mathur P, Chan AW, Laine C, Pacella D, Berkwits M, Antoniou SA, Camaradou JC, Canfield C, Mittelman M, Feeney T, Loder E, Agha R, Saha A, Mayol J, Sunjaya A, Harvey H, Ng JY, McKechnie T, Lee Y, Verma N, Stiglic G, McCradden M, Ramji K, Boudreau V, Ortenzi M, Meerpohl J, Vandvik PO, Agoritsas T, Samuel D, Frankish H, Anderson M, Yao X, Loeb S, Lokker C, Liu X, Guallar E, Guyatt G. Reporting guideline for Chatbot Health Advice studies: the CHART statement.\
+
+  This guideline was published simultaneously in 6 journals. You can read the guideline in any of these journals using the links below. \
+
+  Annals of Family Medicine 2025; 23: online. PMID:  [40750305](https://pubmed.ncbi.nlm.nih.gov/40750305/) 
+
+  Artificial Intelligence in Medicine 2025; 168: 103222: PMID: [40753040](https://pubmed.ncbi.nlm.nih.gov/40753040/) 
+
+  BMC Medicine 2025; 23: 447. PMID: [40745595](https://pubmed.ncbi.nlm.nih.gov/40745595/) 
+  
+  British Journal of Surgery 2025; 112: znaf142. PMID:  [40747825](https://pubmed.ncbi.nlm.nih.gov/40747825/) 
+
+  JAMA Network Open 2025; 8: e2530220. PMID: [40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/) \
+  
+  **Explanation and Elaboration**
+  
+  CHART Collaborative. Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement. BMJ Med; 2025; e001632. PMID: [40761518](https://pubmed.ncbi.nlm.nih.gov/40761518/) 
+website-url: ''
+additional-languages: ''
+additional-information: ''
+relevant-editorials: ''
+primary-guideline: ''
+other: ''
+other-relevant-research: ''
+sticky: false
+downloads:  |-
+  Download the [DEAL checklists](https://ai.nejm.org/doi/suppl/10.1056/AIp2401106/suppl_file/aip2401106_appendix.pdf) from the supplementary material of the [DEAL paper](https://doi.org/10.1056/aip2401106).
+
+# LIST FIELDS
+categories:
+# - Animal pre-clinical research
+- Artificial intelligence/Machine learning
+# - Clinical practice guidelines
+# - Clinical trials
+- Diagnosis/Prognosis/Prediction
+# - Economic evaluations
+# - Experimental studies
+# - Letters to the editor/Correspondence
+# - Mixed methods studies
+# - Observational studies
+# - Other
+# - Patent landscapes
+# - Qualitative research
+# - Quality improvement studies
+# - Reliability/Agreement studies
+# - Study protocols
+# - Systematic reviews/Meta-analyses/Reviews
+# - No study design specified
+clinical-specialty:
+# - Allergy
+# - Anaesthesia
+# - Audiovestibular medicine
+# - Behavioural medicine
+# - Cardiovascular medicine
+# - Complementary and alternative medicine
+# - Dentistry
+# - Dermatology
+# - Emergency medicine
+# - Gastroenterology
+# - Genetics
+# - Haematology
+# - Health informatics
+# - Hepatology
+# - Infectious diseases
+# - Medical education
+# - Neurology
+# - Nuclear medicine
+# - Nutrition and dietetics
+# - Obstetrics and gynaecology
+# - Occupational therapy
+# - Oncology
+# - Ophthalmology
+# - Paediatrics
+# - Palliative care
+# - Pathology
+# - Pharmaceutical medicine
+# - Physiotherapy
+# - Primary care
+# - Psychiatry
+# - Psychology
+# - Public health
+# - Radiology
+# - Rehabilitation medicine
+# - Renal medicine
+# - Respiratory medicine
+# - Rheumatology
+# - Sport and exercise medicine
+# - Surgery
+# - Toxicology
+# - Tropical medicine
+# - Urology
+- No clinical specialty specified
+report-section:
+# - Abstract
+# - Acknowledgements
+# - Appendix
+# - Biospecimen/bioresource information
+# - Conference paper/abstract
+# - Conflict of interest
+# - Data
+# - Ethical issues (consent etc.)
+# - Figures/Graphs
+# - Funding
+# - Harms/adverse effects/safety data
+# - Images
+# - Intervention (exposure)
+# - Narrative sections (discussion etc.)
+# - Outcomes (variables)
+# - Procedure/Method
+# - Protocol-whole report
+# - Research recommendations
+# - Results
+# - Statistical analysis plan-whole report
+# - Statistical methods and analyses
+# - Study characteristics (participants etc.)
+# - Terminology/definitions
+# - Title
+- Whole report
+# - No report section specified
+keyword:
+- No keywords provided
+
+---
+
+{{< include ../_template.qmd >}}
