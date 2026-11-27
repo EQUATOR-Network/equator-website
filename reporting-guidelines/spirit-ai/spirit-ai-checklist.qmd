@@ -3,7 +3,7 @@ pagetitle: "SPIRIT-AI checklist"
 page-layout: full
 toc: false
 resources:
-  - /assets/logos/spirit-consort-logo.png
+  - /assets/logos/spirit-ai-logo.png
   - /assets/logos/equator_logo.png
   - docx.min.js
 ---
@@ -72,7 +72,7 @@ resources:
 
 <div id="tp-wrap">
   <div class="tp-top">
-    <img src="/assets/logos/spirit-consort-logo.png" alt="SPIRIT CONSORT" id="tp-logo">
+    <img src="/assets/logos/spirit-ai-logo.png" alt="SPIRIT CONSORT" id="tp-logo">
     <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
   </div>
   <div class="tp-title">SPIRIT-AI checklist of recommended items to address in a clinical trial protocol involving an artificial intelligence intervention<sup>*</sup></div>
@@ -251,7 +251,7 @@ resources:
     try {
       await loadDocx();
       let logo = null;
-      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/spirit-consort-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/spirit-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       let eqLogo = null;
       try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
