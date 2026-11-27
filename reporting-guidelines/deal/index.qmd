@@ -35,11 +35,7 @@ relevant-more: |-
   
   British Journal of Surgery 2025; 112: znaf142. PMID:  [40747825](https://pubmed.ncbi.nlm.nih.gov/40747825/) 
 
-  JAMA Network Open 2025; 8: e2530220. PMID: [40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/) \
-  
-  **Explanation and Elaboration**
-  
-  CHART Collaborative. Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement. BMJ Med; 2025; e001632. PMID: [40761518](https://pubmed.ncbi.nlm.nih.gov/40761518/) 
+  JAMA Network Open 2025; 8: e2530220. PMID: [40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/) 
 website-url: ''
 additional-languages: ''
 additional-information: ''

@@ -19,7 +19,7 @@ guideline-history: ''
 relevant-more: |-
   [**TRIPOD-LLM**](/reporting-guidelines/tripod-llm): Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025. PMID: [39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/) \
   
-  [**DEAL**](/reporting-guidelines/deal/): Tripathi S, Alkhulaifat D, Doo FX, Rajpurkar P, McBeth R, Daye D, Cook TS. Development, Evaluation, and Assessment of Large Language Models (DEAL) Checklist: A Technical Report. NEJM AI. 2025; 2: 6. PMID: [42932552](https://pubmed.ncbi.nlm.nih.gov/42932552/)
+  [**DEAL**](/reporting-guidelines/deal/): Tripathi S, Alkhulaifat D, Doo FX, Rajpurkar P, McBeth R, Daye D, Cook TS. Development, Evaluation, and Assessment of Large Language Models (DEAL) Checklist: A Technical Report. NEJM AI. 2025; 2: 6. PMID: [42932552](https://pubmed.ncbi.nlm.nih.gov/42932552/)\
    
   [**CHART**](/reporting-guidelines/chart): Huo B, Collins G, Chartash D, Thirunavukarasu A, Flanagin A, Iorio A, Cacciamani G, Chen X, Liu N, Mathur P, Chan AW, Laine C, Pacella D, Berkwits M, Antoniou SA, Camaradou JC, Canfield C, Mittelman M, Feeney T, Loder E, Agha R, Saha A, Mayol J, Sunjaya A, Harvey H, Ng JY, McKechnie T, Lee Y, Verma N, Stiglic G, McCradden M, Ramji K, Boudreau V, Ortenzi M, Meerpohl J, Vandvik PO, Agoritsas T, Samuel D, Frankish H, Anderson M, Yao X, Loeb S, Lokker C, Liu X, Guallar E, Guyatt G. Reporting guideline for Chatbot Health Advice studies: the CHART statement.\
 
@@ -33,11 +33,7 @@ relevant-more: |-
   
   British Journal of Surgery 2025; 112: znaf142. PMID:  [40747825](https://pubmed.ncbi.nlm.nih.gov/40747825/) 
 
-  JAMA Network Open 2025; 8: e2530220. PMID: [40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/) \
-  
-  **Explanation and Elaboration**
-  
-  CHART Collaborative. Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement. BMJ Med; 2025; e001632. PMID: [40761518](https://pubmed.ncbi.nlm.nih.gov/40761518/) 
+  JAMA Network Open 2025; 8: e2530220. PMID: [40747871](https://pubmed.ncbi.nlm.nih.gov/40747871/)
   
 website-url: ''
 additional-languages: ''
