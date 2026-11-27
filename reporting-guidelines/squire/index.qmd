@@ -5,15 +5,17 @@ aliases:
   - /reporting-guidelines/publication-guidelines-for-quality-improvement-in-health-care-evolution-of-the-squire-project/
 acronym: SQUIRE 2.0
 provided-for: Quality improvement in health care
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
+rg-doi: '10.1136/bmjqs-2015-004411'
+pmid-id: '[26369893](http://www.ncbi.nlm.nih.gov/pubmed/26369893)'
+pmid-url: 'http://www.ncbi.nlm.nih.gov/pubmed/26369893'
 relevant-urls: |-
-  Read the [full text](https://doi.org/10.1136/bmjqs-2015-004411) of SQUIRE 2.0
+  Read the [full text](https://doi.org/10.1136/bmjqs-2015-004411) of SQUIRE 2.0. \
+  
+  Complete an interactive [SQUIRE-2.0 checklist](squire-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process. \
 
-  This guideline was published simultaneously in 7 journals. You can read the guideline in any of these journals using the links below.
+  This guideline was published simultaneously in 7 journals. You can read the guideline in any of these journals using the links below.\
 
   BMJ Qual Saf. 2016; 25: 986-992. PMID: [26369893](http://www.ncbi.nlm.nih.gov/pubmed/26369893) [full text](https://doi.org/10.1136/bmjqs-2015-004411)
 
@@ -41,7 +43,7 @@ guideline-history: |-
 
   The SQUIRE reporting guideline was originally published in 2008. \
 
-  Davidoff F, Batalden P, Stevens D, Ogrinc G, Mooney S. Publication guidelines for quality improvement in health care: evolution of the SQUIRE project.
+  Davidoff F, Batalden P, Stevens D, Ogrinc G, Mooney S. Publication guidelines for quality improvement in health care: evolution of the SQUIRE project.\
 
   Qual Saf Health Care. 2008;17 Suppl 1:i3-i9. PMID: [18836063](http://www.ncbi.nlm.nih.gov/pubmed/18836063)
   
@@ -51,7 +53,7 @@ guideline-history: |-
 
   Ann Intern Med. 2008;149(9):670-676. PMID: [18981488](http://www.ncbi.nlm.nih.gov/pubmed/18981488)
 
-  J Gen Intern Med. 2008;23(12):2125-2130. PMID: [18830766](http://www.ncbi.nlm.nih.gov/pubmed/18830766)
+  J Gen Intern Med. 2008;23(12):2125-2130. PMID: [18830766](http://www.ncbi.nlm.nih.gov/pubmed/18830766)\
 
   Ogrinc G, Mooney SE, Estrada C, Foster T, Goldmann D, Hall LW, Huizinga MM, Liu SK, Mills P, Neily J, Nelson W, Pronovost PJ, Provost L, Rubenstein LV, Speroff T, Splaine M, Thomson R, Tomolo AM, Watts B. The SQUIRE (Standards for QUality Improvement Reporting Excellence) guidelines for quality improvement reporting: explanation and elaboration. Qual Saf Health Care. 2008;17 Suppl 1:i13-32. PMID: [18836062](http://www.ncbi.nlm.nih.gov/pubmed/18836062)
 relevant-more: |-
@@ -69,7 +71,8 @@ other: ''
 other-relevant-research: ''
 sticky: true
 search-priority: 1
-downloads: '[SQUIRE 2.0 checklist (PDF)](SQUIRE-2.0-checklist.pdf) - 2015 update'
+downloads: |-
+  Download [SQUIRE 2.0 checklist](SQUIRE-2.0-checklist.pdf).
 
 
 # LIST FIELDS

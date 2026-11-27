@@ -9,36 +9,39 @@ resources:
 
 ```{=html}
 <style>
-  #tp-wrap { --accent:#63639a; --sect:#ffffcc; --box:#f1f1f8; --boxline:#a9a9cf; --line:#000;
+  #tp-wrap { --accent:#215e99; --head:#4c94d8; --blue:#215e99; --box:#edf4fc; --boxline:#8fbbe6; --line:#333;
     font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
-  #tp-wrap .tp-top { display:flex; align-items:center; gap:1rem; margin-bottom:.8rem; }
-  #tp-wrap #tp-logo { width:72px; height:auto; flex:none; }
-  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
-  #tp-wrap .tp-eq { display:none; width:150px; height:auto; flex:none; margin-left:auto; }
-  #tp-wrap .tp-title { font-size:20px; font-weight:bold; }
+  #tp-wrap .tp-title { font-size:20px; font-weight:bold; line-height:1.25; margin:0 0 .2rem; }
   #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
   #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
   #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
     border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
   #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
-  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
-  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
-  #tp-wrap thead th { background:var(--accent); color:#fff; font-weight:bold; vertical-align:middle; }
-  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
-  #tp-wrap td.topic { width:17%; } #tp-wrap td.item { width:7%; text-align:right; }
-  #tp-wrap th.pgh, #tp-wrap td.pg { width:15%; }
-  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:12.5px; line-height:1.3; }
+  #tp-wrap th, #tp-wrap td { border:1px dotted var(--line); padding:3px 6px; vertical-align:middle; }
+  #tp-wrap th { background:var(--head); color:#fff; font-weight:bold; text-align:left; }
+  #tp-wrap th.c { text-align:center; }
+  #tp-wrap tr.sec td { color:var(--blue); font-weight:bold; padding:4px 6px; }
+  #tp-wrap td.topic { width:16%; vertical-align:top; font-style:italic; color:var(--blue); }
+  #tp-wrap td.item { width:6%; text-align:center; vertical-align:top; }
+  #tp-wrap td.pg { width:11%; padding:3px; }
   #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
     text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
   #tp-wrap td.pg input:hover { border-color:var(--accent); }
   #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
-  #tp-wrap input::placeholder { color:#6e6e99; font-size:12px; }
+  #tp-wrap input::placeholder { color:#6b86a6; font-size:12px; }
   #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
-  #tp-wrap .tp-cite { margin-top:1rem; font-size:13px; }
+  #tp-wrap .tp-foot { margin-top:.8rem; font-size:12.5px; line-height:1.35; }
+  #tp-wrap .tp-foot ul { margin:.25rem 0 0; padding-left:1.2rem; }
+  #tp-wrap .tp-foot li { margin:0 0 .1rem; }
+  #tp-wrap .tp-cite { margin-top:1rem; font-size:14px; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eqrow { display:none; }
+  #tp-wrap .tp-eq { width:150px; height:auto; }
   .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
   .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
-    border:2px solid #63639a; background:#63639a; color:#fff; }
-  .tp-actions button.alt { background:#fff; color:#4f4f86; }
+    border:2px solid #215e99; background:#215e99; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#215e99; }
   .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
   .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
 
@@ -48,88 +51,120 @@ resources:
     #tp-wrap, #tp-wrap * { visibility:visible; }
     #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
     .tp-actions { display:none !important; }
-    #tp-wrap .tp-eq { display:block; }
-    #tp-wrap table { font-size:10.5px; }
+    #tp-wrap .tp-eqrow { display:block; text-align:right; margin-bottom:.5rem; }
+    #tp-wrap table { font-size:9.5px; }
     #tp-wrap tr { break-inside:avoid; }
     #tp-wrap thead { display:table-header-group; }
-    #tp-wrap .tp-title { font-size:16px; } #tp-wrap .tp-cite { font-size:9.5px; }
+    #tp-wrap .tp-title { font-size:17px; }
     #tp-wrap td.pg input { background:none; border:0; }
     #tp-wrap input::placeholder { color:transparent; }
     #tp-wrap .tp-hint { display:none; }
-    #tp-wrap, #tp-wrap thead th, #tp-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-foot { font-size:9.5px; break-inside:avoid; }
+    #tp-wrap .tp-cite { font-size:10.5px; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td, #tp-wrap td.topic { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
     #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
   }
 </style>
 
 <div id="tp-wrap">
-  <div class="tp-top"><div class="tp-title">SQUIRE 2.0 Checklist</div>
-    <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  <div class="tp-eqrow"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  <div class="tp-title">Revised Standards for Quality Improvement Reporting Excellence (SQUIRE 2.0)</div>
   <div class="tp-actions">
     <button type="button" id="tp-pdf">Save as PDF</button>
     <button type="button" id="tp-doc" class="alt">Save as Word</button>
     <button type="button" id="tp-reset" class="alt">Clear all</button>
-    <p class="tp-note">Type the page number(s) or location where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    <p class="tp-note">Type the page number(s) where each item is reported in the blue boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
     “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
     Your entries stay in this browser until you clear them.</p>
   </div>
   <div class="tp-meta"><label>Manuscript title: <input type="text" id="tp-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
-  <p class="tp-cite" style="margin:0 0 .8rem">Revised Standards for Quality Improvement Reporting Excellence (SQUIRE 2.0), September 15, 2015. Authors should consider every SQUIRE item, but it may be inappropriate or unnecessary to include every SQUIRE element in a particular manuscript.</p>
   <table id="tp-table">
     <thead><tr>
-      <th>Section and item name</th><th>Item #</th><th>Section or item description</th>
-      <th class="pgh">Location where item is reported<span class="tp-hint">type location in the boxes below</span></th>
+      <th>Section &amp; Item name</th><th class="c">No</th><th>Item description <span aria-hidden="true">*</span></th>
+      <th class="c">Reported on page #<span class="tp-hint">type page no. in the boxes below</span></th>
     </tr></thead>
     <tbody></tbody>
   </table>
-  <p class="tp-cite"><em>From:</em> Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process. BMJ Qual Saf 2016;25:986-992. <a href="https://doi.org/10.1136/bmjqs-2015-004411" target="_blank" rel="noopener">doi: 10.1136/bmjqs-2015-004411</a></p>
+  <div class="tp-foot"><strong><span aria-hidden="true">*</span> Notes to authors</strong><ul id="tp-notes"></ul></div>
+  <p class="tp-cite">From Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process. <em>BMJ Qual Saf</em> 2016; 25:986-992. doi: <a href="https://doi.org/10.1136/bmjqs-2015-004411" target="_blank" rel="noopener">10.1136/bmjqs-2015-004411</a></p>
 </div>
 
 <script>
 (function () {
-  // Section bars are plain strings. Groups: [topic, [[item no, text], ...]]. [[label|file]] = link.
+  // ["Item name", "item no.", "text"]; name "" = continuation row; plain strings = section bars
   const ROWS = [
     "TITLE AND ABSTRACT",
-    ["Title", [["1", "Indicate that the manuscript concerns an initiative to improve healthcare (broadly defined to include the quality, safety, effectiveness, patient-centeredness, timeliness, cost, efficiency, and equity of healthcare)"]]],
-    ["Abstract", [["2a", "Provide adequate information to aid in searching and indexing"], ["2b", "Summarize all key information from various sections of the text using the abstract format of the intended publication or a structured summary such as: background, local problem, methods, interventions, results, conclusions"]]],
+    ["Title", "1", "Indicate that the manuscript concerns an initiative to improve healthcare (broadly defined to include the quality, safety, effectiveness, patient-centeredness, timeliness, cost, efficiency, and equity of healthcare)"],
+    ["Abstract", "2a", "Provide adequate information to aid in searching and indexing"],
+    ["", "2b", "Summarize all key information from various sections of the text using the abstract format of the intended publication or a structured summary such as: background, local problem, methods, interventions, results, conclusions"],
     "INTRODUCTION: Why did you start?",
-    ["Problem description", [["3", "Nature and significance of the local problem"]]],
-    ["Available knowledge", [["4", "Summary of what is currently known about the problem, including relevant previous studies"]]],
-    ["Rationale", [["5", "Informal or formal frameworks, models, concepts, and/or theories used to explain the problem, any reasons or assumptions that were used to develop the intervention(s), and reasons why the intervention(s) was expected to work"]]],
-    ["Specific aims", [["6", "Purpose of the project and of this report"]]],
+    ["Problem description", "3", "Nature and significance of the local problem"],
+    ["Available knowledge", "4", "Summary of what is currently known about the problem, including relevant previous studies"],
+    ["Rationale", "5", "Informal or formal frameworks, models, concepts, and/or theories used to explain the problem, any reasons or assumptions that were used to develop the intervention(s), and reasons why the intervention(s) was expected to work"],
+    ["Specific aims", "6", "Purpose of the project and of this report"],
     "METHODS: What did you do?",
-    ["Context", [["7", "Contextual elements considered important at the outset of introducing the intervention(s)"]]],
-    ["Intervention(s)", [["8a", "Description of the intervention(s) in sufficient detail that others could reproduce it"], ["8b", "Specifics of the team involved in the work"]]],
-    ["Study of the intervention(s)", [["9a", "Approach chosen for assessing the impact of the intervention(s)"], ["9b", "Approach used to establish whether the observed outcomes were due to the intervention(s)"]]],
-    ["Measures", [["10a", "Measures chosen for studying processes and outcomes of the intervention(s), including rationale for choosing them, their operational definitions, and their validity and reliability"], ["10b", "Description of the approach to the ongoing assessment of contextual elements that contributed to the success, failure, efficiency, and cost"], ["10c", "Methods employed for assessing completeness and accuracy of data"]]],
-    ["Analysis", [["11a", "Qualitative and quantitative methods used to draw inferences from the data"], ["11b", "Methods for understanding variation within the data, including the effects of time as a variable"]]],
-    ["Ethical considerations", [["12", "Ethical aspects of implementing and studying the intervention(s) and how they were addressed, including, but not limited to, formal ethics review and potential conflict(s) of interest"]]],
+    ["Context", "7", "Contextual elements considered important at the outset of introducing the intervention(s)"],
+    ["Intervention(s)", "8a", "Description of the intervention(s) in sufficient detail that others could reproduce it"],
+    ["", "8b", "Specifics of the team involved in the work"],
+    ["Study of the intervention(s)", "9a", "Approach chosen for assessing the impact of the intervention(s)"],
+    ["", "9b", "Approach used to establish whether the observed outcomes were due to the intervention(s)"],
+    ["Measures", "10a", "Measures chosen for studying processes and outcomes of the intervention(s), including rationale for choosing them, their operational definitions, and their validity and reliability"],
+    ["", "10b", "Description of the approach to the ongoing assessment of contextual elements that contributed to the success, failure, efficiency, and cost"],
+    ["", "10c", "Methods employed for assessing completeness and accuracy of data"],
+    ["Analysis", "11a", "Qualitative and quantitative methods used to draw inferences from the data"],
+    ["", "11b", "Methods for understanding variation within the data, including the effects of time as a variable"],
+    ["Ethical considerations", "12", "Ethical aspects of implementing and studying the intervention(s) and how they were addressed, including, but not limited to, formal ethics review and potential conflict(s) of interest"],
     "RESULTS: What did you find?",
-    ["Results", [["13a", "Initial steps of the intervention(s) and their evolution over time (e.g., time-line diagram, flow chart, or table), including modifications made to the intervention during the project"], ["13b", "Details of the process measures and outcome"], ["13c", "Contextual elements that interacted with the intervention(s)"], ["13d", "Observed associations between outcomes, interventions, and relevant contextual elements"], ["13e", "Unintended consequences such as unexpected benefits, problems, failures, or costs associated with the intervention(s)."], ["13f", "Details about missing data"]]],
+    ["Results", "13a", "Initial steps of the intervention(s) and their evolution over time (e.g., time-line diagram, flow chart, or table), including modifications made to the intervention during the project"],
+    ["", "13b", "Details of the process measures and outcome"],
+    ["", "13c", "Contextual elements that interacted with the intervention(s)"],
+    ["", "13d", "Observed associations between outcomes, interventions, and relevant contextual elements"],
+    ["", "13e", "Unintended consequences such as unexpected benefits, problems, failures, or costs associated with the intervention(s)"],
+    ["", "13f", "Details about missing data"],
     "DISCUSSION: What does it mean?",
-    ["Summary", [["14a", "Key findings, including relevance to the rationale and specific aims"], ["14b", "Particular strengths of the project"]]],
-    ["Interpretation", [["15a", "Nature of the association between the intervention(s) and the outcomes"], ["15b", "Comparison of results with findings from other publications"], ["15c", "Impact of the project on people and systems"], ["15d", "Reasons for any differences between observed and anticipated outcomes, including the influence of context"], ["15e", "Costs and strategic trade-offs, including opportunity costs"]]],
-    ["Limitations", [["16a", "Limits to the generalizability of the work"], ["16b", "Factors that might have limited internal validity such as confounding, bias, or imprecision in the design, methods, measurement, or analysis"], ["16c", "Efforts made to minimize and adjust for limitations"]]],
-    ["Conclusions", [["17a", "Usefulness of the work"], ["17b", "Sustainability"], ["17c", "Potential for spread to other contexts"], ["17d", "Implications for practice and for further study in the field"], ["17e", "Suggested next steps"]]],
+    ["Summary", "14a", "Key findings, including relevance to the rationale and specific aims"],
+    ["", "14b", "Particular strengths of the project"],
+    ["Interpretation", "15a", "Nature of the association between the intervention(s) and the outcomes"],
+    ["", "15b", "Comparison of results with findings from other publications"],
+    ["", "15c", "Impact of the project on people and systems"],
+    ["", "15d", "Reasons for any differences between observed and anticipated outcomes, including the influence of context"],
+    ["", "15e", "Costs and strategic trade-offs, including opportunity costs"],
+    ["Limitations", "16a", "Limits to the generalizability of the work"],
+    ["", "16b", "Factors that might have limited internal validity such as confounding, bias, or imprecision in the design, methods, measurement, or analysis"],
+    ["", "16c", "Efforts made to minimize and adjust for limitations"],
+    ["Conclusions", "17a", "Usefulness of the work"],
+    ["", "17b", "Sustainability"],
+    ["", "17c", "Potential for spread to other contexts"],
+    ["", "17d", "Implications for practice and for further study in the field"],
+    ["", "17e", "Suggested next steps"],
     "OTHER INFORMATION",
-    ["Funding", [["18", "Sources of funding that supported this work. Role, if any, of the funding organization in the design, implementation, interpretation, and reporting"]]]
+    ["Funding", "18", "Sources of funding that supported this work. Role, if any, of the funding organization in the design, implementation, interpretation, and reporting"]
   ];
-  const TITLE = "SQUIRE 2.0 Checklist";
-  const FOOT = "<em>From:</em> Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process. BMJ Qual Saf 2016;25:986-992. [[doi: 10.1136/bmjqs-2015-004411|https://doi.org/10.1136/bmjqs-2015-004411]]";
+  const TITLE = "Revised Standards for Quality Improvement Reporting Excellence (SQUIRE 2.0)";
+  const NOTES = [
+    "The SQUIRE guidelines provide a framework for reporting new knowledge about how to improve healthcare.",
+    "The SQUIRE guidelines are intended for reports that describe system level work to improve the quality, safety, and value of healthcare, and used methods to establish that observed outcomes were due to the intervention(s).",
+    "A range of approaches exists for improving healthcare. SQUIRE may be adapted for reporting any of these.",
+    "Authors should consider every SQUIRE item, but it may be inappropriate or unnecessary to include every SQUIRE element in a particular manuscript.",
+    "The SQUIRE Glossary contains definitions of many of the key words in SQUIRE.",
+    "The Explanation and Elaboration document provides specific examples of well-written SQUIRE items, and an in-depth explanation of each item.",
+    "Please cite SQUIRE when it is used to write a manuscript."
+  ];
+  const CITE_TXT = "From Ogrinc G, Davies L, Goodman D, Batalden P, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for QUality Improvement Reporting Excellence): revised publication guidelines from a detailed consensus process. BMJ Qual Saf 2016; 25:986-992. doi: ";
 
-  const STORE = "squire-2-checklist-v1";
+  const STORE = "squire-2-0-checklist-v1";
   const tbody = document.querySelector("#tp-table tbody");
-  // [[label|url]] becomes a link; built through the DOM so the script holds no literal link attributes
   const linkify = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, (_, label, url) => {
     const a = document.createElement("a");
     a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener");
     a.setAttribute("data-url", url); a.textContent = label;
     return a.outerHTML;
   });
-  tbody.innerHTML = ROWS.map(r => typeof r === "string" ? `<tr class="sec"><td colspan="4">${r}</td></tr>`
-    : r[1].map(([code, text], i) =>
-      `<tr>` + (i ? "" : `<td class="topic" rowspan="${r[1].length}">${r[0]}</td>`) +
-      `<td class="item">${code}</td><td class="txt">${linkify(text)}</td>` +
-      `<td class="pg"><input type="text" data-key="p${code}" placeholder="page / location" aria-label="Location, item ${code}"></td></tr>`).join("")).join("");
+  document.getElementById("tp-notes").innerHTML = NOTES.map(n => `<li>${n}</li>`).join("");
+  tbody.innerHTML = ROWS.map(r => typeof r === "string"
+    ? `<tr class="sec"><td colspan="4">${r}</td></tr>`
+    : `<tr><td class="topic">${r[0]}</td><td class="item">${r[1]}</td><td class="txt">${linkify(r[2])}</td>` +
+      `<td class="pg"><input type="text" data-key="p${r[1]}" placeholder="page no." aria-label="Page, item ${r[1]}"></td></tr>`).join("");
   tbody.querySelectorAll("a[data-url]").forEach(a => { a.href = a.getAttribute("data-url"); a.removeAttribute("data-url"); });
 
   const fields = () => [...document.querySelectorAll("#tp-wrap input")];
@@ -149,55 +184,55 @@ resources:
   };
 
   document.getElementById("tp-reset").onclick = () => {
-    if (confirm("Clear all entries and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
+    if (confirm("Clear all page numbers and the manuscript title?")) { fields().forEach(i => i.value = ""); save(); }
   };
 
   // ---- Word (.docx) export -------------------------------------------------
   // <BUILD>
-  function buildDocx(D, ROWS, vals, logo, title, foot, eqLogo) {
-    const F = "Arial", SZ = 17, W = [1800, 650, 6616, 1400], TOTAL = W.reduce((a, b) => a + b);
-    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+  function buildDocx(D, ROWS, vals, logo, title, eqLogo, NOTES, CITE_TXT) {
+    const F = "Arial", SZ = 17, W = [1500, 700, 7066, 1200], TOTAL = W.reduce((a, b) => a + b);
+    const line = { style: D.BorderStyle.DOTTED, size: 4, color: "333333" };
+    const borders = { top: line, bottom: line, left: line, right: line };
     const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, color: o.color });
     const runs = (text, o = {}) => {
-      const out = [], re = /<em>(.*?)<\/em>|\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
       while ((m = re.exec(text))) {
         if (m.index > last) out.push(run(text.slice(last, m.index), o));
-        if (m[1] !== undefined) out.push(run(m[1], { ...o, italics: true }));
-        else out.push(new D.ExternalHyperlink({ link: m[3], children: [new D.TextRun({ text: m[2], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
         last = re.lastIndex;
       }
       if (last < text.length) out.push(run(text.slice(last), o));
       return out;
     };
     const cell = (i, text, o = {}) => new D.TableCell({
-      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 4 : undefined, rowSpan: o.rowSpan,
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span,
       verticalAlign: o.top ? D.VerticalAlign.TOP : D.VerticalAlign.CENTER,
       shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
-      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
-      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.right ? D.AlignmentType.RIGHT : o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
+      margins: { top: 40, bottom: 40, left: 90, right: 90 }, borders,
+      children: [new D.Paragraph({ alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: runs(text, o) })]
     });
-    const hd = { fill: "63639A", color: "FFFFFF", bold: true };
+    const hd = { fill: "4C94D8", bold: true, color: "FFFFFF" };
     const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
-      cell(0, "Section and item name", hd), cell(1, "Item #", hd), cell(2, "Section or item description", hd), cell(3, "Location where item is reported", hd)] });
-    const body = ROWS.flatMap(r => typeof r === "string"
-      ? [new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, fill: "FFFFCC", bold: true, keepNext: true })] })]
-      : r[1].map(([code, text], i) => new D.TableRow({ cantSplit: true, children: [
-          ...(i ? [] : [cell(0, r[0], { rowSpan: r[1].length, top: true })]),
-          cell(1, code, { right: true, top: true }), cell(2, text, { top: true }), cell(3, vals["p" + code] || "", { center: true })] })));
+      cell(0, "Section & Item name", hd), cell(1, "No", { ...hd, center: true }),
+      cell(2, "Item description *", hd), cell(3, "Reported on page #", { ...hd, center: true })] });
+    const body = ROWS.map(r => typeof r === "string"
+      ? new D.TableRow({ cantSplit: true, children: [cell(0, r, { span: true, bold: true, color: "215E99" })] })
+      : new D.TableRow({ cantSplit: true, children: [
+          cell(0, r[0], { top: true, italics: true, color: "215E99" }), cell(1, r[1], { center: true, top: true }), cell(2, r[2]),
+          cell(3, vals["p" + r[1]] || "", { center: true })] }));
     const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
-    const header = new D.Header({ children: [para([
-      ...(logo ? [new D.ImageRun({ data: logo, type: "png", transformation: { width: 48, height: 44 } })] : []),
-      run("   " + title, { bold: true, size: 26 }),
-      ...(eqLogo ? [new D.TextRun({ children: [new D.Tab()] }), new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 120, height: Math.round(120 * 90 / 310) } })] : [])],
-      { tabStops: [{ type: D.TabStopType.RIGHT, position: 10466 }] })] });
+    const top = [];
+    if (eqLogo) top.push(para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 60 } }));
+    top.push(para([new D.TextRun({ text: title, font: F, size: 26, bold: true })], { spacing: { before: 60, after: 120 } }));
+    top.push(para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
     return new D.Document({
       title: "SQUIRE 2.0 checklist", creator: "SQUIRE 2.0 checklist",
       sections: [{
-        headers: { default: header },
-        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 1250, bottom: 720, left: 720, right: 720, header: 400 } } },
-        children: [para([run("Manuscript title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }),
-          new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
-          para(runs(foot, { size: 16 }), { spacing: { before: 140 } })]
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para([run("* Notes to authors", { bold: true, size: 16 })], { spacing: { before: 160, after: 40 } }),
+          ...NOTES.map(n => para([run("\u2022  " + n, { size: 16 })], { spacing: { after: 20 }, indent: { left: 300, hanging: 220 } })),
+          para(runs(CITE_TXT + "[[10.1136/bmjqs-2015-004411|https://doi.org/10.1136/bmjqs-2015-004411]]", { size: 16 }), { spacing: { before: 160 } })]
       }]
     });
   }
@@ -215,14 +250,11 @@ resources:
     btn.disabled = true; btn.textContent = "Preparing…";
     try {
       await loadDocx();
-      let logo = null;
-      // (no left-hand logo for this checklist)
+      const logo = null;
       let eqLogo = null;
       try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
       const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
-      // a relative link would break once the file is downloaded, so use the full web address
-      const rows = ROWS.map(r => typeof r === "string" ? r : [r[0], r[1].map(([c, t]) => [c, t.replace(/\|([^|\]]*)\]\]/g, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")])]);
-      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, rows, vals, logo, TITLE, FOOT, eqLogo));
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS.map(r => typeof r === "string" ? r : [r[0], r[1], r[2].replace(/\|([^|\]]*)\]\]/, (_, u) => "|" + new URL(u, document.baseURI).href + "]]")]), vals, logo, TITLE, eqLogo, NOTES, CITE_TXT));
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
       a.download = "SQUIRE-2.0-checklist.docx";
