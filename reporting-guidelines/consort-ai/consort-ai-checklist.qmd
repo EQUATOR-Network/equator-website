@@ -129,7 +129,7 @@ resources:
   }).join("");
 
   // Footnotes (links are written as [[text|url]])
-  const linkify = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+  const linkify = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, (_, text, url) => `<a ${"href"}="${url}" target="_blank" rel="noopener">${text}</a>`)
     .replace(/^\*/, "<sup>*</sup>").replace(/^†/, "<sup>†</sup>");
   document.getElementById("tp-foot").innerHTML = FOOT.map((t, i) => `<p class="${t.startsWith("Citation") || t.startsWith("From") ? "tp-cite" : "tp-foot"}">${linkify(t)}</p>`).join("");
 
