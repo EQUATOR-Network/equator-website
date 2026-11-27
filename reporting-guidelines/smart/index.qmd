@@ -21,7 +21,8 @@ explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: |-
   
-website-url: [SMART project website](https://www.bristol.ac.uk/population-health-sciences/centres/surgical-research/research/surgical-innovation/smart/)
+website-url: |-
+  [SMART project website](https://www.bristol.ac.uk/population-health-sciences/centres/surgical-research/research/surgical-innovation/smart/)
 additional-languages: ''
 additional-information: ''
 relevant-editorials: ''
