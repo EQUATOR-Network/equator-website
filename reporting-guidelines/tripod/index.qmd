@@ -71,7 +71,9 @@ relevant-more: |-
    
   [**SPIRIT-AI**](/reporting-guidelines/spirit-ai): Rivera SC, Liu X, Chan A-W, Denniston AK, Calvert MJ; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension. BMJ 2020;370:m3210. PMID: [32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/) \
   
-  [**REMARK**](/reporting-guidelines/remark/): McShane LM, Altman DG, Sauerbrei W, Taube SE, Gion M, Clark GM. REporting recommendations for tumour MARKer prognostic studies (REMARK). Br J Cancer. 2005; 93: 387-391 PMID: [16106245](http://www.ncbi.nlm.nih.gov/pubmed/16106245).
+  [**REMARK**](/reporting-guidelines/remark/): McShane LM, Altman DG, Sauerbrei W, Taube SE, Gion M, Clark GM. REporting recommendations for tumour MARKer prognostic studies (REMARK). Br J Cancer. 2005; 93: 387-391 PMID: [16106245](http://www.ncbi.nlm.nih.gov/pubmed/16106245). \
+  
+  [**GRIPS**](/reporting-guidelines/grips): Janssens AC, Ioannidis JP, van Duijn CM, Little J, Khoury MJ; GRIPS Group. Strengthening the reporting of Genetic RIsk Prediction Studies: the GRIPS Statement.BMJ. 2011;16:342:d631. PMID: [21411493](http://www.ncbi.nlm.nih.gov/pubmed/21411493) 
 
 website-url: <http://www.tripod-statement.org/>
 additional-languages: |-
