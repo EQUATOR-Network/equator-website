@@ -93,12 +93,13 @@ relevant-more: |-
   [**CHEERS-AI**](/reporting-guidelines/consolidated-health-economic-evaluation-reporting-standards-for-interventions-that-use-artificial-intelligence-cheers-ai/): Elvidge J, Hawksworth C, Avşar TS, Zemplenyi A, Chalkidou A, Petrou S, Petykó Z, Srivastava D, Chandra G, Delaye J, Denniston A, Gomes M, Knies S, Nousios P, Siirtola P, Wang J, Dawoud D. Consolidated Health Economic Evaluation Reporting Standards for Interventions that use Artificial Intelligence (CHEERS-AI). Value Health. 2024:S1098-3015(24)02366-0. PMID: [38795956](https://pubmed.ncbi.nlm.nih.gov/38795956/)
 website-url: ''
 additional-languages: |-
-  The CHEERS 2022 statement has been translated into [Spanish ](https://doi.org/10.1016/j.vhri.2021.11.001), [Turkish translation](http://www.doi.org/10.5336/healthsci.2023-96248), [French](https://doi.org/10.51731/cjht.2023.754),  [Japanese](https://doi.org/10.20683/jniph.72.4_344), [Dutch](https://doi.org/10.1080/14737167.2024.2324048), and [Chinese](http://www.doi.org/10.3760/cma.j.issn.1007-9742.2022.08.110)
+  The CHEERS 2022 statement has been translated into [Spanish ](https://doi.org/10.1016/j.vhri.2021.11.001), [Turkish translation](http://www.doi.org/10.5336/healthsci.2023-96248), [French](https://doi.org/10.51731/cjht.2023.754),  [Japanese](https://doi.org/10.20683/jniph.72.4_344), [Dutch](https://doi.org/10.1080/14737167.2024.2324048), and [Chinese](http://www.doi.org/10.3760/cma.j.issn.1007-9742.2022.08.110)\
 
-  **CHEERS 2013**
+  **CHEERS 2013**\
 
   The CHEERS Statement (2013) has been translated into [Spanish,](https://www.ncbi.nlm.nih.gov/pubmed/29702767), [Japanese (PDF)](https://www.niph.go.jp/journal/data/62-6/201362060009.pdf) and [Portuguese](https://pubmed.ncbi.nlm.nih.gov/29211152/). 
-additional-information: '[Read a commentary](https://doi.org/10.1186/s40900-023-00444-3) advocating for greater public involvement in health economic evaluation, including a guide for patient representatives and organisations (available in additional file 1 of the supplementary information) following suggestions made by the CHEERS 2022 Public Reference Group.'
+additional-information: |-
+  [Read a commentary](https://doi.org/10.1186/s40900-023-00444-3) advocating for greater public involvement in health economic evaluation, including a guide for patient representatives and organisations (available in additional file 1 of the supplementary information) following suggestions made by the CHEERS 2022 Public Reference Group.
 relevant-editorials: ''
 primary-guideline: ''
 other: ''
