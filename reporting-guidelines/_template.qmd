@@ -1,105 +1,117 @@
 {{< include /_partials/_how_to_use_accordian.qmd >}}
 
+## Key information
 
-## Key information 
-
-::: {.section}
-
-::: {.reporting-guideline-key-info-box data-content='key information'}
-
-::: {.grid}
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta acronym >}}'}
+::::::::::::::: section
+:::::::::::::: {.reporting-guideline-key-info-box data-content="key information"}
+::::::::::::: grid
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta acronym >}}"}
 **Reporting guideline acronym**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta acronym >}}'}
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta acronym >}}"}
 {{< meta acronym >}}
 :::
+
 <!-- row -->
 
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta provided-for >}}'}
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta provided-for >}}"}
 **Provided for**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta provided-for >}}'}
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta provided-for >}}"}
 {{< meta provided-for >}}
 :::
+
 <!-- row -->
 
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta relevant-urls >}}'}
-**Relevant URLs**
-**(full-text if available)**
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta relevant-urls >}}"}
+**Relevant URLs** **(full-text if available)**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta relevant-urls >}}'}
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta relevant-urls >}}"}
 {{< meta relevant-urls >}}
 :::
+
 <!-- row -->
 
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta pmid-id >}}'}
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta pmid-id >}}"}
 **PubMed ID**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta pmid-id >}}'}
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta pmid-id >}}"}
 [{{< meta pmid-id >}}](http://www.ncbi.nlm.nih.gov/pubmed/{{< meta pmid-id >}})
 :::
+
 <!-- row -->
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta downloads >}}'}
+
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta downloads >}}"}
 **Downloads**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta downloads >}}'}
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta downloads >}}"}
 {{< meta downloads >}}
 :::
-<!-- row -->
-:::
-<!-- grid-->
 
-::: 
+<!-- row -->
+:::::::::::::
+
+<!-- grid-->
+::::::::::::::
+
 <!-- background-colour -->
-:::
+:::::::::::::::
+
 <!-- section -->
 
 ## Bibliographic reference
 
-::: {.section}
-
+::: section
 {{< include /_partials/_index_table_margin.qmd >}}
 
 {{< meta full-bibliographic-reference >}}
 
 <!-- row -->
-
 :::
 
 ## Additional information
 
-::: {.section}
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta rg-language >}}'}
+:::::::::::::::::::::: section
+::::::::::::::::::::: grid
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta rg-language >}}"}
 **Language**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta rg-language >}}'}
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta rg-language >}}"}
 {{< meta rg-language >}}
 :::
+
 <!-- row -->
 
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta additional-languages >}}'}
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta additional-languages >}}"}
 **Availability in additional languages**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta additional-languages >}}'}
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta additional-languages >}}"}
 {{< meta additional-languages >}}
 :::
+
 <!-- row -->
 
 ::: {.g-col-12 .g-col-md-4}
 **Study design**
 :::
+
 ::: {.g-col-12 .g-col-md-8 .notranslate}
-{{< meta-list study-design >}}
+{{< meta-list categories >}}
 :::
 
 <!-- row -->
+
 ::: {.g-col-12 .g-col-md-4}
 **Clinical area**
 :::
+
 ::: {.g-col-12 .g-col-md-8 .notranslate}
 {{< meta-list clinical-specialty >}}
 :::
@@ -107,61 +119,67 @@
 ::: {.g-col-12 .g-col-md-4}
 **Applies to the whole report or to individual sections of the report?**
 :::
+
 ::: {.g-col-12 .g-col-md-8 .notranslate}
 {{< meta-list report-section >}}
 :::
 
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta website-url >}}'}
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta website-url >}}"}
 **Reporting guideline website URL**
 :::
 
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta website-url >}}'}
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta website-url >}}"}
 {{< meta website-url >}}
 :::
-<!-- row -->
 
 <!-- row -->
 
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta guideline-history >}}'}
+<!-- row -->
+
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta guideline-history >}}"}
 **Previous versions of this guideline / Guideline history**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta guideline-history >}}'}
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta guideline-history >}}"}
 {{< meta guideline-history >}}
 :::
+
 <!-- row -->
 
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta other >}}'}
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta other >}}"}
 **Other**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta other >}}'}
+
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta other >}}"}
 {{< meta other >}}
 :::
+
 <!-- row -->
 
-::: {.g-col-12 .g-col-md-4 data-content='{{< meta additional-information >}}'}
+::: {.g-col-12 .g-col-md-4 data-content="{{< meta additional-information >}}"}
 **Additional Information**
 :::
-::: {.g-col-12 .g-col-md-8 .notranslate data-content='{{< meta additional-information >}}'}
-{{< meta additional-information >}} 
-:::
-<!-- row -->
-:::
-<!-- grid -->
 
+::: {.g-col-12 .g-col-md-8 .notranslate data-content="{{< meta additional-information >}}"}
+{{< meta additional-information >}}
 :::
+
+<!-- row -->
+:::::::::::::::::::::
+
+<!-- grid -->
+::::::::::::::::::::::
+
 <!-- /section -->
 
-::: {data-content='{{< meta relevant-more >}}'}
-
+:::: {data-content="{{< meta relevant-more >}}"}
 ## Related reporting guidelines
 
-::: {.section}
+::: section
 {{< meta relevant-more >}}
 :::
+
 <!-- row -->
+::::
 
-:::
 <!-- section -->
-
-
-
