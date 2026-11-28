@@ -173,7 +173,7 @@ clinical-specialty:
 # - Toxicology
 # - Tropical medicine
 # - Urology
-# - No clinical specialty specified
+- No clinical specialty specified
 
 report-section:
 # - Abstract
