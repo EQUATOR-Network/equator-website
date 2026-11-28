@@ -3,15 +3,15 @@
 title: 'TRAM-AI: A Framework for Transparency in Reporting of Medical Imaging Datasets for Artificial Intelligence Development'
 acronym: 'TRAM-AI'
 provided-for: |-
-  
+  Reporting of medical imaging datasets for artificial intelligence.
 rg-doi: '10.1148/ryai.260538.'
 pmid-id: '[42905015](https://www.ncbi.nlm.nih.gov/pubmed/42905015)'
 pmid-url: https://www.ncbi.nlm.nih.gov/pubmed/42905015
 relevant-urls: |-
-  Read the full text of TRAM-AI <https://pubs.rsna.org/doi/10.1148/ryai.260538>
+  Read the [full text](https://doi.org/10.1148/ryai.260538) of TRAM-AI.
   
 full-bibliographic-reference: |-
-  Bose K, Gupta P, Adams L, Agrawal R, Aboian M, Basu S, Brunak S, Chang K, Chu LC, Cuocolo R, Akinci D'Antonoli T, Fanni SC, Judice de Mattos Farina EM, Gatti AA, Ghodasara S, Gonzales RA, Gupta A, Hoebel K, Hsu W, Jiang Z, Khosravi B, Klontzas ME, Kiosia A, Lalwani N, Langlotz C, Lee H, Moy L, Pal D, Paolucci I, Savage CH, Rangarajan K, Sebro R, Suri A, Tejani A, Wang S, Kahn CE Jr. TRAM-AI: A Framework for Transparency in Reporting of Medical Imaging Datasets for Artificial Intelligence Development. Radiol Artif Intell. 2026 Oct 21:e260538.
+  Bose K, Gupta P, Adams L, Agrawal R, Aboian M, Basu S, Brunak S, Chang K, Chu LC, Cuocolo R, Akinci D'Antonoli T, Fanni SC, Judice de Mattos Farina EM, Gatti AA, Ghodasara S, Gonzales RA, Gupta A, Hoebel K, Hsu W, Jiang Z, Khosravi B, Klontzas ME, Kiosia A, Lalwani N, Langlotz C, Lee H, Moy L, Pal D, Paolucci I, Savage CH, Rangarajan K, Sebro R, Suri A, Tejani A, Wang S, Kahn CE Jr. TRAM-AI: A Framework for Transparency in Reporting of Medical Imaging Datasets for Artificial Intelligence Development. Radiol Artif Intell. 2026 Oct 21:e260538 PMID: [42905015](https://www.ncbi.nlm.nih.gov/pubmed/42905015) [full text](https://doi.org/10.1148/ryai.260538).
 # OPTIONAL FIELDS
 downloads: ''
 rg-language: English
