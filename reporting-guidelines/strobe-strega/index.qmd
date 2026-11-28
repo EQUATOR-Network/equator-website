@@ -51,7 +51,8 @@ relevant-more: |-
 
   Lancet. 2007;370(9596):1453-1457. PMID: [18064739](http://www.ncbi.nlm.nih.gov/pubmed/18064739) \
 
-  **Specialised**
+  **Specialised** \
+
   [**Case-cohort studies**](/reporting-guidelines/a-review-of-published-analyses-of-case-cohort-studies-and-recommendations-for-future-reporting/): Sharp SJ, Poulaliou M, Thompson SG, White IR, Wood AM. A review of published analyses of case-cohort studies and recommendations for future reporting. PLoS One. 2014;9(6):e101176. PMID: [24972092](https://www.ncbi.nlm.nih.gov/pubmed/24972092) \
 
   [**Longitudinal observational drug studies in rheumatology**](/reporting-guidelines/launch-of-a-checklist-for-reporting-longitudinal-observational-drug-studies-in-rheumatology-a-eular-extension-of-strobe-guidelines-based-on-experience-from-biologics-registries/): Zavada J, Dixon WG, Askling J. Launch of a checklist for reporting longitudinal observational drug studies in rheumatology: a EULAR extension of STROBE guidelines based on experience from biologics registries. Ann Rheum Dis. 2014;73(3):628. PMID: [24058015](http://www.ncbi.nlm.nih.gov/pubmed/24058015) \
