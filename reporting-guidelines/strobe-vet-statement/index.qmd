@@ -1,27 +1,27 @@
 ---
 # REQUIRED FIELDS
-title: Methods and processes of developing the strengthening the reporting of observational
-  studies in epidemiology – veterinary (STROBE-Vet) statement
+title: Methods and processes of developing the strengthening the reporting of observational studies in epidemiology – veterinary (STROBE-Vet) statement
+aliases:
+  - /reporting-guidelines/strobe-vet-statement/
 acronym: STROBE-Vet
-provided-for: Reporting of observational studies in veterinary research related to
-  animal health, production, welfare, and food safety.
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
-relevant-urls: The [STROBE-Vet Statement (PDF)](https://strobevetstatement.files.wordpress.com/2016/09/strobe-and-strobe-vet-statements.pdf)
-  is freely available.
+provided-for: Reporting of observational studies in veterinary research related to animal health, production, welfare, and food safety.
+rg-doi: '10.1016/j.prevetmed.2016.09.005'
+pmid-id: '[27836042](https://www.ncbi.nlm.nih.gov/pubmed/27836042)'
+pmid-url: 'https://www.ncbi.nlm.nih.gov/pubmed/27836042'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1016/j.prevetmed.2016.09.005) of STROBE-VET.
 full-bibliographic-reference: |-
   Sargeant JM, O'Connor AM, Dohoo IR, Erb HN, Cevallos M, Egger M, Ersbøll AK, Martin SW, Nielsen LR, Pearl DL, Pfeiffer DU, Sanchez J, Torrence ME, Vigre H, Waldner C, Ward MP. Methods and processes of developing the strengthening the reporting of observational studies in epidemiology - veterinary (STROBE-Vet) statement.
 
   This guideline was published simultaneously in 4 journals. You can read the guideline in any of these journals using the links below.
 
-  Prev Vet Med. 2016;134:188-196. PMID: [27836042](https://www.ncbi.nlm.nih.gov/pubmed/27836042)
+  Prev Vet Med. 2016;134:188-196. PMID: [27836042](https://www.ncbi.nlm.nih.gov/pubmed/27836042) [full text](https://doi.org/10.1016/j.prevetmed.2016.09.005)
 
-  J Vet Intern Med. 2016 Nov;30(6):1887-1895. PMID: [27859753](https://www.ncbi.nlm.nih.gov/pubmed/27859753)
+  J Vet Intern Med. 2016 Nov;30(6):1887-1895. PMID: [27859753](https://www.ncbi.nlm.nih.gov/pubmed/27859753) [full text](https://doi.org/10.1111/jvim.14574)
 
-  Zoonoses Public Health. 2016 Dec;63(8):651-661. PMID: [27873478](https://www.ncbi.nlm.nih.gov/pubmed/27873478)
+  Zoonoses Public Health. 2016 Dec;63(8):651-661. PMID: [27873478](https://www.ncbi.nlm.nih.gov/pubmed/27873478) [full text](https://doi.org/10.1111/zph.12314)
 
-  J Food Prot. 2016 Dec;79(12):2211-2219. PMID: [28221964](https://www.ncbi.nlm.nih.gov/pubmed/28221964)
+  J Food Prot. 2016 Dec;79(12):2211-2219. PMID: [28221964](https://www.ncbi.nlm.nih.gov/pubmed/28221964) [full text](https://doi.org/10.4315/0362-028x.jfp-16-016)
 
 
 # OPTIONAL FIELDS
