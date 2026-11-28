@@ -6,18 +6,16 @@ provided-for: Reporting of statistical analysis plans (SAPs) for clinical trials
 rg-doi: ''
 pmid-id: '[29260229](https://pubmed.ncbi.nlm.nih.gov/29260229/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/29260229/
-relevant-urls: 'The full-text of this guideline is freely available at: <https://jamanetwork.com/journals/jama/fullarticle/2666509>'
-full-bibliographic-reference: Gamble C, Krishan A, Stocken D, Lewis S, Juszczak E,
-  Doré C, Williamson PR, Altman DG, Montgomery A, Lim P, Berlin J, Senn S, Day S,
-  Barbachano Y, Loder E. Guidelines for the Content of Statistical Analysis Plans
-  in Clinical Trials. JAMA. 2017;318(23):2337-2343.
+relevant-urls: |-
+  Read the [full text](http://www.doi.org/10.1001/jama.2017.18556) of SAPI.
+full-bibliographic-reference: |-
+  Gamble C, Krishan A, Stocken D, Lewis S, Juszczak E, Doré C, Williamson PR, Altman DG, Montgomery A, Lim P, Berlin J, Senn S, Day S, Barbachano Y, Loder E. Guidelines for the Content of Statistical Analysis Plans in Clinical Trials. JAMA. 2017; 318: 2337-2343. PMID: [29260229](https://pubmed.ncbi.nlm.nih.gov/29260229/) [full text](http://www.doi.org/10.1001/jama.2017.18556)
 
 
 # OPTIONAL FIELDS
 rg-language: English
-explanation-and-elaboration-papers: The [explanation and elaboration content for the
-  SAP Statement (PDF)](http://lctc.org.uk/Content/SAP%20Statement_%20Elaboration%20Document%20v1.0.pdf)
-  is freely available.
+explanation-and-elaboration-papers: |-
+  Download the [explanation and elaboration](http://lctc.org.uk/Content/SAP%20Statement_%20Elaboration%20Document%20v1.0.pdf).
 guideline-history: ''
 relevant-more: |-
   **Specialised**
