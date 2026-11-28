@@ -5,48 +5,56 @@ aliases:
   - /reporting-guidelines/strengthening-the-reporting-of-genetic-risk-prediction-studies-the-grips-statement/
 acronym: GRIPS
 provided-for: Genetic risk prediction studies
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
-relevant-urls: ''
+rg-doi: '10.1136/bmj.d631'
+pmid-id: '[21411493](http://www.ncbi.nlm.nih.gov/pubmed/21411493)'
+pmid-url: 'http://www.ncbi.nlm.nih.gov/pubmed/21411493'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1136/bmj.d631) of GRIPS.\
+  
+  Complete an interactive [GRIPS checklist](grips-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
-  Janssens AC, Ioannidis JP, van Duijn CM, Little J, Khoury MJ; GRIPS Group. Strengthening the reporting of Genetic RIsk Prediction Studies: the GRIPS Statement.
+  Janssens AC, Ioannidis JP, van Duijn CM, Little J, Khoury MJ; GRIPS Group. Strengthening the reporting of Genetic RIsk Prediction Studies: the GRIPS Statement.\
+  
+  This guideline was published simultaneously in 10 journals. You can read the guideline in any of these journals using the links below.\
 
-  PLoS Med. 2011 8(3):e1000420. PMID: [21423587](http://www.ncbi.nlm.nih.gov/pubmed/21423587)
+  PLoS Med. 2011 8(3):e1000420. PMID: [21423587](http://www.ncbi.nlm.nih.gov/pubmed/21423587) [full text](https://doi.org/10.1371/journal.pmed.1000420)
 
-  Genet Med. 2011;13(5):453-456. PMID: [21502867](http://www.ncbi.nlm.nih.gov/pubmed/21502867)
+  Genet Med. 2011;13(5):453-456. PMID: [21502867](http://www.ncbi.nlm.nih.gov/pubmed/21502867) [full text](https://doi.org/10.1097/gim.0b013e318212fa82)
 
-  Eur J Clin Inves. 2011;41(9):1004-1009. PMID: [21434891](http://www.ncbi.nlm.nih.gov/pubmed/21434891)
+  Eur J Clin Inves. 2011;41(9):1004-1009. PMID: [21434891](http://www.ncbi.nlm.nih.gov/pubmed/21434891) [full text](http://www.ncbi.nlm.nih.gov/pubmed/21434891)
 
-  Eur J Epidemiol. 2011;26(4):255-259. PMID: [21431409](http://www.ncbi.nlm.nih.gov/pubmed/21431409)
+  Eur J Epidemiol. 2011;26(4):255-259. PMID: [21431409](http://www.ncbi.nlm.nih.gov/pubmed/21431409) [full text](https://doi.org/10.1007/s10654-011-9552-y)
 
-  J Clin Epidemiol. 2011;64(8):843-847. PMID: [21414754](http://www.ncbi.nlm.nih.gov/pubmed/21414754)
+  J Clin Epidemiol. 2011;64(8):843-847. PMID: [21414754](http://www.ncbi.nlm.nih.gov/pubmed/21414754) [full text](https://doi.org/10.1016/j.jclinepi.2011.02.004)
 
-  BMJ. 2011;16:342:d631. PMID: [21411493](http://www.ncbi.nlm.nih.gov/pubmed/21411493)
+  BMJ. 2011;16:342:d631. PMID: [21411493](http://www.ncbi.nlm.nih.gov/pubmed/21411493) [full text](https://doi.org/10.1136/bmj.d631)
 
-  Genome Med. 2011;3(3):16. PMID: [21410995](http://www.ncbi.nlm.nih.gov/pubmed/21410995)
+  Genome Med. 2011;3(3):16. PMID: [21410995](http://www.ncbi.nlm.nih.gov/pubmed/21410995) [full text](https://doi.org/10.1186/gm230)
 
-  Eur J Hum Genet. 2011;19(8):833-836. PMID: [21407265](http://www.ncbi.nlm.nih.gov/pubmed/21407265)
+  Eur J Hum Genet. 2011;19(8):833-836. PMID: [21407265](http://www.ncbi.nlm.nih.gov/pubmed/21407265) [full text](https://doi.org/10.1038/ejhg.2011.25)
 
-  Circ Cardiovasc Genet. 2011;4(2):206-209. PMID: [21406688](http://www.ncbi.nlm.nih.gov/pubmed/21406688)
+  Circ Cardiovasc Genet. 2011;4(2):206-209. PMID: [21406688](http://www.ncbi.nlm.nih.gov/pubmed/21406688) [full text](https://doi.org/10.1161/circgenetics.111.959668)
 
-  Ann Intern Med. 2011;154(6):421-425. PMID: [21403077](http://www.ncbi.nlm.nih.gov/pubmed/21403077)
+  Ann Intern Med. 2011;154(6):421-425. PMID: [21403077](http://www.ncbi.nlm.nih.gov/pubmed/21403077) [full text](https://doi.org/10.7326/0003-4819-154-6-201103150-00008)
 
 
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: |-
-  ACJW Janssens, JPA Ioannidis, S Bedrosian, P Boffetta, SM Dolan, N Dowling, I Fortier, AN Freedman, JM Grimshaw, J Gulcher, M Gwinn, MA Hlatky, H Janes, P Kraft, S Melillo, CJ O’Donnell, MJ Pencina, D Ransohoff, SD Schully, D Seminara, DM Winn, CF Wright, CM van Duijn, J Little, MJ Khoury. Strengthening the reporting of genetic risk prediction studies (GRIPS): explanation and elaboration.
+  ACJW Janssens, JPA Ioannidis, S Bedrosian, P Boffetta, SM Dolan, N Dowling, I Fortier, AN Freedman, JM Grimshaw, J Gulcher, M Gwinn, MA Hlatky, H Janes, P Kraft, S Melillo, CJ O’Donnell, MJ Pencina, D Ransohoff, SD Schully, D Seminara, DM Winn, CF Wright, CM van Duijn, J Little, MJ Khoury. Strengthening the reporting of genetic risk prediction studies (GRIPS): explanation and elaboration.\
+  
+  This explanation and elaboration was published simultaneously in 4 journals. You can read the guideline in any of these journals using the links below. \
 
-  Eur J Clin Invest. 2011;41(9):1010-1035. PMID: [21434890](http://www.ncbi.nlm.nih.gov/pubmed/21434890)
+  Eur J Clin Invest. 2011;41(9):1010-1035. PMID: [21434890](http://www.ncbi.nlm.nih.gov/pubmed/21434890) [full text](https://doi.org/10.1111/j.1365-2362.2011.02493.x)
 
-  Eur J Epidemiol. 2011;26(4):313-337. PMID: [21424820](http://www.ncbi.nlm.nih.gov/pubmed/21424820)
+  Eur J Epidemiol. 2011;26(4):313-337. PMID: [21424820](http://www.ncbi.nlm.nih.gov/pubmed/21424820) [full text](https://doi.org/10.1007/s10654-011-9551-z)
 
-  J Clin Epidemiol. 2011;64(8):e1-22. PMID: [21414753](http://www.ncbi.nlm.nih.gov/pubmed/21414753)
+  J Clin Epidemiol. 2011;64(8):e1-22. PMID: [21414753](http://www.ncbi.nlm.nih.gov/pubmed/21414753) [full text](https://doi.org/10.1016/j.jclinepi.2011.02.003)
 
-  Eur J Hum Genet. 2011;19(5):18. PMID: [21407270](http://www.ncbi.nlm.nih.gov/pubmed/21407270)
+  Eur J Hum Genet. 2011;19(5):18. PMID: [21407270](http://www.ncbi.nlm.nih.gov/pubmed/21407270) [full text]
 guideline-history: ''
-relevant-more: ''
+relevant-more: |-
+  [**TRIPOD+AI**](/reporting-guidelines/tripod): Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, Ghassemi M, Liu X, Reitsma JB, van Smeden M, Boulesteix AL, Camaradou JC, Celi LA, Denaxas S, Denniston AK, Glocker B, Golub RM, Harvey H, Heinze G, Hoffman MM, Kengne AP, Lam E, Lee N, Loder EW, Maier-Hein L, Mateen BA, McCradden MD, Oakden-Rayner L, Ordish J, Parnell R, Rose S, Singh K, Wynants L, Logullo P. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ. 2024;385:e078378. PMID: [38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/)
 website-url: ''
 additional-languages: ''
 additional-information: ''
@@ -55,7 +63,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: false
-downloads: ''
+downloads: |-
+  Download the GRIPS checklist [PDF](GRIPS-checklist.pdf) / [Word](GRIPS-checklist.docx)
 
 
 # LIST FIELDS

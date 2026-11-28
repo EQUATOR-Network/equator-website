@@ -10,18 +10,18 @@ rg-doi: ''
 pmid-id: '[38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/38626948/
 relevant-urls: |-
-  Read the [full-text](https://www.bmj.com/content/385/bmj-2023-078378) of TRIPOD+AI \
+  Read the [full-text](https://doi.org/10.1136/bmj-2023-078378) of TRIPOD+AI \
   
   Complete an interactive [TRIPOD+AI checklist](/reporting-guidelines/tripod/tripod-ai-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
 
-  Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, Ghassemi M, Liu X, Reitsma JB, van Smeden M, Boulesteix AL, Camaradou JC, Celi LA, Denaxas S, Denniston AK, Glocker B, Golub RM, Harvey H, Heinze G, Hoffman MM, Kengne AP, Lam E, Lee N, Loder EW, Maier-Hein L, Mateen BA, McCradden MD, Oakden-Rayner L, Ordish J, Parnell R, Rose S, Singh K, Wynants L, Logullo P. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ. 2024;385:e078378. PMID: [38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/) [full text](https://www.bmj.com/content/385/bmj-2023-078378) \
+  Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, Ghassemi M, Liu X, Reitsma JB, van Smeden M, Boulesteix AL, Camaradou JC, Celi LA, Denaxas S, Denniston AK, Glocker B, Golub RM, Harvey H, Heinze G, Hoffman MM, Kengne AP, Lam E, Lee N, Loder EW, Maier-Hein L, Mateen BA, McCradden MD, Oakden-Rayner L, Ordish J, Parnell R, Rose S, Singh K, Wynants L, Logullo P. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. BMJ. 2024;385:e078378. PMID: [38626948](https://pubmed.ncbi.nlm.nih.gov/38626948/) [full text](https://doi.org/10.1136/bmj-2023-078378) \
 
   **Explanation and Elaboration**
   
   Please continue to use the TRIPOD 2015 E&E paper until the TRIPOD+AI E&E paper is available: \
 
-  Moons KG, Altman DG, Reitsma JB, Ioannidis JP, Macaskill P, Steyerberg EW, Vickers AJ, Ransohoff DF, Collins GS. Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD): Explanation and Elaboration. Ann Intern Med. 2015;162(1):W1-W73. PMID: [25560730](http://www.ncbi.nlm.nih.gov/pubmed/25560730) [full text](https://www.acpjournals.org/doi/10.7326/M14-0698)
+  Moons KG, Altman DG, Reitsma JB, Ioannidis JP, Macaskill P, Steyerberg EW, Vickers AJ, Ransohoff DF, Collins GS. Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD): Explanation and Elaboration. Ann Intern Med. 2015;162(1):W1-W73. PMID: [25560730](http://www.ncbi.nlm.nih.gov/pubmed/25560730) [full text](https://doi.org/10.7326/m14-0698)
 
 # OPTIONAL FIELDS
 rg-language: English
@@ -57,17 +57,23 @@ guideline-history: |-
 relevant-more: |-
   **Specialised**
 
-  [**TRIPOD-SRMA**](/reporting-guidelines/tripod-srma/): Snell KIE, Levis B, Damen JAA, Dhiman P, Debray TPA, Hooft L, Reitsma JB, Moons KGM, Collins GS, Riley RD. Transparent reporting of multivariable prediction models for individual prognosis or diagnosis: checklist for systematic reviews and meta-analyses (TRIPOD-SRMA). BMJ. 2023;381:e073538. PMID: [37137496](https://pubmed.ncbi.nlm.nih.gov/37137496/) \
+  [**TRIPOD-SRMA**](/reporting-guidelines/tripod-srma/): Snell KIE, Levis B, Damen JAA, Dhiman P, Debray TPA, Hooft L, Reitsma JB, Moons KGM, Collins GS, Riley RD. Transparent reporting of multivariable prediction models for individual prognosis or diagnosis: checklist for systematic reviews and meta-analyses (TRIPOD-SRMA). BMJ 2023; 381: e073538. PMID: [37137496](https://pubmed.ncbi.nlm.nih.gov/37137496/) \
 
-  [**TRIPOD-Cluster**](/reporting-guidelines/tripod-cluster/): Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM. Transparent reporting of multivariable prediction models developed or validated using clustered data: TRIPOD-Cluster checklist. BMJ. 2023;380:e071018. PMID: [36750242](https://pubmed.ncbi.nlm.nih.gov/36750242/) \
+  [**TRIPOD-Cluster**](/reporting-guidelines/tripod-cluster/): Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM. Transparent reporting of multivariable prediction models developed or validated using clustered data: TRIPOD-Cluster checklist. BMJ 2023; 380: e071018. PMID: [36750242](https://pubmed.ncbi.nlm.nih.gov/36750242/) \
 
-  [**TRIPOD-LLM**](/reporting-guidelines/the-tripod-llm-reporting-guideline-for-studies-using-large-language-models/): Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025. PMID: [39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/) \
+  [**TRIPOD-LLM**](/reporting-guidelines/the-tripod-llm-reporting-guideline-for-studies-using-large-language-models/): Gallifant J, Afshar M, Ameen S, Aphinyanaphongs Y, Chen S, Cacciamani G, Demner-Fushman D, Dligach D, Daneshjou R, Fernandes C, Hansen LH, Landman A, Lehmann L, McCoy LG, Miller T, Moreno A, Munch N, Restrepo D, Savova G, Umeton R, Gichoya JW, Collins GS, Moons KGM, Celi LA, Bitterman DS. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med 2025; 31: 60-69. PMID: [39779929](https://pubmed.ncbi.nlm.nih.gov/39779929/) \
   
-  [**CLAIM**](/reporting-guidelines/claim): Tejani AS, Klontzas ME, Gatti AA, Mongan JT, Moy L, Park SH, Kahn CE Jr; CLAIM 2024 Update Panel. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024 Update. Radiol Artif Intell. 2024;6(4):e240300. PMID: [38809149](https://pubmed.ncbi.nlm.nih.gov/38809149/)\
+  [**CLAIM**](/reporting-guidelines/claim): Tejani AS, Klontzas ME, Gatti AA, Mongan JT, Moy L, Park SH, Kahn CE Jr; CLAIM 2024 Update Panel. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024 Update. Radiol Artif Intell 2024; 6: e240300. PMID: [38809149](https://pubmed.ncbi.nlm.nih.gov/38809149/)\
   
-   [**TRAM-AI**](/reporting-guidelines/tram-ai): Bose K, Gupta P, Adams L, Agrawal R, Aboian M, Basu S, Brunak S, Chang K, Chu LC, Cuocolo R, Akinci D'Antonoli T, Fanni SC, Judice de Mattos Farina EM, Gatti AA, Ghodasara S, Gonzales RA, Gupta A, Hoebel K, Hsu W, Jiang Z, Khosravi B, Klontzas ME, Kiosia A, Lalwani N, Langlotz C, Lee H, Moy L, Pal D, Paolucci I, Savage CH, Rangarajan K, Sebro R, Suri A, Tejani A, Wang S, Kahn CE Jr. TRAM-AI: A Framework for Transparency in Reporting of Medical Imaging Datasets for Artificial Intelligence Development. Radiol Artif Intell. 2026 Oct 21:e260538. PMID: [42905015](https://www.ncbi.nlm.nih.gov/pubmed/42905015) \
+   [**TRAM-AI**](/reporting-guidelines/tram-ai): Bose K, Gupta P, Adams L, Agrawal R, Aboian M, Basu S, Brunak S, Chang K, Chu LC, Cuocolo R, Akinci D'Antonoli T, Fanni SC, Judice de Mattos Farina EM, Gatti AA, Ghodasara S, Gonzales RA, Gupta A, Hoebel K, Hsu W, Jiang Z, Khosravi B, Klontzas ME, Kiosia A, Lalwani N, Langlotz C, Lee H, Moy L, Pal D, Paolucci I, Savage CH, Rangarajan K, Sebro R, Suri A, Tejani A, Wang S, Kahn CE Jr. TRAM-AI: A Framework for Transparency in Reporting of Medical Imaging Datasets for Artificial Intelligence Development. Radiol Artif Intell 2026; 8: e260538. PMID: [42905015](https://www.ncbi.nlm.nih.gov/pubmed/42905015) \
    
-   [**CONSORT-AI**](/reporting-guidelines/consort-artificial-intelligence): Liu X, Rivera SC, Moher D, Calvert MJ, Denniston AK; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI Extension. BMJ 2020; 370: m3164. PMID: [32909959](https://pubmed.ncbi.nlm.nih.gov/32909959/)
+   [**CONSORT-AI**](/reporting-guidelines/consort-ai): Liu X, Rivera SC, Moher D, Calvert MJ, Denniston AK; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI Extension. BMJ 2020; 370: m3164. PMID: [32909959](https://pubmed.ncbi.nlm.nih.gov/32909959/) \
+   
+  [**SPIRIT-AI**](/reporting-guidelines/spirit-ai): Rivera SC, Liu X, Chan A-W, Denniston AK, Calvert MJ; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension. BMJ 2020;370:m3210. PMID: [32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/) \
+  
+  [**REMARK**](/reporting-guidelines/remark/): McShane LM, Altman DG, Sauerbrei W, Taube SE, Gion M, Clark GM. REporting recommendations for tumour MARKer prognostic studies (REMARK). Br J Cancer. 2005; 93: 387-391 PMID: [16106245](http://www.ncbi.nlm.nih.gov/pubmed/16106245). \
+  
+  [**GRIPS**](/reporting-guidelines/grips): Janssens AC, Ioannidis JP, van Duijn CM, Little J, Khoury MJ; GRIPS Group. Strengthening the reporting of Genetic RIsk Prediction Studies: the GRIPS Statement.BMJ. 2011;16:342:d631. PMID: [21411493](http://www.ncbi.nlm.nih.gov/pubmed/21411493) 
 
 website-url: <http://www.tripod-statement.org/>
 additional-languages: |-
@@ -93,7 +99,7 @@ additional-languages: |-
 
   TRIPOD 2015 E&E (Japanese) [Word](160404TRIPOD_EandE_Japanese.docx)
 
-  TRIPOD 2015 Checklist (Japanese) [Word](160404TRIPOD_Checklist_Japanese.docx) / [PDF](primarycarevol2no4TRIPOD.pdf)
+  TRIPOD 2015 Checklist (Japanese) [PDF](primarycarevol2no4TRIPOD.pdf) / [Word](160404TRIPOD_Checklist_Japanese.docx)
 
   TRIPOD 2015 E&E (Russian) [PDF](Russian-TRIPOD-EE.pdf)
 additional-information: |-

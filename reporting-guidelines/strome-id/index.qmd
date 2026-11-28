@@ -18,7 +18,7 @@ guideline-history: ''
 relevant-more: |-
   **Generic
 
-  [STROBE Statement](/reporting-guidelines/strobe/)**: von Elm E, Altman DG, Egger M, Pocock SJ, Gotzsche PC, Vandenbroucke JP. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: guidelines for reporting observational studies.\
+  [**STROBE Statement**](/reporting-guidelines/strobe/)**: von Elm E, Altman DG, Egger M, Pocock SJ, Gotzsche PC, Vandenbroucke JP. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: guidelines for reporting observational studies.\
 
   Ann Intern Med. 2007;147(8):573-577. PMID: [17938396](http://www.ncbi.nlm.nih.gov/pubmed/17938396)
 

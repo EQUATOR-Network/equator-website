@@ -1,0 +1,271 @@
+---
+pagetitle: "GRIPS checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #gr-wrap { --blue:#4a72b0; --head:#f3dc8f; --sect:#fbefc4; --line:#222;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1000px; margin:0 auto; }
+  #gr-wrap .gr-top { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:.6rem; gap:1rem; }
+  #gr-wrap .gr-heading h1 { font:bold 34px Arial,Helvetica,sans-serif; margin:0; color:#2f4f85; border:0; padding:0; }
+  #gr-wrap .gr-heading p { font:15px Arial,Helvetica,sans-serif; margin:.2rem 0 0; color:#333; }
+  #gr-wrap .gr-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #gr-wrap .gr-eq { display:none; width:150px; height:auto; margin:0 0 .4rem auto; }
+  #gr-wrap .gr-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #gr-wrap .gr-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #gr-wrap .gr-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem; border:1.5px solid #8fb0e0; background:#eef4ff; border-radius:3px; }
+  #gr-wrap .gr-meta input:focus { outline:2px solid var(--blue); background:#fff; }
+  #gr-wrap table { border-collapse:collapse; width:100%; font-size:12.5px; line-height:1.3; }
+  #gr-wrap th, #gr-wrap td { border:1.5px solid var(--line); padding:3px 6px; vertical-align:middle; }
+  #gr-wrap td.txt { border-top:1px dotted #444; border-bottom:1px dotted #444; }
+  #gr-wrap th { background:var(--head); font-weight:bold; text-align:left; }
+  #gr-wrap th.c, #gr-wrap td.c { text-align:center; }
+  #gr-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:1px 6px; }
+  #gr-wrap td.topic { font-style:italic; width:14%; vertical-align:top; }
+  #gr-wrap td.item { width:7%; text-align:center; }
+  #gr-wrap td.pg { width:12%; padding:3px; }
+  #gr-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid #8fb0e0; border-radius:3px; background:#eef4ff;
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #gr-wrap td.pg input:hover { border-color:var(--blue); }
+  #gr-wrap input::placeholder { color:#7f93b3; font-size:12px; }
+  #gr-wrap .gr-hint { display:block; font-weight:normal; font-size:11px; color:#444; }
+  #gr-wrap td.pg input:focus { outline:2px solid var(--blue); background:#fff; }
+  #gr-wrap .gr-foot { font-size:12.5px; margin-top:1rem; }
+  #gr-wrap .gr-foot p { margin:.2rem 0; }
+  #gr-wrap .gr-cite { margin-top:1rem; font-size:14px; }
+  .gr-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .gr-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #4a72b0; background:#4a72b0; color:#fff; }
+  .gr-actions button.alt { background:#fff; color:#4a72b0; }
+  .gr-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .gr-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 portrait; margin:12mm; }
+    body * { visibility:hidden; }
+    #gr-wrap, #gr-wrap * { visibility:visible; }
+    #gr-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .gr-actions { display:none !important; }
+    #gr-wrap .gr-eq { display:block; }
+    #gr-wrap .gr-heading h1 { font-size:26px; }
+    #gr-wrap .gr-heading p { font-size:12px; }
+    #gr-wrap table { font-size:9.5px; }
+    #gr-wrap tr { break-inside:avoid; }
+    #gr-wrap thead { display:table-header-group; }
+    #gr-wrap td.pg input { background:none; border:0; }
+    #gr-wrap input::placeholder { color:transparent; }
+    #gr-wrap .gr-hint { display:none; }
+    #gr-wrap, #gr-wrap th, #gr-wrap tr.sec td { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #gr-wrap .gr-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="gr-wrap">
+  <div class="gr-top">
+    <div class="gr-heading">
+      <h1>GRIPS checklist</h1>
+      <p>Reporting recommendations for evaluations of risk prediction models that include genetic variants</p>
+    </div>
+    <div class="gr-right">
+      <img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="gr-eq">
+    </div>
+  </div>
+  <div class="gr-actions">
+    <button type="button" id="gr-pdf">Save as PDF</button>
+    <button type="button" id="gr-doc" class="alt">Save as Word</button>
+    <button type="button" id="gr-reset" class="alt">Clear all</button>
+    <p class="gr-note">Type the page number(s) where each item is reported in the blue boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file. “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination.
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="gr-meta"><label>Manuscript title: <input type="text" id="gr-title" data-key="title" placeholder="Type your manuscript title here"></label></div>
+  <table id="gr-table">
+  <thead><tr>
+    <th>Report section</th><th class="c">Item No</th>
+    <th>Recommendation</th>
+    <th class="c">Reported on page<span class="gr-hint">type page no. in the boxes below</span></th>
+  </tr></thead>
+  <tbody></tbody>
+</table>
+  <div class="gr-foot">
+    <p>* Marked items should be reported for every population in the study.</p>
+    <p class="gr-cite">From: Janssens ACJW, Ioannidis JPA, van Duijn CM, Little J, Khoury MJ, for the GRIPS Group. <em>BMJ</em> 2011;342:d631. <a href="https://doi.org/10.1136/bmj.d631" target="_blank" rel="noopener">doi:10.1136/bmj.d631</a></p>
+  </div>
+</div>
+
+<script>
+(function () {
+  // ["Report section", "item", "recommendation"]; section "" = continuation row;
+  // an item ending in "*" must be reported for every population; plain strings = section bars
+  const ROWS = [
+    "TITLE AND ABSTRACT",
+    ["Title and abstract","1a","Identify the article as a study of risk prediction using genetic factors"],
+    ["","1b","Use recommended keywords in the abstract: genetic or genomic, risk, prediction"],
+    "INTRODUCTION",
+    ["Background and rationale","2","Explain the scientific background and rationale for the prediction study"],
+    ["Objectives","3","Specify the study objectives and state the specific model(s) that is/are investigated. State if the study concerns the development of the model(s), a validation effort, or both"],
+    "METHODS",
+    ["Study design and setting","4*","Specify the key elements of the study design and describe the setting, locations, and relevant dates, including periods of recruitment, follow-up, and data collection"],
+    ["Participants","5*","Describe eligibility criteria for participants, and sources and methods of selection of participants"],
+    ["Variables: definition","6*","Clearly define all participant characteristics, risk factors and outcomes. Clearly define genetic variants using a widely used nomenclature system"],
+    ["Variables: assessment","7a*","Describe sources of data and details of methods of assessment (measurement) for each variable"],
+    ["","7b*","Give a detailed description of genotyping and other laboratory methods"],
+    ["Variables: coding","8a","Describe how genetic variants were handled in the analyses"],
+    ["","8b","Explain how other quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen, and why"],
+    ["Analysis: risk model construction","9","Specify the procedure and data used for the derivation of the risk model. Specify which candidate variables were initially examined or considered for inclusion in models. Include details of any variable selection procedures and other model building issues. Specify the horizon of risk prediction (eg, 5 year risk)"],
+    ["Analysis: validation","10","Specify the procedure and data used for the validation of the risk model"],
+    ["Analysis: missing data","11","Specify how missing data were handled"],
+    ["Analysis: statistical methods","12","Specify all measures used for the evaluation of the risk model including, but not limited to, measures of model fit and predictive ability"],
+    ["Analysis: other","13","Describe all subgroups, interactions, and exploratory analyses that were examined"],
+    "RESULTS",
+    ["Participants","14*","Report the numbers of individuals at each stage of the study. Give reasons for non-participation at each stage. Report the number of participants not genotyped and reasons why they were not genotyped"],
+    ["Descriptives: population","15*","Report demographic and clinical characteristics of the study population, including risk factors used in the risk modelling"],
+    ["Descriptives: model estimates","16","Report unadjusted associations between the variables in the risk model(s) and the outcome. Report adjusted estimates and their precision from the full risk model(s) for each variable"],
+    ["Risk distributions","17*","Report distributions of predicted risks and/or risk scores"],
+    ["Assessment","18","Report measures of model fit and predictive ability, and any other performance measures, if pertinent."],
+    ["Validation","19","Report any validation of the risk model(s)"],
+    ["Other analyses","20","Present results of any subgroup, interaction, or exploratory analyses, whenever pertinent"],
+    "DISCUSSION",
+    ["Limitations","21","Discuss limitations and assumptions of the study, particularly those concerning study design, selection of participants, and measurements and analyses, and discuss their impact on the results of the study."],
+    ["Interpretation","22","Give an overall interpretation of results considering objectives, limitations, multiplicity of analyses, results from similar studies, and other relevant evidence"],
+    ["Generalisability","23","Discuss the generalisability and, if pertinent, the healthcare relevance of the study results"],
+    "OTHER",
+    ["Supplementary information","24","State whether databases for the analysed data, risk models, and/or protocols are or will become publicly available and if so, how they can be accessed"],
+    ["Funding","25","Give the source of funding and the role of the funders for the present study. State whether there are any conflicts of interest"]
+  ];
+
+  const STORE = "grips-checklist-v1";
+  const keyOf = item => "p" + item.replace("*", "");
+  const tbody = document.querySelector("#gr-table tbody");
+  const esc = t => t.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+  const html = [];
+  ROWS.forEach(r => {
+    if (typeof r === "string") { html.push(`<tr class="sec"><td colspan="4">${r}</td></tr>`); return; }
+    const [topic, item, text] = r;
+    html.push(`<tr><td class="topic">${esc(topic)}</td><td class="item">${item}</td>` +
+      `<td class="txt">${esc(text)}</td><td class="pg"><input type="text" data-key="${keyOf(item)}" placeholder="page no." aria-label="Reported on page, item ${item.replace("*", "")}"></td></tr>`);
+  });
+  tbody.innerHTML = html.join("");
+
+  const fields = () => [...document.querySelectorAll("#gr-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("gr-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist)
+  document.getElementById("gr-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "GRIPS checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("gr-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the manuscript title?")) {
+      fields().forEach(i => i.value = ""); save();
+    }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, eqLogo) {
+    const F = "Arial", SZ = 17, W = [1500, 700, 6966, 1300];
+    const line = { style: D.BorderStyle.SINGLE, size: 8, color: "222222" };
+    const borders = { top: line, bottom: line, left: line, right: line };
+    const dotted = { style: D.BorderStyle.DOTTED, size: 4, color: "444444" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, italics: o.italics, color: o.color });
+    const runs = (text, o = {}) => text ? [run(text, o)] : [];
+    const cell = (i, content, o = {}) => new D.TableCell({
+      width: { size: o.span ? W.reduce((a, b) => a + b) : W[i], type: D.WidthType.DXA },
+      columnSpan: o.span, verticalAlign: D.VerticalAlign.CENTER,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: 90, right: 90 },
+      borders: o.dotted ? { ...borders, top: dotted, bottom: dotted } : borders,
+      children: [new D.Paragraph({ alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children: content })]
+    });
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      cell(0, runs("Report section", { bold: true }), { fill: "F3DC8F" }),
+      cell(1, runs("Item No", { bold: true }), { fill: "F3DC8F", center: true }),
+      cell(2, runs("Recommendation", { bold: true }), { fill: "F3DC8F" }),
+      cell(3, runs("Reported on page", { bold: true }), { fill: "F3DC8F", center: true })] });
+    const body = ROWS.map(r => typeof r === "string"
+      ? new D.TableRow({ cantSplit: true, children: [cell(0, runs(r, { bold: true }), { span: 4, fill: "FBEFC4" })] })
+      : new D.TableRow({ cantSplit: true, children: [
+          cell(0, runs(r[0], { italics: true })),
+          cell(1, runs(r[1]), { center: true }),
+          cell(2, runs(r[2]), { dotted: true }),
+          cell(3, runs(vals[keyOf(r[1])] || ""), { center: true })] }));
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 60 }, ...o, children });
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [7200, 3266];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.BOTTOM, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = [
+      para([new D.TextRun({ text: "GRIPS checklist", bold: true, font: F, size: 44, color: "2F4F85" })], { spacing: { after: 40 } }),
+      para([new D.TextRun({ text: "Reporting recommendations for evaluations of risk prediction models that include genetic variants", font: F, size: 20 })])
+    ];
+    const right = [];
+    if (eqLogo) right.push(para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT }));
+    if (!right.length) right.push(para([]));
+    const top = [
+      new D.Table({ width: { size: HW[0] + HW[1], type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+        rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }),
+      para([], { spacing: { after: 60 } }),
+      para([new D.TextRun({ text: "Manuscript title: ", bold: true, font: F, size: 20 }), new D.TextRun({ text: vals.title || "", font: F, size: 20 })], { spacing: { after: 120 } })
+    ];
+    return new D.Document({
+      title: "GRIPS checklist",
+      creator: "GRIPS checklist",
+      sections: [{
+        properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 720, bottom: 720, left: 720, right: 720 } } },
+        children: [...top,
+          new D.Table({ width: { size: W.reduce((a, b) => a + b), type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          para([], { spacing: { after: 120 } }),
+          para(runs("* Marked items should be reported for every population in the study.", { size: 15 })),
+          para([
+            run("From: Janssens ACJW, Ioannidis JPA, van Duijn CM, Little J, Khoury MJ, for the GRIPS Group. BMJ 2011;342:d631. ", { size: 15 }),
+            new D.ExternalHyperlink({ link: "https://doi.org/10.1136/bmj.d631", children: [new D.TextRun({ text: "doi:10.1136/bmj.d631", font: F, size: 15, color: "0563C1", underline: {} })] })
+          ], { spacing: { before: 120 } })]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("gr-doc").onclick = async () => {
+    const btn = document.getElementById("gr-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "GRIPS-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

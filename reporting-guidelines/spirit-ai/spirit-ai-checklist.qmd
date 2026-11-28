@@ -1,0 +1,270 @@
+---
+pagetitle: "SPIRIT-AI checklist"
+page-layout: full
+toc: false
+resources:
+  - /assets/logos/spirit-ai-logo.png
+  - /assets/logos/equator_logo.png
+  - docx.min.js
+---
+
+```{=html}
+<style>
+  #tp-wrap { --accent:#2a5aa7; --head:#bfbfbf; --sect:#b4c6e7; --box:#eef3fb; --boxline:#9fb6dc; --line:#000; --ai:#f2f2f2;
+    font-family:Arial,Helvetica,sans-serif; color:#111; max-width:1200px; margin:0 auto; }
+  #tp-wrap .tp-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:.8rem; }
+  #tp-wrap #tp-logo { width:min(220px,50%); height:auto; display:block; }
+  #tp-wrap .tp-right { text-align:right; }
+  /* Equator logo: hidden on screen, shown only in the saved PDF (print) */
+  #tp-wrap .tp-eq { display:none; width:150px; height:auto; margin-left:auto; }
+  #tp-wrap .tp-title { font-size:19px; font-weight:bold; line-height:1.3; margin:0 0 .2rem; }
+  #tp-wrap .tp-meta { font:14px Arial,sans-serif; margin:.4rem 0 .8rem; }
+  #tp-wrap .tp-meta label { display:flex; align-items:center; gap:.5rem; width:100%; font-weight:bold; }
+  #tp-wrap .tp-meta input { flex:0 1 50%; min-width:0; font:14px Arial,sans-serif; font-weight:normal; padding:.35rem .5rem;
+    border:1.5px solid var(--boxline); background:var(--box); border-radius:3px; }
+  #tp-wrap .tp-meta input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap table { border-collapse:collapse; width:100%; font-size:13px; line-height:1.35; }
+  #tp-wrap th, #tp-wrap td { border:1px solid var(--line); padding:3px 6px; vertical-align:top; text-align:left; }
+  #tp-wrap thead th { background:var(--head); font-weight:bold; vertical-align:middle; }
+  #tp-wrap tr.sec td { background:var(--sect); font-weight:bold; padding:2px 6px; }
+  #tp-wrap tr.lab td { padding:2px 6px; }
+  #tp-wrap td.topic { width:12%; } #tp-wrap td.topic.ind { padding-left:16px; }
+  #tp-wrap td.item { width:5%; text-align:center; }
+  #tp-wrap td.base { width:25%; }
+  #tp-wrap td.ai { width:39%; }
+  #tp-wrap td.ai.empty { background:var(--ai); }
+  #tp-wrap td.ai b { display:block; }
+  #tp-wrap th.pgh, #tp-wrap td.pg { width:11%; }
+  #tp-wrap td.pg { padding:3px; vertical-align:middle; }
+  #tp-wrap td.pg input { width:100%; box-sizing:border-box; border:1.5px solid var(--boxline); border-radius:3px; background:var(--box);
+    text-align:center; font:14px Arial,sans-serif; padding:6px 2px; }
+  #tp-wrap td.pg input:hover { border-color:var(--accent); }
+  #tp-wrap td.pg input:focus { outline:2px solid var(--accent); background:#fff; }
+  #tp-wrap input::placeholder { color:#6a7fa3; font-size:12px; }
+  #tp-wrap .tp-hint { display:block; font-weight:normal; font-size:11px; }
+  #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:12.5px; margin:.6rem 0 0; }
+  .tp-actions { display:flex; gap:.6rem; flex-wrap:wrap; margin:1rem 0 1.4rem; }
+  .tp-actions button { font:600 15px Arial,sans-serif; padding:.55rem 1.1rem; border-radius:4px; cursor:pointer;
+    border:2px solid #2a5aa7; background:#2a5aa7; color:#fff; }
+  .tp-actions button.alt { background:#fff; color:#2a5aa7; }
+  .tp-actions button:focus-visible { outline:3px solid #f3b800; outline-offset:2px; }
+  .tp-note { font:14px Arial,sans-serif; color:#444; margin:0; flex-basis:100%; }
+
+  @media print {
+    @page { size:A4 landscape; margin:10mm; }
+    body * { visibility:hidden; }
+    #tp-wrap, #tp-wrap * { visibility:visible; }
+    #tp-wrap { position:absolute; left:0; top:0; width:100%; max-width:none; }
+    .tp-actions { display:none !important; }
+    #tp-wrap .tp-eq { display:block; }
+    #tp-wrap table { font-size:10px; }
+    #tp-wrap tr { break-inside:avoid; }
+    #tp-wrap thead { display:table-header-group; }
+    #tp-wrap .tp-title { font-size:15px; }
+    #tp-wrap .tp-foot, #tp-wrap .tp-cite { font-size:9px; }
+    #tp-wrap td.pg input { background:none; border:0; }
+    #tp-wrap input::placeholder { color:transparent; }
+    #tp-wrap .tp-hint { display:none; }
+    #tp-wrap, #tp-wrap th, #tp-wrap tr.sec td, #tp-wrap td.ai.empty { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    #tp-wrap .tp-meta input { border:0; padding:0; background:none; flex:1 1 auto; }
+  }
+</style>
+
+<div id="tp-wrap">
+  <div class="tp-top">
+    <img src="/assets/logos/spirit-ai-logo.png" alt="SPIRIT CONSORT" id="tp-logo">
+    <div class="tp-right"><img src="/assets/logos/equator_logo.png" alt="EQUATOR Network" class="tp-eq"></div>
+  </div>
+  <div class="tp-title">SPIRIT-AI checklist of recommended items to address in a clinical trial protocol involving an artificial intelligence intervention<sup>*</sup></div>
+  <div class="tp-actions">
+    <button type="button" id="tp-pdf">Save as PDF</button>
+    <button type="button" id="tp-doc" class="alt">Save as Word</button>
+    <button type="button" id="tp-reset" class="alt">Clear all</button>
+    <p class="tp-note">Type the page number(s) where each item is reported in the boxes in the right-hand column, then save your copy as a PDF or Word (.docx) file.
+    Where an item has several AI sub-items, enter the page number(s) for each row.
+    “Save as PDF” opens your browser’s print dialog: choose <em>Save as PDF</em> as the destination (landscape A4 is set automatically).
+    Your entries stay in this browser until you clear them.</p>
+  </div>
+  <div class="tp-meta"><label>Protocol title: <input type="text" id="tp-title" data-key="title" placeholder="Type your protocol title here"></label></div>
+  <table id="tp-table">
+    <thead><tr>
+      <th>Section / Topic</th><th class="c">Item</th><th>SPIRIT 2013 item</th><th>SPIRIT-AI item</th>
+      <th class="pgh">Reported on page no.<sup>†</sup><span class="tp-hint">type page no. in the boxes below</span></th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  <div id="tp-foot"></div>
+</div>
+
+<script>
+(function () {
+  // Section bars are plain strings; ["L", text] = label row;
+  // otherwise [topic, indented?, [[item no, base-guideline text, ai], ...]]
+  // where ai = null or a list of [label, text] for the AI-specific items of that row group.
+  const ROWS = ["Administrative information", ["Title", false, [["1", "Descriptive title identifying the study design, population, interventions, and, if applicable, trial acronym", [["SPIRIT-AI 1 (i) Elaboration", "Indicate that the intervention involves artificial intelligence/machine learning and specify the type of model."], ["SPIRIT-AI 1 (ii) Elaboration", "Specify the intended use of the AI intervention."]]]]], ["Trial registration", false, [["2a", "Trial identifier and registry name. If not yet registered, name of intended registry", null], ["2b", "All items from the World Health Organization Trial Registration Data Set", null]]], ["Protocol version", false, [["3", "Date and version identifier", null]]], ["Funding", false, [["4", "Sources and types of financial, material, and other support", null]]], ["Roles and responsibilities", false, [["5a", "Names, affiliations, and roles of protocol contributors", null], ["5b", "Name and contact information for the trial sponsor", null], ["5c", "Role of study sponsor and funders, if any, in study design; collection, management, analysis, and interpretation of data; writing of the report; and the decision to submit the report for publication, including whether they will have ultimate authority over any of these activities", null], ["5d", "Composition, roles, and responsibilities of the coordinating centre, steering committee, endpoint adjudication committee, data management team, and other individuals or groups overseeing the trial, if applicable (see Item 21a for data monitoring committee)", null]]], "Introduction", ["Background and rationale", false, [["6a", "Description of research question and justification for undertaking the trial, including summary of relevant studies (published and unpublished) examining benefits and harms for each intervention", [["SPIRIT-AI 6a (i) Extension", "Explain the intended use of the AI intervention in the context of the clinical pathway, including its purpose and its intended users (e.g. healthcare professionals, patients, public)."], ["SPIRIT-AI 6a (ii) Extension", "Describe any pre-existing evidence for the AI intervention."]]], ["6b", "Explanation for choice of comparators", null]]], ["Objectives", false, [["7", "Specific objectives or hypotheses", null]]], ["Trial design", false, [["8", "Description of trial design including type of trial (eg, parallel group, crossover, factorial, single group), allocation ratio, and framework (eg, superiority, equivalence, non-inferiority, exploratory)", null]]], "Methods: Participants, interventions, and outcomes", ["Study setting", false, [["9", "Description of study settings (eg, community clinic, academic hospital) and list of countries where data will be collected. Reference to where list of study sites can be obtained", [["SPIRIT-AI 9 Extension", "Describe the onsite and offsite requirements needed to integrate the AI intervention into the trial setting."]]]]], ["Eligibility criteria", false, [["10", "Inclusion and exclusion criteria for participants. If applicable, eligibility criteria for study centres and individuals who will perform the interventions (eg, surgeons, psychotherapists)", [["SPIRIT-AI 10 (i) Elaboration", "State the inclusion and exclusion criteria at the level of participants."], ["SPIRIT-AI 10 (ii) Extension", "State the inclusion and exclusion criteria at the level of the input data."]]]]], ["Interventions", false, [["11a", "Interventions for each group with sufficient detail to allow replication, including how and when they will be administered", [["SPIRIT-AI 11a (i) Extension", "State which version of the AI algorithm will be used."], ["SPIRIT-AI 11a (ii) Extension", "Specify the procedure for acquiring and selecting the input data for the AI intervention."], ["SPIRIT-AI 11a (iii) Extension", "Specify the procedure for assessing and handling poor quality or unavailable input data."], ["SPIRIT-AI 11a (iv) Extension", "Specify whether there is human-AI interaction in the handling of the input data, and what level of expertise is required for users."], ["SPIRIT-AI 11a (v) Extension", "Specify the output of the AI intervention."], ["SPIRIT-AI 11a (vi) Extension", "Explain the procedure for how the AI intervention’s output will contribute to decision-making or other elements of clinical practice."]]], ["11b", "Criteria for discontinuing or modifying allocated interventions for a given trial participant (eg, drug dose change in response to harms, participant request, or improving/worsening disease)", null], ["11c", "Strategies to improve adherence to intervention protocols, and any procedures for monitoring adherence (eg, drug tablet return, laboratory tests)", null], ["11d", "Relevant concomitant care and interventions that are permitted or prohibited during the trial", null]]], ["Outcomes", false, [["12", "Primary, secondary, and other outcomes, including the specific measurement variable (eg, systolic blood pressure), analysis metric (eg, change from baseline, final value, time to event), method of aggregation (eg, median, proportion), and time point for each outcome. Explanation of the clinical relevance of chosen efficacy and harm outcomes is strongly recommended", null]]], ["Participant timeline", false, [["13", "Time schedule of enrolment, interventions (including any run-ins and washouts), assessments, and visits for participants. A schematic diagram is highly recommended (see fig 1)", null]]], ["Sample size", false, [["14", "Estimated number of participants needed to achieve study objectives and how it was determined, including clinical and statistical assumptions supporting any sample size calculations", null]]], ["Recruitment", false, [["15", "Strategies for achieving adequate participant enrolment to reach target sample size", null]]], "Methods: Assignment of interventions (for controlled trials)", ["Sequence generation", false, [["16a", "Method of generating the allocation sequence (eg, computer-generated random numbers), and list of any factors for stratification. To reduce predictability of a random sequence, details of any planned restriction (eg, blocking) should be provided in a separate document that is unavailable to those who enrol participants or assign interventions", null]]], ["Allocation concealment mechanism", false, [["16b", "Mechanism of implementing the allocation sequence (eg, central telephone; sequentially numbered, opaque, sealed envelopes), describing any steps to conceal the sequence until interventions are assigned", null]]], ["Implementation", false, [["16c", "Who will generate the allocation sequence, who will enrol participants, and who will assign participants to interventions", null]]], ["Blinding (masking)", false, [["17a", "Who will be blinded after assignment to interventions (eg, trial participants, care providers, outcome assessors, data analysts), and how", null], ["17b", "If blinded, circumstances under which unblinding is permissible, and procedure for revealing a participant’s allocated intervention during the trial", null]]], "Methods: Data collection, management, and analysis", ["Data collection methods", false, [["18a", "Plans for assessment and collection of outcome, baseline, and other trial data, including any related processes to promote data quality (eg, duplicate measurements, training of assessors) and a description of study instruments (eg, questionnaires, laboratory tests) along with their reliability and validity, if known. Reference to where data collection forms can be found, if not in the protocol", null], ["18b", "Plans to promote participant retention and complete follow-up, including list of any outcome data to be collected for participants who discontinue or deviate from intervention protocols", null]]], ["Data management", false, [["19", "Plans for data entry, coding, security, and storage, including any related processes to promote data quality (eg, double data entry; range checks for data values). Reference to where details of data management procedures can be found, if not in the protocol", null]]], ["Statistical methods", false, [["20a", "Statistical methods for analysing primary and secondary outcomes. Reference to where other details of the statistical analysis plan can be found, if not in the protocol", null], ["20b", "Methods for any additional analyses (eg, subgroup and adjusted analyses)", null], ["20c", "Definition of analysis population relating to protocol non-adherence (eg, as randomised analysis), and any statistical methods to handle missing data (eg, multiple imputation)", null]]], "Methods: Monitoring", ["Data monitoring", false, [["21a", "Composition of data monitoring committee (DMC); summary of its role and reporting structure; statement of whether it is independent from the sponsor and competing interests; and reference to where further details about its charter can be found, if not in the protocol. Alternatively, an explanation of why a DMC is not needed", null], ["21b", "Description of any interim analyses and stopping guidelines, including who will have access to these interim results and make the final decision to terminate the trial", null]]], ["Harms", false, [["22", "Plans for collecting, assessing, reporting, and managing solicited and spontaneously reported adverse events and other unintended effects of trial interventions or trial conduct", [["SPIRIT-AI 22 Extension", "Specify any plans to identify and analyse performance errors. If there are no plans for this, justify why not."]]]]], ["Auditing", false, [["23", "Frequency and procedures for auditing trial conduct, if any, and whether the process will be independent from investigators and the sponsor", null]]], "Ethics and dissemination", ["Research ethics approval", false, [["24", "Plans for seeking research ethics committee/institutional review board (REC/IRB) approval", null]]], ["Protocol amendments", false, [["25", "Plans for communicating important protocol modifications (eg, changes to eligibility criteria, outcomes, analyses) to relevant parties (eg, investigators, REC/IRBs, trial participants, trial registries, journals, regulators)", null]]], ["Consent or ascent", false, [["26a", "Who will obtain informed consent or assent from potential trial participants or authorised surrogates, and how (see Item 32)", null], ["26b", "Additional consent provisions for collection and use of participant data and biological specimens in ancillary studies, if applicable", null]]], ["Confidentiality", false, [["27", "How personal information about potential and enrolled participants will be collected, shared, and maintained in order to protect confidentiality before, during, and after the trial", null]]], ["Declaration of interests", false, [["28", "Financial and other competing interests for principal investigators for the overall trial and each study site", null]]], ["Access to data", false, [["29", "Statement of who will have access to the final trial dataset, and disclosure of contractual agreements that limit such access for investigators", [["SPIRIT-AI 29 Extension", "State whether and how the AI intervention and/or its code can be accessed, including any restrictions to access or re-use."]]]]], ["Ancillary and post-trial care", false, [["30", "Provisions, if any, for ancillary and post-trial care, and for compensation to those who suffer harm from trial participation", null]]], ["Dissemination policy", false, [["31a", "Plans for investigators and sponsor to communicate trial results to participants, healthcare professionals, the public, and other relevant groups (eg, via publication, reporting in results databases, or other data sharing arrangements), including any publication restrictions", null], ["31b", "Authorship eligibility guidelines and any intended use of professional writers", null], ["31c", "Plans, if any, for granting public access to the full protocol, participant-level dataset, and statistical code", null]]], "Appendices", ["Informed consent materials", false, [["32", "Model consent form and other related documentation given to participants and authorised surrogates", null]]], ["Biological specimens", false, [["33", "Plans for collection, laboratory evaluation, and storage of biological specimens for genetic or molecular analysis in the current trial and for future use in ancillary studies, if applicable", null]]]];
+  const TITLE = "SPIRIT-AI checklist of recommended items to address in a clinical trial protocol involving an artificial intelligence intervention";
+  const FOOT = ["*It is strongly recommended that this checklist be read in conjunction with the SPIRIT 2013 Explanation and Elaboration for important clarification on the items.", "†Indicates page numbers to be completed by authors during protocol development.", "From Cruz Rivera et al, BMJ 2020; 370: m3210. doi: [[10.1136/bmj.m3210|https://doi.org/10.1136/bmj.m3210]]"];
+
+  const STORE = "spirit-ai-checklist-v1";
+  const slug = s => s.replace(/[^A-Za-z0-9]+/g, "");
+  const tbody = document.querySelector("#tp-table tbody");
+  tbody.innerHTML = ROWS.map(r => {
+    if (typeof r === "string") return `<tr class="sec"><td colspan="5">${r}</td></tr>`;
+    if (r[0] === "L") return `<tr class="lab"><td colspan="5">${r[1]}</td></tr>`;
+    const [topic, ind, items] = r;
+    const total = items.reduce((s, it) => s + Math.max(1, (it[2] || []).length), 0);
+    let first = true, out = "";
+    items.forEach(([code, text, ai]) => {
+      const list = ai && ai.length ? ai : [null];
+      list.forEach((a, j) => {
+        const key = a ? slug(a[0]) : code, name = a ? a[0] : "item " + code;
+        out += `<tr>` + (first ? `<td class="topic${ind ? " ind" : ""}" rowspan="${total}">${topic}</td>` : "") +
+          (j ? "" : `<td class="item" rowspan="${list.length}">${code}</td><td class="base" rowspan="${list.length}">${text}</td>`) +
+          (a ? `<td class="ai"><b>${a[0]}</b>${a[1]}</td>` : `<td class="ai empty"></td>`) +
+          `<td class="pg"><input type="text" data-key="p${key}" placeholder="page no." aria-label="Page, ${name}"></td></tr>`;
+        first = false;
+      });
+    });
+    return out;
+  }).join("");
+
+  // Footnotes (links are written as [[text|url]])
+  const linkify = t => t.replace(/\[\[(.*?)\|(.*?)\]\]/g, (_, text, url) => `<a ${"href"}="${url}" target="_blank" rel="noopener">${text}</a>`)
+    .replace(/^\*/, "<sup>*</sup>").replace(/^†/, "<sup>†</sup>");
+  document.getElementById("tp-foot").innerHTML = FOOT.map((t, i) => `<p class="${t.startsWith("Citation") || t.startsWith("From") ? "tp-cite" : "tp-foot"}">${linkify(t)}</p>`).join("");
+
+  const fields = () => [...document.querySelectorAll("#tp-wrap input")];
+  const load = () => { try { const d = JSON.parse(localStorage.getItem(STORE) || "{}");
+    fields().forEach(i => { if (d[i.dataset.key]) i.value = d[i.dataset.key]; }); } catch (e) {} };
+  const save = () => { try { const d = {}; fields().forEach(i => { if (i.value) d[i.dataset.key] = i.value; });
+    localStorage.setItem(STORE, JSON.stringify(d)); } catch (e) {} };
+  load();
+  document.getElementById("tp-wrap").addEventListener("input", save);
+
+  // Save as PDF via the browser print dialog (print CSS shows only the checklist + EQUATOR logo)
+  document.getElementById("tp-pdf").onclick = () => {
+    const old = document.title;
+    document.title = "SPIRIT-AI checklist";
+    window.print();
+    document.title = old;
+  };
+
+  document.getElementById("tp-reset").onclick = () => {
+    if (confirm("Clear all page numbers and the protocol title?")) { fields().forEach(i => i.value = ""); save(); }
+  };
+
+  // ---- Word (.docx) export -------------------------------------------------
+  // <BUILD>
+  function buildDocx(D, ROWS, vals, logo, title, foot, eqLogo) {
+    // Landscape A4: usable width = 16838 - 2*720 = 15398 twips
+    const F = "Arial", SZ = 16, W = [1900, 650, 3900, 6998, 1950], TOTAL = W.reduce((a, b) => a + b);
+    const ln = { style: D.BorderStyle.SINGLE, size: 6, color: "000000" };
+    const run = (text, o = {}) => new D.TextRun({ text, font: F, size: o.size || SZ, bold: o.bold, superScript: o.sup });
+    const runs = (text, o = {}) => {
+      const out = [], re = /\[\[(.*?)\|(.*?)\]\]/g; let last = 0, m;
+      while ((m = re.exec(text))) {
+        if (m.index > last) out.push(run(text.slice(last, m.index), o));
+        out.push(new D.ExternalHyperlink({ link: m[2], children: [new D.TextRun({ text: m[1], font: F, size: o.size || SZ, color: "0563C1", underline: {} })] }));
+        last = re.lastIndex;
+      }
+      if (last < text.length) out.push(run(text.slice(last), o));
+      return out;
+    };
+    const cell = (i, children, o = {}) => new D.TableCell({
+      width: { size: o.span ? TOTAL : W[i], type: D.WidthType.DXA }, columnSpan: o.span ? 5 : undefined, rowSpan: o.rowSpan,
+      verticalAlign: o.mid ? D.VerticalAlign.CENTER : D.VerticalAlign.TOP,
+      shading: o.fill ? { type: D.ShadingType.CLEAR, fill: o.fill, color: "auto" } : undefined,
+      margins: { top: 40, bottom: 40, left: o.indent || 90, right: 90 }, borders: { top: ln, bottom: ln, left: ln, right: ln },
+      children: [new D.Paragraph({ keepNext: o.keepNext, alignment: o.center ? D.AlignmentType.CENTER : D.AlignmentType.LEFT, children })]
+    });
+    const tcell = (i, text, o = {}) => cell(i, runs(text, o), o);
+    const hd = { fill: "BFBFBF", bold: true, mid: true };
+    const head = new D.TableRow({ tableHeader: true, cantSplit: true, children: [
+      tcell(0, "Section / Topic", hd), tcell(1, "Item", { ...hd, center: true }),
+      tcell(2, "SPIRIT 2013 item", hd), tcell(3, "SPIRIT-AI item", hd), tcell(4, "Reported on page no.†", hd)] });
+    const slugF = s => s.replace(/[^A-Za-z0-9]+/g, "");
+    const body = ROWS.flatMap(r => {
+      if (typeof r === "string") return [new D.TableRow({ cantSplit: true, children: [tcell(0, r, { span: true, fill: "B4C6E7", bold: true, keepNext: true })] })];
+      if (r[0] === "L") return [new D.TableRow({ cantSplit: true, children: [tcell(0, r[1], { span: true, keepNext: true })] })];
+      const [topic, ind, items] = r;
+      const total = items.reduce((s, it) => s + Math.max(1, (it[2] || []).length), 0);
+      let first = true;
+      return items.flatMap(([code, text, ai]) => {
+        const list = ai && ai.length ? ai : [null];
+        return list.map((a, j) => {
+          const cells = [];
+          if (first) cells.push(tcell(0, topic, { rowSpan: total, indent: ind ? 260 : 90 }));
+          if (!j) {
+            cells.push(tcell(1, code, { center: true, rowSpan: list.length }));
+            cells.push(tcell(2, text, { rowSpan: list.length }));
+          }
+          cells.push(a
+            ? cell(3, [run(a[0], { bold: true }), new D.TextRun({ break: 1 }), ...runs(a[1])])
+            : tcell(3, "", { fill: "F2F2F2" }));
+          cells.push(tcell(4, vals["p" + (a ? slugF(a[0]) : code)] || "", { center: true, mid: true }));
+          first = false;
+          return new D.TableRow({ cantSplit: true, children: cells });
+        });
+      });
+    });
+    const para = (children, o = {}) => new D.Paragraph({ spacing: { after: 80 }, ...o, children });
+    const footer = new D.Footer({ children: [new D.Paragraph({ alignment: D.AlignmentType.CENTER,
+      children: [new D.TextRun({ children: ["Page ", D.PageNumber.CURRENT, " of ", D.PageNumber.TOTAL_PAGES], font: F, size: 18 })] })] });
+    const top = [];
+    const none = { style: D.BorderStyle.NONE, size: 0, color: "FFFFFF" };
+    const noBorders = { top: none, bottom: none, left: none, right: none };
+    const HW = [9000, 6398];
+    const hcell = (i, children) => new D.TableCell({
+      width: { size: HW[i], type: D.WidthType.DXA }, borders: noBorders,
+      verticalAlign: D.VerticalAlign.CENTER, margins: { top: 0, bottom: 0, left: 0, right: 0 }, children });
+    const left = logo ? [para([new D.ImageRun({ data: logo, type: "png", transformation: { width: 180, height: 64 } })], { spacing: { after: 0 } })] : [para([], { spacing: { after: 0 } })];
+    const right = eqLogo
+      ? [para([new D.ImageRun({ data: eqLogo, type: "png", transformation: { width: 140, height: Math.round(140 * 90 / 310) } })], { alignment: D.AlignmentType.RIGHT, spacing: { after: 0 } })]
+      : [para([], { spacing: { after: 0 } })];
+    top.push(new D.Table({ width: { size: HW[0] + HW[1], type: D.WidthType.DXA }, columnWidths: HW, borders: { ...noBorders, insideHorizontal: none, insideVertical: none },
+      rows: [new D.TableRow({ children: [hcell(0, left), hcell(1, right)] })] }));
+    top.push(para([], { spacing: { after: 60 } }));
+    top.push(para([run(title, { bold: true, size: 24 }), run("*", { bold: true, size: 24, sup: true })], { spacing: { after: 100 } }));
+    top.push(para([run("Protocol title: ", { bold: true, size: 20 }), run(vals.title || "", { size: 20 })], { spacing: { after: 120 } }));
+    return new D.Document({
+      title: "SPIRIT-AI checklist", creator: "SPIRIT-AI checklist",
+      sections: [{
+        footers: { default: footer },
+        properties: { page: { size: { width: 11906, height: 16838, orientation: D.PageOrientation.LANDSCAPE }, margin: { top: 720, bottom: 800, left: 720, right: 720 } } },
+        children: [...top, new D.Table({ width: { size: TOTAL, type: D.WidthType.DXA }, columnWidths: W, rows: [head, ...body] }),
+          ...foot.map((t, i) => para(runs(t, { size: 16 }), { spacing: { before: i ? 60 : 140 } }))]
+      }]
+    });
+  }
+  // </BUILD>
+
+  const loadDocx = () => window.docx ? Promise.resolve() : new Promise((res, rej) => {
+    const el = document.createElement("script");
+    el.src = new URL("docx.min.js", document.baseURI).href;
+    el.onload = res; el.onerror = () => rej(new Error("Could not load docx.min.js"));
+    document.head.appendChild(el);
+  });
+
+  document.getElementById("tp-doc").onclick = async () => {
+    const btn = document.getElementById("tp-doc"), label = btn.textContent;
+    btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      await loadDocx();
+      let logo = null;
+      try { logo = new Uint8Array(await (await fetch(new URL("/assets/logos/spirit-ai-logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      let eqLogo = null;
+      try { eqLogo = new Uint8Array(await (await fetch(new URL("/assets/logos/equator_logo.png", document.baseURI))).arrayBuffer()); } catch (e) {}
+      const vals = {}; fields().forEach(i => vals[i.dataset.key] = i.value);
+      const blob = await window.docx.Packer.toBlob(buildDocx(window.docx, ROWS, vals, logo, TITLE, FOOT, eqLogo));
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([blob], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+      a.download = "SPIRIT-AI-checklist.docx";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    } catch (e) {
+      alert("Sorry, the Word file could not be created. " + e.message);
+    } finally { btn.disabled = false; btn.textContent = label; }
+  };
+})();
+</script>
+```

@@ -5,20 +5,23 @@ aliases:
     - /reporting-guidelines/spirit-artificial-intelligence/
 acronym: SPIRIT-AI
 provided-for: Reporting for clinical trial protocols evaluating interventions with an artificial intelligence (AI) component.
-rg-doi: ''
-pmid-id: ''
-pmid-url: ''
-relevant-urls: ''
+rg-doi: '10.1136/bmj.m3210'
+pmid-id: '[32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/)'
+pmid-url: 'https://pubmed.ncbi.nlm.nih.gov/32907797/'
+relevant-urls: |-
+  Read the [full text](https://doi.org/10.1136/bmj.m3210) of SPIRIT-AI. See below for other journals where SPIRIT-AI was also published.\
+  
+  Complete an interactive [SPIRIT-AI checklist](spirit-ai-checklist.qmd), which you can save and upload when submitting your paper to a journal.
 full-bibliographic-reference: |-
   Rivera SC, Liu X, Chan A-W, Denniston AK, Calvert MJ; on behalf of the SPIRIT-AI and CONSORT-AI Working Group. Guidelines for clinical trial protocols for interventions involving artificial intelligence: the SPIRIT-AI Extension.\
 
   This guideline was published simultaneously in 3 journals. You can read the guideline in any of these journals using the links below.\
 
-  BMJ. 2020;370:m3210. PMID: [32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/) [full text](https://www.bmj.com/content/370/bmj.m3210)
+  BMJ. 2020;370:m3210. PMID: [32907797](https://pubmed.ncbi.nlm.nih.gov/32907797/) [full text](https://doi.org/10.1136/bmj.m3210)
 
-  Nat Med. 2020;26(9):1351–1363 PMID: [32908284](https://pubmed.ncbi.nlm.nih.gov/32908284/) [full text]](https://www.nature.com/articles/s41591-020-1037-7)
+  Nat Med. 2020;26(9):1351–1363 PMID: [32908284](https://pubmed.ncbi.nlm.nih.gov/32908284/) [full text]](https://doi.org/10.1038/s41591-020-1037-7)
 
-  Lancet Digital Health. 2020;2(10):e549-e560. PMID: [33328049](https://pubmed.ncbi.nlm.nih.gov/33328049/) [full text]](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30219-3/fulltext)
+  Lancet Digital Health. 2020;2(10):e549-e560. PMID: [33328049](https://pubmed.ncbi.nlm.nih.gov/33328049/) [full text]](https://doi.org/10.1016/s2589-7500(20)30219-3)
 
 
 # OPTIONAL FIELDS
@@ -68,7 +71,8 @@ primary-guideline: ''
 other: ''
 other-relevant-research: ''
 sticky: true
-downloads: ''
+downloads: |-
+  Download the SPIRIT-AI checklist [PDF](SPIRIT-AI-checklist.pdf) / [Word](SPIRIT-AI-checklist.docx)
 
 
 # LIST FIELDS

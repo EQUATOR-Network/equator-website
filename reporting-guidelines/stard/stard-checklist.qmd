@@ -91,7 +91,7 @@ resources:
     "TITLE OR ABSTRACT",
     ["", "1", "Identification as a study of diagnostic accuracy using at least one measure of accuracy (such as sensitivity, specificity, predictive values, or AUC)"],
     "ABSTRACT",
-    ["", "2", "Structured summary of study design, methods, results, and conclusions (for specific guidance, see STARD for Abstracts)"],
+    ["", "2", "Structured summary of study design, methods, results, and conclusions (for specific guidance, see [[STARD for Abstracts|/reporting-guidelines/stard-abstracts/]])"],
     "INTRODUCTION",
     ["", "3", "Scientific and clinical background, including the intended use and clinical role of the index test"],
     ["", "4", "Study objectives and hypotheses"],
