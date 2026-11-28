@@ -42,14 +42,13 @@ full-bibliographic-reference: |-
   Epidemiology. 2007;18(6):805-35. PMID: [18049195](http://www.ncbi.nlm.nih.gov/pubmed/18049195) [full text](http://www.doi.org/10.1097/EDE.0b013e3181577511)
 
   Ann Intern Med. 2007;147(8):W163-94. PMID: [17938389](http://www.ncbi.nlm.nih.gov/pubmed/17938389) [full text](https://doi.org/10.7326/0003-4819-147-8-200710160-00010-w1)
-
-
 # OPTIONAL FIELDS
 rg-language: English
 explanation-and-elaboration-papers: |-
 guideline-history: STROBE 2004/2005
 relevant-more: |-
   **Specialised**
+  
   [**Case-cohort studies**](/reporting-guidelines/a-review-of-published-analyses-of-case-cohort-studies-and-recommendations-for-future-reporting/): Sharp SJ, Poulaliou M, Thompson SG, White IR, Wood AM. A review of published analyses of case-cohort studies and recommendations for future reporting. PLoS One. 2014;9(6):e101176. PMID: [24972092](https://www.ncbi.nlm.nih.gov/pubmed/24972092) \
 
   [**Longitudinal observational drug studies in rheumatology**](/reporting-guidelines/launch-of-a-checklist-for-reporting-longitudinal-observational-drug-studies-in-rheumatology-a-eular-extension-of-strobe-guidelines-based-on-experience-from-biologics-registries/): Zavada J, Dixon WG, Askling J. Launch of a checklist for reporting longitudinal observational drug studies in rheumatology: a EULAR extension of STROBE guidelines based on experience from biologics registries. Ann Rheum Dis. 2014;73(3):628. PMID: [24058015](http://www.ncbi.nlm.nih.gov/pubmed/24058015) \

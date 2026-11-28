@@ -18,7 +18,7 @@ rg-language: English
 explanation-and-elaboration-papers: ''
 guideline-history: ''
 relevant-more: |-
-   **Generic**
+  **Generic**
 
   [**STROBE Statement**](/reporting-guidelines/strobe/): von Elm E, Altman DG, Egger M, Pocock SJ, Gotzsche PC, Vandenbroucke JP. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: guidelines for reporting observational studies. \
 
