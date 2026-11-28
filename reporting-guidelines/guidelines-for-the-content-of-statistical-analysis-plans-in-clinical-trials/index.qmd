@@ -3,7 +3,7 @@
 title: Guidelines for the Content of Statistical Analysis Plans in Clinical Trials
 acronym: ''
 provided-for: Reporting of statistical analysis plans (SAPs) for clinical trials.
-rg-doi: ''
+rg-doi: '10.1001/jama.2017.18556'
 pmid-id: '[29260229](https://pubmed.ncbi.nlm.nih.gov/29260229/)'
 pmid-url: https://pubmed.ncbi.nlm.nih.gov/29260229/
 relevant-urls: |-
